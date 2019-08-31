@@ -80,7 +80,12 @@ opendirectoryserver&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://support.apple.com/en-us/HT204880"&gt;https://support.apple.com/en-us/HT204880&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It seems this corrected my Skype problems.&lt;/p&gt;
 &lt;p&gt;Fingers crossed!&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>PlantUML sprites demo</title><link href="/plantuml-sprites-demo.html" rel="alternate"></link><published>2016-05-05T08:08:00+02:00</published><updated>2016-05-05T08:08:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-05:/plantuml-sprites-demo.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Test UML plugin1</title><link href="/test-uml-plugin1.html" rel="alternate"></link><published>2016-08-26T00:00:00+02:00</published><updated>2016-08-26T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-08-26:/test-uml-plugin1.html</id><content type="html">&lt;p&gt;:fa:&lt;code&gt;fa-github&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;PRIMA&lt;/p&gt;
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/4ce22037.png"&gt;&lt;p&gt;DOPO&lt;/p&gt;
+&lt;img alt="Sample sequence diagram" attrib="{'class': 'uml'}" src="/images/73b24588.png"&gt;&lt;p&gt;Test&lt;/p&gt;
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/564d25f5.png"&gt;&lt;p&gt;aaa&lt;/p&gt;
+&lt;p&gt;bbb&lt;/p&gt;</content></entry><entry><title>PlantUML sprites demo</title><link href="/plantuml-sprites-demo.html" rel="alternate"></link><published>2016-05-05T08:08:00+02:00</published><updated>2016-05-05T08:08:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-05:/plantuml-sprites-demo.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;{% plantuml %}&lt;/p&gt;
