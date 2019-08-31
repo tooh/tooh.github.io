@@ -4,8 +4,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>About &mdash; Daily Scrum</title>
+  <title>Installation notes Testopia &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
+
+
 
 
 
@@ -39,7 +41,7 @@
       <li >
         <a href="/category/blogging.html">Blogging</a>
       </li>
-      <li >
+      <li class="active">
         <a href="/category/installation.html">Installation</a>
       </li>
       <li >
@@ -49,26 +51,147 @@
   <div id="main">
     <div id="content">
 <div>
-  <article role="article">
-    <header>
+  <article class="hentry" role="article">
+<header>
     
-    <div id="qr-code-pages/about.html" class="qr-code-image-block"></div>
+    <div id="qr-code-installation-notes-testopia.html" class="qr-code-image-block"></div>
     <script src="/theme/js/qr.min.js" type="text/javascript"></script>
     <script>
         var img = qr.image({
-            value: '/pages/about.html',
+            value: '/installation-notes-testopia.html',
             level: 'L',
             size: 4
         });
-        document.getElementById('qr-code-pages/about.html').appendChild(img);
+        document.getElementById('qr-code-installation-notes-testopia.html').appendChild(img);
     </script>
-      <h1 class="entry-title">About</h1>
-    </header>
-    <p>![So Schmexy][my_sweet_photo]</p>
-<p>Hi, I am <username> and I wrote this epic collection of Interweb
-wisdom. In days of yore, much of this would have been deemed sorcery
-and I would probably have been burned at the stake.</p>
+      <h1 class="entry-title">Installation notes Testopia</h1>
+    <p class="meta">
+<time datetime="2013-04-21T21:00:00+02:00" pubdate>Sun 21 April 2013</time>    </p>
+</header>
+
+  <div class="entry-content"><p>Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go along.
+<!-- more --></p>
+<h3>Testopia testcase management system</h3>
+<h3>Requirements</h3>
+<p>The Testopia Extension requires Bugzilla &gt;4.2.
+Testopi version 2.5 is the first release that does not need a patch on Bugzilla to work.</p>
+<h3>old notes relevant before v2.5</h3>
+<h2>Installation of Testopia extension</h2>
+<h3>How to get Testopia</h3>
+<p _="%" endhighlight>{% highlight bash %}
+$ bzr branch bzr://bzr.mozilla.org/bugzilla/extensions/testopia/trunk</p>
+<h3>Patch Bugzilla 4.2</h3>
+<p>Note: 603-2012: No patch for 4.2 available at time of patching</p>
+<ol>
+<li>cd to the directory with the Testopia trunk</li>
+<li>copy items from the downloaded Testopia trunk </li>
+<li>cd /usr/local/bugzilla</li>
+<li>paste items from the downloaded Testopia trunk and merge the extensions directory</li>
+<li>patch -p0 -i extensions/Testopia/patch-4.0
+patching file Bugzilla/Bug.pm
+Hunk #1 succeeded at 3628 (offset 101 lines).
+patching file Bugzilla/Constants.pm
+Hunk #1 succeeded at 145 (offset 1 line).
+Hunk #2 succeeded at 470 (offset 5 lines).
+patching file Bugzilla/Error.pm
+Hunk #2 succeeded at 145 (offset -6 lines).
+patching file Bugzilla/Install/Filesystem.pm
+Hunk #1 succeeded at 153 (offset 3 lines).
+patching file Bugzilla/Search.pm
+Hunk #1 FAILED at 510.
+1 out of 1 hunk FAILED -- saving rejects to file Bugzilla/Search.pm.rej
+patching file Bugzilla/User.pm
+Hunk #1 succeeded at 575 with fuzz 1 (offset 67 lines).
+Hunk #2 succeeded at 936 (offset 82 lines).
+Hunk #3 succeeded at 1292 (offset 130 lines).
+patching file template/en/default/global/setting-descs.none.tmpl</li>
+</ol>
+<h3>Run .checksetup.pl</h3>
+<p>./checksetup.pl</p>
+<h3>Install additional dependencies</h3>
+<p _="%" endhighlight>{% highlight bash %}
+$ sudo /usr/bin/perl install-module.pl Text::Diff
+$ sudo /usr/bin/perl install-module.pl GD::Graph3d</p>
+<h3>Run .checksetup again</h3>
+<p _="%" endhighlight>{% highlight bash %}
+$ ./checksetup.pl</p>
+<p>You should now get </p>
+<p _="%" endhighlight>{% highlight bash %}
+$ checksetup.pl complete.</p>
+<h3>Errors on FILTER url_quote</h3>
+<p>Template-&gt;process() failed twice.
+First error: undef error - url_quote: filter not found
+Second error: undef error - url_quote: filter not found</p>
+<p>Seems this is deprecated</p>
+<p>Found Bugzilla message 398701 with fix</p>
+<p _="%" endhighlight>{% highlight bash %}
+find . <em>-type f -name "</em>.tmpl" -exec replace 'FILTER url_quote' 'FILTER uri' -- {} \;*</p>
+<p _="%" endhighlight>Executed this from the Testopia extensions directory this updated a number of template files:
+{% highlight bash %}
+./template/en/default/hook/bug/create/create-end.html.tmpl converted
+./template/en/default/hook/bug/edit-after_custom_fields.html.tmpl converted
+./template/en/default/hook/bug/process/results-links.html.tmpl converted
+./template/en/default/hook/global/common-links-link-row.html.tmpl converted
+./template/en/default/hook/global/useful-links-end.html.tmpl converted
+./template/en/default/testopia/reports/build-coverage.html.tmpl converted
+./template/en/default/testopia/reports/completion.html.tmpl converted
+./template/en/default/testopia/reports/execution.html.tmpl converted
+./template/en/default/testopia/reports/priority-breakdown.html.tmpl converted
+./template/en/default/testopia/reports/report-table.html.tmpl converted
+./template/en/default/testopia/reports/report.html.tmpl converted
+./template/en/default/testopia/reports/status.html.tmpl converted
+./template/en/default/testopia/tag/list.html.tmpl converted</p>
+<h3>Additional patching</h3>
+<h4>Search.pm</h4>
+<p>There seems to be a problem in Bugzilla/Search.pm</p>
+<p _="%" bash highlight>A patch was suggested in BZ 596325
+I copied the patch file and applied it</p>
+<p _="%" endhighlight>$ sudo patch -p0 -i extensions/Testopia/patch-bz596325
+$ chgrp the Search.pm  and make it member of the _www group</p>
+<p>Patch works and now Testopia-&gt; My plans does not give an error anymore</p>
+<h3>New plan</h3>
+<p>It seems the link New plan is not working.
+In the Apache error_log there are a lot of errors</p>
+<p _="%" endhighlight>{% highlight bash %}
+File does not exist: /Library/WebServer/Documents/bugzilla/extensions/Testopia/extjs, referer: http://tooh.homedns.org/bugzilla/tr_new_plan.cgi</p>
+<p>I did not install the extjs files so probably this is the problem.</p>
+<p _="%" bash highlight>On the Testopia wiki there is some instructions</p>
+<p _="%" endhighlight>$&gt; cd path/to/bugzilla/testopia/
+$&gt; wget http://extjs.com/deploy/ext-3.2.1.zip
+$&gt; unzip ext-3.2.1.zip
+$&gt; mv ext-3.2.1 extjs</p>
+<p>Found out that the files are not there anymore
+Downloaded the older version
+http://www.sencha.com/products/extjs/download/ext-js-3.2.1</p>
+<p>Renamed the folder to extjs</p>
+<p>Note: Don't forget to refresh. And now it is working.</p>
+<h3>New run</h3>
+<p>Initially no testcases where shown.
+Investigation of the /var/log/apache2/error_log showed that there was an error with een uninitialized variable.
+I commented out use strict in the header of
+/usr/local/bugzilla/extensions/Testopia/lib/Search.pm</p>
+<p>Everything OK now.</p>
+<h3>Reference</h3>
+<p>[1]
+<a href="http://www.mozilla.org/projects/testopia/">Testopia Mozilla</a></p></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2013-04-21T21:00:00+02:00" pubdate>Sun 21 April 2013</time>  <span class="categories">
+    <a class='category' href='/category/installation.html'>Installation</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>  </span>
+</p><div class="sharing">
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="/installation-notes-testopia.html" data-via="peterflorijn" data-counturl="/installation-notes-testopia.html" >Tweet</a>
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+</div>    </footer>
   </article>
+
 </div>
 <aside class="sidebar">
   <section>
@@ -185,6 +308,9 @@ and I would probably have been burned at the stake.</p>
 </script>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
+    var disqus_identifier = '/installation-notes-testopia.html';
+    var disqus_url = '/installation-notes-testopia.html';
+    var disqus_title = 'Installation notes Testopia';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

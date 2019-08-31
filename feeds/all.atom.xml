@@ -5,4 +5,220 @@ should convey my sense of excitement and eagerness to engage with you,
 the reader!&lt;/p&gt;</content></entry><entry><title>Second Post on My Sweet New Blog</title><link href="/second-post-on-my-sweet-new-blog.html" rel="alternate"></link><published>2019-08-31T00:00:00+02:00</published><updated>2019-08-31T00:00:00+02:00</updated><author><name>Your Name Here</name></author><id>tag:None,2019-08-31:/second-post-on-my-sweet-new-blog.html</id><content type="html">&lt;h1&gt;I am On My Way To Internet Fame and Fortune!&lt;/h1&gt;
 &lt;p&gt;This is my first post on my new blog. While not super informative it
 should convey my sense of excitement and eagerness to engage with you,
-the reader!&lt;/p&gt;</content></entry></feed>
+the reader!&lt;/p&gt;</content></entry><entry><title>Installation notes Testopia</title><link href="/installation-notes-testopia.html" rel="alternate"></link><published>2013-04-21T21:00:00+02:00</published><updated>2013-04-21T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-21:/installation-notes-testopia.html</id><summary type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make Testopia work on my local installation. This will be updated as I go along.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go along.
+&lt;!-- more --&gt;&lt;/p&gt;
+&lt;h3&gt;Testopia testcase management system&lt;/h3&gt;
+&lt;h3&gt;Requirements&lt;/h3&gt;
+&lt;p&gt;The Testopia Extension requires Bugzilla &amp;gt;4.2.
+Testopi version 2.5 is the first release that does not need a patch on Bugzilla to work.&lt;/p&gt;
+&lt;h3&gt;old notes relevant before v2.5&lt;/h3&gt;
+&lt;h2&gt;Installation of Testopia extension&lt;/h2&gt;
+&lt;h3&gt;How to get Testopia&lt;/h3&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+$ bzr branch bzr://bzr.mozilla.org/bugzilla/extensions/testopia/trunk&lt;/p&gt;
+&lt;h3&gt;Patch Bugzilla 4.2&lt;/h3&gt;
+&lt;p&gt;Note: 603-2012: No patch for 4.2 available at time of patching&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;cd to the directory with the Testopia trunk&lt;/li&gt;
+&lt;li&gt;copy items from the downloaded Testopia trunk &lt;/li&gt;
+&lt;li&gt;cd /usr/local/bugzilla&lt;/li&gt;
+&lt;li&gt;paste items from the downloaded Testopia trunk and merge the extensions directory&lt;/li&gt;
+&lt;li&gt;patch -p0 -i extensions/Testopia/patch-4.0
+patching file Bugzilla/Bug.pm
+Hunk #1 succeeded at 3628 (offset 101 lines).
+patching file Bugzilla/Constants.pm
+Hunk #1 succeeded at 145 (offset 1 line).
+Hunk #2 succeeded at 470 (offset 5 lines).
+patching file Bugzilla/Error.pm
+Hunk #2 succeeded at 145 (offset -6 lines).
+patching file Bugzilla/Install/Filesystem.pm
+Hunk #1 succeeded at 153 (offset 3 lines).
+patching file Bugzilla/Search.pm
+Hunk #1 FAILED at 510.
+1 out of 1 hunk FAILED -- saving rejects to file Bugzilla/Search.pm.rej
+patching file Bugzilla/User.pm
+Hunk #1 succeeded at 575 with fuzz 1 (offset 67 lines).
+Hunk #2 succeeded at 936 (offset 82 lines).
+Hunk #3 succeeded at 1292 (offset 130 lines).
+patching file template/en/default/global/setting-descs.none.tmpl&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Run .checksetup.pl&lt;/h3&gt;
+&lt;p&gt;./checksetup.pl&lt;/p&gt;
+&lt;h3&gt;Install additional dependencies&lt;/h3&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+$ sudo /usr/bin/perl install-module.pl Text::Diff
+$ sudo /usr/bin/perl install-module.pl GD::Graph3d&lt;/p&gt;
+&lt;h3&gt;Run .checksetup again&lt;/h3&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+$ ./checksetup.pl&lt;/p&gt;
+&lt;p&gt;You should now get &lt;/p&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+$ checksetup.pl complete.&lt;/p&gt;
+&lt;h3&gt;Errors on FILTER url_quote&lt;/h3&gt;
+&lt;p&gt;Template-&amp;gt;process() failed twice.
+First error: undef error - url_quote: filter not found
+Second error: undef error - url_quote: filter not found&lt;/p&gt;
+&lt;p&gt;Seems this is deprecated&lt;/p&gt;
+&lt;p&gt;Found Bugzilla message 398701 with fix&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+find . &lt;em&gt;-type f -name "&lt;/em&gt;.tmpl" -exec replace 'FILTER url_quote' 'FILTER uri' -- {} \;*&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;Executed this from the Testopia extensions directory this updated a number of template files:
+{% highlight bash %}
+./template/en/default/hook/bug/create/create-end.html.tmpl converted
+./template/en/default/hook/bug/edit-after_custom_fields.html.tmpl converted
+./template/en/default/hook/bug/process/results-links.html.tmpl converted
+./template/en/default/hook/global/common-links-link-row.html.tmpl converted
+./template/en/default/hook/global/useful-links-end.html.tmpl converted
+./template/en/default/testopia/reports/build-coverage.html.tmpl converted
+./template/en/default/testopia/reports/completion.html.tmpl converted
+./template/en/default/testopia/reports/execution.html.tmpl converted
+./template/en/default/testopia/reports/priority-breakdown.html.tmpl converted
+./template/en/default/testopia/reports/report-table.html.tmpl converted
+./template/en/default/testopia/reports/report.html.tmpl converted
+./template/en/default/testopia/reports/status.html.tmpl converted
+./template/en/default/testopia/tag/list.html.tmpl converted&lt;/p&gt;
+&lt;h3&gt;Additional patching&lt;/h3&gt;
+&lt;h4&gt;Search.pm&lt;/h4&gt;
+&lt;p&gt;There seems to be a problem in Bugzilla/Search.pm&lt;/p&gt;
+&lt;p _="%" bash highlight&gt;A patch was suggested in BZ 596325
+I copied the patch file and applied it&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;$ sudo patch -p0 -i extensions/Testopia/patch-bz596325
+$ chgrp the Search.pm  and make it member of the _www group&lt;/p&gt;
+&lt;p&gt;Patch works and now Testopia-&amp;gt; My plans does not give an error anymore&lt;/p&gt;
+&lt;h3&gt;New plan&lt;/h3&gt;
+&lt;p&gt;It seems the link New plan is not working.
+In the Apache error_log there are a lot of errors&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+File does not exist: /Library/WebServer/Documents/bugzilla/extensions/Testopia/extjs, referer: http://tooh.homedns.org/bugzilla/tr_new_plan.cgi&lt;/p&gt;
+&lt;p&gt;I did not install the extjs files so probably this is the problem.&lt;/p&gt;
+&lt;p _="%" bash highlight&gt;On the Testopia wiki there is some instructions&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;$&amp;gt; cd path/to/bugzilla/testopia/
+$&amp;gt; wget http://extjs.com/deploy/ext-3.2.1.zip
+$&amp;gt; unzip ext-3.2.1.zip
+$&amp;gt; mv ext-3.2.1 extjs&lt;/p&gt;
+&lt;p&gt;Found out that the files are not there anymore
+Downloaded the older version
+http://www.sencha.com/products/extjs/download/ext-js-3.2.1&lt;/p&gt;
+&lt;p&gt;Renamed the folder to extjs&lt;/p&gt;
+&lt;p&gt;Note: Don't forget to refresh. And now it is working.&lt;/p&gt;
+&lt;h3&gt;New run&lt;/h3&gt;
+&lt;p&gt;Initially no testcases where shown.
+Investigation of the /var/log/apache2/error_log showed that there was an error with een uninitialized variable.
+I commented out use strict in the header of
+/usr/local/bugzilla/extensions/Testopia/lib/Search.pm&lt;/p&gt;
+&lt;p&gt;Everything OK now.&lt;/p&gt;
+&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;p&gt;[1]
+&lt;a href="http://www.mozilla.org/projects/testopia/"&gt;Testopia Mozilla&lt;/a&gt;&lt;/p&gt;</content><category term="testopia bugzilla testmanagement"></category></entry><entry><title>Project Nestor</title><link href="/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-21:/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Together with Bruno Kinoshita I am involved in a project for the development of a new testcase management application. The working title of the application is Nestor.
+&lt;!-- more --&gt;&lt;/p&gt;
+&lt;h2&gt;Project team&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Bruno Kinoshita&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;co-founder of Tupilabs&lt;/li&gt;
+&lt;li&gt;Apache committer&lt;/li&gt;
+&lt;li&gt;developer of the Testlink Jenkins plugin&lt;/li&gt;
+&lt;li&gt;developer of Testopia Jenkins plugin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Peter Florijn&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Owner of Peter Florijn Consultancy B.V.&lt;/li&gt;
+&lt;li&gt;co-developer of the Testopia plugin for Jenkins. &lt;/li&gt;
+&lt;li&gt;contributor to Bugzilla project&lt;/li&gt;
+&lt;li&gt;contributor to Testopia project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Nestor Wiki (work in progress)&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/nestor-qa/nestor/wiki"&gt;Nestor Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Status demo application&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.nestor-qa.org" title="Nestor QA"&gt;Nestor QA&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.tupilabs.com" title="Tupilabs"&gt;Tupilabs&lt;/a&gt;&lt;/p&gt;</content><category term="testmanagement opensource project"></category></entry><entry><title>Static blog with Jekyll/Octopress</title><link href="/static-blog-with-jekylloctopress.html" rel="alternate"></link><published>2013-04-20T21:00:00+02:00</published><updated>2013-04-20T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-20:/static-blog-with-jekylloctopress.html</id><summary type="html">&lt;p&gt;None&lt;/p&gt;</summary><content type="html">&lt;p&gt;After using several blogging tools over the years I am now heavily into using Markdown. My workflow is becoming more and more based on scripting environments and tools like Alfred.
+So I was looking for a good static blog generator, just like in the old days when I was using Blosxom. 
+Looking for a way to use Markdown as the workhorse I decided to give Jekyll a try. Jekyll is a static blog site generator based on Ruby. I found some projects that use Jekyll and after a day of configuration the first setup is ready.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;I started with a basic Jekyll setup. When I was searching for some info I found a tool based on Jekyll, called Octopress
+I decided to give Octopress a try. This blog is now powered by Octopress.
+When I go along I will update this post with some new notes.&lt;/p&gt;
+&lt;h3&gt;External links&lt;/h3&gt;
+&lt;p&gt;[1] When I was installing Octopress I used a good tutorial I found &lt;a href="http://webdesign.tutsplus.com/tutorials/applications/getting-started-with-octopress/"&gt;Getting started with Octopress&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] Also &lt;a href="http://learnaholic.me/2012/10/10/deploying-octopress-to-github-pages-and-setting-custom-subdomain-cname/"&gt;Deploying Octopress to Github Pages&lt;/a&gt; gave some good tips. &lt;/p&gt;
+&lt;p&gt;[3] &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[4] &lt;a href="http://octopress.org/"&gt;Octopress&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[4] &lt;a href="http://code.dblock.org/octopress-setting-up-a-blog-and-contributing-to-an-existing-one"&gt;Setting up a blog and contribute to an existing one&lt;/a&gt;&lt;/p&gt;</content><category term="github blog ruby"></category></entry><entry><title>Installation Bugzilla on OSX Mountain Lion Server</title><link href="/installation-bugzilla-on-osx-mountain-lion-server.html" rel="alternate"></link><published>2013-04-20T10:00:00+02:00</published><updated>2013-04-20T10:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-20:/installation-bugzilla-on-osx-mountain-lion-server.html</id><summary type="html"></summary><content type="html">&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;I was forced to reinvent the wheel of installing Bugzilla on my development OSX Mountain Lion machine.&lt;/p&gt;
+&lt;p&gt;On this machine I have OSX server running. As perhaps many of you know Apple decided to change the way you can configure the web services. In this post I will describe the steps I took to install Bugzilla. In the first place this is for my own documentation and perhaps it will help others as well.
+&lt;!-- more --&gt;&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs note %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs info %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs error %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs warning %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs tip %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs thumbs-up %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs thumbs-down %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs check %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;OSX server details&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="OSX Server details" src="/images/osx_server_details.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Perl installation&lt;/h2&gt;
+&lt;p _="%" endhighlight&gt;I assume you have the default Perl installation on your OSX machine
+{% highlight bash %}
+This is perl 5, version 12, subversion 4 (v5.12.4) built for darwin-thread-multi-2level
+(with 2 registered patches, see perl -V for more detail)&lt;/p&gt;
+&lt;h2&gt;MySQL installation&lt;/h2&gt;
+&lt;p&gt;I assume you have installed MySQL &amp;gt;v5.x
+I have v5.5.13 running&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+Server version: 5.5.13-log MySQL Community Server (GPL)&lt;/p&gt;
+&lt;h2&gt;Apache Configuration&lt;/h2&gt;
+&lt;p _="%" endhighlight&gt;OSX Server stores its conf files in :
+{% highlight bash %}
+/Library/Server/Web/Config/apache2&lt;/p&gt;
+&lt;h2&gt;Bugzilla settings&lt;/h2&gt;
+&lt;p&gt;For Bugzilla the following settings are essential.
+Some of them can be configured through the OSX Server GUI:&lt;/p&gt;
+&lt;p&gt;{% highlight apache %}
+&lt;Directory "/Library/WebServer/bugzilla-trunk"&gt; 
+  AddHandler cgi-script .cgi .pl 
+  Options +Indexes +ExecCGI +FollowSymLinks 
+  DirectoryIndex index.cgi index.html 
+  AllowOverride Limit FileInfo Indexes Options 
+  Order allow,deny 
+  Allow from all 
+&lt;/Directory&gt;&lt;/p&gt;
+&lt;p&gt;{% endhighlight %}&lt;/p&gt;
+&lt;h2&gt;When you are using OSX Mountain Lion (not OSX Server)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;On Mac OS X 10.8.2, by default: 
+Apache is not enabled and Apple has removed the "Web Sharing" GUI that used to be available in previous versions&lt;/li&gt;
+&lt;li&gt;Google search "mac os x 10.8 enable apache" for blogs about how to get Apache enabled on Mac OS 10.8+. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p _="%" endhighlight&gt;httpd.conf is located in
+{% highlight bash %}
+ /private/etc/apache2&lt;/p&gt;
+&lt;h3&gt;New installation&lt;/h3&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+&lt;h3&gt;Upgrade with bzr&lt;/h3&gt;
+&lt;p&gt;Note:I assume you have installed bzr on your OS.&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;Go to your Bugzilla home directory
+{% highlight bash %}
+ cd /usr/local/bugzilla&lt;/p&gt;
+&lt;p&gt;Switch to major version
+{% highlight bash %}
+sudo bzr switch 4.4&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;Updated to revision 8563.                                                                                      &lt;br&gt;
+Switched to branch: bzr://bzr.mozilla.org/bugzilla/4.4/&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;Run checksetup
+{% highlight bash %}
+sudo ./checksetup.pl&lt;/p&gt;
+&lt;h2&gt;External links&lt;/h2&gt;
+&lt;p&gt;[1] &lt;a href="http://www.springsurprise.com/2009/09/30/installing-bugzilla-on-mac-os-x-server/"&gt;Installing Bugzilla on OSX server&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] &lt;a href="http://www.bugzilla.org/docs/tip/en/html/os-specific.html"&gt;Installation guide Bugzilla - OS Specific&lt;/a&gt;&lt;/p&gt;</content></entry></feed>

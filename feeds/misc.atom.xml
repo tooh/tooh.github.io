@@ -5,4 +5,80 @@ should convey my sense of excitement and eagerness to engage with you,
 the reader!&lt;/p&gt;</content></entry><entry><title>Second Post on My Sweet New Blog</title><link href="/second-post-on-my-sweet-new-blog.html" rel="alternate"></link><published>2019-08-31T00:00:00+02:00</published><updated>2019-08-31T00:00:00+02:00</updated><author><name>Your Name Here</name></author><id>tag:None,2019-08-31:/second-post-on-my-sweet-new-blog.html</id><content type="html">&lt;h1&gt;I am On My Way To Internet Fame and Fortune!&lt;/h1&gt;
 &lt;p&gt;This is my first post on my new blog. While not super informative it
 should convey my sense of excitement and eagerness to engage with you,
-the reader!&lt;/p&gt;</content></entry></feed>
+the reader!&lt;/p&gt;</content></entry><entry><title>Installation Bugzilla on OSX Mountain Lion Server</title><link href="/installation-bugzilla-on-osx-mountain-lion-server.html" rel="alternate"></link><published>2013-04-20T10:00:00+02:00</published><updated>2013-04-20T10:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-20:/installation-bugzilla-on-osx-mountain-lion-server.html</id><summary type="html"></summary><content type="html">&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;I was forced to reinvent the wheel of installing Bugzilla on my development OSX Mountain Lion machine.&lt;/p&gt;
+&lt;p&gt;On this machine I have OSX server running. As perhaps many of you know Apple decided to change the way you can configure the web services. In this post I will describe the steps I took to install Bugzilla. In the first place this is for my own documentation and perhaps it will help others as well.
+&lt;!-- more --&gt;&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs note %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs info %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs error %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs warning %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs tip %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs thumbs-up %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs thumbs-down %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs check %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;OSX server details&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="OSX Server details" src="/images/osx_server_details.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Perl installation&lt;/h2&gt;
+&lt;p _="%" endhighlight&gt;I assume you have the default Perl installation on your OSX machine
+{% highlight bash %}
+This is perl 5, version 12, subversion 4 (v5.12.4) built for darwin-thread-multi-2level
+(with 2 registered patches, see perl -V for more detail)&lt;/p&gt;
+&lt;h2&gt;MySQL installation&lt;/h2&gt;
+&lt;p&gt;I assume you have installed MySQL &amp;gt;v5.x
+I have v5.5.13 running&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+Server version: 5.5.13-log MySQL Community Server (GPL)&lt;/p&gt;
+&lt;h2&gt;Apache Configuration&lt;/h2&gt;
+&lt;p _="%" endhighlight&gt;OSX Server stores its conf files in :
+{% highlight bash %}
+/Library/Server/Web/Config/apache2&lt;/p&gt;
+&lt;h2&gt;Bugzilla settings&lt;/h2&gt;
+&lt;p&gt;For Bugzilla the following settings are essential.
+Some of them can be configured through the OSX Server GUI:&lt;/p&gt;
+&lt;p&gt;{% highlight apache %}
+&lt;Directory "/Library/WebServer/bugzilla-trunk"&gt; 
+  AddHandler cgi-script .cgi .pl 
+  Options +Indexes +ExecCGI +FollowSymLinks 
+  DirectoryIndex index.cgi index.html 
+  AllowOverride Limit FileInfo Indexes Options 
+  Order allow,deny 
+  Allow from all 
+&lt;/Directory&gt;&lt;/p&gt;
+&lt;p&gt;{% endhighlight %}&lt;/p&gt;
+&lt;h2&gt;When you are using OSX Mountain Lion (not OSX Server)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;On Mac OS X 10.8.2, by default: 
+Apache is not enabled and Apple has removed the "Web Sharing" GUI that used to be available in previous versions&lt;/li&gt;
+&lt;li&gt;Google search "mac os x 10.8 enable apache" for blogs about how to get Apache enabled on Mac OS 10.8+. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p _="%" endhighlight&gt;httpd.conf is located in
+{% highlight bash %}
+ /private/etc/apache2&lt;/p&gt;
+&lt;h3&gt;New installation&lt;/h3&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+&lt;h3&gt;Upgrade with bzr&lt;/h3&gt;
+&lt;p&gt;Note:I assume you have installed bzr on your OS.&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;Go to your Bugzilla home directory
+{% highlight bash %}
+ cd /usr/local/bugzilla&lt;/p&gt;
+&lt;p&gt;Switch to major version
+{% highlight bash %}
+sudo bzr switch 4.4&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;Updated to revision 8563.                                                                                      &lt;br&gt;
+Switched to branch: bzr://bzr.mozilla.org/bugzilla/4.4/&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;Run checksetup
+{% highlight bash %}
+sudo ./checksetup.pl&lt;/p&gt;
+&lt;h2&gt;External links&lt;/h2&gt;
+&lt;p&gt;[1] &lt;a href="http://www.springsurprise.com/2009/09/30/installing-bugzilla-on-mac-os-x-server/"&gt;Installing Bugzilla on OSX server&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] &lt;a href="http://www.bugzilla.org/docs/tip/en/html/os-specific.html"&gt;Installation guide Bugzilla - OS Specific&lt;/a&gt;&lt;/p&gt;</content></entry></feed>
