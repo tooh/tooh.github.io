@@ -5,10 +5,7 @@ summary: &lt;/p&gt;
 &lt;p&gt;sudo curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -&lt;/p&gt;
 &lt;p&gt;sudo apt-get install -y nodejs
 node -v&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>testgantt</title><link href="/testgantt.html" rel="alternate"></link><published>2018-07-27T09:14:00+02:00</published><updated>2018-07-27T09:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2018-07-27:/testgantt.html</id><content type="html">&lt;p&gt;image : 
-summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/6bf61f17.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>test_includes</title><link href="/test_includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2017-12-25:/test_includes.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>testgantt</title><link href="/testgantt.html" rel="alternate"></link><published>2018-07-27T09:14:00+02:00</published><updated>2018-07-27T09:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2018-07-27:/testgantt.html</id><content type="html">&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/6bf61f17.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>test_includes</title><link href="/test_includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2017-12-25:/test_includes.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;!-- more --&gt;
@@ -1072,7 +1069,18 @@ summary: &lt;/p&gt;
 
 &lt;script type="text/javascript"&gt;new SocialBar("1335926344708_social_7496", {buttons:["embed","twitter","facebook","googleplusone","email"],url:"http://tv.ssw.com/1279/daily-scrum-at-microsoft",title:"Scrum at Microsoft: See the TFS Agile Team do a Scrum (aka Stand Up) | SSW TVSSW TV",badgeUrl:"http://wistia.com",embedCode:"%3Ciframe%20width%3D%22640%22%20height%3D%22360%22%20src%3D%22http%3A//www.youtube.com/embed/-UUrLxNBK_g%3Frel%3D0%22%20frameborder%3D%220%22%20allowfullscreen%3E%3C/iframe%3E"})&lt;/script&gt;
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>agile project management</title><link href="/agile-project-management.html" rel="alternate"></link><published>2013-05-13T09:56:00+02:00</published><updated>2013-05-13T09:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-13:/agile-project-management.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Diagrams with PlantUML</title><link href="/diagrams-with-plantuml.html" rel="alternate"></link><published>2013-06-09T12:37:00+02:00</published><updated>2013-06-09T12:37:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-06-09:/diagrams-with-plantuml.html</id><summary type="html">&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive …&lt;/p&gt;</summary><content type="html">&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive with it. &lt;/p&gt;
+&lt;p&gt;After my switch to OSX, Omnigraffle seemed the tool to use, but this had the same disadvantages.&lt;/p&gt;
+&lt;p&gt;Recently I came across a tool called PlantUML that can create diagrams based on text.&lt;/p&gt;
+&lt;p&gt;When I found out that somebody had made a plugin for my current blogging environment Octopress it seems that I have won the jackpot.&lt;/p&gt;
+&lt;h3 id="example"&gt;Example:&lt;/h3&gt;
+&lt;h4 id="example-1"&gt;Example 1&lt;/h4&gt;
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/bcac3ff4.png"&gt;&lt;h4 id="example-2-swim-lanes"&gt;Example 2 : Swim lanes&lt;/h4&gt;
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/15883938.png"&gt;&lt;!-- more --&gt;
+
+&lt;h3 id="references"&gt;References&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://plantuml.sourceforge.net/news.html"&gt;PlantUML&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/yjpark/jekyll-plantuml"&gt;Jekyll-plantUML plugin&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>agile project management</title><link href="/agile-project-management.html" rel="alternate"></link><published>2013-05-13T09:56:00+02:00</published><updated>2013-05-13T09:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-13:/agile-project-management.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/5052362" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="http://www.slideshare.net/mcottmeyer/understanding-agile-project-management" title="Understanding Agile Project Management" target="_blank"&gt;Understanding Agile Project Management&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/mcottmeyer" target="_blank"&gt;Mike Cottmeyer&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
