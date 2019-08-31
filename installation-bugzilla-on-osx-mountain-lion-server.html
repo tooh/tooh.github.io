@@ -70,7 +70,7 @@
 </header>
 
   <div class="entry-content"><p>{:toc}</p>
-<h1>Introduction</h1>
+<h1 id="introduction">Introduction</h1>
 <p>I was forced to reinvent the wheel of installing Bugzilla on my development OSX Mountain Lion machine.</p>
 <p>On this machine I have OSX server running. As perhaps many of you know Apple decided to change the way you can configure the web services. In this post I will describe the steps I took to install Bugzilla. In the first place this is for my own documentation and perhaps it will help others as well.
 <!-- more --></p>
@@ -90,23 +90,23 @@ Here is my markdown <strong>content</strong>.</p>
 Here is my markdown <strong>content</strong>.</p>
 <p _="%" enddocs>{% docs check %}
 Here is my markdown <strong>content</strong>.</p>
-<h2>OSX server details</h2>
+<h2 id="osx-server-details">OSX server details</h2>
 <p><img alt="OSX Server details" src="/images/osx_server_details.png"></p>
-<h2>Perl installation</h2>
+<h2 id="perl-installation">Perl installation</h2>
 <p _="%" endhighlight>I assume you have the default Perl installation on your OSX machine
 {% highlight bash %}
 This is perl 5, version 12, subversion 4 (v5.12.4) built for darwin-thread-multi-2level
 (with 2 registered patches, see perl -V for more detail)</p>
-<h2>MySQL installation</h2>
+<h2 id="mysql-installation">MySQL installation</h2>
 <p>I assume you have installed MySQL &gt;v5.x
 I have v5.5.13 running</p>
 <p _="%" endhighlight>{% highlight bash %}
 Server version: 5.5.13-log MySQL Community Server (GPL)</p>
-<h2>Apache Configuration</h2>
+<h2 id="apache-configuration">Apache Configuration</h2>
 <p _="%" endhighlight>OSX Server stores its conf files in :
 {% highlight bash %}
 /Library/Server/Web/Config/apache2</p>
-<h2>Bugzilla settings</h2>
+<h2 id="bugzilla-settings">Bugzilla settings</h2>
 <p>For Bugzilla the following settings are essential.
 Some of them can be configured through the OSX Server GUI:</p>
 <p>{% highlight apache %}
@@ -119,7 +119,7 @@ Some of them can be configured through the OSX Server GUI:</p>
   Allow from all 
 </Directory></p>
 <p>{% endhighlight %}</p>
-<h2>When you are using OSX Mountain Lion (not OSX Server)</h2>
+<h2 id="when-you-are-using-osx-mountain-lion-not-osx-server">When you are using OSX Mountain Lion (not OSX Server)</h2>
 <ul>
 <li>On Mac OS X 10.8.2, by default: 
 Apache is not enabled and Apple has removed the "Web Sharing" GUI that used to be available in previous versions</li>
@@ -128,9 +128,9 @@ Apache is not enabled and Apple has removed the "Web Sharing" GUI that used to b
 <p _="%" endhighlight>httpd.conf is located in
 {% highlight bash %}
  /private/etc/apache2</p>
-<h3>New installation</h3>
+<h3 id="new-installation">New installation</h3>
 <p>TODO</p>
-<h3>Upgrade with bzr</h3>
+<h3 id="upgrade-with-bzr">Upgrade with bzr</h3>
 <p>Note:I assume you have installed bzr on your OS.</p>
 <p _="%" endhighlight>Go to your Bugzilla home directory
 {% highlight bash %}
@@ -143,7 +143,7 @@ Switched to branch: bzr://bzr.mozilla.org/bugzilla/4.4/</p>
 <p _="%" endhighlight>Run checksetup
 {% highlight bash %}
 sudo ./checksetup.pl</p>
-<h2>External links</h2>
+<h2 id="external-links">External links</h2>
 <p>[1] <a href="http://www.springsurprise.com/2009/09/30/installing-bugzilla-on-mac-os-x-server/">Installing Bugzilla on OSX server</a></p>
 <p>[2] <a href="http://www.bugzilla.org/docs/tip/en/html/os-specific.html">Installation guide Bugzilla - OS Specific</a></p></div>
     <footer>

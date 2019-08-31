@@ -75,8 +75,8 @@ summary: </p>
 <p>I have a Samsung Smart TV (D series). On this TV you can install the Plex app from the Samsung App store. Out of the box the App was not able to find and connect to my Plex Media server (PMS) on my OSX Mavericks machine.
 In this post I describe how to open up the firewall in order to make this setup work.
 <!-- more --></p>
-<h2>Samsung Plex app and Plex Media server</h2>
-<h3>Preparation</h3>
+<h2 id="samsung-plex-app-and-plex-media-server">Samsung Plex app and Plex Media server</h2>
+<h3 id="preparation">Preparation</h3>
 <ul>
 <li>
 <p>Make sure the PMS runs on port 32400, none other will work.</p>
@@ -94,7 +94,7 @@ In this post I describe how to open up the firewall in order to make this setup 
 <p>Make sure no firewall software is blocking access to your PMS</p>
 </li>
 </ul>
-<h3>OSX firewall ON</h3>
+<h3 id="osx-firewall-on">OSX firewall ON</h3>
 <p>I prefer to leave the Application Firewall (ALF) on. 
 Normal procedure to open up ports for a specific app would be to add the application to the Firewall.</p>
 <div class="highlight"><pre><span></span>1. Click the Firewall tab in the Security pane.
@@ -110,15 +110,15 @@ Normal procedure to open up ports for a specific app would be to add the applica
 
 
 <p>For some reason this was not sufficient and I could not connect to my PMS server</p>
-<h3>Firewall rules</h3>
+<h3 id="firewall-rules">Firewall rules</h3>
 <p>OSX contains a number of firewalls (ALF, ipfw and pf)
 <a href="http://f.adric.net/index.cgi/wiki?name=MacSec_Firewalls">MacSec_Firewalls</a></p>
-<h3>PMS blocked ?</h3>
+<h3 id="pms-blocked">PMS blocked ?</h3>
 <p>For some reason I could not connect and I disabled the ALF firewall. But still I could not connect. I executed the following steps and suddenly I could connect (with the ALF firewall turned on). </p>
 <p>A couple of days later I found out that even without the rule active (Note: Adding the firewall rule as described does not make the rule stick, you have to add that to a ipfw.conf file) 
 I can connect to the PMS from my SAMSUNG TV and my SAMSUNG BD-D6500. I can not explain this. In any case it was interesting to investigate some firewall stuff.
 So use this info as is.</p>
-<h3>Add rule to let Samsung TV communicate with PMS</h3>
+<h3 id="add-rule-to-let-samsung-tv-communicate-with-pms">Add rule to let Samsung TV communicate with PMS</h3>
 <p>I used info from this outdated page
 <a href="http://www.ibiblio.org/macsupport/ipfw/">www.ibiblio.org</a></p>
 <ol>
@@ -131,9 +131,9 @@ So use this info as is.</p>
 </ol>
 <p>sudo ipfw add allow tcp from 192.168.1.0/24 to any dst-port 32400 in</p>
 <p>{% endcodeblock %}</p>
-<h3>Result</h3>
+<h3 id="result">Result</h3>
 <p>After adding this firewall rule and entering the IP address of my PMS server the SAMSUNG app connected succesfully and I was able to play my media.</p>
-<h3>References</h3></div>
+<h3 id="references">References</h3></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">

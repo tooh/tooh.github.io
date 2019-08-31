@@ -72,15 +72,15 @@
   <div class="entry-content"><p>image : 
 summary: </p>
 <hr>
-<h1>Introduction</h1>
+<h1 id="introduction">Introduction</h1>
 <p>After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
 It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in Yosemite.</p>
 <!-- more -->
 
 <p>{:toc}</p>
-<h2>Update rvm</h2>
+<h2 id="update-rvm">Update rvm</h2>
 <p>rvm get stable</p>
-<h2>Fix brew</h2>
+<h2 id="fix-brew">Fix brew</h2>
 <p>Changing 1.8  in Current in brew.rb made brew working again.</p>
 <p>Change</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="ch">#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -W0</span>
@@ -92,7 +92,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 </pre></div>
 </td></tr></table>
 
-<h2>Ruby</h2>
+<h2 id="ruby">Ruby</h2>
 <p>In order to make some of my projects work again I had to install a different Ruby version.</p>
 <p>Installing it only with</p>
 <div class="highlight"><pre><span></span>rvm install
@@ -105,7 +105,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 </pre></div>
 
 
-<h2>Bugzilla / perl</h2>
+<h2 id="bugzilla-perl">Bugzilla / perl</h2>
 <p>Symptom:</p>
 <p>My local Bugzilla installation does not work anymore.</p>
 <p>Cause:</p>

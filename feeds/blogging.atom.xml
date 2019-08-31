@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - Blogging</title><link href="/" rel="alternate"></link><link href="/feeds/blogging.atom.xml" rel="self"></link><id>/</id><updated>2013-04-21T00:00:00+02:00</updated><entry><title>Project Nestor</title><link href="/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-21:/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - Blogging</title><link href="/" rel="alternate"></link><link href="/feeds/blogging.atom.xml" rel="self"></link><id>/</id><updated>2013-04-21T00:00:00+02:00</updated><entry><title>Project Nestor</title><link href="/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-21:/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Together with Bruno Kinoshita I am involved in a project for the development of a new testcase management application. The working title of the application is Nestor.
 &lt;!-- more --&gt;&lt;/p&gt;
-&lt;h2&gt;Project team&lt;/h2&gt;
+&lt;h2 id="project-team"&gt;Project team&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Bruno Kinoshita&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;co-founder of Tupilabs&lt;/li&gt;
@@ -17,11 +17,11 @@
 &lt;li&gt;contributor to Bugzilla project&lt;/li&gt;
 &lt;li&gt;contributor to Testopia project&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Nestor Wiki (work in progress)&lt;/h2&gt;
+&lt;h2 id="nestor-wiki-work-in-progress"&gt;Nestor Wiki (work in progress)&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/nestor-qa/nestor/wiki"&gt;Nestor Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Status demo application&lt;/h2&gt;
+&lt;h2 id="status-demo-application"&gt;Status demo application&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://www.nestor-qa.org" title="Nestor QA"&gt;Nestor QA&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;References&lt;/h2&gt;
+&lt;h2 id="references"&gt;References&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://www.tupilabs.com" title="Tupilabs"&gt;Tupilabs&lt;/a&gt;&lt;/p&gt;</content><category term="testmanagement opensource project"></category></entry><entry><title>Static blog with Jekyll/Octopress</title><link href="/static-blog-with-jekylloctopress.html" rel="alternate"></link><published>2013-04-20T21:00:00+02:00</published><updated>2013-04-20T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-20:/static-blog-with-jekylloctopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;After using several blogging tools over the years I am now heavily into using Markdown. My workflow is becoming more and more based on scripting environments and tools like Alfred.
 So I was looking for a good static blog generator, just like in the old days when I was using Blosxom. 
 Looking for a way to use Markdown as the workhorse I decided to give Jekyll a try. Jekyll is a static blog site generator based on Ruby. I found some projects that use Jekyll and after a day of configuration the first setup is ready.&lt;/p&gt;
@@ -30,7 +30,7 @@ Looking for a way to use Markdown as the workhorse I decided to give Jekyll a tr
 &lt;p&gt;I started with a basic Jekyll setup. When I was searching for some info I found a tool based on Jekyll, called Octopress
 I decided to give Octopress a try. This blog is now powered by Octopress.
 When I go along I will update this post with some new notes.&lt;/p&gt;
-&lt;h3&gt;External links&lt;/h3&gt;
+&lt;h3 id="external-links"&gt;External links&lt;/h3&gt;
 &lt;p&gt;[1] When I was installing Octopress I used a good tutorial I found &lt;a href="http://webdesign.tutsplus.com/tutorials/applications/getting-started-with-octopress/"&gt;Getting started with Octopress&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] Also &lt;a href="http://learnaholic.me/2012/10/10/deploying-octopress-to-github-pages-and-setting-custom-subdomain-cname/"&gt;Deploying Octopress to Github Pages&lt;/a&gt; gave some good tips. &lt;/p&gt;
 &lt;p&gt;[3] &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;&lt;/p&gt;

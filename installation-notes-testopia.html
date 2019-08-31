@@ -71,16 +71,16 @@
 
   <div class="entry-content"><p>Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go along.
 <!-- more --></p>
-<h3>Testopia testcase management system</h3>
-<h3>Requirements</h3>
+<h3 id="testopia-testcase-management-system">Testopia testcase management system</h3>
+<h3 id="requirements">Requirements</h3>
 <p>The Testopia Extension requires Bugzilla &gt;4.2.
 Testopi version 2.5 is the first release that does not need a patch on Bugzilla to work.</p>
-<h3>old notes relevant before v2.5</h3>
-<h2>Installation of Testopia extension</h2>
-<h3>How to get Testopia</h3>
+<h3 id="old-notes-relevant-before-v25">old notes relevant before v2.5</h3>
+<h2 id="installation-of-testopia-extension">Installation of Testopia extension</h2>
+<h3 id="how-to-get-testopia">How to get Testopia</h3>
 <p _="%" endhighlight>{% highlight bash %}
 $ bzr branch bzr://bzr.mozilla.org/bugzilla/extensions/testopia/trunk</p>
-<h3>Patch Bugzilla 4.2</h3>
+<h3 id="patch-bugzilla-42">Patch Bugzilla 4.2</h3>
 <p>Note: 603-2012: No patch for 4.2 available at time of patching</p>
 <ol>
 <li>cd to the directory with the Testopia trunk</li>
@@ -106,19 +106,19 @@ Hunk #2 succeeded at 936 (offset 82 lines).
 Hunk #3 succeeded at 1292 (offset 130 lines).
 patching file template/en/default/global/setting-descs.none.tmpl</li>
 </ol>
-<h3>Run .checksetup.pl</h3>
+<h3 id="run-checksetuppl">Run .checksetup.pl</h3>
 <p>./checksetup.pl</p>
-<h3>Install additional dependencies</h3>
+<h3 id="install-additional-dependencies">Install additional dependencies</h3>
 <p _="%" endhighlight>{% highlight bash %}
 $ sudo /usr/bin/perl install-module.pl Text::Diff
 $ sudo /usr/bin/perl install-module.pl GD::Graph3d</p>
-<h3>Run .checksetup again</h3>
+<h3 id="run-checksetup-again">Run .checksetup again</h3>
 <p _="%" endhighlight>{% highlight bash %}
 $ ./checksetup.pl</p>
 <p>You should now get </p>
 <p _="%" endhighlight>{% highlight bash %}
 $ checksetup.pl complete.</p>
-<h3>Errors on FILTER url_quote</h3>
+<h3 id="errors-on-filter-url_quote">Errors on FILTER url_quote</h3>
 <p>Template-&gt;process() failed twice.
 First error: undef error - url_quote: filter not found
 Second error: undef error - url_quote: filter not found</p>
@@ -141,15 +141,15 @@ find . <em>-type f -name "</em>.tmpl" -exec replace 'FILTER url_quote' 'FILTER u
 ./template/en/default/testopia/reports/report.html.tmpl converted
 ./template/en/default/testopia/reports/status.html.tmpl converted
 ./template/en/default/testopia/tag/list.html.tmpl converted</p>
-<h3>Additional patching</h3>
-<h4>Search.pm</h4>
+<h3 id="additional-patching">Additional patching</h3>
+<h4 id="searchpm">Search.pm</h4>
 <p>There seems to be a problem in Bugzilla/Search.pm</p>
 <p _="%" bash highlight>A patch was suggested in BZ 596325
 I copied the patch file and applied it</p>
 <p _="%" endhighlight>$ sudo patch -p0 -i extensions/Testopia/patch-bz596325
 $ chgrp the Search.pm  and make it member of the _www group</p>
 <p>Patch works and now Testopia-&gt; My plans does not give an error anymore</p>
-<h3>New plan</h3>
+<h3 id="new-plan">New plan</h3>
 <p>It seems the link New plan is not working.
 In the Apache error_log there are a lot of errors</p>
 <p _="%" endhighlight>{% highlight bash %}
@@ -165,13 +165,13 @@ Downloaded the older version
 http://www.sencha.com/products/extjs/download/ext-js-3.2.1</p>
 <p>Renamed the folder to extjs</p>
 <p>Note: Don't forget to refresh. And now it is working.</p>
-<h3>New run</h3>
+<h3 id="new-run">New run</h3>
 <p>Initially no testcases where shown.
 Investigation of the /var/log/apache2/error_log showed that there was an error with een uninitialized variable.
 I commented out use strict in the header of
 /usr/local/bugzilla/extensions/Testopia/lib/Search.pm</p>
 <p>Everything OK now.</p>
-<h3>Reference</h3>
+<h3 id="reference">Reference</h3>
 <p>[1]
 <a href="http://www.mozilla.org/projects/testopia/">Testopia Mozilla</a></p></div>
     <footer>

@@ -70,7 +70,7 @@
 </header>
 
   <div class="entry-content"><p>{:toc}</p>
-<h2>Introduction</h2>
+<h2 id="introduction">Introduction</h2>
 <p>Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my HD and as a consequence slows down my Mac.</p>
 <p>I Googled around to find a solution and although I found some possible solutions I still have the problem.</p>
 <p>I have also a notebook backing up to the same Synology and this backup is fast as ever.</p>
@@ -81,7 +81,7 @@
 <p>I am suspecting a hardware problem, possibly the harddisk.</p>
 <p>Diskutil did not report anything strange.</p>
 <p>My HD is a Seagate HD thas qualifies for the replacement program, I missed the 3 year deadline, so now I am stuck with this disk.</p>
-<h2>Software Diagnostics</h2>
+<h2 id="software-diagnostics">Software Diagnostics</h2>
 <p _="%" enddocs>{% docs tip %}
 You can try to run some standard diagnostics tools to eliminate some basic causes.</p>
 <p>Spotlight diagnostics</p>
@@ -94,10 +94,10 @@ You can try to run some standard diagnostics tools to eliminate some basic cause
 </pre></div>
 
 
-<h2>Hardware Diagnostics</h2>
+<h2 id="hardware-diagnostics">Hardware Diagnostics</h2>
 <p>Next step is to run the Apple Hardware Test (AHT).</p>
 <p>Reboot and press D before the grey screen.</p>
-<h2>Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 <p>I noticed from the activity monitor that there were several postfix background processes running. These were initiated because I had OSX Server running on this machine as well. Although the email service was not activitated in the configuration, it seemed that these processes were running altogether. </p>
 <p>I decided to deinstall OSX server and see what would happen.</p>
 <p>After deinstalling OSX server it seems that my Time Machine backup is running as normal.</p>

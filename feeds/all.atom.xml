@@ -8,46 +8,12 @@ node -v&lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>testgantt</title><link href="/testgantt.html" rel="alternate"></link><published>2018-07-27T09:14:00+02:00</published><updated>2018-07-27T09:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2018-07-27:/testgantt.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/6bf61f17.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>test_includes</title><link href="/test_includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2017-12-25:/test_includes.html</id><summary type="html">&lt;p&gt;image : 
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/6bf61f17.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>test_includes</title><link href="/test_includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2017-12-25:/test_includes.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;{% plantuml %}&lt;/p&gt;
-&lt;p&gt;' PlantUML stdlib now includes Icon-Font Sprites! See https://github.com/tupadr3/plantuml-icon-font-sprites&lt;/p&gt;
-&lt;p&gt;!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v1.0.0
-!includeurl ICONURL/common.puml&lt;/p&gt;
-&lt;p&gt;!include &lt;font-awesome/common&gt;
-!include &lt;font-awesome/server&gt;
-!include &lt;font-awesome/database&gt;&lt;/p&gt;
-&lt;p&gt;title Styling example&lt;/p&gt;
-&lt;p&gt;FA_SERVER(web1,web1) #Green
-FA_SERVER(web2,web2) #Yellow
-FA_SERVER(web3,web3) #Blue
-FA_SERVER(web4 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
-summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;!-- more --&gt;
-
-&lt;p&gt;{% plantuml %}&lt;/p&gt;
-&lt;p&gt;' PlantUML stdlib now includes Icon-Font Sprites! See https://github.com/tupadr3/plantuml-icon-font-sprites&lt;/p&gt;
-&lt;p&gt;!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v1.0.0
-!includeurl ICONURL/common.puml&lt;/p&gt;
-&lt;p&gt;!include &lt;font-awesome/common&gt;
-!include &lt;font-awesome/server&gt;
-!include &lt;font-awesome/database&gt;&lt;/p&gt;
-&lt;p&gt;title Styling example&lt;/p&gt;
-&lt;p&gt;FA_SERVER(web1,web1) #Green
-FA_SERVER(web2,web2) #Yellow
-FA_SERVER(web3,web3) #Blue
-FA_SERVER(web4,web4) #YellowGreen&lt;/p&gt;
-&lt;p&gt;FA_DATABASE(db1,LIVE,database,white) #RoyalBlue
-FA_DATABASE(db2,SPARE,database) #Red&lt;/p&gt;
-&lt;p&gt;db1 &amp;lt;--&amp;gt; db2&lt;/p&gt;
-&lt;p _="%" endplantuml&gt;web1 &amp;lt;--&amp;gt; db1
-web2 &amp;lt;--&amp;gt; db1
-web3 &amp;lt;--&amp;gt; db1
-web4 &amp;lt;--&amp;gt; db1&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Skype problem solved</title><link href="/skype-problem-solved.html" rel="alternate"></link><published>2016-10-29T11:41:00+02:00</published><updated>2016-10-29T11:41:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-10-29:/skype-problem-solved.html</id><summary type="html">&lt;p&gt;image : 
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/2e86cd0d.png"&gt;</content><category term="[]"></category></entry><entry><title>Skype problem solved</title><link href="/skype-problem-solved.html" rel="alternate"></link><published>2016-10-29T11:41:00+02:00</published><updated>2016-10-29T11:41:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-10-29:/skype-problem-solved.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;For some time I experienced problems with Skype.&lt;/p&gt;
@@ -82,21 +48,7 @@ opendirectoryserver&lt;/p&gt;
 &lt;p&gt;bbb&lt;/p&gt;</content></entry><entry><title>PlantUML sprites demo</title><link href="/plantuml-sprites-demo.html" rel="alternate"></link><published>2016-05-05T08:08:00+02:00</published><updated>2016-05-05T08:08:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-05:/plantuml-sprites-demo.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;{% plantuml %}&lt;/p&gt;
-&lt;p _="%" endplantuml&gt;sprite $foo1 {
-  FFFFFFFFFFFFFFF
-  F0123456789ABCF
-  F0123456789ABCF
-  F0123456789ABCF
-  F0123456789ABCF
-  F0123456789ABCF
-  F0123456789ABCF
-  F0123456789ABCF
-  F0123456789ABCF
-  FFFFFFFFFFFFFFF
-}
-Alice -&amp;gt; Bob : Testing &amp;lt;$foo1&amp;gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>PlantUML support for Archimate</title><link href="/plantuml-support-for-archimate.html" rel="alternate"></link><published>2016-05-05T07:20:00+02:00</published><updated>2016-05-05T07:20:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-05:/plantuml-support-for-archimate.html</id><content type="html">&lt;p&gt;image : 
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/486334be.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>PlantUML support for Archimate</title><link href="/plantuml-support-for-archimate.html" rel="alternate"></link><published>2016-05-05T07:20:00+02:00</published><updated>2016-05-05T07:20:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-05:/plantuml-support-for-archimate.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;PlantUML has a proposal for some support for Archimate.&lt;/p&gt;
@@ -165,39 +117,39 @@ summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
 &lt;!-- more --&gt;&lt;/p&gt;
-&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;h3 id="installation"&gt;Installation&lt;/h3&gt;
 &lt;p&gt;My OS is OSX so the easiest is to use Homebrew.&lt;/p&gt;
-&lt;h4&gt;With homebrew&lt;/h4&gt;
+&lt;h4 id="with-homebrew"&gt;With homebrew&lt;/h4&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ brew install pandoc
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h4&gt;Use the installer&lt;/h4&gt;
+&lt;h4 id="use-the-installer"&gt;Use the installer&lt;/h4&gt;
 &lt;p&gt;Go to the github project downloads&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;https://github.com/jgm/pandoc …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
 &lt;!-- more --&gt;&lt;/p&gt;
-&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;h3 id="installation"&gt;Installation&lt;/h3&gt;
 &lt;p&gt;My OS is OSX so the easiest is to use Homebrew.&lt;/p&gt;
-&lt;h4&gt;With homebrew&lt;/h4&gt;
+&lt;h4 id="with-homebrew"&gt;With homebrew&lt;/h4&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ brew install pandoc
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h4&gt;Use the installer&lt;/h4&gt;
+&lt;h4 id="use-the-installer"&gt;Use the installer&lt;/h4&gt;
 &lt;p&gt;Go to the github project downloads&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;https://github.com/jgm/pandoc/releases/
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h3&gt;Convert your document&lt;/h3&gt;
+&lt;h3 id="convert-your-document"&gt;Convert your document&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pandoc -o output.docx -f markdown -t docx markdown-file.md
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h3&gt;Make it easy&lt;/h3&gt;
+&lt;h3 id="make-it-easy"&gt;Make it easy&lt;/h3&gt;
 &lt;p&gt;To make it even easier I added the below code to my .bashrc file&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
 
@@ -219,14 +171,14 @@ summary: &lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h3&gt;Convert a file&lt;/h3&gt;
+&lt;h3 id="convert-a-file"&gt;Convert a file&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; md2word ~/path/to/some/markdown/file/to/convert.md ~/path/to/some/word/document/output.docx
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h3&gt;Use Pandoc from Sublime&lt;/h3&gt;
+&lt;h3 id="use-pandoc-from-sublime"&gt;Use Pandoc from Sublime&lt;/h3&gt;
 &lt;p&gt;http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html&lt;/p&gt;
-&lt;h4&gt;My customized build file&lt;/h4&gt;
+&lt;h4 id="my-customized-build-file"&gt;My customized build file&lt;/h4&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;{
     &amp;quot;cmd&amp;quot;: [&amp;quot;/usr/local/bin/pandoc&amp;quot;, &amp;quot;-S&amp;quot;, &amp;quot;-s&amp;quot;, &amp;quot;-f&amp;quot;, &amp;quot;markdown&amp;quot;, &amp;quot;-t&amp;quot;, &amp;quot;docx&amp;quot;, &amp;quot;-o&amp;quot;, &amp;quot;/Users/peter/Documents/Docs/Inbox/$file_base_name.docx&amp;quot;, &amp;quot;$file_name&amp;quot;],
     &amp;quot;selector&amp;quot;: &amp;quot;text.html.markdown&amp;quot;
@@ -321,16 +273,16 @@ cloud "Security \n (Authority \n Service)" {
 &lt;p&gt;{% endplantuml %}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>iTunes sharing troubleshooting</title><link href="/itunes-sharing-troubleshooting.html" rel="alternate"></link><published>2015-06-09T09:51:00+02:00</published><updated>2015-06-09T09:51:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-06-09:/itunes-sharing-troubleshooting.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I did a little rewiring of all my cables connected to my TV, Apple TV , router etc.&lt;/p&gt;
 &lt;p&gt;While testing it I found out that my iTunes home sharing and Airplay was not working any more. My ATV did see my shared library but was not able to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I did a little rewiring of all my cables connected to my TV, Apple TV , router etc.&lt;/p&gt;
 &lt;p&gt;While testing it I found out that my iTunes home sharing and Airplay was not working any more. My ATV did see my shared library but was not able to play the songs.&lt;/p&gt;
 &lt;p&gt;After consultation of a colleague and some troubleshooting I finally found the problem.&lt;/p&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
+&lt;h3 id="background"&gt;Background&lt;/h3&gt;
 &lt;p&gt;iTunes sharing uses the following ports:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;123&lt;/li&gt;
@@ -338,13 +290,13 @@ summary: &lt;/p&gt;
 &lt;li&gt;554&lt;/li&gt;
 &lt;li&gt;5353&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Analysis&lt;/h3&gt;
+&lt;h3 id="analysis"&gt;Analysis&lt;/h3&gt;
 &lt;p&gt;A long time ago when I was doing some experiments with the PF firewall on OSX, I installed the Icefloor app.&lt;/p&gt;
 &lt;p&gt;Icefloor is a GUI frontend to the PF firewall.
 For more background on this app&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.hanynet.com/icefloor"&gt;Icefloor&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I was thinking this Icefloor app was not running, but it was still active. It was blocking the essential ports 5353 and 3689.&lt;/p&gt;
-&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;h3 id="solution"&gt;Solution&lt;/h3&gt;
 &lt;p&gt;I stopped the Icefloor app and home sharing is working again.&lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>sort</title><link href="/sort.html" rel="alternate"></link><published>2015-04-24T14:38:00+02:00</published><updated>2015-04-24T14:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-04-24:/sort.html</id><content type="html">&lt;p&gt;image : 
 summary: linux command line sort on dates&lt;/p&gt;
@@ -360,16 +312,16 @@ summary: &lt;/p&gt;
 &lt;p&gt;I upgraded to Bugzilla 5.0.&lt;/p&gt;
 &lt;p&gt;Since the Bugzilla project now supports git, upgrading is now a simple process.&lt;/p&gt;
 &lt;p&gt;These are my installation notes.&lt;/p&gt;
-&lt;h2&gt;Updating to a Newer Release&lt;/h2&gt;
-&lt;h3&gt;No local changes&lt;/h3&gt;
+&lt;h2 id="updating-to-a-newer-release"&gt;Updating to a Newer Release&lt;/h2&gt;
+&lt;h3 id="no-local-changes"&gt;No local changes&lt;/h3&gt;
 &lt;p&gt;If you have no local changes to any tracked files, upgrading to both minor and major …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I upgraded to Bugzilla 5.0.&lt;/p&gt;
 &lt;p&gt;Since the Bugzilla project now supports git, upgrading is now a simple process.&lt;/p&gt;
 &lt;p&gt;These are my installation notes.&lt;/p&gt;
-&lt;h2&gt;Updating to a Newer Release&lt;/h2&gt;
-&lt;h3&gt;No local changes&lt;/h3&gt;
+&lt;h2 id="updating-to-a-newer-release"&gt;Updating to a Newer Release&lt;/h2&gt;
+&lt;h3 id="no-local-changes"&gt;No local changes&lt;/h3&gt;
 &lt;p&gt;If you have no local changes to any tracked files, upgrading to both minor and major releases is simple:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git fetch
 &lt;/pre&gt;&lt;/div&gt;
@@ -380,7 +332,7 @@ summary: &lt;/p&gt;
 
 
 &lt;p&gt;where (version) is the version number that you want to update to, like 5.0rc3&lt;/p&gt;
-&lt;h3&gt;Upgrade to release 5.0&lt;/h3&gt;
+&lt;h3 id="upgrade-to-release-50"&gt;Upgrade to release 5.0&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git fetch
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -391,7 +343,7 @@ summary: &lt;/p&gt;
 
 &lt;!— more —&gt;
 
-&lt;h3&gt;Local, uncommitted changes&lt;/h3&gt;
+&lt;h3 id="local-uncommitted-changes"&gt;Local, uncommitted changes&lt;/h3&gt;
 &lt;p&gt;The above checkout command will fail if you’ve made any modifications to files you checked out from git with a warning about overwriting local changes. In this case, the simple solution is to stash and then reapply your changes (assuming you’ve done the “git fetch” already):&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git stash save
 &lt;/pre&gt;&lt;/div&gt;
@@ -408,12 +360,12 @@ summary: &lt;/p&gt;
 &lt;p&gt;However, it is better to create a local branch, which is one of git’s strengths. You can track your customizations and merge in changes from upstream. &lt;/p&gt;</content><category term="[]"></category></entry><entry><title>convert svg to png with inkscape (OSX)</title><link href="/convert-svg-to-png-with-inkscape-osx.html" rel="alternate"></link><published>2015-01-25T16:21:00+01:00</published><updated>2015-01-25T16:21:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-01-25:/convert-svg-to-png-with-inkscape-osx.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;Set alias to inkscape commandline&lt;/h3&gt;
+&lt;h3 id="set-alias-to-inkscape-commandline"&gt;Set alias to inkscape commandline&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;alias inkscape=&amp;quot;/Applications/Inkscape.app/Contents/Resources/bin/inkscape&amp;quot;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h3&gt;call inkscape to convert&lt;/h3&gt;
+&lt;h3 id="call-inkscape-to-convert"&gt;call inkscape to convert&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; inkscape -z -f test_full.svg -j -e test_full.png
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -421,7 +373,7 @@ summary: &lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>cairosvg</title><link href="/cairosvg.html" rel="alternate"></link><published>2015-01-18T08:09:00+01:00</published><updated>2015-01-18T08:09:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-01-18:/cairosvg.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;Install Cairosvg&lt;/h2&gt;
+&lt;h2 id="install-cairosvg"&gt;Install Cairosvg&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo pip install pycairo
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -438,14 +390,14 @@ summary: &lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h2&gt;Additional&lt;/h2&gt;
+&lt;h2 id="additional"&gt;Additional&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;find out where the svg/cairo libraries were installed&lt;/li&gt;
 &lt;li&gt;make sure that pkg-config finds these, if not, set PKG_CONFIG_PATH to
 point to …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;Install Cairosvg&lt;/h2&gt;
+&lt;h2 id="install-cairosvg"&gt;Install Cairosvg&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo pip install pycairo
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -462,7 +414,7 @@ summary: &lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h2&gt;Additional&lt;/h2&gt;
+&lt;h2 id="additional"&gt;Additional&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;find out where the svg/cairo libraries were installed&lt;/li&gt;
 &lt;li&gt;make sure that pkg-config finds these, if not, set PKG_CONFIG_PATH to
@@ -499,22 +451,22 @@ summary: &lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Omnis and java</title><link href="/omnis-and-java.html" rel="alternate"></link><published>2014-10-26T11:37:00+01:00</published><updated>2014-10-26T11:37:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-10-26:/omnis-and-java.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h1&gt;Research notes on java use in Omnis&lt;/h1&gt;
-&lt;h2&gt;How can I find which version of Java is installed without running an applet in Windows or Mac?&lt;/h2&gt;
+&lt;h1 id="research-notes-on-java-use-in-omnis"&gt;Research notes on java use in Omnis&lt;/h1&gt;
+&lt;h2 id="how-can-i-find-which-version-of-java-is-installed-without-running-an-applet-in-windows-or-mac"&gt;How can I find which version of Java is installed without running an applet in Windows or Mac?&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.java.com/en/download/help/version_manual.xml"&gt;How can I find which version of Java is installed without running an applet in Windows or Mac?&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Strip Java out of Omnis …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;image : 
+&lt;h2 id="strip-java-out-of-omnis-rt"&gt;Strip Java out of Omnis …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h1&gt;Research notes on java use in Omnis&lt;/h1&gt;
-&lt;h2&gt;How can I find which version of Java is installed without running an applet in Windows or Mac?&lt;/h2&gt;
+&lt;h1 id="research-notes-on-java-use-in-omnis"&gt;Research notes on java use in Omnis&lt;/h1&gt;
+&lt;h2 id="how-can-i-find-which-version-of-java-is-installed-without-running-an-applet-in-windows-or-mac"&gt;How can I find which version of Java is installed without running an applet in Windows or Mac?&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.java.com/en/download/help/version_manual.xml"&gt;How can I find which version of Java is installed without running an applet in Windows or Mac?&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Strip Java out of Omnis RT&lt;/h2&gt;
+&lt;h2 id="strip-java-out-of-omnis-rt"&gt;Strip Java out of Omnis RT&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://www.omnis-dev.com/cgi-bin/thiskey.omns?Key=20140813171438"&gt;Re: Strip Java out of Omnis RT - Omnis-Dev&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Information and system requirements for installation and use of Oracle Java on Mac OS X&lt;/h2&gt;
+&lt;h2 id="information-and-system-requirements-for-installation-and-use-of-oracle-java-on-mac-os-x"&gt;Information and system requirements for installation and use of Oracle Java on Mac OS X&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.java.com/nl/download/faq/java_mac.xml#restore"&gt;https://www.java.com/nl/download/faq/java_mac.xml#restore&lt;/a&gt;&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;h2&gt;Verify installation of java runtime on Windows&lt;/h2&gt;
+&lt;h2 id="verify-installation-of-java-runtime-on-windows"&gt;Verify installation of java runtime on Windows&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@echo off
 cls
 setlocal ENABLEEXTENSIONS
@@ -585,27 +537,27 @@ You can disable this for a specific application.&lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Upgrade to Yosemite</title><link href="/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-10-18:/upgrade-to-yosemite.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
 It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in Yosemite.&lt;/p&gt;
 &lt;!-- more --&gt;
 
 &lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h2&gt;Update rvm&lt;/h2&gt;
+&lt;h2 id="update-rvm"&gt;Update rvm&lt;/h2&gt;
 &lt;p&gt;rvm get stable&lt;/p&gt;
-&lt;h2&gt;Fix brew&lt;/h2&gt;
+&lt;h2 id="fix-brew"&gt;Fix brew&lt;/h2&gt;
 &lt;p&gt;Changing 1 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
 It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in Yosemite.&lt;/p&gt;
 &lt;!-- more --&gt;
 
 &lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h2&gt;Update rvm&lt;/h2&gt;
+&lt;h2 id="update-rvm"&gt;Update rvm&lt;/h2&gt;
 &lt;p&gt;rvm get stable&lt;/p&gt;
-&lt;h2&gt;Fix brew&lt;/h2&gt;
+&lt;h2 id="fix-brew"&gt;Fix brew&lt;/h2&gt;
 &lt;p&gt;Changing 1.8  in Current in brew.rb made brew working again.&lt;/p&gt;
 &lt;p&gt;Change&lt;/p&gt;
 &lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -W0&lt;/span&gt;
@@ -617,7 +569,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
-&lt;h2&gt;Ruby&lt;/h2&gt;
+&lt;h2 id="ruby"&gt;Ruby&lt;/h2&gt;
 &lt;p&gt;In order to make some of my projects work again I had to install a different Ruby version.&lt;/p&gt;
 &lt;p&gt;Installing it only with&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rvm install
@@ -630,7 +582,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h2&gt;Bugzilla / perl&lt;/h2&gt;
+&lt;h2 id="bugzilla-perl"&gt;Bugzilla / perl&lt;/h2&gt;
 &lt;p&gt;Symptom:&lt;/p&gt;
 &lt;p&gt;My local Bugzilla installation does not work anymore.&lt;/p&gt;
 &lt;p&gt;Cause:&lt;/p&gt;
@@ -688,15 +640,15 @@ You can execute a mysql command to show in which locations you can place my.cnf 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Bugzilla project switched to Git instead of Bzr.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Moving_From_Bazaar_To_Git"&gt;Moving_From_Bazaar_To_Git&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Git"&gt;Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://bugzilla.readthedocs.org/en/latest/installation.html"&gt;Installation manual&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Git&lt;/h2&gt;
+&lt;h2 id="git"&gt;Git&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://git.mozilla.org/?p=bugzilla/bugzilla.git;a%3Dsummary"&gt;Bugzilla Git Summary&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Update to newer release&lt;/h2&gt;
+&lt;h2 id="update-to-newer-release"&gt;Update to newer release&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Git#Updating_to_a_Newer_Release"&gt;Updating to a newer release&lt;/a&gt;&lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>activate spellcheck in Sublime Text 3</title><link href="/activate-spellcheck-in-sublime-text-3.html" rel="alternate"></link><published>2014-09-27T11:27:00+02:00</published><updated>2014-09-27T11:27:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-09-27:/activate-spellcheck-in-sublime-text-3.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
@@ -809,9 +761,9 @@ Version: v0.1
 Date: 26-8-2014&lt;/p&gt;
 &lt;p&gt;endfooter&lt;/p&gt;
 &lt;p&gt;{% endplantuml %}&lt;/p&gt;</content></entry><entry><title>"Slow Time Machine backup on Mavericks"</title><link href="/slow-time-machine-backup-on-mavericks.html" rel="alternate"></link><published>2014-08-25T09:36:29+02:00</published><updated>2014-08-25T09:36:29+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-25:/slow-time-machine-backup-on-mavericks.html</id><summary type="html">&lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my HD and as a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my HD and as a consequence slows down my Mac.&lt;/p&gt;
 &lt;p&gt;I Googled around to find a solution and although I found some possible solutions I still have the problem.&lt;/p&gt;
 &lt;p&gt;I have also a notebook backing up to the same Synology and this backup is fast as ever.&lt;/p&gt;
@@ -822,7 +774,7 @@ Date: 26-8-2014&lt;/p&gt;
 &lt;p&gt;I am suspecting a hardware problem, possibly the harddisk.&lt;/p&gt;
 &lt;p&gt;Diskutil did not report anything strange.&lt;/p&gt;
 &lt;p&gt;My HD is a Seagate HD thas qualifies for the replacement program, I missed the 3 year deadline, so now I am stuck with this disk.&lt;/p&gt;
-&lt;h2&gt;Software Diagnostics&lt;/h2&gt;
+&lt;h2 id="software-diagnostics"&gt;Software Diagnostics&lt;/h2&gt;
 &lt;p _="%" enddocs&gt;{% docs tip %}
 You can try to run some standard diagnostics tools to eliminate some basic causes.&lt;/p&gt;
 &lt;p&gt;Spotlight diagnostics&lt;/p&gt;
@@ -835,27 +787,27 @@ You can try to run some standard diagnostics tools to eliminate some basic cause
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h2&gt;Hardware Diagnostics&lt;/h2&gt;
+&lt;h2 id="hardware-diagnostics"&gt;Hardware Diagnostics&lt;/h2&gt;
 &lt;p&gt;Next step is to run the Apple Hardware Test (AHT).&lt;/p&gt;
 &lt;p&gt;Reboot and press D before the grey screen.&lt;/p&gt;
-&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;I noticed from the activity monitor that there were several postfix background processes running. These were initiated because I had OSX Server running on this machine as well. Although the email service was not activitated in the configuration, it seemed that these processes were running altogether. &lt;/p&gt;
 &lt;p&gt;I decided to deinstall OSX server and see what would happen.&lt;/p&gt;
 &lt;p&gt;After deinstalling OSX server it seems that my Time Machine backup is running as normal.&lt;/p&gt;
-&lt;p&gt;My analysis is that these postfix processes caused some constant file io which interfered somehow with Spotlight/Time Machine.&lt;/p&gt;</content></entry><entry><title>"Reset Fritz! Powerline 520E"</title><link href="/reset-fritz-powerline-520e.html" rel="alternate"></link><published>2014-08-24T08:38:14+02:00</published><updated>2014-08-24T08:38:14+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-24:/reset-fritz-powerline-520e.html</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;My analysis is that these postfix processes caused some constant file io which interfered somehow with Spotlight/Time Machine.&lt;/p&gt;</content></entry><entry><title>"Reset Fritz! Powerline 520E"</title><link href="/reset-fritz-powerline-520e.html" rel="alternate"></link><published>2014-08-24T08:38:14+02:00</published><updated>2014-08-24T08:38:14+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-24:/reset-fritz-powerline-520e.html</id><summary type="html">&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Sometimes I do not get connection to my FritzBox. After some investigation I found out that this was caused by one of my Powerline 520 E adapters. It was not working as expected, although the LED's were suggesting otherwise&lt;/p&gt;
-&lt;p&gt;I installed the Fritz! Powerline application on my OSX machine …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;I installed the Fritz! Powerline application on my OSX machine …&lt;/p&gt;</summary><content type="html">&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Sometimes I do not get connection to my FritzBox. After some investigation I found out that this was caused by one of my Powerline 520 E adapters. It was not working as expected, although the LED's were suggesting otherwise&lt;/p&gt;
 &lt;p&gt;I installed the Fritz! Powerline application on my OSX machine and I checked if all my adapters where shown.&lt;/p&gt;
 &lt;p&gt;I noticed that one of the adapters is not shown.&lt;/p&gt;
-&lt;h2&gt;How to fix this&lt;/h2&gt;
+&lt;h2 id="how-to-fix-this"&gt;How to fix this&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Click on the adapter that is shown and toggle the Green mode and Switch on LED Display checkboxes&lt;/li&gt;
 &lt;li&gt;Click the OK button&lt;/li&gt;
 &lt;li&gt;Changes will be applied&lt;/li&gt;
 &lt;li&gt;If you are lucky this will fix the problem and the second adapter will appear again.&lt;/li&gt;
 &lt;li&gt;If not, you have to plug/unplug the faulty adapter and try the above steps again.&lt;/li&gt;
-&lt;/ol&gt;</content></entry><entry><title>"Non-standard Service Request workflow"</title><link href="/non-standard-service-request-workflow.html" rel="alternate"></link><published>2014-08-23T16:30:30+02:00</published><updated>2014-08-23T16:30:30+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-23:/non-standard-service-request-workflow.html</id><summary type="html">&lt;h4&gt;Workflow&lt;/h4&gt;
+&lt;/ol&gt;</content></entry><entry><title>"Non-standard Service Request workflow"</title><link href="/non-standard-service-request-workflow.html" rel="alternate"></link><published>2014-08-23T16:30:30+02:00</published><updated>2014-08-23T16:30:30+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-23:/non-standard-service-request-workflow.html</id><summary type="html">&lt;h4 id="workflow"&gt;Workflow&lt;/h4&gt;
 &lt;p&gt;Typical workflow for non standard customer support requests.&lt;/p&gt;
 &lt;p&gt;{% plantuml %}&lt;/p&gt;
 &lt;p&gt;title: &lt;size:60&gt;Non-standard Service Request&lt;/size&gt;&lt;/p&gt;
@@ -874,7 +826,7 @@ You can try to run some standard diagnostics tools to eliminate some basic cause
 :Analyze Service Request;
 :Make estimate;
 :Check planning;
-| Sales …&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;h4&gt;Workflow&lt;/h4&gt;
+| Sales …&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;h4 id="workflow"&gt;Workflow&lt;/h4&gt;
 &lt;p&gt;Typical workflow for non standard customer support requests.&lt;/p&gt;
 &lt;p&gt;{% plantuml %}&lt;/p&gt;
 &lt;p&gt;title: &lt;size:60&gt;Non-standard Service Request&lt;/size&gt;&lt;/p&gt;
@@ -1063,8 +1015,8 @@ summary: &lt;/p&gt;
 &lt;p&gt;I have a Samsung Smart TV (D series). On this TV you can install the Plex app from the Samsung App store. Out of the box the App was not able to find and connect to my Plex Media server (PMS) on my OSX Mavericks machine.
 In this post I describe how to open up the firewall in order to make this setup work.
 &lt;!-- more --&gt;&lt;/p&gt;
-&lt;h2&gt;Samsung Plex app and Plex Media server&lt;/h2&gt;
-&lt;h3&gt;Preparation&lt;/h3&gt;
+&lt;h2 id="samsung-plex-app-and-plex-media-server"&gt;Samsung Plex app and Plex Media server&lt;/h2&gt;
+&lt;h3 id="preparation"&gt;Preparation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Make sure the PMS runs on port 32400, none other will work.&lt;/p&gt;
@@ -1082,7 +1034,7 @@ In this post I describe how to open up the firewall in order to make this setup 
 &lt;p&gt;Make sure no firewall software is blocking access to your PMS&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;OSX firewall ON&lt;/h3&gt;
+&lt;h3 id="osx-firewall-on"&gt;OSX firewall ON&lt;/h3&gt;
 &lt;p&gt;I prefer to leave the Application Firewall (ALF) on. 
 Normal procedure to open up ports for a specific app would be to add the application to the Firewall.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1. Click the Firewall tab in the Security pane.
@@ -1098,15 +1050,15 @@ Normal procedure to open up ports for a specific app would be to add the applica
 
 
 &lt;p&gt;For some reason this was not sufficient and I could not connect to my PMS server&lt;/p&gt;
-&lt;h3&gt;Firewall rules&lt;/h3&gt;
+&lt;h3 id="firewall-rules"&gt;Firewall rules&lt;/h3&gt;
 &lt;p&gt;OSX contains a number of firewalls (ALF, ipfw and pf)
 &lt;a href="http://f.adric.net/index.cgi/wiki?name=MacSec_Firewalls"&gt;MacSec_Firewalls&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;PMS blocked ?&lt;/h3&gt;
+&lt;h3 id="pms-blocked"&gt;PMS blocked ?&lt;/h3&gt;
 &lt;p&gt;For some reason I could not connect and I disabled the ALF firewall. But still I could not connect. I executed the following steps and suddenly I could connect (with the ALF firewall turned on). &lt;/p&gt;
 &lt;p&gt;A couple of days later I found out that even without the rule active (Note: Adding the firewall rule as described does not make the rule stick, you have to add that to a ipfw.conf file) 
 I can connect to the PMS from my SAMSUNG TV and my SAMSUNG BD-D6500. I can not explain this. In any case it was interesting to investigate some firewall stuff.
 So use this info as is.&lt;/p&gt;
-&lt;h3&gt;Add rule to let Samsung TV communicate with PMS&lt;/h3&gt;
+&lt;h3 id="add-rule-to-let-samsung-tv-communicate-with-pms"&gt;Add rule to let Samsung TV communicate with PMS&lt;/h3&gt;
 &lt;p&gt;I used info from this outdated page
 &lt;a href="http://www.ibiblio.org/macsupport/ipfw/"&gt;www.ibiblio.org&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -1119,9 +1071,9 @@ So use this info as is.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;sudo ipfw add allow tcp from 192.168.1.0/24 to any dst-port 32400 in&lt;/p&gt;
 &lt;p&gt;{% endcodeblock %}&lt;/p&gt;
-&lt;h3&gt;Result&lt;/h3&gt;
+&lt;h3 id="result"&gt;Result&lt;/h3&gt;
 &lt;p&gt;After adding this firewall rule and entering the IP address of my PMS server the SAMSUNG app connected succesfully and I was able to play my media.&lt;/p&gt;
-&lt;h3&gt;References&lt;/h3&gt;</content><category term="[Media"></category><category term="Plex"></category><category term="security"></category><category term="firewall"></category><category term="OSX]"></category></entry><entry><title>creating Excel files with python and xlsxwriter</title><link href="/creating-excel-files-with-python-and-xlsxwriter.html" rel="alternate"></link><published>2013-11-23T17:53:00+01:00</published><updated>2013-11-23T17:53:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-11-23:/creating-excel-files-with-python-and-xlsxwriter.html</id><content type="html">&lt;p&gt;image : 
+&lt;h3 id="references"&gt;References&lt;/h3&gt;</content><category term="[Media"></category><category term="Plex"></category><category term="security"></category><category term="firewall"></category><category term="OSX]"></category></entry><entry><title>creating Excel files with python and xlsxwriter</title><link href="/creating-excel-files-with-python-and-xlsxwriter.html" rel="alternate"></link><published>2013-11-23T17:53:00+01:00</published><updated>2013-11-23T17:53:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-11-23:/creating-excel-files-with-python-and-xlsxwriter.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/27140589" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="https://www.slideshare.net/jmncnamara/xlsxwriter" title="Creating Excel files with Python and XlsxWriter" target="_blank"&gt;Creating Excel files with Python and XlsxWriter&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/jmncnamara" target="_blank"&gt;jmncnamara&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
@@ -1198,44 +1150,7 @@ summary: &lt;/p&gt;
 
 &lt;script type="text/javascript"&gt;new SocialBar("1335926344708_social_7496", {buttons:["embed","twitter","facebook","googleplusone","email"],url:"http://tv.ssw.com/1279/daily-scrum-at-microsoft",title:"Scrum at Microsoft: See the TFS Agile Team do a Scrum (aka Stand Up) | SSW TVSSW TV",badgeUrl:"http://wistia.com",embedCode:"%3Ciframe%20width%3D%22640%22%20height%3D%22360%22%20src%3D%22http%3A//www.youtube.com/embed/-UUrLxNBK_g%3Frel%3D0%22%20frameborder%3D%220%22%20allowfullscreen%3E%3C/iframe%3E"})&lt;/script&gt;
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Diagrams with PlantUML</title><link href="/diagrams-with-plantuml.html" rel="alternate"></link><published>2013-06-09T12:37:00+02:00</published><updated>2013-06-09T12:37:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-06-09:/diagrams-with-plantuml.html</id><summary type="html">&lt;p&gt;image : 
-summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
-summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive with it. &lt;/p&gt;
-&lt;p&gt;After my switch to OSX, Omnigraffle seemed the tool to use, but this had the same disadvantages.&lt;/p&gt;
-&lt;p&gt;Recently I came across a tool called PlantUML that can create diagrams based on text.&lt;/p&gt;
-&lt;p&gt;When I found out that somebody had made a plugin for my current blogging environment Octopress it seems that I have won the jackpot.&lt;/p&gt;
-&lt;h3&gt;Example:&lt;/h3&gt;
-&lt;h4&gt;Example 1&lt;/h4&gt;
-&lt;p&gt;{% plantuml %}&lt;/p&gt;
-&lt;p&gt;title Example 1
-Alice -&amp;gt; Bob: Authentication Request
-Bob --&amp;gt; Alice: Authentication Response&lt;/p&gt;
-&lt;p _="%" endplantuml&gt;Alice -&amp;gt; Bob: Another authentication Request
-Alice &amp;lt;-- Bob: another authentication Response&lt;/p&gt;
-&lt;h4&gt;Example 2 : Swim lanes&lt;/h4&gt;
-&lt;p&gt;{% plantuml %}&lt;/p&gt;
-&lt;p&gt;title Example 2&lt;/p&gt;
-&lt;p _="%" endplantuml&gt;| swimlane1 |
-:first;
-:second;
-| swimlane2 |
-:third;
-if (foo) then
-:something;
-endif
-| swimlane1 |
-:back to swimlane1;
-| swimlane2 |
-:back to swimlane2;&lt;/p&gt;
-&lt;!-- more --&gt;
-
-&lt;h3&gt;References&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://plantuml.sourceforge.net/news.html"&gt;PlantUML&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/yjpark/jekyll-plantuml"&gt;Jekyll-plantUML plugin&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>agile project management</title><link href="/agile-project-management.html" rel="alternate"></link><published>2013-05-13T09:56:00+02:00</published><updated>2013-05-13T09:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-13:/agile-project-management.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>agile project management</title><link href="/agile-project-management.html" rel="alternate"></link><published>2013-05-13T09:56:00+02:00</published><updated>2013-05-13T09:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-13:/agile-project-management.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/5052362" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="http://www.slideshare.net/mcottmeyer/understanding-agile-project-management" title="Understanding Agile Project Management" target="_blank"&gt;Understanding Agile Project Management&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/mcottmeyer" target="_blank"&gt;Mike Cottmeyer&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
@@ -1248,17 +1163,17 @@ summary: &lt;/p&gt;
 &lt;p&gt;One of my projects involves the requirement to install a &lt;a href="http://www.atlassian.com/wallboards/"&gt;wallboard&lt;/a&gt; to show the ACD queue of our helpdesk and as a bonus we would like to show the scrumboard our development teams use. I'm looking into a Samsung LED monitor / Samsung Smart TV as part of the solution.
 &lt;!-- more --&gt;&lt;/p&gt;
 &lt;p toc&gt;Contents&lt;/p&gt;
-&lt;h3&gt;What is a wallboard?&lt;/h3&gt;
+&lt;h3 id="what-is-a-wallboard"&gt;What is a wallboard?&lt;/h3&gt;
 &lt;p&gt;A wallboard is a type of information radiator that displays vital data about the progress of the development team. Similar to a scoreboard at a sporting event, wallboards are large, highly visible and easy to understand for anyone walking by.&lt;/p&gt;
 &lt;p&gt;Traditional wallboards are made of paper or use sticky notes on a wall. Electronic wallboards are very effective since they update automatically with real-time data ensuring that people check back regularly.&lt;/p&gt;
-&lt;h3&gt;Software used by others&lt;/h3&gt;
+&lt;h3 id="software-used-by-others"&gt;Software used by others&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://wiki.jenkins-ci.org/display/JENKINS/Wall+Display+Plugin"&gt;Jenkins wall display plugin&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://answers.atlassian.com/questions/156696/would-jira-work-well-in-samsung-smart-tv-built-in-web-browser"&gt;Jira and Greenhopper on Samsung Smart TV&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://marketplace.atlassian.com/plugins/com.atlassian.jirawallboard.atlassian-wallboard-plugin"&gt;Jira Wallboard plugin&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://shopify.github.io/dashing/"&gt;Dashing&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/ITV/radiator-rotator/blob/master/index.html"&gt;Radiator rotator&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://jquery.malsup.com/cycle2/"&gt;Jquery Cycle2&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Hardware used by others&lt;/h3&gt;
+&lt;h3 id="hardware-used-by-others"&gt;Hardware used by others&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://pivotallabs.com/using-a-raspberry-pi-as-an-information-radiator/"&gt;Raspberry Pi&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Fritz!Box 7390 configuration</title><link href="/fritzbox-7390-configuration.html" rel="alternate"></link><published>2013-05-09T12:32:00+02:00</published><updated>2013-05-09T12:32:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-09:/fritzbox-7390-configuration.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
@@ -1266,48 +1181,86 @@ summary: &lt;/p&gt;
 &lt;p&gt;In this article I will describe the configuration and add-ons I installed.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;h2&gt;Contents&lt;/h2&gt;
-&lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h2&gt;The Fritz!Box&lt;/h2&gt;
-&lt;p&gt;![Fritz!Box 3790](/images/fritzbox_7390 product.jpg …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
+&lt;h2 id="contents"&gt;Contents&lt;/h2&gt;
+&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#contents"&gt;Contents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#the-fritzbox"&gt;The Fritz!Box&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#options"&gt;Options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#internet-access"&gt;Internet access&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#using-the-internet-connection-of-another-router-with-fritzbox"&gt;Using the Internet connection …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (POTS) in my daily workflow on my Mac.&lt;/p&gt;
 &lt;p&gt;In this article I will describe the configuration and add-ons I installed.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;h2&gt;Contents&lt;/h2&gt;
-&lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h2&gt;The Fritz!Box&lt;/h2&gt;
+&lt;h2 id="contents"&gt;Contents&lt;/h2&gt;
+&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#contents"&gt;Contents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#the-fritzbox"&gt;The Fritz!Box&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#options"&gt;Options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#internet-access"&gt;Internet access&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#using-the-internet-connection-of-another-router-with-fritzbox"&gt;Using the Internet connection of another router with FRITZ!Box&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#analog-telephony-cisco-epc3212"&gt;Analog telephony (Cisco EPC3212)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#connections-for-tel-1-tel-2"&gt;Connections for TEL 1 / TEL 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#fritzbox-connections"&gt;Fritz!Box connections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#connection-to-a-cable-modem"&gt;Connection to a cable modem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#dect-telephone-device"&gt;DECT telephone device&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#voip-telephony"&gt;VOIP telephony&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#add-ons"&gt;Add-ons&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#alfred-workflow"&gt;Alfred workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#call-diversion-from-script"&gt;Call diversion from script&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#frizzix-call-monitor-mac"&gt;Frizzix Call monitor (MAC)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#fritzbox-browser-add-on"&gt;Fritz!Box browser add-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#dialing-scripts"&gt;dialing scripts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#pop3-mail-checker-and-alert-on-fritzbox"&gt;POP3 mail checker and alert on Fritz!Box&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#fhem"&gt;fhem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#synology-diskstation-front-end"&gt;Synology Diskstation front-end&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#references"&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="the-fritzbox"&gt;The Fritz!Box&lt;/h2&gt;
 &lt;p&gt;![Fritz!Box 3790](/images/fritzbox_7390 product.jpg)&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.avm.de/en/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7390/index.php"&gt;The Fritz!Box 7390&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Options&lt;/h3&gt;
-&lt;h2&gt;Internet access&lt;/h2&gt;
+&lt;h3 id="options"&gt;Options&lt;/h3&gt;
+&lt;h2 id="internet-access"&gt;Internet access&lt;/h2&gt;
 &lt;p&gt;I have a UPC cable modem &lt;/p&gt;
 &lt;p&gt;&lt;a href="http://192.168.100.1"&gt;CISCO EPC3212&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.cisco.com/web/consumer/support/userguides2/4021203A.pdf"&gt;Cisco EPC3212 User manual&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;![Typical setup](/images/cisco EPC3212 setup.png)&lt;/p&gt;
-&lt;h3&gt;Using the Internet connection of another router with FRITZ!Box&lt;/h3&gt;
+&lt;h3 id="using-the-internet-connection-of-another-router-with-fritzbox"&gt;Using the Internet connection of another router with FRITZ!Box&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://service.avm.de/support/en/SKB/FRITZ-Box-7390-int/598:Using-the-Internet-connection-of-another-router-with-FRITZ-Box"&gt;Using the Internet connection of another router with FRITZ!Box&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Analog telephony (Cisco EPC3212)&lt;/h2&gt;
-&lt;h4&gt;Connections for TEL 1 / TEL 2&lt;/h4&gt;
+&lt;h2 id="analog-telephony-cisco-epc3212"&gt;Analog telephony (Cisco EPC3212)&lt;/h2&gt;
+&lt;h4 id="connections-for-tel-1-tel-2"&gt;Connections for TEL 1 / TEL 2&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="TEL 1/TEL 2 connections" src="/images/EPC3212.png"&gt;&lt;/p&gt;
-&lt;h4&gt;Fritz!Box connections&lt;/h4&gt;
+&lt;h4 id="fritzbox-connections"&gt;Fritz!Box connections&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="Fritz!Box 3790" src="/images/fritzbox_7390.jpg"&gt;&lt;/p&gt;
-&lt;h4&gt;Connection to a cable modem&lt;/h4&gt;
+&lt;h4 id="connection-to-a-cable-modem"&gt;Connection to a cable modem&lt;/h4&gt;
 &lt;p&gt;&lt;a href="http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/700:Connecting-FRITZ-Box-to-a-cable-modem"&gt;Connection to a cable modem&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I wanted to use the Fritz!Box as part of my existing network.
 I decided not to use the WLAN option of the Fritz!Box, but instead I bought a Fritz! Powerline 520 E set, because I did not have a cabled network connection on the location where the Internet modem was located. In this setup I could connect the Internet modem to the LAN 1/WAN connection of my Fritz!Box.&lt;/p&gt;
-&lt;h3&gt;DECT telephone device&lt;/h3&gt;
+&lt;h3 id="dect-telephone-device"&gt;DECT telephone device&lt;/h3&gt;
 &lt;p&gt;The Fritz!Box 7390 offers a basestation, upto 6 DECT telephones can be connected. &lt;/p&gt;
 &lt;p&gt;Note: For now I do not have any DECT phones connected. &lt;/p&gt;
 &lt;p&gt;Update: Some developments here. I bought a DECT Gigaset A420A TRIO. When they are setup I will update my findings.&lt;/p&gt;
-&lt;h2&gt;VOIP telephony&lt;/h2&gt;
+&lt;h2 id="voip-telephony"&gt;VOIP telephony&lt;/h2&gt;
 &lt;p&gt;For OSX there are several softphone apps available:&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.tlphn.com/"&gt;Telephone&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://counterpath.s3.amazonaws.com/downloads/X-Lite_Mac_3520g_70143.dmg"&gt;Counterpath X-Lite&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Add-ons&lt;/h2&gt;
-&lt;h3&gt;Alfred workflow&lt;/h3&gt;
+&lt;h2 id="add-ons"&gt;Add-ons&lt;/h2&gt;
+&lt;h3 id="alfred-workflow"&gt;Alfred workflow&lt;/h3&gt;
 &lt;p&gt;I created a simple Alfred 2 workflow that calls the Frizzix dial helper.&lt;/p&gt;
 &lt;p&gt;Use keyword "Dial" to trigger a little Applescript that contains:&lt;/p&gt;
 &lt;p&gt;{% codeblock lang:applescript %}&lt;/p&gt;
@@ -1322,9 +1275,9 @@ I decided not to use the WLAN option of the Fritz!Box, but instead I bought a Fr
     end tell
 end alfred_script&lt;/p&gt;
 &lt;p&gt;{% endcodeblock %}&lt;/p&gt;
-&lt;h3&gt;Call diversion from script&lt;/h3&gt;
+&lt;h3 id="call-diversion-from-script"&gt;Call diversion from script&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://www.robbastiaansen.nl/node/51"&gt;Call diversion script&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Frizzix Call monitor (MAC)&lt;/h3&gt;
+&lt;h3 id="frizzix-call-monitor-mac"&gt;Frizzix Call monitor (MAC)&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://mac.frizzix.de/en/"&gt;Frizzix&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I also installed:&lt;/p&gt;
 &lt;ul&gt;
@@ -1335,25 +1288,25 @@ end alfred_script&lt;/p&gt;
 &lt;p&gt;Services plugin&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Fritz!Box browser add-on&lt;/h3&gt;
+&lt;h3 id="fritzbox-browser-add-on"&gt;Fritz!Box browser add-on&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://www.avm.de/de/Service/FRITZ_Tools/browser_plugin.html"&gt;Add-on for Firefox&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Note: it seems that in my setup phone numbers are recognized in webpages, but dialing out does not work.&lt;/p&gt;
-&lt;h3&gt;dialing scripts&lt;/h3&gt;
+&lt;h3 id="dialing-scripts"&gt;dialing scripts&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://wehavemorefun.de/fritzbox/W%C3%A4hlen_aus_OS_X_Adressbuch"&gt;Dialing from Address book&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;POP3 mail checker and alert on Fritz!Box&lt;/h3&gt;
+&lt;h3 id="pop3-mail-checker-and-alert-on-fritzbox"&gt;POP3 mail checker and alert on Fritz!Box&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://wehavemorefun.de/fritzbox/POP3-Robot"&gt;POP3-Robot&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;fhem&lt;/h3&gt;
+&lt;h3 id="fhem"&gt;fhem&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://fhem.de/fritzbox.html"&gt;fhem&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Synology Diskstation front-end&lt;/h3&gt;
+&lt;h3 id="synology-diskstation-front-end"&gt;Synology Diskstation front-end&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://spk.q14six.de/"&gt;Fritz!Box front-end package&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;References&lt;/h2&gt;
+&lt;h2 id="references"&gt;References&lt;/h2&gt;
 &lt;p&gt;[1] &lt;a href="http://http://en.wikipedia.org/wiki/Plain_old_telephone_service"&gt;POTS&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] &lt;a href="http://www.avm.de"&gt;AVM&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[3] &lt;a href="http://http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/page:1"&gt;AVM Knowledge base&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband review&lt;/a&gt; &lt;/p&gt;</content><category term="[telephony"></category><category term="VOIP]"></category></entry><entry><title>synology diskstation acces from internet</title><link href="/synology-diskstation-acces-from-internet.html" rel="alternate"></link><published>2013-05-05T11:14:00+02:00</published><updated>2013-05-05T11:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-05:/synology-diskstation-acces-from-internet.html</id><summary type="html">&lt;h2&gt;image :&lt;/h2&gt;
+&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband review&lt;/a&gt; &lt;/p&gt;</content><category term="[telephony"></category><category term="VOIP]"></category></entry><entry><title>synology diskstation acces from internet</title><link href="/synology-diskstation-acces-from-internet.html" rel="alternate"></link><published>2013-05-05T11:14:00+02:00</published><updated>2013-05-05T11:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-05:/synology-diskstation-acces-from-internet.html</id><summary type="html">&lt;h2 id="image"&gt;image :&lt;/h2&gt;
 &lt;p&gt;I recently bought a Synology Diskstation DS213+.
 Installation went smoothly and within an hour the basic things were working as expected.&lt;/p&gt;
-&lt;p&gt;I wanted to access the NAS also from the internet, so I used the EZ-Internet wizard to configure it. I created a synology.me account and created a …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;image :&lt;/h2&gt;
+&lt;p&gt;I wanted to access the NAS also from the internet, so I used the EZ-Internet wizard to configure it. I created a synology.me account and created a …&lt;/p&gt;</summary><content type="html">&lt;h2 id="image"&gt;image :&lt;/h2&gt;
 &lt;p&gt;I recently bought a Synology Diskstation DS213+.
 Installation went smoothly and within an hour the basic things were working as expected.&lt;/p&gt;
 &lt;p&gt;I wanted to access the NAS also from the internet, so I used the EZ-Internet wizard to configure it. I created a synology.me account and created a DDNS entry. For some reason the portforwarding on my Netgear WNDR3700 was not working as expected. Some people hinted that you could make some manual portforwarding rules, so I decided to give that a try.
@@ -1366,7 +1319,7 @@ Installation went smoothly and within an hour the basic things were working as e
 &lt;p&gt;Bingo! I could add the rule and the forwarding is working OK now.&lt;/p&gt;
 &lt;p&gt;So my conclusion for now is that for some reason the EZ-Internet wizard is not working OK and does not detect that the forwarding rules were not applied correctly.&lt;/p&gt;
 &lt;p&gt;Please comment if I have overlooked something.&lt;/p&gt;
-&lt;h2&gt;References&lt;/h2&gt;
+&lt;h2 id="references"&gt;References&lt;/h2&gt;
 &lt;p&gt;[1] &lt;a href="http://forum.synology.com/wiki/index.php/Remote_Access_on_the_Synology_DiskStation"&gt;Remote Access on the Synology DiskStation&lt;/a&gt;&lt;/p&gt;</content><category term="[diskstation"></category><category term="synology]"></category></entry><entry><title>Alfred workflow for Octopress</title><link href="/alfred-workflow-for-octopress.html" rel="alternate"></link><published>2013-04-23T13:34:00+02:00</published><updated>2013-04-23T13:34:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-23:/alfred-workflow-for-octopress.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
@@ -1393,23 +1346,23 @@ summary: &lt;/p&gt;
 &lt;p&gt;{% highlight bash %}
 cd $HOME/Sites/dailyscrum
 [[ -s "$HOME/.rvm/scripts/rvm" ]] &amp;amp;&amp;amp; source "$HOME/.rvm/scripts/rvm"&lt;/p&gt;
-&lt;h1&gt;without the below settings you get an error&lt;/h1&gt;
-&lt;h1&gt;plugins/backtick_code_block.rb:13:in `gsub': invalid byte sequence in US-ASCII (ArgumentError)&lt;/h1&gt;
+&lt;h1 id="without-the-below-settings-you-get-an-error"&gt;without the below settings you get an error&lt;/h1&gt;
+&lt;h1 id="pluginsbacktick_code_blockrb13in-gsub-invalid-byte-sequence-in-us-ascii-argumenterror"&gt;plugins/backtick_code_block.rb:13:in `gsub': invalid byte sequence in US-ASCII (ArgumentError)&lt;/h1&gt;
 &lt;p&gt;export LANG=en_US.utf-8&lt;/p&gt;
 &lt;p&gt;bundle install
 rake generate 2&amp;gt;&amp;amp;1 | tee $HOME/Sites/dailyscrum/error.log&lt;/p&gt;
 &lt;p&gt;{% endhighlight %}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Installation notes Testopia</title><link href="/installation-notes-testopia.html" rel="alternate"></link><published>2013-04-21T21:00:00+02:00</published><updated>2013-04-21T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-21:/installation-notes-testopia.html</id><summary type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make Testopia work on my local installation. This will be updated as I go along.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go along.
 &lt;!-- more --&gt;&lt;/p&gt;
-&lt;h3&gt;Testopia testcase management system&lt;/h3&gt;
-&lt;h3&gt;Requirements&lt;/h3&gt;
+&lt;h3 id="testopia-testcase-management-system"&gt;Testopia testcase management system&lt;/h3&gt;
+&lt;h3 id="requirements"&gt;Requirements&lt;/h3&gt;
 &lt;p&gt;The Testopia Extension requires Bugzilla &amp;gt;4.2.
 Testopi version 2.5 is the first release that does not need a patch on Bugzilla to work.&lt;/p&gt;
-&lt;h3&gt;old notes relevant before v2.5&lt;/h3&gt;
-&lt;h2&gt;Installation of Testopia extension&lt;/h2&gt;
-&lt;h3&gt;How to get Testopia&lt;/h3&gt;
+&lt;h3 id="old-notes-relevant-before-v25"&gt;old notes relevant before v2.5&lt;/h3&gt;
+&lt;h2 id="installation-of-testopia-extension"&gt;Installation of Testopia extension&lt;/h2&gt;
+&lt;h3 id="how-to-get-testopia"&gt;How to get Testopia&lt;/h3&gt;
 &lt;p _="%" endhighlight&gt;{% highlight bash %}
 $ bzr branch bzr://bzr.mozilla.org/bugzilla/extensions/testopia/trunk&lt;/p&gt;
-&lt;h3&gt;Patch Bugzilla 4.2&lt;/h3&gt;
+&lt;h3 id="patch-bugzilla-42"&gt;Patch Bugzilla 4.2&lt;/h3&gt;
 &lt;p&gt;Note: 603-2012: No patch for 4.2 available at time of patching&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;cd to the directory with the Testopia trunk&lt;/li&gt;
@@ -1435,19 +1388,19 @@ Hunk #2 succeeded at 936 (offset 82 lines).
 Hunk #3 succeeded at 1292 (offset 130 lines).
 patching file template/en/default/global/setting-descs.none.tmpl&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Run .checksetup.pl&lt;/h3&gt;
+&lt;h3 id="run-checksetuppl"&gt;Run .checksetup.pl&lt;/h3&gt;
 &lt;p&gt;./checksetup.pl&lt;/p&gt;
-&lt;h3&gt;Install additional dependencies&lt;/h3&gt;
+&lt;h3 id="install-additional-dependencies"&gt;Install additional dependencies&lt;/h3&gt;
 &lt;p _="%" endhighlight&gt;{% highlight bash %}
 $ sudo /usr/bin/perl install-module.pl Text::Diff
 $ sudo /usr/bin/perl install-module.pl GD::Graph3d&lt;/p&gt;
-&lt;h3&gt;Run .checksetup again&lt;/h3&gt;
+&lt;h3 id="run-checksetup-again"&gt;Run .checksetup again&lt;/h3&gt;
 &lt;p _="%" endhighlight&gt;{% highlight bash %}
 $ ./checksetup.pl&lt;/p&gt;
 &lt;p&gt;You should now get &lt;/p&gt;
 &lt;p _="%" endhighlight&gt;{% highlight bash %}
 $ checksetup.pl complete.&lt;/p&gt;
-&lt;h3&gt;Errors on FILTER url_quote&lt;/h3&gt;
+&lt;h3 id="errors-on-filter-url_quote"&gt;Errors on FILTER url_quote&lt;/h3&gt;
 &lt;p&gt;Template-&amp;gt;process() failed twice.
 First error: undef error - url_quote: filter not found
 Second error: undef error - url_quote: filter not found&lt;/p&gt;
@@ -1470,15 +1423,15 @@ find . &lt;em&gt;-type f -name "&lt;/em&gt;.tmpl" -exec replace 'FILTER url_quot
 ./template/en/default/testopia/reports/report.html.tmpl converted
 ./template/en/default/testopia/reports/status.html.tmpl converted
 ./template/en/default/testopia/tag/list.html.tmpl converted&lt;/p&gt;
-&lt;h3&gt;Additional patching&lt;/h3&gt;
-&lt;h4&gt;Search.pm&lt;/h4&gt;
+&lt;h3 id="additional-patching"&gt;Additional patching&lt;/h3&gt;
+&lt;h4 id="searchpm"&gt;Search.pm&lt;/h4&gt;
 &lt;p&gt;There seems to be a problem in Bugzilla/Search.pm&lt;/p&gt;
 &lt;p _="%" bash highlight&gt;A patch was suggested in BZ 596325
 I copied the patch file and applied it&lt;/p&gt;
 &lt;p _="%" endhighlight&gt;$ sudo patch -p0 -i extensions/Testopia/patch-bz596325
 $ chgrp the Search.pm  and make it member of the _www group&lt;/p&gt;
 &lt;p&gt;Patch works and now Testopia-&amp;gt; My plans does not give an error anymore&lt;/p&gt;
-&lt;h3&gt;New plan&lt;/h3&gt;
+&lt;h3 id="new-plan"&gt;New plan&lt;/h3&gt;
 &lt;p&gt;It seems the link New plan is not working.
 In the Apache error_log there are a lot of errors&lt;/p&gt;
 &lt;p _="%" endhighlight&gt;{% highlight bash %}
@@ -1494,18 +1447,18 @@ Downloaded the older version
 http://www.sencha.com/products/extjs/download/ext-js-3.2.1&lt;/p&gt;
 &lt;p&gt;Renamed the folder to extjs&lt;/p&gt;
 &lt;p&gt;Note: Don't forget to refresh. And now it is working.&lt;/p&gt;
-&lt;h3&gt;New run&lt;/h3&gt;
+&lt;h3 id="new-run"&gt;New run&lt;/h3&gt;
 &lt;p&gt;Initially no testcases where shown.
 Investigation of the /var/log/apache2/error_log showed that there was an error with een uninitialized variable.
 I commented out use strict in the header of
 /usr/local/bugzilla/extensions/Testopia/lib/Search.pm&lt;/p&gt;
 &lt;p&gt;Everything OK now.&lt;/p&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;h3 id="reference"&gt;Reference&lt;/h3&gt;
 &lt;p&gt;[1]
-&lt;a href="http://www.mozilla.org/projects/testopia/"&gt;Testopia Mozilla&lt;/a&gt;&lt;/p&gt;</content><category term="testopia bugzilla testmanagement"></category></entry><entry><title>Project Nestor</title><link href="/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-21:/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;a href="http://www.mozilla.org/projects/testopia/"&gt;Testopia Mozilla&lt;/a&gt;&lt;/p&gt;</content><category term="testopia bugzilla testmanagement"></category></entry><entry><title>Project Nestor</title><link href="/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-21:/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Together with Bruno Kinoshita I am involved in a project for the development of a new testcase management application. The working title of the application is Nestor.
 &lt;!-- more --&gt;&lt;/p&gt;
-&lt;h2&gt;Project team&lt;/h2&gt;
+&lt;h2 id="project-team"&gt;Project team&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Bruno Kinoshita&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;co-founder of Tupilabs&lt;/li&gt;
@@ -1520,11 +1473,11 @@ I commented out use strict in the header of
 &lt;li&gt;contributor to Bugzilla project&lt;/li&gt;
 &lt;li&gt;contributor to Testopia project&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Nestor Wiki (work in progress)&lt;/h2&gt;
+&lt;h2 id="nestor-wiki-work-in-progress"&gt;Nestor Wiki (work in progress)&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/nestor-qa/nestor/wiki"&gt;Nestor Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Status demo application&lt;/h2&gt;
+&lt;h2 id="status-demo-application"&gt;Status demo application&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://www.nestor-qa.org" title="Nestor QA"&gt;Nestor QA&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;References&lt;/h2&gt;
+&lt;h2 id="references"&gt;References&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://www.tupilabs.com" title="Tupilabs"&gt;Tupilabs&lt;/a&gt;&lt;/p&gt;</content><category term="testmanagement opensource project"></category></entry><entry><title>Static blog with Jekyll/Octopress</title><link href="/static-blog-with-jekylloctopress.html" rel="alternate"></link><published>2013-04-20T21:00:00+02:00</published><updated>2013-04-20T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-20:/static-blog-with-jekylloctopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;After using several blogging tools over the years I am now heavily into using Markdown. My workflow is becoming more and more based on scripting environments and tools like Alfred.
 So I was looking for a good static blog generator, just like in the old days when I was using Blosxom. 
 Looking for a way to use Markdown as the workhorse I decided to give Jekyll a try. Jekyll is a static blog site generator based on Ruby. I found some projects that use Jekyll and after a day of configuration the first setup is ready.&lt;/p&gt;
@@ -1533,16 +1486,16 @@ Looking for a way to use Markdown as the workhorse I decided to give Jekyll a tr
 &lt;p&gt;I started with a basic Jekyll setup. When I was searching for some info I found a tool based on Jekyll, called Octopress
 I decided to give Octopress a try. This blog is now powered by Octopress.
 When I go along I will update this post with some new notes.&lt;/p&gt;
-&lt;h3&gt;External links&lt;/h3&gt;
+&lt;h3 id="external-links"&gt;External links&lt;/h3&gt;
 &lt;p&gt;[1] When I was installing Octopress I used a good tutorial I found &lt;a href="http://webdesign.tutsplus.com/tutorials/applications/getting-started-with-octopress/"&gt;Getting started with Octopress&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] Also &lt;a href="http://learnaholic.me/2012/10/10/deploying-octopress-to-github-pages-and-setting-custom-subdomain-cname/"&gt;Deploying Octopress to Github Pages&lt;/a&gt; gave some good tips. &lt;/p&gt;
 &lt;p&gt;[3] &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[4] &lt;a href="http://octopress.org/"&gt;Octopress&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[4] &lt;a href="http://code.dblock.org/octopress-setting-up-a-blog-and-contributing-to-an-existing-one"&gt;Setting up a blog and contribute to an existing one&lt;/a&gt;&lt;/p&gt;</content><category term="github blog ruby"></category></entry><entry><title>Installation Bugzilla on OSX Mountain Lion Server</title><link href="/installation-bugzilla-on-osx-mountain-lion-server.html" rel="alternate"></link><published>2013-04-20T10:00:00+02:00</published><updated>2013-04-20T10:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-20:/installation-bugzilla-on-osx-mountain-lion-server.html</id><summary type="html">&lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;I was forced to reinvent the wheel of installing Bugzilla on my development OSX Mountain Lion machine.&lt;/p&gt;
 &lt;p&gt;On this machine I have OSX server running. As perhaps many of you know Apple decided to change the way you can configure the web services. In this post I will …&lt;/p&gt;</summary><content type="html">&lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;I was forced to reinvent the wheel of installing Bugzilla on my development OSX Mountain Lion machine.&lt;/p&gt;
 &lt;p&gt;On this machine I have OSX server running. As perhaps many of you know Apple decided to change the way you can configure the web services. In this post I will describe the steps I took to install Bugzilla. In the first place this is for my own documentation and perhaps it will help others as well.
 &lt;!-- more --&gt;&lt;/p&gt;
@@ -1562,23 +1515,23 @@ Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
 Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs check %}
 Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2&gt;OSX server details&lt;/h2&gt;
+&lt;h2 id="osx-server-details"&gt;OSX server details&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="OSX Server details" src="/images/osx_server_details.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Perl installation&lt;/h2&gt;
+&lt;h2 id="perl-installation"&gt;Perl installation&lt;/h2&gt;
 &lt;p _="%" endhighlight&gt;I assume you have the default Perl installation on your OSX machine
 {% highlight bash %}
 This is perl 5, version 12, subversion 4 (v5.12.4) built for darwin-thread-multi-2level
 (with 2 registered patches, see perl -V for more detail)&lt;/p&gt;
-&lt;h2&gt;MySQL installation&lt;/h2&gt;
+&lt;h2 id="mysql-installation"&gt;MySQL installation&lt;/h2&gt;
 &lt;p&gt;I assume you have installed MySQL &amp;gt;v5.x
 I have v5.5.13 running&lt;/p&gt;
 &lt;p _="%" endhighlight&gt;{% highlight bash %}
 Server version: 5.5.13-log MySQL Community Server (GPL)&lt;/p&gt;
-&lt;h2&gt;Apache Configuration&lt;/h2&gt;
+&lt;h2 id="apache-configuration"&gt;Apache Configuration&lt;/h2&gt;
 &lt;p _="%" endhighlight&gt;OSX Server stores its conf files in :
 {% highlight bash %}
 /Library/Server/Web/Config/apache2&lt;/p&gt;
-&lt;h2&gt;Bugzilla settings&lt;/h2&gt;
+&lt;h2 id="bugzilla-settings"&gt;Bugzilla settings&lt;/h2&gt;
 &lt;p&gt;For Bugzilla the following settings are essential.
 Some of them can be configured through the OSX Server GUI:&lt;/p&gt;
 &lt;p&gt;{% highlight apache %}
@@ -1591,7 +1544,7 @@ Some of them can be configured through the OSX Server GUI:&lt;/p&gt;
   Allow from all 
 &lt;/Directory&gt;&lt;/p&gt;
 &lt;p&gt;{% endhighlight %}&lt;/p&gt;
-&lt;h2&gt;When you are using OSX Mountain Lion (not OSX Server)&lt;/h2&gt;
+&lt;h2 id="when-you-are-using-osx-mountain-lion-not-osx-server"&gt;When you are using OSX Mountain Lion (not OSX Server)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;On Mac OS X 10.8.2, by default: 
 Apache is not enabled and Apple has removed the "Web Sharing" GUI that used to be available in previous versions&lt;/li&gt;
@@ -1600,9 +1553,9 @@ Apache is not enabled and Apple has removed the "Web Sharing" GUI that used to b
 &lt;p _="%" endhighlight&gt;httpd.conf is located in
 {% highlight bash %}
  /private/etc/apache2&lt;/p&gt;
-&lt;h3&gt;New installation&lt;/h3&gt;
+&lt;h3 id="new-installation"&gt;New installation&lt;/h3&gt;
 &lt;p&gt;TODO&lt;/p&gt;
-&lt;h3&gt;Upgrade with bzr&lt;/h3&gt;
+&lt;h3 id="upgrade-with-bzr"&gt;Upgrade with bzr&lt;/h3&gt;
 &lt;p&gt;Note:I assume you have installed bzr on your OS.&lt;/p&gt;
 &lt;p _="%" endhighlight&gt;Go to your Bugzilla home directory
 {% highlight bash %}
@@ -1615,6 +1568,6 @@ Switched to branch: bzr://bzr.mozilla.org/bugzilla/4.4/&lt;/p&gt;
 &lt;p _="%" endhighlight&gt;Run checksetup
 {% highlight bash %}
 sudo ./checksetup.pl&lt;/p&gt;
-&lt;h2&gt;External links&lt;/h2&gt;
+&lt;h2 id="external-links"&gt;External links&lt;/h2&gt;
 &lt;p&gt;[1] &lt;a href="http://www.springsurprise.com/2009/09/30/installing-bugzilla-on-mac-os-x-server/"&gt;Installing Bugzilla on OSX server&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] &lt;a href="http://www.bugzilla.org/docs/tip/en/html/os-specific.html"&gt;Installation guide Bugzilla - OS Specific&lt;/a&gt;&lt;/p&gt;</content></entry></feed>

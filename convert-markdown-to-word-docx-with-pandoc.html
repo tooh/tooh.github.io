@@ -74,25 +74,25 @@ summary: </p>
 <hr>
 <p>If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
 <!-- more --></p>
-<h3>Installation</h3>
+<h3 id="installation">Installation</h3>
 <p>My OS is OSX so the easiest is to use Homebrew.</p>
-<h4>With homebrew</h4>
+<h4 id="with-homebrew">With homebrew</h4>
 <div class="highlight"><pre><span></span>$ brew install pandoc
 </pre></div>
 
 
-<h4>Use the installer</h4>
+<h4 id="use-the-installer">Use the installer</h4>
 <p>Go to the github project downloads</p>
 <div class="highlight"><pre><span></span>https://github.com/jgm/pandoc/releases/
 </pre></div>
 
 
-<h3>Convert your document</h3>
+<h3 id="convert-your-document">Convert your document</h3>
 <div class="highlight"><pre><span></span>$ pandoc -o output.docx -f markdown -t docx markdown-file.md
 </pre></div>
 
 
-<h3>Make it easy</h3>
+<h3 id="make-it-easy">Make it easy</h3>
 <p>To make it even easier I added the below code to my .bashrc file</p>
 <div class="highlight"><pre><span></span><span class="p">...</span>
 
@@ -114,14 +114,14 @@ summary: </p>
 </pre></div>
 
 
-<h3>Convert a file</h3>
+<h3 id="convert-a-file">Convert a file</h3>
 <div class="highlight"><pre><span></span> md2word ~/path/to/some/markdown/file/to/convert.md ~/path/to/some/word/document/output.docx
 </pre></div>
 
 
-<h3>Use Pandoc from Sublime</h3>
+<h3 id="use-pandoc-from-sublime">Use Pandoc from Sublime</h3>
 <p>http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html</p>
-<h4>My customized build file</h4>
+<h4 id="my-customized-build-file">My customized build file</h4>
 <div class="highlight"><pre><span></span>{
     &quot;cmd&quot;: [&quot;/usr/local/bin/pandoc&quot;, &quot;-S&quot;, &quot;-s&quot;, &quot;-f&quot;, &quot;markdown&quot;, &quot;-t&quot;, &quot;docx&quot;, &quot;-o&quot;, &quot;/Users/peter/Documents/Docs/Inbox/$file_base_name.docx&quot;, &quot;$file_name&quot;],
     &quot;selector&quot;: &quot;text.html.markdown&quot;
