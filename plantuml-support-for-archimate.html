@@ -73,59 +73,7 @@
 summary: </p>
 <hr>
 <p>PlantUML has a proposal for some support for Archimate.</p>
-<p>{% plantuml %}</p>
-<p>sprite $bProcess jar:archimate/business-process
-sprite $aService jar:archimate/application-service
-sprite $aComponent jar:archimate/application-component</p>
-<p>rectangle "Handle claim"  as HC &lt;&lt;$bProcess&gt;&gt; #yellow 
-rectangle "Capture Information"  as CI &lt;&lt;$bProcess&gt;&gt; #yellow
-rectangle "Notify\nAdditional Stakeholders" as NAS &lt;&lt;$bProcess&gt;&gt; #yellow
-rectangle "Validate" as V &lt;&lt;$bProcess&gt;&gt; #yellow
-rectangle "Investigate" as I &lt;&lt;$bProcess&gt;&gt; #yellow
-rectangle "Pay" as P &lt;&lt;$bProcess&gt;&gt; #yellow</p>
-<p>HC <em>-down- CI
-HC </em>-down- NAS
-HC <em>-down- V
-HC </em>-down- I
-HC *-down- P</p>
-<p>CI -right-&gt;&gt; NAS
-NAS -right-&gt;&gt; V
-V -right-&gt;&gt; I
-I -right-&gt;&gt; P</p>
-<p>rectangle "Scanning" as scanning &lt;&lt;$aService&gt;&gt; #A9DCDF
-rectangle "Customer administration" as customerAdministration &lt;&lt;$aService&gt;&gt; #A9DCDF
-rectangle "Claims administration" as claimsAdministration &lt;&lt;$aService&gt;&gt; #A9DCDF
-rectangle Printing  &lt;&lt;$aService&gt;&gt; #A9DCDF
-rectangle Payment  &lt;&lt;$aService&gt;&gt; #A9DCDF</p>
-<p>scanning -up-&gt; CI
-customerAdministration  -up-&gt; CI
-claimsAdministration -up-&gt; NAS
-claimsAdministration -up-&gt; V
-claimsAdministration -up-&gt; I
-Printing -up-&gt; V
-Printing -up-&gt; P
-Payment -up-&gt; P</p>
-<p>rectangle "Document\nManagement\nSystem" as DMS &lt;&lt;$aComponent&gt;&gt; #A9DCDF
-rectangle "General\nCRM\nSystem" as CRM &lt;&lt;$aComponent&gt;&gt; #A9DCDF
-rectangle "Home &amp; Away\nPolicy\nAdministration" as HAPA &lt;&lt;$aComponent&gt;&gt; #A9DCDF
-rectangle "Home &amp; Away\nFinancial\nAdministration" as HFPA &lt;&lt;$aComponent&gt;&gt; #A9DCDF</p>
-<p>DMS .up.|&gt; scanning
-DMS .up.|&gt; Printing
-CRM .up.|&gt; customerAdministration
-HAPA .up.|&gt; claimsAdministration
-HFPA .up.|&gt; Payment</p>
-<p>legend left
-Example from the "Archisurance case study" (OpenGroup).
-See 
-==
-&lt;$bProcess&gt; :business process
-==
-&lt;$aService&gt; : application service
-==
-&lt;$aComponent&gt; : application component
-endlegend</p>
-<p>{% endplantuml %}</p>
-<!-- more --></div>
+<img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/61fe4618.png"><!-- more --></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">

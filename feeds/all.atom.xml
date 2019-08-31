@@ -8,13 +8,7 @@ node -v&lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>testgantt</title><link href="/testgantt.html" rel="alternate"></link><published>2018-07-27T09:14:00+02:00</published><updated>2018-07-27T09:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2018-07-27:/testgantt.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;{% plantuml %}&lt;/p&gt;
-&lt;p&gt;@startgantt
-[Prototype design] lasts 15 days
-[Test prototype] lasts 10 days
-@endgantt&lt;/p&gt;
-&lt;p&gt;{% endplantuml %}&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>test_includes</title><link href="/test_includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2017-12-25:/test_includes.html</id><summary type="html">&lt;p&gt;image : 
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/6bf61f17.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>test_includes</title><link href="/test_includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2017-12-25:/test_includes.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;!-- more --&gt;
@@ -102,74 +96,11 @@ summary: &lt;/p&gt;
   FFFFFFFFFFFFFFF
 }
 Alice -&amp;gt; Bob : Testing &amp;lt;$foo1&amp;gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>PlantUML support for Archimate</title><link href="/plantuml-support-for-archimate.html" rel="alternate"></link><published>2016-05-05T07:20:00+02:00</published><updated>2016-05-05T07:20:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-05:/plantuml-support-for-archimate.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>PlantUML support for Archimate</title><link href="/plantuml-support-for-archimate.html" rel="alternate"></link><published>2016-05-05T07:20:00+02:00</published><updated>2016-05-05T07:20:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-05:/plantuml-support-for-archimate.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;PlantUML has a proposal for some support for Archimate.&lt;/p&gt;
-&lt;p&gt;{% plantuml %}&lt;/p&gt;
-&lt;p&gt;sprite $bProcess jar:archimate/business-process
-sprite $aService jar:archimate/application-service
-sprite $aComponent jar:archimate/application-component&lt;/p&gt;
-&lt;p&gt;rectangle "Handle claim"  as HC &amp;lt;&amp;lt;$bProcess&amp;gt;&amp;gt; #yellow 
-rectangle "Capture Information"  as CI &amp;lt;&amp;lt;$bProcess&amp;gt;&amp;gt; #yellow
-rectangle "Notify\nAdditional Stakeholders" as NAS &amp;lt;&amp;lt;$bProcess&amp;gt;&amp;gt; #yellow
-rectangle …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
-summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;PlantUML has a proposal for some support for Archimate.&lt;/p&gt;
-&lt;p&gt;{% plantuml %}&lt;/p&gt;
-&lt;p&gt;sprite $bProcess jar:archimate/business-process
-sprite $aService jar:archimate/application-service
-sprite $aComponent jar:archimate/application-component&lt;/p&gt;
-&lt;p&gt;rectangle "Handle claim"  as HC &amp;lt;&amp;lt;$bProcess&amp;gt;&amp;gt; #yellow 
-rectangle "Capture Information"  as CI &amp;lt;&amp;lt;$bProcess&amp;gt;&amp;gt; #yellow
-rectangle "Notify\nAdditional Stakeholders" as NAS &amp;lt;&amp;lt;$bProcess&amp;gt;&amp;gt; #yellow
-rectangle "Validate" as V &amp;lt;&amp;lt;$bProcess&amp;gt;&amp;gt; #yellow
-rectangle "Investigate" as I &amp;lt;&amp;lt;$bProcess&amp;gt;&amp;gt; #yellow
-rectangle "Pay" as P &amp;lt;&amp;lt;$bProcess&amp;gt;&amp;gt; #yellow&lt;/p&gt;
-&lt;p&gt;HC &lt;em&gt;-down- CI
-HC &lt;/em&gt;-down- NAS
-HC &lt;em&gt;-down- V
-HC &lt;/em&gt;-down- I
-HC *-down- P&lt;/p&gt;
-&lt;p&gt;CI -right-&amp;gt;&amp;gt; NAS
-NAS -right-&amp;gt;&amp;gt; V
-V -right-&amp;gt;&amp;gt; I
-I -right-&amp;gt;&amp;gt; P&lt;/p&gt;
-&lt;p&gt;rectangle "Scanning" as scanning &amp;lt;&amp;lt;$aService&amp;gt;&amp;gt; #A9DCDF
-rectangle "Customer administration" as customerAdministration &amp;lt;&amp;lt;$aService&amp;gt;&amp;gt; #A9DCDF
-rectangle "Claims administration" as claimsAdministration &amp;lt;&amp;lt;$aService&amp;gt;&amp;gt; #A9DCDF
-rectangle Printing  &amp;lt;&amp;lt;$aService&amp;gt;&amp;gt; #A9DCDF
-rectangle Payment  &amp;lt;&amp;lt;$aService&amp;gt;&amp;gt; #A9DCDF&lt;/p&gt;
-&lt;p&gt;scanning -up-&amp;gt; CI
-customerAdministration  -up-&amp;gt; CI
-claimsAdministration -up-&amp;gt; NAS
-claimsAdministration -up-&amp;gt; V
-claimsAdministration -up-&amp;gt; I
-Printing -up-&amp;gt; V
-Printing -up-&amp;gt; P
-Payment -up-&amp;gt; P&lt;/p&gt;
-&lt;p&gt;rectangle "Document\nManagement\nSystem" as DMS &amp;lt;&amp;lt;$aComponent&amp;gt;&amp;gt; #A9DCDF
-rectangle "General\nCRM\nSystem" as CRM &amp;lt;&amp;lt;$aComponent&amp;gt;&amp;gt; #A9DCDF
-rectangle "Home &amp;amp; Away\nPolicy\nAdministration" as HAPA &amp;lt;&amp;lt;$aComponent&amp;gt;&amp;gt; #A9DCDF
-rectangle "Home &amp;amp; Away\nFinancial\nAdministration" as HFPA &amp;lt;&amp;lt;$aComponent&amp;gt;&amp;gt; #A9DCDF&lt;/p&gt;
-&lt;p&gt;DMS .up.|&amp;gt; scanning
-DMS .up.|&amp;gt; Printing
-CRM .up.|&amp;gt; customerAdministration
-HAPA .up.|&amp;gt; claimsAdministration
-HFPA .up.|&amp;gt; Payment&lt;/p&gt;
-&lt;p&gt;legend left
-Example from the "Archisurance case study" (OpenGroup).
-See 
-==
-&amp;lt;$bProcess&amp;gt; :business process
-==
-&amp;lt;$aService&amp;gt; : application service
-==
-&amp;lt;$aComponent&amp;gt; : application component
-endlegend&lt;/p&gt;
-&lt;p&gt;{% endplantuml %}&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Convert Font Awesome to png</title><link href="/convert-font-awesome-to-png.html" rel="alternate"></link><published>2016-05-01T13:53:00+02:00</published><updated>2016-05-01T13:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-01:/convert-font-awesome-to-png.html</id><content type="html">&lt;p&gt;image : 
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/61fe4618.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Convert Font Awesome to png</title><link href="/convert-font-awesome-to-png.html" rel="alternate"></link><published>2016-05-01T13:53:00+02:00</published><updated>2016-05-01T13:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-01:/convert-font-awesome-to-png.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Font Awesome is a font set containg a large icon set containing a lot of standard icons. &lt;/p&gt;
