@@ -152,55 +152,6 @@ summary: </p>
   		<article>
 <header>
     
-    <div id="qr-code-testdiagram.html" class="qr-code-image-block"></div>
-    <script src="/theme/js/qr.min.js" type="text/javascript"></script>
-    <script>
-        var img = qr.image({
-            value: '/testdiagram.html',
-            level: 'L',
-            size: 4
-        });
-        document.getElementById('qr-code-testdiagram.html').appendChild(img);
-    </script>
-      <h1 class="entry-title">
-        <a href="/testdiagram.html">testdiagram</a>
-      </h1>
-    <p class="meta">
-<time datetime="2015-08-14T07:27:00+02:00" pubdate>Fri 14 August 2015</time>    </p>
-</header>
-
-  <div class="entry-content"><p>image : 
-summary: </p>
-<hr>
-<p>{% plantuml %}</p>
-<p>skinparam component {
-  Style uml2
-  BackgroundColor #FEFECE
-}
-node "Database Server" {
-  database "MSSQL / ORA \n " {
-    [DB] as DB
-  }
-}
-node "Business Logic Server" {
-  frame "Windows Service Host" {
-    package "GUIService" {
-      [GuiService] as GuiService
-    }
-    package "ExtService" {
-      [ExtService] as ExtService
-    }
-  }
-}
-node "Update Server \n (can be hosted on \n BL Server)" {
-  folder "Remote …</p></div>
-  <footer>
-    <a rel="full-article" href="/testdiagram.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-    
     <div id="qr-code-itunes-sharing-troubleshooting.html" class="qr-code-image-block"></div>
     <script src="/theme/js/qr.min.js" type="text/javascript"></script>
     <script>
@@ -401,6 +352,38 @@ summary: </p>
 <p>Firmware Update  software for Fritz! Powerline is only officially for Windows. </p>
 <p>But there is beta software that can do the update on OSX.</p>
 <p>ftp://ftp.avm.de/fritz.box/fritz.powerline/deutsch/mac_beta/</p>
+<!-- more --></div>
+  		</article>
+  		<article>
+<header>
+    
+    <div id="qr-code-jenkins-jobs-lost.html" class="qr-code-image-block"></div>
+    <script src="/theme/js/qr.min.js" type="text/javascript"></script>
+    <script>
+        var img = qr.image({
+            value: '/jenkins-jobs-lost.html',
+            level: 'L',
+            size: 4
+        });
+        document.getElementById('qr-code-jenkins-jobs-lost.html').appendChild(img);
+    </script>
+      <h1 class="entry-title">
+        <a href="/jenkins-jobs-lost.html">jenkins jobs lost</a>
+      </h1>
+    <p class="meta">
+<time datetime="2014-11-23T11:47:00+01:00" pubdate>Sun 23 November 2014</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image : 
+summary: </p>
+<hr>
+<p>On my local development machine I noticed that I missed all my jobs.</p>
+<p>On my OSX machine all the job info was there in the .jenkins/jobs directory.</p>
+<p>Adding the following to my startjenkins.sh script solved the problem.</p>
+<div class="highlight"><pre><span></span>export JENKINS_HOME=/Users/peter/.jenkins
+</pre></div>
+
+
 <!-- more --></div>
   		</article>
 <div class="pagination">
