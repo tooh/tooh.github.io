@@ -5,46 +5,7 @@ summary: &lt;/p&gt;
 &lt;p&gt;sudo curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -&lt;/p&gt;
 &lt;p&gt;sudo apt-get install -y nodejs
 node -v&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>testgantt</title><link href="/testgantt.html" rel="alternate"></link><published>2018-07-27T09:14:00+02:00</published><updated>2018-07-27T09:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2018-07-27:/testgantt.html</id><content type="html">&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/6bf61f17.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>test_includes</title><link href="/test_includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2017-12-25:/test_includes.html</id><summary type="html">&lt;p&gt;image : 
-summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;!-- more --&gt;
-
-&lt;p&gt;{% plantuml %}&lt;/p&gt;
-&lt;p&gt;' PlantUML stdlib now includes Icon-Font Sprites! See https://github.com/tupadr3/plantuml-icon-font-sprites&lt;/p&gt;
-&lt;p&gt;!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v1.0.0
-!includeurl ICONURL/common.puml&lt;/p&gt;
-&lt;p&gt;!include &lt;font-awesome/common&gt;
-!include &lt;font-awesome/server&gt;
-!include &lt;font-awesome/database&gt;&lt;/p&gt;
-&lt;p&gt;title Styling example&lt;/p&gt;
-&lt;p&gt;FA_SERVER(web1,web1) #Green
-FA_SERVER(web2,web2) #Yellow
-FA_SERVER(web3,web3) #Blue
-FA_SERVER(web4 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
-summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;!-- more --&gt;
-
-&lt;p&gt;{% plantuml %}&lt;/p&gt;
-&lt;p&gt;' PlantUML stdlib now includes Icon-Font Sprites! See https://github.com/tupadr3/plantuml-icon-font-sprites&lt;/p&gt;
-&lt;p&gt;!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v1.0.0
-!includeurl ICONURL/common.puml&lt;/p&gt;
-&lt;p&gt;!include &lt;font-awesome/common&gt;
-!include &lt;font-awesome/server&gt;
-!include &lt;font-awesome/database&gt;&lt;/p&gt;
-&lt;p&gt;title Styling example&lt;/p&gt;
-&lt;p&gt;FA_SERVER(web1,web1) #Green
-FA_SERVER(web2,web2) #Yellow
-FA_SERVER(web3,web3) #Blue
-FA_SERVER(web4,web4) #YellowGreen&lt;/p&gt;
-&lt;p&gt;FA_DATABASE(db1,LIVE,database,white) #RoyalBlue
-FA_DATABASE(db2,SPARE,database) #Red&lt;/p&gt;
-&lt;p&gt;db1 &amp;lt;--&amp;gt; db2&lt;/p&gt;
-&lt;p _="%" endplantuml&gt;web1 &amp;lt;--&amp;gt; db1
-web2 &amp;lt;--&amp;gt; db1
-web3 &amp;lt;--&amp;gt; db1
-web4 &amp;lt;--&amp;gt; db1&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Skype problem solved</title><link href="/skype-problem-solved.html" rel="alternate"></link><published>2016-10-29T11:41:00+02:00</published><updated>2016-10-29T11:41:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-10-29:/skype-problem-solved.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>testgantt</title><link href="/testgantt.html" rel="alternate"></link><published>2018-07-27T09:14:00+02:00</published><updated>2018-07-27T09:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2018-07-27:/testgantt.html</id><content type="html">&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/6bf61f17.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Skype problem solved</title><link href="/skype-problem-solved.html" rel="alternate"></link><published>2016-10-29T11:41:00+02:00</published><updated>2016-10-29T11:41:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-10-29:/skype-problem-solved.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;For some time I experienced problems with Skype.&lt;/p&gt;
