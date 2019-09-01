@@ -52,6 +52,38 @@
   		<article>
 <header>
     
+    <div id="qr-code-jenkins-jobs-lost.html" class="qr-code-image-block"></div>
+    <script src="/theme/js/qr.min.js" type="text/javascript"></script>
+    <script>
+        var img = qr.image({
+            value: '/jenkins-jobs-lost.html',
+            level: 'L',
+            size: 4
+        });
+        document.getElementById('qr-code-jenkins-jobs-lost.html').appendChild(img);
+    </script>
+      <h1 class="entry-title">
+        <a href="/jenkins-jobs-lost.html">jenkins jobs lost</a>
+      </h1>
+    <p class="meta">
+<time datetime="2014-11-23T11:47:00+01:00" pubdate>Sun 23 November 2014</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image : 
+summary: </p>
+<hr>
+<p>On my local development machine I noticed that I missed all my jobs.</p>
+<p>On my OSX machine all the job info was there in the .jenkins/jobs directory.</p>
+<p>Adding the following to my startjenkins.sh script solved the problem.</p>
+<div class="highlight"><pre><span></span>export JENKINS_HOME=/Users/peter/.jenkins
+</pre></div>
+
+
+<!-- more --></div>
+  		</article>
+  		<article>
+<header>
+    
     <div id="qr-code-click2dial.html" class="qr-code-image-block"></div>
     <script src="/theme/js/qr.min.js" type="text/javascript"></script>
     <script>
@@ -346,52 +378,6 @@ summary: </p>
 
 <p><a href="https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/">Setting up Sublime Text 3 for full stack python development</a></p></div>
   		</article>
-  		<article>
-<header>
-    
-    <div id="qr-code-database-change-requests.html" class="qr-code-image-block"></div>
-    <script src="/theme/js/qr.min.js" type="text/javascript"></script>
-    <script>
-        var img = qr.image({
-            value: '/database-change-requests.html',
-            level: 'L',
-            size: 4
-        });
-        document.getElementById('qr-code-database-change-requests.html').appendChild(img);
-    </script>
-      <h1 class="entry-title">
-        <a href="/database-change-requests.html">"Database change requests"</a>
-      </h1>
-    <p class="meta">
-<time datetime="2014-08-27T09:41:36+02:00" pubdate>Wed 27 August 2014</time>    </p>
-</header>
-
-  <div class="entry-content"><p>{% plantuml %}</p>
-<p>title: <size:30>Database change Request</size></p>
-<dl>
-<dt>| Developer |</dt>
-<dd>Database change request;
-| DBA |
-:Register Database change request;
-:Analyze database change;
-:Update database request;
-| Developer |
-:Assessment impact;
-| DBA |
-if (Proceed?) then (Yes)
-:Update Request;
-:Back to Development;
-else (No)
-:Close Request;
-endif
-| Development |
-:Check planning;
-:Assign Request to Developer;
-:Review and Test database change …</dd></dl></div>
-  <footer>
-    <a rel="full-article" href="/database-change-requests.html">Read On &crarr;</a>
-  </footer>
-  		</article>
 <div class="pagination">
     <a class="prev" href="/index4.html">&larr; Older</a>
 
@@ -403,19 +389,19 @@ endif
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
-          <a href="/update-nodejs-on-raspberry-pi-3.html">Update node.js on Raspberry Pi 3</a>
+          <a href="/test_includes_new.html">test_includes_new</a>
       </li>
       <li class="post">
-          <a href="/test_includes_new.html">test_includes_new</a>
+          <a href="/update-nodejs-on-raspberry-pi-3.html">Update node.js on Raspberry Pi 3</a>
       </li>
       <li class="post">
           <a href="/testgantt.html">testgantt</a>
       </li>
       <li class="post">
-          <a href="/skype-problem-solved.html">Skype problem solved</a>
+          <a href="/test_includes.html">test_includes</a>
       </li>
       <li class="post">
-          <a href="/test-uml-plugin1.html">Test UML plugin1</a>
+          <a href="/skype-problem-solved.html">Skype problem solved</a>
       </li>
     </ul>
   </section>
@@ -432,7 +418,7 @@ endif
 
   <section>
   <h1>Tags</h1>
-    <a href="/tag/.html">[]</a>,    <a href="/tag/jira.html">[Jira]</a>,    <a href="/tag/markdown.html">markdown]</a>,    <a href="/tag/osx.html">OSX]</a>,    <a href="/tag/firewall.html">firewall</a>,    <a href="/tag/rest.html">[rest</a>,    <a href="/tag/telephony.html">[telephony</a>,    <a href="/tag/diskstation.html">[diskstation</a>,    <a href="/tag/testmanagement-opensource-project.html">testmanagement opensource project</a>,    <a href="/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="/tag/media.html">[Media</a>,    <a href="/tag/octopress.html">octopress]</a>,    <a href="/tag/synology.html">synology]</a>,    <a href="/tag/writing.html">[writing</a>,    <a href="/tag/docx.html">[docx</a>,    <a href="/tag/plantuml.html">plantuml</a>,    <a href="/tag/python.html">python]</a>,    <a href="/tag/plex.html">Plex</a>,    <a href="/tag/voip.html">VOIP]</a>,    <a href="/tag/convert.html">convert</a>,    <a href="/tag/github-blog-ruby.html">github blog ruby</a>,    <a href="/tag/security.html">security</a>  </section>
+    <a href="/tag/.html">[]</a>,    <a href="/tag/jira.html">[Jira]</a>,    <a href="/tag/markdown.html">markdown]</a>,    <a href="/tag/osx.html">OSX]</a>,    <a href="/tag/firewall.html">firewall</a>,    <a href="/tag/rest.html">[rest</a>,    <a href="/tag/telephony.html">[telephony</a>,    <a href="/tag/diskstation.html">[diskstation</a>,    <a href="/tag/testmanagement-opensource-project.html">testmanagement opensource project</a>,    <a href="/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="/tag/media.html">[Media</a>,    <a href="/tag/octopress.html">octopress]</a>,    <a href="/tag/synology.html">synology]</a>,    <a href="/tag/writing.html">[writing</a>,    <a href="/tag/diagrams.html">diagrams</a>,    <a href="/tag/docx.html">[docx</a>,    <a href="/tag/plantuml.html">plantuml</a>,    <a href="/tag/python.html">python]</a>,    <a href="/tag/plex.html">Plex</a>,    <a href="/tag/voip.html">VOIP]</a>,    <a href="/tag/convert.html">convert</a>,    <a href="/tag/github-blog-ruby.html">github blog ruby</a>,    <a href="/tag/security.html">security</a>  </section>
 
 
 
