@@ -69,8 +69,8 @@
 <time datetime="2013-05-09T12:32:00+02:00" pubdate>Thu 09 May 2013</time>    </p>
 </header>
 
-  <div class="entry-content"><p>image : 
-summary: </p>
+  <div class="entry-content"><p>Cover : 
+Summary: </p>
 <hr>
 <p>I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (POTS) in my daily workflow on my Mac.</p>
 <p>In this article I will describe the configuration and add-ons I installed.</p>
@@ -111,14 +111,14 @@ summary: </p>
 </ul>
 </div>
 <h2 id="the-fritzbox">The Fritz!Box</h2>
-<p>![Fritz!Box 3790](/images/fritzbox_7390 product.jpg)</p>
+<p>![Fritz!Box 3790]({static}/images/fritzbox_7390 product.jpg)</p>
 <p><a href="http://www.avm.de/en/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7390/index.php">The Fritz!Box 7390</a></p>
 <h3 id="options">Options</h3>
 <h2 id="internet-access">Internet access</h2>
 <p>I have a UPC cable modem </p>
 <p><a href="http://192.168.100.1">CISCO EPC3212</a></p>
 <p><a href="http://www.cisco.com/web/consumer/support/userguides2/4021203A.pdf">Cisco EPC3212 User manual</a></p>
-<p>![Typical setup](/images/cisco EPC3212 setup.png)</p>
+<p>![Typical setup]({static}/images/cisco EPC3212 setup.png)</p>
 <h3 id="using-the-internet-connection-of-another-router-with-fritzbox">Using the Internet connection of another router with FRITZ!Box</h3>
 <p><a href="http://service.avm.de/support/en/SKB/FRITZ-Box-7390-int/598:Using-the-Internet-connection-of-another-router-with-FRITZ-Box">Using the Internet connection of another router with FRITZ!Box</a></p>
 <h2 id="analog-telephony-cisco-epc3212">Analog telephony (Cisco EPC3212)</h2>
@@ -142,18 +142,19 @@ I decided not to use the WLAN option of the Fritz!Box, but instead I bought a Fr
 <h3 id="alfred-workflow">Alfred workflow</h3>
 <p>I created a simple Alfred 2 workflow that calls the Frizzix dial helper.</p>
 <p>Use keyword "Dial" to trigger a little Applescript that contains:</p>
-<p>{% codeblock lang:applescript %}</p>
-<p>on alfred_script(q)
-    set TelNumber to q as string
-    set Tel to ""
-    repeat with each in TelNumber
-        if "+1234567890" contains each then set Tel to Tel &amp; each
-    end repeat
-    tell application "Frizzix"
-        dialInstantly Tel
-    end tell
-end alfred_script</p>
-<p>{% endcodeblock %}</p>
+<div class="highlight"><pre><span></span><span class="k">on</span> <span class="nv">alfred_script</span><span class="p">(</span><span class="nv">q</span><span class="p">)</span>
+    <span class="k">set</span> <span class="nv">TelNumber</span> <span class="k">to</span> <span class="nv">q</span> <span class="k">as </span><span class="nc">string</span>
+    <span class="k">set</span> <span class="nv">Tel</span> <span class="k">to</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">repeat</span> <span class="nv">with</span> <span class="nv">each</span> <span class="k">in</span> <span class="nv">TelNumber</span>
+        <span class="k">if</span> <span class="s2">&quot;+1234567890&quot;</span> <span class="ow">contains</span> <span class="nv">each</span> <span class="k">then</span> <span class="k">set</span> <span class="nv">Tel</span> <span class="k">to</span> <span class="nv">Tel</span> <span class="o">&amp;</span> <span class="nv">each</span>
+    <span class="k">end</span> <span class="k">repeat</span>
+    <span class="k">tell</span> <span class="nb">application</span> <span class="s2">&quot;Frizzix&quot;</span>
+        <span class="nv">dialInstantly</span> <span class="nv">Tel</span>
+    <span class="k">end</span> <span class="k">tell</span>
+<span class="k">end</span> <span class="nv">alfred_script</span>
+</pre></div>
+
+
 <h3 id="call-diversion-from-script">Call diversion from script</h3>
 <p><a href="http://www.robbastiaansen.nl/node/51">Call diversion script</a></p>
 <h3 id="frizzix-call-monitor-mac">Frizzix Call monitor (MAC)</h3>
@@ -194,7 +195,7 @@ end alfred_script</p>
     <a class='category' href='/category/articles.html'>articles</a>
   </span>
   <span class="categories">
-    <a class="category" href="/tag/telephony.html">[telephony</a>,    <a class="category" href="/tag/voip.html">VOIP]</a>  </span>
+    <a class="category" href="/tag/telephony.html">telephony</a>,    <a class="category" href="/tag/voip.html">VOIP</a>  </span>
 </p><div class="sharing">
   <a href="http://twitter.com/share" class="twitter-share-button" data-url="/articles/fritzbox-7390-configuration.html" data-via="peterflorijn" data-counturl="/articles/fritzbox-7390-configuration.html" >Tweet</a>
     <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
@@ -236,7 +237,7 @@ end alfred_script</p>
 
   <section>
   <h1>Tags</h1>
-    <a href="/tag/.html">[]</a>,    <a href="/tag/jira.html">[Jira]</a>,    <a href="/tag/markdown.html">markdown]</a>,    <a href="/tag/osx.html">OSX]</a>,    <a href="/tag/firewall.html">firewall</a>,    <a href="/tag/rest.html">[rest</a>,    <a href="/tag/telephony.html">[telephony</a>,    <a href="/tag/diskstation.html">[diskstation</a>,    <a href="/tag/testmanagement-opensource-project.html">testmanagement opensource project</a>,    <a href="/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="/tag/media.html">[Media</a>,    <a href="/tag/octopress.html">octopress]</a>,    <a href="/tag/synology.html">synology]</a>,    <a href="/tag/writing.html">[writing</a>,    <a href="/tag/diagrams.html">diagrams</a>,    <a href="/tag/docx.html">[docx</a>,    <a href="/tag/plantuml.html">plantuml</a>,    <a href="/tag/python.html">python]</a>,    <a href="/tag/plex.html">Plex</a>,    <a href="/tag/voip.html">VOIP]</a>,    <a href="/tag/convert.html">convert</a>,    <a href="/tag/github-blog-ruby.html">github blog ruby</a>,    <a href="/tag/security.html">security</a>  </section>
+    <a href="/tag/.html">[]</a>,    <a href="/tag/jira.html">[Jira]</a>,    <a href="/tag/markdown.html">markdown]</a>,    <a href="/tag/osx.html">OSX]</a>,    <a href="/tag/firewall.html">firewall</a>,    <a href="/tag/rest.html">[rest</a>,    <a href="/tag/telephony.html">telephony</a>,    <a href="/tag/diskstation.html">[diskstation</a>,    <a href="/tag/testmanagement-opensource-project.html">testmanagement opensource project</a>,    <a href="/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="/tag/media.html">[Media</a>,    <a href="/tag/octopress.html">octopress]</a>,    <a href="/tag/synology.html">synology]</a>,    <a href="/tag/writing.html">[writing</a>,    <a href="/tag/diagrams.html">diagrams</a>,    <a href="/tag/docx.html">[docx</a>,    <a href="/tag/plantuml.html">plantuml</a>,    <a href="/tag/python.html">python]</a>,    <a href="/tag/plex.html">Plex</a>,    <a href="/tag/voip.html">VOIP</a>,    <a href="/tag/convert.html">convert</a>,    <a href="/tag/github-blog-ruby.html">github blog ruby</a>,    <a href="/tag/security.html">security</a>  </section>
 
 
 
