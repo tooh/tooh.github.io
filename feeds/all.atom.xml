@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-09-01T00:00:00+02:00</updated><entry><title>test_includes_new</title><link href="/test_includes_new.html" rel="alternate"></link><published>2019-09-01T00:00:00+02:00</published><updated>2019-09-01T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2019-09-01:/test_includes_new.html</id><content type="html">&lt;!-- more --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-09-01T08:54:00+02:00</updated><entry><title>test today</title><link href="/articles/test-today.html" rel="alternate"></link><published>2019-09-01T08:54:00+02:00</published><updated>2019-09-01T08:54:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2019-09-01:/articles/test-today.html</id><content type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;wewewewewe
+&lt;!-- more --&gt;&lt;/p&gt;
+&lt;p&gt;wewewewe&lt;/p&gt;</content></entry><entry><title>test</title><link href="/articles/test.html" rel="alternate"></link><published>2019-09-01T08:52:00+02:00</published><updated>2019-09-01T08:52:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2019-09-01:/articles/test.html</id><content type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;!-- more --&gt;</content></entry><entry><title>test_includes_new</title><link href="/articles/test_includes_new.html" rel="alternate"></link><published>2019-09-01T00:00:00+02:00</published><updated>2019-09-01T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2019-09-01:/articles/test_includes_new.html</id><content type="html">&lt;!-- more --&gt;
 
-&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/c953cb34.png"&gt;</content><category term="plantuml"></category><category term="diagrams"></category></entry><entry><title>Update node.js on Raspberry Pi 3</title><link href="/update-nodejs-on-raspberry-pi-3.html" rel="alternate"></link><published>2019-08-25T10:54:00+02:00</published><updated>2019-08-25T10:54:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2019-08-25:/update-nodejs-on-raspberry-pi-3.html</id><content type="html">&lt;p&gt;image : 
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/c953cb34.png"&gt;</content><category term="plantuml"></category><category term="diagrams"></category></entry><entry><title>Update node.js on Raspberry Pi 3</title><link href="/articles/update-nodejs-on-raspberry-pi-3.html" rel="alternate"></link><published>2019-08-25T10:54:00+02:00</published><updated>2019-08-25T10:54:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2019-08-25:/articles/update-nodejs-on-raspberry-pi-3.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;sudo curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -&lt;/p&gt;
 &lt;p&gt;sudo apt-get install -y nodejs
 node -v&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>testgantt</title><link href="/testgantt.html" rel="alternate"></link><published>2018-07-27T09:14:00+02:00</published><updated>2018-07-27T09:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2018-07-27:/testgantt.html</id><content type="html">&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/6bf61f17.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>test_includes</title><link href="/test_includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2017-12-25:/test_includes.html</id><content type="html">&lt;!-- more --&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>testgantt</title><link href="/articles/testgantt.html" rel="alternate"></link><published>2018-07-27T09:14:00+02:00</published><updated>2018-07-27T09:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2018-07-27:/articles/testgantt.html</id><content type="html">&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/6bf61f17.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>test_includes</title><link href="/articles/test_includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2017-12-25:/articles/test_includes.html</id><content type="html">&lt;!-- more --&gt;
 
-&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/5e4aa4c1.png"&gt;</content><category term="[]"></category></entry><entry><title>Skype problem solved</title><link href="/skype-problem-solved.html" rel="alternate"></link><published>2016-10-29T11:41:00+02:00</published><updated>2016-10-29T11:41:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-10-29:/skype-problem-solved.html</id><summary type="html">&lt;p&gt;image : 
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/5e4aa4c1.png"&gt;</content><category term="[]"></category></entry><entry><title>Skype problem solved</title><link href="/articles/skype-problem-solved.html" rel="alternate"></link><published>2016-10-29T11:41:00+02:00</published><updated>2016-10-29T11:41:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-10-29:/articles/skype-problem-solved.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;For some time I experienced problems with Skype.&lt;/p&gt;
@@ -36,26 +44,26 @@ opendirectoryserver&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://support.apple.com/en-us/HT204880"&gt;https://support.apple.com/en-us/HT204880&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It seems this corrected my Skype problems.&lt;/p&gt;
 &lt;p&gt;Fingers crossed!&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Test UML plugin1</title><link href="/test-uml-plugin1.html" rel="alternate"></link><published>2016-08-26T00:00:00+02:00</published><updated>2016-08-26T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-08-26:/test-uml-plugin1.html</id><content type="html">&lt;p&gt;:fa:&lt;code&gt;fa-github&lt;/code&gt;&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Test UML plugin1</title><link href="/articles/test-uml-plugin1.html" rel="alternate"></link><published>2016-08-26T00:00:00+02:00</published><updated>2016-08-26T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-08-26:/articles/test-uml-plugin1.html</id><content type="html">&lt;p&gt;:fa:&lt;code&gt;fa-github&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;PRIMA&lt;/p&gt;
 &lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/4ce22037.png"&gt;&lt;p&gt;DOPO&lt;/p&gt;
 &lt;img alt="Sample sequence diagram" attrib="{'class': 'uml'}" src="/images/73b24588.png"&gt;&lt;p&gt;Test&lt;/p&gt;
 &lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/564d25f5.png"&gt;&lt;p&gt;aaa&lt;/p&gt;
-&lt;p&gt;bbb&lt;/p&gt;</content></entry><entry><title>PlantUML sprites demo</title><link href="/plantuml-sprites-demo.html" rel="alternate"></link><published>2016-05-05T08:08:00+02:00</published><updated>2016-05-05T08:08:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-05:/plantuml-sprites-demo.html</id><content type="html">&lt;p&gt;image : 
+&lt;p&gt;bbb&lt;/p&gt;</content></entry><entry><title>PlantUML sprites demo</title><link href="/articles/plantuml-sprites-demo.html" rel="alternate"></link><published>2016-05-05T08:08:00+02:00</published><updated>2016-05-05T08:08:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-05:/articles/plantuml-sprites-demo.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/486334be.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>PlantUML support for Archimate</title><link href="/plantuml-support-for-archimate.html" rel="alternate"></link><published>2016-05-05T07:20:00+02:00</published><updated>2016-05-05T07:20:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-05:/plantuml-support-for-archimate.html</id><content type="html">&lt;p&gt;image : 
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/486334be.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>PlantUML support for Archimate</title><link href="/articles/plantuml-support-for-archimate.html" rel="alternate"></link><published>2016-05-05T07:20:00+02:00</published><updated>2016-05-05T07:20:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-05:/articles/plantuml-support-for-archimate.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;PlantUML has a proposal for some support for Archimate.&lt;/p&gt;
-&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/61fe4618.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Convert Font Awesome to png</title><link href="/convert-font-awesome-to-png.html" rel="alternate"></link><published>2016-05-01T13:53:00+02:00</published><updated>2016-05-01T13:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-01:/convert-font-awesome-to-png.html</id><content type="html">&lt;p&gt;image : 
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/61fe4618.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Convert Font Awesome to png</title><link href="/articles/convert-font-awesome-to-png.html" rel="alternate"></link><published>2016-05-01T13:53:00+02:00</published><updated>2016-05-01T13:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-05-01:/articles/convert-font-awesome-to-png.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Font Awesome is a font set containg a large icon set containing a lot of standard icons. &lt;/p&gt;
 &lt;p&gt;You can convert the icons to .png files&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;&lt;a href=""&gt;https://github.com/Pythonity/icon-font-to-png&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>install gollum on OSX El Capitan</title><link href="/install-gollum-on-osx-el-capitan.html" rel="alternate"></link><published>2016-04-03T08:46:00+02:00</published><updated>2016-04-03T08:46:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-04-03:/install-gollum-on-osx-el-capitan.html</id><summary type="html">&lt;p&gt;image : 
+&lt;p&gt;&lt;a href=""&gt;https://github.com/Pythonity/icon-font-to-png&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>install gollum on OSX El Capitan</title><link href="/articles/install-gollum-on-osx-el-capitan.html" rel="alternate"></link><published>2016-04-03T08:46:00+02:00</published><updated>2016-04-03T08:46:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-04-03:/articles/install-gollum-on-osx-el-capitan.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Gollum is a simple wiki that uses git as its database.&lt;/p&gt;
@@ -82,7 +90,7 @@ summary: &lt;/p&gt;
 &lt;p&gt;And finally install gollum&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gem install gollum&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;More info&lt;/p&gt;
-&lt;p&gt;&lt;a href=""&gt;https://gitlab.com/gitlab-org/gollum-lib&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Custom Alfred search for Jira</title><link href="/custom-alfred-search-for-jira.html" rel="alternate"></link><published>2016-01-31T07:51:00+01:00</published><updated>2016-01-31T07:51:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-01-31:/custom-alfred-search-for-jira.html</id><summary type="html">&lt;p&gt;image : 
+&lt;p&gt;&lt;a href=""&gt;https://gitlab.com/gitlab-org/gollum-lib&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Custom Alfred search for Jira</title><link href="/articles/custom-alfred-search-for-jira.html" rel="alternate"></link><published>2016-01-31T07:51:00+01:00</published><updated>2016-01-31T07:51:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2016-01-31:/articles/custom-alfred-search-for-jira.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Recently we switched from using Bugzilla for our issue tracking to Jira.&lt;/p&gt;
@@ -100,7 +108,7 @@ Replace [your jira server] with your jira server.&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</content><category term="[Jira]"></category></entry><entry><title>Using scribe to write online meeting summaries</title><link href="/using-scribe-to-write-online-meeting-summaries.html" rel="alternate"></link><published>2015-10-18T15:30:00+02:00</published><updated>2015-10-18T15:30:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-10-18:/using-scribe-to-write-online-meeting-summaries.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[Jira]"></category></entry><entry><title>Using scribe to write online meeting summaries</title><link href="/articles/using-scribe-to-write-online-meeting-summaries.html" rel="alternate"></link><published>2015-10-18T15:30:00+02:00</published><updated>2015-10-18T15:30:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-10-18:/articles/using-scribe-to-write-online-meeting-summaries.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Use case:&lt;/p&gt;
@@ -108,7 +116,7 @@ summary: &lt;/p&gt;
 &lt;p&gt;Environments as IRC have something like meeting bot to handle this.&lt;/p&gt;
 &lt;p&gt;For Skype I found &lt;/p&gt;
 &lt;p&gt;&lt;a href=""&gt;https://bitbucket.org/mhall/pyskypescribe&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Convert Markdown to Word docx with Pandoc</title><link href="/convert-markdown-to-word-docx-with-pandoc.html" rel="alternate"></link><published>2015-10-17T08:56:00+02:00</published><updated>2015-10-17T08:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-10-17:/convert-markdown-to-word-docx-with-pandoc.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Convert Markdown to Word docx with Pandoc</title><link href="/articles/convert-markdown-to-word-docx-with-pandoc.html" rel="alternate"></link><published>2015-10-17T08:56:00+02:00</published><updated>2015-10-17T08:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-10-17:/articles/convert-markdown-to-word-docx-with-pandoc.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
@@ -179,7 +187,7 @@ summary: &lt;/p&gt;
     &amp;quot;cmd&amp;quot;: [&amp;quot;/usr/local/bin/pandoc&amp;quot;, &amp;quot;-S&amp;quot;, &amp;quot;-s&amp;quot;, &amp;quot;-f&amp;quot;, &amp;quot;markdown&amp;quot;, &amp;quot;-t&amp;quot;, &amp;quot;docx&amp;quot;, &amp;quot;-o&amp;quot;, &amp;quot;/Users/peter/Documents/Docs/Inbox/$file_base_name.docx&amp;quot;, &amp;quot;$file_name&amp;quot;],
     &amp;quot;selector&amp;quot;: &amp;quot;text.html.markdown&amp;quot;
  }
-&lt;/pre&gt;&lt;/div&gt;</content><category term="[docx"></category><category term="convert"></category><category term="markdown]"></category></entry><entry><title>creating REST services</title><link href="/creating-rest-services.html" rel="alternate"></link><published>2015-09-15T15:53:00+02:00</published><updated>2015-09-15T15:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-09-15:/creating-rest-services.html</id><content type="html">&lt;p&gt;image : 
+&lt;/pre&gt;&lt;/div&gt;</content><category term="[docx"></category><category term="convert"></category><category term="markdown]"></category></entry><entry><title>creating REST services</title><link href="/articles/creating-rest-services.html" rel="alternate"></link><published>2015-09-15T15:53:00+02:00</published><updated>2015-09-15T15:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-09-15:/articles/creating-rest-services.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Interesting project sandman.&lt;/p&gt;
@@ -188,7 +196,7 @@ summary: &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman"&gt;https://github.com/jeffknupp/sandman&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman2"&gt;https://github.com/jeffknupp/sandman2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.fullstackpython.com/api-creation.html"&gt;http://www.fullstackpython.com/api-creation.html&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[rest"></category><category term="python]"></category></entry><entry><title>iTunes sharing troubleshooting</title><link href="/itunes-sharing-troubleshooting.html" rel="alternate"></link><published>2015-06-09T09:51:00+02:00</published><updated>2015-06-09T09:51:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-06-09:/itunes-sharing-troubleshooting.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[rest"></category><category term="python]"></category></entry><entry><title>iTunes sharing troubleshooting</title><link href="/articles/itunes-sharing-troubleshooting.html" rel="alternate"></link><published>2015-06-09T09:51:00+02:00</published><updated>2015-06-09T09:51:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-06-09:/articles/itunes-sharing-troubleshooting.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
@@ -216,7 +224,7 @@ For more background on this app&lt;/p&gt;
 &lt;p&gt;I was thinking this Icefloor app was not running, but it was still active. It was blocking the essential ports 5353 and 3689.&lt;/p&gt;
 &lt;h3 id="solution"&gt;Solution&lt;/h3&gt;
 &lt;p&gt;I stopped the Icefloor app and home sharing is working again.&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>sort</title><link href="/sort.html" rel="alternate"></link><published>2015-04-24T14:38:00+02:00</published><updated>2015-04-24T14:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-04-24:/sort.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>sort</title><link href="/articles/sort.html" rel="alternate"></link><published>2015-04-24T14:38:00+02:00</published><updated>2015-04-24T14:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-04-24:/articles/sort.html</id><content type="html">&lt;p&gt;image : 
 summary: linux command line sort on dates&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;For one of my projects I needed to sort a csv file on a date field with dd/mm/yyyy format.&lt;/p&gt;
@@ -224,7 +232,7 @@ summary: linux command line sort on dates&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>upgrade to Bugzilla 5.0</title><link href="/upgrade-to-bugzilla-50.html" rel="alternate"></link><published>2015-01-31T10:26:00+01:00</published><updated>2015-01-31T10:26:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-01-31:/upgrade-to-bugzilla-50.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>upgrade to Bugzilla 5.0</title><link href="/articles/upgrade-to-bugzilla-50.html" rel="alternate"></link><published>2015-01-31T10:26:00+01:00</published><updated>2015-01-31T10:26:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-01-31:/articles/upgrade-to-bugzilla-50.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I upgraded to Bugzilla 5.0.&lt;/p&gt;
@@ -275,7 +283,7 @@ summary: &lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;However, it is better to create a local branch, which is one of git’s strengths. You can track your customizations and merge in changes from upstream. &lt;/p&gt;</content><category term="[]"></category></entry><entry><title>convert svg to png with inkscape (OSX)</title><link href="/convert-svg-to-png-with-inkscape-osx.html" rel="alternate"></link><published>2015-01-25T16:21:00+01:00</published><updated>2015-01-25T16:21:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-01-25:/convert-svg-to-png-with-inkscape-osx.html</id><content type="html">&lt;p&gt;image : 
+&lt;p&gt;However, it is better to create a local branch, which is one of git’s strengths. You can track your customizations and merge in changes from upstream. &lt;/p&gt;</content><category term="[]"></category></entry><entry><title>convert svg to png with inkscape (OSX)</title><link href="/articles/convert-svg-to-png-with-inkscape-osx.html" rel="alternate"></link><published>2015-01-25T16:21:00+01:00</published><updated>2015-01-25T16:21:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-01-25:/articles/convert-svg-to-png-with-inkscape-osx.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id="set-alias-to-inkscape-commandline"&gt;Set alias to inkscape commandline&lt;/h3&gt;
@@ -288,7 +296,7 @@ summary: &lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>cairosvg</title><link href="/cairosvg.html" rel="alternate"></link><published>2015-01-18T08:09:00+01:00</published><updated>2015-01-18T08:09:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-01-18:/cairosvg.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>cairosvg</title><link href="/articles/cairosvg.html" rel="alternate"></link><published>2015-01-18T08:09:00+01:00</published><updated>2015-01-18T08:09:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-01-18:/articles/cairosvg.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="install-cairosvg"&gt;Install Cairosvg&lt;/h2&gt;
@@ -343,13 +351,13 @@ check config.log)&lt;/li&gt;
 &lt;li&gt;if the build still fails, try to do a make distclean (which requires a
 new configure afterwards)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>update powerline for OSX</title><link href="/update-powerline-for-osx.html" rel="alternate"></link><published>2015-01-01T12:20:00+01:00</published><updated>2015-01-01T12:20:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-01-01:/update-powerline-for-osx.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>update powerline for OSX</title><link href="/articles/update-powerline-for-osx.html" rel="alternate"></link><published>2015-01-01T12:20:00+01:00</published><updated>2015-01-01T12:20:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2015-01-01:/articles/update-powerline-for-osx.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Firmware Update  software for Fritz! Powerline is only officially for Windows. &lt;/p&gt;
 &lt;p&gt;But there is beta software that can do the update on OSX.&lt;/p&gt;
 &lt;p&gt;ftp://ftp.avm.de/fritz.box/fritz.powerline/deutsch/mac_beta/&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>jenkins jobs lost</title><link href="/jenkins-jobs-lost.html" rel="alternate"></link><published>2014-11-23T11:47:00+01:00</published><updated>2014-11-23T11:47:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-11-23:/jenkins-jobs-lost.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>jenkins jobs lost</title><link href="/articles/jenkins-jobs-lost.html" rel="alternate"></link><published>2014-11-23T11:47:00+01:00</published><updated>2014-11-23T11:47:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-11-23:/articles/jenkins-jobs-lost.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;On my local development machine I noticed that I missed all my jobs.&lt;/p&gt;
@@ -359,14 +367,14 @@ summary: &lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>click2dial</title><link href="/click2dial.html" rel="alternate"></link><published>2014-11-14T08:42:00+01:00</published><updated>2014-11-14T08:42:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-11-14:/click2dial.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>click2dial</title><link href="/articles/click2dial.html" rel="alternate"></link><published>2014-11-14T08:42:00+01:00</published><updated>2014-11-14T08:42:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-11-14:/articles/click2dial.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I'm researching different options to implement click2dial.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.voip-info.org/wiki/view/Asterisk+click+to+call"&gt;click2call&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Standards&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.ietf.org/rfc/rfc2806.txt"&gt;rfc2806&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Omnis and java</title><link href="/omnis-and-java.html" rel="alternate"></link><published>2014-10-26T11:37:00+01:00</published><updated>2014-10-26T11:37:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-10-26:/omnis-and-java.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Omnis and java</title><link href="/articles/omnis-and-java.html" rel="alternate"></link><published>2014-10-26T11:37:00+01:00</published><updated>2014-10-26T11:37:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-10-26:/articles/omnis-and-java.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id="research-notes-on-java-use-in-omnis"&gt;Research notes on java use in Omnis&lt;/h1&gt;
@@ -419,7 +427,7 @@ echo now if we try it :
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;{:toc}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Disabling Nap App</title><link href="/disabling-nap-app.html" rel="alternate"></link><published>2014-10-25T12:02:00+02:00</published><updated>2014-10-25T12:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-10-25:/disabling-nap-app.html</id><summary type="html">&lt;p&gt;image : 
+&lt;p&gt;{:toc}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Disabling Nap App</title><link href="/articles/disabling-nap-app.html" rel="alternate"></link><published>2014-10-25T12:02:00+02:00</published><updated>2014-10-25T12:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-10-25:/articles/disabling-nap-app.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Since Mavericks there is a feature called Nap app.&lt;/p&gt;
@@ -452,7 +460,7 @@ You can disable this for a specific application.&lt;/p&gt;
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="http://www.cultofmac.com/274396/disable-app-nap-specific-apps-os-x-tips/"&gt;Disable nap app&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Upgrade to Yosemite</title><link href="/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-10-18:/upgrade-to-yosemite.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Upgrade to Yosemite</title><link href="/articles/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-10-18:/articles/upgrade-to-yosemite.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
@@ -530,7 +538,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;p&gt;Extra parameters are added to the localconfig.&lt;/p&gt;
 &lt;p&gt;{% docs info %}
 I have to find out how to configure this&lt;/p&gt;
-&lt;p&gt;{% enddocs %}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>mysql installation notes</title><link href="/mysql-installation-notes.html" rel="alternate"></link><published>2014-10-05T10:25:00+02:00</published><updated>2014-10-05T10:25:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-10-05:/mysql-installation-notes.html</id><summary type="html">&lt;p&gt;image : 
+&lt;p&gt;{% enddocs %}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>mysql installation notes</title><link href="/articles/mysql-installation-notes.html" rel="alternate"></link><published>2014-10-05T10:25:00+02:00</published><updated>2014-10-05T10:25:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-10-05:/articles/mysql-installation-notes.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I had to reinstall my local Bugzilla , so I took the opportunity to upgrade my local mysql as well.&lt;/p&gt;
@@ -554,7 +562,7 @@ On OSX it is not always obvious which my.cnf file is used. You can find all my.c
 &lt;p _="%" enddocs&gt;{% docs tip %}
 You can execute a mysql command to show in which locations you can place my.cnf files and in which order they are executed.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;mysql --help | grep &amp;quot;Default options&amp;quot; -A 1
-&lt;/pre&gt;&lt;/div&gt;</content><category term="[]"></category></entry><entry><title>Bugzilla git migration</title><link href="/bugzilla-git-migration.html" rel="alternate"></link><published>2014-09-28T14:49:00+02:00</published><updated>2014-09-28T14:49:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-09-28:/bugzilla-git-migration.html</id><content type="html">&lt;p&gt;image : 
+&lt;/pre&gt;&lt;/div&gt;</content><category term="[]"></category></entry><entry><title>Bugzilla git migration</title><link href="/articles/bugzilla-git-migration.html" rel="alternate"></link><published>2014-09-28T14:49:00+02:00</published><updated>2014-09-28T14:49:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-09-28:/articles/bugzilla-git-migration.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;{:toc}&lt;/p&gt;
@@ -568,7 +576,7 @@ summary: &lt;/p&gt;
 &lt;p&gt;&lt;a href="http://git.mozilla.org/?p=bugzilla/bugzilla.git;a%3Dsummary"&gt;Bugzilla Git Summary&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="update-to-newer-release"&gt;Update to newer release&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Git#Updating_to_a_Newer_Release"&gt;Updating to a newer release&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>activate spellcheck in Sublime Text 3</title><link href="/activate-spellcheck-in-sublime-text-3.html" rel="alternate"></link><published>2014-09-27T11:27:00+02:00</published><updated>2014-09-27T11:27:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-09-27:/activate-spellcheck-in-sublime-text-3.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>activate spellcheck in Sublime Text 3</title><link href="/articles/activate-spellcheck-in-sublime-text-3.html" rel="alternate"></link><published>2014-09-27T11:27:00+02:00</published><updated>2014-09-27T11:27:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-09-27:/articles/activate-spellcheck-in-sublime-text-3.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;By default spellcheck is off in Sublime Text.&lt;/p&gt;
@@ -590,7 +598,7 @@ You can't edit the default settings file. If you try this, you cannot edit the s
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>confluence inspired callouts in Octopress</title><link href="/confluence-inspired-callouts-in-octopress.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-09-23:/confluence-inspired-callouts-in-octopress.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>confluence inspired callouts in Octopress</title><link href="/articles/confluence-inspired-callouts-in-octopress.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-09-23:/articles/confluence-inspired-callouts-in-octopress.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts many times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in Octopress.&lt;/p&gt;
@@ -617,7 +625,7 @@ Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
 Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;TODO: describing the Howto.&lt;/p&gt;</content><category term="[writing"></category><category term="octopress]"></category></entry><entry><title>Customizing Sublime for Python development</title><link href="/customizing-sublime-for-python-development.html" rel="alternate"></link><published>2014-09-20T10:38:00+02:00</published><updated>2014-09-20T10:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-09-20:/customizing-sublime-for-python-development.html</id><content type="html">&lt;p&gt;image : 
+&lt;p&gt;TODO: describing the Howto.&lt;/p&gt;</content><category term="[writing"></category><category term="octopress]"></category></entry><entry><title>Customizing Sublime for Python development</title><link href="/articles/customizing-sublime-for-python-development.html" rel="alternate"></link><published>2014-09-20T10:38:00+02:00</published><updated>2014-09-20T10:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-09-20:/articles/customizing-sublime-for-python-development.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;More and more I am using Sublime as my favorite editor.&lt;/p&gt;
@@ -625,7 +633,7 @@ summary: &lt;/p&gt;
 &lt;p&gt;Sublime can be customized/extended as an ideal Python IDE.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;&lt;a href="https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/"&gt;Setting up Sublime Text 3 for full stack python development&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>"Database change requests"</title><link href="/database-change-requests.html" rel="alternate"></link><published>2014-08-27T09:41:36+02:00</published><updated>2014-08-27T09:41:36+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-27:/database-change-requests.html</id><summary type="html">&lt;p&gt;{% plantuml %}&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/"&gt;Setting up Sublime Text 3 for full stack python development&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>"Database change requests"</title><link href="/articles/database-change-requests.html" rel="alternate"></link><published>2014-08-27T09:41:36+02:00</published><updated>2014-08-27T09:41:36+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-27:/articles/database-change-requests.html</id><summary type="html">&lt;p&gt;{% plantuml %}&lt;/p&gt;
 &lt;p&gt;title: &lt;size:30&gt;Database change Request&lt;/size&gt;&lt;/p&gt;
 &lt;dl&gt;
 &lt;dt&gt;| Developer |&lt;/dt&gt;
@@ -678,7 +686,7 @@ if (Change OK) then (yes)
 Version: v0.1
 Date: 26-8-2014&lt;/p&gt;
 &lt;p&gt;endfooter&lt;/p&gt;
-&lt;p&gt;{% endplantuml %}&lt;/p&gt;</content></entry><entry><title>"Slow Time Machine backup on Mavericks"</title><link href="/slow-time-machine-backup-on-mavericks.html" rel="alternate"></link><published>2014-08-25T09:36:29+02:00</published><updated>2014-08-25T09:36:29+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-25:/slow-time-machine-backup-on-mavericks.html</id><summary type="html">&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;p&gt;{% endplantuml %}&lt;/p&gt;</content></entry><entry><title>"Slow Time Machine backup on Mavericks"</title><link href="/articles/slow-time-machine-backup-on-mavericks.html" rel="alternate"></link><published>2014-08-25T09:36:29+02:00</published><updated>2014-08-25T09:36:29+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-25:/articles/slow-time-machine-backup-on-mavericks.html</id><summary type="html">&lt;p&gt;{:toc}&lt;/p&gt;
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my HD and as a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;{:toc}&lt;/p&gt;
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
@@ -712,7 +720,7 @@ You can try to run some standard diagnostics tools to eliminate some basic cause
 &lt;p&gt;I noticed from the activity monitor that there were several postfix background processes running. These were initiated because I had OSX Server running on this machine as well. Although the email service was not activitated in the configuration, it seemed that these processes were running altogether. &lt;/p&gt;
 &lt;p&gt;I decided to deinstall OSX server and see what would happen.&lt;/p&gt;
 &lt;p&gt;After deinstalling OSX server it seems that my Time Machine backup is running as normal.&lt;/p&gt;
-&lt;p&gt;My analysis is that these postfix processes caused some constant file io which interfered somehow with Spotlight/Time Machine.&lt;/p&gt;</content></entry><entry><title>"Reset Fritz! Powerline 520E"</title><link href="/reset-fritz-powerline-520e.html" rel="alternate"></link><published>2014-08-24T08:38:14+02:00</published><updated>2014-08-24T08:38:14+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-24:/reset-fritz-powerline-520e.html</id><summary type="html">&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;My analysis is that these postfix processes caused some constant file io which interfered somehow with Spotlight/Time Machine.&lt;/p&gt;</content></entry><entry><title>"Reset Fritz! Powerline 520E"</title><link href="/articles/reset-fritz-powerline-520e.html" rel="alternate"></link><published>2014-08-24T08:38:14+02:00</published><updated>2014-08-24T08:38:14+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-24:/articles/reset-fritz-powerline-520e.html</id><summary type="html">&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Sometimes I do not get connection to my FritzBox. After some investigation I found out that this was caused by one of my Powerline 520 E adapters. It was not working as expected, although the LED's were suggesting otherwise&lt;/p&gt;
 &lt;p&gt;I installed the Fritz! Powerline application on my OSX machine …&lt;/p&gt;</summary><content type="html">&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Sometimes I do not get connection to my FritzBox. After some investigation I found out that this was caused by one of my Powerline 520 E adapters. It was not working as expected, although the LED's were suggesting otherwise&lt;/p&gt;
@@ -725,7 +733,7 @@ You can try to run some standard diagnostics tools to eliminate some basic cause
 &lt;li&gt;Changes will be applied&lt;/li&gt;
 &lt;li&gt;If you are lucky this will fix the problem and the second adapter will appear again.&lt;/li&gt;
 &lt;li&gt;If not, you have to plug/unplug the faulty adapter and try the above steps again.&lt;/li&gt;
-&lt;/ol&gt;</content></entry><entry><title>"Non-standard Service Request workflow"</title><link href="/non-standard-service-request-workflow.html" rel="alternate"></link><published>2014-08-23T16:30:30+02:00</published><updated>2014-08-23T16:30:30+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-23:/non-standard-service-request-workflow.html</id><summary type="html">&lt;h4 id="workflow"&gt;Workflow&lt;/h4&gt;
+&lt;/ol&gt;</content></entry><entry><title>"Non-standard Service Request workflow"</title><link href="/articles/non-standard-service-request-workflow.html" rel="alternate"></link><published>2014-08-23T16:30:30+02:00</published><updated>2014-08-23T16:30:30+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-23:/articles/non-standard-service-request-workflow.html</id><summary type="html">&lt;h4 id="workflow"&gt;Workflow&lt;/h4&gt;
 &lt;p&gt;Typical workflow for non standard customer support requests.&lt;/p&gt;
 &lt;p&gt;{% plantuml %}&lt;/p&gt;
 &lt;p&gt;title: &lt;size:60&gt;Non-standard Service Request&lt;/size&gt;&lt;/p&gt;
@@ -872,7 +880,7 @@ right footer&lt;/dd&gt;
 Version: v0.2
 Date: 6-10-2014&lt;/p&gt;
 &lt;p&gt;endfooter&lt;/p&gt;
-&lt;p&gt;{% endcodeblock %}&lt;/p&gt;</content></entry><entry><title>"Switch to Textexpander"</title><link href="/switch-to-textexpander.html" rel="alternate"></link><published>2014-08-22T08:44:38+02:00</published><updated>2014-08-22T08:44:38+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-22:/switch-to-textexpander.html</id><summary type="html">&lt;p&gt;image : 
+&lt;p&gt;{% endcodeblock %}&lt;/p&gt;</content></entry><entry><title>"Switch to Textexpander"</title><link href="/articles/switch-to-textexpander.html" rel="alternate"></link><published>2014-08-22T08:44:38+02:00</published><updated>2014-08-22T08:44:38+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-08-22:/articles/switch-to-textexpander.html</id><summary type="html">&lt;p&gt;image : 
 summary:  Text expansion&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I was using Typinator for some time now. A colleague of mine is a long time Textexpander user and informed me that there was an attractive offer to purchase a Textexpander license.
@@ -889,7 +897,7 @@ So I decided to make the switch to Textexpander.&lt;/p&gt;
 &lt;p&gt;Importing my Typinator snippets via tab delimit format was easy.&lt;/p&gt;
 &lt;p&gt;I had to change some specific date constructions and now all is working.&lt;/p&gt;
 &lt;p&gt;I sync my snippets via Dropbox to my laptop.&lt;/p&gt;
-&lt;p&gt;I'm all to go now to invest in some time to setup some extra snippets to improve my productivity.&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Installing PHP and Laravel environment</title><link href="/installing-php-and-laravel-environment.html" rel="alternate"></link><published>2014-03-15T11:05:00+01:00</published><updated>2014-03-15T11:05:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-03-15:/installing-php-and-laravel-environment.html</id><summary type="html">&lt;p&gt;image : 
+&lt;p&gt;I'm all to go now to invest in some time to setup some extra snippets to improve my productivity.&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Installing PHP and Laravel environment</title><link href="/articles/installing-php-and-laravel-environment.html" rel="alternate"></link><published>2014-03-15T11:05:00+01:00</published><updated>2014-03-15T11:05:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-03-15:/articles/installing-php-and-laravel-environment.html</id><summary type="html">&lt;p&gt;image : 
 summary:  Laravel environment&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I recently got involved in a project that uses PHP and Laravel as a framework. I never used PHP before so this means starting from scratch by preparing my OSX environment for some QA and probably some minor development work.&lt;/p&gt;
@@ -911,7 +919,7 @@ Download failed: http://zlib.net/zlib-1.2.7.tar.gz&lt;/p&gt;
 &lt;p&gt;Laravel requires the PHP Mcrypt module. In an earlier attempt I had some trouble to get this working in my environment, but now in this setup using this command:&lt;/p&gt;
 &lt;p _="%" endcodeblock&gt;{% codeblock lang:bash %}
 brew install php54-mcrypt&lt;/p&gt;
-&lt;p&gt;installed it correctly.&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Generating Powerpoint with python</title><link href="/generating-powerpoint-with-python.html" rel="alternate"></link><published>2014-01-18T13:32:00+01:00</published><updated>2014-01-18T13:32:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-01-18:/generating-powerpoint-with-python.html</id><summary type="html">&lt;p&gt;image : 
+&lt;p&gt;installed it correctly.&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Generating Powerpoint with python</title><link href="/articles/generating-powerpoint-with-python.html" rel="alternate"></link><published>2014-01-18T13:32:00+01:00</published><updated>2014-01-18T13:32:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-01-18:/articles/generating-powerpoint-with-python.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;If you need to create Powerpoints frequently f.i Service Level Reports or Project Status reports, then you probably can use this Python library.
@@ -923,7 +931,7 @@ If you are prepared to invest some time and are not afraid of a bit of python pr
 &lt;p&gt;&lt;a href="https://github.com/scanny/python-pptx"&gt;Github repository&lt;/a&gt;&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;Complete documentation can be found &lt;a href="https://python-pptx.readthedocs.org/en/latest/"&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Plex app on Samsung TV</title><link href="/plex-app-on-samsung-tv.html" rel="alternate"></link><published>2014-01-18T12:58:00+01:00</published><updated>2014-01-18T12:58:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-01-18:/plex-app-on-samsung-tv.html</id><summary type="html">&lt;p&gt;image : 
+&lt;p&gt;Complete documentation can be found &lt;a href="https://python-pptx.readthedocs.org/en/latest/"&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Plex app on Samsung TV</title><link href="/articles/plex-app-on-samsung-tv.html" rel="alternate"></link><published>2014-01-18T12:58:00+01:00</published><updated>2014-01-18T12:58:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2014-01-18:/articles/plex-app-on-samsung-tv.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I have a Samsung Smart TV (D series). On this TV you can install the Plex app from the Samsung App store. Out of the box the App was not able to find and connect to my Plex Media server (PMS) on my OSX Mavericks machine.
@@ -991,15 +999,15 @@ So use this info as is.&lt;/p&gt;
 &lt;p&gt;{% endcodeblock %}&lt;/p&gt;
 &lt;h3 id="result"&gt;Result&lt;/h3&gt;
 &lt;p&gt;After adding this firewall rule and entering the IP address of my PMS server the SAMSUNG app connected succesfully and I was able to play my media.&lt;/p&gt;
-&lt;h3 id="references"&gt;References&lt;/h3&gt;</content><category term="[Media"></category><category term="Plex"></category><category term="security"></category><category term="firewall"></category><category term="OSX]"></category></entry><entry><title>creating Excel files with python and xlsxwriter</title><link href="/creating-excel-files-with-python-and-xlsxwriter.html" rel="alternate"></link><published>2013-11-23T17:53:00+01:00</published><updated>2013-11-23T17:53:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-11-23:/creating-excel-files-with-python-and-xlsxwriter.html</id><content type="html">&lt;p&gt;image : 
+&lt;h3 id="references"&gt;References&lt;/h3&gt;</content><category term="[Media"></category><category term="Plex"></category><category term="security"></category><category term="firewall"></category><category term="OSX]"></category></entry><entry><title>creating Excel files with python and xlsxwriter</title><link href="/articles/creating-excel-files-with-python-and-xlsxwriter.html" rel="alternate"></link><published>2013-11-23T17:53:00+01:00</published><updated>2013-11-23T17:53:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-11-23:/articles/creating-excel-files-with-python-and-xlsxwriter.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/27140589" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="https://www.slideshare.net/jmncnamara/xlsxwriter" title="Creating Excel files with Python and XlsxWriter" target="_blank"&gt;Creating Excel files with Python and XlsxWriter&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/jmncnamara" target="_blank"&gt;jmncnamara&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
-&lt;!-- more --&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Notes on Mavericks upgrade</title><link href="/notes-on-mavericks-upgrade.html" rel="alternate"></link><published>2013-11-03T15:56:00+01:00</published><updated>2013-11-03T15:56:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-11-03:/notes-on-mavericks-upgrade.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Notes on Mavericks upgrade</title><link href="/articles/notes-on-mavericks-upgrade.html" rel="alternate"></link><published>2013-11-03T15:56:00+01:00</published><updated>2013-11-03T15:56:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-11-03:/articles/notes-on-mavericks-upgrade.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I upgraded on day one. Upgrade went smoothly. In this post I will share my notes on some issues I encounter.
-&lt;!-- more --&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>How to fix slow startup OSX Mountain Lion</title><link href="/how-to-fix-slow-startup-osx-mountain-lion.html" rel="alternate"></link><published>2013-08-21T13:31:00+02:00</published><updated>2013-08-21T13:31:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-08-21:/how-to-fix-slow-startup-osx-mountain-lion.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>How to fix slow startup OSX Mountain Lion</title><link href="/articles/how-to-fix-slow-startup-osx-mountain-lion.html" rel="alternate"></link><published>2013-08-21T13:31:00+02:00</published><updated>2013-08-21T13:31:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-08-21:/articles/how-to-fix-slow-startup-osx-mountain-lion.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I recently experienced very slow startup of my iMac and it seemed related to heavy Spotlight indexing.
@@ -1026,21 +1034,21 @@ I researched this item on Google but I could not find a real Root cause.&lt;/p&g
 &lt;p&gt;So it worked for me.&lt;/p&gt;
 &lt;p&gt;Be careful and make a backup before trying this fix.&lt;/p&gt;
 &lt;p&gt;No guarantees!&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>scaled Agile framework</title><link href="/scaled-agile-framework.html" rel="alternate"></link><published>2013-08-21T13:18:00+02:00</published><updated>2013-08-21T13:18:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-08-21:/scaled-agile-framework.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>scaled Agile framework</title><link href="/articles/scaled-agile-framework.html" rel="alternate"></link><published>2013-08-21T13:18:00+02:00</published><updated>2013-08-21T13:18:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-08-21:/articles/scaled-agile-framework.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;iframe width="420" height="315" src="//www.youtube.com/embed/pCaroLfl__4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Test automation with Sikuli, Cucumber and Jenkins</title><link href="/test-automation-with-sikuli-cucumber-and-jenkins.html" rel="alternate"></link><published>2013-06-23T11:21:00+02:00</published><updated>2013-06-23T11:21:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-06-23:/test-automation-with-sikuli-cucumber-and-jenkins.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Test automation with Sikuli, Cucumber and Jenkins</title><link href="/articles/test-automation-with-sikuli-cucumber-and-jenkins.html" rel="alternate"></link><published>2013-06-23T11:21:00+02:00</published><updated>2013-06-23T11:21:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-06-23:/articles/test-automation-with-sikuli-cucumber-and-jenkins.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;iframe src="http://prezi.com/embed/arubpcolpmzv/?bgcolor=ffffff&amp;amp;lock_to_path=0&amp;amp;autoplay=0&amp;amp;autohide_ctrls=0&amp;amp;features=undefined&amp;amp;disabled_features=undefined" width="550" height="400" frameBorder="0"&gt;&lt;/iframe&gt;
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Lego Serious Play Method</title><link href="/lego-serious-play-method.html" rel="alternate"></link><published>2013-06-15T09:33:00+02:00</published><updated>2013-06-15T09:33:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-06-15:/lego-serious-play-method.html</id><content type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Lego Serious Play Method</title><link href="/articles/lego-serious-play-method.html" rel="alternate"></link><published>2013-06-15T09:33:00+02:00</published><updated>2013-06-15T09:33:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-06-15:/articles/lego-serious-play-method.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/16484554" width="479" height="511" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="http://www.slideshare.net/janalpeeters6105/business-model-canvas-lego-serious-play" title="Lego Serious Play &amp;amp; Business Model Canvas" target="_blank"&gt;Lego Serious Play &amp;amp; Business Model Canvas&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/janalpeeters6105" target="_blank"&gt;janalpeeters6105&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
-&lt;!-- more --&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>scrum at microsoft</title><link href="/scrum-at-microsoft.html" rel="alternate"></link><published>2013-06-12T09:25:00+02:00</published><updated>2013-06-12T09:25:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-06-12:/scrum-at-microsoft.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>scrum at microsoft</title><link href="/articles/scrum-at-microsoft.html" rel="alternate"></link><published>2013-06-12T09:25:00+02:00</published><updated>2013-06-12T09:25:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-06-12:/articles/scrum-at-microsoft.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;div id='1335926344708_social_7496'&gt;&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/-UUrLxNBK_g?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
@@ -1068,7 +1076,7 @@ summary: &lt;/p&gt;
 
 &lt;script type="text/javascript"&gt;new SocialBar("1335926344708_social_7496", {buttons:["embed","twitter","facebook","googleplusone","email"],url:"http://tv.ssw.com/1279/daily-scrum-at-microsoft",title:"Scrum at Microsoft: See the TFS Agile Team do a Scrum (aka Stand Up) | SSW TVSSW TV",badgeUrl:"http://wistia.com",embedCode:"%3Ciframe%20width%3D%22640%22%20height%3D%22360%22%20src%3D%22http%3A//www.youtube.com/embed/-UUrLxNBK_g%3Frel%3D0%22%20frameborder%3D%220%22%20allowfullscreen%3E%3C/iframe%3E"})&lt;/script&gt;
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Diagrams with PlantUML</title><link href="/diagrams-with-plantuml.html" rel="alternate"></link><published>2013-06-09T12:37:00+02:00</published><updated>2013-06-09T12:37:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-06-09:/diagrams-with-plantuml.html</id><summary type="html">&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive …&lt;/p&gt;</summary><content type="html">&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive with it. &lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Diagrams with PlantUML</title><link href="/articles/diagrams-with-plantuml.html" rel="alternate"></link><published>2013-06-09T12:37:00+02:00</published><updated>2013-06-09T12:37:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-06-09:/articles/diagrams-with-plantuml.html</id><summary type="html">&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive …&lt;/p&gt;</summary><content type="html">&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive with it. &lt;/p&gt;
 &lt;p&gt;After my switch to OSX, Omnigraffle seemed the tool to use, but this had the same disadvantages.&lt;/p&gt;
 &lt;p&gt;Recently I came across a tool called PlantUML that can create diagrams based on text.&lt;/p&gt;
 &lt;p&gt;When I found out that somebody had made a plugin for my current blogging environment Octopress it seems that I have won the jackpot.&lt;/p&gt;
@@ -1079,11 +1087,11 @@ summary: &lt;/p&gt;
 
 &lt;h3 id="references"&gt;References&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://plantuml.sourceforge.net/news.html"&gt;PlantUML&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/yjpark/jekyll-plantuml"&gt;Jekyll-plantUML plugin&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>agile project management</title><link href="/agile-project-management.html" rel="alternate"></link><published>2013-05-13T09:56:00+02:00</published><updated>2013-05-13T09:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-13:/agile-project-management.html</id><content type="html">&lt;p&gt;image : 
+&lt;p&gt;&lt;a href="https://github.com/yjpark/jekyll-plantuml"&gt;Jekyll-plantUML plugin&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>agile project management</title><link href="/articles/agile-project-management.html" rel="alternate"></link><published>2013-05-13T09:56:00+02:00</published><updated>2013-05-13T09:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-13:/articles/agile-project-management.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/5052362" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="http://www.slideshare.net/mcottmeyer/understanding-agile-project-management" title="Understanding Agile Project Management" target="_blank"&gt;Understanding Agile Project Management&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/mcottmeyer" target="_blank"&gt;Mike Cottmeyer&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>helpdesk and wallboard</title><link href="/helpdesk-and-wallboard.html" rel="alternate"></link><published>2013-05-12T11:55:00+02:00</published><updated>2013-05-12T11:55:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-12:/helpdesk-and-wallboard.html</id><summary type="html">&lt;p&gt;image : 
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>helpdesk and wallboard</title><link href="/articles/helpdesk-and-wallboard.html" rel="alternate"></link><published>2013-05-12T11:55:00+02:00</published><updated>2013-05-12T11:55:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-12:/articles/helpdesk-and-wallboard.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;One of my projects involves the requirement to install a &lt;a href="http://www.atlassian.com/wallboards/"&gt;wallboard&lt;/a&gt; to show the ACD queue of our helpdesk and as a bonus we would like to show the scrumboard our development teams use. I'm looking into a Samsung LED monitor / Samsung Smart TV as part of the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
@@ -1103,7 +1111,7 @@ summary: &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/ITV/radiator-rotator/blob/master/index.html"&gt;Radiator rotator&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://jquery.malsup.com/cycle2/"&gt;Jquery Cycle2&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="hardware-used-by-others"&gt;Hardware used by others&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://pivotallabs.com/using-a-raspberry-pi-as-an-information-radiator/"&gt;Raspberry Pi&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Fritz!Box 7390 configuration</title><link href="/fritzbox-7390-configuration.html" rel="alternate"></link><published>2013-05-09T12:32:00+02:00</published><updated>2013-05-09T12:32:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-09:/fritzbox-7390-configuration.html</id><summary type="html">&lt;p&gt;image : 
+&lt;p&gt;&lt;a href="http://pivotallabs.com/using-a-raspberry-pi-as-an-information-radiator/"&gt;Raspberry Pi&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Fritz!Box 7390 configuration</title><link href="/articles/fritzbox-7390-configuration.html" rel="alternate"></link><published>2013-05-09T12:32:00+02:00</published><updated>2013-05-09T12:32:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-09:/articles/fritzbox-7390-configuration.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (POTS) in my daily workflow on my Mac.&lt;/p&gt;
@@ -1232,7 +1240,7 @@ end alfred_script&lt;/p&gt;
 &lt;p&gt;[1] &lt;a href="http://http://en.wikipedia.org/wiki/Plain_old_telephone_service"&gt;POTS&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] &lt;a href="http://www.avm.de"&gt;AVM&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[3] &lt;a href="http://http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/page:1"&gt;AVM Knowledge base&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband review&lt;/a&gt; &lt;/p&gt;</content><category term="[telephony"></category><category term="VOIP]"></category></entry><entry><title>synology diskstation acces from internet</title><link href="/synology-diskstation-acces-from-internet.html" rel="alternate"></link><published>2013-05-05T11:14:00+02:00</published><updated>2013-05-05T11:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-05:/synology-diskstation-acces-from-internet.html</id><summary type="html">&lt;h2 id="image"&gt;image :&lt;/h2&gt;
+&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband review&lt;/a&gt; &lt;/p&gt;</content><category term="[telephony"></category><category term="VOIP]"></category></entry><entry><title>synology diskstation acces from internet</title><link href="/articles/synology-diskstation-acces-from-internet.html" rel="alternate"></link><published>2013-05-05T11:14:00+02:00</published><updated>2013-05-05T11:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-05-05:/articles/synology-diskstation-acces-from-internet.html</id><summary type="html">&lt;h2 id="image"&gt;image :&lt;/h2&gt;
 &lt;p&gt;I recently bought a Synology Diskstation DS213+.
 Installation went smoothly and within an hour the basic things were working as expected.&lt;/p&gt;
 &lt;p&gt;I wanted to access the NAS also from the internet, so I used the EZ-Internet wizard to configure it. I created a synology.me account and created a …&lt;/p&gt;</summary><content type="html">&lt;h2 id="image"&gt;image :&lt;/h2&gt;
@@ -1249,7 +1257,7 @@ Installation went smoothly and within an hour the basic things were working as e
 &lt;p&gt;So my conclusion for now is that for some reason the EZ-Internet wizard is not working OK and does not detect that the forwarding rules were not applied correctly.&lt;/p&gt;
 &lt;p&gt;Please comment if I have overlooked something.&lt;/p&gt;
 &lt;h2 id="references"&gt;References&lt;/h2&gt;
-&lt;p&gt;[1] &lt;a href="http://forum.synology.com/wiki/index.php/Remote_Access_on_the_Synology_DiskStation"&gt;Remote Access on the Synology DiskStation&lt;/a&gt;&lt;/p&gt;</content><category term="[diskstation"></category><category term="synology]"></category></entry><entry><title>Alfred workflow for Octopress</title><link href="/alfred-workflow-for-octopress.html" rel="alternate"></link><published>2013-04-23T13:34:00+02:00</published><updated>2013-04-23T13:34:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-23:/alfred-workflow-for-octopress.html</id><summary type="html">&lt;p&gt;image : 
+&lt;p&gt;[1] &lt;a href="http://forum.synology.com/wiki/index.php/Remote_Access_on_the_Synology_DiskStation"&gt;Remote Access on the Synology DiskStation&lt;/a&gt;&lt;/p&gt;</content><category term="[diskstation"></category><category term="synology]"></category></entry><entry><title>Alfred workflow for Octopress</title><link href="/articles/alfred-workflow-for-octopress.html" rel="alternate"></link><published>2013-04-23T13:34:00+02:00</published><updated>2013-04-23T13:34:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-23:/articles/alfred-workflow-for-octopress.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I have been using Alfred v2 for a couple of weeks now and I am very pleased about the workflow feature from the Power pack.&lt;/p&gt;
@@ -1280,7 +1288,7 @@ cd $HOME/Sites/dailyscrum
 &lt;p&gt;export LANG=en_US.utf-8&lt;/p&gt;
 &lt;p&gt;bundle install
 rake generate 2&amp;gt;&amp;amp;1 | tee $HOME/Sites/dailyscrum/error.log&lt;/p&gt;
-&lt;p&gt;{% endhighlight %}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Installation notes Testopia</title><link href="/installation-notes-testopia.html" rel="alternate"></link><published>2013-04-21T21:00:00+02:00</published><updated>2013-04-21T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-21:/installation-notes-testopia.html</id><summary type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make Testopia work on my local installation. This will be updated as I go along.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go along.
+&lt;p&gt;{% endhighlight %}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Installation notes Testopia</title><link href="/articles/installation-notes-testopia.html" rel="alternate"></link><published>2013-04-21T21:00:00+02:00</published><updated>2013-04-21T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-21:/articles/installation-notes-testopia.html</id><summary type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make Testopia work on my local installation. This will be updated as I go along.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go along.
 &lt;!-- more --&gt;&lt;/p&gt;
 &lt;h3 id="testopia-testcase-management-system"&gt;Testopia testcase management system&lt;/h3&gt;
 &lt;h3 id="requirements"&gt;Requirements&lt;/h3&gt;
@@ -1384,7 +1392,7 @@ I commented out use strict in the header of
 &lt;p&gt;Everything OK now.&lt;/p&gt;
 &lt;h3 id="reference"&gt;Reference&lt;/h3&gt;
 &lt;p&gt;[1]
-&lt;a href="http://www.mozilla.org/projects/testopia/"&gt;Testopia Mozilla&lt;/a&gt;&lt;/p&gt;</content><category term="testopia bugzilla testmanagement"></category></entry><entry><title>Project Nestor</title><link href="/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-21:/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;a href="http://www.mozilla.org/projects/testopia/"&gt;Testopia Mozilla&lt;/a&gt;&lt;/p&gt;</content><category term="testopia bugzilla testmanagement"></category></entry><entry><title>Project Nestor</title><link href="/articles/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-21:/articles/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Together with Bruno Kinoshita I am involved in a project for the development of a new testcase management application. The working title of the application is Nestor.
 &lt;!-- more --&gt;&lt;/p&gt;
 &lt;h2 id="project-team"&gt;Project team&lt;/h2&gt;
@@ -1407,7 +1415,7 @@ I commented out use strict in the header of
 &lt;h2 id="status-demo-application"&gt;Status demo application&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://www.nestor-qa.org" title="Nestor QA"&gt;Nestor QA&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="references"&gt;References&lt;/h2&gt;
-&lt;p&gt;&lt;a href="http://www.tupilabs.com" title="Tupilabs"&gt;Tupilabs&lt;/a&gt;&lt;/p&gt;</content><category term="testmanagement opensource project"></category></entry><entry><title>Static blog with Jekyll/Octopress</title><link href="/static-blog-with-jekylloctopress.html" rel="alternate"></link><published>2013-04-20T21:00:00+02:00</published><updated>2013-04-20T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-20:/static-blog-with-jekylloctopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;After using several blogging tools over the years I am now heavily into using Markdown. My workflow is becoming more and more based on scripting environments and tools like Alfred.
+&lt;p&gt;&lt;a href="http://www.tupilabs.com" title="Tupilabs"&gt;Tupilabs&lt;/a&gt;&lt;/p&gt;</content><category term="testmanagement opensource project"></category></entry><entry><title>Static blog with Jekyll/Octopress</title><link href="/articles/static-blog-with-jekylloctopress.html" rel="alternate"></link><published>2013-04-20T21:00:00+02:00</published><updated>2013-04-20T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-20:/articles/static-blog-with-jekylloctopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;After using several blogging tools over the years I am now heavily into using Markdown. My workflow is becoming more and more based on scripting environments and tools like Alfred.
 So I was looking for a good static blog generator, just like in the old days when I was using Blosxom. 
 Looking for a way to use Markdown as the workhorse I decided to give Jekyll a try. Jekyll is a static blog site generator based on Ruby. I found some projects that use Jekyll and after a day of configuration the first setup is ready.&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -1420,7 +1428,7 @@ When I go along I will update this post with some new notes.&lt;/p&gt;
 &lt;p&gt;[2] Also &lt;a href="http://learnaholic.me/2012/10/10/deploying-octopress-to-github-pages-and-setting-custom-subdomain-cname/"&gt;Deploying Octopress to Github Pages&lt;/a&gt; gave some good tips. &lt;/p&gt;
 &lt;p&gt;[3] &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[4] &lt;a href="http://octopress.org/"&gt;Octopress&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] &lt;a href="http://code.dblock.org/octopress-setting-up-a-blog-and-contributing-to-an-existing-one"&gt;Setting up a blog and contribute to an existing one&lt;/a&gt;&lt;/p&gt;</content><category term="github blog ruby"></category></entry><entry><title>Installation Bugzilla on OSX Mountain Lion Server</title><link href="/installation-bugzilla-on-osx-mountain-lion-server.html" rel="alternate"></link><published>2013-04-20T10:00:00+02:00</published><updated>2013-04-20T10:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-20:/installation-bugzilla-on-osx-mountain-lion-server.html</id><summary type="html">&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;p&gt;[4] &lt;a href="http://code.dblock.org/octopress-setting-up-a-blog-and-contributing-to-an-existing-one"&gt;Setting up a blog and contribute to an existing one&lt;/a&gt;&lt;/p&gt;</content><category term="github blog ruby"></category></entry><entry><title>Installation Bugzilla on OSX Mountain Lion Server</title><link href="/articles/installation-bugzilla-on-osx-mountain-lion-server.html" rel="alternate"></link><published>2013-04-20T10:00:00+02:00</published><updated>2013-04-20T10:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:None,2013-04-20:/articles/installation-bugzilla-on-osx-mountain-lion-server.html</id><summary type="html">&lt;p&gt;{:toc}&lt;/p&gt;
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;I was forced to reinvent the wheel of installing Bugzilla on my development OSX Mountain Lion machine.&lt;/p&gt;
 &lt;p&gt;On this machine I have OSX server running. As perhaps many of you know Apple decided to change the way you can configure the web services. In this post I will …&lt;/p&gt;</summary><content type="html">&lt;p&gt;{:toc}&lt;/p&gt;
