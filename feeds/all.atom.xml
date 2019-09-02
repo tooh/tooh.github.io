@@ -12,34 +12,23 @@ summary: &lt;/p&gt;
 node -v&lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>testgantt</title><link href="https://blog.florijnconsultancy.nl/articles/testgantt.html" rel="alternate"></link><published>2018-07-27T09:14:00+02:00</published><updated>2018-07-27T09:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2018-07-27:/articles/testgantt.html</id><content type="html">&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/6bf61f17.png"&gt;&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>test_includes</title><link href="https://blog.florijnconsultancy.nl/articles/test_includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2017-12-25:/articles/test_includes.html</id><content type="html">&lt;!-- more --&gt;
 
-&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/5e4aa4c1.png"&gt;</content><category term="[]"></category></entry><entry><title>Skype problem solved</title><link href="https://blog.florijnconsultancy.nl/articles/skype-problem-solved.html" rel="alternate"></link><published>2016-10-29T11:41:00+02:00</published><updated>2016-10-29T11:41:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-10-29:/articles/skype-problem-solved.html</id><summary type="html">&lt;p&gt;image : 
-summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;For some time I experienced problems with Skype.&lt;/p&gt;
-&lt;p&gt;These problems only occurred on my iMac. &lt;/p&gt;
-&lt;p&gt;Currently my iMac is running macOS Sierra.&lt;/p&gt;
-&lt;p&gt;I use Skype on a daily basis to conduct standup calls with remote Scrum teams and to contact suppliers.&lt;/p&gt;
-&lt;p&gt;I noticed that group audio/video calls …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
-summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;For some time I experienced problems with Skype.&lt;/p&gt;
-&lt;p&gt;These problems only occurred on my iMac. &lt;/p&gt;
-&lt;p&gt;Currently my iMac is running macOS Sierra.&lt;/p&gt;
-&lt;p&gt;I use Skype on a daily basis to conduct standup calls with remote Scrum teams and to contact suppliers.&lt;/p&gt;
-&lt;p&gt;I noticed that group audio/video calls were not working anymore. Only chats were working.&lt;/p&gt;
+&lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/5e4aa4c1.png"&gt;</content><category term="[]"></category></entry><entry><title>Skype problem solved</title><link href="https://blog.florijnconsultancy.nl/articles/skype-problem-solved.html" rel="alternate"></link><published>2016-10-29T11:41:00+02:00</published><updated>2016-10-29T11:41:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-10-29:/articles/skype-problem-solved.html</id><summary type="html"></summary><content type="html">&lt;p&gt;For some time I experienced problems with Skype.
+These problems only occurred on my iMac. 
+Currently my iMac is running macOS Sierra.&lt;/p&gt;
+&lt;p&gt;I use Skype on a daily basis to conduct standup calls with remote Scrum teams and to contact suppliers.
+I noticed that group audio/video calls were not working anymore. Only chats were working.&lt;/p&gt;
 &lt;p&gt;After googling around and not finding any solution I got the impression it had something to do with my user account and some certificate.&lt;/p&gt;
 &lt;p&gt;Today I noticed that my machine was slow and I started up Activity monitor. I noticed a background process that was running :&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;opendirectoryserverd&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Surprised as I was that this was running I killed the process and googled for background info on this process.&lt;/p&gt;
-&lt;p&gt;I found that this process was part of OSX Server.&lt;/p&gt;
-&lt;p&gt;I remembered that some releases ago I installed OSX server to have a look at it. I did not like it and I do not have a need for the features offered so I deinstalled it with some instructions I found somewhere.&lt;/p&gt;
-&lt;p&gt;Probably this deinstall was not performed completely and some stuff was still active.&lt;/p&gt;
-&lt;p&gt;I found this support page to deinstall 
-opendirectoryserver&lt;/p&gt;
+&lt;p&gt;I found that this process was part of OSX Server.
+&lt;!-- more --&gt;
+I remembered that some releases ago I installed OSX server to have a look at it.I did not like it and I do not have a need for the features offered so I deinstalled it with some instructions I found somewhere.&lt;/p&gt;
+&lt;p&gt;Probably this deinstall was not performed completely and some stuff was still active.
+I found this support page to deinstall opendirectoryserver&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://support.apple.com/en-us/HT204880"&gt;https://support.apple.com/en-us/HT204880&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;It seems this corrected my Skype problems.&lt;/p&gt;
-&lt;p&gt;Fingers crossed!&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Test UML plugin1</title><link href="https://blog.florijnconsultancy.nl/articles/test-uml-plugin1.html" rel="alternate"></link><published>2016-08-26T00:00:00+02:00</published><updated>2016-08-26T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-08-26:/articles/test-uml-plugin1.html</id><content type="html">&lt;p&gt;:fa:&lt;code&gt;fa-github&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It seems this corrected my Skype problems.
+Fingers crossed!&lt;/p&gt;</content><category term="skype"></category><category term="workplace"></category><category term="videocalls"></category><category term="telephony"></category></entry><entry><title>Test UML plugin1</title><link href="https://blog.florijnconsultancy.nl/articles/test-uml-plugin1.html" rel="alternate"></link><published>2016-08-26T00:00:00+02:00</published><updated>2016-08-26T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-08-26:/articles/test-uml-plugin1.html</id><content type="html">&lt;p&gt;:fa:&lt;code&gt;fa-github&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;PRIMA&lt;/p&gt;
 &lt;img alt="uml diagram" attrib="{'class': 'uml'}" src="/images/4ce22037.png"&gt;&lt;p&gt;DOPO&lt;/p&gt;
 &lt;img alt="Sample sequence diagram" attrib="{'class': 'uml'}" src="/images/73b24588.png"&gt;&lt;p&gt;Test&lt;/p&gt;
