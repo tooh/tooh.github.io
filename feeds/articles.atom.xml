@@ -582,34 +582,156 @@ You can't edit the default settings file. If you try this, you cannot edit the s
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>confluence inspired callouts in Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/confluence-inspired-callouts-in-octopress.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/confluence-inspired-callouts-in-octopress.html</id><summary type="html">&lt;p&gt;image : 
-summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts many times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in Octopress.&lt;/p&gt;
-&lt;p&gt;With some tweaking and help of Frank I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
-summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts many times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in Octopress.&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>confluence inspired callouts in Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/confluence-inspired-callouts-in-octopress.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/confluence-inspired-callouts-in-octopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts many times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in Octopress.&lt;/p&gt;
 &lt;p&gt;With some tweaking and help of Frank I managed to implement a number of callout types.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs note %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 1.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs info %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 2.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs error %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 3.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs warning %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 4.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs tip %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 5.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs thumbs-up %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 6.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs thumbs-down %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 7.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs check %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 8.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;TODO: describing the Howto.&lt;/p&gt;</content><category term="[writing"></category><category term="octopress]"></category></entry><entry><title>Customizing Sublime for Python development</title><link href="https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html" rel="alternate"></link><published>2014-09-20T10:38:00+02:00</published><updated>2014-09-20T10:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-20:/articles/customizing-sublime-for-python-development.html</id><content type="html">&lt;p&gt;image : 
+&lt;p&gt;TODO: describing the Howto.&lt;/p&gt;</content><category term="writing"></category></entry><entry><title>Installation Bugzilla 4.2.3</title><link href="https://blog.florijnconsultancy.nl/articles/installation-bugzilla-423.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/installation-bugzilla-423.html</id><summary type="html"></summary><content type="html">&lt;h1 id="installation-bugzilla-423"&gt;Installation Bugzilla 4.2.3&lt;/h1&gt;
+&lt;h2 id="get-423-install-files"&gt;Get 4.2.3 install files&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Goto bugzilla download http://ftp.mozilla.org/pub/mozilla.org/webtools/bugzilla-4.2.3.tar.gz&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="extract-tarball"&gt;Extract tarball&lt;/h2&gt;
+&lt;p&gt;tar xzvf bugzilla-[version].tar.gz
+bugzilla-[version]/
+bugzilla-[version]/.cvsignore
+(Output truncated)&lt;/p&gt;
+&lt;h2 id="save-old-config-and-data-from-bugzilla-directory"&gt;Save old config and data from bugzilla directory&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;cd bugzilla-[version]&lt;/li&gt;
+&lt;li&gt;cp ../bugzilla/localconfig* .&lt;/li&gt;
+&lt;li&gt;cp -r ../bugzilla/data .&lt;/li&gt;
+&lt;li&gt;cd ..&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="save-old-bugzilla-directory"&gt;Save old bugzilla directory&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;sudo mv bugzilla bugzilla.old&lt;/li&gt;
+&lt;li&gt;sudo mv bugzilla-[version] bugzilla&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="make-link-to-bugzilla-directory"&gt;Make link to bugzilla directory&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;cd /usr/bin; sudo rm bugzilla; sudo ln -s /usr/local/bugzilla bugzilla&lt;/li&gt;
+&lt;li&gt;cd /Library/WebServer/Documents; sudo rm bugzilla;sudo ln -s /usr/local/bugzilla bugzilla
+Note: In /usr/local I have prepared a command file "linkbugzilla" to do this&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="finalize-installation-new-version"&gt;Finalize installation new version&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;cd /usr/local/bugzilla&lt;/li&gt;
+&lt;li&gt;./checksetup.pl&lt;/li&gt;
+&lt;li&gt;In case of errors for missing modules
+sudo /usr/bin/perl install-module.pl --all&lt;/li&gt;
+&lt;li&gt;rerun ./checksetup.pl&lt;/li&gt;
+&lt;li&gt;Go to Bugzilla URL to check if Bugzilla is starting up&lt;/li&gt;
+&lt;li&gt;Check the new version in the right upper corner&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="bugzilla-project-changed-to-bzr-as-of-42-release"&gt;Bugzilla project changed to bzr as of 4.2 release&lt;/h1&gt;
+&lt;h2 id="how-to-get-a-specific-bugzilla-release"&gt;How to get a specific Bugzilla release&lt;/h2&gt;
+&lt;p&gt;Example how to check out Bugzilla 4.2 to directory bz-4.2:
+bzr co -r tag:bugzilla-4.2 bzr://bzr.mozilla.org/bugzilla/4.2 bz-4.2&lt;/p&gt;
+&lt;h1 id="installation-of-testopia-extension"&gt;Installation of Testopia extension&lt;/h1&gt;
+&lt;h2 id="how-to-get-testopia"&gt;How to get Testopia&lt;/h2&gt;
+&lt;p&gt;bzr branch bzr://bzr.mozilla.org/bugzilla/extensions/testopia/trunk&lt;/p&gt;
+&lt;h2 id="patch-bugzilla-42"&gt;Patch Bugzilla 4.2&lt;/h2&gt;
+&lt;p&gt;Note: 603-2012: No patch for 4.2 available at time of patching
+1. cd to the directory with the Testopia trunk
+2. copy items from the downloaded Testopia trunk 
+3. cd /usr/local/bugzilla
+4. paste items from the downloaded Testopia trunk and merge the extensions directory
+5. patch -p0 -i extensions/Testopia/patch-4.0
+patching file Bugzilla/Bug.pm
+Hunk #1 succeeded at 3628 (offset 101 lines).
+patching file Bugzilla/Constants.pm
+Hunk #1 succeeded at 145 (offset 1 line).
+Hunk #2 succeeded at 470 (offset 5 lines).
+patching file Bugzilla/Error.pm
+Hunk #2 succeeded at 145 (offset -6 lines).
+patching file Bugzilla/Install/Filesystem.pm
+Hunk #1 succeeded at 153 (offset 3 lines).
+patching file Bugzilla/Search.pm
+Hunk #1 FAILED at 510.
+1 out of 1 hunk FAILED -- saving rejects to file Bugzilla/Search.pm.rej
+patching file Bugzilla/User.pm
+Hunk #1 succeeded at 575 with fuzz 1 (offset 67 lines).
+Hunk #2 succeeded at 936 (offset 82 lines).
+Hunk #3 succeeded at 1292 (offset 130 lines).
+patching file template/en/default/global/setting-descs.none.tmpl&lt;/p&gt;
+&lt;h2 id="run-checksetuppl"&gt;Run .checksetup.pl&lt;/h2&gt;
+&lt;p&gt;./checksetup.pl&lt;/p&gt;
+&lt;h2 id="install-additional-dependencies"&gt;Install additional dependencies&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;sudo /usr/bin/perl install-module.pl Text::Diff&lt;/li&gt;
+&lt;li&gt;sudo /usr/bin/perl install-module.pl GD::Graph3d&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="run-checksetup-again"&gt;Run .checksetup again&lt;/h2&gt;
+&lt;p&gt;./checksetup.pl
+You should now get 
+checksetup.pl complete.&lt;/p&gt;
+&lt;h2 id="errors-on-filter-url_quote"&gt;Errors on FILTER url_quote&lt;/h2&gt;
+&lt;p&gt;Template-&amp;gt;process() failed twice.
+First error: undef error - url_quote: filter not found
+Second error: undef error - url_quote: filter not found&lt;/p&gt;
+&lt;p&gt;Seems this is deprecated&lt;/p&gt;
+&lt;p&gt;Found Bugzilla message 398701 with fix&lt;/p&gt;
+&lt;p&gt;find . &lt;em&gt;-type f -name "&lt;/em&gt;.tmpl" -exec replace 'FILTER url_quote' 'FILTER uri' -- {} \;*&lt;/p&gt;
+&lt;p&gt;Executed this from the Testopia extensions directory this updated a number of template files:&lt;/p&gt;
+&lt;p&gt;./template/en/default/hook/bug/create/create-end.html.tmpl converted
+./template/en/default/hook/bug/edit-after_custom_fields.html.tmpl converted
+./template/en/default/hook/bug/process/results-links.html.tmpl converted
+./template/en/default/hook/global/common-links-link-row.html.tmpl converted
+./template/en/default/hook/global/useful-links-end.html.tmpl converted
+./template/en/default/testopia/reports/build-coverage.html.tmpl converted
+./template/en/default/testopia/reports/completion.html.tmpl converted
+./template/en/default/testopia/reports/execution.html.tmpl converted
+./template/en/default/testopia/reports/priority-breakdown.html.tmpl converted
+./template/en/default/testopia/reports/report-table.html.tmpl converted
+./template/en/default/testopia/reports/report.html.tmpl converted
+./template/en/default/testopia/reports/status.html.tmpl converted
+./template/en/default/testopia/tag/list.html.tmpl converted&lt;/p&gt;
+&lt;h2 id="additional-patching"&gt;Additional patching&lt;/h2&gt;
+&lt;h3 id="searchpm"&gt;Search.pm&lt;/h3&gt;
+&lt;p&gt;There seems to be a problem in Bugzilla/Search.pm&lt;/p&gt;
+&lt;p&gt;A patch was suggested in BZ 596325
+I copied the patch file and applied it
+sudo patch -p0 -i extensions/Testopia/patch-bz596325
+$ chgrp the Search.pm  and make it member of the _www group&lt;/p&gt;
+&lt;p&gt;Patch works and now Testopia-&amp;gt; My plands does not give an error anymore&lt;/p&gt;
+&lt;h3 id="new-plan"&gt;New plan&lt;/h3&gt;
+&lt;p&gt;It seems the link New plan is not working.
+In the Apache error_log there are a lot of errors&lt;/p&gt;
+&lt;p&gt;File does not exist: /Library/WebServer/Documents/bugzilla/extensions/Testopia/extjs, referer: http://tooh.homedns.org/bugzilla/tr_new_plan.cgi&lt;/p&gt;
+&lt;p&gt;I did not install the extjs files so probably this is the problem.&lt;/p&gt;
+&lt;p&gt;On the Testopia wiki there is some instructions&lt;/p&gt;
+&lt;p&gt;$&amp;gt; cd path/to/bugzilla/testopia/
+ $&amp;gt; wget http://extjs.com/deploy/ext-3.2.1.zip
+ $&amp;gt; unzip ext-3.2.1.zip
+ $&amp;gt; mv ext-3.2.1 extjs&lt;/p&gt;
+&lt;p&gt;Found out that the files are not there anymore
+Downloaded the older version
+http://www.sencha.com/products/extjs/download/ext-js-3.2.1&lt;/p&gt;
+&lt;p&gt;Renamed the folder to extjs&lt;/p&gt;
+&lt;p&gt;Note: Don't forget to refresh. And now it is working.&lt;/p&gt;
+&lt;h3 id="new-run"&gt;New run&lt;/h3&gt;
+&lt;p&gt;Initially no testcases where shown.
+Investigation of the /var/log/apache2/error_log showed that there was an error with een uninitialized variable.
+I commented out use strict in the header of
+/usr/local/bugzilla/extensions/Testopia/lib/Search.pm&lt;/p&gt;
+&lt;p&gt;Everything OK now.&lt;/p&gt;</content><category term="bugzilla"></category></entry><entry><title>Customizing Sublime for Python development</title><link href="https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html" rel="alternate"></link><published>2014-09-20T10:38:00+02:00</published><updated>2014-09-20T10:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-20:/articles/customizing-sublime-for-python-development.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;More and more I am using Sublime as my favorite editor.&lt;/p&gt;
@@ -1206,16 +1328,12 @@ I decided not to use the WLAN option of the Fritz!Box, but instead I bought a Fr
 &lt;p&gt;[1] &lt;a href="http://http://en.wikipedia.org/wiki/Plain_old_telephone_service"&gt;POTS&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] &lt;a href="http://www.avm.de"&gt;AVM&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[3] &lt;a href="http://http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/page:1"&gt;AVM Knowledge base&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband review&lt;/a&gt; &lt;/p&gt;</content><category term="telephony"></category><category term="VOIP"></category></entry><entry><title>synology diskstation acces from internet</title><link href="https://blog.florijnconsultancy.nl/articles/synology-diskstation-acces-from-internet.html" rel="alternate"></link><published>2013-05-05T11:14:00+02:00</published><updated>2013-05-05T11:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-05:/articles/synology-diskstation-acces-from-internet.html</id><summary type="html">&lt;h2 id="image"&gt;image :&lt;/h2&gt;
-&lt;p&gt;I recently bought a Synology Diskstation DS213+.
-Installation went smoothly and within an hour the basic things were working as expected.&lt;/p&gt;
-&lt;p&gt;I wanted to access the NAS also from the internet, so I used the EZ-Internet wizard to configure it. I created a synology.me account and created a …&lt;/p&gt;</summary><content type="html">&lt;h2 id="image"&gt;image :&lt;/h2&gt;
-&lt;p&gt;I recently bought a Synology Diskstation DS213+.
+&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband review&lt;/a&gt; &lt;/p&gt;</content><category term="telephony"></category><category term="VOIP"></category></entry><entry><title>synology diskstation acces from internet</title><link href="https://blog.florijnconsultancy.nl/articles/synology-diskstation-acces-from-internet.html" rel="alternate"></link><published>2013-05-05T11:14:00+02:00</published><updated>2013-05-05T11:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-05:/articles/synology-diskstation-acces-from-internet.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I recently bought a Synology Diskstation DS213+.
 Installation went smoothly and within an hour the basic things were working as expected.&lt;/p&gt;
 &lt;p&gt;I wanted to access the NAS also from the internet, so I used the EZ-Internet wizard to configure it. I created a synology.me account and created a DDNS entry. For some reason the portforwarding on my Netgear WNDR3700 was not working as expected. Some people hinted that you could make some manual portforwarding rules, so I decided to give that a try.
 &lt;!-- more --&gt;&lt;/p&gt;
 &lt;p&gt;When I tried to create a custom service I got an error:&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
+&lt;p&gt;:::bash
 "The specified port(s) are being used by other configurations. Please check your configurations of USB Readyshare, Remote Management, Port forwarding, Port Triggering, UPnP Port Mapping table, RIP, and Internet connection type "&lt;/p&gt;
 &lt;p&gt;I noticed that the port 5000 was already appearing in my uPnP table and I assumed this was the cause of this error. I decided to switch off UPnP and then added the forwarding rule.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Port forwarding" src="/images/port_forwarding.png"&gt;&lt;/p&gt;
@@ -1223,7 +1341,7 @@ Installation went smoothly and within an hour the basic things were working as e
 &lt;p&gt;So my conclusion for now is that for some reason the EZ-Internet wizard is not working OK and does not detect that the forwarding rules were not applied correctly.&lt;/p&gt;
 &lt;p&gt;Please comment if I have overlooked something.&lt;/p&gt;
 &lt;h2 id="references"&gt;References&lt;/h2&gt;
-&lt;p&gt;[1] &lt;a href="http://forum.synology.com/wiki/index.php/Remote_Access_on_the_Synology_DiskStation"&gt;Remote Access on the Synology DiskStation&lt;/a&gt;&lt;/p&gt;</content><category term="[diskstation"></category><category term="synology]"></category></entry><entry><title>Alfred workflow for Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html" rel="alternate"></link><published>2013-04-23T13:34:00+02:00</published><updated>2013-04-23T13:34:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-23:/articles/alfred-workflow-for-octopress.html</id><summary type="html">&lt;p&gt;image : 
+&lt;p&gt;[1] &lt;a href="http://forum.synology.com/wiki/index.php/Remote_Access_on_the_Synology_DiskStation"&gt;Remote Access on the Synology DiskStation&lt;/a&gt;&lt;/p&gt;</content><category term="diskstation"></category><category term="synology"></category></entry><entry><title>Alfred workflow for Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html" rel="alternate"></link><published>2013-04-23T13:34:00+02:00</published><updated>2013-04-23T13:34:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-23:/articles/alfred-workflow-for-octopress.html</id><summary type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I have been using Alfred v2 for a couple of weeks now and I am very pleased about the workflow feature from the Power pack.&lt;/p&gt;
