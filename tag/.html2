@@ -287,62 +287,10 @@
                         </footer>
                     </article>
                     <article>
-                        <h1><a href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html">Disabling Nap App</a></h1>
-                        <time datetime="2014-10-25 12:02:00+02:00" pubdate>
-                            <span class="month">Oct</span>
-                            <span class="day">25</span>
-                            <span class="year">2014</span>
-                        </time>
-                        <footer>
-                            <span class="categories">posted in
-                                <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
-                            </span>
-                        </footer>
-                    </article>
-                    <article>
-                        <h1><a href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html">Upgrade to Yosemite</a></h1>
-                        <time datetime="2014-10-18 11:59:00+02:00" pubdate>
-                            <span class="month">Oct</span>
-                            <span class="day">18</span>
-                            <span class="year">2014</span>
-                        </time>
-                        <footer>
-                            <span class="categories">posted in
-                                <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
-                            </span>
-                        </footer>
-                    </article>
-                    <article>
-                        <h1><a href="https://blog.florijnconsultancy.nl/articles/mysql-installation-notes.html">mysql installation notes</a></h1>
-                        <time datetime="2014-10-05 10:25:00+02:00" pubdate>
-                            <span class="month">Oct</span>
-                            <span class="day">05</span>
-                            <span class="year">2014</span>
-                        </time>
-                        <footer>
-                            <span class="categories">posted in
-                                <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
-                            </span>
-                        </footer>
-                    </article>
-                    <article>
                         <h1><a href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html">Bugzilla git migration</a></h1>
                         <time datetime="2014-09-28 14:49:00+02:00" pubdate>
                             <span class="month">Sep</span>
                             <span class="day">28</span>
-                            <span class="year">2014</span>
-                        </time>
-                        <footer>
-                            <span class="categories">posted in
-                                <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
-                            </span>
-                        </footer>
-                    </article>
-                    <article>
-                        <h1><a href="https://blog.florijnconsultancy.nl/articles/activate-spellcheck-in-sublime-text-3.html">activate spellcheck in Sublime Text 3</a></h1>
-                        <time datetime="2014-09-27 11:27:00+02:00" pubdate>
-                            <span class="month">Sep</span>
-                            <span class="day">27</span>
                             <span class="year">2014</span>
                         </time>
                         <footer>
@@ -587,7 +535,7 @@
 
   <section>
   <h1>Tags</h1>
-    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">[Jira]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/skype.html">skype</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement-opensource-project.html">testmanagement opensource project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/videocalls.html">videocalls</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diagrams.html">diagrams</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>,    <a href="https://blog.florijnconsultancy.nl/tag/workplace.html">workplace</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>  </section>
+    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/skype.html">skype</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement-opensource-project.html">testmanagement opensource project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/videocalls.html">videocalls</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diagrams.html">diagrams</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>,    <a href="https://blog.florijnconsultancy.nl/tag/workplace.html">workplace</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>  </section>
 
 
 
