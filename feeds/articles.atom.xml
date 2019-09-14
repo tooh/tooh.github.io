@@ -74,7 +74,32 @@ summary: &lt;/p&gt;
 &lt;p&gt;And finally install gollum&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gem install gollum&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;More info&lt;/p&gt;
-&lt;p&gt;&lt;a href=""&gt;https://gitlab.com/gitlab-org/gollum-lib&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Using scribe to write online meeting summaries</title><link href="https://blog.florijnconsultancy.nl/articles/using-scribe-to-write-online-meeting-summaries.html" rel="alternate"></link><published>2015-10-18T15:30:00+02:00</published><updated>2015-10-18T15:30:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-10-18:/articles/using-scribe-to-write-online-meeting-summaries.html</id><content type="html">&lt;p&gt;image : 
+&lt;p&gt;&lt;a href=""&gt;https://gitlab.com/gitlab-org/gollum-lib&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Custom Alfred search for Jira</title><link href="https://blog.florijnconsultancy.nl/articles/custom-alfred-search-for-jira.html" rel="alternate"></link><published>2016-01-31T07:51:00+01:00</published><updated>2016-01-31T07:51:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-01-31:/articles/custom-alfred-search-for-jira.html</id><summary type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Recently we switched from using Bugzilla for our issue tracking to Jira.&lt;/p&gt;
+&lt;p&gt;As an Alfred user I went looking for some Alfred support for Jira searches.&lt;/p&gt;
+&lt;p&gt;I found a couple of workflows for this, but for now I settled for a simple custom web search in Alfred.&lt;/p&gt;
+&lt;div class='docs'&gt;e …&lt;/div&gt;</summary><content type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Recently we switched from using Bugzilla for our issue tracking to Jira.&lt;/p&gt;
+&lt;p&gt;As an Alfred user I went looking for some Alfred support for Jira searches.&lt;/p&gt;
+&lt;p&gt;I found a couple of workflows for this, but for now I settled for a simple custom web search in Alfred.&lt;/p&gt;
+&lt;div class='docs'&gt;e&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;e
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;Replace [your jira server] with your jira server.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;https://[your jira server]/secure/QuickSearch.jspa?searchString={query}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;!-- more --&gt;</content><category term="[Jira]"></category></entry><entry><title>Using scribe to write online meeting summaries</title><link href="https://blog.florijnconsultancy.nl/articles/using-scribe-to-write-online-meeting-summaries.html" rel="alternate"></link><published>2015-10-18T15:30:00+02:00</published><updated>2015-10-18T15:30:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-10-18:/articles/using-scribe-to-write-online-meeting-summaries.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Use case:&lt;/p&gt;
@@ -393,7 +418,184 @@ echo now if we try it :
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;{:toc}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Bugzilla git migration</title><link href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html" rel="alternate"></link><published>2014-09-28T14:49:00+02:00</published><updated>2014-09-28T14:49:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-28:/articles/bugzilla-git-migration.html</id><content type="html">&lt;p&gt;image : 
+&lt;p&gt;{:toc}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Disabling Nap App</title><link href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html" rel="alternate"></link><published>2014-10-25T12:02:00+02:00</published><updated>2014-10-25T12:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-25:/articles/disabling-nap-app.html</id><summary type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Since Mavericks there is a feature called Nap app.&lt;/p&gt;
+&lt;p&gt;For some reason it can be better to prevent an application to take a nap.&lt;/p&gt;
+&lt;div class='docs'&gt;p&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;You can disable this for a specific application.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;defaults write com.apple.Terminal NSAppSleepDisabled -bool YES
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The Manual Solution:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mavericks comes with …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Since Mavericks there is a feature called Nap app.&lt;/p&gt;
+&lt;p&gt;For some reason it can be better to prevent an application to take a nap.&lt;/p&gt;
+&lt;div class='docs'&gt;p&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;You can disable this for a specific application.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;defaults write com.apple.Terminal NSAppSleepDisabled -bool YES
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The Manual Solution:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mavericks comes with a dreaded feature --- App Nap -- that is designed to save battery live and be energy star compliant.   Fine for some apps -- but it doesn't really work if you are using Studio as a web server.   You can manually turn it off by:
+-- doing a 'get info' on Studio and 
+-- clicking the 'disable app nap' feature.&lt;/p&gt;
+&lt;p&gt;you'll get all your studio horses firing on all cylinders even in the background -- which is what you want.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="http://www.cultofmac.com/274396/disable-app-nap-specific-apps-os-x-tips/"&gt;Disable nap app&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Upgrade to Yosemite</title><link href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</id><summary type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
+It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in Yosemite.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h2 id="update-rvm"&gt;Update rvm&lt;/h2&gt;
+&lt;p&gt;rvm get stable&lt;/p&gt;
+&lt;h2 id="fix-brew"&gt;Fix brew&lt;/h2&gt;
+&lt;p&gt;Changing 1 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
+It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in Yosemite.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h2 id="update-rvm"&gt;Update rvm&lt;/h2&gt;
+&lt;p&gt;rvm get stable&lt;/p&gt;
+&lt;h2 id="fix-brew"&gt;Fix brew&lt;/h2&gt;
+&lt;p&gt;Changing 1.8  in Current in brew.rb made brew working again.&lt;/p&gt;
+&lt;p&gt;Change&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -W0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;to &lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby -W0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2 id="ruby"&gt;Ruby&lt;/h2&gt;
+&lt;p&gt;In order to make some of my projects work again I had to install a different Ruby version.&lt;/p&gt;
+&lt;p&gt;Installing it only with&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rvm install
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;resulted in errors that it could not compile.&lt;/p&gt;
+&lt;p&gt;This fixed it&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rvm install ruby-1.9.3 --with-gcc=clang
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2 id="bugzilla-perl"&gt;Bugzilla / perl&lt;/h2&gt;
+&lt;p&gt;Symptom:&lt;/p&gt;
+&lt;p&gt;My local Bugzilla installation does not work anymore.&lt;/p&gt;
+&lt;p&gt;Cause:&lt;/p&gt;
+&lt;p&gt;Apple has overwritten the /etc/apache2/httpd.conf. &lt;/p&gt;
+&lt;p&gt;Add your Bugzilla settings.&lt;/p&gt;
+&lt;p&gt;{% highlight apache %}&lt;/p&gt;
+&lt;p&gt;&lt;Directory "/Library/WebServer/bugzilla-trunk"&gt; 
+  AddHandler cgi-script .cgi .pl 
+  Options +Indexes +ExecCGI +FollowSymLinks 
+  DirectoryIndex index.cgi index.html 
+  AllowOverride Limit FileInfo Indexes Options 
+  Order allow,deny 
+  Allow from all 
+&lt;/Directory&gt;&lt;/p&gt;
+&lt;p&gt;{% endhighlight %}&lt;/p&gt;
+&lt;p&gt;Symptom:&lt;/p&gt;
+&lt;p&gt;Attempt to reload JSON/XS.pm aborted.&lt;/p&gt;
+&lt;p&gt;Solution:&lt;/p&gt;
+&lt;p&gt;I emptied out the lib folder and ran &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;./install-module.pl —all 
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and it fixed the issue.&lt;/p&gt;
+&lt;p&gt;Bugzilla 4.5.6 introduces Mysql SSL certificates.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://dev.mysql.com/doc/refman/5.0/en/creating-ssl-certs.html"&gt;OpenSSL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Extra parameters are added to the localconfig.&lt;/p&gt;
+&lt;div class='docs'&gt;o&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;o
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;I have to find out how to configure this&lt;/p&gt;
+&lt;p&gt;{% enddocs %}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>mysql installation notes</title><link href="https://blog.florijnconsultancy.nl/articles/mysql-installation-notes.html" rel="alternate"></link><published>2014-10-05T10:25:00+02:00</published><updated>2014-10-05T10:25:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-05:/articles/mysql-installation-notes.html</id><summary type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I had to reinstall my local Bugzilla , so I took the opportunity to upgrade my local mysql as well.&lt;/p&gt;
+&lt;p&gt;This post contains my notes made during the process.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;div class='docs'&gt;p&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;On OSX it is not always obvious which my.cnf file is used. You can find all my …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I had to reinstall my local Bugzilla , so I took the opportunity to upgrade my local mysql as well.&lt;/p&gt;
+&lt;p&gt;This post contains my notes made during the process.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;div class='docs'&gt;p&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;On OSX it is not always obvious which my.cnf file is used. You can find all my.cnf files on your system by issuing a find command&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo find . -name &amp;quot;*.cnf&amp;quot; -exec ls -al {} \;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class='docs'&gt;p&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;You can execute a mysql command to show in which locations you can place my.cnf files and in which order they are executed.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;mysql --help | grep &amp;quot;Default options&amp;quot; -A 1
+&lt;/pre&gt;&lt;/div&gt;</content><category term="[]"></category></entry><entry><title>Bugzilla git migration</title><link href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html" rel="alternate"></link><published>2014-09-28T14:49:00+02:00</published><updated>2014-09-28T14:49:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-28:/articles/bugzilla-git-migration.html</id><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;{:toc}&lt;/p&gt;
@@ -407,7 +609,127 @@ summary: &lt;/p&gt;
 &lt;p&gt;&lt;a href="http://git.mozilla.org/?p=bugzilla/bugzilla.git;a%3Dsummary"&gt;Bugzilla Git Summary&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="update-to-newer-release"&gt;Update to newer release&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Git#Updating_to_a_Newer_Release"&gt;Updating to a newer release&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Installation Bugzilla 4.2.3</title><link href="https://blog.florijnconsultancy.nl/articles/installation-bugzilla-423.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/installation-bugzilla-423.html</id><summary type="html"></summary><content type="html">&lt;h1 id="installation-bugzilla-423"&gt;Installation Bugzilla 4.2.3&lt;/h1&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>activate spellcheck in Sublime Text 3</title><link href="https://blog.florijnconsultancy.nl/articles/activate-spellcheck-in-sublime-text-3.html" rel="alternate"></link><published>2014-09-27T11:27:00+02:00</published><updated>2014-09-27T11:27:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-27:/articles/activate-spellcheck-in-sublime-text-3.html</id><summary type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;By default spellcheck is off in Sublime Text.&lt;/p&gt;
+&lt;div class='docs'&gt;e&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;e
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;You can't edit the default settings file. If you try this, you cannot edit the setting.&lt;/p&gt;
+&lt;p&gt;In order to activate add the following to the User settings:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;,
+    // Set to true to turn spell checking on by default
+    &amp;quot;spell_check …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;image : 
+summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;By default spellcheck is off in Sublime Text.&lt;/p&gt;
+&lt;div class='docs'&gt;e&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;e
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;You can't edit the default settings file. If you try this, you cannot edit the setting.&lt;/p&gt;
+&lt;p&gt;In order to activate add the following to the User settings:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;,
+    // Set to true to turn spell checking on by default
+    &amp;quot;spell_check&amp;quot;: true
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Confluence inspired callouts in Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/confluence-inspired-callouts-in-octopress.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/confluence-inspired-callouts-in-octopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts many times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in Octopress.&lt;/p&gt;
+&lt;p&gt;With some tweaking and help of Frank I managed to implement a number of callout types.&lt;/p&gt;
+&lt;div class='docs'&gt;e&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;e
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 1.
+ %}&lt;/p&gt;
+&lt;div class='docs'&gt;o&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;o
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 2.
+%}&lt;/p&gt;
+&lt;div class='docs'&gt;r&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;r
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 3.
+%}&lt;/p&gt;
+&lt;div class='docs'&gt;g&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;g
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 4.
+%}&lt;/p&gt;
+&lt;div class='docs'&gt;p&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 5.
+%}&lt;/p&gt;
+&lt;div class='docs'&gt;p&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 6.
+%}&lt;/p&gt;
+&lt;div class='docs'&gt;n&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;n
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 7.
+%}&lt;/p&gt;
+&lt;div class='docs'&gt;k&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;k
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 8.
+%}&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;TODO: describing the Howto.&lt;/p&gt;</content><category term="writing"></category><category term="confluence"></category></entry><entry><title>Installation Bugzilla 4.2.3</title><link href="https://blog.florijnconsultancy.nl/articles/installation-bugzilla-423.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/installation-bugzilla-423.html</id><summary type="html"></summary><content type="html">&lt;h1 id="installation-bugzilla-423"&gt;Installation Bugzilla 4.2.3&lt;/h1&gt;
 &lt;h2 id="get-423-install-files"&gt;Get 4.2.3 install files&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Goto bugzilla download http://ftp.mozilla.org/pub/mozilla.org/webtools/bugzilla-4.2.3.tar.gz&lt;/li&gt;
@@ -597,7 +919,48 @@ if (Change OK) then (yes)
 Version: v0.1
 Date: 26-8-2014&lt;/p&gt;
 &lt;p&gt;endfooter&lt;/p&gt;
-&lt;p&gt;{% endplantuml %}&lt;/p&gt;</content></entry><entry><title>"Reset Fritz! Powerline 520E"</title><link href="https://blog.florijnconsultancy.nl/articles/reset-fritz-powerline-520e.html" rel="alternate"></link><published>2014-08-24T08:38:14+02:00</published><updated>2014-08-24T08:38:14+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-24:/articles/reset-fritz-powerline-520e.html</id><summary type="html">&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;{% endplantuml %}&lt;/p&gt;</content></entry><entry><title>"Slow Time Machine backup on Mavericks"</title><link href="https://blog.florijnconsultancy.nl/articles/slow-time-machine-backup-on-mavericks.html" rel="alternate"></link><published>2014-08-25T09:36:29+02:00</published><updated>2014-08-25T09:36:29+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-25:/articles/slow-time-machine-backup-on-mavericks.html</id><summary type="html">&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my HD and as a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my HD and as a consequence slows down my Mac.&lt;/p&gt;
+&lt;p&gt;I Googled around to find a solution and although I found some possible solutions I still have the problem.&lt;/p&gt;
+&lt;p&gt;I have also a notebook backing up to the same Synology and this backup is fast as ever.&lt;/p&gt;
+&lt;p&gt;After many hours the backup is completed and now it seems stuck for hours in verifying the backup.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;Finally the backup was completed but the verification took a long time as well and was stuck on 69%.&lt;/p&gt;
+&lt;p&gt;I am suspecting a hardware problem, possibly the harddisk.&lt;/p&gt;
+&lt;p&gt;Diskutil did not report anything strange.&lt;/p&gt;
+&lt;p&gt;My HD is a Seagate HD thas qualifies for the replacement program, I missed the 3 year deadline, so now I am stuck with this disk.&lt;/p&gt;
+&lt;h2 id="software-diagnostics"&gt;Software Diagnostics&lt;/h2&gt;
+&lt;div class='docs'&gt;p&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;You can try to run some standard diagnostics tools to eliminate some basic causes.&lt;/p&gt;
+&lt;p&gt;Spotlight diagnostics&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo mdsdiagnose
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Time machine diagnostics&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo tmdiagnose
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2 id="hardware-diagnostics"&gt;Hardware Diagnostics&lt;/h2&gt;
+&lt;p&gt;Next step is to run the Apple Hardware Test (AHT).&lt;/p&gt;
+&lt;p&gt;Reboot and press D before the grey screen.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I noticed from the activity monitor that there were several postfix background processes running. These were initiated because I had OSX Server running on this machine as well. Although the email service was not activitated in the configuration, it seemed that these processes were running altogether. &lt;/p&gt;
+&lt;p&gt;I decided to deinstall OSX server and see what would happen.&lt;/p&gt;
+&lt;p&gt;After deinstalling OSX server it seems that my Time Machine backup is running as normal.&lt;/p&gt;
+&lt;p&gt;My analysis is that these postfix processes caused some constant file io which interfered somehow with Spotlight/Time Machine.&lt;/p&gt;</content></entry><entry><title>"Reset Fritz! Powerline 520E"</title><link href="https://blog.florijnconsultancy.nl/articles/reset-fritz-powerline-520e.html" rel="alternate"></link><published>2014-08-24T08:38:14+02:00</published><updated>2014-08-24T08:38:14+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-24:/articles/reset-fritz-powerline-520e.html</id><summary type="html">&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Sometimes I do not get connection to my FritzBox. After some investigation I found out that this was caused by one of my Powerline 520 E adapters. It was not working as expected, although the LED's were suggesting otherwise&lt;/p&gt;
 &lt;p&gt;I installed the Fritz! Powerline application on my OSX machine …&lt;/p&gt;</summary><content type="html">&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Sometimes I do not get connection to my FritzBox. After some investigation I found out that this was caused by one of my Powerline 520 E adapters. It was not working as expected, although the LED's were suggesting otherwise&lt;/p&gt;
@@ -1143,4 +1506,139 @@ cd $HOME/Sites/dailyscrum
 &lt;p&gt;export LANG=en_US.utf-8&lt;/p&gt;
 &lt;p&gt;bundle install
 rake generate 2&amp;gt;&amp;amp;1 | tee $HOME/Sites/dailyscrum/error.log&lt;/p&gt;
-&lt;p&gt;{% endhighlight %}&lt;/p&gt;</content><category term="[]"></category></entry></feed>
+&lt;p&gt;{% endhighlight %}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Installation Bugzilla on OSX Mountain Lion Server</title><link href="https://blog.florijnconsultancy.nl/articles/installation-bugzilla-on-osx-mountain-lion-server.html" rel="alternate"></link><published>2013-04-20T10:00:00+02:00</published><updated>2013-04-20T10:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-20:/articles/installation-bugzilla-on-osx-mountain-lion-server.html</id><summary type="html">&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;I was forced to reinvent the wheel of installing Bugzilla on my development OSX Mountain Lion machine.&lt;/p&gt;
+&lt;p&gt;On this machine I have OSX server running. As perhaps many of you know Apple decided to change the way you can configure the web services. In this post I will …&lt;/p&gt;</summary><content type="html">&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;I was forced to reinvent the wheel of installing Bugzilla on my development OSX Mountain Lion machine.&lt;/p&gt;
+&lt;p&gt;On this machine I have OSX server running. As perhaps many of you know Apple decided to change the way you can configure the web services. In this post I will describe the steps I took to install Bugzilla. In the first place this is for my own documentation and perhaps it will help others as well.
+&lt;!-- more --&gt;&lt;/p&gt;
+&lt;div class='docs'&gt;e&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;e
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class='docs'&gt;o&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;o
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class='docs'&gt;r&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;r
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class='docs'&gt;g&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;g
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class='docs'&gt;p&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class='docs'&gt;p&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class='docs'&gt;n&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;n
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class='docs'&gt;k&lt;/div&gt; 
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;k
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="osx-server-details"&gt;OSX server details&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="OSX Server details" src="/images/osx_server_details.png"&gt;&lt;/p&gt;
+&lt;h2 id="perl-installation"&gt;Perl installation&lt;/h2&gt;
+&lt;p _="%" endhighlight&gt;I assume you have the default Perl installation on your OSX machine
+{% highlight bash %}
+This is perl 5, version 12, subversion 4 (v5.12.4) built for darwin-thread-multi-2level
+(with 2 registered patches, see perl -V for more detail)&lt;/p&gt;
+&lt;h2 id="mysql-installation"&gt;MySQL installation&lt;/h2&gt;
+&lt;p&gt;I assume you have installed MySQL &amp;gt;v5.x
+I have v5.5.13 running&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+Server version: 5.5.13-log MySQL Community Server (GPL)&lt;/p&gt;
+&lt;h2 id="apache-configuration"&gt;Apache Configuration&lt;/h2&gt;
+&lt;p _="%" endhighlight&gt;OSX Server stores its conf files in :
+{% highlight bash %}
+/Library/Server/Web/Config/apache2&lt;/p&gt;
+&lt;h2 id="bugzilla-settings"&gt;Bugzilla settings&lt;/h2&gt;
+&lt;p&gt;For Bugzilla the following settings are essential.
+Some of them can be configured through the OSX Server GUI:&lt;/p&gt;
+&lt;p&gt;{% highlight apache %}
+&lt;Directory "/Library/WebServer/bugzilla-trunk"&gt; 
+  AddHandler cgi-script .cgi .pl 
+  Options +Indexes +ExecCGI +FollowSymLinks 
+  DirectoryIndex index.cgi index.html 
+  AllowOverride Limit FileInfo Indexes Options 
+  Order allow,deny 
+  Allow from all 
+&lt;/Directory&gt;&lt;/p&gt;
+&lt;p&gt;{% endhighlight %}&lt;/p&gt;
+&lt;h2 id="when-you-are-using-osx-mountain-lion-not-osx-server"&gt;When you are using OSX Mountain Lion (not OSX Server)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;On Mac OS X 10.8.2, by default: 
+Apache is not enabled and Apple has removed the "Web Sharing" GUI that used to be available in previous versions&lt;/li&gt;
+&lt;li&gt;Google search "mac os x 10.8 enable apache" for blogs about how to get Apache enabled on Mac OS 10.8+. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p _="%" endhighlight&gt;httpd.conf is located in
+{% highlight bash %}
+ /private/etc/apache2&lt;/p&gt;
+&lt;h3 id="new-installation"&gt;New installation&lt;/h3&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+&lt;h3 id="upgrade-with-bzr"&gt;Upgrade with bzr&lt;/h3&gt;
+&lt;p&gt;Note:I assume you have installed bzr on your OS.&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;Go to your Bugzilla home directory
+{% highlight bash %}
+ cd /usr/local/bugzilla&lt;/p&gt;
+&lt;p&gt;Switch to major version
+{% highlight bash %}
+sudo bzr switch 4.4&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;Updated to revision 8563.                                                                                      &lt;br&gt;
+Switched to branch: bzr://bzr.mozilla.org/bugzilla/4.4/&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;Run checksetup
+{% highlight bash %}
+sudo ./checksetup.pl&lt;/p&gt;
+&lt;h2 id="external-links"&gt;External links&lt;/h2&gt;
+&lt;p&gt;[1] &lt;a href="http://www.springsurprise.com/2009/09/30/installing-bugzilla-on-mac-os-x-server/"&gt;Installing Bugzilla on OSX server&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] &lt;a href="http://www.bugzilla.org/docs/tip/en/html/os-specific.html"&gt;Installation guide Bugzilla - OS Specific&lt;/a&gt;&lt;/p&gt;</content></entry></feed>
