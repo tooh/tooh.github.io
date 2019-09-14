@@ -697,9 +697,9 @@ summary: &lt;/p&gt;
 
 &lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 5.
 %}&lt;/p&gt;
-&lt;div class=thumbs-u&gt;p&lt;/div&gt; 
+&lt;div class=thumb&gt;s&lt;/div&gt; 
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;s
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -707,9 +707,9 @@ summary: &lt;/p&gt;
 
 &lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 6.
 %}&lt;/p&gt;
-&lt;div class=thumbs-dow&gt;n&lt;/div&gt; 
+&lt;div class=thumb&gt;s&lt;/div&gt; 
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;n
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;s
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -1559,18 +1559,18 @@ rake generate 2&amp;gt;&amp;amp;1 | tee $HOME/Sites/dailyscrum/error.log&lt;/p&g
 &lt;/div&gt;
 
 &lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class=thumbs-u&gt;p&lt;/div&gt; 
+&lt;div class=thumb&gt;s&lt;/div&gt; 
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;s
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;/div&gt;
 
 &lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class=thumbs-dow&gt;n&lt;/div&gt; 
+&lt;div class=thumb&gt;s&lt;/div&gt; 
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;n
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;s
 &lt;/pre&gt;&lt;/div&gt;
 
 
