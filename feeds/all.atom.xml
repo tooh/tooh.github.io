@@ -80,13 +80,13 @@ summary: &lt;/p&gt;
 &lt;p&gt;Recently we switched from using Bugzilla for our issue tracking to Jira.&lt;/p&gt;
 &lt;p&gt;As an Alfred user I went looking for some Alfred support for Jira searches.&lt;/p&gt;
 &lt;p&gt;I found a couple of workflows for this, but for now I settled for a simple custom web search in Alfred.&lt;/p&gt;
-&lt;div class='docs'&gt;e …&lt;/div&gt;</summary><content type="html">&lt;p&gt;image : 
+&lt;div class=not&gt;e …&lt;/div&gt;</summary><content type="html">&lt;p&gt;image : 
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Recently we switched from using Bugzilla for our issue tracking to Jira.&lt;/p&gt;
 &lt;p&gt;As an Alfred user I went looking for some Alfred support for Jira searches.&lt;/p&gt;
 &lt;p&gt;I found a couple of workflows for this, but for now I settled for a simple custom web search in Alfred.&lt;/p&gt;
-&lt;div class='docs'&gt;e&lt;/div&gt; 
+&lt;div class=not&gt;e&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;e
 &lt;/pre&gt;&lt;/div&gt;
@@ -423,7 +423,7 @@ summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Since Mavericks there is a feature called Nap app.&lt;/p&gt;
 &lt;p&gt;For some reason it can be better to prevent an application to take a nap.&lt;/p&gt;
-&lt;div class='docs'&gt;p&lt;/div&gt; 
+&lt;div class=ti&gt;p&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
 &lt;/pre&gt;&lt;/div&gt;
@@ -443,7 +443,7 @@ summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Since Mavericks there is a feature called Nap app.&lt;/p&gt;
 &lt;p&gt;For some reason it can be better to prevent an application to take a nap.&lt;/p&gt;
-&lt;div class='docs'&gt;p&lt;/div&gt; 
+&lt;div class=ti&gt;p&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
 &lt;/pre&gt;&lt;/div&gt;
@@ -541,7 +541,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;p&gt;Bugzilla 4.5.6 introduces Mysql SSL certificates.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://dev.mysql.com/doc/refman/5.0/en/creating-ssl-certs.html"&gt;OpenSSL&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Extra parameters are added to the localconfig.&lt;/p&gt;
-&lt;div class='docs'&gt;o&lt;/div&gt; 
+&lt;div class=inf&gt;o&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;o
 &lt;/pre&gt;&lt;/div&gt;
@@ -557,7 +557,7 @@ summary: &lt;/p&gt;
 &lt;p&gt;This post contains my notes made during the process.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;div class='docs'&gt;p&lt;/div&gt; 
+&lt;div class=ti&gt;p&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
 &lt;/pre&gt;&lt;/div&gt;
@@ -572,7 +572,7 @@ summary: &lt;/p&gt;
 &lt;p&gt;This post contains my notes made during the process.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;div class='docs'&gt;p&lt;/div&gt; 
+&lt;div class=ti&gt;p&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
 &lt;/pre&gt;&lt;/div&gt;
@@ -585,7 +585,7 @@ summary: &lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;div class='docs'&gt;p&lt;/div&gt; 
+&lt;div class=ti&gt;p&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
 &lt;/pre&gt;&lt;/div&gt;
@@ -613,7 +613,7 @@ summary: &lt;/p&gt;
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;By default spellcheck is off in Sublime Text.&lt;/p&gt;
-&lt;div class='docs'&gt;e&lt;/div&gt; 
+&lt;div class=not&gt;e&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;e
 &lt;/pre&gt;&lt;/div&gt;
@@ -629,7 +629,7 @@ summary: &lt;/p&gt;
 summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;By default spellcheck is off in Sublime Text.&lt;/p&gt;
-&lt;div class='docs'&gt;e&lt;/div&gt; 
+&lt;div class=not&gt;e&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;e
 &lt;/pre&gt;&lt;/div&gt;
@@ -647,7 +647,7 @@ summary: &lt;/p&gt;
 
 &lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Confluence inspired callouts in Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/confluence-inspired-callouts-in-octopress.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/confluence-inspired-callouts-in-octopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts many times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in Octopress.&lt;/p&gt;
 &lt;p&gt;With some tweaking and help of Frank I managed to implement a number of callout types.&lt;/p&gt;
-&lt;div class='docs'&gt;e&lt;/div&gt; 
+&lt;div class=not&gt;e&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;e
 &lt;/pre&gt;&lt;/div&gt;
@@ -657,7 +657,7 @@ summary: &lt;/p&gt;
 
 &lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 1.
  %}&lt;/p&gt;
-&lt;div class='docs'&gt;o&lt;/div&gt; 
+&lt;div class=inf&gt;o&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;o
 &lt;/pre&gt;&lt;/div&gt;
@@ -667,7 +667,7 @@ summary: &lt;/p&gt;
 
 &lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 2.
 %}&lt;/p&gt;
-&lt;div class='docs'&gt;r&lt;/div&gt; 
+&lt;div class=erro&gt;r&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;r
 &lt;/pre&gt;&lt;/div&gt;
@@ -677,7 +677,7 @@ summary: &lt;/p&gt;
 
 &lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 3.
 %}&lt;/p&gt;
-&lt;div class='docs'&gt;g&lt;/div&gt; 
+&lt;div class=warnin&gt;g&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;g
 &lt;/pre&gt;&lt;/div&gt;
@@ -687,7 +687,7 @@ summary: &lt;/p&gt;
 
 &lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 4.
 %}&lt;/p&gt;
-&lt;div class='docs'&gt;p&lt;/div&gt; 
+&lt;div class=ti&gt;p&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
 &lt;/pre&gt;&lt;/div&gt;
@@ -697,7 +697,7 @@ summary: &lt;/p&gt;
 
 &lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 5.
 %}&lt;/p&gt;
-&lt;div class='docs'&gt;p&lt;/div&gt; 
+&lt;div class=thumbs-u&gt;p&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
 &lt;/pre&gt;&lt;/div&gt;
@@ -707,7 +707,7 @@ summary: &lt;/p&gt;
 
 &lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 6.
 %}&lt;/p&gt;
-&lt;div class='docs'&gt;n&lt;/div&gt; 
+&lt;div class=thumbs-dow&gt;n&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;n
 &lt;/pre&gt;&lt;/div&gt;
@@ -717,7 +717,7 @@ summary: &lt;/p&gt;
 
 &lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt; 7.
 %}&lt;/p&gt;
-&lt;div class='docs'&gt;k&lt;/div&gt; 
+&lt;div class=chec&gt;k&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;k
 &lt;/pre&gt;&lt;/div&gt;
@@ -934,7 +934,7 @@ Date: 26-8-2014&lt;/p&gt;
 &lt;p&gt;Diskutil did not report anything strange.&lt;/p&gt;
 &lt;p&gt;My HD is a Seagate HD thas qualifies for the replacement program, I missed the 3 year deadline, so now I am stuck with this disk.&lt;/p&gt;
 &lt;h2 id="software-diagnostics"&gt;Software Diagnostics&lt;/h2&gt;
-&lt;div class='docs'&gt;p&lt;/div&gt; 
+&lt;div class=ti&gt;p&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
 &lt;/pre&gt;&lt;/div&gt;
@@ -1654,7 +1654,7 @@ When I go along I will update this post with some new notes.&lt;/p&gt;
 &lt;p&gt;I was forced to reinvent the wheel of installing Bugzilla on my development OSX Mountain Lion machine.&lt;/p&gt;
 &lt;p&gt;On this machine I have OSX server running. As perhaps many of you know Apple decided to change the way you can configure the web services. In this post I will describe the steps I took to install Bugzilla. In the first place this is for my own documentation and perhaps it will help others as well.
 &lt;!-- more --&gt;&lt;/p&gt;
-&lt;div class='docs'&gt;e&lt;/div&gt; 
+&lt;div class=not&gt;e&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;e
 &lt;/pre&gt;&lt;/div&gt;
@@ -1663,7 +1663,7 @@ When I go along I will update this post with some new notes.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class='docs'&gt;o&lt;/div&gt; 
+&lt;div class=inf&gt;o&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;o
 &lt;/pre&gt;&lt;/div&gt;
@@ -1672,7 +1672,7 @@ When I go along I will update this post with some new notes.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class='docs'&gt;r&lt;/div&gt; 
+&lt;div class=erro&gt;r&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;r
 &lt;/pre&gt;&lt;/div&gt;
@@ -1681,7 +1681,7 @@ When I go along I will update this post with some new notes.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class='docs'&gt;g&lt;/div&gt; 
+&lt;div class=warnin&gt;g&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;g
 &lt;/pre&gt;&lt;/div&gt;
@@ -1690,7 +1690,7 @@ When I go along I will update this post with some new notes.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class='docs'&gt;p&lt;/div&gt; 
+&lt;div class=ti&gt;p&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
 &lt;/pre&gt;&lt;/div&gt;
@@ -1699,7 +1699,7 @@ When I go along I will update this post with some new notes.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class='docs'&gt;p&lt;/div&gt; 
+&lt;div class=thumbs-u&gt;p&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;p
 &lt;/pre&gt;&lt;/div&gt;
@@ -1708,7 +1708,7 @@ When I go along I will update this post with some new notes.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class='docs'&gt;n&lt;/div&gt; 
+&lt;div class=thumbs-dow&gt;n&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;n
 &lt;/pre&gt;&lt;/div&gt;
@@ -1717,7 +1717,7 @@ When I go along I will update this post with some new notes.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p _="%" enddocs&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class='docs'&gt;k&lt;/div&gt; 
+&lt;div class=chec&gt;k&lt;/div&gt; 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;k
 &lt;/pre&gt;&lt;/div&gt;
