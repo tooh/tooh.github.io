@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Daily Scrum - articles</title><link>https://blog.florijnconsultancy.nl/</link><description>A personal blog</description><lastBuildDate>Fri, 29 Aug 1997 02:14:00 +0200</lastBuildDate><item><title>Test Post</title><link>https://blog.florijnconsultancy.nl/articles/test-post.html</link><description>&lt;p&gt;This is an&amp;nbsp;article&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">My Name</dc:creator><pubDate>Fri, 29 Aug 1997 02:14:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,1997-08-29:/articles/test-post.html</guid><category>testtag</category></item></channel></rss>
+<rss version="2.0"><channel><title>Daily Scrum - articles</title><link>https://blog.florijnconsultancy.nl/</link><description>A personal blog</description><lastBuildDate>Mon, 16 Sep 2019 17:14:00 +0200</lastBuildDate><item><title>test 4</title><link>https://blog.florijnconsultancy.nl/articles/test-4.html</link><description>&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;kjsdjkjkjsdjask&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Mon, 16 Sep 2019 17:14:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-4.html</guid></item><item><title>test 3</title><link>https://blog.florijnconsultancy.nl/articles/test-3.html</link><description>&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Mon, 16 Sep 2019 17:11:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-3.html</guid></item><item><title>test2</title><link>https://blog.florijnconsultancy.nl/articles/test2.html</link><description>&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;!-- more --&gt;
+
+&lt;hr&gt;
+&lt;p&gt;layout: post
+Title: test2
+Date: 2019-09-16 17:08
+Modified: 2019-09-16 17:08
+Slug: 
+Comments: true
+Categories: Blogging
+Tags: 
+Published: true
+Author : username&amp;nbsp;Summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Mon, 16 Sep 2019 17:07:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test2.html</guid></item><item><title>Test Post</title><link>https://blog.florijnconsultancy.nl/articles/test-post.html</link><description>&lt;p&gt;This is an&amp;nbsp;article&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter</dc:creator><pubDate>Thu, 29 Aug 2019 02:14:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-08-29:/articles/test-post.html</guid><category>testtag</category></item></channel></rss>
