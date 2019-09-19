@@ -50,61 +50,8 @@
 <time datetime="2016-05-05T07:20:00+02:00" pubdate>Thu 05 May 2016</time>    </p>
 </header>
 
-  <div class="entry-content"><p>image :&nbsp;summary: </p>
-<hr>
-<p>PlantUML has a proposal for some support for&nbsp;Archimate.</p>
-<p>{% plantuml&nbsp;%}</p>
-<p>sprite $bProcess jar:archimate/business-process
-sprite $aService jar:archimate/application-service
-sprite $aComponent&nbsp;jar:archimate/application-component</p>
-<p>rectangle &#8220;Handle claim&#8221;  as <span class="caps">HC</span> &lt;&lt;$bProcess&gt;&gt; #yellow 
-rectangle &#8220;Capture Information&#8221;  as <span class="caps">CI</span> &lt;&lt;$bProcess&gt;&gt; #yellow
-rectangle &#8220;Notify\nAdditional Stakeholders&#8221; as <span class="caps">NAS</span> &lt;&lt;$bProcess&gt;&gt; #yellow
-rectangle &#8220;Validate&#8221; as V &lt;&lt;$bProcess&gt;&gt; #yellow
-rectangle &#8220;Investigate&#8221; as I &lt;&lt;$bProcess&gt;&gt; #yellow
-rectangle &#8220;Pay&#8221; as P &lt;&lt;$bProcess&gt;&gt;&nbsp;#yellow</p>
-<p><span class="caps">HC</span> <em>-down- <span class="caps">CI</span>
-<span class="caps">HC</span> </em>-down- <span class="caps">NAS</span>
-<span class="caps">HC</span> <em>-down- V
-<span class="caps">HC</span> </em>-down- I
-<span class="caps">HC</span> *-down-&nbsp;P</p>
-<p><span class="caps">CI</span> -right-&gt;&gt; <span class="caps">NAS</span>
-<span class="caps">NAS</span> -right-&gt;&gt; V
-V -right-&gt;&gt; I
-I -right-&gt;&gt;&nbsp;P</p>
-<p>rectangle &#8220;Scanning&#8221; as scanning &lt;&lt;$aService&gt;&gt; #<span class="caps">A9DCDF</span>
-rectangle &#8220;Customer administration&#8221; as customerAdministration &lt;&lt;$aService&gt;&gt; #<span class="caps">A9DCDF</span>
-rectangle &#8220;Claims administration&#8221; as claimsAdministration &lt;&lt;$aService&gt;&gt; #<span class="caps">A9DCDF</span>
-rectangle Printing  &lt;&lt;$aService&gt;&gt; #<span class="caps">A9DCDF</span>
-rectangle Payment  &lt;&lt;$aService&gt;&gt; #<span class="caps">A9DCDF</span></p>
-<p>scanning -up-&gt; <span class="caps">CI</span>
-customerAdministration  -up-&gt; <span class="caps">CI</span>
-claimsAdministration -up-&gt; <span class="caps">NAS</span>
-claimsAdministration -up-&gt; V
-claimsAdministration -up-&gt; I
-Printing -up-&gt; V
-Printing -up-&gt; P
-Payment -up-&gt;&nbsp;P</p>
-<p>rectangle &#8220;Document\nManagement\nSystem&#8221; as <span class="caps">DMS</span> &lt;&lt;$aComponent&gt;&gt; #<span class="caps">A9DCDF</span>
-rectangle &#8220;General\nCRM\nSystem&#8221; as <span class="caps">CRM</span> &lt;&lt;$aComponent&gt;&gt; #<span class="caps">A9DCDF</span>
-rectangle &#8220;Home <span class="amp">&amp;</span> Away\nPolicy\nAdministration&#8221; as <span class="caps">HAPA</span> &lt;&lt;$aComponent&gt;&gt; #<span class="caps">A9DCDF</span>
-rectangle &#8220;Home <span class="amp">&amp;</span> Away\nFinancial\nAdministration&#8221; as <span class="caps">HFPA</span> &lt;&lt;$aComponent&gt;&gt; #<span class="caps">A9DCDF</span></p>
-<p><span class="caps">DMS</span> .up.|&gt; scanning
-<span class="caps">DMS</span> .up.|&gt; Printing
-<span class="caps">CRM</span> .up.|&gt; customerAdministration
-<span class="caps">HAPA</span> .up.|&gt; claimsAdministration
-<span class="caps">HFPA</span> .up.|&gt;&nbsp;Payment</p>
-<p>legend left
-Example from the &#8220;Archisurance case study&#8221; (OpenGroup).
-See 
-==
-&lt;$bProcess&gt; :business process
-==
-&lt;$aService&gt; : application service
-==
-&lt;$aComponent&gt; : application component&nbsp;endlegend</p>
-<p>{% endplantuml&nbsp;%}</p>
-<!-- more --></div>
+  <div class="entry-content"><p>PlantUML has a proposal for some support for&nbsp;Archimate.</p>
+<img alt="uml diagram" class="uml" src="/images/61fe4618.png"><!-- more --></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -116,7 +63,7 @@ See
     <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
   </span>
   <span class="categories">
-    <a class="category" href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>  </span>
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>  </span>
 </p><div class="sharing">
 </div>    </footer>
   </article>
@@ -134,16 +81,16 @@ See
           <a href="https://blog.florijnconsultancy.nl/articles/test-include-2.html">test include 2</a>
       </li>
       <li class="post">
-          <a href="https://blog.florijnconsultancy.nl/articles/saasaaaaaaaaa.html">Saasaaaaaaaaa</a>
-      </li>
-      <li class="post">
-          <a href="https://blog.florijnconsultancy.nl/articles/tesggggggg.html">Tesggggggg</a>
-      </li>
-      <li class="post">
           <a href="https://blog.florijnconsultancy.nl/articles/test-plantuml-1.html">test plantuml 1</a>
       </li>
       <li class="post">
           <a href="https://blog.florijnconsultancy.nl/articles/test-4.html">test 4</a>
+      </li>
+      <li class="post">
+          <a href="https://blog.florijnconsultancy.nl/articles/test-3.html">test 3</a>
+      </li>
+      <li class="post">
+          <a href="https://blog.florijnconsultancy.nl/articles/test2.html">test2</a>
       </li>
     </ul>
   </section>
@@ -160,7 +107,7 @@ See
 
   <section>
   <h1>Tags</h1>
-    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">[diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement-opensource-project.html">testmanagement opensource project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
+    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">[diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement-opensource-project.html">testmanagement opensource project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
 
 
     <section>
