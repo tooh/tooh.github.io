@@ -44,6 +44,43 @@
   		<article>
 <header>
       <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/test-include-2.html">test include 2</a>
+      </h1>
+    <p class="meta">
+<time datetime="2019-09-19T07:22:00+02:00" pubdate>Thu 19 September 2019</time>    </p>
+</header>
+
+  <div class="entry-content"><p>Author : username&nbsp;Summary: </p>
+<p>skinparam defaultTextAlignment&nbsp;center</p>
+<p>!include <tupadr3/common>
+!include <tupadr3/font-awesome-5/server>
+!include <tupadr3/font-awesome-5/gitlab>
+!include <tupadr3/font-awesome/gears>
+!include <tupadr3/font-awesome/fire>
+!include <tupadr3/font-awesome/clock_o>
+!include <tupadr3/font-awesome/lock>
+!include <tupadr3/font-awesome/cloud></p>
+<p>!include <tupadr3/devicons/nginx>
+!include <tupadr3/devicons/mysql>
+!include <tupadr3/devicons/redis>
+!include <tupadr3/devicons/docker>
+!include <tupadr3/devicons/linux></p>
+<p>FA_CLOUD(internet,internet,cloud) #White&nbsp;{</p>
+<p>}</p>
+<p>DEV_LINUX(debian,Linux,node){</p>
+<div class="highlight"><pre><span></span><span class="n">FA_CLOCK_O</span><span class="p">(</span><span class="n">crond</span><span class="p">,</span><span class="n">crond</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+<span class="n">FA_FIRE</span><span class="p">(</span><span class="n">iptables</span><span class="p">,</span><span class="n">iptables</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+
+<span class="n">DEV_DOCKER</span><span class="p">(</span><span class="n">docker</span><span class="p">,</span><span class="n">docker</span><span class="p">,</span><span class="n">node</span><span class="p">)</span>  <span class="err">{</span>
+    <span class="n">DEV_NGINX</span><span class="p">(</span><span class="n">nginx</span><span class="p">,</span><span class="n">nginx</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+    <span class="n">DEV_MYSQL</span><span class="p">(</span><span class="n">mysql</span><span class="p">,</span><span class="n">mysql</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White …</span></pre></div></div>
+  <footer>
+    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/test-include-2.html">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
         <a href="https://blog.florijnconsultancy.nl/articles/saasaaaaaaaaa.html">Saasaaaaaaaaa</a>
       </h1>
     <p class="meta">
@@ -196,30 +233,6 @@ Author : username&nbsp;Summary: </p>
 Alice -&gt; Bob : Testing&nbsp;&lt;$foo1&gt;</p>
 <!-- more --></div>
   		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/plantuml-support-for-archimate.html">PlantUML support for Archimate</a>
-      </h1>
-    <p class="meta">
-<time datetime="2016-05-05T07:20:00+02:00" pubdate>Thu 05 May 2016</time>    </p>
-</header>
-
-  <div class="entry-content"><p>image :&nbsp;summary: </p>
-<hr>
-<p>PlantUML has a proposal for some support for&nbsp;Archimate.</p>
-<p>{% plantuml&nbsp;%}</p>
-<p>sprite $bProcess jar:archimate/business-process
-sprite $aService jar:archimate/application-service
-sprite $aComponent&nbsp;jar:archimate/application-component</p>
-<p>rectangle &#8220;Handle claim&#8221;  as <span class="caps">HC</span> &lt;&lt;$bProcess&gt;&gt; #yellow 
-rectangle &#8220;Capture Information&#8221;  as <span class="caps">CI</span> &lt;&lt;$bProcess&gt;&gt; #yellow
-rectangle &#8220;Notify\nAdditional Stakeholders&#8221; as <span class="caps">NAS</span> &lt;&lt;$bProcess&gt;&gt; #yellow
-rectangle …</p></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/plantuml-support-for-archimate.html">Read On &crarr;</a>
-  </footer>
-  		</article>
 <div class="pagination">
     <a class="prev" href="https://blog.florijnconsultancy.nl/index2.html">&larr; Older</a>
 
@@ -229,6 +242,9 @@ rectangle …</p></div>
   <section>
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
+      <li class="post">
+          <a href="https://blog.florijnconsultancy.nl/articles/test-include-2.html">test include 2</a>
+      </li>
       <li class="post">
           <a href="https://blog.florijnconsultancy.nl/articles/saasaaaaaaaaa.html">Saasaaaaaaaaa</a>
       </li>
@@ -240,9 +256,6 @@ rectangle …</p></div>
       </li>
       <li class="post">
           <a href="https://blog.florijnconsultancy.nl/articles/test-4.html">test 4</a>
-      </li>
-      <li class="post">
-          <a href="https://blog.florijnconsultancy.nl/articles/test-3.html">test 3</a>
       </li>
     </ul>
   </section>

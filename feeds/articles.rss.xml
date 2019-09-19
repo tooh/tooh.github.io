@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Daily Scrum - articles</title><link>https://blog.florijnconsultancy.nl/</link><description>A personal blog</description><lastBuildDate>Wed, 18 Sep 2019 18:31:00 +0200</lastBuildDate><item><title>Saasaaaaaaaaa</title><link>https://blog.florijnconsultancy.nl/articles/saasaaaaaaaaa.html</link><description>&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
+<rss version="2.0"><channel><title>Daily Scrum - articles</title><link>https://blog.florijnconsultancy.nl/</link><description>A personal blog</description><lastBuildDate>Thu, 19 Sep 2019 07:22:00 +0200</lastBuildDate><item><title>test include 2</title><link>https://blog.florijnconsultancy.nl/articles/test-include-2.html</link><description>&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
+&lt;p&gt;skinparam defaultTextAlignment&amp;nbsp;center&lt;/p&gt;
+&lt;p&gt;!include &lt;tupadr3/common&gt;
+!include &lt;tupadr3/font-awesome-5/server&gt;
+!include &lt;tupadr3/font-awesome-5/gitlab&gt;
+!include &lt;tupadr3/font-awesome/gears&gt;
+!include &lt;tupadr3/font-awesome/fire&gt;
+!include &lt;tupadr3/font-awesome/clock_o&gt;
+!include &lt;tupadr3/font-awesome/lock&gt;
+!include &lt;tupadr3/font-awesome/cloud&gt;&lt;/p&gt;
+&lt;p&gt;!include &lt;tupadr3/devicons/nginx&gt;
+!include &lt;tupadr3/devicons/mysql&gt;
+!include &lt;tupadr3/devicons/redis&gt;
+!include &lt;tupadr3/devicons/docker&gt;
+!include &lt;tupadr3/devicons/linux&gt;&lt;/p&gt;
+&lt;p&gt;FA_CLOUD(internet,internet,cloud) #White&amp;nbsp;{&lt;/p&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;DEV_LINUX(debian,Linux,node){&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;FA_CLOCK_O&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;crond&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;crond&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;White&lt;/span&gt;
+&lt;span class="n"&gt;FA_FIRE&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;iptables&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;iptables&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;White&lt;/span&gt;
+
+&lt;span class="n"&gt;DEV_DOCKER&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;docker&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;docker&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="err"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;DEV_NGINX&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nginx&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;nginx&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;White&lt;/span&gt;
+    &lt;span class="n"&gt;DEV_MYSQL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mysql&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;mysql&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;node&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;White …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Thu, 19 Sep 2019 07:22:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-09-19:/articles/test-include-2.html</guid></item><item><title>Saasaaaaaaaaa</title><link>https://blog.florijnconsultancy.nl/articles/saasaaaaaaaaa.html</link><description>&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
 &lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Wed, 18 Sep 2019 18:31:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-09-18:/articles/saasaaaaaaaaa.html</guid></item><item><title>Tesggggggg</title><link>https://blog.florijnconsultancy.nl/articles/tesggggggg.html</link><description>&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
 &lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Wed, 18 Sep 2019 18:29:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-09-18:/articles/tesggggggg.html</guid></item><item><title>test plantuml 1</title><link>https://blog.florijnconsultancy.nl/articles/test-plantuml-1.html</link><description>&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
 &lt;img alt="Sample sequence diagram" class="uml" src="/images/082e4805.png"&gt;&lt;p&gt;re&amp;nbsp;&amp;#8212;&amp;gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Mon, 16 Sep 2019 19:52:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-plantuml-1.html</guid></item><item><title>test 4</title><link>https://blog.florijnconsultancy.nl/articles/test-4.html</link><description>&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;

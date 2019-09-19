@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Notes on Mavericks upgrade &mdash; Daily Scrum</title>
+  <title>test include 2 &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
 
 
@@ -45,15 +45,55 @@
 <div>
   <article class="hentry" role="article">
 <header>
-      <h1 class="entry-title">Notes on Mavericks upgrade</h1>
+      <h1 class="entry-title">test include 2</h1>
     <p class="meta">
-<time datetime="2013-11-03T15:56:00+01:00" pubdate>Sun 03 November 2013</time>    </p>
+<time datetime="2019-09-19T07:22:00+02:00" pubdate>Thu 19 September 2019</time>    </p>
 </header>
 
-  <div class="entry-content"><p>image :&nbsp;summary: </p>
-<hr>
-<p>I upgraded on day one. Upgrade went smoothly. In this post I will share my notes on some issues I encounter.
-<!-- more --></p></div>
+  <div class="entry-content"><p>Author : username&nbsp;Summary: </p>
+<p>skinparam defaultTextAlignment&nbsp;center</p>
+<p>!include <tupadr3/common>
+!include <tupadr3/font-awesome-5/server>
+!include <tupadr3/font-awesome-5/gitlab>
+!include <tupadr3/font-awesome/gears>
+!include <tupadr3/font-awesome/fire>
+!include <tupadr3/font-awesome/clock_o>
+!include <tupadr3/font-awesome/lock>
+!include <tupadr3/font-awesome/cloud></p>
+<p>!include <tupadr3/devicons/nginx>
+!include <tupadr3/devicons/mysql>
+!include <tupadr3/devicons/redis>
+!include <tupadr3/devicons/docker>
+!include <tupadr3/devicons/linux></p>
+<p>FA_CLOUD(internet,internet,cloud) #White&nbsp;{</p>
+<p>}</p>
+<p>DEV_LINUX(debian,Linux,node){</p>
+<div class="highlight"><pre><span></span><span class="n">FA_CLOCK_O</span><span class="p">(</span><span class="n">crond</span><span class="p">,</span><span class="n">crond</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+<span class="n">FA_FIRE</span><span class="p">(</span><span class="n">iptables</span><span class="p">,</span><span class="n">iptables</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+
+<span class="n">DEV_DOCKER</span><span class="p">(</span><span class="n">docker</span><span class="p">,</span><span class="n">docker</span><span class="p">,</span><span class="n">node</span><span class="p">)</span>  <span class="err">{</span>
+    <span class="n">DEV_NGINX</span><span class="p">(</span><span class="n">nginx</span><span class="p">,</span><span class="n">nginx</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+    <span class="n">DEV_MYSQL</span><span class="p">(</span><span class="n">mysql</span><span class="p">,</span><span class="n">mysql</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+    <span class="n">DEV_REDIS</span><span class="p">(</span><span class="n">redis</span><span class="p">,</span><span class="n">redis</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+    <span class="n">FA5_SERVER</span><span class="p">(</span><span class="n">nexus</span><span class="p">,</span><span class="n">nexus3</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+    <span class="n">FA5_GITLAB</span><span class="p">(</span><span class="n">gitlab</span><span class="p">,</span><span class="n">gitlab</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+    <span class="n">FA_GEARS</span><span class="p">(</span><span class="n">gitlabci</span><span class="p">,</span><span class="n">gitlab</span><span class="o">-</span><span class="n">ci</span><span class="o">-</span><span class="n">runner</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+
+    <span class="n">FA_LOCK</span><span class="p">(</span><span class="n">letsencrypt</span><span class="p">,</span><span class="n">letsencrypt</span><span class="o">-</span><span class="n">client</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
+<span class="err">}</span>
+</pre></div>
+
+
+<p>}</p>
+<p>internet ..&gt; iptables :&nbsp;http</p>
+<p>iptables ..&gt; nginx : http
+nginx ..&gt; nexus : http
+nginx ..&gt; gitlab : http
+gitlabci ..&gt; gitlab : http
+gitlab ..&gt; mysql : tcp/ip
+gitlab ..&gt; redis :&nbsp;tcp/ip</p>
+<p>crond &#8212;&gt; letsencrypt : starts every&nbsp;month</p>
+<!-- more --></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -61,11 +101,9 @@
         Peter Florijn
     </span>
   </span>
-<time datetime="2013-11-03T15:56:00+01:00" pubdate>Sun 03 November 2013</time>  <span class="categories">
+<time datetime="2019-09-19T07:22:00+02:00" pubdate>Thu 19 September 2019</time>  <span class="categories">
     <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
   </span>
-  <span class="categories">
-    <a class="category" href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>  </span>
 </p><div class="sharing">
 </div>    </footer>
   </article>
@@ -140,9 +178,9 @@
   <script src="https://blog.florijnconsultancy.nl/theme/js/octopress.js" type="text/javascript"></script>
   <script type="text/javascript">
     var disqus_shortname = 'dailtscrum';
-    var disqus_identifier = '/articles/notes-on-mavericks-upgrade.html';
-    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/notes-on-mavericks-upgrade.html';
-    var disqus_title = 'Notes on Mavericks&nbsp;upgrade';
+    var disqus_identifier = '/articles/test-include-2.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/test-include-2.html';
+    var disqus_title = 'test include&nbsp;2';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
