@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2015-09-15T15:53:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>creating REST services</title><link href="https://blog.florijnconsultancy.nl/articles/creating-rest-services.html" rel="alternate"></link><published>2015-09-15T15:53:00+02:00</published><updated>2015-09-15T15:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-09-15:/articles/creating-rest-services.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Interesting project&amp;nbsp;sandman.&lt;/p&gt;
-&lt;p&gt;Sandman2 is in&amp;nbsp;development&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://sandman.readthedocs.org/en/latest/"&gt;https://sandman.readthedocs.org/en/latest/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman"&gt;https://github.com/jeffknupp/sandman&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman2"&gt;https://github.com/jeffknupp/sandman2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.fullstackpython.com/api-creation.html"&gt;http://www.fullstackpython.com/api-creation.html&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="rest"></category><category term="python"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2015-01-18T08:09:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>cairosvg</title><link href="https://blog.florijnconsultancy.nl/articles/cairosvg.html" rel="alternate"></link><published>2015-01-18T08:09:00+01:00</published><updated>2015-01-18T08:09:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-18:/articles/cairosvg.html</id><summary type="html"></summary><content type="html">&lt;h2&gt;Install&amp;nbsp;Cairosvg&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pycairo&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;py2cairo&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;cairosvg&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;waf&lt;/span&gt; &lt;span class="n"&gt;configure&lt;/span&gt; &lt;span class="c1"&gt;--prefix=/System/Library/Frameworks/Python.framework/Versions/2.7&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Additional&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;find out where the svg/cairo libraries were&amp;nbsp;installed&lt;/li&gt;
+&lt;li&gt;make sure that pkg-config finds these, if not, set PKG_CONFIG_PATH to
+point to the /lib directory of the location were the svg/cairo libraries
+are&amp;nbsp;installed&lt;/li&gt;
+&lt;li&gt;re-run configure, which should now pick up the new libraries (if not,
+check&amp;nbsp;config.log)&lt;/li&gt;
+&lt;li&gt;if the build still fails, try to do a make distclean (which requires a
+new configure&amp;nbsp;afterwards)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- more --&gt;</content></entry></feed>
