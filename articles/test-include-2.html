@@ -51,49 +51,7 @@
 </header>
 
   <div class="entry-content"><p>Author : username&nbsp;Summary: </p>
-<p>skinparam defaultTextAlignment&nbsp;center</p>
-<p>!include <tupadr3/common>
-!include <tupadr3/font-awesome-5/server>
-!include <tupadr3/font-awesome-5/gitlab>
-!include <tupadr3/font-awesome/gears>
-!include <tupadr3/font-awesome/fire>
-!include <tupadr3/font-awesome/clock_o>
-!include <tupadr3/font-awesome/lock>
-!include <tupadr3/font-awesome/cloud></p>
-<p>!include <tupadr3/devicons/nginx>
-!include <tupadr3/devicons/mysql>
-!include <tupadr3/devicons/redis>
-!include <tupadr3/devicons/docker>
-!include <tupadr3/devicons/linux></p>
-<p>FA_CLOUD(internet,internet,cloud) #White&nbsp;{</p>
-<p>}</p>
-<p>DEV_LINUX(debian,Linux,node){</p>
-<div class="highlight"><pre><span></span><span class="n">FA_CLOCK_O</span><span class="p">(</span><span class="n">crond</span><span class="p">,</span><span class="n">crond</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
-<span class="n">FA_FIRE</span><span class="p">(</span><span class="n">iptables</span><span class="p">,</span><span class="n">iptables</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
-
-<span class="n">DEV_DOCKER</span><span class="p">(</span><span class="n">docker</span><span class="p">,</span><span class="n">docker</span><span class="p">,</span><span class="n">node</span><span class="p">)</span>  <span class="err">{</span>
-    <span class="n">DEV_NGINX</span><span class="p">(</span><span class="n">nginx</span><span class="p">,</span><span class="n">nginx</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
-    <span class="n">DEV_MYSQL</span><span class="p">(</span><span class="n">mysql</span><span class="p">,</span><span class="n">mysql</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
-    <span class="n">DEV_REDIS</span><span class="p">(</span><span class="n">redis</span><span class="p">,</span><span class="n">redis</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
-    <span class="n">FA5_SERVER</span><span class="p">(</span><span class="n">nexus</span><span class="p">,</span><span class="n">nexus3</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
-    <span class="n">FA5_GITLAB</span><span class="p">(</span><span class="n">gitlab</span><span class="p">,</span><span class="n">gitlab</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
-    <span class="n">FA_GEARS</span><span class="p">(</span><span class="n">gitlabci</span><span class="p">,</span><span class="n">gitlab</span><span class="o">-</span><span class="n">ci</span><span class="o">-</span><span class="n">runner</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
-
-    <span class="n">FA_LOCK</span><span class="p">(</span><span class="n">letsencrypt</span><span class="p">,</span><span class="n">letsencrypt</span><span class="o">-</span><span class="n">client</span><span class="p">,</span><span class="n">node</span><span class="p">)</span> <span class="o">#</span><span class="n">White</span>
-<span class="err">}</span>
-</pre></div>
-
-
-<p>}</p>
-<p>internet ..&gt; iptables :&nbsp;http</p>
-<p>iptables ..&gt; nginx : http
-nginx ..&gt; nexus : http
-nginx ..&gt; gitlab : http
-gitlabci ..&gt; gitlab : http
-gitlab ..&gt; mysql : tcp/ip
-gitlab ..&gt; redis :&nbsp;tcp/ip</p>
-<p>crond &#8212;&gt; letsencrypt : starts every&nbsp;month</p>
-<!-- more --></div>
+<img alt="uml diagram" class="uml" src="/images/9c7ba43a.png"><!-- more --></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
