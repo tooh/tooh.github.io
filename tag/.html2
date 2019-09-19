@@ -61,20 +61,6 @@
                             </span>
                         </footer>
                     </article>
-            <h2>2017</h2>
-                    <article>
-                        <h1><a href="https://blog.florijnconsultancy.nl/articles/test_includes.html">test_includes</a></h1>
-                        <time datetime="2017-12-25 10:38:00+01:00" pubdate>
-                            <span class="month">Dec</span>
-                            <span class="day">25</span>
-                            <span class="year">2017</span>
-                        </time>
-                        <footer>
-                            <span class="categories">posted in
-                                <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
-                            </span>
-                        </footer>
-                    </article>
             <h2>2016</h2>
                     <article>
                         <h1><a href="https://blog.florijnconsultancy.nl/articles/skype-problem-solved.html">Skype problem&nbsp;solved</a></h1>
@@ -506,9 +492,6 @@
           <a href="https://blog.florijnconsultancy.nl/articles/testgantt.html">testgantt</a>
       </li>
       <li class="post">
-          <a href="https://blog.florijnconsultancy.nl/articles/test_includes.html">test_includes</a>
-      </li>
-      <li class="post">
           <a href="https://blog.florijnconsultancy.nl/articles/skype-problem-solved.html">Skype problem solved</a>
       </li>
       <li class="post">
@@ -516,6 +499,9 @@
       </li>
       <li class="post">
           <a href="https://blog.florijnconsultancy.nl/articles/plantuml-support-for-archimate.html">PlantUML support for Archimate</a>
+      </li>
+      <li class="post">
+          <a href="https://blog.florijnconsultancy.nl/articles/convert-font-awesome-to-png.html">Convert Font Awesome to png</a>
       </li>
     </ul>
   </section>

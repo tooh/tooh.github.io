@@ -152,37 +152,6 @@ Author : username&nbsp;Summary: </p>
   		<article>
 <header>
       <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/test_includes.html">test_includes</a>
-      </h1>
-    <p class="meta">
-<time datetime="2017-12-25T10:38:00+01:00" pubdate>Mon 25 December 2017</time>    </p>
-</header>
-
-  <div class="entry-content"><p>image :&nbsp;summary: </p>
-<hr>
-<!-- more -->
-
-<p>{% plantuml&nbsp;%}</p>
-<p><span class="quo">&#8216;</span> PlantUML stdlib now includes Icon-Font Sprites! See&nbsp;https://github.com/tupadr3/plantuml-icon-font-sprites</p>
-<p>!includeurl <tupadr3/common></p>
-<p>!include <tupadr3/font-awesome/common>
-!include <tupadr3/font-awesome-5/server>
-!include <tupadr3/font-awesome/database></p>
-<p>title Styling&nbsp;example</p>
-<p>FA_SERVER(web1,web1) #Green
-FA_SERVER(web2,web2) #Yellow
-FA_SERVER(web3,web3) #Blue
-FA_SERVER(web4,web4)&nbsp;#YellowGreen</p>
-<p>FA_DATABASE(db1,<span class="caps">LIVE</span>,database,white) #RoyalBlue
-FA_DATABASE(db2,<span class="caps">SPARE</span>,database)&nbsp;#Red</p>
-<p>db1 …</p></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/test_includes.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
         <a href="https://blog.florijnconsultancy.nl/articles/skype-problem-solved.html">Skype problem solved</a>
       </h1>
     <p class="meta">
@@ -226,6 +195,30 @@ FA_DATABASE(db2,<span class="caps">SPARE</span>,database)&nbsp;#Red</p>
 }
 Alice -&gt; Bob : Testing&nbsp;&lt;$foo1&gt;</p>
 <!-- more --></div>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/plantuml-support-for-archimate.html">PlantUML support for Archimate</a>
+      </h1>
+    <p class="meta">
+<time datetime="2016-05-05T07:20:00+02:00" pubdate>Thu 05 May 2016</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>PlantUML has a proposal for some support for&nbsp;Archimate.</p>
+<p>{% plantuml&nbsp;%}</p>
+<p>sprite $bProcess jar:archimate/business-process
+sprite $aService jar:archimate/application-service
+sprite $aComponent&nbsp;jar:archimate/application-component</p>
+<p>rectangle &#8220;Handle claim&#8221;  as <span class="caps">HC</span> &lt;&lt;$bProcess&gt;&gt; #yellow 
+rectangle &#8220;Capture Information&#8221;  as <span class="caps">CI</span> &lt;&lt;$bProcess&gt;&gt; #yellow
+rectangle &#8220;Notify\nAdditional Stakeholders&#8221; as <span class="caps">NAS</span> &lt;&lt;$bProcess&gt;&gt; #yellow
+rectangle …</p></div>
+  <footer>
+    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/plantuml-support-for-archimate.html">Read On &crarr;</a>
+  </footer>
   		</article>
 <div class="pagination">
     <a class="prev" href="https://blog.florijnconsultancy.nl/index2.html">&larr; Older</a>
