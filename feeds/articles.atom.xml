@@ -1,6 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - articles</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/articles.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2019-09-16T19:52:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>test plantuml 1</title><link href="https://blog.florijnconsultancy.nl/articles/test-plantuml-1.html" rel="alternate"></link><published>2019-09-16T19:52:00+02:00</published><updated>2019-09-16T19:52:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-plantuml-1.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
-&lt;img alt="Sample sequence diagram" class="uml" src="/images/082e4805.png"&gt;&lt;p&gt;re&amp;nbsp;&amp;#8212;&amp;gt;&lt;/p&gt;</content></entry><entry><title>install gollum on OSX El Capitan</title><link href="https://blog.florijnconsultancy.nl/articles/install-gollum-on-osx-el-capitan.html" rel="alternate"></link><published>2016-04-03T08:46:00+02:00</published><updated>2016-04-03T08:46:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-04-03:/articles/install-gollum-on-osx-el-capitan.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Gollum is a simple wiki that uses git as its&amp;nbsp;database.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - articles</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/articles.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2019-09-19T07:22:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>test include 2</title><link href="https://blog.florijnconsultancy.nl/articles/test-include-2.html" rel="alternate"></link><published>2019-09-19T07:22:00+02:00</published><updated>2019-09-19T07:22:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-19:/articles/test-include-2.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="/images/9c7ba43a.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>test plantuml 1</title><link href="https://blog.florijnconsultancy.nl/articles/test-plantuml-1.html" rel="alternate"></link><published>2019-09-16T19:52:00+02:00</published><updated>2019-09-16T19:52:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-plantuml-1.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
+&lt;img alt="Sample sequence diagram" class="uml" src="/images/082e4805.png"&gt;&lt;p&gt;re&amp;nbsp;&amp;#8212;&amp;gt;&lt;/p&gt;</content></entry><entry><title>test 4</title><link href="https://blog.florijnconsultancy.nl/articles/test-4.html" rel="alternate"></link><published>2019-09-16T17:14:00+02:00</published><updated>2019-09-16T17:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-4.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;kjsdjkjkjsdjask&lt;/p&gt;</content></entry><entry><title>test 3</title><link href="https://blog.florijnconsultancy.nl/articles/test-3.html" rel="alternate"></link><published>2019-09-16T17:11:00+02:00</published><updated>2019-09-16T17:11:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-3.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;!-- more --&gt;</content></entry><entry><title>test2</title><link href="https://blog.florijnconsultancy.nl/articles/test2.html" rel="alternate"></link><published>2019-09-16T17:07:00+02:00</published><updated>2019-09-16T17:07:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test2.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;!-- more --&gt;
+
+&lt;hr&gt;
+&lt;p&gt;layout: post
+Title: test2
+Date: 2019-09-16 17:08
+Modified: 2019-09-16 17:08
+Slug: 
+Comments: true
+Categories: Blogging
+Tags: 
+Published: true
+Author : username&amp;nbsp;Summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;!-- more --&gt;</content></entry><entry><title>testgantt</title><link href="https://blog.florijnconsultancy.nl/articles/testgantt.html" rel="alternate"></link><published>2018-07-27T09:14:00+02:00</published><updated>2018-07-27T09:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2018-07-27:/articles/testgantt.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;@startgantt
+[Prototype design] lasts 15 days
+[Test prototype] lasts 10 days&amp;nbsp;@endgantt&lt;/p&gt;
+&lt;p&gt;{% endplantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Skype problem solved</title><link href="https://blog.florijnconsultancy.nl/articles/skype-problem-solved.html" rel="alternate"></link><published>2016-10-29T11:41:00+02:00</published><updated>2016-10-29T11:41:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-10-29:/articles/skype-problem-solved.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;For some time I experienced problems with&amp;nbsp;Skype.&lt;/p&gt;
+&lt;p&gt;These problems only occurred on my&amp;nbsp;iMac. &lt;/p&gt;
+&lt;p&gt;Currently my iMac is running macOS&amp;nbsp;Sierra.&lt;/p&gt;
+&lt;p&gt;I use Skype on a daily basis to conduct standup calls with remote Scrum teams and to contact&amp;nbsp;suppliers.&lt;/p&gt;
+&lt;p&gt;I noticed that group audio/video calls …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;For some time I experienced problems with&amp;nbsp;Skype.&lt;/p&gt;
+&lt;p&gt;These problems only occurred on my&amp;nbsp;iMac. &lt;/p&gt;
+&lt;p&gt;Currently my iMac is running macOS&amp;nbsp;Sierra.&lt;/p&gt;
+&lt;p&gt;I use Skype on a daily basis to conduct standup calls with remote Scrum teams and to contact&amp;nbsp;suppliers.&lt;/p&gt;
+&lt;p&gt;I noticed that group audio/video calls were not working anymore. Only chats were&amp;nbsp;working.&lt;/p&gt;
+&lt;p&gt;After googling around and not finding any solution I got the impression it had something to do with my user account and some&amp;nbsp;certificate.&lt;/p&gt;
+&lt;p&gt;Today I noticed that my machine was slow and I started up Activity monitor. I noticed a background process that was running&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;opendirectoryserverd&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Surprised as I was that this was running I killed the process and googled for background info on this&amp;nbsp;process.&lt;/p&gt;
+&lt;p&gt;I found that this process was part of &lt;span class="caps"&gt;OSX&lt;/span&gt;&amp;nbsp;Server.&lt;/p&gt;
+&lt;p&gt;I remembered that some releases ago I installed &lt;span class="caps"&gt;OSX&lt;/span&gt; server to have a look at it. I did not like it and I do not have a need for the features offered so I deinstalled it with some instructions I found&amp;nbsp;somewhere.&lt;/p&gt;
+&lt;p&gt;Probably this deinstall was not performed completely and some stuff was still&amp;nbsp;active.&lt;/p&gt;
+&lt;p&gt;I found this support page to deinstall&amp;nbsp;opendirectoryserver&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://support.apple.com/en-us/HT204880"&gt;https://support.apple.com/en-us/&lt;span class="caps"&gt;HT204880&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It seems this corrected my Skype&amp;nbsp;problems.&lt;/p&gt;
+&lt;p&gt;Fingers&amp;nbsp;crossed!&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>PlantUML sprites demo</title><link href="https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html" rel="alternate"></link><published>2016-05-05T08:08:00+02:00</published><updated>2016-05-05T08:08:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-05-05:/articles/plantuml-sprites-demo.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;p _="%" endplantuml&gt;sprite $foo1 {
+  &lt;span class="caps"&gt;FFFFFFFFFFFFFFF&lt;/span&gt;
+  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
+  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
+  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
+  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
+  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
+  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
+  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
+  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
+  &lt;span class="caps"&gt;FFFFFFFFFFFFFFF&lt;/span&gt;
+}
+Alice -&amp;gt; Bob : Testing&amp;nbsp;&amp;lt;$foo1&amp;gt;&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>PlantUML support for Archimate</title><link href="https://blog.florijnconsultancy.nl/articles/plantuml-support-for-archimate.html" rel="alternate"></link><published>2016-05-05T07:20:00+02:00</published><updated>2016-05-05T07:20:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-05-05:/articles/plantuml-support-for-archimate.html</id><summary type="html"></summary><content type="html">&lt;p&gt;PlantUML has a proposal for some support for&amp;nbsp;Archimate.&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="/images/61fe4618.png"&gt;&lt;!-- more --&gt;</content><category term="plantuml"></category></entry><entry><title>Convert Font Awesome to png</title><link href="https://blog.florijnconsultancy.nl/articles/convert-font-awesome-to-png.html" rel="alternate"></link><published>2016-05-01T13:53:00+02:00</published><updated>2016-05-01T13:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-05-01:/articles/convert-font-awesome-to-png.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Font Awesome is a font set containg a large icon set containing a lot of standard&amp;nbsp;icons. &lt;/p&gt;
+&lt;p&gt;You can convert the icons to .png&amp;nbsp;files&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;a href=""&gt;https://github.com/Pythonity/icon-font-to-png&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>install gollum on OSX El Capitan</title><link href="https://blog.florijnconsultancy.nl/articles/install-gollum-on-osx-el-capitan.html" rel="alternate"></link><published>2016-04-03T08:46:00+02:00</published><updated>2016-04-03T08:46:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-04-03:/articles/install-gollum-on-osx-el-capitan.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gollum is a simple wiki that uses git as its&amp;nbsp;database.&lt;/p&gt;
+&lt;p&gt;When you want to install this on &lt;span class="caps"&gt;OSX&lt;/span&gt; you can encounter some errors. In this post I describe the recipe I used to install on my &lt;span class="caps"&gt;OSX&lt;/span&gt; El&amp;nbsp;Capitan&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;First install&amp;nbsp;icu4c&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;brew install icu4c&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Check &lt;span class="caps"&gt;LDFLAGS …&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gollum is a simple wiki that uses git as its&amp;nbsp;database.&lt;/p&gt;
 &lt;p&gt;When you want to install this on &lt;span class="caps"&gt;OSX&lt;/span&gt; you can encounter some errors. In this post I describe the recipe I used to install on my &lt;span class="caps"&gt;OSX&lt;/span&gt; El&amp;nbsp;Capitan&lt;/p&gt;
 &lt;!-- more --&gt;
 
@@ -15,4 +101,1152 @@
 &lt;p&gt;And finally install&amp;nbsp;gollum&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gem install gollum&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;More&amp;nbsp;info&lt;/p&gt;
-&lt;p&gt;&lt;a href=""&gt;https://gitlab.com/gitlab-org/gollum-lib&lt;/a&gt;&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;&lt;a href=""&gt;https://gitlab.com/gitlab-org/gollum-lib&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Custom Alfred search for Jira</title><link href="https://blog.florijnconsultancy.nl/articles/custom-alfred-search-for-jira.html" rel="alternate"></link><published>2016-01-31T07:51:00+01:00</published><updated>2016-01-31T07:51:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-01-31:/articles/custom-alfred-search-for-jira.html</id><summary type="html">&lt;p&gt;Summary&lt;/p&gt;
+&lt;p&gt;Recently we switched from using Bugzilla for our issue tracking to&amp;nbsp;Jira.&lt;/p&gt;
+&lt;p&gt;As an Alfred user I went looking for some Alfred support for Jira&amp;nbsp;searches.&lt;/p&gt;
+&lt;p&gt;I found a couple of workflows for this, but for now I settled for a simple custom web search in&amp;nbsp;Alfred.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs note …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Summary&lt;/p&gt;
+&lt;p&gt;Recently we switched from using Bugzilla for our issue tracking to&amp;nbsp;Jira.&lt;/p&gt;
+&lt;p&gt;As an Alfred user I went looking for some Alfred support for Jira&amp;nbsp;searches.&lt;/p&gt;
+&lt;p&gt;I found a couple of workflows for this, but for now I settled for a simple custom web search in&amp;nbsp;Alfred.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs note %}
+Replace [your jira server] with your jira&amp;nbsp;server.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt; &lt;span class="n"&gt;jira&lt;/span&gt; &lt;span class="n"&gt;server&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;secure&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;QuickSearch&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;jspa&lt;/span&gt;&lt;span class="o"&gt;?&lt;/span&gt;&lt;span class="n"&gt;searchString&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;query&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;!-- more --&gt;</content><category term="Jira"></category></entry><entry><title>Using scribe to write online meeting summaries</title><link href="https://blog.florijnconsultancy.nl/articles/using-scribe-to-write-online-meeting-summaries.html" rel="alternate"></link><published>2015-10-18T15:30:00+02:00</published><updated>2015-10-18T15:30:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-10-18:/articles/using-scribe-to-write-online-meeting-summaries.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Use&amp;nbsp;case:&lt;/p&gt;
+&lt;p&gt;When you are in a skype chat session for a meeting it is convenient to capture the meeting notes from the chat&amp;nbsp;session.&lt;/p&gt;
+&lt;p&gt;Environments as &lt;span class="caps"&gt;IRC&lt;/span&gt; have something like meeting bot to handle&amp;nbsp;this.&lt;/p&gt;
+&lt;p&gt;For Skype I&amp;nbsp;found &lt;/p&gt;
+&lt;p&gt;&lt;a href=""&gt;https://bitbucket.org/mhall/pyskypescribe&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Convert Markdown to Word docx with Pandoc</title><link href="https://blog.florijnconsultancy.nl/articles/convert-markdown-to-word-docx-with-pandoc.html" rel="alternate"></link><published>2015-10-17T08:56:00+02:00</published><updated>2015-10-17T08:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-10-17:/articles/convert-markdown-to-word-docx-with-pandoc.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
+&lt;!-- more --&gt;&lt;/p&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;p&gt;My &lt;span class="caps"&gt;OS&lt;/span&gt; is &lt;span class="caps"&gt;OSX&lt;/span&gt; so the easiest is to use&amp;nbsp;Homebrew.&lt;/p&gt;
+&lt;h4&gt;With&amp;nbsp;homebrew&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ brew install pandoc
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Use the&amp;nbsp;installer&lt;/h4&gt;
+&lt;p&gt;Go to the github project&amp;nbsp;downloads&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;jgm&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pandoc …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
+&lt;!-- more --&gt;&lt;/p&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;p&gt;My &lt;span class="caps"&gt;OS&lt;/span&gt; is &lt;span class="caps"&gt;OSX&lt;/span&gt; so the easiest is to use&amp;nbsp;Homebrew.&lt;/p&gt;
+&lt;h4&gt;With&amp;nbsp;homebrew&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ brew install pandoc
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Use the&amp;nbsp;installer&lt;/h4&gt;
+&lt;p&gt;Go to the github project&amp;nbsp;downloads&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;jgm&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pandoc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;releases&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Convert your&amp;nbsp;document&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pandoc -o output.docx -f markdown -t docx markdown-file.md
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Make it&amp;nbsp;easy&lt;/h3&gt;
+&lt;p&gt;To make it even easier I added the below code to my .bashrc&amp;nbsp;file&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
+
+# &lt;span class="nv"&gt;aliases&lt;/span&gt;
+...
+&lt;span class="nv"&gt;alias&lt;/span&gt; &lt;span class="nv"&gt;md2word&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;md2word&lt;/span&gt; # &lt;span class="nv"&gt;alias&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;function&lt;/span&gt; &lt;span class="nv"&gt;below&lt;/span&gt;
+
+# &lt;span class="nv"&gt;functions&lt;/span&gt;
+...
+&lt;span class="nv"&gt;function&lt;/span&gt; &lt;span class="nv"&gt;md2word&lt;/span&gt; &lt;span class="ss"&gt;()&lt;/span&gt; {  
+    &lt;span class="nv"&gt;PANDOC_INSTALLED&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;$&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;pandoc&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nv"&gt;version&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;dev&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;null&lt;/span&gt;&lt;span class="c1"&gt;; echo $?)&lt;/span&gt;
+
+    &lt;span class="k"&gt;if&lt;/span&gt; [ &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;0&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; ${&lt;span class="nv"&gt;PANDOC_INSTALLED&lt;/span&gt;} ]&lt;span class="c1"&gt;; then&lt;/span&gt;
+        &lt;span class="nv"&gt;pandoc&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;o&lt;/span&gt; &lt;span class="mh"&gt;$2&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;f&lt;/span&gt; &lt;span class="nv"&gt;markdown&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;t&lt;/span&gt; &lt;span class="nv"&gt;docx&lt;/span&gt; &lt;span class="mh"&gt;$1&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;
+        &lt;span class="nv"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Pandoc is not installed. Unable to convert document.&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+    &lt;span class="nv"&gt;fi&lt;/span&gt;
+}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Convert a&amp;nbsp;file&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; &lt;span class="n"&gt;md2word&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;some&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;markdown&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;convert&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;md&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;some&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;word&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;document&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;output&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;docx&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Use Pandoc from&amp;nbsp;Sublime&lt;/h3&gt;
+&lt;p&gt;http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html&lt;/p&gt;
+&lt;h4&gt;My customized build&amp;nbsp;file&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;
+    &lt;span class="ss"&gt;&amp;quot;cmd&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/usr/local/bin/pandoc&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;-S&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;-s&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;-f&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;markdown&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;-t&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;docx&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;-o&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;/Users/peter/Documents/Docs/Inbox/$file_base_name.docx&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;$file_name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+    &lt;span class="ss"&gt;&amp;quot;selector&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;text.html.markdown&amp;quot;&lt;/span&gt;
+ &lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="[docx"></category><category term="convert"></category><category term="markdown]"></category></entry><entry><title>creating REST services</title><link href="https://blog.florijnconsultancy.nl/articles/creating-rest-services.html" rel="alternate"></link><published>2015-09-15T15:53:00+02:00</published><updated>2015-09-15T15:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-09-15:/articles/creating-rest-services.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Interesting project&amp;nbsp;sandman.&lt;/p&gt;
+&lt;p&gt;Sandman2 is in&amp;nbsp;development&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sandman.readthedocs.org/en/latest/"&gt;https://sandman.readthedocs.org/en/latest/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman"&gt;https://github.com/jeffknupp/sandman&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman2"&gt;https://github.com/jeffknupp/sandman2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.fullstackpython.com/api-creation.html"&gt;http://www.fullstackpython.com/api-creation.html&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[rest"></category><category term="python]"></category></entry><entry><title>testdiagram</title><link href="https://blog.florijnconsultancy.nl/articles/testdiagram.html" rel="alternate"></link><published>2015-08-14T07:27:00+02:00</published><updated>2015-08-14T07:27:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-08-14:/articles/testdiagram.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;skinparam component {
+  Style uml2
+  BackgroundColor #&lt;span class="caps"&gt;FEFECE&lt;/span&gt;
+}
+node &amp;#8220;Database Server&amp;#8221; {
+  database &amp;#8220;&lt;span class="caps"&gt;MSSQL&lt;/span&gt; / &lt;span class="caps"&gt;ORA&lt;/span&gt; \n &amp;#8221; {
+    [&lt;span class="caps"&gt;DB&lt;/span&gt;] as &lt;span class="caps"&gt;DB&lt;/span&gt;
+  }
+}
+node &amp;#8220;Business Logic Server&amp;#8221; {
+  frame &amp;#8220;Windows Service Host&amp;#8221; {
+    package &amp;#8220;GUIService&amp;#8221; {
+      [GuiService] as GuiService
+    }
+    package &amp;#8220;ExtService&amp;#8221; {
+      [ExtService] as ExtService
+    }
+  }
+}
+node &amp;#8220;Update Server \n (can be hosted on \n &lt;span class="caps"&gt;BL&lt;/span&gt; Server)&amp;#8221; {
+  folder &amp;#8220;Remote …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;skinparam component {
+  Style uml2
+  BackgroundColor #&lt;span class="caps"&gt;FEFECE&lt;/span&gt;
+}
+node &amp;#8220;Database Server&amp;#8221; {
+  database &amp;#8220;&lt;span class="caps"&gt;MSSQL&lt;/span&gt; / &lt;span class="caps"&gt;ORA&lt;/span&gt; \n &amp;#8221; {
+    [&lt;span class="caps"&gt;DB&lt;/span&gt;] as &lt;span class="caps"&gt;DB&lt;/span&gt;
+  }
+}
+node &amp;#8220;Business Logic Server&amp;#8221; {
+  frame &amp;#8220;Windows Service Host&amp;#8221; {
+    package &amp;#8220;GUIService&amp;#8221; {
+      [GuiService] as GuiService
+    }
+    package &amp;#8220;ExtService&amp;#8221; {
+      [ExtService] as ExtService
+    }
+  }
+}
+node &amp;#8220;Update Server \n (can be hosted on \n &lt;span class="caps"&gt;BL&lt;/span&gt; Server)&amp;#8221; {
+  folder &amp;#8220;Remote Storage&amp;#8221; {
+    [System Storage] as UpdateStorage
+  }
+}
+node &amp;#8220;Client Computer&amp;#8221; {
+  folder &amp;#8220;Local Storage&amp;#8221; {
+    [System Client] as Client
+  }
+}
+cloud &amp;#8220;External Systems&amp;#8221; {
+  [External Systems] as ExtSystem&amp;nbsp;}&lt;/p&gt;
+&lt;p&gt;cloud &amp;#8220;Service Locator&amp;#8221; {
+  [Service Locator] as ServiceLocator
+}
+cloud &amp;#8220;&lt;span class="caps"&gt;OSSBSS&lt;/span&gt; Services&amp;#8221; {
+  [&lt;span class="caps"&gt;OSSBSS&lt;/span&gt; Services] as &lt;span class="caps"&gt;OSSBSS&lt;/span&gt;
+}
+cloud &amp;#8220;Security \n (Authority \n Service)&amp;#8221; {
+  [&lt;span class="caps"&gt;OSSBSS&lt;/span&gt; Security] as Security
+}
+[Client]          &amp;#8212;&amp;gt; [GuiService]      : &lt;span class="caps"&gt;WCF&lt;/span&gt; &lt;span class="caps"&gt;HTTP&lt;/span&gt;/&lt;span class="caps"&gt;TCP&lt;/span&gt;
+[ExtSystem]       &amp;#8212;&amp;gt; [ExtService]      : &lt;span class="caps"&gt;WCF&lt;/span&gt; &lt;span class="caps"&gt;HTTP&lt;/span&gt;
+[GuiService]      &amp;#8212;&amp;gt; [&lt;span class="caps"&gt;DB&lt;/span&gt;]              : &lt;span class="caps"&gt;OSSBSS&lt;/span&gt;.DbAccessLayer
+[GuiService]      &amp;#8212;&amp;gt; [UpdateStorage]   : &lt;span class="caps"&gt;SMB&lt;/span&gt;
+[GuiService]      &amp;#8212;&amp;gt; [Security]        : &lt;span class="caps"&gt;WCF&lt;/span&gt;
+[GuiService]      &amp;#8212;&amp;gt; [ServiceLocator]  : &lt;span class="caps"&gt;WCF&lt;/span&gt;
+[ServiceLocator]  &amp;#8212;&amp;gt; [&lt;span class="caps"&gt;OSSBSS&lt;/span&gt;]          : &lt;span class="caps"&gt;WCF&lt;/span&gt;
+[ExtService]      &amp;#8212;&amp;gt; [&lt;span class="caps"&gt;DB&lt;/span&gt;]              : &lt;span class="caps"&gt;OSSBSS&lt;/span&gt;.DbAccessLayer
+[ExtService]      ..&amp;gt; [GuiService]      :&amp;nbsp;inproc&lt;/p&gt;
+&lt;p&gt;{% endplantuml&amp;nbsp;%}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>iTunes sharing troubleshooting</title><link href="https://blog.florijnconsultancy.nl/articles/itunes-sharing-troubleshooting.html" rel="alternate"></link><published>2015-06-09T09:51:00+02:00</published><updated>2015-06-09T09:51:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-06-09:/articles/itunes-sharing-troubleshooting.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;I did a little rewiring of all my cables connected to my &lt;span class="caps"&gt;TV&lt;/span&gt;, Apple &lt;span class="caps"&gt;TV&lt;/span&gt; , router&amp;nbsp;etc.&lt;/p&gt;
+&lt;p&gt;While testing it I found out that my iTunes home sharing and Airplay was not working any more. My &lt;span class="caps"&gt;ATV&lt;/span&gt; did see my shared library but was not able to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;I did a little rewiring of all my cables connected to my &lt;span class="caps"&gt;TV&lt;/span&gt;, Apple &lt;span class="caps"&gt;TV&lt;/span&gt; , router&amp;nbsp;etc.&lt;/p&gt;
+&lt;p&gt;While testing it I found out that my iTunes home sharing and Airplay was not working any more. My &lt;span class="caps"&gt;ATV&lt;/span&gt; did see my shared library but was not able to play the&amp;nbsp;songs.&lt;/p&gt;
+&lt;p&gt;After consultation of a colleague and some troubleshooting I finally found the&amp;nbsp;problem.&lt;/p&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;p&gt;iTunes sharing uses the following&amp;nbsp;ports:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;123&lt;/li&gt;
+&lt;li&gt;3689&lt;/li&gt;
+&lt;li&gt;554&lt;/li&gt;
+&lt;li&gt;5353&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Analysis&lt;/h3&gt;
+&lt;p&gt;A long time ago when I was doing some experiments with the &lt;span class="caps"&gt;PF&lt;/span&gt; firewall on &lt;span class="caps"&gt;OSX&lt;/span&gt;, I installed the Icefloor&amp;nbsp;app.&lt;/p&gt;
+&lt;p&gt;Icefloor is a &lt;span class="caps"&gt;GUI&lt;/span&gt; frontend to the &lt;span class="caps"&gt;PF&lt;/span&gt; firewall.
+For more background on this&amp;nbsp;app&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.hanynet.com/icefloor"&gt;Icefloor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I was thinking this Icefloor app was not running, but it was still active. It was blocking the essential ports 5353 and&amp;nbsp;3689.&lt;/p&gt;
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;I stopped the Icefloor app and home sharing is working&amp;nbsp;again.&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>sort</title><link href="https://blog.florijnconsultancy.nl/articles/sort.html" rel="alternate"></link><published>2015-04-24T14:38:00+02:00</published><updated>2015-04-24T14:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-04-24:/articles/sort.html</id><content type="html">&lt;p&gt;image : 
+summary: linux command line sort on&amp;nbsp;dates&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;For one of my projects I needed to sort a csv file on a date field with dd/mm/yyyy&amp;nbsp;format.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sort&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;k3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;k2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;k1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="n"&gt;planning&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;csv&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>upgrade to Bugzilla 5.0</title><link href="https://blog.florijnconsultancy.nl/articles/upgrade-to-bugzilla-50.html" rel="alternate"></link><published>2015-01-31T10:26:00+01:00</published><updated>2015-01-31T10:26:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-31:/articles/upgrade-to-bugzilla-50.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I upgraded to Bugzilla&amp;nbsp;5.0.&lt;/p&gt;
+&lt;p&gt;Since the Bugzilla project now supports git, upgrading is now a simple&amp;nbsp;process.&lt;/p&gt;
+&lt;p&gt;These are my installation&amp;nbsp;notes.&lt;/p&gt;
+&lt;h2&gt;Updating to a Newer&amp;nbsp;Release&lt;/h2&gt;
+&lt;h3&gt;No local&amp;nbsp;changes&lt;/h3&gt;
+&lt;p&gt;If you have no local changes to any tracked files, upgrading to both minor and major …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I upgraded to Bugzilla&amp;nbsp;5.0.&lt;/p&gt;
+&lt;p&gt;Since the Bugzilla project now supports git, upgrading is now a simple&amp;nbsp;process.&lt;/p&gt;
+&lt;p&gt;These are my installation&amp;nbsp;notes.&lt;/p&gt;
+&lt;h2&gt;Updating to a Newer&amp;nbsp;Release&lt;/h2&gt;
+&lt;h3&gt;No local&amp;nbsp;changes&lt;/h3&gt;
+&lt;p&gt;If you have no local changes to any tracked files, upgrading to both minor and major releases is&amp;nbsp;simple:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="k"&gt;fetch&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="n"&gt;bugzilla&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;version&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;where (version) is the version number that you want to update to, like&amp;nbsp;5.0rc3&lt;/p&gt;
+&lt;h3&gt;Upgrade to release&amp;nbsp;5.0&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="k"&gt;fetch&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="n"&gt;release&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;!— more —&gt;
+
+&lt;h3&gt;Local, uncommitted&amp;nbsp;changes&lt;/h3&gt;
+&lt;p&gt;The above checkout command will fail if you’ve made any modifications to files you checked out from git with a warning about overwriting local changes. In this case, the simple solution is to stash and then reapply your changes (assuming you’ve done the “git fetch”&amp;nbsp;already):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;stash&lt;/span&gt; &lt;span class="n"&gt;save&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="n"&gt;bugzilla&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;version&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;stash&lt;/span&gt; &lt;span class="n"&gt;apply&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;However, it is better to create a local branch, which is one of git’s strengths. You can track your customizations and merge in changes from&amp;nbsp;upstream. &lt;/p&gt;</content><category term="[]"></category></entry><entry><title>convert svg to png with inkscape (OSX)</title><link href="https://blog.florijnconsultancy.nl/articles/convert-svg-to-png-with-inkscape-osx.html" rel="alternate"></link><published>2015-01-25T16:21:00+01:00</published><updated>2015-01-25T16:21:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-25:/articles/convert-svg-to-png-with-inkscape-osx.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Set alias to inkscape&amp;nbsp;commandline&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;inkscape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/Applications/Inkscape.app/Contents/Resources/bin/inkscape&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;call inkscape to&amp;nbsp;convert&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; &lt;span class="n"&gt;inkscape&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;z&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;test_full&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;svg&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt; &lt;span class="n"&gt;test_full&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;png&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>cairosvg</title><link href="https://blog.florijnconsultancy.nl/articles/cairosvg.html" rel="alternate"></link><published>2015-01-18T08:09:00+01:00</published><updated>2015-01-18T08:09:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-18:/articles/cairosvg.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Install&amp;nbsp;Cairosvg&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pycairo&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;py2cairo&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;cairosvg&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;waf&lt;/span&gt; &lt;span class="n"&gt;configure&lt;/span&gt; &lt;span class="c1"&gt;--prefix=/System/Library/Frameworks/Python.framework/Versions/2.7&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Additional&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;find out where the svg/cairo libraries were&amp;nbsp;installed&lt;/li&gt;
+&lt;li&gt;make sure that pkg-config finds these, if not, set PKG_CONFIG_PATH to
+point to …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Install&amp;nbsp;Cairosvg&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pycairo&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;py2cairo&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;cairosvg&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;waf&lt;/span&gt; &lt;span class="n"&gt;configure&lt;/span&gt; &lt;span class="c1"&gt;--prefix=/System/Library/Frameworks/Python.framework/Versions/2.7&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Additional&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;find out where the svg/cairo libraries were&amp;nbsp;installed&lt;/li&gt;
+&lt;li&gt;make sure that pkg-config finds these, if not, set PKG_CONFIG_PATH to
+point to the /lib directory of the location were the svg/cairo libraries
+are&amp;nbsp;installed&lt;/li&gt;
+&lt;li&gt;re-run configure, which should now pick up the new libraries (if not,
+check&amp;nbsp;config.log)&lt;/li&gt;
+&lt;li&gt;if the build still fails, try to do a make distclean (which requires a
+new configure&amp;nbsp;afterwards)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>jenkins jobs lost</title><link href="https://blog.florijnconsultancy.nl/articles/jenkins-jobs-lost.html" rel="alternate"></link><published>2014-11-23T11:47:00+01:00</published><updated>2014-11-23T11:47:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-11-23:/articles/jenkins-jobs-lost.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;On my local development machine I noticed that I missed all my&amp;nbsp;jobs.&lt;/p&gt;
+&lt;p&gt;On my &lt;span class="caps"&gt;OSX&lt;/span&gt; machine all the job info was there in the .jenkins/jobs&amp;nbsp;directory.&lt;/p&gt;
+&lt;p&gt;Adding the following to my startjenkins.sh script solved the&amp;nbsp;problem.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;export&lt;/span&gt; &lt;span class="n"&gt;JENKINS_HOME&lt;/span&gt;&lt;span class="o"&gt;=/&lt;/span&gt;&lt;span class="n"&gt;Users&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;peter&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;jenkins&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>click2dial</title><link href="https://blog.florijnconsultancy.nl/articles/click2dial.html" rel="alternate"></link><published>2014-11-14T08:42:00+01:00</published><updated>2014-11-14T08:42:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-11-14:/articles/click2dial.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I&amp;#8217;m researching different options to implement&amp;nbsp;click2dial.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.voip-info.org/wiki/view/Asterisk+click+to+call"&gt;click2call&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Standards&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.ietf.org/rfc/rfc2806.txt"&gt;rfc2806&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Omnis and java</title><link href="https://blog.florijnconsultancy.nl/articles/omnis-and-java.html" rel="alternate"></link><published>2014-10-26T11:37:00+01:00</published><updated>2014-10-26T11:37:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-26:/articles/omnis-and-java.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Research notes on java use in&amp;nbsp;Omnis&lt;/h1&gt;
+&lt;h2&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.java.com/en/download/help/version_manual.xml"&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Strip Java out of Omnis …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Research notes on java use in&amp;nbsp;Omnis&lt;/h1&gt;
+&lt;h2&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.java.com/en/download/help/version_manual.xml"&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Strip Java out of Omnis &lt;span class="caps"&gt;RT&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.omnis-dev.com/cgi-bin/thiskey.omns?Key=20140813171438"&gt;Re: Strip Java out of Omnis &lt;span class="caps"&gt;RT&lt;/span&gt; -&amp;nbsp;Omnis-Dev&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Information and system requirements for installation and use of Oracle Java on Mac &lt;span class="caps"&gt;OS&lt;/span&gt;&amp;nbsp;X&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.java.com/nl/download/faq/java_mac.xml#restore"&gt;https://www.java.com/nl/download/faq/java_mac.xml#restore&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;h2&gt;Verify installation of java runtime on&amp;nbsp;Windows&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@&lt;span class="nv"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;off&lt;/span&gt;
+&lt;span class="nv"&gt;cls&lt;/span&gt;
+&lt;span class="nv"&gt;setlocal&lt;/span&gt; &lt;span class="nv"&gt;ENABLEEXTENSIONS&lt;/span&gt;
+&lt;span class="nv"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;KEY_NAME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;HKLM\SOFTWARE\JavaSoft\Java Runtime Environment&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+&lt;span class="nv"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;VALUE_NAME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;CurrentVersion&lt;/span&gt;
+::
+:: &lt;span class="nv"&gt;get&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;current&lt;/span&gt; &lt;span class="nv"&gt;version&lt;/span&gt;
+::
+&lt;span class="k"&gt;FOR&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;F&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;usebackq skip=2 tokens=3&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;%%&lt;/span&gt;&lt;span class="nv"&gt;A&lt;/span&gt; &lt;span class="nv"&gt;IN&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;`&lt;span class="nv"&gt;REG&lt;/span&gt; &lt;span class="nv"&gt;QUERY&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="nv"&gt;KEY_NAME&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;v&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="nv"&gt;VALUE_NAME&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;^&amp;gt;&lt;/span&gt;&lt;span class="nv"&gt;nul&lt;/span&gt;`&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="k"&gt;DO&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;
+    &lt;span class="nv"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;ValueValue&lt;/span&gt;&lt;span class="o"&gt;=%%&lt;/span&gt;&lt;span class="nv"&gt;A&lt;/span&gt;
+&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nv"&gt;defined&lt;/span&gt; &lt;span class="nv"&gt;ValueValue&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;
+    @&lt;span class="nv"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;current&lt;/span&gt; &lt;span class="nv"&gt;Java&lt;/span&gt; &lt;span class="nv"&gt;runtime&lt;/span&gt; &lt;span class="nv"&gt;is&lt;/span&gt;  &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="nv"&gt;ValueValue&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;
+&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;
+    @&lt;span class="nv"&gt;echo&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="nv"&gt;KEY_NAME&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;\&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="nv"&gt;VALUE_NAME&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="nv"&gt;not&lt;/span&gt; &lt;span class="nv"&gt;found&lt;/span&gt;.
+    &lt;span class="k"&gt;goto&lt;/span&gt; &lt;span class="nl"&gt;end&lt;/span&gt;
+&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;JAVA_CURRENT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;HKLM\SOFTWARE\JavaSoft\Java Runtime Environment\%ValueValue%&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+&lt;span class="nv"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;JAVA_HOME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;JavaHome&lt;/span&gt;
+::
+:: &lt;span class="nv"&gt;get&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;javahome&lt;/span&gt;
+::
+&lt;span class="k"&gt;FOR&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;F&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;usebackq skip=2 tokens=3*&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;%%&lt;/span&gt;&lt;span class="nv"&gt;A&lt;/span&gt; &lt;span class="nv"&gt;IN&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;`&lt;span class="nv"&gt;REG&lt;/span&gt; &lt;span class="nv"&gt;QUERY&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="nv"&gt;JAVA_CURRENT&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;v&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="nv"&gt;JAVA_HOME&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;^&amp;gt;&lt;/span&gt;&lt;span class="nv"&gt;nul&lt;/span&gt;`&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="k"&gt;DO&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;
+    &lt;span class="nv"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;JAVA_PATH&lt;/span&gt;&lt;span class="o"&gt;=%%&lt;/span&gt;&lt;span class="nv"&gt;A&lt;/span&gt; &lt;span class="o"&gt;%%&lt;/span&gt;&lt;span class="nv"&gt;B&lt;/span&gt;
+&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;path&lt;/span&gt; &lt;span class="nv"&gt;of&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;current&lt;/span&gt; &lt;span class="nv"&gt;Java&lt;/span&gt; &lt;span class="nv"&gt;JVM&lt;/span&gt; &lt;span class="nv"&gt;according&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;registry&lt;/span&gt; &lt;span class="nv"&gt;is&lt;/span&gt; 
+&lt;span class="nv"&gt;echo&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="nv"&gt;JAVA_PATH&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;
+&lt;span class="nv"&gt;echo&lt;/span&gt;.
+&lt;span class="nv"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;now&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nv"&gt;we&lt;/span&gt; &lt;span class="nv"&gt;try&lt;/span&gt; &lt;span class="nv"&gt;it&lt;/span&gt; :
+&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;%JAVA_PATH%\bin\java.exe&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;version&lt;/span&gt;
+&lt;span class="nl"&gt;:end&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;{:toc}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Upgrade to Yosemite</title><link href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
+It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&amp;nbsp;Yosemite.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h2&gt;Update&amp;nbsp;rvm&lt;/h2&gt;
+&lt;p&gt;rvm get&amp;nbsp;stable&lt;/p&gt;
+&lt;h2&gt;Fix&amp;nbsp;brew&lt;/h2&gt;
+&lt;p&gt;Changing 1 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
+It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&amp;nbsp;Yosemite.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h2&gt;Update&amp;nbsp;rvm&lt;/h2&gt;
+&lt;p&gt;rvm get&amp;nbsp;stable&lt;/p&gt;
+&lt;h2&gt;Fix&amp;nbsp;brew&lt;/h2&gt;
+&lt;p&gt;Changing 1.8  in Current in brew.rb made brew working&amp;nbsp;again.&lt;/p&gt;
+&lt;p&gt;Change&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -W0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;to &lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby -W0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2&gt;Ruby&lt;/h2&gt;
+&lt;p&gt;In order to make some of my projects work again I had to install a different Ruby&amp;nbsp;version.&lt;/p&gt;
+&lt;p&gt;Installing it only&amp;nbsp;with&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;rvm&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;resulted in errors that it could not&amp;nbsp;compile.&lt;/p&gt;
+&lt;p&gt;This fixed&amp;nbsp;it&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;rvm&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;ruby&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="c1"&gt;--with-gcc=clang&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Bugzilla /&amp;nbsp;perl&lt;/h2&gt;
+&lt;p&gt;Symptom:&lt;/p&gt;
+&lt;p&gt;My local Bugzilla installation does not work&amp;nbsp;anymore.&lt;/p&gt;
+&lt;p&gt;Cause:&lt;/p&gt;
+&lt;p&gt;Apple has overwritten the&amp;nbsp;/etc/apache2/httpd.conf. &lt;/p&gt;
+&lt;p&gt;Add your Bugzilla&amp;nbsp;settings.&lt;/p&gt;
+&lt;p&gt;{% highlight apache&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;&lt;Directory "/Library/WebServer/bugzilla-trunk"&gt; 
+  AddHandler cgi-script .cgi .pl 
+  Options +Indexes +ExecCGI +FollowSymLinks 
+  DirectoryIndex index.cgi index.html 
+  AllowOverride Limit FileInfo Indexes Options 
+  Order allow,deny 
+  Allow from all 
+&lt;/Directory&gt;&lt;/p&gt;
+&lt;p&gt;{% endhighlight&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;Symptom:&lt;/p&gt;
+&lt;p&gt;Attempt to reload &lt;span class="caps"&gt;JSON&lt;/span&gt;/&lt;span class="caps"&gt;XS&lt;/span&gt;.pm&amp;nbsp;aborted.&lt;/p&gt;
+&lt;p&gt;Solution:&lt;/p&gt;
+&lt;p&gt;I emptied out the lib folder and&amp;nbsp;ran &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;install&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pl&lt;/span&gt; &lt;span class="err"&gt;—&lt;/span&gt;&lt;span class="k"&gt;all&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and it fixed the&amp;nbsp;issue.&lt;/p&gt;
+&lt;p&gt;Bugzilla 4.5.6 introduces Mysql &lt;span class="caps"&gt;SSL&lt;/span&gt;&amp;nbsp;certificates.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://dev.mysql.com/doc/refman/5.0/en/creating-ssl-certs.html"&gt;OpenSSL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Extra parameters are added to the&amp;nbsp;localconfig.&lt;/p&gt;
+&lt;p&gt;{% docs info %}
+I have to find out how to configure&amp;nbsp;this&lt;/p&gt;
+&lt;p&gt;{% enddocs&amp;nbsp;%}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>mysql installation notes</title><link href="https://blog.florijnconsultancy.nl/articles/mysql-installation-notes.html" rel="alternate"></link><published>2014-10-05T10:25:00+02:00</published><updated>2014-10-05T10:25:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-05:/articles/mysql-installation-notes.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I had to reinstall my local Bugzilla , so I took the opportunity to upgrade my local mysql as&amp;nbsp;well.&lt;/p&gt;
+&lt;p&gt;This post contains my notes made during the&amp;nbsp;process.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p _="%" enddocs&gt;{% docs tip %}
+On &lt;span class="caps"&gt;OSX&lt;/span&gt; it is not always obvious which my.cnf file is used. You can find all my …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I had to reinstall my local Bugzilla , so I took the opportunity to upgrade my local mysql as&amp;nbsp;well.&lt;/p&gt;
+&lt;p&gt;This post contains my notes made during the&amp;nbsp;process.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p _="%" enddocs&gt;{% docs tip %}
+On &lt;span class="caps"&gt;OSX&lt;/span&gt; it is not always obvious which my.cnf file is used. You can find all my.cnf files on your system by issuing a find&amp;nbsp;command&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nv"&gt;sudo&lt;/span&gt; &lt;span class="nv"&gt;find&lt;/span&gt; . &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;name&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;*.cnf&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;exec&lt;/span&gt; &lt;span class="nv"&gt;ls&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;al&lt;/span&gt; {} \&lt;span class="c1"&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p _="%" enddocs&gt;{% docs tip %}
+You can execute a mysql command to show in which locations you can place my.cnf files and in which order they are&amp;nbsp;executed.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;mysql&lt;/span&gt; &lt;span class="c1"&gt;--help | grep &amp;quot;Default options&amp;quot; -A 1&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="[]"></category></entry><entry><title>Bugzilla git migration</title><link href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html" rel="alternate"></link><published>2014-09-28T14:49:00+02:00</published><updated>2014-09-28T14:49:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-28:/articles/bugzilla-git-migration.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Bugzilla project switched to Git instead of&amp;nbsp;Bzr.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Moving_From_Bazaar_To_Git"&gt;Moving_From_Bazaar_To_Git&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Git"&gt;Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://bugzilla.readthedocs.org/en/latest/installation.html"&gt;Installation&amp;nbsp;manual&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Git&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://git.mozilla.org/?p=bugzilla/bugzilla.git;a%3Dsummary"&gt;Bugzilla Git&amp;nbsp;Summary&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Update to newer&amp;nbsp;release&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Git#Updating_to_a_Newer_Release"&gt;Updating to a newer&amp;nbsp;release&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>activate spellcheck in Sublime Text 3</title><link href="https://blog.florijnconsultancy.nl/articles/activate-spellcheck-in-sublime-text-3.html" rel="alternate"></link><published>2014-09-27T11:27:00+02:00</published><updated>2014-09-27T11:27:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-27:/articles/activate-spellcheck-in-sublime-text-3.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;By default spellcheck is off in Sublime&amp;nbsp;Text.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs note %}
+You can&amp;#8217;t edit the default settings file. If you try this, you cannot edit the&amp;nbsp;setting.&lt;/p&gt;
+&lt;p&gt;In order to activate add the following to the User&amp;nbsp;settings:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="o"&gt;//&lt;/span&gt; &lt;span class="k"&gt;Set&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="k"&gt;true&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="n"&gt;turn&lt;/span&gt; &lt;span class="n"&gt;spell&lt;/span&gt; &lt;span class="n"&gt;checking&lt;/span&gt; &lt;span class="k"&gt;on&lt;/span&gt; &lt;span class="k"&gt;by&lt;/span&gt; &lt;span class="k"&gt;default …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;By default spellcheck is off in Sublime&amp;nbsp;Text.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs note %}
+You can&amp;#8217;t edit the default settings file. If you try this, you cannot edit the&amp;nbsp;setting.&lt;/p&gt;
+&lt;p&gt;In order to activate add the following to the User&amp;nbsp;settings:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="o"&gt;//&lt;/span&gt; &lt;span class="k"&gt;Set&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="k"&gt;true&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="n"&gt;turn&lt;/span&gt; &lt;span class="n"&gt;spell&lt;/span&gt; &lt;span class="n"&gt;checking&lt;/span&gt; &lt;span class="k"&gt;on&lt;/span&gt; &lt;span class="k"&gt;by&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt;
+    &lt;span class="ss"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="k"&gt;true&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>confluence inspired callouts in Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/confluence-inspired-callouts-in-octopress.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/confluence-inspired-callouts-in-octopress.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts may times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in&amp;nbsp;Octopress.&lt;/p&gt;
+&lt;p&gt;With some tweaking and help of Frank I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts may times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in&amp;nbsp;Octopress.&lt;/p&gt;
+&lt;p&gt;With some tweaking and help of Frank I managed to implement a number of callout&amp;nbsp;types.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs note %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs info %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs error %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs warning %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs tip %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs thumbs-up %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs thumbs-down %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs check %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;span class="caps"&gt;TODO&lt;/span&gt;: describing the&amp;nbsp;Howto.&lt;/p&gt;</content><category term="[writing"></category><category term="octopress]"></category></entry><entry><title>Customizing Sublime for Python development</title><link href="https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html" rel="alternate"></link><published>2014-09-20T10:38:00+02:00</published><updated>2014-09-20T10:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-20:/articles/customizing-sublime-for-python-development.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;More and more I am using Sublime as my favorite&amp;nbsp;editor.&lt;/p&gt;
+&lt;p&gt;Also I am developing in Python as my favorite scripting language of this&amp;nbsp;moment.&lt;/p&gt;
+&lt;p&gt;Sublime can be customized/extended as an ideal Python &lt;span class="caps"&gt;IDE&lt;/span&gt;.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;a href="https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/"&gt;Setting up Sublime Text 3 for full stack python&amp;nbsp;development&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>“Database change requests”</title><link href="https://blog.florijnconsultancy.nl/articles/database-change-requests.html" rel="alternate"></link><published>2014-08-27T09:41:36+02:00</published><updated>2014-08-27T09:41:36+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-27:/articles/database-change-requests.html</id><summary type="html">&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;title: &lt;size:30&gt;Database change Request&lt;/size&gt;&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;| Developer&amp;nbsp;|&lt;/dt&gt;
+&lt;dd&gt;Database change request;
+| &lt;span class="caps"&gt;DBA&lt;/span&gt; |
+:Register Database change request;
+:Analyze database change;
+:Update database request;
+| Developer |
+:Assessment impact;
+| &lt;span class="caps"&gt;DBA&lt;/span&gt; |
+if (Proceed?) then (Yes)
+:Update Request;
+:Back to Development;
+else (No)
+:Close Request;
+endif
+| Development |
+:Check planning;
+:Assign Request to Developer;
+:Review and Test database change …&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;title: &lt;size:30&gt;Database change Request&lt;/size&gt;&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;| Developer&amp;nbsp;|&lt;/dt&gt;
+&lt;dd&gt;Database change request;
+| &lt;span class="caps"&gt;DBA&lt;/span&gt; |
+:Register Database change request;
+:Analyze database change;
+:Update database request;
+| Developer |
+:Assessment impact;
+| &lt;span class="caps"&gt;DBA&lt;/span&gt; |
+if (Proceed?) then (Yes)
+:Update Request;
+:Back to Development;
+else (No)
+:Close Request;
+endif
+| Development |
+:Check planning;
+:Assign Request to Developer;
+:Review and Test database change;
+if (Change &lt;span class="caps"&gt;OK&lt;/span&gt;) then (yes)
+:Back to &lt;span class="caps"&gt;DBA&lt;/span&gt; ;
+| &lt;span class="caps"&gt;DBA&lt;/span&gt; |
+:Close&amp;nbsp;Request;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;right&amp;nbsp;footer&lt;/p&gt;
+&lt;p&gt;Author: &lt;span class="caps"&gt;PF&lt;/span&gt; 
+Version: v0.1
+Date:&amp;nbsp;26-8-2014&lt;/p&gt;
+&lt;p&gt;endfooter&lt;/p&gt;
+&lt;p&gt;{% endplantuml&amp;nbsp;%}&lt;/p&gt;</content></entry><entry><title>“Slow Time Machine backup on Mavericks”</title><link href="https://blog.florijnconsultancy.nl/articles/slow-time-machine-backup-on-mavericks.html" rel="alternate"></link><published>2014-08-25T09:36:29+02:00</published><updated>2014-08-25T09:36:29+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-25:/articles/slow-time-machine-backup-on-mavericks.html</id><summary type="html">&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my &lt;span class="caps"&gt;HD&lt;/span&gt; and as a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my &lt;span class="caps"&gt;HD&lt;/span&gt; and as a consequence slows down my&amp;nbsp;Mac.&lt;/p&gt;
+&lt;p&gt;I Googled around to find a solution and although I found some possible solutions I still have the&amp;nbsp;problem.&lt;/p&gt;
+&lt;p&gt;I have also a notebook backing up to the same Synology and this backup is fast as&amp;nbsp;ever.&lt;/p&gt;
+&lt;p&gt;After many hours the backup is completed and now it seems stuck for hours in verifying the&amp;nbsp;backup.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;Finally the backup was completed but the verification took a long time as well and was stuck on&amp;nbsp;69%.&lt;/p&gt;
+&lt;p&gt;I am suspecting a hardware problem, possibly the&amp;nbsp;harddisk.&lt;/p&gt;
+&lt;p&gt;Diskutil did not report anything&amp;nbsp;strange.&lt;/p&gt;
+&lt;p&gt;My &lt;span class="caps"&gt;HD&lt;/span&gt; is a Seagate &lt;span class="caps"&gt;HD&lt;/span&gt; thas qualifies for the replacement program, I missed the 3 year deadline, so now I am stuck with this&amp;nbsp;disk.&lt;/p&gt;
+&lt;h2&gt;Software&amp;nbsp;Diagnostics&lt;/h2&gt;
+&lt;p _="%" enddocs&gt;{% docs tip %}
+You can try to run some standard diagnostics tools to eliminate some basic&amp;nbsp;causes.&lt;/p&gt;
+&lt;p&gt;Spotlight&amp;nbsp;diagnostics&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;mdsdiagnose&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Time machine&amp;nbsp;diagnostics&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;tmdiagnose&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Hardware&amp;nbsp;Diagnostics&lt;/h2&gt;
+&lt;p&gt;Next step is to run the Apple Hardware Test (&lt;span class="caps"&gt;AHT&lt;/span&gt;).&lt;/p&gt;
+&lt;p&gt;Reboot and press D before the grey&amp;nbsp;screen.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I noticed from the activity monitor that there were several postfix background processes running. These were initiated because I had &lt;span class="caps"&gt;OSX&lt;/span&gt; Server running on this machine as well. Although the email service was not activitated in the configuration, it seemed that these processes were running&amp;nbsp;altogether. &lt;/p&gt;
+&lt;p&gt;I decided to deinstall &lt;span class="caps"&gt;OSX&lt;/span&gt; server and see what would&amp;nbsp;happen.&lt;/p&gt;
+&lt;p&gt;After deinstalling &lt;span class="caps"&gt;OSX&lt;/span&gt; server it seems that my Time Machine backup is running as&amp;nbsp;normal.&lt;/p&gt;
+&lt;p&gt;My analysis is that these postfix processes caused some constant file io which interfered somehow with Spotlight/Time&amp;nbsp;Machine.&lt;/p&gt;</content></entry><entry><title>“Reset Fritz! Powerline 520E”</title><link href="https://blog.florijnconsultancy.nl/articles/reset-fritz-powerline-520e.html" rel="alternate"></link><published>2014-08-24T08:38:14+02:00</published><updated>2014-08-24T08:38:14+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-24:/articles/reset-fritz-powerline-520e.html</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Sometimes I do not get connection to my FritzBox. After some investigation I found out that this was caused by one of my Powerline 520 E adapters. It was not working as expected, although the &lt;span class="caps"&gt;LED&lt;/span&gt;&amp;#8217;s were suggesting&amp;nbsp;otherwise&lt;/p&gt;
+&lt;p&gt;I installed the Fritz! Powerline application on my &lt;span class="caps"&gt;OSX …&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Sometimes I do not get connection to my FritzBox. After some investigation I found out that this was caused by one of my Powerline 520 E adapters. It was not working as expected, although the &lt;span class="caps"&gt;LED&lt;/span&gt;&amp;#8217;s were suggesting&amp;nbsp;otherwise&lt;/p&gt;
+&lt;p&gt;I installed the Fritz! Powerline application on my &lt;span class="caps"&gt;OSX&lt;/span&gt; machine and I checked if all my adapters where&amp;nbsp;shown.&lt;/p&gt;
+&lt;p&gt;I noticed that one of the adapters is not&amp;nbsp;shown.&lt;/p&gt;
+&lt;h2&gt;How to fix&amp;nbsp;this&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Click on the adapter that is shown and toggle the Green mode and Switch on &lt;span class="caps"&gt;LED&lt;/span&gt; Display&amp;nbsp;checkboxes&lt;/li&gt;
+&lt;li&gt;Click the &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;button&lt;/li&gt;
+&lt;li&gt;Changes will be&amp;nbsp;applied&lt;/li&gt;
+&lt;li&gt;If you are lucky this will fix the problem and the second adapter will appear&amp;nbsp;again.&lt;/li&gt;
+&lt;li&gt;If not, you have to plug/unplug the faulty adapter and try the above steps&amp;nbsp;again.&lt;/li&gt;
+&lt;/ol&gt;</content></entry><entry><title>“Non-standard Service Request workflow”</title><link href="https://blog.florijnconsultancy.nl/articles/non-standard-service-request-workflow.html" rel="alternate"></link><published>2014-08-23T16:30:30+02:00</published><updated>2014-08-23T16:30:30+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-23:/articles/non-standard-service-request-workflow.html</id><summary type="html">&lt;h4&gt;Workflow&lt;/h4&gt;
+&lt;p&gt;Typical workflow for non standard customer support&amp;nbsp;requests.&lt;/p&gt;
+&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;title: &lt;size:60&gt;Non-standard Service Request&lt;/size&gt;&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;| Customer&amp;nbsp;|&lt;/dt&gt;
+&lt;dt&gt;start&lt;/dt&gt;
+&lt;dd&gt;Customer request;
+|#AntiqueWhite|Customer support |
+:Register customer request;
+:Analyze customer request;
+:Update Service Request;
+:Assign Service Request;
+| Sales |
+:Contact Development for estimate and planning;
+|#AntiqueWhite|Development |
+:Analyze Service Request;
+:Make estimate;
+:Check planning;
+| Sales …&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;h4&gt;Workflow&lt;/h4&gt;
+&lt;p&gt;Typical workflow for non standard customer support&amp;nbsp;requests.&lt;/p&gt;
+&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;title: &lt;size:60&gt;Non-standard Service Request&lt;/size&gt;&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;| Customer&amp;nbsp;|&lt;/dt&gt;
+&lt;dt&gt;start&lt;/dt&gt;
+&lt;dd&gt;Customer request;
+|#AntiqueWhite|Customer support |
+:Register customer request;
+:Analyze customer request;
+:Update Service Request;
+:Assign Service Request;
+| Sales |
+:Contact Development for estimate and planning;
+|#AntiqueWhite|Development |
+:Analyze Service Request;
+:Make estimate;
+:Check planning;
+| Sales |
+:Prepare quotation;
+| Administration |
+:Send quotation;
+:Monitor quotation due date;
+| Customer |
+if (Quotation acceptance by customer) then (Yes)
+:Update Service Request;
+:Back to Development;
+else (No)
+:Close Service Request;
+endif
+|#AntiqueWhite|Development |
+:Check planning;
+:Assign Service Request to Developer;
+:Review and Test product;
+if (Product &lt;span class="caps"&gt;OK&lt;/span&gt;) then (yes)
+:Back to Customer Support;
+else (No)
+:Fix Product;
+endif
+|#AntiqueWhite|Customer support |
+:Contact customer;
+:Deliver Product;
+| Customer |
+if (Product acceptance by customer) then (yes)
+:Back to Customer Support;
+:Update Service Request &amp;#8220;Ready for invoicing&amp;#8221;;
+:Back to Administration;
+else (No)
+:Back to Development;
+:Fix Product;
+:Back to Customer Support;
+endif
+| Administration |
+:Send invoice;
+:Close Request;
+stop
+right&amp;nbsp;footer&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Author: &lt;span class="caps"&gt;PF&lt;/span&gt; 
+Version: v0.2
+Date:&amp;nbsp;6-10-2014&lt;/p&gt;
+&lt;p&gt;endfooter&lt;/p&gt;
+&lt;p&gt;{% endplantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;This is created by the following PlantUML&amp;nbsp;code&lt;/p&gt;
+&lt;p&gt;{% codeblock PlantUML source&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;title: &lt;size:60&gt;Non-standard Service Request&lt;/size&gt;&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;| Customer&amp;nbsp;|&lt;/dt&gt;
+&lt;dt&gt;start&lt;/dt&gt;
+&lt;dd&gt;Customer request;
+|#AntiqueWhite|Customer support |
+:Register customer request;
+:Analyze customer request;
+:Update Service Request;
+:Assign Service Request;
+| Sales |
+:Contact Development for estimate and planning;
+|#AntiqueWhite|Development |
+:Analyze Service Request;
+:Make estimate;
+:Check planning;
+| Sales |
+:Prepare quotation;
+| Administration |
+:Send quotation;
+:Monitor quotation due date;
+| Customer |
+if (Quotation acceptance by customer) then (Yes)
+:Update Service Request;
+:Back to Development;
+else (No)
+:Close Service Request;
+endif
+|#AntiqueWhite|Development |
+:Check planning;
+:Assign Service Request to Developer;
+:Review and Test product;
+if (Product &lt;span class="caps"&gt;OK&lt;/span&gt;) then (yes)
+:Back to Customer Support;
+else (No)
+:Fix Product;
+endif
+|#AntiqueWhite|Customer support |
+:Contact customer;
+:Deliver Product;
+| Customer |
+if (Product acceptance by customer) then (yes)
+:Back to Customer Support;
+:Update Service Request &amp;#8220;Ready for invoicing&amp;#8221;;
+:Back to Administration;
+else (No)
+:Back to Development;
+:Fix Product;
+:Back to Customer Support;
+endif
+| Administration |
+:Send invoice;
+:Close Request;
+stop
+right&amp;nbsp;footer&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Author: &lt;span class="caps"&gt;PF&lt;/span&gt; 
+Version: v0.2
+Date:&amp;nbsp;6-10-2014&lt;/p&gt;
+&lt;p&gt;endfooter&lt;/p&gt;
+&lt;p&gt;{% endcodeblock&amp;nbsp;%}&lt;/p&gt;</content></entry><entry><title>“Switch to Textexpander”</title><link href="https://blog.florijnconsultancy.nl/articles/switch-to-textexpander.html" rel="alternate"></link><published>2014-08-22T08:44:38+02:00</published><updated>2014-08-22T08:44:38+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-22:/articles/switch-to-textexpander.html</id><summary type="html">&lt;p&gt;image : 
+summary:  Text&amp;nbsp;expansion&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I was using Typinator for some time now. A colleague of mine is a long time Textexpander user and informed me that there was an attractive offer to purchase a Textexpander license.
+So I decided to make the switch to&amp;nbsp;Textexpander.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;Importing my Typinator snippets via …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
+summary:  Text&amp;nbsp;expansion&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I was using Typinator for some time now. A colleague of mine is a long time Textexpander user and informed me that there was an attractive offer to purchase a Textexpander license.
+So I decided to make the switch to&amp;nbsp;Textexpander.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;Importing my Typinator snippets via tab delimit format was&amp;nbsp;easy.&lt;/p&gt;
+&lt;p&gt;I had to change some specific date constructions and now all is&amp;nbsp;working.&lt;/p&gt;
+&lt;p&gt;I sync my snippets via Dropbox to my&amp;nbsp;laptop.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m all to go now to invest in some time to setup some extra snippets to improve my&amp;nbsp;productivity.&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Installing PHP and Laravel environment</title><link href="https://blog.florijnconsultancy.nl/articles/installing-php-and-laravel-environment.html" rel="alternate"></link><published>2014-03-15T11:05:00+01:00</published><updated>2014-03-15T11:05:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-03-15:/articles/installing-php-and-laravel-environment.html</id><summary type="html">&lt;p&gt;image : 
+summary:  Laravel&amp;nbsp;environment&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I recently got involved in a project that uses &lt;span class="caps"&gt;PHP&lt;/span&gt; and Laravel as a framework. I never used &lt;span class="caps"&gt;PHP&lt;/span&gt; before so this means starting from scratch by preparing my &lt;span class="caps"&gt;OSX&lt;/span&gt; environment for some &lt;span class="caps"&gt;QA&lt;/span&gt; and probably some minor development&amp;nbsp;work.&lt;/p&gt;
+&lt;p&gt;I found a post that seems …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
+summary:  Laravel&amp;nbsp;environment&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I recently got involved in a project that uses &lt;span class="caps"&gt;PHP&lt;/span&gt; and Laravel as a framework. I never used &lt;span class="caps"&gt;PHP&lt;/span&gt; before so this means starting from scratch by preparing my &lt;span class="caps"&gt;OSX&lt;/span&gt; environment for some &lt;span class="caps"&gt;QA&lt;/span&gt; and probably some minor development&amp;nbsp;work.&lt;/p&gt;
+&lt;p&gt;I found a post that seems to cover the installation on &lt;span class="caps"&gt;OSX&lt;/span&gt; of the necessary&amp;nbsp;components.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.createdbypete.com/articles/php-54-development-on-os-x-with-mysql-and-laravel-4/"&gt;&lt;span class="caps"&gt;PHP&lt;/span&gt; 54 development on &lt;span class="caps"&gt;OSX&lt;/span&gt; with mysql and Laravel&amp;nbsp;4&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;During the installation I got an error with installing&amp;nbsp;zlib. &lt;/p&gt;
+&lt;p _="%" endcodeblock&gt;{% codeblock lang:bash %}
+curl: (22) The requested &lt;span class="caps"&gt;URL&lt;/span&gt; returned error: 404 Not Found
+Error: Failed to download resource &amp;#8220;zlib&amp;#8221;
+Download failed:&amp;nbsp;http://zlib.net/zlib-1.2.7.tar.gz&lt;/p&gt;
+&lt;p&gt;This error was corrected folowing this&amp;nbsp;solution&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/josegonzalez/homebrew-php/issues/575"&gt;https://github.com/josegonzalez/homebrew-php/issues/575&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Laravel requires the &lt;span class="caps"&gt;PHP&lt;/span&gt; Mcrypt module. In an earlier attempt I had some trouble to get this working in my environment, but now in this setup using this&amp;nbsp;command:&lt;/p&gt;
+&lt;p _="%" endcodeblock&gt;{% codeblock lang:bash %}
+brew install&amp;nbsp;php54-mcrypt&lt;/p&gt;
+&lt;p&gt;installed it&amp;nbsp;correctly.&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Generating Powerpoint with python</title><link href="https://blog.florijnconsultancy.nl/articles/generating-powerpoint-with-python.html" rel="alternate"></link><published>2014-01-18T13:32:00+01:00</published><updated>2014-01-18T13:32:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-01-18:/articles/generating-powerpoint-with-python.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you need to create Powerpoints frequently f.i Service Level Reports or Project Status reports, then you probably can use this Python library.
+If you are prepared to invest some time and are not afraid of a bit of python programming you can achieve some nice&amp;nbsp;results …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you need to create Powerpoints frequently f.i Service Level Reports or Project Status reports, then you probably can use this Python library.
+If you are prepared to invest some time and are not afraid of a bit of python programming you can achieve some nice&amp;nbsp;results.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/scanny/python-pptx"&gt;Github&amp;nbsp;repository&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;Complete documentation can be found &lt;a href="https://python-pptx.readthedocs.org/en/latest/"&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Plex app on Samsung TV</title><link href="https://blog.florijnconsultancy.nl/articles/plex-app-on-samsung-tv.html" rel="alternate"></link><published>2014-01-18T12:58:00+01:00</published><updated>2014-01-18T12:58:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-01-18:/articles/plex-app-on-samsung-tv.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I have a Samsung Smart &lt;span class="caps"&gt;TV&lt;/span&gt; (D series). On this &lt;span class="caps"&gt;TV&lt;/span&gt; you can install the Plex app from the Samsung App store. Out of the box the App was not able to find and connect to my Plex Media server (&lt;span class="caps"&gt;PMS&lt;/span&gt;) on my &lt;span class="caps"&gt;OSX&lt;/span&gt; Mavericks machine.
+In this …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I have a Samsung Smart &lt;span class="caps"&gt;TV&lt;/span&gt; (D series). On this &lt;span class="caps"&gt;TV&lt;/span&gt; you can install the Plex app from the Samsung App store. Out of the box the App was not able to find and connect to my Plex Media server (&lt;span class="caps"&gt;PMS&lt;/span&gt;) on my &lt;span class="caps"&gt;OSX&lt;/span&gt; Mavericks machine.
+In this post I describe how to open up the firewall in order to make this setup work.
+&lt;!-- more --&gt;&lt;/p&gt;
+&lt;h2&gt;Samsung Plex app and Plex Media&amp;nbsp;server&lt;/h2&gt;
+&lt;h3&gt;Preparation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure the &lt;span class="caps"&gt;PMS&lt;/span&gt; runs on port 32400, none other will&amp;nbsp;work.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure the &lt;span class="caps"&gt;PMS&lt;/span&gt; and the &lt;span class="caps"&gt;SAMSUNG&lt;/span&gt; &lt;span class="caps"&gt;TV&lt;/span&gt; are on the same subnet where only the x differs like in this example:&amp;nbsp;192.168.0.xxx&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure &amp;#8220;Require authentication on local networks&amp;#8221; is unchecked on the &lt;span class="caps"&gt;PMS&lt;/span&gt; &amp;gt; Settings &amp;gt; myPlex &amp;gt; Advanced&amp;nbsp;settings&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure you are using fixed &lt;span class="caps"&gt;IP&lt;/span&gt; addresses that don&amp;#8217;t change. You can do so in your router &lt;span class="caps"&gt;DHCP&lt;/span&gt; settings. Find the &lt;span class="caps"&gt;MAC&lt;/span&gt; address and assign it a &lt;span class="caps"&gt;IP&lt;/span&gt; that it should&amp;nbsp;use.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure no firewall software is blocking access to your &lt;span class="caps"&gt;PMS&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;span class="caps"&gt;OSX&lt;/span&gt; firewall &lt;span class="caps"&gt;ON&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;I prefer to leave the Application Firewall (&lt;span class="caps"&gt;ALF&lt;/span&gt;) on. 
+Normal procedure to open up ports for a specific app would be to add the application to the&amp;nbsp;Firewall.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;. &lt;span class="nv"&gt;Click&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;Firewall&lt;/span&gt; &lt;span class="nv"&gt;tab&lt;/span&gt; &lt;span class="nv"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;Security&lt;/span&gt; &lt;span class="nv"&gt;pane&lt;/span&gt;.
+&lt;span class="mi"&gt;2&lt;/span&gt;. &lt;span class="nv"&gt;Click&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;Advanced&lt;/span&gt; &lt;span class="nv"&gt;button&lt;/span&gt;.
+&lt;span class="mi"&gt;3&lt;/span&gt;. &lt;span class="nv"&gt;Click&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nv"&gt;symbol&lt;/span&gt;.
+&lt;span class="mi"&gt;4&lt;/span&gt;. &lt;span class="nv"&gt;Find&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;program&lt;/span&gt; &lt;span class="nv"&gt;that&lt;/span&gt; &lt;span class="nv"&gt;you&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="s"&gt;d like to add as an exception.&lt;/span&gt;
+&lt;span class="mi"&gt;5&lt;/span&gt;. &lt;span class="nv"&gt;Click&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;Add&lt;/span&gt; &lt;span class="nv"&gt;button&lt;/span&gt;.
+&lt;span class="mi"&gt;6&lt;/span&gt;. &lt;span class="nv"&gt;Repeat&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;above&lt;/span&gt; &lt;span class="nv"&gt;steps&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;each&lt;/span&gt; &lt;span class="nv"&gt;program&lt;/span&gt; &lt;span class="nv"&gt;you&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="s"&gt;d like to add to the exceptions list.&lt;/span&gt;
+&lt;span class="mi"&gt;7&lt;/span&gt;. &lt;span class="nv"&gt;Set&lt;/span&gt; &lt;span class="nv"&gt;whether&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;Allow&lt;/span&gt; &lt;span class="nv"&gt;incoming&lt;/span&gt; &lt;span class="nv"&gt;connections&lt;/span&gt; &lt;span class="nv"&gt;or&lt;/span&gt; &lt;span class="nv"&gt;Block&lt;/span&gt; &lt;span class="nv"&gt;incoming&lt;/span&gt; &lt;span class="nv"&gt;connections&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;programs&lt;/span&gt; &lt;span class="nv"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;your&lt;/span&gt; &lt;span class="nv"&gt;list&lt;/span&gt; &lt;span class="nv"&gt;by&lt;/span&gt; &lt;span class="nv"&gt;clicking&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;up&lt;/span&gt; &lt;span class="nv"&gt;or&lt;/span&gt; &lt;span class="nv"&gt;down&lt;/span&gt; &lt;span class="nv"&gt;arrows&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;far&lt;/span&gt; &lt;span class="nv"&gt;right&lt;/span&gt; &lt;span class="nv"&gt;of&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;program&lt;/span&gt; &lt;span class="nv"&gt;name&lt;/span&gt;, &lt;span class="k"&gt;then&lt;/span&gt; &lt;span class="nv"&gt;selecting&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;appropriate&lt;/span&gt; &lt;span class="nv"&gt;option&lt;/span&gt;.
+&lt;span class="mi"&gt;8&lt;/span&gt;. &lt;span class="nv"&gt;Click&lt;/span&gt; &lt;span class="nv"&gt;OK&lt;/span&gt;.
+&lt;span class="mi"&gt;9&lt;/span&gt;. &lt;span class="nv"&gt;Close&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;Security&lt;/span&gt; &lt;span class="nv"&gt;pane&lt;/span&gt; &lt;span class="nv"&gt;saving&lt;/span&gt; &lt;span class="nv"&gt;your&lt;/span&gt; &lt;span class="nv"&gt;selections&lt;/span&gt;.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;For some reason this was not sufficient and I could not connect to my &lt;span class="caps"&gt;PMS&lt;/span&gt;&amp;nbsp;server&lt;/p&gt;
+&lt;h3&gt;Firewall&amp;nbsp;rules&lt;/h3&gt;
+&lt;p&gt;&lt;span class="caps"&gt;OSX&lt;/span&gt; contains a number of firewalls (&lt;span class="caps"&gt;ALF&lt;/span&gt;, ipfw and pf)
+&lt;a href="http://f.adric.net/index.cgi/wiki?name=MacSec_Firewalls"&gt;MacSec_Firewalls&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span class="caps"&gt;PMS&lt;/span&gt; blocked&amp;nbsp;?&lt;/h3&gt;
+&lt;p&gt;For some reason I could not connect and I disabled the &lt;span class="caps"&gt;ALF&lt;/span&gt; firewall. But still I could not connect. I executed the following steps and suddenly I could connect (with the &lt;span class="caps"&gt;ALF&lt;/span&gt; firewall turned&amp;nbsp;on). &lt;/p&gt;
+&lt;p&gt;A couple of days later I found out that even without the rule active (Note: Adding the firewall rule as described does not make the rule stick, you have to add that to a ipfw.conf file) 
+I can connect to the &lt;span class="caps"&gt;PMS&lt;/span&gt; from my &lt;span class="caps"&gt;SAMSUNG&lt;/span&gt; &lt;span class="caps"&gt;TV&lt;/span&gt; and my &lt;span class="caps"&gt;SAMSUNG&lt;/span&gt; &lt;span class="caps"&gt;BD&lt;/span&gt;-D6500. I can not explain this. In any case it was interesting to investigate some firewall stuff.
+So use this info as&amp;nbsp;is.&lt;/p&gt;
+&lt;h3&gt;Add rule to let Samsung &lt;span class="caps"&gt;TV&lt;/span&gt; communicate with &lt;span class="caps"&gt;PMS&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;I used info from this outdated page
+&lt;a href="http://www.ibiblio.org/macsupport/ipfw/"&gt;www.ibiblio.org&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class="caps"&gt;PMS&lt;/span&gt; is default connecting on port&amp;nbsp;32400&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p _="%" codeblock lang:bash&gt;Look up the &lt;span class="caps"&gt;IP&lt;/span&gt; of your Samsung &lt;span class="caps"&gt;TV&lt;/span&gt; and change the below line&amp;nbsp;accordingly:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;sudo ipfw add allow tcp from 192.168.1.0/24 to any dst-port 32400&amp;nbsp;in&lt;/p&gt;
+&lt;p&gt;{% endcodeblock&amp;nbsp;%}&lt;/p&gt;
+&lt;h3&gt;Result&lt;/h3&gt;
+&lt;p&gt;After adding this firewall rule and entering the &lt;span class="caps"&gt;IP&lt;/span&gt; address of my &lt;span class="caps"&gt;PMS&lt;/span&gt; server the &lt;span class="caps"&gt;SAMSUNG&lt;/span&gt; app connected succesfully and I was able to play my&amp;nbsp;media.&lt;/p&gt;
+&lt;h3&gt;References&lt;/h3&gt;</content><category term="[Media"></category><category term="Plex"></category><category term="security"></category><category term="firewall"></category><category term="OSX]"></category></entry><entry><title>creating Excel files with python and xlsxwriter</title><link href="https://blog.florijnconsultancy.nl/articles/creating-excel-files-with-python-and-xlsxwriter.html" rel="alternate"></link><published>2013-11-23T17:53:00+01:00</published><updated>2013-11-23T17:53:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-11-23:/articles/creating-excel-files-with-python-and-xlsxwriter.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/27140589" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="https://www.slideshare.net/jmncnamara/xlsxwriter" title="Creating Excel files with Python and XlsxWriter" target="_blank"&gt;Creating Excel files with Python and XlsxWriter&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/jmncnamara" target="_blank"&gt;jmncnamara&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;!-- more --&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Notes on Mavericks upgrade</title><link href="https://blog.florijnconsultancy.nl/articles/notes-on-mavericks-upgrade.html" rel="alternate"></link><published>2013-11-03T15:56:00+01:00</published><updated>2013-11-03T15:56:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-11-03:/articles/notes-on-mavericks-upgrade.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I upgraded on day one. Upgrade went smoothly. In this post I will share my notes on some issues I encounter.
+&lt;!-- more --&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>How to fix slow startup OSX Mountain Lion</title><link href="https://blog.florijnconsultancy.nl/articles/how-to-fix-slow-startup-osx-mountain-lion.html" rel="alternate"></link><published>2013-08-21T13:31:00+02:00</published><updated>2013-08-21T13:31:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-08-21:/articles/how-to-fix-slow-startup-osx-mountain-lion.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I recently experienced very slow startup of my iMac and it seemed related to heavy Spotlight indexing.
+I researched this item on Google but I could not find a real Root&amp;nbsp;cause.&lt;/p&gt;
+&lt;p&gt;I made a call to Apple support and I got the following&amp;nbsp;suggestions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Goto to&amp;nbsp;Finder …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I recently experienced very slow startup of my iMac and it seemed related to heavy Spotlight indexing.
+I researched this item on Google but I could not find a real Root&amp;nbsp;cause.&lt;/p&gt;
+&lt;p&gt;I made a call to Apple support and I got the following&amp;nbsp;suggestions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Goto to&amp;nbsp;Finder&lt;/li&gt;
+&lt;li&gt;Press&amp;nbsp;Alt &lt;/li&gt;
+&lt;li&gt;Goto&amp;nbsp;Library&lt;/li&gt;
+&lt;li&gt;Move folder Caches to the&amp;nbsp;trash&lt;/li&gt;
+&lt;li&gt;Move folder LaunchAgents to the&amp;nbsp;trash&lt;/li&gt;
+&lt;li&gt;Goto folder&amp;nbsp;Preferences &lt;/li&gt;
+&lt;li&gt;Move com.apple.spotlight.plist to the&amp;nbsp;desktop&lt;/li&gt;
+&lt;li&gt;restart&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This resulted in my iMac performing as&amp;nbsp;usual.&lt;/p&gt;
+&lt;p&gt;So it worked for&amp;nbsp;me.&lt;/p&gt;
+&lt;p&gt;Be careful and make a backup before trying this&amp;nbsp;fix.&lt;/p&gt;
+&lt;p&gt;No&amp;nbsp;guarantees!&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>scaled Agile framework</title><link href="https://blog.florijnconsultancy.nl/articles/scaled-agile-framework.html" rel="alternate"></link><published>2013-08-21T13:18:00+02:00</published><updated>2013-08-21T13:18:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-08-21:/articles/scaled-agile-framework.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;iframe width="420" height="315" src="//www.youtube.com/embed/pCaroLfl__4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Test automation with Sikuli, Cucumber and Jenkins</title><link href="https://blog.florijnconsultancy.nl/articles/test-automation-with-sikuli-cucumber-and-jenkins.html" rel="alternate"></link><published>2013-06-23T11:21:00+02:00</published><updated>2013-06-23T11:21:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-06-23:/articles/test-automation-with-sikuli-cucumber-and-jenkins.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;iframe src="http://prezi.com/embed/arubpcolpmzv/?bgcolor=ffffff&amp;amp;lock_to_path=0&amp;amp;autoplay=0&amp;amp;autohide_ctrls=0&amp;amp;features=undefined&amp;amp;disabled_features=undefined" width="550" height="400" frameBorder="0"&gt;&lt;/iframe&gt;
+
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Lego Serious Play Method</title><link href="https://blog.florijnconsultancy.nl/articles/lego-serious-play-method.html" rel="alternate"></link><published>2013-06-15T09:33:00+02:00</published><updated>2013-06-15T09:33:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-06-15:/articles/lego-serious-play-method.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/16484554" width="479" height="511" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="http://www.slideshare.net/janalpeeters6105/business-model-canvas-lego-serious-play" title="Lego Serious Play &amp;amp; Business Model Canvas" target="_blank"&gt;Lego Serious Play &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Business Model Canvas&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/janalpeeters6105" target="_blank"&gt;janalpeeters6105&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;!-- more --&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>scrum at microsoft</title><link href="https://blog.florijnconsultancy.nl/articles/scrum-at-microsoft.html" rel="alternate"></link><published>2013-06-12T09:25:00+02:00</published><updated>2013-06-12T09:25:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-06-12:/articles/scrum-at-microsoft.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;div id='1335926344708_social_7496'&gt;&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/-UUrLxNBK_g?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;div id="1335926344708_social_7496_bar" class="socialbar" style="margin:5px 0;padding:0;position:relative;line-height:20px;text-align:left;"&gt;&lt;a href="http://wistia.com" title="video hosting"&gt;&lt;img src="http://static.wistia.com/images/badges/wistia_100x96_black.png" width="100" height="16" alt="Wistia"/&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;var socialJQuery = jQuery.noConflict(true);&lt;/script&gt;
+
+&lt;script type="text/javascript" src="http://static.wistia.com/socialbar/socialbar.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;new SocialBar("1335926344708_social_7496", {buttons:["embed","twitter","facebook","googleplusone","email"],url:"http://tv.ssw.com/1279/daily-scrum-at-microsoft",title:"Scrum at Microsoft: See the TFS Agile Team do a Scrum (aka Stand Up) | SSW TVSSW TV",badgeUrl:"http://wistia.com",embedCode:"%3Ciframe%20width%3D%22640 …&lt;/script&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;div id='1335926344708_social_7496'&gt;&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/-UUrLxNBK_g?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;div id="1335926344708_social_7496_bar" class="socialbar" style="margin:5px 0;padding:0;position:relative;line-height:20px;text-align:left;"&gt;&lt;a href="http://wistia.com" title="video hosting"&gt;&lt;img src="http://static.wistia.com/images/badges/wistia_100x96_black.png" width="100" height="16" alt="Wistia"/&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;var socialJQuery = jQuery.noConflict(true);&lt;/script&gt;
+
+&lt;script type="text/javascript" src="http://static.wistia.com/socialbar/socialbar.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;new SocialBar("1335926344708_social_7496", {buttons:["embed","twitter","facebook","googleplusone","email"],url:"http://tv.ssw.com/1279/daily-scrum-at-microsoft",title:"Scrum at Microsoft: See the TFS Agile Team do a Scrum (aka Stand Up) | SSW TVSSW TV",badgeUrl:"http://wistia.com",embedCode:"%3Ciframe%20width%3D%22640%22%20height%3D%22360%22%20src%3D%22http%3A//www.youtube.com/embed/-UUrLxNBK_g%3Frel%3D0%22%20frameborder%3D%220%22%20allowfullscreen%3E%3C/iframe%3E"})&lt;/script&gt;
+
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Diagrams with PlantUML</title><link href="https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html" rel="alternate"></link><published>2013-06-09T12:37:00+02:00</published><updated>2013-06-09T12:37:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-06-09:/articles/diagrams-with-plantuml.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive with&amp;nbsp;it. &lt;/p&gt;
+&lt;p&gt;After my switch to &lt;span class="caps"&gt;OSX&lt;/span&gt;, Omnigraffle seemed the tool to use, but this had the same&amp;nbsp;disadvantages.&lt;/p&gt;
+&lt;p&gt;Recently I came across a tool called PlantUML that can create diagrams based on&amp;nbsp;text.&lt;/p&gt;
+&lt;p&gt;When I found out that somebody had made a plugin for my current blogging environment Octopress it seems that I have won the&amp;nbsp;jackpot.&lt;/p&gt;
+&lt;h3&gt;Example:&lt;/h3&gt;
+&lt;h4&gt;Example&amp;nbsp;1&lt;/h4&gt;
+&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;title Example 1
+Alice -&amp;gt; Bob: Authentication Request
+Bob &amp;#8212;&amp;gt; Alice: Authentication&amp;nbsp;Response&lt;/p&gt;
+&lt;p _="%" endplantuml&gt;Alice -&amp;gt; Bob: Another authentication Request
+Alice &amp;lt;&amp;#8212; Bob: another authentication&amp;nbsp;Response&lt;/p&gt;
+&lt;h4&gt;Example 2 : Swim&amp;nbsp;lanes&lt;/h4&gt;
+&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;title Example&amp;nbsp;2&lt;/p&gt;
+&lt;p _="%" endplantuml&gt;| swimlane1 |
+:first;
+:second;
+| swimlane2 |
+:third;
+if (foo) then
+:something;
+endif
+| swimlane1 |
+:back to swimlane1;
+| swimlane2 |
+:back to&amp;nbsp;swimlane2;&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;h3&gt;References&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://plantuml.sourceforge.net/news.html"&gt;PlantUML&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/yjpark/jekyll-plantuml"&gt;Jekyll-plantUML&amp;nbsp;plugin&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>agile project management</title><link href="https://blog.florijnconsultancy.nl/articles/agile-project-management.html" rel="alternate"></link><published>2013-05-13T09:56:00+02:00</published><updated>2013-05-13T09:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-13:/articles/agile-project-management.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/5052362" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="http://www.slideshare.net/mcottmeyer/understanding-agile-project-management" title="Understanding Agile Project Management" target="_blank"&gt;Understanding Agile Project Management&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/mcottmeyer" target="_blank"&gt;Mike Cottmeyer&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>helpdesk and wallboard</title><link href="https://blog.florijnconsultancy.nl/articles/helpdesk-and-wallboard.html" rel="alternate"></link><published>2013-05-12T11:55:00+02:00</published><updated>2013-05-12T11:55:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-12:/articles/helpdesk-and-wallboard.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;One of my projects involves the requirement to install a &lt;a href="http://www.atlassian.com/wallboards/"&gt;wallboard&lt;/a&gt; to show the &lt;span class="caps"&gt;ACD&lt;/span&gt; queue of our helpdesk and as a bonus we would like to show the scrumboard our development teams use. I&amp;#8217;m looking into a Samsung &lt;span class="caps"&gt;LED&lt;/span&gt; monitor / Samsung Smart &lt;span class="caps"&gt;TV&lt;/span&gt; as part of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;One of my projects involves the requirement to install a &lt;a href="http://www.atlassian.com/wallboards/"&gt;wallboard&lt;/a&gt; to show the &lt;span class="caps"&gt;ACD&lt;/span&gt; queue of our helpdesk and as a bonus we would like to show the scrumboard our development teams use. I&amp;#8217;m looking into a Samsung &lt;span class="caps"&gt;LED&lt;/span&gt; monitor / Samsung Smart &lt;span class="caps"&gt;TV&lt;/span&gt; as part of the solution.
+&lt;!-- more --&gt;&lt;/p&gt;
+&lt;p toc&gt;Contents&lt;/p&gt;
+&lt;h3&gt;What is a&amp;nbsp;wallboard?&lt;/h3&gt;
+&lt;p&gt;A wallboard is a type of information radiator that displays vital data about the progress of the development team. Similar to a scoreboard at a sporting event, wallboards are large, highly visible and easy to understand for anyone walking&amp;nbsp;by.&lt;/p&gt;
+&lt;p&gt;Traditional wallboards are made of paper or use sticky notes on a wall. Electronic wallboards are very effective since they update automatically with real-time data ensuring that people check back&amp;nbsp;regularly.&lt;/p&gt;
+&lt;h3&gt;Software used by&amp;nbsp;others&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://wiki.jenkins-ci.org/display/JENKINS/Wall+Display+Plugin"&gt;Jenkins wall display&amp;nbsp;plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://answers.atlassian.com/questions/156696/would-jira-work-well-in-samsung-smart-tv-built-in-web-browser"&gt;Jira and Greenhopper on Samsung Smart &lt;span class="caps"&gt;TV&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://marketplace.atlassian.com/plugins/com.atlassian.jirawallboard.atlassian-wallboard-plugin"&gt;Jira Wallboard&amp;nbsp;plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://shopify.github.io/dashing/"&gt;Dashing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ITV/radiator-rotator/blob/master/index.html"&gt;Radiator&amp;nbsp;rotator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://jquery.malsup.com/cycle2/"&gt;Jquery&amp;nbsp;Cycle2&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Hardware used by&amp;nbsp;others&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://pivotallabs.com/using-a-raspberry-pi-as-an-information-radiator/"&gt;Raspberry&amp;nbsp;Pi&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Fritz!Box 7390 configuration</title><link href="https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html" rel="alternate"></link><published>2013-05-09T12:32:00+02:00</published><updated>2013-05-09T12:32:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
+&lt;p&gt;In this article I will describe the configuration and add-ons I&amp;nbsp;installed.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;h2&gt;Contents&lt;/h2&gt;
+&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h2&gt;The&amp;nbsp;Fritz!Box&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Fritz!Box 3790" src="/images/fritzbox_7390 product.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.avm.de/en/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7390/index.php"&gt;The Fritz!Box&amp;nbsp;7390&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Options&lt;/h3&gt;
+&lt;h2&gt;Internet&amp;nbsp;access …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
+&lt;p&gt;In this article I will describe the configuration and add-ons I&amp;nbsp;installed.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;h2&gt;Contents&lt;/h2&gt;
+&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;h2&gt;The&amp;nbsp;Fritz!Box&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Fritz!Box 3790" src="/images/fritzbox_7390 product.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.avm.de/en/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7390/index.php"&gt;The Fritz!Box&amp;nbsp;7390&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Options&lt;/h3&gt;
+&lt;h2&gt;Internet&amp;nbsp;access&lt;/h2&gt;
+&lt;p&gt;I have a &lt;span class="caps"&gt;UPC&lt;/span&gt; cable&amp;nbsp;modem &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://192.168.100.1"&gt;&lt;span class="caps"&gt;CISCO&lt;/span&gt; &lt;span class="caps"&gt;EPC3212&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.cisco.com/web/consumer/support/userguides2/4021203A.pdf"&gt;Cisco &lt;span class="caps"&gt;EPC3212&lt;/span&gt; User&amp;nbsp;manual&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Typical setup" src="/images/cisco EPC3212 setup.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Using the Internet connection of another router with &lt;span class="caps"&gt;FRITZ&lt;/span&gt;!Box&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://service.avm.de/support/en/SKB/FRITZ-Box-7390-int/598:Using-the-Internet-connection-of-another-router-with-FRITZ-Box"&gt;Using the Internet connection of another router with &lt;span class="caps"&gt;FRITZ&lt;/span&gt;!Box&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Analog telephony (Cisco &lt;span class="caps"&gt;EPC3212&lt;/span&gt;)&lt;/h2&gt;
+&lt;h4&gt;Connections for &lt;span class="caps"&gt;TEL&lt;/span&gt; 1 / &lt;span class="caps"&gt;TEL&lt;/span&gt;&amp;nbsp;2&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="TEL 1/TEL 2 connections" src="/images/EPC3212.png"&gt;&lt;/p&gt;
+&lt;h4&gt;Fritz!Box&amp;nbsp;connections&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Fritz!Box 3790" src="/images/fritzbox_7390.jpg"&gt;&lt;/p&gt;
+&lt;h4&gt;Connection to a cable&amp;nbsp;modem&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/700:Connecting-FRITZ-Box-to-a-cable-modem"&gt;Connection to a cable&amp;nbsp;modem&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I wanted to use the Fritz!Box as part of my existing network.
+I decided not to use the &lt;span class="caps"&gt;WLAN&lt;/span&gt; option of the Fritz!Box, but instead I bought a Fritz! Powerline 520 E set, because I did not have a cabled network connection on the location where the Internet modem was located. In this setup I could connect the Internet modem to the &lt;span class="caps"&gt;LAN&lt;/span&gt; 1/&lt;span class="caps"&gt;WAN&lt;/span&gt; connection of my&amp;nbsp;Fritz!Box.&lt;/p&gt;
+&lt;h3&gt;&lt;span class="caps"&gt;DECT&lt;/span&gt; telephone&amp;nbsp;device&lt;/h3&gt;
+&lt;p&gt;The Fritz!Box 7390 offers a basestation, upto 6 &lt;span class="caps"&gt;DECT&lt;/span&gt; telephones can be&amp;nbsp;connected. &lt;/p&gt;
+&lt;p&gt;Note: For now I do not have any &lt;span class="caps"&gt;DECT&lt;/span&gt; phones&amp;nbsp;connected. &lt;/p&gt;
+&lt;p&gt;Update: Some developments here. I bought a &lt;span class="caps"&gt;DECT&lt;/span&gt; Gigaset &lt;span class="caps"&gt;A420A&lt;/span&gt; &lt;span class="caps"&gt;TRIO&lt;/span&gt;. When they are setup I will update my&amp;nbsp;findings.&lt;/p&gt;
+&lt;h2&gt;&lt;span class="caps"&gt;VOIP&lt;/span&gt;&amp;nbsp;telephony&lt;/h2&gt;
+&lt;p&gt;For &lt;span class="caps"&gt;OSX&lt;/span&gt; there are several softphone apps&amp;nbsp;available:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.tlphn.com/"&gt;Telephone&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://counterpath.s3.amazonaws.com/downloads/X-Lite_Mac_3520g_70143.dmg"&gt;Counterpath&amp;nbsp;X-Lite&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Add-ons&lt;/h2&gt;
+&lt;h3&gt;Alfred&amp;nbsp;workflow&lt;/h3&gt;
+&lt;p&gt;I created a simple Alfred 2 workflow that calls the Frizzix dial&amp;nbsp;helper.&lt;/p&gt;
+&lt;p&gt;Use keyword &amp;#8220;Dial&amp;#8221; to trigger a little Applescript that&amp;nbsp;contains:&lt;/p&gt;
+&lt;p&gt;{% codeblock lang:applescript&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;on alfred_script(q)
+    set TelNumber to q as string
+    set Tel to &amp;#8220;&amp;#8221;
+    repeat with each in TelNumber
+        if &amp;#8220;+1234567890&amp;#8221; contains each then set Tel to Tel &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; each
+    end repeat
+    tell application &amp;#8220;Frizzix&amp;#8221;
+        dialInstantly Tel
+    end tell
+end&amp;nbsp;alfred_script&lt;/p&gt;
+&lt;p&gt;{% endcodeblock&amp;nbsp;%}&lt;/p&gt;
+&lt;h3&gt;Call diversion from&amp;nbsp;script&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://www.robbastiaansen.nl/node/51"&gt;Call diversion&amp;nbsp;script&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Frizzix Call monitor (&lt;span class="caps"&gt;MAC&lt;/span&gt;)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://mac.frizzix.de/en/"&gt;Frizzix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I also&amp;nbsp;installed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;the Address Book&amp;nbsp;Plugin&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Services&amp;nbsp;plugin&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fritz!Box browser&amp;nbsp;add-on&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://www.avm.de/de/Service/FRITZ_Tools/browser_plugin.html"&gt;Add-on for&amp;nbsp;Firefox&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Note: it seems that in my setup phone numbers are recognized in webpages, but dialing out does not&amp;nbsp;work.&lt;/p&gt;
+&lt;h3&gt;dialing&amp;nbsp;scripts&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://wehavemorefun.de/fritzbox/W%C3%A4hlen_aus_OS_X_Adressbuch"&gt;Dialing from Address&amp;nbsp;book&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span class="caps"&gt;POP3&lt;/span&gt; mail checker and alert on&amp;nbsp;Fritz!Box&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://wehavemorefun.de/fritzbox/POP3-Robot"&gt;&lt;span class="caps"&gt;POP3&lt;/span&gt;-Robot&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;fhem&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://fhem.de/fritzbox.html"&gt;fhem&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Synology Diskstation&amp;nbsp;front-end&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://spk.q14six.de/"&gt;Fritz!Box front-end&amp;nbsp;package&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;p&gt;[1] &lt;a href="http://http://en.wikipedia.org/wiki/Plain_old_telephone_service"&gt;&lt;span class="caps"&gt;POTS&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] &lt;a href="http://www.avm.de"&gt;&lt;span class="caps"&gt;AVM&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[3] &lt;a href="http://http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/page:1"&gt;&lt;span class="caps"&gt;AVM&lt;/span&gt; Knowledge&amp;nbsp;base&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband&amp;nbsp;review&lt;/a&gt; &lt;/p&gt;</content><category term="[telephony"></category><category term="VOIP]"></category></entry><entry><title>Alfred workflow for Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html" rel="alternate"></link><published>2013-04-23T13:34:00+02:00</published><updated>2013-04-23T13:34:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-23:/articles/alfred-workflow-for-octopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I have been using Alfred v2 for a couple of weeks now and I am very pleased about the workflow feature from the Power&amp;nbsp;pack.&lt;/p&gt;
+&lt;p&gt;I try to develop some workflows myself and now I have developed an easy workflow for Octopress , the static site&amp;nbsp;generator.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;Octopress is coming with some rake commands to maintain the&amp;nbsp;site.&lt;/p&gt;
+&lt;p&gt;I have implemented some of these rake commands in an Alfred&amp;nbsp;workflow.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;keyword&lt;/span&gt; &lt;span class="n"&gt;generate&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;rake&lt;/span&gt; &lt;span class="n"&gt;generate&lt;/span&gt;
+&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;keyword&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;rake&lt;/span&gt; &lt;span class="n"&gt;gen_deploy&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This was a bigger challenge than I expected because of the way I installed the required Ruby version.&amp;nbsp;(rvm)&lt;/p&gt;
+&lt;p&gt;In my bash script I had to add some extras because Alfred runs the bash script in a subshell and in this subshell the rvm environment is not available by&amp;nbsp;default.&lt;/p&gt;
+&lt;p&gt;{% highlight bash %}
+cd $&lt;span class="caps"&gt;HOME&lt;/span&gt;/Sites/dailyscrum
+[[ -s &amp;#8220;$&lt;span class="caps"&gt;HOME&lt;/span&gt;/.rvm/scripts/rvm&amp;#8221; ]] &amp;amp;&amp;amp; source &amp;#8220;$&lt;span class="caps"&gt;HOME&lt;/span&gt;/.rvm/scripts/rvm&amp;#8221;&lt;/p&gt;
+&lt;h1&gt;without the below settings you get an&amp;nbsp;error&lt;/h1&gt;
+&lt;h1&gt;plugins/backtick_code_block.rb:13:in `gsub&amp;#8217;: invalid byte sequence in &lt;span class="caps"&gt;US&lt;/span&gt;-&lt;span class="caps"&gt;ASCII&lt;/span&gt;&amp;nbsp;(ArgumentError)&lt;/h1&gt;
+&lt;p&gt;export &lt;span class="caps"&gt;LANG&lt;/span&gt;=en_US.utf-8&lt;/p&gt;
+&lt;p&gt;bundle install
+rake generate 2&amp;gt;&amp;amp;1 | tee $&lt;span class="caps"&gt;HOME&lt;/span&gt;/Sites/dailyscrum/error.log&lt;/p&gt;
+&lt;p&gt;{% endhighlight&amp;nbsp;%}&lt;/p&gt;</content></entry></feed>

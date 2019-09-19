@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Installation notes Testopia &mdash; Daily Scrum</title>
+  <meta name="author" content="Peter Florijn">
+
+
+
+
+
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://blog.florijnconsultancy.nl/favicon.png" rel="icon">
+
+  <link href="https://blog.florijnconsultancy.nl/theme/css/main.css" media="screen, projection"
+        rel="stylesheet" type="text/css">
+
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="https://blog.florijnconsultancy.nl/">Daily Scrum</a></h1>
+    <h2>A personal blog</h2>
+</hgroup></header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+</ul>
+
+
+<ul class="main-navigation">
+</ul></nav>
+  <div id="main">
+    <div id="content">
+<div>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">Installation notes Testopia</h1>
+    <p class="meta">
+<time datetime="2013-04-21T21:00:00+02:00" pubdate>Sun 21 April 2013</time>    </p>
+</header>
+
+  <div class="entry-content"><p>Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go along.
+<!-- more --></p>
+<h3>Testopia testcase management&nbsp;system</h3>
+<h3>Requirements</h3>
+<p>The Testopia Extension requires Bugzilla &gt;4.2.
+Testopi version 2.5 is the first release that does not need a patch on Bugzilla to&nbsp;work.</p>
+<h3>old notes relevant before&nbsp;v2.5</h3>
+<h2>Installation of Testopia&nbsp;extension</h2>
+<h3>How to get&nbsp;Testopia</h3>
+<p _="%" endhighlight>{% highlight bash %}
+$ bzr branch&nbsp;bzr://bzr.mozilla.org/bugzilla/extensions/testopia/trunk</p>
+<h3>Patch Bugzilla&nbsp;4.2</h3>
+<p>Note: 603-2012: No patch for 4.2 available at time of&nbsp;patching</p>
+<ol>
+<li>cd to the directory with the Testopia&nbsp;trunk</li>
+<li>copy items from the downloaded Testopia&nbsp;trunk </li>
+<li>cd&nbsp;/usr/local/bugzilla</li>
+<li>paste items from the downloaded Testopia trunk and merge the extensions&nbsp;directory</li>
+<li>patch -p0 -i extensions/Testopia/patch-4.0
+patching file Bugzilla/Bug.pm
+Hunk #1 succeeded at 3628 (offset 101 lines).
+patching file Bugzilla/Constants.pm
+Hunk #1 succeeded at 145 (offset 1 line).
+Hunk #2 succeeded at 470 (offset 5 lines).
+patching file Bugzilla/Error.pm
+Hunk #2 succeeded at 145 (offset -6 lines).
+patching file Bugzilla/Install/Filesystem.pm
+Hunk #1 succeeded at 153 (offset 3 lines).
+patching file Bugzilla/Search.pm
+Hunk #1 <span class="caps">FAILED</span> at 510.
+1 out of 1 hunk <span class="caps">FAILED</span> &#8212; saving rejects to file Bugzilla/Search.pm.rej
+patching file Bugzilla/User.pm
+Hunk #1 succeeded at 575 with fuzz 1 (offset 67 lines).
+Hunk #2 succeeded at 936 (offset 82 lines).
+Hunk #3 succeeded at 1292 (offset 130 lines).
+patching file&nbsp;template/en/default/global/setting-descs.none.tmpl</li>
+</ol>
+<h3>Run&nbsp;.checksetup.pl</h3>
+<p>./checksetup.pl</p>
+<h3>Install additional&nbsp;dependencies</h3>
+<p _="%" endhighlight>{% highlight bash %}
+$ sudo /usr/bin/perl install-module.pl Text::Diff
+$ sudo /usr/bin/perl install-module.pl <span class="caps">GD</span>::Graph3d</p>
+<h3>Run .checksetup&nbsp;again</h3>
+<p _="%" endhighlight>{% highlight bash %}
+$&nbsp;./checksetup.pl</p>
+<p>You should now&nbsp;get </p>
+<p _="%" endhighlight>{% highlight bash %}
+$ checksetup.pl&nbsp;complete.</p>
+<h3>Errors on <span class="caps">FILTER</span>&nbsp;url_quote</h3>
+<p>Template-&gt;process() failed twice.
+First error: undef error - url_quote: filter not found
+Second error: undef error - url_quote: filter not&nbsp;found</p>
+<p>Seems this is&nbsp;deprecated</p>
+<p>Found Bugzilla message 398701 with&nbsp;fix</p>
+<p _="%" endhighlight>{% highlight bash %}
+find . <em>-type f -name &#8220;</em>.tmpl&#8221; -exec replace &#8216;<span class="caps">FILTER</span> url_quote&#8217; &#8216;<span class="caps">FILTER</span> uri&#8217; &#8212; {}&nbsp;\;*</p>
+<p _="%" endhighlight>Executed this from the Testopia extensions directory this updated a number of template files:
+{% highlight bash %}
+./template/en/default/hook/bug/create/create-end.html.tmpl converted
+./template/en/default/hook/bug/edit-after_custom_fields.html.tmpl converted
+./template/en/default/hook/bug/process/results-links.html.tmpl converted
+./template/en/default/hook/global/common-links-link-row.html.tmpl converted
+./template/en/default/hook/global/useful-links-end.html.tmpl converted
+./template/en/default/testopia/reports/build-coverage.html.tmpl converted
+./template/en/default/testopia/reports/completion.html.tmpl converted
+./template/en/default/testopia/reports/execution.html.tmpl converted
+./template/en/default/testopia/reports/priority-breakdown.html.tmpl converted
+./template/en/default/testopia/reports/report-table.html.tmpl converted
+./template/en/default/testopia/reports/report.html.tmpl converted
+./template/en/default/testopia/reports/status.html.tmpl converted
+./template/en/default/testopia/tag/list.html.tmpl&nbsp;converted</p>
+<h3>Additional&nbsp;patching</h3>
+<h4>Search.pm</h4>
+<p>There seems to be a problem in&nbsp;Bugzilla/Search.pm</p>
+<p _="%" bash highlight>A patch was suggested in <span class="caps">BZ</span> 596325
+I copied the patch file and applied&nbsp;it</p>
+<p _="%" endhighlight>$ sudo patch -p0 -i extensions/Testopia/patch-bz596325
+$ chgrp the Search.pm  and make it member of the _www&nbsp;group</p>
+<p>Patch works and now Testopia-&gt; My plans does not give an error&nbsp;anymore</p>
+<h3>New&nbsp;plan</h3>
+<p>It seems the link New plan is not working.
+In the Apache error_log there are a lot of&nbsp;errors</p>
+<p _="%" endhighlight>{% highlight bash %}
+File does not exist: /Library/WebServer/Documents/bugzilla/extensions/Testopia/extjs, referer:&nbsp;http://tooh.homedns.org/bugzilla/tr_new_plan.cgi</p>
+<p>I did not install the extjs files so probably this is the&nbsp;problem.</p>
+<p _="%" bash highlight>On the Testopia wiki there is some&nbsp;instructions</p>
+<p _="%" endhighlight>$&gt; cd path/to/bugzilla/testopia/
+$&gt; wget http://extjs.com/deploy/ext-3.2.1.zip
+$&gt; unzip ext-3.2.1.zip
+$&gt; mv ext-3.2.1&nbsp;extjs</p>
+<p>Found out that the files are not there anymore
+Downloaded the older version&nbsp;http://www.sencha.com/products/extjs/download/ext-js-3.2.1</p>
+<p>Renamed the folder to&nbsp;extjs</p>
+<p>Note: Don&#8217;t forget to refresh. And now it is&nbsp;working.</p>
+<h3>New&nbsp;run</h3>
+<p>Initially no testcases where shown.
+Investigation of the /var/log/apache2/error_log showed that there was an error with een uninitialized variable.
+I commented out use strict in the header of&nbsp;/usr/local/bugzilla/extensions/Testopia/lib/Search.pm</p>
+<p>Everything <span class="caps">OK</span>&nbsp;now.</p>
+<h3>Reference</h3>
+<p>[1]
+<a href="http://www.mozilla.org/projects/testopia/">Testopia&nbsp;Mozilla</a></p></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2013-04-21T21:00:00+02:00" pubdate>Sun 21 April 2013</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/installation.html'>Installation</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
+</div>
+<aside class="sidebar">
+  <section>
+    <h1>Recent Posts</h1>
+    <ul id="recent_posts">
+      <li class="post">
+          <a href="https://blog.florijnconsultancy.nl/articles/test-include-2.html">test include 2</a>
+      </li>
+      <li class="post">
+          <a href="https://blog.florijnconsultancy.nl/articles/test-plantuml-1.html">test plantuml 1</a>
+      </li>
+      <li class="post">
+          <a href="https://blog.florijnconsultancy.nl/articles/test-4.html">test 4</a>
+      </li>
+      <li class="post">
+          <a href="https://blog.florijnconsultancy.nl/articles/test-3.html">test 3</a>
+      </li>
+      <li class="post">
+          <a href="https://blog.florijnconsultancy.nl/articles/test2.html">test2</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+      
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="https://blog.florijnconsultancy.nl/category/articles.html">articles</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/blogging.html">Blogging</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/diskstation.html">diskstation</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/osx.html">osx</a></li>
+    </ul>
+  </section>
+ 
+
+  <section>
+  <h1>Tags</h1>
+    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">[writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/octopress.html">octopress]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
+
+
+    <section>
+        <h1>Social</h1>
+        <ul>
+            <li><a href="#" target="_blank">You can add links in your config file</a></li>
+            <li><a href="#" target="_blank">Another social link</a></li>
+        </ul>
+    </section>
+    <section>
+        <h1>Blogroll</h1>
+        <ul>
+            <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+            <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+            <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+            <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+    </section>
+
+</aside>    </div>
+  </div>
+  <footer role="contentinfo"><p>
+    Copyright &copy;  2013&ndash;2019  Peter Florijn &mdash;
+  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
+</p></footer>
+  <script src="https://blog.florijnconsultancy.nl/theme/js/modernizr-2.0.js"></script>
+  <script src="https://blog.florijnconsultancy.nl/theme/js/ender.js"></script>
+  <script src="https://blog.florijnconsultancy.nl/theme/js/octopress.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var disqus_shortname = 'dailtscrum';
+    var disqus_identifier = '/articles/installation-notes-testopia.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/installation-notes-testopia.html';
+    var disqus_title = 'Installation notes&nbsp;Testopia';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+  </script>
+</body>
+</html>
