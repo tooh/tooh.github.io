@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - Installation</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/installation.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2013-04-21T21:00:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>Installation notes Testopia</title><link href="https://blog.florijnconsultancy.nl/articles/installation-notes-testopia.html" rel="alternate"></link><published>2013-04-21T21:00:00+02:00</published><updated>2013-04-21T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-21:/articles/installation-notes-testopia.html</id><summary type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make Testopia work on my local installation. This will be updated as I go&amp;nbsp;along.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go along.
+&lt;!-- more --&gt;&lt;/p&gt;
+&lt;h3&gt;Testopia testcase management&amp;nbsp;system&lt;/h3&gt;
+&lt;h3&gt;Requirements&lt;/h3&gt;
+&lt;p&gt;The Testopia Extension requires Bugzilla &amp;gt;4.2.
+Testopi version 2.5 is the first release that does not need a patch on Bugzilla to&amp;nbsp;work.&lt;/p&gt;
+&lt;h3&gt;old notes relevant before&amp;nbsp;v2.5&lt;/h3&gt;
+&lt;h2&gt;Installation of Testopia&amp;nbsp;extension&lt;/h2&gt;
+&lt;h3&gt;How to get&amp;nbsp;Testopia&lt;/h3&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+$ bzr branch&amp;nbsp;bzr://bzr.mozilla.org/bugzilla/extensions/testopia/trunk&lt;/p&gt;
+&lt;h3&gt;Patch Bugzilla&amp;nbsp;4.2&lt;/h3&gt;
+&lt;p&gt;Note: 603-2012: No patch for 4.2 available at time of&amp;nbsp;patching&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;cd to the directory with the Testopia&amp;nbsp;trunk&lt;/li&gt;
+&lt;li&gt;copy items from the downloaded Testopia&amp;nbsp;trunk &lt;/li&gt;
+&lt;li&gt;cd&amp;nbsp;/usr/local/bugzilla&lt;/li&gt;
+&lt;li&gt;paste items from the downloaded Testopia trunk and merge the extensions&amp;nbsp;directory&lt;/li&gt;
+&lt;li&gt;patch -p0 -i extensions/Testopia/patch-4.0
+patching file Bugzilla/Bug.pm
+Hunk #1 succeeded at 3628 (offset 101 lines).
+patching file Bugzilla/Constants.pm
+Hunk #1 succeeded at 145 (offset 1 line).
+Hunk #2 succeeded at 470 (offset 5 lines).
+patching file Bugzilla/Error.pm
+Hunk #2 succeeded at 145 (offset -6 lines).
+patching file Bugzilla/Install/Filesystem.pm
+Hunk #1 succeeded at 153 (offset 3 lines).
+patching file Bugzilla/Search.pm
+Hunk #1 &lt;span class="caps"&gt;FAILED&lt;/span&gt; at 510.
+1 out of 1 hunk &lt;span class="caps"&gt;FAILED&lt;/span&gt; &amp;#8212; saving rejects to file Bugzilla/Search.pm.rej
+patching file Bugzilla/User.pm
+Hunk #1 succeeded at 575 with fuzz 1 (offset 67 lines).
+Hunk #2 succeeded at 936 (offset 82 lines).
+Hunk #3 succeeded at 1292 (offset 130 lines).
+patching file&amp;nbsp;template/en/default/global/setting-descs.none.tmpl&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Run&amp;nbsp;.checksetup.pl&lt;/h3&gt;
+&lt;p&gt;./checksetup.pl&lt;/p&gt;
+&lt;h3&gt;Install additional&amp;nbsp;dependencies&lt;/h3&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+$ sudo /usr/bin/perl install-module.pl Text::Diff
+$ sudo /usr/bin/perl install-module.pl &lt;span class="caps"&gt;GD&lt;/span&gt;::Graph3d&lt;/p&gt;
+&lt;h3&gt;Run .checksetup&amp;nbsp;again&lt;/h3&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+$&amp;nbsp;./checksetup.pl&lt;/p&gt;
+&lt;p&gt;You should now&amp;nbsp;get &lt;/p&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+$ checksetup.pl&amp;nbsp;complete.&lt;/p&gt;
+&lt;h3&gt;Errors on &lt;span class="caps"&gt;FILTER&lt;/span&gt;&amp;nbsp;url_quote&lt;/h3&gt;
+&lt;p&gt;Template-&amp;gt;process() failed twice.
+First error: undef error - url_quote: filter not found
+Second error: undef error - url_quote: filter not&amp;nbsp;found&lt;/p&gt;
+&lt;p&gt;Seems this is&amp;nbsp;deprecated&lt;/p&gt;
+&lt;p&gt;Found Bugzilla message 398701 with&amp;nbsp;fix&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+find . &lt;em&gt;-type f -name &amp;#8220;&lt;/em&gt;.tmpl&amp;#8221; -exec replace &amp;#8216;&lt;span class="caps"&gt;FILTER&lt;/span&gt; url_quote&amp;#8217; &amp;#8216;&lt;span class="caps"&gt;FILTER&lt;/span&gt; uri&amp;#8217; &amp;#8212; {}&amp;nbsp;\;*&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;Executed this from the Testopia extensions directory this updated a number of template files:
+{% highlight bash %}
+./template/en/default/hook/bug/create/create-end.html.tmpl converted
+./template/en/default/hook/bug/edit-after_custom_fields.html.tmpl converted
+./template/en/default/hook/bug/process/results-links.html.tmpl converted
+./template/en/default/hook/global/common-links-link-row.html.tmpl converted
+./template/en/default/hook/global/useful-links-end.html.tmpl converted
+./template/en/default/testopia/reports/build-coverage.html.tmpl converted
+./template/en/default/testopia/reports/completion.html.tmpl converted
+./template/en/default/testopia/reports/execution.html.tmpl converted
+./template/en/default/testopia/reports/priority-breakdown.html.tmpl converted
+./template/en/default/testopia/reports/report-table.html.tmpl converted
+./template/en/default/testopia/reports/report.html.tmpl converted
+./template/en/default/testopia/reports/status.html.tmpl converted
+./template/en/default/testopia/tag/list.html.tmpl&amp;nbsp;converted&lt;/p&gt;
+&lt;h3&gt;Additional&amp;nbsp;patching&lt;/h3&gt;
+&lt;h4&gt;Search.pm&lt;/h4&gt;
+&lt;p&gt;There seems to be a problem in&amp;nbsp;Bugzilla/Search.pm&lt;/p&gt;
+&lt;p _="%" bash highlight&gt;A patch was suggested in &lt;span class="caps"&gt;BZ&lt;/span&gt; 596325
+I copied the patch file and applied&amp;nbsp;it&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;$ sudo patch -p0 -i extensions/Testopia/patch-bz596325
+$ chgrp the Search.pm  and make it member of the _www&amp;nbsp;group&lt;/p&gt;
+&lt;p&gt;Patch works and now Testopia-&amp;gt; My plans does not give an error&amp;nbsp;anymore&lt;/p&gt;
+&lt;h3&gt;New&amp;nbsp;plan&lt;/h3&gt;
+&lt;p&gt;It seems the link New plan is not working.
+In the Apache error_log there are a lot of&amp;nbsp;errors&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;{% highlight bash %}
+File does not exist: /Library/WebServer/Documents/bugzilla/extensions/Testopia/extjs, referer:&amp;nbsp;http://tooh.homedns.org/bugzilla/tr_new_plan.cgi&lt;/p&gt;
+&lt;p&gt;I did not install the extjs files so probably this is the&amp;nbsp;problem.&lt;/p&gt;
+&lt;p _="%" bash highlight&gt;On the Testopia wiki there is some&amp;nbsp;instructions&lt;/p&gt;
+&lt;p _="%" endhighlight&gt;$&amp;gt; cd path/to/bugzilla/testopia/
+$&amp;gt; wget http://extjs.com/deploy/ext-3.2.1.zip
+$&amp;gt; unzip ext-3.2.1.zip
+$&amp;gt; mv ext-3.2.1&amp;nbsp;extjs&lt;/p&gt;
+&lt;p&gt;Found out that the files are not there anymore
+Downloaded the older version&amp;nbsp;http://www.sencha.com/products/extjs/download/ext-js-3.2.1&lt;/p&gt;
+&lt;p&gt;Renamed the folder to&amp;nbsp;extjs&lt;/p&gt;
+&lt;p&gt;Note: Don&amp;#8217;t forget to refresh. And now it is&amp;nbsp;working.&lt;/p&gt;
+&lt;h3&gt;New&amp;nbsp;run&lt;/h3&gt;
+&lt;p&gt;Initially no testcases where shown.
+Investigation of the /var/log/apache2/error_log showed that there was an error with een uninitialized variable.
+I commented out use strict in the header of&amp;nbsp;/usr/local/bugzilla/extensions/Testopia/lib/Search.pm&lt;/p&gt;
+&lt;p&gt;Everything &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;now.&lt;/p&gt;
+&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;p&gt;[1]
+&lt;a href="http://www.mozilla.org/projects/testopia/"&gt;Testopia&amp;nbsp;Mozilla&lt;/a&gt;&lt;/p&gt;</content><category term="testopia bugzilla testmanagement"></category></entry></feed>
