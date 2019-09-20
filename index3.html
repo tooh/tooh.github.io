@@ -59,6 +59,120 @@
   		<article>
 <header>
       <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/creating-rest-services.html">creating REST services</a>
+      </h1>
+    <p class="meta">
+<time datetime="2015-09-15T15:53:00+02:00" pubdate>Tue 15 September 2015</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>Interesting project&nbsp;sandman.</p>
+<p>Sandman2 is in&nbsp;development</p>
+<p><a href="https://sandman.readthedocs.org/en/latest/">https://sandman.readthedocs.org/en/latest/</a></p>
+<p><a href="https://github.com/jeffknupp/sandman">https://github.com/jeffknupp/sandman</a></p>
+<p><a href="https://github.com/jeffknupp/sandman2">https://github.com/jeffknupp/sandman2</a></p>
+<p><a href="http://www.fullstackpython.com/api-creation.html">http://www.fullstackpython.com/api-creation.html</a></p>
+<!-- more --></div>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/testdiagram.html">testdiagram</a>
+      </h1>
+    <p class="meta">
+<time datetime="2015-08-14T07:27:00+02:00" pubdate>Fri 14 August 2015</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>{% plantuml&nbsp;%}</p>
+<p>skinparam component {
+  Style uml2
+  BackgroundColor #<span class="caps">FEFECE</span>
+}
+node &#8220;Database Server&#8221; {
+  database &#8220;<span class="caps">MSSQL</span> / <span class="caps">ORA</span> \n &#8221; {
+    [<span class="caps">DB</span>] as <span class="caps">DB</span>
+  }
+}
+node &#8220;Business Logic Server&#8221; {
+  frame &#8220;Windows Service Host&#8221; {
+    package &#8220;GUIService&#8221; {
+      [GuiService] as GuiService
+    }
+    package &#8220;ExtService&#8221; {
+      [ExtService] as ExtService
+    }
+  }
+}
+node &#8220;Update Server \n (can be hosted on \n <span class="caps">BL</span> Server)&#8221; {
+  folder &#8220;Remote …</p></div>
+  <footer>
+    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/testdiagram.html">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/itunes-sharing-troubleshooting.html">iTunes sharing troubleshooting</a>
+      </h1>
+    <p class="meta">
+<time datetime="2015-06-09T09:51:00+02:00" pubdate>Tue 09 June 2015</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<h2>Introduction</h2>
+<p>I did a little rewiring of all my cables connected to my <span class="caps">TV</span>, Apple <span class="caps">TV</span> , router&nbsp;etc.</p>
+<p>While testing it I found out that my iTunes home sharing and Airplay was not working any more. My <span class="caps">ATV</span> did see my shared library but was not able to …</p></div>
+  <footer>
+    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/itunes-sharing-troubleshooting.html">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/sort.html">sort</a>
+      </h1>
+    <p class="meta">
+<time datetime="2015-04-24T14:38:00+02:00" pubdate>Fri 24 April 2015</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image : 
+summary: linux command line sort on&nbsp;dates</p>
+<hr>
+<p>For one of my projects I needed to sort a csv file on a date field with dd/mm/yyyy&nbsp;format.</p>
+<div class="highlight"><pre><span></span><span class="n">sort</span> <span class="o">-</span><span class="n">n</span> <span class="o">-</span><span class="n">t</span><span class="ss">&quot;/&quot;</span> <span class="o">-</span><span class="n">k3</span><span class="p">,</span><span class="mi">3</span> <span class="o">-</span><span class="n">k2</span><span class="p">,</span><span class="mi">2</span> <span class="o">-</span><span class="n">k1</span><span class="p">,</span><span class="mi">1</span> <span class="n">planning</span><span class="p">.</span><span class="n">csv</span>
+</pre></div>
+
+
+<!-- more --></div>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/upgrade-to-bugzilla-50.html">upgrade to Bugzilla 5.0</a>
+      </h1>
+    <p class="meta">
+<time datetime="2015-01-31T10:26:00+01:00" pubdate>Sat 31 January 2015</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>I upgraded to Bugzilla&nbsp;5.0.</p>
+<p>Since the Bugzilla project now supports git, upgrading is now a simple&nbsp;process.</p>
+<p>These are my installation&nbsp;notes.</p>
+<h2>Updating to a Newer&nbsp;Release</h2>
+<h3>No local&nbsp;changes</h3>
+<p>If you have no local changes to any tracked files, upgrading to both minor and major …</p></div>
+  <footer>
+    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/upgrade-to-bugzilla-50.html">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
         <a href="https://blog.florijnconsultancy.nl/articles/convert-svg-to-png-with-inkscape-osx.html">convert svg to png with inkscape (OSX)</a>
       </h1>
     <p class="meta">
@@ -167,109 +281,6 @@ point to …</li></ul></div>
 <p><a href="https://www.ietf.org/rfc/rfc2806.txt">rfc2806</a></p>
 <!-- more --></div>
   		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/omnis-and-java.html">Omnis and java</a>
-      </h1>
-    <p class="meta">
-<time datetime="2014-10-26T11:37:00+01:00" pubdate>Sun 26 October 2014</time>    </p>
-</header>
-
-  <div class="entry-content"><p>image :&nbsp;summary: </p>
-<hr>
-<h1>Research notes on java use in&nbsp;Omnis</h1>
-<h2>How can I find which version of Java is installed without running an applet in Windows or&nbsp;Mac?</h2>
-<p><a href="https://www.java.com/en/download/help/version_manual.xml">How can I find which version of Java is installed without running an applet in Windows or&nbsp;Mac?</a></p>
-<h2>Strip Java out of Omnis …</h2></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/omnis-and-java.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html">Disabling Nap App</a>
-      </h1>
-    <p class="meta">
-<time datetime="2014-10-25T12:02:00+02:00" pubdate>Sat 25 October 2014</time>    </p>
-</header>
-
-  <div class="entry-content"></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html">Upgrade to Yosemite</a>
-      </h1>
-    <p class="meta">
-<time datetime="2014-10-18T11:59:00+02:00" pubdate>Sat 18 October 2014</time>    </p>
-</header>
-
-  <div class="entry-content"><p>image :&nbsp;summary: </p>
-<hr>
-<h1>Introduction</h1>
-<p>After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
-It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&nbsp;Yosemite.</p>
-<!-- more -->
-
-<p>{:toc}</p>
-<h2>Update&nbsp;rvm</h2>
-<p>rvm get&nbsp;stable</p>
-<h2>Fix&nbsp;brew</h2>
-<p>Changing 1 …</p></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/mysql-installation-notes.html">mysql installation notes</a>
-      </h1>
-    <p class="meta">
-<time datetime="2014-10-05T10:25:00+02:00" pubdate>Sun 05 October 2014</time>    </p>
-</header>
-
-  <div class="entry-content"><p>image :&nbsp;summary: </p>
-<hr>
-<p>I had to reinstall my local Bugzilla , so I took the opportunity to upgrade my local mysql as&nbsp;well.</p>
-<p>This post contains my notes made during the&nbsp;process.</p>
-<!-- more -->
-
-<p _="%" enddocs>{% docs tip %}
-On <span class="caps">OSX</span> it is not always obvious which my.cnf file is used. You can find all my …</p></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/mysql-installation-notes.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html">Bugzilla git migration</a>
-      </h1>
-    <p class="meta">
-<time datetime="2014-09-28T14:49:00+02:00" pubdate>Sun 28 September 2014</time>    </p>
-</header>
-
-  <div class="entry-content"><p>image :&nbsp;summary: </p>
-<hr>
-<p>{:toc}</p>
-<h1>Introduction</h1>
-<p>Bugzilla project switched to Git instead of&nbsp;Bzr.</p>
-<p><a href="https://wiki.mozilla.org/Bugzilla:Moving_From_Bazaar_To_Git">Moving_From_Bazaar_To_Git</a></p>
-<p><a href="https://wiki.mozilla.org/Bugzilla:Git">Wiki</a></p>
-<h2>Installation</h2>
-<p><a href="http://bugzilla.readthedocs.org/en/latest/installation.html">Installation&nbsp;manual</a></p>
-<h2>Git</h2>
-<p><a href="http://git.mozilla.org/?p=bugzilla/bugzilla.git;a%3Dsummary">Bugzilla Git&nbsp;Summary</a></p>
-<h2>Update to newer&nbsp;release</h2>
-<p><a href="https://wiki.mozilla.org/Bugzilla:Git#Updating_to_a_Newer_Release">Updating to a newer&nbsp;release</a></p>
-<!-- more --></div>
-  		</article>
 <div class="pagination">
     <a class="prev" href="https://blog.florijnconsultancy.nl/index4.html">&larr; Older</a>
 
@@ -281,19 +292,19 @@ On <span class="caps">OSX</span> it is not always obvious which my.cnf file is u
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
-          <a href="https://blog.florijnconsultancy.nl/articles/test-include-2.html">test include 2</a>
+          <a href="https://blog.florijnconsultancy.nl/articles/archimate-example-2.html">Archimate example 2</a>
       </li>
       <li class="post">
-          <a href="https://blog.florijnconsultancy.nl/articles/test-plantuml-1.html">test plantuml 1</a>
+          <a href="https://blog.florijnconsultancy.nl/articles/azure.html">azure</a>
       </li>
       <li class="post">
-          <a href="https://blog.florijnconsultancy.nl/articles/test-4.html">test 4</a>
+          <a href="https://blog.florijnconsultancy.nl/articles/google-example.html">Google example</a>
       </li>
       <li class="post">
-          <a href="https://blog.florijnconsultancy.nl/articles/test-3.html">test 3</a>
+          <a href="https://blog.florijnconsultancy.nl/articles/office-example-1.html">Office example 1</a>
       </li>
       <li class="post">
-          <a href="https://blog.florijnconsultancy.nl/articles/test2.html">test2</a>
+          <a href="https://blog.florijnconsultancy.nl/articles/office-example-3.html">Office example 3</a>
       </li>
     </ul>
   </section>
