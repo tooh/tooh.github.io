@@ -49,7 +49,7 @@
 
 <ul class="main-navigation">
       <li><a href="https://blog.florijnconsultancy.nl/pages/../about.html">About</a></li>
-      <li class="active">
+      <li >
         <a href="https://blog.florijnconsultancy.nl/category/articles.html">Articles</a>
       </li>
       <li >
@@ -67,6 +67,9 @@
       <li >
         <a href="https://blog.florijnconsultancy.nl/category/osx.html">Osx</a>
       </li>
+      <li class="active">
+        <a href="https://blog.florijnconsultancy.nl/category/telephony.html">Telephony</a>
+      </li>
 </ul></nav>
   <div id="main">
     <div id="content">
@@ -78,23 +81,52 @@
 <time datetime="2013-05-09T12:32:00+02:00" pubdate>Thu 09 May 2013</time>    </p>
 </header>
 
-  <div class="entry-content"><p>image :&nbsp;summary: </p>
-<hr>
-<p>I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (<span class="caps">POTS</span>) in my daily workflow on my&nbsp;Mac.</p>
+  <div class="entry-content"><p>I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (<span class="caps">POTS</span>) in my daily workflow on my&nbsp;Mac.</p>
 <p>In this article I will describe the configuration and add-ons I&nbsp;installed.</p>
 <!-- more -->
 
 <h2 id="contents">Contents</h2>
-<p>{:toc}</p>
+<div class="toc"><span class="toctitle">Table of contents:</span><ul>
+<li><a href="#contents">Contents</a></li>
+<li><a href="#the-fritzbox">The Fritz!Box</a><ul>
+<li><a href="#options">Options</a></li>
+</ul>
+</li>
+<li><a href="#internet-access">Internet access</a><ul>
+<li><a href="#using-the-internet-connection-of-another-router-with-fritzbox">Using the Internet connection of another router with <span class="caps">FRITZ</span>!Box</a></li>
+</ul>
+</li>
+<li><a href="#analog-telephony-cisco-epc3212">Analog telephony (Cisco <span class="caps">EPC3212</span>)</a><ul>
+<li><a href="#connections-for-tel-1-tel-2">Connections for <span class="caps">TEL</span> 1 / <span class="caps">TEL</span>&nbsp;2</a></li>
+<li><a href="#fritzbox-connections">Fritz!Box&nbsp;connections</a></li>
+<li><a href="#connection-to-a-cable-modem">Connection to a cable&nbsp;modem</a></li>
+<li><a href="#dect-telephone-device"><span class="caps">DECT</span> telephone&nbsp;device</a></li>
+</ul>
+</li>
+<li><a href="#voip-telephony"><span class="caps">VOIP</span>&nbsp;telephony</a></li>
+<li><a href="#add-ons">Add-ons</a><ul>
+<li><a href="#alfred-workflow">Alfred&nbsp;workflow</a></li>
+<li><a href="#call-diversion-from-script">Call diversion from&nbsp;script</a></li>
+<li><a href="#frizzix-call-monitor-mac">Frizzix Call monitor (<span class="caps">MAC</span>)</a></li>
+<li><a href="#fritzbox-browser-add-on">Fritz!Box browser&nbsp;add-on</a></li>
+<li><a href="#dialing-scripts">dialing&nbsp;scripts</a></li>
+<li><a href="#pop3-mail-checker-and-alert-on-fritzbox"><span class="caps">POP3</span> mail checker and alert on&nbsp;Fritz!Box</a></li>
+<li><a href="#fhem">fhem</a></li>
+<li><a href="#synology-diskstation-front-end">Synology Diskstation&nbsp;front-end</a></li>
+</ul>
+</li>
+<li><a href="#references">References</a></li>
+</ul>
+</div>
 <h2 id="the-fritzbox">The&nbsp;Fritz!Box</h2>
-<p><img alt="Fritz!Box 3790" src="/images/fritzbox_7390 product.jpg"></p>
+<p><img alt="Fritz!Box 3790" src="https://blog.florijnconsultancy.nl/images/fritzbox_7390 product.jpg"></p>
 <p><a href="http://www.avm.de/en/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7390/index.php">The Fritz!Box&nbsp;7390</a></p>
 <h3 id="options">Options</h3>
 <h2 id="internet-access">Internet&nbsp;access</h2>
 <p>I have a <span class="caps">UPC</span> cable&nbsp;modem </p>
 <p><a href="http://192.168.100.1"><span class="caps">CISCO</span> <span class="caps">EPC3212</span></a></p>
 <p><a href="http://www.cisco.com/web/consumer/support/userguides2/4021203A.pdf">Cisco <span class="caps">EPC3212</span> User&nbsp;manual</a></p>
-<p><img alt="Typical setup" src="/images/cisco EPC3212 setup.png"></p>
+<p><img alt="Typical setup" src="https://blog.florijnconsultancy.nl/images/cisco EPC3212 setup.png"></p>
 <h3 id="using-the-internet-connection-of-another-router-with-fritzbox">Using the Internet connection of another router with <span class="caps">FRITZ</span>!Box</h3>
 <p><a href="http://service.avm.de/support/en/SKB/FRITZ-Box-7390-int/598:Using-the-Internet-connection-of-another-router-with-FRITZ-Box">Using the Internet connection of another router with <span class="caps">FRITZ</span>!Box</a></p>
 <h2 id="analog-telephony-cisco-epc3212">Analog telephony (Cisco <span class="caps">EPC3212</span>)</h2>
@@ -167,10 +199,10 @@ end&nbsp;alfred_script</p>
     </span>
   </span>
 <time datetime="2013-05-09T12:32:00+02:00" pubdate>Thu 09 May 2013</time>  <span class="categories">
-    <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/telephony.html'>telephony</a>
   </span>
   <span class="categories">
-    <a class="category" href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a class="category" href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>  </span>
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/telephony.html">telephony</a>,    <a class="category" href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP</a>  </span>
 </p><div class="sharing">
 </div>    </footer>
   </article>
@@ -214,13 +246,14 @@ end&nbsp;alfred_script</p>
         <li><a href="https://blog.florijnconsultancy.nl/category/install.html">install</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/osx.html">osx</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/telephony.html">telephony</a></li>
     </ul>
   </section>
  
 
   <section>
   <h1>Tags</h1>
-    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">[writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/octopress.html">octopress]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
+    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">[writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/octopress.html">octopress]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
 
 
 
