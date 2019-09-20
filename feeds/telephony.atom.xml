@@ -68,18 +68,19 @@ I decided not to use the &lt;span class="caps"&gt;WLAN&lt;/span&gt; option of th
 &lt;h3 id="alfred-workflow"&gt;Alfred&amp;nbsp;workflow&lt;/h3&gt;
 &lt;p&gt;I created a simple Alfred 2 workflow that calls the Frizzix dial&amp;nbsp;helper.&lt;/p&gt;
 &lt;p&gt;Use keyword &amp;#8220;Dial&amp;#8221; to trigger a little Applescript that&amp;nbsp;contains:&lt;/p&gt;
-&lt;p&gt;{% codeblock lang:applescript&amp;nbsp;%}&lt;/p&gt;
-&lt;p&gt;on alfred_script(q)
-    set TelNumber to q as string
-    set Tel to &amp;#8220;&amp;#8221;
-    repeat with each in TelNumber
-        if &amp;#8220;+1234567890&amp;#8221; contains each then set Tel to Tel &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; each
-    end repeat
-    tell application &amp;#8220;Frizzix&amp;#8221;
-        dialInstantly Tel
-    end tell
-end&amp;nbsp;alfred_script&lt;/p&gt;
-&lt;p&gt;{% endcodeblock&amp;nbsp;%}&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;on&lt;/span&gt; &lt;span class="nv"&gt;alfred_script&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;q&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;TelNumber&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;q&lt;/span&gt; &lt;span class="k"&gt;as &lt;/span&gt;&lt;span class="nc"&gt;string&lt;/span&gt;
+    &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;Tel&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="k"&gt;repeat&lt;/span&gt; &lt;span class="nv"&gt;with&lt;/span&gt; &lt;span class="nv"&gt;each&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;TelNumber&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;+1234567890&amp;quot;&lt;/span&gt; &lt;span class="ow"&gt;contains&lt;/span&gt; &lt;span class="nv"&gt;each&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;Tel&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;Tel&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&lt;/span&gt; &lt;span class="nv"&gt;each&lt;/span&gt;
+    &lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="k"&gt;repeat&lt;/span&gt;
+    &lt;span class="k"&gt;tell&lt;/span&gt; &lt;span class="nb"&gt;application&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Frizzix&amp;quot;&lt;/span&gt;
+        &lt;span class="nv"&gt;dialInstantly&lt;/span&gt; &lt;span class="nv"&gt;Tel&lt;/span&gt;
+    &lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="k"&gt;tell&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="nv"&gt;alfred_script&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;h3 id="call-diversion-from-script"&gt;Call diversion from&amp;nbsp;script&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://www.robbastiaansen.nl/node/51"&gt;Call diversion&amp;nbsp;script&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="frizzix-call-monitor-mac"&gt;Frizzix Call monitor (&lt;span class="caps"&gt;MAC&lt;/span&gt;)&lt;/h3&gt;

@@ -150,18 +150,19 @@ I decided not to use the <span class="caps">WLAN</span> option of the Fritz!Box,
 <h3 id="alfred-workflow">Alfred&nbsp;workflow</h3>
 <p>I created a simple Alfred 2 workflow that calls the Frizzix dial&nbsp;helper.</p>
 <p>Use keyword &#8220;Dial&#8221; to trigger a little Applescript that&nbsp;contains:</p>
-<p>{% codeblock lang:applescript&nbsp;%}</p>
-<p>on alfred_script(q)
-    set TelNumber to q as string
-    set Tel to &#8220;&#8221;
-    repeat with each in TelNumber
-        if &#8220;+1234567890&#8221; contains each then set Tel to Tel <span class="amp">&amp;</span> each
-    end repeat
-    tell application &#8220;Frizzix&#8221;
-        dialInstantly Tel
-    end tell
-end&nbsp;alfred_script</p>
-<p>{% endcodeblock&nbsp;%}</p>
+<div class="highlight"><pre><span></span><span class="k">on</span> <span class="nv">alfred_script</span><span class="p">(</span><span class="nv">q</span><span class="p">)</span>
+    <span class="k">set</span> <span class="nv">TelNumber</span> <span class="k">to</span> <span class="nv">q</span> <span class="k">as </span><span class="nc">string</span>
+    <span class="k">set</span> <span class="nv">Tel</span> <span class="k">to</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">repeat</span> <span class="nv">with</span> <span class="nv">each</span> <span class="k">in</span> <span class="nv">TelNumber</span>
+        <span class="k">if</span> <span class="s2">&quot;+1234567890&quot;</span> <span class="ow">contains</span> <span class="nv">each</span> <span class="k">then</span> <span class="k">set</span> <span class="nv">Tel</span> <span class="k">to</span> <span class="nv">Tel</span> <span class="o">&amp;</span> <span class="nv">each</span>
+    <span class="k">end</span> <span class="k">repeat</span>
+    <span class="k">tell</span> <span class="nb">application</span> <span class="s2">&quot;Frizzix&quot;</span>
+        <span class="nv">dialInstantly</span> <span class="nv">Tel</span>
+    <span class="k">end</span> <span class="k">tell</span>
+<span class="k">end</span> <span class="nv">alfred_script</span>
+</pre></div>
+
+
 <h3 id="call-diversion-from-script">Call diversion from&nbsp;script</h3>
 <p><a href="http://www.robbastiaansen.nl/node/51">Call diversion&nbsp;script</a></p>
 <h3 id="frizzix-call-monitor-mac">Frizzix Call monitor (<span class="caps">MAC</span>)</h3>
