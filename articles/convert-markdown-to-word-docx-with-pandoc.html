@@ -4,8 +4,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Authors &mdash; Daily Scrum</title>
+  <title>Convert Markdown to Word docx with Pandoc &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
+
+
 
 
 
@@ -43,7 +45,7 @@
 </form>
 
 <ul class="main-navigation">
-      <li >
+      <li class="active">
         <a href="https://blog.florijnconsultancy.nl/category/articles.html">Articles</a>
       </li>
       <li >
@@ -65,14 +67,90 @@
   <div id="main">
     <div id="content">
 <div>
-	<article role="article">
-    	<header>
-    		<h1 class="entry-title">Blog Authors</h1>
-    	</header>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">Convert Markdown to Word docx with Pandoc</h1>
+    <p class="meta">
+<time datetime="2015-10-17T08:56:00+02:00" pubdate>Sat 17 October 2015</time>    </p>
+</header>
 
-		<p><a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a> (61)</p>
-		<p><a href="https://blog.florijnconsultancy.nl/author/username.html">username</a> (1)</p>
-	</article>
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
+<!-- more --></p>
+<h3 id="installation">Installation</h3>
+<p>My <span class="caps">OS</span> is <span class="caps">OSX</span> so the easiest is to use&nbsp;Homebrew.</p>
+<h4 id="with-homebrew">With&nbsp;homebrew</h4>
+<div class="highlight"><pre><span></span>$ brew install pandoc
+</pre></div>
+
+
+<h4 id="use-the-installer">Use the&nbsp;installer</h4>
+<p>Go to the github project&nbsp;downloads</p>
+<div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">jgm</span><span class="o">/</span><span class="n">pandoc</span><span class="o">/</span><span class="n">releases</span><span class="o">/</span>
+</pre></div>
+
+
+<h3 id="convert-your-document">Convert your&nbsp;document</h3>
+<div class="highlight"><pre><span></span>$ pandoc -o output.docx -f markdown -t docx markdown-file.md
+</pre></div>
+
+
+<h3 id="make-it-easy">Make it&nbsp;easy</h3>
+<p>To make it even easier I added the below code to my .bashrc&nbsp;file</p>
+<div class="highlight"><pre><span></span>...
+
+# <span class="nv">aliases</span>
+...
+<span class="nv">alias</span> <span class="nv">md2word</span><span class="o">=</span><span class="nv">md2word</span> # <span class="nv">alias</span> <span class="nv">the</span> <span class="nv">function</span> <span class="nv">below</span>
+
+# <span class="nv">functions</span>
+...
+<span class="nv">function</span> <span class="nv">md2word</span> <span class="ss">()</span> {  
+    <span class="nv">PANDOC_INSTALLED</span><span class="o">=</span>$<span class="ss">(</span><span class="nv">pandoc</span> <span class="o">--</span><span class="nv">version</span> <span class="o">&gt;&gt;</span> <span class="o">/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">null</span><span class="c1">; echo $?)</span>
+
+    <span class="k">if</span> [ <span class="s2">&quot;</span><span class="s">0</span><span class="s2">&quot;</span> <span class="o">==</span> ${<span class="nv">PANDOC_INSTALLED</span>} ]<span class="c1">; then</span>
+        <span class="nv">pandoc</span> <span class="o">-</span><span class="nv">o</span> <span class="mh">$2</span> <span class="o">-</span><span class="nv">f</span> <span class="nv">markdown</span> <span class="o">-</span><span class="nv">t</span> <span class="nv">docx</span> <span class="mh">$1</span>
+    <span class="k">else</span>
+        <span class="nv">echo</span> <span class="s2">&quot;</span><span class="s">Pandoc is not installed. Unable to convert document.</span><span class="s2">&quot;</span>
+    <span class="nv">fi</span>
+}
+</pre></div>
+
+
+<h3 id="convert-a-file">Convert a&nbsp;file</h3>
+<div class="highlight"><pre><span></span> <span class="n">md2word</span> <span class="o">~/</span><span class="n">path</span><span class="o">/</span><span class="k">to</span><span class="o">/</span><span class="k">some</span><span class="o">/</span><span class="n">markdown</span><span class="o">/</span><span class="n">file</span><span class="o">/</span><span class="k">to</span><span class="o">/</span><span class="k">convert</span><span class="p">.</span><span class="n">md</span> <span class="o">~/</span><span class="n">path</span><span class="o">/</span><span class="k">to</span><span class="o">/</span><span class="k">some</span><span class="o">/</span><span class="n">word</span><span class="o">/</span><span class="n">document</span><span class="o">/</span><span class="k">output</span><span class="p">.</span><span class="n">docx</span>
+</pre></div>
+
+
+<h3 id="use-pandoc-from-sublime">Use Pandoc from&nbsp;Sublime</h3>
+<p>http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html</p>
+<h4 id="my-customized-build-file">My customized build&nbsp;file</h4>
+<div class="highlight"><pre><span></span><span class="err">{</span>
+    <span class="ss">&quot;cmd&quot;</span><span class="p">:</span> <span class="p">[</span><span class="ss">&quot;/usr/local/bin/pandoc&quot;</span><span class="p">,</span> <span class="ss">&quot;-S&quot;</span><span class="p">,</span> <span class="ss">&quot;-s&quot;</span><span class="p">,</span> <span class="ss">&quot;-f&quot;</span><span class="p">,</span> <span class="ss">&quot;markdown&quot;</span><span class="p">,</span> <span class="ss">&quot;-t&quot;</span><span class="p">,</span> <span class="ss">&quot;docx&quot;</span><span class="p">,</span> <span class="ss">&quot;-o&quot;</span><span class="p">,</span> <span class="ss">&quot;/Users/peter/Documents/Docs/Inbox/$file_base_name.docx&quot;</span><span class="p">,</span> <span class="ss">&quot;$file_name&quot;</span><span class="p">],</span>
+    <span class="ss">&quot;selector&quot;</span><span class="p">:</span> <span class="ss">&quot;text.html.markdown&quot;</span>
+ <span class="err">}</span>
+</pre></div></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2015-10-17T08:56:00+02:00" pubdate>Sat 17 October 2015</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a class="category" href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a class="category" href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
 </div>
 <aside class="sidebar">
   <section>
@@ -178,6 +256,9 @@
   <script src="https://blog.florijnconsultancy.nl/theme/js/octopress.js" type="text/javascript"></script>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
+    var disqus_identifier = '/articles/convert-markdown-to-word-docx-with-pandoc.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/convert-markdown-to-word-docx-with-pandoc.html';
+    var disqus_title = 'Convert Markdown to Word docx with&nbsp;Pandoc';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

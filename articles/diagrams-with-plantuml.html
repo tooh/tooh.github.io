@@ -4,8 +4,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Authors &mdash; Daily Scrum</title>
+  <title>Diagrams with PlantUML &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
+
+
 
 
 
@@ -43,7 +45,7 @@
 </form>
 
 <ul class="main-navigation">
-      <li >
+      <li class="active">
         <a href="https://blog.florijnconsultancy.nl/category/articles.html">Articles</a>
       </li>
       <li >
@@ -65,14 +67,67 @@
   <div id="main">
     <div id="content">
 <div>
-	<article role="article">
-    	<header>
-    		<h1 class="entry-title">Blog Authors</h1>
-    	</header>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">Diagrams with PlantUML</h1>
+    <p class="meta">
+<time datetime="2013-06-09T12:37:00+02:00" pubdate>Sun 09 June 2013</time>    </p>
+</header>
 
-		<p><a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a> (61)</p>
-		<p><a href="https://blog.florijnconsultancy.nl/author/username.html">username</a> (1)</p>
-	</article>
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive with&nbsp;it. </p>
+<p>After my switch to <span class="caps">OSX</span>, Omnigraffle seemed the tool to use, but this had the same&nbsp;disadvantages.</p>
+<p>Recently I came across a tool called PlantUML that can create diagrams based on&nbsp;text.</p>
+<p>When I found out that somebody had made a plugin for my current blogging environment Octopress it seems that I have won the&nbsp;jackpot.</p>
+<h3 id="example">Example:</h3>
+<h4 id="example-1">Example&nbsp;1</h4>
+<p>{% plantuml&nbsp;%}</p>
+<p>title Example 1
+Alice -&gt; Bob: Authentication Request
+Bob &#8212;&gt; Alice: Authentication&nbsp;Response</p>
+<p _="%" endplantuml>Alice -&gt; Bob: Another authentication Request
+Alice &lt;&#8212; Bob: another authentication&nbsp;Response</p>
+<h4 id="example-2-swim-lanes">Example 2 : Swim&nbsp;lanes</h4>
+<p>{% plantuml&nbsp;%}</p>
+<p>title Example&nbsp;2</p>
+<p _="%" endplantuml>| swimlane1 |
+:first;
+:second;
+| swimlane2 |
+:third;
+if (foo) then
+:something;
+endif
+| swimlane1 |
+:back to swimlane1;
+| swimlane2 |
+:back to&nbsp;swimlane2;</p>
+<!-- more -->
+
+<h3 id="references">References</h3>
+<p><a href="http://plantuml.sourceforge.net/news.html">PlantUML</a></p>
+<p><a href="https://github.com/yjpark/jekyll-plantuml">Jekyll-plantUML&nbsp;plugin</a></p></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2013-06-09T12:37:00+02:00" pubdate>Sun 09 June 2013</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
 </div>
 <aside class="sidebar">
   <section>
@@ -178,6 +233,9 @@
   <script src="https://blog.florijnconsultancy.nl/theme/js/octopress.js" type="text/javascript"></script>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
+    var disqus_identifier = '/articles/diagrams-with-plantuml.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html';
+    var disqus_title = 'Diagrams with&nbsp;PlantUML';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

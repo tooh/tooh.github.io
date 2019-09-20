@@ -4,8 +4,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Authors &mdash; Daily Scrum</title>
+  <title>Fritz!Box 7390 configuration &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
+
+
 
 
 
@@ -43,7 +45,7 @@
 </form>
 
 <ul class="main-navigation">
-      <li >
+      <li class="active">
         <a href="https://blog.florijnconsultancy.nl/category/articles.html">Articles</a>
       </li>
       <li >
@@ -65,14 +67,114 @@
   <div id="main">
     <div id="content">
 <div>
-	<article role="article">
-    	<header>
-    		<h1 class="entry-title">Blog Authors</h1>
-    	</header>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">Fritz!Box 7390 configuration</h1>
+    <p class="meta">
+<time datetime="2013-05-09T12:32:00+02:00" pubdate>Thu 09 May 2013</time>    </p>
+</header>
 
-		<p><a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a> (61)</p>
-		<p><a href="https://blog.florijnconsultancy.nl/author/username.html">username</a> (1)</p>
-	</article>
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (<span class="caps">POTS</span>) in my daily workflow on my&nbsp;Mac.</p>
+<p>In this article I will describe the configuration and add-ons I&nbsp;installed.</p>
+<!-- more -->
+
+<h2 id="contents">Contents</h2>
+<p>{:toc}</p>
+<h2 id="the-fritzbox">The&nbsp;Fritz!Box</h2>
+<p><img alt="Fritz!Box 3790" src="/images/fritzbox_7390 product.jpg"></p>
+<p><a href="http://www.avm.de/en/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7390/index.php">The Fritz!Box&nbsp;7390</a></p>
+<h3 id="options">Options</h3>
+<h2 id="internet-access">Internet&nbsp;access</h2>
+<p>I have a <span class="caps">UPC</span> cable&nbsp;modem </p>
+<p><a href="http://192.168.100.1"><span class="caps">CISCO</span> <span class="caps">EPC3212</span></a></p>
+<p><a href="http://www.cisco.com/web/consumer/support/userguides2/4021203A.pdf">Cisco <span class="caps">EPC3212</span> User&nbsp;manual</a></p>
+<p><img alt="Typical setup" src="/images/cisco EPC3212 setup.png"></p>
+<h3 id="using-the-internet-connection-of-another-router-with-fritzbox">Using the Internet connection of another router with <span class="caps">FRITZ</span>!Box</h3>
+<p><a href="http://service.avm.de/support/en/SKB/FRITZ-Box-7390-int/598:Using-the-Internet-connection-of-another-router-with-FRITZ-Box">Using the Internet connection of another router with <span class="caps">FRITZ</span>!Box</a></p>
+<h2 id="analog-telephony-cisco-epc3212">Analog telephony (Cisco <span class="caps">EPC3212</span>)</h2>
+<h4 id="connections-for-tel-1-tel-2">Connections for <span class="caps">TEL</span> 1 / <span class="caps">TEL</span>&nbsp;2</h4>
+<p><img alt="TEL 1/TEL 2 connections" src="/images/EPC3212.png"></p>
+<h4 id="fritzbox-connections">Fritz!Box&nbsp;connections</h4>
+<p><img alt="Fritz!Box 3790" src="/images/fritzbox_7390.jpg"></p>
+<h4 id="connection-to-a-cable-modem">Connection to a cable&nbsp;modem</h4>
+<p><a href="http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/700:Connecting-FRITZ-Box-to-a-cable-modem">Connection to a cable&nbsp;modem</a></p>
+<p>I wanted to use the Fritz!Box as part of my existing network.
+I decided not to use the <span class="caps">WLAN</span> option of the Fritz!Box, but instead I bought a Fritz! Powerline 520 E set, because I did not have a cabled network connection on the location where the Internet modem was located. In this setup I could connect the Internet modem to the <span class="caps">LAN</span> 1/<span class="caps">WAN</span> connection of my&nbsp;Fritz!Box.</p>
+<h3 id="dect-telephone-device"><span class="caps">DECT</span> telephone&nbsp;device</h3>
+<p>The Fritz!Box 7390 offers a basestation, upto 6 <span class="caps">DECT</span> telephones can be&nbsp;connected. </p>
+<p>Note: For now I do not have any <span class="caps">DECT</span> phones&nbsp;connected. </p>
+<p>Update: Some developments here. I bought a <span class="caps">DECT</span> Gigaset <span class="caps">A420A</span> <span class="caps">TRIO</span>. When they are setup I will update my&nbsp;findings.</p>
+<h2 id="voip-telephony"><span class="caps">VOIP</span>&nbsp;telephony</h2>
+<p>For <span class="caps">OSX</span> there are several softphone apps&nbsp;available:</p>
+<p><a href="http://www.tlphn.com/">Telephone</a></p>
+<p><a href="http://counterpath.s3.amazonaws.com/downloads/X-Lite_Mac_3520g_70143.dmg">Counterpath&nbsp;X-Lite</a></p>
+<h2 id="add-ons">Add-ons</h2>
+<h3 id="alfred-workflow">Alfred&nbsp;workflow</h3>
+<p>I created a simple Alfred 2 workflow that calls the Frizzix dial&nbsp;helper.</p>
+<p>Use keyword &#8220;Dial&#8221; to trigger a little Applescript that&nbsp;contains:</p>
+<p>{% codeblock lang:applescript&nbsp;%}</p>
+<p>on alfred_script(q)
+    set TelNumber to q as string
+    set Tel to &#8220;&#8221;
+    repeat with each in TelNumber
+        if &#8220;+1234567890&#8221; contains each then set Tel to Tel <span class="amp">&amp;</span> each
+    end repeat
+    tell application &#8220;Frizzix&#8221;
+        dialInstantly Tel
+    end tell
+end&nbsp;alfred_script</p>
+<p>{% endcodeblock&nbsp;%}</p>
+<h3 id="call-diversion-from-script">Call diversion from&nbsp;script</h3>
+<p><a href="http://www.robbastiaansen.nl/node/51">Call diversion&nbsp;script</a></p>
+<h3 id="frizzix-call-monitor-mac">Frizzix Call monitor (<span class="caps">MAC</span>)</h3>
+<p><a href="http://mac.frizzix.de/en/">Frizzix</a></p>
+<p>I also&nbsp;installed:</p>
+<ul>
+<li>
+<p>the Address Book&nbsp;Plugin</p>
+</li>
+<li>
+<p>Services&nbsp;plugin</p>
+</li>
+</ul>
+<h3 id="fritzbox-browser-add-on">Fritz!Box browser&nbsp;add-on</h3>
+<p><a href="http://www.avm.de/de/Service/FRITZ_Tools/browser_plugin.html">Add-on for&nbsp;Firefox</a></p>
+<p>Note: it seems that in my setup phone numbers are recognized in webpages, but dialing out does not&nbsp;work.</p>
+<h3 id="dialing-scripts">dialing&nbsp;scripts</h3>
+<p><a href="http://wehavemorefun.de/fritzbox/W%C3%A4hlen_aus_OS_X_Adressbuch">Dialing from Address&nbsp;book</a></p>
+<h3 id="pop3-mail-checker-and-alert-on-fritzbox"><span class="caps">POP3</span> mail checker and alert on&nbsp;Fritz!Box</h3>
+<p><a href="http://wehavemorefun.de/fritzbox/POP3-Robot"><span class="caps">POP3</span>-Robot</a></p>
+<h3 id="fhem">fhem</h3>
+<p><a href="http://fhem.de/fritzbox.html">fhem</a></p>
+<h3 id="synology-diskstation-front-end">Synology Diskstation&nbsp;front-end</h3>
+<p><a href="http://spk.q14six.de/">Fritz!Box front-end&nbsp;package</a></p>
+<h2 id="references">References</h2>
+<p>[1] <a href="http://http://en.wikipedia.org/wiki/Plain_old_telephone_service"><span class="caps">POTS</span></a></p>
+<p>[2] <a href="http://www.avm.de"><span class="caps">AVM</span></a></p>
+<p>[3] <a href="http://http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/page:1"><span class="caps">AVM</span> Knowledge&nbsp;base</a></p>
+<p>[4] <a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html">Think broadband&nbsp;review</a> </p></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2013-05-09T12:32:00+02:00" pubdate>Thu 09 May 2013</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a class="category" href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
 </div>
 <aside class="sidebar">
   <section>
@@ -178,6 +280,9 @@
   <script src="https://blog.florijnconsultancy.nl/theme/js/octopress.js" type="text/javascript"></script>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
+    var disqus_identifier = '/articles/fritzbox-7390-configuration.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html';
+    var disqus_title = 'Fritz!Box 7390&nbsp;configuration';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

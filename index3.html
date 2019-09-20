@@ -68,130 +68,225 @@
   		<article>
 <header>
       <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/archimate-example-2.html">Archimate example 2</a>
+        <a href="https://blog.florijnconsultancy.nl/articles/creating-rest-services.html">creating REST services</a>
       </h1>
     <p class="meta">
-<time datetime="2019-09-20T07:03:00+02:00" pubdate>Fri 20 September 2019</time>    </p>
+<time datetime="2015-09-15T15:53:00+02:00" pubdate>Tue 15 September 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><p>Author : Peter Florijn&nbsp;Summary: </p>
-<img alt="uml diagram" class="uml" src="/images/0f7f4ebd.png"><!-- more --></div>
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>Interesting project&nbsp;sandman.</p>
+<p>Sandman2 is in&nbsp;development</p>
+<p><a href="https://sandman.readthedocs.org/en/latest/">https://sandman.readthedocs.org/en/latest/</a></p>
+<p><a href="https://github.com/jeffknupp/sandman">https://github.com/jeffknupp/sandman</a></p>
+<p><a href="https://github.com/jeffknupp/sandman2">https://github.com/jeffknupp/sandman2</a></p>
+<p><a href="http://www.fullstackpython.com/api-creation.html">http://www.fullstackpython.com/api-creation.html</a></p>
+<!-- more --></div>
   		</article>
   		<article>
 <header>
       <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/azure.html">azure</a>
+        <a href="https://blog.florijnconsultancy.nl/articles/testdiagram.html">testdiagram</a>
       </h1>
     <p class="meta">
-<time datetime="2019-09-20T07:03:00+02:00" pubdate>Fri 20 September 2019</time>    </p>
+<time datetime="2015-08-14T07:27:00+02:00" pubdate>Fri 14 August 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><p>Author : Peter Florijn&nbsp;Summary: </p>
-<img alt="uml diagram" class="uml" src="/images/23f5fcc7.png"><!-- more --></div>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/google-example.html">Google example</a>
-      </h1>
-    <p class="meta">
-<time datetime="2019-09-20T07:03:00+02:00" pubdate>Fri 20 September 2019</time>    </p>
-</header>
-
-  <div class="entry-content"><p>Author : Peter Florijn&nbsp;Summary: </p>
-<img alt="uml diagram" class="uml" src="/images/23f5fcc7.png"><!-- more --></div>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/mysql-example.html">Mysql example</a>
-      </h1>
-    <p class="meta">
-<time datetime="2019-09-20T07:03:00+02:00" pubdate>Fri 20 September 2019</time>    </p>
-</header>
-
-  <div class="entry-content"><img alt="uml diagram" class="uml" src="/images/f2ac462a.png"><!-- more --></div>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/office-example-1.html">Office example 1</a>
-      </h1>
-    <p class="meta">
-<time datetime="2019-09-20T07:03:00+02:00" pubdate>Fri 20 September 2019</time>    </p>
-</header>
-
-  <div class="entry-content"><p>Author : Peter Florijn&nbsp;Summary: </p>
-<img alt="uml diagram" class="uml" src="/images/b211feac.png"><!-- more --></div>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/office-example-3.html">Office example 3</a>
-      </h1>
-    <p class="meta">
-<time datetime="2019-09-20T07:03:00+02:00" pubdate>Fri 20 September 2019</time>    </p>
-</header>
-
-  <div class="entry-content"><p>Author : Peter Florijn&nbsp;Summary: </p>
-<img alt="uml diagram" class="uml" src="/images/83bf9348.png"><!-- more --></div>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/test-include-2.html">test include 2</a>
-      </h1>
-    <p class="meta">
-<time datetime="2019-09-19T07:22:00+02:00" pubdate>Thu 19 September 2019</time>    </p>
-</header>
-
-  <div class="entry-content"></div>
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>{% plantuml&nbsp;%}</p>
+<p>skinparam component {
+  Style uml2
+  BackgroundColor #<span class="caps">FEFECE</span>
+}
+node &#8220;Database Server&#8221; {
+  database &#8220;<span class="caps">MSSQL</span> / <span class="caps">ORA</span> \n &#8221; {
+    [<span class="caps">DB</span>] as <span class="caps">DB</span>
+  }
+}
+node &#8220;Business Logic Server&#8221; {
+  frame &#8220;Windows Service Host&#8221; {
+    package &#8220;GUIService&#8221; {
+      [GuiService] as GuiService
+    }
+    package &#8220;ExtService&#8221; {
+      [ExtService] as ExtService
+    }
+  }
+}
+node &#8220;Update Server \n (can be hosted on \n <span class="caps">BL</span> Server)&#8221; {
+  folder &#8220;Remote …</p></div>
   <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/test-include-2.html">Read On &crarr;</a>
+    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/testdiagram.html">Read On &crarr;</a>
   </footer>
   		</article>
   		<article>
 <header>
       <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/test-plantuml-1.html">test plantuml 1</a>
+        <a href="https://blog.florijnconsultancy.nl/articles/itunes-sharing-troubleshooting.html">iTunes sharing troubleshooting</a>
       </h1>
     <p class="meta">
-<time datetime="2019-09-16T19:52:00+02:00" pubdate>Mon 16 September 2019</time>    </p>
+<time datetime="2015-06-09T09:51:00+02:00" pubdate>Tue 09 June 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><p>Author : username&nbsp;Summary: </p>
-<img alt="Sample sequence diagram" class="uml" src="/images/082e4805.png"><p>re&nbsp;&#8212;&gt;</p></div>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/test-4.html">test 4</a>
-      </h1>
-    <p class="meta">
-<time datetime="2019-09-16T17:14:00+02:00" pubdate>Mon 16 September 2019</time>    </p>
-</header>
-
-  <div class="entry-content"><p>Author : username&nbsp;Summary: </p>
-<!-- more -->
-
-<p>kjsdjkjkjsdjask</p></div>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/test-3.html">test 3</a>
-      </h1>
-    <p class="meta">
-<time datetime="2019-09-16T17:11:00+02:00" pubdate>Mon 16 September 2019</time>    </p>
-</header>
-
-  <div class="entry-content"><p>Author : username&nbsp;Summary: </p>
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
 <hr>
+<h2 id="introduction">Introduction</h2>
+<p>I did a little rewiring of all my cables connected to my <span class="caps">TV</span>, Apple <span class="caps">TV</span> , router&nbsp;etc.</p>
+<p>While testing it I found out that my iTunes home sharing and Airplay was not working any more. My <span class="caps">ATV</span> did see my shared library but was not able to …</p></div>
+  <footer>
+    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/itunes-sharing-troubleshooting.html">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/sort.html">sort</a>
+      </h1>
+    <p class="meta">
+<time datetime="2015-04-24T14:38:00+02:00" pubdate>Fri 24 April 2015</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image : 
+summary: linux command line sort on&nbsp;dates</p>
+<hr>
+<p>For one of my projects I needed to sort a csv file on a date field with dd/mm/yyyy&nbsp;format.</p>
+<div class="highlight"><pre><span></span><span class="n">sort</span> <span class="o">-</span><span class="n">n</span> <span class="o">-</span><span class="n">t</span><span class="ss">&quot;/&quot;</span> <span class="o">-</span><span class="n">k3</span><span class="p">,</span><span class="mi">3</span> <span class="o">-</span><span class="n">k2</span><span class="p">,</span><span class="mi">2</span> <span class="o">-</span><span class="n">k1</span><span class="p">,</span><span class="mi">1</span> <span class="n">planning</span><span class="p">.</span><span class="n">csv</span>
+</pre></div>
+
+
+<!-- more --></div>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/upgrade-to-bugzilla-50.html">upgrade to Bugzilla 5.0</a>
+      </h1>
+    <p class="meta">
+<time datetime="2015-01-31T10:26:00+01:00" pubdate>Sat 31 January 2015</time>    </p>
+</header>
+
+  <div class="entry-content"></div>
+  <footer>
+    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/upgrade-to-bugzilla-50.html">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/convert-svg-to-png-with-inkscape-osx.html">convert svg to png with inkscape (OSX)</a>
+      </h1>
+    <p class="meta">
+<time datetime="2015-01-25T16:21:00+01:00" pubdate>Sun 25 January 2015</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<h3 id="set-alias-to-inkscape-commandline">Set alias to inkscape&nbsp;commandline</h3>
+<div class="highlight"><pre><span></span><span class="k">alias</span> <span class="n">inkscape</span><span class="o">=</span><span class="ss">&quot;/Applications/Inkscape.app/Contents/Resources/bin/inkscape&quot;</span>
+</pre></div>
+
+
+<h3 id="call-inkscape-to-convert">call inkscape to&nbsp;convert</h3>
+<div class="highlight"><pre><span></span> <span class="n">inkscape</span> <span class="o">-</span><span class="n">z</span> <span class="o">-</span><span class="n">f</span> <span class="n">test_full</span><span class="p">.</span><span class="n">svg</span> <span class="o">-</span><span class="n">j</span> <span class="o">-</span><span class="n">e</span> <span class="n">test_full</span><span class="p">.</span><span class="n">png</span>
+</pre></div>
+
+
+<!-- more --></div>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/cairosvg.html">cairosvg</a>
+      </h1>
+    <p class="meta">
+<time datetime="2015-01-18T08:09:00+01:00" pubdate>Sun 18 January 2015</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<h2 id="install-cairosvg">Install&nbsp;Cairosvg</h2>
+<div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">pycairo</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">install</span> <span class="n">py2cairo</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">cairosvg</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="p">.</span><span class="o">/</span><span class="n">waf</span> <span class="n">configure</span> <span class="c1">--prefix=/System/Library/Frameworks/Python.framework/Versions/2.7</span>
+</pre></div>
+
+
+<h2 id="additional">Additional</h2>
+<ul>
+<li>find out where the svg/cairo libraries were&nbsp;installed</li>
+<li>make sure that pkg-config finds these, if not, set PKG_CONFIG_PATH to
+point to …</li></ul></div>
+  <footer>
+    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/cairosvg.html">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/update-powerline-for-osx.html">update powerline for OSX</a>
+      </h1>
+    <p class="meta">
+<time datetime="2015-01-01T12:20:00+01:00" pubdate>Thu 01 January 2015</time>    </p>
+</header>
+
+  <div class="entry-content"></div>
+  <footer>
+    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/update-powerline-for-osx.html">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/jenkins-jobs-lost.html">jenkins jobs lost</a>
+      </h1>
+    <p class="meta">
+<time datetime="2014-11-23T11:47:00+01:00" pubdate>Sun 23 November 2014</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>On my local development machine I noticed that I missed all my&nbsp;jobs.</p>
+<p>On my <span class="caps">OSX</span> machine all the job info was there in the .jenkins/jobs&nbsp;directory.</p>
+<p>Adding the following to my startjenkins.sh script solved the&nbsp;problem.</p>
+<div class="highlight"><pre><span></span><span class="n">export</span> <span class="n">JENKINS_HOME</span><span class="o">=/</span><span class="n">Users</span><span class="o">/</span><span class="n">peter</span><span class="o">/</span><span class="p">.</span><span class="n">jenkins</span>
+</pre></div>
+
+
+<!-- more --></div>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="https://blog.florijnconsultancy.nl/articles/click2dial.html">click2dial</a>
+      </h1>
+    <p class="meta">
+<time datetime="2014-11-14T08:42:00+01:00" pubdate>Fri 14 November 2014</time>    </p>
+</header>
+
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>I&#8217;m researching different options to implement&nbsp;click2dial.</p>
+<p><a href="http://www.voip-info.org/wiki/view/Asterisk+click+to+call">click2call</a></p>
+<p>Standards</p>
+<p><a href="https://www.ietf.org/rfc/rfc2806.txt">rfc2806</a></p>
 <!-- more --></div>
   		</article>
 <div class="pagination">
-    <a class="prev" href="https://blog.florijnconsultancy.nl/index2.html">&larr; Older</a>
+    <a class="prev" href="https://blog.florijnconsultancy.nl/index4.html">&larr; Older</a>
 
+    <a class="next" href="https://blog.florijnconsultancy.nl/index2.html">Newer &rarr;</a>
   <br />
 </div></div>
 <aside class="sidebar">

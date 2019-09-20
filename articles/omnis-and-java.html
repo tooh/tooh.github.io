@@ -4,8 +4,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Authors &mdash; Daily Scrum</title>
+  <title>Omnis and java &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
+
+
 
 
 
@@ -43,7 +45,7 @@
 </form>
 
 <ul class="main-navigation">
-      <li >
+      <li class="active">
         <a href="https://blog.florijnconsultancy.nl/category/articles.html">Articles</a>
       </li>
       <li >
@@ -65,14 +67,80 @@
   <div id="main">
     <div id="content">
 <div>
-	<article role="article">
-    	<header>
-    		<h1 class="entry-title">Blog Authors</h1>
-    	</header>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">Omnis and java</h1>
+    <p class="meta">
+<time datetime="2014-10-26T11:37:00+01:00" pubdate>Sun 26 October 2014</time>    </p>
+</header>
 
-		<p><a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a> (61)</p>
-		<p><a href="https://blog.florijnconsultancy.nl/author/username.html">username</a> (1)</p>
-	</article>
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<h1 id="research-notes-on-java-use-in-omnis">Research notes on java use in&nbsp;Omnis</h1>
+<h2 id="how-can-i-find-which-version-of-java-is-installed-without-running-an-applet-in-windows-or-mac">How can I find which version of Java is installed without running an applet in Windows or&nbsp;Mac?</h2>
+<p><a href="https://www.java.com/en/download/help/version_manual.xml">How can I find which version of Java is installed without running an applet in Windows or&nbsp;Mac?</a></p>
+<h2 id="strip-java-out-of-omnis-rt">Strip Java out of Omnis <span class="caps">RT</span></h2>
+<p><a href="http://www.omnis-dev.com/cgi-bin/thiskey.omns?Key=20140813171438">Re: Strip Java out of Omnis <span class="caps">RT</span> -&nbsp;Omnis-Dev</a></p>
+<h2 id="information-and-system-requirements-for-installation-and-use-of-oracle-java-on-mac-os-x">Information and system requirements for installation and use of Oracle Java on Mac <span class="caps">OS</span>&nbsp;X</h2>
+<p><a href="https://www.java.com/nl/download/faq/java_mac.xml#restore">https://www.java.com/nl/download/faq/java_mac.xml#restore</a></p>
+<!-- more -->
+
+<h2 id="verify-installation-of-java-runtime-on-windows">Verify installation of java runtime on&nbsp;Windows</h2>
+<div class="highlight"><pre><span></span>@<span class="nv">echo</span> <span class="nv">off</span>
+<span class="nv">cls</span>
+<span class="nv">setlocal</span> <span class="nv">ENABLEEXTENSIONS</span>
+<span class="nv">set</span> <span class="nv">KEY_NAME</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">HKLM\SOFTWARE\JavaSoft\Java Runtime Environment</span><span class="s2">&quot;</span>
+<span class="nv">set</span> <span class="nv">VALUE_NAME</span><span class="o">=</span><span class="nv">CurrentVersion</span>
+::
+:: <span class="nv">get</span> <span class="nv">the</span> <span class="nv">current</span> <span class="nv">version</span>
+::
+<span class="k">FOR</span> <span class="o">/</span><span class="nv">F</span> <span class="s2">&quot;</span><span class="s">usebackq skip=2 tokens=3</span><span class="s2">&quot;</span> <span class="o">%%</span><span class="nv">A</span> <span class="nv">IN</span> <span class="ss">(</span>`<span class="nv">REG</span> <span class="nv">QUERY</span> <span class="o">%</span><span class="nv">KEY_NAME</span><span class="o">%</span> <span class="o">/</span><span class="nv">v</span> <span class="o">%</span><span class="nv">VALUE_NAME</span><span class="o">%</span> <span class="mi">2</span><span class="o">^&gt;</span><span class="nv">nul</span>`<span class="ss">)</span> <span class="k">DO</span> <span class="ss">(</span>
+    <span class="nv">set</span> <span class="nv">ValueValue</span><span class="o">=%%</span><span class="nv">A</span>
+<span class="ss">)</span>
+<span class="k">if</span> <span class="nv">defined</span> <span class="nv">ValueValue</span> <span class="ss">(</span>
+    @<span class="nv">echo</span> <span class="nv">the</span> <span class="nv">current</span> <span class="nv">Java</span> <span class="nv">runtime</span> <span class="nv">is</span>  <span class="o">%</span><span class="nv">ValueValue</span><span class="o">%</span>
+<span class="ss">)</span> <span class="k">else</span> <span class="ss">(</span>
+    @<span class="nv">echo</span> <span class="o">%</span><span class="nv">KEY_NAME</span><span class="o">%</span>\<span class="o">%</span><span class="nv">VALUE_NAME</span><span class="o">%</span> <span class="nv">not</span> <span class="nv">found</span>.
+    <span class="k">goto</span> <span class="nl">end</span>
+<span class="ss">)</span>
+<span class="nv">set</span> <span class="nv">JAVA_CURRENT</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">HKLM\SOFTWARE\JavaSoft\Java Runtime Environment\%ValueValue%</span><span class="s2">&quot;</span>
+<span class="nv">set</span> <span class="nv">JAVA_HOME</span><span class="o">=</span><span class="nv">JavaHome</span>
+::
+:: <span class="nv">get</span> <span class="nv">the</span> <span class="nv">javahome</span>
+::
+<span class="k">FOR</span> <span class="o">/</span><span class="nv">F</span> <span class="s2">&quot;</span><span class="s">usebackq skip=2 tokens=3*</span><span class="s2">&quot;</span> <span class="o">%%</span><span class="nv">A</span> <span class="nv">IN</span> <span class="ss">(</span>`<span class="nv">REG</span> <span class="nv">QUERY</span> <span class="o">%</span><span class="nv">JAVA_CURRENT</span><span class="o">%</span> <span class="o">/</span><span class="nv">v</span> <span class="o">%</span><span class="nv">JAVA_HOME</span><span class="o">%</span> <span class="mi">2</span><span class="o">^&gt;</span><span class="nv">nul</span>`<span class="ss">)</span> <span class="k">DO</span> <span class="ss">(</span>
+    <span class="nv">set</span> <span class="nv">JAVA_PATH</span><span class="o">=%%</span><span class="nv">A</span> <span class="o">%%</span><span class="nv">B</span>
+<span class="ss">)</span>
+<span class="nv">echo</span> <span class="nv">the</span> <span class="nv">path</span> <span class="nv">of</span> <span class="nv">the</span> <span class="nv">current</span> <span class="nv">Java</span> <span class="nv">JVM</span> <span class="nv">according</span> <span class="nv">to</span> <span class="nv">the</span> <span class="nv">registry</span> <span class="nv">is</span> 
+<span class="nv">echo</span> <span class="o">%</span><span class="nv">JAVA_PATH</span><span class="o">%</span>
+<span class="nv">echo</span>.
+<span class="nv">echo</span> <span class="nv">now</span> <span class="k">if</span> <span class="nv">we</span> <span class="nv">try</span> <span class="nv">it</span> :
+<span class="s2">&quot;</span><span class="s">%JAVA_PATH%\bin\java.exe</span><span class="s2">&quot;</span> <span class="o">-</span><span class="nv">version</span>
+<span class="nl">:end</span>
+</pre></div>
+
+
+<p>{:toc}</p></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2014-10-26T11:37:00+01:00" pubdate>Sun 26 October 2014</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
 </div>
 <aside class="sidebar">
   <section>
@@ -178,6 +246,9 @@
   <script src="https://blog.florijnconsultancy.nl/theme/js/octopress.js" type="text/javascript"></script>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
+    var disqus_identifier = '/articles/omnis-and-java.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/omnis-and-java.html';
+    var disqus_title = 'Omnis and&nbsp;java';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

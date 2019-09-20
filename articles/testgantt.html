@@ -4,8 +4,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Authors &mdash; Daily Scrum</title>
+  <title>testgantt &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
+
+
 
 
 
@@ -43,7 +45,7 @@
 </form>
 
 <ul class="main-navigation">
-      <li >
+      <li class="active">
         <a href="https://blog.florijnconsultancy.nl/category/articles.html">Articles</a>
       </li>
       <li >
@@ -65,14 +67,41 @@
   <div id="main">
     <div id="content">
 <div>
-	<article role="article">
-    	<header>
-    		<h1 class="entry-title">Blog Authors</h1>
-    	</header>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">testgantt</h1>
+    <p class="meta">
+<time datetime="2018-07-27T09:14:00+02:00" pubdate>Fri 27 July 2018</time>    </p>
+</header>
 
-		<p><a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a> (61)</p>
-		<p><a href="https://blog.florijnconsultancy.nl/author/username.html">username</a> (1)</p>
-	</article>
+  <div class="entry-content"><p>image :&nbsp;summary: </p>
+<hr>
+<p>{% plantuml&nbsp;%}</p>
+<p>@startgantt
+[Prototype design] lasts 15 days
+[Test prototype] lasts 10 days&nbsp;@endgantt</p>
+<p>{% endplantuml&nbsp;%}</p>
+<!-- more --></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2018-07-27T09:14:00+02:00" pubdate>Fri 27 July 2018</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
 </div>
 <aside class="sidebar">
   <section>
@@ -178,6 +207,9 @@
   <script src="https://blog.florijnconsultancy.nl/theme/js/octopress.js" type="text/javascript"></script>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
+    var disqus_identifier = '/articles/testgantt.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/testgantt.html';
+    var disqus_title = 'testgantt';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

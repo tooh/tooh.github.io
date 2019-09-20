@@ -4,8 +4,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Authors &mdash; Daily Scrum</title>
+  <title>synology diskstation acces from internet &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
+
+
 
 
 
@@ -49,7 +51,7 @@
       <li >
         <a href="https://blog.florijnconsultancy.nl/category/blogging.html">Blogging</a>
       </li>
-      <li >
+      <li class="active">
         <a href="https://blog.florijnconsultancy.nl/category/diskstation.html">Diskstation</a>
       </li>
       <li >
@@ -65,14 +67,47 @@
   <div id="main">
     <div id="content">
 <div>
-	<article role="article">
-    	<header>
-    		<h1 class="entry-title">Blog Authors</h1>
-    	</header>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">synology diskstation acces from internet</h1>
+    <p class="meta">
+<time datetime="2013-05-05T11:14:00+02:00" pubdate>Sun 05 May 2013</time>    </p>
+</header>
 
-		<p><a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a> (61)</p>
-		<p><a href="https://blog.florijnconsultancy.nl/author/username.html">username</a> (1)</p>
-	</article>
+  <div class="entry-content"><p>I recently bought a Synology Diskstation <span class="caps">DS213</span>+.
+Installation went smoothly and within an hour the basic things were working as&nbsp;expected.</p>
+<p>I wanted to access the <span class="caps">NAS</span> also from the internet, so I used the <span class="caps">EZ</span>-Internet wizard to configure it. I created a synology.me account and created a <span class="caps">DDNS</span> entry. For some reason the portforwarding on my Netgear <span class="caps">WNDR3700</span> was not working as expected. Some people hinted that you could make some manual portforwarding rules, so I decided to give that a try.
+<!-- more --></p>
+<p>When I tried to create a custom service I got an&nbsp;error:</p>
+<p _="%" endhighlight>{% highlight bash %}
+&#8220;The specified port(s) are being used by other configurations. Please check your configurations of <span class="caps">USB</span> Readyshare, Remote Management, Port forwarding, Port Triggering, UPnP Port Mapping table, <span class="caps">RIP</span>, and Internet connection type&nbsp;&#8220;</p>
+<p>I noticed that the port 5000 was already appearing in my uPnP table and I assumed this was the cause of this error. I decided to switch off UPnP and then added the forwarding&nbsp;rule.</p>
+<p><img alt="Port forwarding" src="/images/port_forwarding.png"></p>
+<p>Bingo! I could add the rule and the forwarding is working <span class="caps">OK</span>&nbsp;now.</p>
+<p>So my conclusion for now is that for some reason the <span class="caps">EZ</span>-Internet wizard is not working <span class="caps">OK</span> and does not detect that the forwarding rules were not applied&nbsp;correctly.</p>
+<p>Please comment if I have overlooked&nbsp;something.</p>
+<h2 id="references">References</h2>
+<p>[1] <a href="http://forum.synology.com/wiki/index.php/Remote_Access_on_the_Synology_DiskStation">Remote Access on the Synology&nbsp;DiskStation</a></p></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2013-05-05T11:14:00+02:00" pubdate>Sun 05 May 2013</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/diskstation.html'>diskstation</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a class="category" href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
 </div>
 <aside class="sidebar">
   <section>
@@ -178,6 +213,9 @@
   <script src="https://blog.florijnconsultancy.nl/theme/js/octopress.js" type="text/javascript"></script>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
+    var disqus_identifier = '/articles/synology-diskstation-acces-from-internet.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/synology-diskstation-acces-from-internet.html';
+    var disqus_title = 'synology diskstation acces from&nbsp;internet';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

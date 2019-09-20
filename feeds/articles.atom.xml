@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2019-09-20T07:03:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>Archimate example 2</title><link href="https://blog.florijnconsultancy.nl/articles/archimate-example-2.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/archimate-example-2.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="/images/0f7f4ebd.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>azure</title><link href="https://blog.florijnconsultancy.nl/articles/azure.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/azure.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="/images/23f5fcc7.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>Google example</title><link href="https://blog.florijnconsultancy.nl/articles/google-example.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/google-example.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="/images/23f5fcc7.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>Mysql example</title><link href="https://blog.florijnconsultancy.nl/articles/mysql-example.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/mysql-example.html</id><content type="html">&lt;img alt="uml diagram" class="uml" src="/images/f2ac462a.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>Office example 1</title><link href="https://blog.florijnconsultancy.nl/articles/office-example-1.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/office-example-1.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="/images/b211feac.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>Office example 3</title><link href="https://blog.florijnconsultancy.nl/articles/office-example-3.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/office-example-3.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="/images/83bf9348.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>test include 2</title><link href="https://blog.florijnconsultancy.nl/articles/test-include-2.html" rel="alternate"></link><published>2019-09-19T07:22:00+02:00</published><updated>2019-09-19T07:22:00+02:00</updated><author><name>username</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-19:/articles/test-include-2.html</id><summary type="html"></summary><content type="html">&lt;img alt="uml diagram" class="uml" src="/images/9c7ba43a.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>test plantuml 1</title><link href="https://blog.florijnconsultancy.nl/articles/test-plantuml-1.html" rel="alternate"></link><published>2019-09-16T19:52:00+02:00</published><updated>2019-09-16T19:52:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-plantuml-1.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - articles</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/articles.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2019-09-16T19:52:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>test plantuml 1</title><link href="https://blog.florijnconsultancy.nl/articles/test-plantuml-1.html" rel="alternate"></link><published>2019-09-16T19:52:00+02:00</published><updated>2019-09-16T19:52:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-plantuml-1.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
 &lt;img alt="Sample sequence diagram" class="uml" src="/images/082e4805.png"&gt;&lt;p&gt;re&amp;nbsp;&amp;#8212;&amp;gt;&lt;/p&gt;</content></entry><entry><title>test 4</title><link href="https://blog.florijnconsultancy.nl/articles/test-4.html" rel="alternate"></link><published>2019-09-16T17:14:00+02:00</published><updated>2019-09-16T17:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-4.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
 &lt;!-- more --&gt;
 
@@ -296,56 +291,7 @@ summary: linux command line sort on&amp;nbsp;dates&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>upgrade to Bugzilla 5.0</title><link href="https://blog.florijnconsultancy.nl/articles/upgrade-to-bugzilla-50.html" rel="alternate"></link><published>2015-01-31T10:26:00+01:00</published><updated>2015-01-31T10:26:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-31:/articles/upgrade-to-bugzilla-50.html</id><summary type="html"></summary><content type="html">&lt;div class="toc"&gt;&lt;span class="toctitle"&gt;Table of contents:&lt;/span&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#updating-to-a-newer-release"&gt;Updating to a Newer Release&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#no-local-changes"&gt;No local&amp;nbsp;changes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#upgrade-to-release-50"&gt;Upgrade to release&amp;nbsp;5.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#local-uncommitted-changes"&gt;Local, uncommitted&amp;nbsp;changes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p&gt;I upgraded to Bugzilla&amp;nbsp;5.0.&lt;/p&gt;
-&lt;p&gt;Since the Bugzilla project now supports git, upgrading is now a simple&amp;nbsp;process.&lt;/p&gt;
-&lt;p&gt;These are my installation&amp;nbsp;notes.&lt;/p&gt;
-&lt;h2 id="updating-to-a-newer-release"&gt;Updating to a Newer&amp;nbsp;Release&lt;/h2&gt;
-&lt;h3 id="no-local-changes"&gt;No local&amp;nbsp;changes&lt;/h3&gt;
-&lt;p&gt;If you have no local changes to any tracked files, upgrading to both minor and major releases is&amp;nbsp;simple:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="k"&gt;fetch&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="n"&gt;bugzilla&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;version&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;where (version) is the version number that you want to update to, like&amp;nbsp;5.0rc3&lt;/p&gt;
-&lt;h3 id="upgrade-to-release-50"&gt;Upgrade to release&amp;nbsp;5.0&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="k"&gt;fetch&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="n"&gt;release&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;!— more —&gt;
-
-&lt;h3 id="local-uncommitted-changes"&gt;Local, uncommitted&amp;nbsp;changes&lt;/h3&gt;
-&lt;p&gt;The above checkout command will fail if you’ve made any modifications to files you checked out from git with a warning about overwriting local changes. In this case, the simple solution is to stash and then reapply your changes (assuming you’ve done the “git fetch”&amp;nbsp;already):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;stash&lt;/span&gt; &lt;span class="n"&gt;save&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="n"&gt;bugzilla&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;version&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;stash&lt;/span&gt; &lt;span class="n"&gt;apply&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;However, it is better to create a local branch, which is one of git’s strengths. You can track your customizations and merge in changes from&amp;nbsp;upstream. &lt;/p&gt;</content><category term="bugzilla"></category></entry><entry><title>convert svg to png with inkscape (OSX)</title><link href="https://blog.florijnconsultancy.nl/articles/convert-svg-to-png-with-inkscape-osx.html" rel="alternate"></link><published>2015-01-25T16:21:00+01:00</published><updated>2015-01-25T16:21:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-25:/articles/convert-svg-to-png-with-inkscape-osx.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>convert svg to png with inkscape (OSX)</title><link href="https://blog.florijnconsultancy.nl/articles/convert-svg-to-png-with-inkscape-osx.html" rel="alternate"></link><published>2015-01-25T16:21:00+01:00</published><updated>2015-01-25T16:21:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-25:/articles/convert-svg-to-png-with-inkscape-osx.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id="set-alias-to-inkscape-commandline"&gt;Set alias to inkscape&amp;nbsp;commandline&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;inkscape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/Applications/Inkscape.app/Contents/Resources/bin/inkscape&amp;quot;&lt;/span&gt;
@@ -410,10 +356,7 @@ check&amp;nbsp;config.log)&lt;/li&gt;
 &lt;li&gt;if the build still fails, try to do a make distclean (which requires a
 new configure&amp;nbsp;afterwards)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>update powerline for OSX</title><link href="https://blog.florijnconsultancy.nl/articles/update-powerline-for-osx.html" rel="alternate"></link><published>2015-01-01T12:20:00+01:00</published><updated>2015-01-01T12:20:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-01:/articles/update-powerline-for-osx.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Firmware Update  software for Fritz! Powerline is only officially for&amp;nbsp;Windows. &lt;/p&gt;
-&lt;p&gt;But there is beta software that can do the update on &lt;span class="caps"&gt;OSX&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;ftp://ftp.avm.de/fritz.box/fritz.powerline/deutsch/mac_beta/&lt;/p&gt;
-&lt;!-- more --&gt;</content></entry><entry><title>jenkins jobs lost</title><link href="https://blog.florijnconsultancy.nl/articles/jenkins-jobs-lost.html" rel="alternate"></link><published>2014-11-23T11:47:00+01:00</published><updated>2014-11-23T11:47:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-11-23:/articles/jenkins-jobs-lost.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>jenkins jobs lost</title><link href="https://blog.florijnconsultancy.nl/articles/jenkins-jobs-lost.html" rel="alternate"></link><published>2014-11-23T11:47:00+01:00</published><updated>2014-11-23T11:47:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-11-23:/articles/jenkins-jobs-lost.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;On my local development machine I noticed that I missed all my&amp;nbsp;jobs.&lt;/p&gt;
 &lt;p&gt;On my &lt;span class="caps"&gt;OSX&lt;/span&gt; machine all the job info was there in the .jenkins/jobs&amp;nbsp;directory.&lt;/p&gt;
@@ -479,24 +422,7 @@ new configure&amp;nbsp;afterwards)&lt;/li&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;{:toc}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Disabling Nap App</title><link href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html" rel="alternate"></link><published>2014-10-25T12:02:00+02:00</published><updated>2014-10-25T12:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-25:/articles/disabling-nap-app.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Since Mavericks there is a feature called Nap&amp;nbsp;app.&lt;/p&gt;
-&lt;p&gt;For some reason it can be better to prevent an application to take a&amp;nbsp;nap.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs tip %}
-You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;defaults&lt;/span&gt; &lt;span class="k"&gt;write&lt;/span&gt; &lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;apple&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Terminal&lt;/span&gt; &lt;span class="n"&gt;NSAppSleepDisabled&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;bool&lt;/span&gt; &lt;span class="n"&gt;YES&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;The Manual&amp;nbsp;Solution:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Mavericks comes with a dreaded feature &amp;#8212;- App Nap &amp;#8212; that is designed to save battery live and be energy star compliant.   Fine for some apps &amp;#8212; but it doesn&amp;#8217;t really work if you are using Studio as a web server.   You can manually turn it off by:
-&amp;#8212; doing a &amp;#8216;get info&amp;#8217; on Studio and 
-&amp;#8212; clicking the &amp;#8216;disable app nap&amp;#8217;&amp;nbsp;feature.&lt;/p&gt;
-&lt;p&gt;you&amp;#8217;ll get all your studio horses firing on all cylinders even in the background &amp;#8212; which is what you&amp;nbsp;want.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="http://www.cultofmac.com/274396/disable-app-nap-specific-apps-os-x-tips/"&gt;Disable nap&amp;nbsp;app&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content></entry><entry><title>Upgrade to Yosemite</title><link href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;p&gt;{:toc}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Upgrade to Yosemite</title><link href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
@@ -1236,22 +1162,7 @@ end&amp;nbsp;alfred_script&lt;/p&gt;
 &lt;p&gt;[1] &lt;a href="http://http://en.wikipedia.org/wiki/Plain_old_telephone_service"&gt;&lt;span class="caps"&gt;POTS&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] &lt;a href="http://www.avm.de"&gt;&lt;span class="caps"&gt;AVM&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[3] &lt;a href="http://http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/page:1"&gt;&lt;span class="caps"&gt;AVM&lt;/span&gt; Knowledge&amp;nbsp;base&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband&amp;nbsp;review&lt;/a&gt; &lt;/p&gt;</content><category term="[telephony"></category><category term="VOIP]"></category></entry><entry><title>synology diskstation acces from internet</title><link href="https://blog.florijnconsultancy.nl/articles/synology-diskstation-acces-from-internet.html" rel="alternate"></link><published>2013-05-05T11:14:00+02:00</published><updated>2013-05-05T11:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-05:/articles/synology-diskstation-acces-from-internet.html</id><summary type="html">&lt;p&gt;I recently bought a Synology Diskstation &lt;span class="caps"&gt;DS213&lt;/span&gt;+.
-Installation went smoothly and within an hour the basic things were working as&amp;nbsp;expected.&lt;/p&gt;
-&lt;p&gt;I wanted to access the &lt;span class="caps"&gt;NAS&lt;/span&gt; also from the internet, so I used the &lt;span class="caps"&gt;EZ&lt;/span&gt;-Internet wizard to configure it. I created a synology.me account and created a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I recently bought a Synology Diskstation &lt;span class="caps"&gt;DS213&lt;/span&gt;+.
-Installation went smoothly and within an hour the basic things were working as&amp;nbsp;expected.&lt;/p&gt;
-&lt;p&gt;I wanted to access the &lt;span class="caps"&gt;NAS&lt;/span&gt; also from the internet, so I used the &lt;span class="caps"&gt;EZ&lt;/span&gt;-Internet wizard to configure it. I created a synology.me account and created a &lt;span class="caps"&gt;DDNS&lt;/span&gt; entry. For some reason the portforwarding on my Netgear &lt;span class="caps"&gt;WNDR3700&lt;/span&gt; was not working as expected. Some people hinted that you could make some manual portforwarding rules, so I decided to give that a try.
-&lt;!-- more --&gt;&lt;/p&gt;
-&lt;p&gt;When I tried to create a custom service I got an&amp;nbsp;error:&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-&amp;#8220;The specified port(s) are being used by other configurations. Please check your configurations of &lt;span class="caps"&gt;USB&lt;/span&gt; Readyshare, Remote Management, Port forwarding, Port Triggering, UPnP Port Mapping table, &lt;span class="caps"&gt;RIP&lt;/span&gt;, and Internet connection type&amp;nbsp;&amp;#8220;&lt;/p&gt;
-&lt;p&gt;I noticed that the port 5000 was already appearing in my uPnP table and I assumed this was the cause of this error. I decided to switch off UPnP and then added the forwarding&amp;nbsp;rule.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Port forwarding" src="/images/port_forwarding.png"&gt;&lt;/p&gt;
-&lt;p&gt;Bingo! I could add the rule and the forwarding is working &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;now.&lt;/p&gt;
-&lt;p&gt;So my conclusion for now is that for some reason the &lt;span class="caps"&gt;EZ&lt;/span&gt;-Internet wizard is not working &lt;span class="caps"&gt;OK&lt;/span&gt; and does not detect that the forwarding rules were not applied&amp;nbsp;correctly.&lt;/p&gt;
-&lt;p&gt;Please comment if I have overlooked&amp;nbsp;something.&lt;/p&gt;
-&lt;h2 id="references"&gt;References&lt;/h2&gt;
-&lt;p&gt;[1] &lt;a href="http://forum.synology.com/wiki/index.php/Remote_Access_on_the_Synology_DiskStation"&gt;Remote Access on the Synology&amp;nbsp;DiskStation&lt;/a&gt;&lt;/p&gt;</content><category term="diskstation"></category><category term="synology"></category></entry><entry><title>Alfred workflow for Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html" rel="alternate"></link><published>2013-04-23T13:34:00+02:00</published><updated>2013-04-23T13:34:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-23:/articles/alfred-workflow-for-octopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I have been using Alfred v2 for a couple of weeks now and I am very pleased about the workflow feature from the Power&amp;nbsp;pack.&lt;/p&gt;
+&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband&amp;nbsp;review&lt;/a&gt; &lt;/p&gt;</content><category term="[telephony"></category><category term="VOIP]"></category></entry><entry><title>Alfred workflow for Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html" rel="alternate"></link><published>2013-04-23T13:34:00+02:00</published><updated>2013-04-23T13:34:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-23:/articles/alfred-workflow-for-octopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I have been using Alfred v2 for a couple of weeks now and I am very pleased about the workflow feature from the Power&amp;nbsp;pack.&lt;/p&gt;
 &lt;p&gt;I try to develop some workflows myself and now I have developed an easy workflow for Octopress , the static site&amp;nbsp;generator.&lt;/p&gt;
 &lt;!-- more --&gt;
 
@@ -1272,142 +1183,4 @@ cd $&lt;span class="caps"&gt;HOME&lt;/span&gt;/Sites/dailyscrum
 &lt;p&gt;export &lt;span class="caps"&gt;LANG&lt;/span&gt;=en_US.utf-8&lt;/p&gt;
 &lt;p&gt;bundle install
 rake generate 2&amp;gt;&amp;amp;1 | tee $&lt;span class="caps"&gt;HOME&lt;/span&gt;/Sites/dailyscrum/error.log&lt;/p&gt;
-&lt;p&gt;{% endhighlight&amp;nbsp;%}&lt;/p&gt;</content></entry><entry><title>Installation notes Testopia</title><link href="https://blog.florijnconsultancy.nl/articles/installation-notes-testopia.html" rel="alternate"></link><published>2013-04-21T21:00:00+02:00</published><updated>2013-04-21T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-21:/articles/installation-notes-testopia.html</id><summary type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make Testopia work on my local installation. This will be updated as I go&amp;nbsp;along.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go along.
-&lt;!-- more --&gt;&lt;/p&gt;
-&lt;h3 id="testopia-testcase-management-system"&gt;Testopia testcase management&amp;nbsp;system&lt;/h3&gt;
-&lt;h3 id="requirements"&gt;Requirements&lt;/h3&gt;
-&lt;p&gt;The Testopia Extension requires Bugzilla &amp;gt;4.2.
-Testopi version 2.5 is the first release that does not need a patch on Bugzilla to&amp;nbsp;work.&lt;/p&gt;
-&lt;h3 id="old-notes-relevant-before-v25"&gt;old notes relevant before&amp;nbsp;v2.5&lt;/h3&gt;
-&lt;h2 id="installation-of-testopia-extension"&gt;Installation of Testopia&amp;nbsp;extension&lt;/h2&gt;
-&lt;h3 id="how-to-get-testopia"&gt;How to get&amp;nbsp;Testopia&lt;/h3&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-$ bzr branch&amp;nbsp;bzr://bzr.mozilla.org/bugzilla/extensions/testopia/trunk&lt;/p&gt;
-&lt;h3 id="patch-bugzilla-42"&gt;Patch Bugzilla&amp;nbsp;4.2&lt;/h3&gt;
-&lt;p&gt;Note: 603-2012: No patch for 4.2 available at time of&amp;nbsp;patching&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;cd to the directory with the Testopia&amp;nbsp;trunk&lt;/li&gt;
-&lt;li&gt;copy items from the downloaded Testopia&amp;nbsp;trunk &lt;/li&gt;
-&lt;li&gt;cd&amp;nbsp;/usr/local/bugzilla&lt;/li&gt;
-&lt;li&gt;paste items from the downloaded Testopia trunk and merge the extensions&amp;nbsp;directory&lt;/li&gt;
-&lt;li&gt;patch -p0 -i extensions/Testopia/patch-4.0
-patching file Bugzilla/Bug.pm
-Hunk #1 succeeded at 3628 (offset 101 lines).
-patching file Bugzilla/Constants.pm
-Hunk #1 succeeded at 145 (offset 1 line).
-Hunk #2 succeeded at 470 (offset 5 lines).
-patching file Bugzilla/Error.pm
-Hunk #2 succeeded at 145 (offset -6 lines).
-patching file Bugzilla/Install/Filesystem.pm
-Hunk #1 succeeded at 153 (offset 3 lines).
-patching file Bugzilla/Search.pm
-Hunk #1 &lt;span class="caps"&gt;FAILED&lt;/span&gt; at 510.
-1 out of 1 hunk &lt;span class="caps"&gt;FAILED&lt;/span&gt; &amp;#8212; saving rejects to file Bugzilla/Search.pm.rej
-patching file Bugzilla/User.pm
-Hunk #1 succeeded at 575 with fuzz 1 (offset 67 lines).
-Hunk #2 succeeded at 936 (offset 82 lines).
-Hunk #3 succeeded at 1292 (offset 130 lines).
-patching file&amp;nbsp;template/en/default/global/setting-descs.none.tmpl&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id="run-checksetuppl"&gt;Run&amp;nbsp;.checksetup.pl&lt;/h3&gt;
-&lt;p&gt;./checksetup.pl&lt;/p&gt;
-&lt;h3 id="install-additional-dependencies"&gt;Install additional&amp;nbsp;dependencies&lt;/h3&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-$ sudo /usr/bin/perl install-module.pl Text::Diff
-$ sudo /usr/bin/perl install-module.pl &lt;span class="caps"&gt;GD&lt;/span&gt;::Graph3d&lt;/p&gt;
-&lt;h3 id="run-checksetup-again"&gt;Run .checksetup&amp;nbsp;again&lt;/h3&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-$&amp;nbsp;./checksetup.pl&lt;/p&gt;
-&lt;p&gt;You should now&amp;nbsp;get &lt;/p&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-$ checksetup.pl&amp;nbsp;complete.&lt;/p&gt;
-&lt;h3 id="errors-on-filter-url_quote"&gt;Errors on &lt;span class="caps"&gt;FILTER&lt;/span&gt;&amp;nbsp;url_quote&lt;/h3&gt;
-&lt;p&gt;Template-&amp;gt;process() failed twice.
-First error: undef error - url_quote: filter not found
-Second error: undef error - url_quote: filter not&amp;nbsp;found&lt;/p&gt;
-&lt;p&gt;Seems this is&amp;nbsp;deprecated&lt;/p&gt;
-&lt;p&gt;Found Bugzilla message 398701 with&amp;nbsp;fix&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-find . &lt;em&gt;-type f -name &amp;#8220;&lt;/em&gt;.tmpl&amp;#8221; -exec replace &amp;#8216;&lt;span class="caps"&gt;FILTER&lt;/span&gt; url_quote&amp;#8217; &amp;#8216;&lt;span class="caps"&gt;FILTER&lt;/span&gt; uri&amp;#8217; &amp;#8212; {}&amp;nbsp;\;*&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;Executed this from the Testopia extensions directory this updated a number of template files:
-{% highlight bash %}
-./template/en/default/hook/bug/create/create-end.html.tmpl converted
-./template/en/default/hook/bug/edit-after_custom_fields.html.tmpl converted
-./template/en/default/hook/bug/process/results-links.html.tmpl converted
-./template/en/default/hook/global/common-links-link-row.html.tmpl converted
-./template/en/default/hook/global/useful-links-end.html.tmpl converted
-./template/en/default/testopia/reports/build-coverage.html.tmpl converted
-./template/en/default/testopia/reports/completion.html.tmpl converted
-./template/en/default/testopia/reports/execution.html.tmpl converted
-./template/en/default/testopia/reports/priority-breakdown.html.tmpl converted
-./template/en/default/testopia/reports/report-table.html.tmpl converted
-./template/en/default/testopia/reports/report.html.tmpl converted
-./template/en/default/testopia/reports/status.html.tmpl converted
-./template/en/default/testopia/tag/list.html.tmpl&amp;nbsp;converted&lt;/p&gt;
-&lt;h3 id="additional-patching"&gt;Additional&amp;nbsp;patching&lt;/h3&gt;
-&lt;h4 id="searchpm"&gt;Search.pm&lt;/h4&gt;
-&lt;p&gt;There seems to be a problem in&amp;nbsp;Bugzilla/Search.pm&lt;/p&gt;
-&lt;p _="%" bash highlight&gt;A patch was suggested in &lt;span class="caps"&gt;BZ&lt;/span&gt; 596325
-I copied the patch file and applied&amp;nbsp;it&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;$ sudo patch -p0 -i extensions/Testopia/patch-bz596325
-$ chgrp the Search.pm  and make it member of the _www&amp;nbsp;group&lt;/p&gt;
-&lt;p&gt;Patch works and now Testopia-&amp;gt; My plans does not give an error&amp;nbsp;anymore&lt;/p&gt;
-&lt;h3 id="new-plan"&gt;New&amp;nbsp;plan&lt;/h3&gt;
-&lt;p&gt;It seems the link New plan is not working.
-In the Apache error_log there are a lot of&amp;nbsp;errors&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-File does not exist: /Library/WebServer/Documents/bugzilla/extensions/Testopia/extjs, referer:&amp;nbsp;http://tooh.homedns.org/bugzilla/tr_new_plan.cgi&lt;/p&gt;
-&lt;p&gt;I did not install the extjs files so probably this is the&amp;nbsp;problem.&lt;/p&gt;
-&lt;p _="%" bash highlight&gt;On the Testopia wiki there is some&amp;nbsp;instructions&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;$&amp;gt; cd path/to/bugzilla/testopia/
-$&amp;gt; wget http://extjs.com/deploy/ext-3.2.1.zip
-$&amp;gt; unzip ext-3.2.1.zip
-$&amp;gt; mv ext-3.2.1&amp;nbsp;extjs&lt;/p&gt;
-&lt;p&gt;Found out that the files are not there anymore
-Downloaded the older version&amp;nbsp;http://www.sencha.com/products/extjs/download/ext-js-3.2.1&lt;/p&gt;
-&lt;p&gt;Renamed the folder to&amp;nbsp;extjs&lt;/p&gt;
-&lt;p&gt;Note: Don&amp;#8217;t forget to refresh. And now it is&amp;nbsp;working.&lt;/p&gt;
-&lt;h3 id="new-run"&gt;New&amp;nbsp;run&lt;/h3&gt;
-&lt;p&gt;Initially no testcases where shown.
-Investigation of the /var/log/apache2/error_log showed that there was an error with een uninitialized variable.
-I commented out use strict in the header of&amp;nbsp;/usr/local/bugzilla/extensions/Testopia/lib/Search.pm&lt;/p&gt;
-&lt;p&gt;Everything &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;now.&lt;/p&gt;
-&lt;h3 id="reference"&gt;Reference&lt;/h3&gt;
-&lt;p&gt;[1]
-&lt;a href="http://www.mozilla.org/projects/testopia/"&gt;Testopia&amp;nbsp;Mozilla&lt;/a&gt;&lt;/p&gt;</content><category term="testopia bugzilla testmanagement"></category></entry><entry><title>Project Nestor</title><link href="https://blog.florijnconsultancy.nl/articles/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-21:/articles/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is&amp;nbsp;Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Together with Bruno Kinoshita I am involved in a project for the development of a new testcase management application. The working title of the application is Nestor.
-&lt;!-- more --&gt;&lt;/p&gt;
-&lt;h2 id="project-team"&gt;Project&amp;nbsp;team&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Bruno&amp;nbsp;Kinoshita&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;co-founder of&amp;nbsp;Tupilabs&lt;/li&gt;
-&lt;li&gt;Apache&amp;nbsp;committer&lt;/li&gt;
-&lt;li&gt;developer of the Testlink Jenkins&amp;nbsp;plugin&lt;/li&gt;
-&lt;li&gt;developer of Testopia Jenkins&amp;nbsp;plugin&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Peter&amp;nbsp;Florijn&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Owner of Peter Florijn Consultancy &lt;span class="caps"&gt;B.V.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;co-developer of the Testopia plugin for&amp;nbsp;Jenkins. &lt;/li&gt;
-&lt;li&gt;contributor to Bugzilla&amp;nbsp;project&lt;/li&gt;
-&lt;li&gt;contributor to Testopia&amp;nbsp;project&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="nestor-wiki-work-in-progress"&gt;Nestor Wiki (work in&amp;nbsp;progress)&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://github.com/nestor-qa/nestor/wiki"&gt;Nestor&amp;nbsp;Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="status-demo-application"&gt;Status demo&amp;nbsp;application&lt;/h2&gt;
-&lt;p&gt;&lt;a href="http://www.nestor-qa.org" title="Nestor QA"&gt;Nestor &lt;span class="caps"&gt;QA&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="references"&gt;References&lt;/h2&gt;
-&lt;p&gt;&lt;a href="http://www.tupilabs.com" title="Tupilabs"&gt;Tupilabs&lt;/a&gt;&lt;/p&gt;</content><category term="testmanagement"></category><category term="opensource"></category><category term="project"></category></entry><entry><title>Static blog with Jekyll/Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/static-blog-with-jekylloctopress.html" rel="alternate"></link><published>2013-04-20T21:00:00+02:00</published><updated>2013-04-20T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-20:/articles/static-blog-with-jekylloctopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;After using several blogging tools over the years I am now heavily into using Markdown. My workflow is becoming more and more based on scripting environments and tools like Alfred.
-So I was looking for a good static blog generator, just like in the old days when I was using Blosxom. 
-Looking for a way to use Markdown as the workhorse I decided to give Jekyll a try. Jekyll is a static blog site generator based on Ruby. I found some projects that use Jekyll and after a day of configuration the first setup is&amp;nbsp;ready.&lt;/p&gt;
-&lt;!-- more --&gt;
-
-&lt;p&gt;I started with a basic Jekyll setup. When I was searching for some info I found a tool based on Jekyll, called Octopress
-I decided to give Octopress a try. This blog is now powered by Octopress.
-When I go along I will update this post with some new&amp;nbsp;notes.&lt;/p&gt;
-&lt;h3 id="external-links"&gt;External&amp;nbsp;links&lt;/h3&gt;
-&lt;p&gt;[1] When I was installing Octopress I used a good tutorial I found &lt;a href="http://webdesign.tutsplus.com/tutorials/applications/getting-started-with-octopress/"&gt;Getting started with&amp;nbsp;Octopress&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[2] Also &lt;a href="http://learnaholic.me/2012/10/10/deploying-octopress-to-github-pages-and-setting-custom-subdomain-cname/"&gt;Deploying Octopress to Github Pages&lt;/a&gt; gave some good&amp;nbsp;tips. &lt;/p&gt;
-&lt;p&gt;[3] &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] &lt;a href="http://octopress.org/"&gt;Octopress&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] &lt;a href="http://code.dblock.org/octopress-setting-up-a-blog-and-contributing-to-an-existing-one"&gt;Setting up a blog and contribute to an existing&amp;nbsp;one&lt;/a&gt;&lt;/p&gt;</content><category term="github blog ruby"></category></entry></feed>
+&lt;p&gt;{% endhighlight&amp;nbsp;%}&lt;/p&gt;</content></entry></feed>

@@ -4,8 +4,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Authors &mdash; Daily Scrum</title>
+  <title>“Slow Time Machine backup on Mavericks” &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
+
+
 
 
 
@@ -43,7 +45,7 @@
 </form>
 
 <ul class="main-navigation">
-      <li >
+      <li class="active">
         <a href="https://blog.florijnconsultancy.nl/category/articles.html">Articles</a>
       </li>
       <li >
@@ -65,14 +67,64 @@
   <div id="main">
     <div id="content">
 <div>
-	<article role="article">
-    	<header>
-    		<h1 class="entry-title">Blog Authors</h1>
-    	</header>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">“Slow Time Machine backup on Mavericks”</h1>
+    <p class="meta">
+<time datetime="2014-08-25T09:36:29+02:00" pubdate>Mon 25 August 2014</time>    </p>
+</header>
 
-		<p><a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a> (61)</p>
-		<p><a href="https://blog.florijnconsultancy.nl/author/username.html">username</a> (1)</p>
-	</article>
+  <div class="entry-content"><p>{:toc}</p>
+<h2 id="introduction">Introduction</h2>
+<p>Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my <span class="caps">HD</span> and as a consequence slows down my&nbsp;Mac.</p>
+<p>I Googled around to find a solution and although I found some possible solutions I still have the&nbsp;problem.</p>
+<p>I have also a notebook backing up to the same Synology and this backup is fast as&nbsp;ever.</p>
+<p>After many hours the backup is completed and now it seems stuck for hours in verifying the&nbsp;backup.</p>
+<!-- more -->
+
+<p>Finally the backup was completed but the verification took a long time as well and was stuck on&nbsp;69%.</p>
+<p>I am suspecting a hardware problem, possibly the&nbsp;harddisk.</p>
+<p>Diskutil did not report anything&nbsp;strange.</p>
+<p>My <span class="caps">HD</span> is a Seagate <span class="caps">HD</span> thas qualifies for the replacement program, I missed the 3 year deadline, so now I am stuck with this&nbsp;disk.</p>
+<h2 id="software-diagnostics">Software&nbsp;Diagnostics</h2>
+<p _="%" enddocs>{% docs tip %}
+You can try to run some standard diagnostics tools to eliminate some basic&nbsp;causes.</p>
+<p>Spotlight&nbsp;diagnostics</p>
+<div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">mdsdiagnose</span>
+</pre></div>
+
+
+<p>Time machine&nbsp;diagnostics</p>
+<div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">tmdiagnose</span>
+</pre></div>
+
+
+<h2 id="hardware-diagnostics">Hardware&nbsp;Diagnostics</h2>
+<p>Next step is to run the Apple Hardware Test (<span class="caps">AHT</span>).</p>
+<p>Reboot and press D before the grey&nbsp;screen.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>I noticed from the activity monitor that there were several postfix background processes running. These were initiated because I had <span class="caps">OSX</span> Server running on this machine as well. Although the email service was not activitated in the configuration, it seemed that these processes were running&nbsp;altogether. </p>
+<p>I decided to deinstall <span class="caps">OSX</span> server and see what would&nbsp;happen.</p>
+<p>After deinstalling <span class="caps">OSX</span> server it seems that my Time Machine backup is running as&nbsp;normal.</p>
+<p>My analysis is that these postfix processes caused some constant file io which interfered somehow with Spotlight/Time&nbsp;Machine.</p></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2014-08-25T09:36:29+02:00" pubdate>Mon 25 August 2014</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
+  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
 </div>
 <aside class="sidebar">
   <section>
@@ -178,6 +230,9 @@
   <script src="https://blog.florijnconsultancy.nl/theme/js/octopress.js" type="text/javascript"></script>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
+    var disqus_identifier = '/articles/slow-time-machine-backup-on-mavericks.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/slow-time-machine-backup-on-mavericks.html';
+    var disqus_title = '<span class="dquo">&#8220;</span>Slow Time Machine backup on&nbsp;Mavericks&#8221;';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
