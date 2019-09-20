@@ -39,7 +39,7 @@
 
 
 <ul class="main-navigation">
-      <li class="active">
+      <li >
         <a href="https://blog.florijnconsultancy.nl/category/articles.html">Articles</a>
       </li>
       <li >
@@ -47,6 +47,9 @@
       </li>
       <li >
         <a href="https://blog.florijnconsultancy.nl/category/diskstation.html">Diskstation</a>
+      </li>
+      <li class="active">
+        <a href="https://blog.florijnconsultancy.nl/category/install.html">Install</a>
       </li>
       <li >
         <a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a>
@@ -65,13 +68,20 @@
 <time datetime="2015-01-31T10:26:00+01:00" pubdate>Sat 31 January 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><p>image :&nbsp;summary: </p>
-<hr>
+  <div class="entry-content"><div class="toc"><span class="toctitle">Table of contents:</span><ul>
+<li><a href="#updating-to-a-newer-release">Updating to a Newer Release</a><ul>
+<li><a href="#no-local-changes">No local&nbsp;changes</a></li>
+<li><a href="#upgrade-to-release-50">Upgrade to release&nbsp;5.0</a></li>
+<li><a href="#local-uncommitted-changes">Local, uncommitted&nbsp;changes</a></li>
+</ul>
+</li>
+</ul>
+</div>
 <p>I upgraded to Bugzilla&nbsp;5.0.</p>
 <p>Since the Bugzilla project now supports git, upgrading is now a simple&nbsp;process.</p>
 <p>These are my installation&nbsp;notes.</p>
-<h2>Updating to a Newer&nbsp;Release</h2>
-<h3>No local&nbsp;changes</h3>
+<h2 id="updating-to-a-newer-release">Updating to a Newer&nbsp;Release</h2>
+<h3 id="no-local-changes">No local&nbsp;changes</h3>
 <p>If you have no local changes to any tracked files, upgrading to both minor and major releases is&nbsp;simple:</p>
 <div class="highlight"><pre><span></span><span class="n">git</span> <span class="k">fetch</span>
 </pre></div>
@@ -82,7 +92,7 @@
 
 
 <p>where (version) is the version number that you want to update to, like&nbsp;5.0rc3</p>
-<h3>Upgrade to release&nbsp;5.0</h3>
+<h3 id="upgrade-to-release-50">Upgrade to release&nbsp;5.0</h3>
 <div class="highlight"><pre><span></span><span class="n">git</span> <span class="k">fetch</span>
 </pre></div>
 
@@ -93,7 +103,7 @@
 
 <!— more —>
 
-<h3>Local, uncommitted&nbsp;changes</h3>
+<h3 id="local-uncommitted-changes">Local, uncommitted&nbsp;changes</h3>
 <p>The above checkout command will fail if you’ve made any modifications to files you checked out from git with a warning about overwriting local changes. In this case, the simple solution is to stash and then reapply your changes (assuming you’ve done the “git fetch”&nbsp;already):</p>
 <div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">stash</span> <span class="n">save</span>
 </pre></div>
@@ -116,10 +126,10 @@
     </span>
   </span>
 <time datetime="2015-01-31T10:26:00+01:00" pubdate>Sat 31 January 2015</time>  <span class="categories">
-    <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/install.html'>install</a>
   </span>
   <span class="categories">
-    <a class="category" href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>  </span>
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>  </span>
 </p><div class="sharing">
 </div>    </footer>
   </article>
@@ -157,6 +167,7 @@
         <li><a href="https://blog.florijnconsultancy.nl/category/articles.html">articles</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/blogging.html">Blogging</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/diskstation.html">diskstation</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/install.html">install</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/osx.html">osx</a></li>
     </ul>
@@ -165,7 +176,7 @@
 
   <section>
   <h1>Tags</h1>
-    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">[writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/octopress.html">octopress]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
+    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">[writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/octopress.html">octopress]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
 
 
 

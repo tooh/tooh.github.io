@@ -49,6 +49,9 @@
         <a href="https://blog.florijnconsultancy.nl/category/diskstation.html">Diskstation</a>
       </li>
       <li >
+        <a href="https://blog.florijnconsultancy.nl/category/install.html">Install</a>
+      </li>
+      <li >
         <a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a>
       </li>
       <li >
@@ -67,15 +70,15 @@
 
   <div class="entry-content"><p>image :&nbsp;summary: </p>
 <hr>
-<h1>Introduction</h1>
+<h1 id="introduction">Introduction</h1>
 <p>After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
 It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&nbsp;Yosemite.</p>
 <!-- more -->
 
 <p>{:toc}</p>
-<h2>Update&nbsp;rvm</h2>
+<h2 id="update-rvm">Update&nbsp;rvm</h2>
 <p>rvm get&nbsp;stable</p>
-<h2>Fix&nbsp;brew</h2>
+<h2 id="fix-brew">Fix&nbsp;brew</h2>
 <p>Changing 1.8  in Current in brew.rb made brew working&nbsp;again.</p>
 <p>Change</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="ch">#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -W0</span>
@@ -87,7 +90,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 </pre></div>
 </td></tr></table>
 
-<h2>Ruby</h2>
+<h2 id="ruby">Ruby</h2>
 <p>In order to make some of my projects work again I had to install a different Ruby&nbsp;version.</p>
 <p>Installing it only&nbsp;with</p>
 <div class="highlight"><pre><span></span><span class="n">rvm</span> <span class="n">install</span>
@@ -100,7 +103,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 </pre></div>
 
 
-<h2>Bugzilla /&nbsp;perl</h2>
+<h2 id="bugzilla-perl">Bugzilla /&nbsp;perl</h2>
 <p>Symptom:</p>
 <p>My local Bugzilla installation does not work&nbsp;anymore.</p>
 <p>Cause:</p>
@@ -180,6 +183,7 @@ I have to find out how to configure&nbsp;this</p>
         <li><a href="https://blog.florijnconsultancy.nl/category/articles.html">articles</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/blogging.html">Blogging</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/diskstation.html">diskstation</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/install.html">install</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/osx.html">osx</a></li>
     </ul>
@@ -188,7 +192,7 @@ I have to find out how to configure&nbsp;this</p>
 
   <section>
   <h1>Tags</h1>
-    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">[writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/octopress.html">octopress]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
+    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">[writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/octopress.html">octopress]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
 
 
 

@@ -49,6 +49,9 @@
         <a href="https://blog.florijnconsultancy.nl/category/diskstation.html">Diskstation</a>
       </li>
       <li >
+        <a href="https://blog.florijnconsultancy.nl/category/install.html">Install</a>
+      </li>
+      <li >
         <a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a>
       </li>
       <li >
@@ -70,8 +73,8 @@
 <p>I have a Samsung Smart <span class="caps">TV</span> (D series). On this <span class="caps">TV</span> you can install the Plex app from the Samsung App store. Out of the box the App was not able to find and connect to my Plex Media server (<span class="caps">PMS</span>) on my <span class="caps">OSX</span> Mavericks machine.
 In this post I describe how to open up the firewall in order to make this setup work.
 <!-- more --></p>
-<h2>Samsung Plex app and Plex Media&nbsp;server</h2>
-<h3>Preparation</h3>
+<h2 id="samsung-plex-app-and-plex-media-server">Samsung Plex app and Plex Media&nbsp;server</h2>
+<h3 id="preparation">Preparation</h3>
 <ul>
 <li>
 <p>Make sure the <span class="caps">PMS</span> runs on port 32400, none other will&nbsp;work.</p>
@@ -89,7 +92,7 @@ In this post I describe how to open up the firewall in order to make this setup 
 <p>Make sure no firewall software is blocking access to your <span class="caps">PMS</span></p>
 </li>
 </ul>
-<h3><span class="caps">OSX</span> firewall <span class="caps">ON</span></h3>
+<h3 id="osx-firewall-on"><span class="caps">OSX</span> firewall <span class="caps">ON</span></h3>
 <p>I prefer to leave the Application Firewall (<span class="caps">ALF</span>) on. 
 Normal procedure to open up ports for a specific app would be to add the application to the&nbsp;Firewall.</p>
 <div class="highlight"><pre><span></span><span class="mi">1</span>. <span class="nv">Click</span> <span class="nv">the</span> <span class="nv">Firewall</span> <span class="nv">tab</span> <span class="nv">in</span> <span class="nv">the</span> <span class="nv">Security</span> <span class="nv">pane</span>.
@@ -105,15 +108,15 @@ Normal procedure to open up ports for a specific app would be to add the applica
 
 
 <p>For some reason this was not sufficient and I could not connect to my <span class="caps">PMS</span>&nbsp;server</p>
-<h3>Firewall&nbsp;rules</h3>
+<h3 id="firewall-rules">Firewall&nbsp;rules</h3>
 <p><span class="caps">OSX</span> contains a number of firewalls (<span class="caps">ALF</span>, ipfw and pf)
 <a href="http://f.adric.net/index.cgi/wiki?name=MacSec_Firewalls">MacSec_Firewalls</a></p>
-<h3><span class="caps">PMS</span> blocked&nbsp;?</h3>
+<h3 id="pms-blocked"><span class="caps">PMS</span> blocked&nbsp;?</h3>
 <p>For some reason I could not connect and I disabled the <span class="caps">ALF</span> firewall. But still I could not connect. I executed the following steps and suddenly I could connect (with the <span class="caps">ALF</span> firewall turned&nbsp;on). </p>
 <p>A couple of days later I found out that even without the rule active (Note: Adding the firewall rule as described does not make the rule stick, you have to add that to a ipfw.conf file) 
 I can connect to the <span class="caps">PMS</span> from my <span class="caps">SAMSUNG</span> <span class="caps">TV</span> and my <span class="caps">SAMSUNG</span> <span class="caps">BD</span>-D6500. I can not explain this. In any case it was interesting to investigate some firewall stuff.
 So use this info as&nbsp;is.</p>
-<h3>Add rule to let Samsung <span class="caps">TV</span> communicate with <span class="caps">PMS</span></h3>
+<h3 id="add-rule-to-let-samsung-tv-communicate-with-pms">Add rule to let Samsung <span class="caps">TV</span> communicate with <span class="caps">PMS</span></h3>
 <p>I used info from this outdated page
 <a href="http://www.ibiblio.org/macsupport/ipfw/">www.ibiblio.org</a></p>
 <ol>
@@ -126,9 +129,9 @@ So use this info as&nbsp;is.</p>
 </ol>
 <p>sudo ipfw add allow tcp from 192.168.1.0/24 to any dst-port 32400&nbsp;in</p>
 <p>{% endcodeblock&nbsp;%}</p>
-<h3>Result</h3>
+<h3 id="result">Result</h3>
 <p>After adding this firewall rule and entering the <span class="caps">IP</span> address of my <span class="caps">PMS</span> server the <span class="caps">SAMSUNG</span> app connected succesfully and I was able to play my&nbsp;media.</p>
-<h3>References</h3></div>
+<h3 id="references">References</h3></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -178,6 +181,7 @@ So use this info as&nbsp;is.</p>
         <li><a href="https://blog.florijnconsultancy.nl/category/articles.html">articles</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/blogging.html">Blogging</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/diskstation.html">diskstation</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/install.html">install</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/osx.html">osx</a></li>
     </ul>
@@ -186,7 +190,7 @@ So use this info as&nbsp;is.</p>
 
   <section>
   <h1>Tags</h1>
-    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">[writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/octopress.html">octopress]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
+    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">[writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/octopress.html">octopress]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
 
 
 

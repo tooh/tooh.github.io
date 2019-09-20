@@ -49,6 +49,9 @@
         <a href="https://blog.florijnconsultancy.nl/category/diskstation.html">Diskstation</a>
       </li>
       <li >
+        <a href="https://blog.florijnconsultancy.nl/category/install.html">Install</a>
+      </li>
+      <li >
         <a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a>
       </li>
       <li >
@@ -66,7 +69,7 @@
 </header>
 
   <div class="entry-content"><p>{:toc}</p>
-<h2>Introduction</h2>
+<h2 id="introduction">Introduction</h2>
 <p>Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my <span class="caps">HD</span> and as a consequence slows down my&nbsp;Mac.</p>
 <p>I Googled around to find a solution and although I found some possible solutions I still have the&nbsp;problem.</p>
 <p>I have also a notebook backing up to the same Synology and this backup is fast as&nbsp;ever.</p>
@@ -77,7 +80,7 @@
 <p>I am suspecting a hardware problem, possibly the&nbsp;harddisk.</p>
 <p>Diskutil did not report anything&nbsp;strange.</p>
 <p>My <span class="caps">HD</span> is a Seagate <span class="caps">HD</span> thas qualifies for the replacement program, I missed the 3 year deadline, so now I am stuck with this&nbsp;disk.</p>
-<h2>Software&nbsp;Diagnostics</h2>
+<h2 id="software-diagnostics">Software&nbsp;Diagnostics</h2>
 <p _="%" enddocs>{% docs tip %}
 You can try to run some standard diagnostics tools to eliminate some basic&nbsp;causes.</p>
 <p>Spotlight&nbsp;diagnostics</p>
@@ -90,10 +93,10 @@ You can try to run some standard diagnostics tools to eliminate some basic&nbsp;
 </pre></div>
 
 
-<h2>Hardware&nbsp;Diagnostics</h2>
+<h2 id="hardware-diagnostics">Hardware&nbsp;Diagnostics</h2>
 <p>Next step is to run the Apple Hardware Test (<span class="caps">AHT</span>).</p>
 <p>Reboot and press D before the grey&nbsp;screen.</p>
-<h2>Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 <p>I noticed from the activity monitor that there were several postfix background processes running. These were initiated because I had <span class="caps">OSX</span> Server running on this machine as well. Although the email service was not activitated in the configuration, it seemed that these processes were running&nbsp;altogether. </p>
 <p>I decided to deinstall <span class="caps">OSX</span> server and see what would&nbsp;happen.</p>
 <p>After deinstalling <span class="caps">OSX</span> server it seems that my Time Machine backup is running as&nbsp;normal.</p>
@@ -145,6 +148,7 @@ You can try to run some standard diagnostics tools to eliminate some basic&nbsp;
         <li><a href="https://blog.florijnconsultancy.nl/category/articles.html">articles</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/blogging.html">Blogging</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/diskstation.html">diskstation</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/install.html">install</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a></li>
         <li><a href="https://blog.florijnconsultancy.nl/category/osx.html">osx</a></li>
     </ul>
@@ -153,7 +157,7 @@ You can try to run some standard diagnostics tools to eliminate some basic&nbsp;
 
   <section>
   <h1>Tags</h1>
-    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">[writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/octopress.html">octopress]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
+    <a href="https://blog.florijnconsultancy.nl/tag/.html">[]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">[docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">[rest</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>,    <a href="https://blog.florijnconsultancy.nl/tag/writing.html">[writing</a>,    <a href="https://blog.florijnconsultancy.nl/tag/octopress.html">octopress]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">[Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">OSX]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">[telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">VOIP]</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github-blog-ruby.html">github blog ruby</a>  </section>
 
 
 

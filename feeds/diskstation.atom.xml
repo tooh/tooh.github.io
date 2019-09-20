@@ -13,5 +13,5 @@ Installation went smoothly and within an hour the basic things were working as&a
 &lt;p&gt;Bingo! I could add the rule and the forwarding is working &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;now.&lt;/p&gt;
 &lt;p&gt;So my conclusion for now is that for some reason the &lt;span class="caps"&gt;EZ&lt;/span&gt;-Internet wizard is not working &lt;span class="caps"&gt;OK&lt;/span&gt; and does not detect that the forwarding rules were not applied&amp;nbsp;correctly.&lt;/p&gt;
 &lt;p&gt;Please comment if I have overlooked&amp;nbsp;something.&lt;/p&gt;
-&lt;h2&gt;References&lt;/h2&gt;
+&lt;h2 id="references"&gt;References&lt;/h2&gt;
 &lt;p&gt;[1] &lt;a href="http://forum.synology.com/wiki/index.php/Remote_Access_on_the_Synology_DiskStation"&gt;Remote Access on the Synology&amp;nbsp;DiskStation&lt;/a&gt;&lt;/p&gt;</content><category term="diskstation"></category><category term="synology"></category></entry></feed>

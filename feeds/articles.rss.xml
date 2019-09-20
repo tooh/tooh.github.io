@@ -63,14 +63,14 @@ Alice -&amp;gt; Bob : Testing&amp;nbsp;&amp;lt;$foo1&amp;gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
 &lt;!-- more --&gt;&lt;/p&gt;
-&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;h3 id="installation"&gt;Installation&lt;/h3&gt;
 &lt;p&gt;My &lt;span class="caps"&gt;OS&lt;/span&gt; is &lt;span class="caps"&gt;OSX&lt;/span&gt; so the easiest is to use&amp;nbsp;Homebrew.&lt;/p&gt;
-&lt;h4&gt;With&amp;nbsp;homebrew&lt;/h4&gt;
+&lt;h4 id="with-homebrew"&gt;With&amp;nbsp;homebrew&lt;/h4&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ brew install pandoc
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h4&gt;Use the&amp;nbsp;installer&lt;/h4&gt;
+&lt;h4 id="use-the-installer"&gt;Use the&amp;nbsp;installer&lt;/h4&gt;
 &lt;p&gt;Go to the github project&amp;nbsp;downloads&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;jgm&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pandoc …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 17 Oct 2015 08:56:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-10-17:/articles/convert-markdown-to-word-docx-with-pandoc.html</guid><category>[docx</category><category>convert</category><category>markdown]</category></item><item><title>creating REST services</title><link>https://blog.florijnconsultancy.nl/articles/creating-rest-services.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
@@ -105,7 +105,7 @@ node &amp;#8220;Business Logic Server&amp;#8221; {
 node &amp;#8220;Update Server \n (can be hosted on \n &lt;span class="caps"&gt;BL&lt;/span&gt; Server)&amp;#8221; {
   folder &amp;#8220;Remote …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Fri, 14 Aug 2015 07:27:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-08-14:/articles/testdiagram.html</guid><category>[]</category></item><item><title>iTunes sharing troubleshooting</title><link>https://blog.florijnconsultancy.nl/articles/itunes-sharing-troubleshooting.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I did a little rewiring of all my cables connected to my &lt;span class="caps"&gt;TV&lt;/span&gt;, Apple &lt;span class="caps"&gt;TV&lt;/span&gt; , router&amp;nbsp;etc.&lt;/p&gt;
 &lt;p&gt;While testing it I found out that my iTunes home sharing and Airplay was not working any more. My &lt;span class="caps"&gt;ATV&lt;/span&gt; did see my shared library but was not able to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Tue, 09 Jun 2015 09:51:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-06-09:/articles/itunes-sharing-troubleshooting.html</guid><category>[]</category></item><item><title>sort</title><link>https://blog.florijnconsultancy.nl/articles/sort.html</link><description>&lt;p&gt;image : 
 summary: linux command line sort on&amp;nbsp;dates&lt;/p&gt;
@@ -115,28 +115,21 @@ summary: linux command line sort on&amp;nbsp;dates&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Fri, 24 Apr 2015 14:38:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-04-24:/articles/sort.html</guid><category>[]</category></item><item><title>upgrade to Bugzilla 5.0</title><link>https://blog.florijnconsultancy.nl/articles/upgrade-to-bugzilla-50.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Fri, 24 Apr 2015 14:38:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-04-24:/articles/sort.html</guid><category>[]</category></item><item><title>convert svg to png with inkscape (OSX)</title><link>https://blog.florijnconsultancy.nl/articles/convert-svg-to-png-with-inkscape-osx.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;I upgraded to Bugzilla&amp;nbsp;5.0.&lt;/p&gt;
-&lt;p&gt;Since the Bugzilla project now supports git, upgrading is now a simple&amp;nbsp;process.&lt;/p&gt;
-&lt;p&gt;These are my installation&amp;nbsp;notes.&lt;/p&gt;
-&lt;h2&gt;Updating to a Newer&amp;nbsp;Release&lt;/h2&gt;
-&lt;h3&gt;No local&amp;nbsp;changes&lt;/h3&gt;
-&lt;p&gt;If you have no local changes to any tracked files, upgrading to both minor and major …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 31 Jan 2015 10:26:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-01-31:/articles/upgrade-to-bugzilla-50.html</guid><category>[]</category></item><item><title>convert svg to png with inkscape (OSX)</title><link>https://blog.florijnconsultancy.nl/articles/convert-svg-to-png-with-inkscape-osx.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Set alias to inkscape&amp;nbsp;commandline&lt;/h3&gt;
+&lt;h3 id="set-alias-to-inkscape-commandline"&gt;Set alias to inkscape&amp;nbsp;commandline&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;inkscape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/Applications/Inkscape.app/Contents/Resources/bin/inkscape&amp;quot;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h3&gt;call inkscape to&amp;nbsp;convert&lt;/h3&gt;
+&lt;h3 id="call-inkscape-to-convert"&gt;call inkscape to&amp;nbsp;convert&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; &lt;span class="n"&gt;inkscape&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;z&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;test_full&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;svg&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt; &lt;span class="n"&gt;test_full&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;png&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 25 Jan 2015 16:21:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-01-25:/articles/convert-svg-to-png-with-inkscape-osx.html</guid><category>[]</category></item><item><title>cairosvg</title><link>https://blog.florijnconsultancy.nl/articles/cairosvg.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;Install&amp;nbsp;Cairosvg&lt;/h2&gt;
+&lt;h2 id="install-cairosvg"&gt;Install&amp;nbsp;Cairosvg&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pycairo&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -153,7 +146,7 @@ summary: linux command line sort on&amp;nbsp;dates&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h2&gt;Additional&lt;/h2&gt;
+&lt;h2 id="additional"&gt;Additional&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;find out where the svg/cairo libraries were&amp;nbsp;installed&lt;/li&gt;
 &lt;li&gt;make sure that pkg-config finds these, if not, set PKG_CONFIG_PATH to
@@ -174,20 +167,20 @@ point to …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://pur
 &lt;p&gt;&lt;a href="https://www.ietf.org/rfc/rfc2806.txt"&gt;rfc2806&lt;/a&gt;&lt;/p&gt;
 &lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Fri, 14 Nov 2014 08:42:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-11-14:/articles/click2dial.html</guid><category>[]</category></item><item><title>Omnis and java</title><link>https://blog.florijnconsultancy.nl/articles/omnis-and-java.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h1&gt;Research notes on java use in&amp;nbsp;Omnis&lt;/h1&gt;
-&lt;h2&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/h2&gt;
+&lt;h1 id="research-notes-on-java-use-in-omnis"&gt;Research notes on java use in&amp;nbsp;Omnis&lt;/h1&gt;
+&lt;h2 id="how-can-i-find-which-version-of-java-is-installed-without-running-an-applet-in-windows-or-mac"&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.java.com/en/download/help/version_manual.xml"&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Strip Java out of Omnis …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 26 Oct 2014 11:37:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-10-26:/articles/omnis-and-java.html</guid><category>[]</category></item><item><title>Upgrade to Yosemite</title><link>https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
+&lt;h2 id="strip-java-out-of-omnis-rt"&gt;Strip Java out of Omnis …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 26 Oct 2014 11:37:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-10-26:/articles/omnis-and-java.html</guid><category>[]</category></item><item><title>Upgrade to Yosemite</title><link>https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
-&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
 It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&amp;nbsp;Yosemite.&lt;/p&gt;
 &lt;!-- more --&gt;
 
 &lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h2&gt;Update&amp;nbsp;rvm&lt;/h2&gt;
+&lt;h2 id="update-rvm"&gt;Update&amp;nbsp;rvm&lt;/h2&gt;
 &lt;p&gt;rvm get&amp;nbsp;stable&lt;/p&gt;
-&lt;h2&gt;Fix&amp;nbsp;brew&lt;/h2&gt;
+&lt;h2 id="fix-brew"&gt;Fix&amp;nbsp;brew&lt;/h2&gt;
 &lt;p&gt;Changing 1 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 18 Oct 2014 11:59:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</guid><category>[]</category></item><item><title>mysql installation notes</title><link>https://blog.florijnconsultancy.nl/articles/mysql-installation-notes.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I had to reinstall my local Bugzilla , so I took the opportunity to upgrade my local mysql as&amp;nbsp;well.&lt;/p&gt;
@@ -198,15 +191,15 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 On &lt;span class="caps"&gt;OSX&lt;/span&gt; it is not always obvious which my.cnf file is used. You can find all my …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 05 Oct 2014 10:25:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-10-05:/articles/mysql-installation-notes.html</guid><category>[]</category></item><item><title>Bugzilla git migration</title><link>https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Bugzilla project switched to Git instead of&amp;nbsp;Bzr.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Moving_From_Bazaar_To_Git"&gt;Moving_From_Bazaar_To_Git&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Git"&gt;Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://bugzilla.readthedocs.org/en/latest/installation.html"&gt;Installation&amp;nbsp;manual&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Git&lt;/h2&gt;
+&lt;h2 id="git"&gt;Git&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://git.mozilla.org/?p=bugzilla/bugzilla.git;a%3Dsummary"&gt;Bugzilla Git&amp;nbsp;Summary&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Update to newer&amp;nbsp;release&lt;/h2&gt;
+&lt;h2 id="update-to-newer-release"&gt;Update to newer&amp;nbsp;release&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Git#Updating_to_a_Newer_Release"&gt;Updating to a newer&amp;nbsp;release&lt;/a&gt;&lt;/p&gt;
 &lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 28 Sep 2014 14:49:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-09-28:/articles/bugzilla-git-migration.html</guid><category>[]</category></item><item><title>activate spellcheck in Sublime Text 3</title><link>https://blog.florijnconsultancy.nl/articles/activate-spellcheck-in-sublime-text-3.html</link><description>&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
 &lt;hr&gt;
@@ -247,10 +240,10 @@ endif
 :Check planning;
 :Assign Request to Developer;
 :Review and Test database change …&lt;/dd&gt;&lt;/dl&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Wed, 27 Aug 2014 09:41:36 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-08-27:/articles/database-change-requests.html</guid></item><item><title>“Slow Time Machine backup on Mavericks”</title><link>https://blog.florijnconsultancy.nl/articles/slow-time-machine-backup-on-mavericks.html</link><description>&lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my &lt;span class="caps"&gt;HD&lt;/span&gt; and as a …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Mon, 25 Aug 2014 09:36:29 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-08-25:/articles/slow-time-machine-backup-on-mavericks.html</guid></item><item><title>“Reset Fritz! Powerline 520E”</title><link>https://blog.florijnconsultancy.nl/articles/reset-fritz-powerline-520e.html</link><description>&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my &lt;span class="caps"&gt;HD&lt;/span&gt; and as a …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Mon, 25 Aug 2014 09:36:29 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-08-25:/articles/slow-time-machine-backup-on-mavericks.html</guid></item><item><title>“Reset Fritz! Powerline 520E”</title><link>https://blog.florijnconsultancy.nl/articles/reset-fritz-powerline-520e.html</link><description>&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Sometimes I do not get connection to my FritzBox. After some investigation I found out that this was caused by one of my Powerline 520 E adapters. It was not working as expected, although the &lt;span class="caps"&gt;LED&lt;/span&gt;&amp;#8217;s were suggesting&amp;nbsp;otherwise&lt;/p&gt;
-&lt;p&gt;I installed the Fritz! Powerline application on my &lt;span class="caps"&gt;OSX …&lt;/span&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 24 Aug 2014 08:38:14 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-08-24:/articles/reset-fritz-powerline-520e.html</guid></item><item><title>“Non-standard Service Request workflow”</title><link>https://blog.florijnconsultancy.nl/articles/non-standard-service-request-workflow.html</link><description>&lt;h4&gt;Workflow&lt;/h4&gt;
+&lt;p&gt;I installed the Fritz! Powerline application on my &lt;span class="caps"&gt;OSX …&lt;/span&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 24 Aug 2014 08:38:14 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-08-24:/articles/reset-fritz-powerline-520e.html</guid></item><item><title>“Non-standard Service Request workflow”</title><link>https://blog.florijnconsultancy.nl/articles/non-standard-service-request-workflow.html</link><description>&lt;h4 id="workflow"&gt;Workflow&lt;/h4&gt;
 &lt;p&gt;Typical workflow for non standard customer support&amp;nbsp;requests.&lt;/p&gt;
 &lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
 &lt;p&gt;title: &lt;size:60&gt;Non-standard Service Request&lt;/size&gt;&lt;/p&gt;
@@ -334,10 +327,10 @@ I researched this item on Google but I could not find a real Root&amp;nbsp;cause
 &lt;p&gt;In this article I will describe the configuration and add-ons I&amp;nbsp;installed.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;h2&gt;Contents&lt;/h2&gt;
+&lt;h2 id="contents"&gt;Contents&lt;/h2&gt;
 &lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h2&gt;The&amp;nbsp;Fritz!Box&lt;/h2&gt;
+&lt;h2 id="the-fritzbox"&gt;The&amp;nbsp;Fritz!Box&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="Fritz!Box 3790" src="/images/fritzbox_7390 product.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.avm.de/en/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7390/index.php"&gt;The Fritz!Box&amp;nbsp;7390&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Options&lt;/h3&gt;
-&lt;h2&gt;Internet&amp;nbsp;access …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Thu, 09 May 2013 12:32:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</guid><category>[telephony</category><category>VOIP]</category></item><item><title>Alfred workflow for Octopress</title><link>https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Tue, 23 Apr 2013 13:34:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-04-23:/articles/alfred-workflow-for-octopress.html</guid></item></channel></rss>
+&lt;h3 id="options"&gt;Options&lt;/h3&gt;
+&lt;h2 id="internet-access"&gt;Internet&amp;nbsp;access …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Thu, 09 May 2013 12:32:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</guid><category>[telephony</category><category>VOIP]</category></item><item><title>Alfred workflow for Octopress</title><link>https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Tue, 23 Apr 2013 13:34:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-04-23:/articles/alfred-workflow-for-octopress.html</guid></item></channel></rss>
