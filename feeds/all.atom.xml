@@ -344,9 +344,7 @@ summary: linux command line sort on&amp;nbsp;dates&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;However, it is better to create a local branch, which is one of git’s strengths. You can track your customizations and merge in changes from&amp;nbsp;upstream. &lt;/p&gt;</content><category term="bugzilla"></category></entry><entry><title>convert svg to png with inkscape (OSX)</title><link href="https://blog.florijnconsultancy.nl/articles/convert-svg-to-png-with-inkscape-osx.html" rel="alternate"></link><published>2015-01-25T16:21:00+01:00</published><updated>2015-01-25T16:21:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-25:/articles/convert-svg-to-png-with-inkscape-osx.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id="set-alias-to-inkscape-commandline"&gt;Set alias to inkscape&amp;nbsp;commandline&lt;/h3&gt;
+&lt;p&gt;However, it is better to create a local branch, which is one of git’s strengths. You can track your customizations and merge in changes from&amp;nbsp;upstream. &lt;/p&gt;</content><category term="bugzilla"></category></entry><entry><title>convert svg to png with inkscape (OSX)</title><link href="https://blog.florijnconsultancy.nl/articles/convert-svg-to-png-with-inkscape-osx.html" rel="alternate"></link><published>2015-01-25T16:21:00+01:00</published><updated>2015-01-25T16:21:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-25:/articles/convert-svg-to-png-with-inkscape-osx.html</id><summary type="html"></summary><content type="html">&lt;h3 id="set-alias-to-inkscape-commandline"&gt;Set alias to inkscape&amp;nbsp;commandline&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;inkscape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/Applications/Inkscape.app/Contents/Resources/bin/inkscape&amp;quot;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -356,32 +354,7 @@ summary: linux command line sort on&amp;nbsp;dates&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>cairosvg</title><link href="https://blog.florijnconsultancy.nl/articles/cairosvg.html" rel="alternate"></link><published>2015-01-18T08:09:00+01:00</published><updated>2015-01-18T08:09:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-18:/articles/cairosvg.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="install-cairosvg"&gt;Install&amp;nbsp;Cairosvg&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pycairo&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;py2cairo&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;cairosvg&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;waf&lt;/span&gt; &lt;span class="n"&gt;configure&lt;/span&gt; &lt;span class="c1"&gt;--prefix=/System/Library/Frameworks/Python.framework/Versions/2.7&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2 id="additional"&gt;Additional&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;find out where the svg/cairo libraries were&amp;nbsp;installed&lt;/li&gt;
-&lt;li&gt;make sure that pkg-config finds these, if not, set PKG_CONFIG_PATH to
-point to …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="install-cairosvg"&gt;Install&amp;nbsp;Cairosvg&lt;/h2&gt;
+&lt;!-- more --&gt;</content><category term="graphics"></category><category term="conversion"></category><category term="svg"></category></entry><entry><title>cairosvg</title><link href="https://blog.florijnconsultancy.nl/articles/cairosvg.html" rel="alternate"></link><published>2015-01-18T08:09:00+01:00</published><updated>2015-01-18T08:09:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-18:/articles/cairosvg.html</id><summary type="html"></summary><content type="html">&lt;h2 id="install-cairosvg"&gt;Install&amp;nbsp;Cairosvg&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pycairo&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -409,32 +382,21 @@ check&amp;nbsp;config.log)&lt;/li&gt;
 &lt;li&gt;if the build still fails, try to do a make distclean (which requires a
 new configure&amp;nbsp;afterwards)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>update powerline for OSX</title><link href="https://blog.florijnconsultancy.nl/articles/update-powerline-for-osx.html" rel="alternate"></link><published>2015-01-01T12:20:00+01:00</published><updated>2015-01-01T12:20:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-01:/articles/update-powerline-for-osx.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Firmware Update  software for Fritz! Powerline is only officially for&amp;nbsp;Windows. &lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="graphics"></category><category term="svg]"></category></entry><entry><title>update powerline for OSX</title><link href="https://blog.florijnconsultancy.nl/articles/update-powerline-for-osx.html" rel="alternate"></link><published>2015-01-01T12:20:00+01:00</published><updated>2015-01-01T12:20:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-01:/articles/update-powerline-for-osx.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Firmware Update  software for Fritz! Powerline is only officially for&amp;nbsp;Windows. &lt;/p&gt;
 &lt;p&gt;But there is beta software that can do the update on &lt;span class="caps"&gt;OSX&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;ftp://ftp.avm.de/fritz.box/fritz.powerline/deutsch/mac_beta/&lt;/p&gt;
-&lt;!-- more --&gt;</content></entry><entry><title>jenkins jobs lost</title><link href="https://blog.florijnconsultancy.nl/articles/jenkins-jobs-lost.html" rel="alternate"></link><published>2014-11-23T11:47:00+01:00</published><updated>2014-11-23T11:47:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-11-23:/articles/jenkins-jobs-lost.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;On my local development machine I noticed that I missed all my&amp;nbsp;jobs.&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="macos"></category><category term="network"></category><category term="fritz"></category><category term="powerline"></category></entry><entry><title>Jenkins jobs lost</title><link href="https://blog.florijnconsultancy.nl/articles/jenkins-jobs-lost.html" rel="alternate"></link><published>2014-11-23T11:47:00+01:00</published><updated>2014-11-23T11:47:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-11-23:/articles/jenkins-jobs-lost.html</id><summary type="html"></summary><content type="html">&lt;p&gt;On my local development machine I noticed that I missed all my&amp;nbsp;jobs.&lt;/p&gt;
 &lt;p&gt;On my &lt;span class="caps"&gt;OSX&lt;/span&gt; machine all the job info was there in the .jenkins/jobs&amp;nbsp;directory.&lt;/p&gt;
 &lt;p&gt;Adding the following to my startjenkins.sh script solved the&amp;nbsp;problem.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;export&lt;/span&gt; &lt;span class="n"&gt;JENKINS_HOME&lt;/span&gt;&lt;span class="o"&gt;=/&lt;/span&gt;&lt;span class="n"&gt;Users&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;peter&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;jenkins&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>click2dial</title><link href="https://blog.florijnconsultancy.nl/articles/click2dial.html" rel="alternate"></link><published>2014-11-14T08:42:00+01:00</published><updated>2014-11-14T08:42:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-11-14:/articles/click2dial.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I&amp;#8217;m researching different options to implement&amp;nbsp;click2dial.&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="jenkins"></category></entry><entry><title>Click2dial</title><link href="https://blog.florijnconsultancy.nl/articles/click2dial.html" rel="alternate"></link><published>2014-11-14T08:42:00+01:00</published><updated>2014-11-14T08:42:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-11-14:/articles/click2dial.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I&amp;#8217;m researching different options to implement&amp;nbsp;click2dial.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.voip-info.org/wiki/view/Asterisk+click+to+call"&gt;click2call&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Standards&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.ietf.org/rfc/rfc2806.txt"&gt;rfc2806&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Omnis and java</title><link href="https://blog.florijnconsultancy.nl/articles/omnis-and-java.html" rel="alternate"></link><published>2014-10-26T11:37:00+01:00</published><updated>2014-10-26T11:37:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-26:/articles/omnis-and-java.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id="research-notes-on-java-use-in-omnis"&gt;Research notes on java use in&amp;nbsp;Omnis&lt;/h1&gt;
-&lt;h2 id="how-can-i-find-which-version-of-java-is-installed-without-running-an-applet-in-windows-or-mac"&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.java.com/en/download/help/version_manual.xml"&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="strip-java-out-of-omnis-rt"&gt;Strip Java out of Omnis …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id="research-notes-on-java-use-in-omnis"&gt;Research notes on java use in&amp;nbsp;Omnis&lt;/h1&gt;
+&lt;!-- more --&gt;</content><category term="voip"></category><category term="click2call"></category><category term="CTI"></category><category term="pots"></category></entry><entry><title>Omnis and java</title><link href="https://blog.florijnconsultancy.nl/articles/omnis-and-java.html" rel="alternate"></link><published>2014-10-26T11:37:00+01:00</published><updated>2014-10-26T11:37:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-26:/articles/omnis-and-java.html</id><summary type="html"></summary><content type="html">&lt;h1 id="research-notes-on-java-use-in-omnis"&gt;Research notes on java use in&amp;nbsp;Omnis&lt;/h1&gt;
 &lt;h2 id="how-can-i-find-which-version-of-java-is-installed-without-running-an-applet-in-windows-or-mac"&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.java.com/en/download/help/version_manual.xml"&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="strip-java-out-of-omnis-rt"&gt;Strip Java out of Omnis &lt;span class="caps"&gt;RT&lt;/span&gt;&lt;/h2&gt;
@@ -478,7 +440,7 @@ new configure&amp;nbsp;afterwards)&lt;/li&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;{:toc}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Disabling Nap App</title><link href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html" rel="alternate"></link><published>2014-10-25T12:02:00+02:00</published><updated>2014-10-25T12:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-25:/articles/disabling-nap-app.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Since Mavericks there is a feature called Nap&amp;nbsp;app.&lt;/p&gt;
+&lt;p&gt;{:toc}&lt;/p&gt;</content><category term="omnis"></category><category term="install"></category><category term="java"></category></entry><entry><title>Disabling Nap App</title><link href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html" rel="alternate"></link><published>2014-10-25T12:02:00+02:00</published><updated>2014-10-25T12:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-25:/articles/disabling-nap-app.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Since Mavericks there is a feature called Nap&amp;nbsp;app.&lt;/p&gt;
 &lt;p&gt;For some reason it can be better to prevent an application to take a&amp;nbsp;nap.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs tip %}
 You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
@@ -495,27 +457,17 @@ You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="http://www.cultofmac.com/274396/disable-app-nap-specific-apps-os-x-tips/"&gt;Disable nap&amp;nbsp;app&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content></entry><entry><title>Upgrade to Yosemite</title><link href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
+&lt;!-- more --&gt;</content><category term="macos"></category><category term="tips"></category><category term="performance"></category></entry><entry><title>Upgrade to Yosemite</title><link href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</id><summary type="html"></summary><content type="html">&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
 It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&amp;nbsp;Yosemite.&lt;/p&gt;
 &lt;!-- more --&gt;
 
 &lt;p&gt;{:toc}&lt;/p&gt;
 &lt;h2 id="update-rvm"&gt;Update&amp;nbsp;rvm&lt;/h2&gt;
-&lt;p&gt;rvm get&amp;nbsp;stable&lt;/p&gt;
-&lt;h2 id="fix-brew"&gt;Fix&amp;nbsp;brew&lt;/h2&gt;
-&lt;p&gt;Changing 1 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
-It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&amp;nbsp;Yosemite.&lt;/p&gt;
-&lt;!-- more --&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rvm get stable
+&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;{:toc}&lt;/p&gt;
-&lt;h2 id="update-rvm"&gt;Update&amp;nbsp;rvm&lt;/h2&gt;
-&lt;p&gt;rvm get&amp;nbsp;stable&lt;/p&gt;
+
 &lt;h2 id="fix-brew"&gt;Fix&amp;nbsp;brew&lt;/h2&gt;
 &lt;p&gt;Changing 1.8  in Current in brew.rb made brew working&amp;nbsp;again.&lt;/p&gt;
 &lt;p&gt;Change&lt;/p&gt;
@@ -547,16 +499,17 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;p&gt;Cause:&lt;/p&gt;
 &lt;p&gt;Apple has overwritten the&amp;nbsp;/etc/apache2/httpd.conf. &lt;/p&gt;
 &lt;p&gt;Add your Bugzilla&amp;nbsp;settings.&lt;/p&gt;
-&lt;p&gt;{% highlight apache&amp;nbsp;%}&lt;/p&gt;
-&lt;p&gt;&lt;Directory "/Library/WebServer/bugzilla-trunk"&gt; 
-  AddHandler cgi-script .cgi .pl 
-  Options +Indexes +ExecCGI +FollowSymLinks 
-  DirectoryIndex index.cgi index.html 
-  AllowOverride Limit FileInfo Indexes Options 
-  Order allow,deny 
-  Allow from all 
-&lt;/Directory&gt;&lt;/p&gt;
-&lt;p&gt;{% endhighlight&amp;nbsp;%}&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;Directory&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Library/WebServer/bugzilla-trunk&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;AddHandler cgi-script .cgi .pl 
+        Options +Indexes +ExecCGI +FollowSymLinks 
+        DirectoryIndex index.cgi index.html 
+        AllowOverride Limit FileInfo Indexes Options 
+        Order allow,deny 
+        Allow from all 
+    &lt;/Directory&gt;&lt;/p&gt;
 &lt;p&gt;Symptom:&lt;/p&gt;
 &lt;p&gt;Attempt to reload &lt;span class="caps"&gt;JSON&lt;/span&gt;/&lt;span class="caps"&gt;XS&lt;/span&gt;.pm&amp;nbsp;aborted.&lt;/p&gt;
 &lt;p&gt;Solution:&lt;/p&gt;
@@ -571,16 +524,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;p&gt;Extra parameters are added to the&amp;nbsp;localconfig.&lt;/p&gt;
 &lt;p&gt;{% docs info %}
 I have to find out how to configure&amp;nbsp;this&lt;/p&gt;
-&lt;p&gt;{% enddocs&amp;nbsp;%}&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>mysql installation notes</title><link href="https://blog.florijnconsultancy.nl/articles/mysql-installation-notes.html" rel="alternate"></link><published>2014-10-05T10:25:00+02:00</published><updated>2014-10-05T10:25:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-05:/articles/mysql-installation-notes.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I had to reinstall my local Bugzilla , so I took the opportunity to upgrade my local mysql as&amp;nbsp;well.&lt;/p&gt;
-&lt;p&gt;This post contains my notes made during the&amp;nbsp;process.&lt;/p&gt;
-&lt;!-- more --&gt;
-
-&lt;p _="%" enddocs&gt;{% docs tip %}
-On &lt;span class="caps"&gt;OSX&lt;/span&gt; it is not always obvious which my.cnf file is used. You can find all my …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I had to reinstall my local Bugzilla , so I took the opportunity to upgrade my local mysql as&amp;nbsp;well.&lt;/p&gt;
+&lt;p&gt;{% enddocs&amp;nbsp;%}&lt;/p&gt;</content><category term="yosemite"></category><category term="ruby"></category></entry><entry><title>Mysql installation notes</title><link href="https://blog.florijnconsultancy.nl/articles/mysql-installation-notes.html" rel="alternate"></link><published>2014-10-05T10:25:00+02:00</published><updated>2014-10-05T10:25:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-05:/articles/mysql-installation-notes.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I had to reinstall my local Bugzilla, so I took the opportunity to upgrade my local mysql as&amp;nbsp;well.&lt;/p&gt;
 &lt;p&gt;This post contains my notes made during the&amp;nbsp;process.&lt;/p&gt;
 &lt;!-- more --&gt;
 
@@ -593,9 +537,7 @@ On &lt;span class="caps"&gt;OSX&lt;/span&gt; it is not always obvious which my.c
 &lt;p _="%" enddocs&gt;{% docs tip %}
 You can execute a mysql command to show in which locations you can place my.cnf files and in which order they are&amp;nbsp;executed.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;mysql&lt;/span&gt; &lt;span class="c1"&gt;--help | grep &amp;quot;Default options&amp;quot; -A 1&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="[]"></category></entry><entry><title>Bugzilla git migration</title><link href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html" rel="alternate"></link><published>2014-09-28T14:49:00+02:00</published><updated>2014-09-28T14:49:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-28:/articles/bugzilla-git-migration.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="mysql"></category></entry><entry><title>Bugzilla git migration</title><link href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html" rel="alternate"></link><published>2014-09-28T14:49:00+02:00</published><updated>2014-09-28T14:49:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-28:/articles/bugzilla-git-migration.html</id><summary type="html"></summary><content type="html">&lt;p&gt;[toc]&lt;/p&gt;
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Bugzilla project switched to Git instead of&amp;nbsp;Bzr.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Moving_From_Bazaar_To_Git"&gt;Moving_From_Bazaar_To_Git&lt;/a&gt;&lt;/p&gt;
@@ -606,16 +548,7 @@ You can execute a mysql command to show in which locations you can place my.cnf 
 &lt;p&gt;&lt;a href="http://git.mozilla.org/?p=bugzilla/bugzilla.git;a%3Dsummary"&gt;Bugzilla Git&amp;nbsp;Summary&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="update-to-newer-release"&gt;Update to newer&amp;nbsp;release&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Git#Updating_to_a_Newer_Release"&gt;Updating to a newer&amp;nbsp;release&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>activate spellcheck in Sublime Text 3</title><link href="https://blog.florijnconsultancy.nl/articles/activate-spellcheck-in-sublime-text-3.html" rel="alternate"></link><published>2014-09-27T11:27:00+02:00</published><updated>2014-09-27T11:27:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-27:/articles/activate-spellcheck-in-sublime-text-3.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;By default spellcheck is off in Sublime&amp;nbsp;Text.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs note %}
-You can&amp;#8217;t edit the default settings file. If you try this, you cannot edit the&amp;nbsp;setting.&lt;/p&gt;
-&lt;p&gt;In order to activate add the following to the User&amp;nbsp;settings:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="o"&gt;//&lt;/span&gt; &lt;span class="k"&gt;Set&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="k"&gt;true&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="n"&gt;turn&lt;/span&gt; &lt;span class="n"&gt;spell&lt;/span&gt; &lt;span class="n"&gt;checking&lt;/span&gt; &lt;span class="k"&gt;on&lt;/span&gt; &lt;span class="k"&gt;by&lt;/span&gt; &lt;span class="k"&gt;default …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;By default spellcheck is off in Sublime&amp;nbsp;Text.&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="bugzilla"></category><category term="testopia"></category></entry><entry><title>Activate spellcheck in Sublime Text 3</title><link href="https://blog.florijnconsultancy.nl/articles/activate-spellcheck-in-sublime-text-3.html" rel="alternate"></link><published>2014-09-27T11:27:00+02:00</published><updated>2014-09-27T11:27:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-27:/articles/activate-spellcheck-in-sublime-text-3.html</id><summary type="html"></summary><content type="html">&lt;p&gt;By default spellcheck is off in Sublime&amp;nbsp;Text.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs note %}
 You can&amp;#8217;t edit the default settings file. If you try this, you cannot edit the&amp;nbsp;setting.&lt;/p&gt;
 &lt;p&gt;In order to activate add the following to the User&amp;nbsp;settings:&lt;/p&gt;
@@ -625,12 +558,7 @@ You can&amp;#8217;t edit the default settings file. If you try this, you cannot 
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>confluence inspired callouts in Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/confluence-inspired-callouts-in-octopress.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/confluence-inspired-callouts-in-octopress.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts may times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in&amp;nbsp;Octopress.&lt;/p&gt;
-&lt;p&gt;With some tweaking and help of Frank I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts may times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in&amp;nbsp;Octopress.&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="sublime"></category><category term="config"></category></entry><entry><title>confluence inspired callouts in Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/confluence-inspired-callouts-in-octopress.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/confluence-inspired-callouts-in-octopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts may times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in&amp;nbsp;Octopress.&lt;/p&gt;
 &lt;p&gt;With some tweaking and help of Frank I managed to implement a number of callout&amp;nbsp;types.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs note %}
 Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
@@ -650,14 +578,12 @@ Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
 Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;&lt;span class="caps"&gt;TODO&lt;/span&gt;: describing the&amp;nbsp;Howto.&lt;/p&gt;</content><category term="[writing"></category><category term="octopress]"></category></entry><entry><title>Customizing Sublime for Python development</title><link href="https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html" rel="alternate"></link><published>2014-09-20T10:38:00+02:00</published><updated>2014-09-20T10:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-20:/articles/customizing-sublime-for-python-development.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;More and more I am using Sublime as my favorite&amp;nbsp;editor.&lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;TODO&lt;/span&gt;: describing the&amp;nbsp;Howto.&lt;/p&gt;</content><category term="[writing"></category><category term="octopress]"></category></entry><entry><title>Customizing Sublime for Python development</title><link href="https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html" rel="alternate"></link><published>2014-09-20T10:38:00+02:00</published><updated>2014-09-20T10:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-20:/articles/customizing-sublime-for-python-development.html</id><summary type="html"></summary><content type="html">&lt;p&gt;More and more I am using Sublime as my favorite&amp;nbsp;editor.&lt;/p&gt;
 &lt;p&gt;Also I am developing in Python as my favorite scripting language of this&amp;nbsp;moment.&lt;/p&gt;
 &lt;p&gt;Sublime can be customized/extended as an ideal Python &lt;span class="caps"&gt;IDE&lt;/span&gt;.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;&lt;a href="https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/"&gt;Setting up Sublime Text 3 for full stack python&amp;nbsp;development&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>“Database change requests”</title><link href="https://blog.florijnconsultancy.nl/articles/database-change-requests.html" rel="alternate"></link><published>2014-08-27T09:41:36+02:00</published><updated>2014-08-27T09:41:36+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-27:/articles/database-change-requests.html</id><summary type="html">&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/"&gt;Setting up Sublime Text 3 for full stack python&amp;nbsp;development&lt;/a&gt;&lt;/p&gt;</content><category term="sublime"></category></entry><entry><title>“Database change requests”</title><link href="https://blog.florijnconsultancy.nl/articles/database-change-requests.html" rel="alternate"></link><published>2014-08-27T09:41:36+02:00</published><updated>2014-08-27T09:41:36+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-27:/articles/database-change-requests.html</id><summary type="html">&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
 &lt;p&gt;title: &lt;size:30&gt;Database change Request&lt;/size&gt;&lt;/p&gt;
 &lt;dl&gt;
 &lt;dt&gt;| Developer&amp;nbsp;|&lt;/dt&gt;
@@ -921,29 +847,26 @@ So I decided to make the switch to&amp;nbsp;Textexpander.&lt;/p&gt;
 &lt;p&gt;Importing my Typinator snippets via tab delimit format was&amp;nbsp;easy.&lt;/p&gt;
 &lt;p&gt;I had to change some specific date constructions and now all is&amp;nbsp;working.&lt;/p&gt;
 &lt;p&gt;I sync my snippets via Dropbox to my&amp;nbsp;laptop.&lt;/p&gt;
-&lt;p&gt;I&amp;#8217;m all to go now to invest in some time to setup some extra snippets to improve my&amp;nbsp;productivity.&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Installing PHP and Laravel environment</title><link href="https://blog.florijnconsultancy.nl/articles/installing-php-and-laravel-environment.html" rel="alternate"></link><published>2014-03-15T11:05:00+01:00</published><updated>2014-03-15T11:05:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-03-15:/articles/installing-php-and-laravel-environment.html</id><summary type="html">&lt;p&gt;image : 
-summary:  Laravel&amp;nbsp;environment&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I recently got involved in a project that uses &lt;span class="caps"&gt;PHP&lt;/span&gt; and Laravel as a framework. I never used &lt;span class="caps"&gt;PHP&lt;/span&gt; before so this means starting from scratch by preparing my &lt;span class="caps"&gt;OSX&lt;/span&gt; environment for some &lt;span class="caps"&gt;QA&lt;/span&gt; and probably some minor development&amp;nbsp;work.&lt;/p&gt;
-&lt;p&gt;I found a post that seems …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image : 
-summary:  Laravel&amp;nbsp;environment&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I recently got involved in a project that uses &lt;span class="caps"&gt;PHP&lt;/span&gt; and Laravel as a framework. I never used &lt;span class="caps"&gt;PHP&lt;/span&gt; before so this means starting from scratch by preparing my &lt;span class="caps"&gt;OSX&lt;/span&gt; environment for some &lt;span class="caps"&gt;QA&lt;/span&gt; and probably some minor development&amp;nbsp;work.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m all to go now to invest in some time to setup some extra snippets to improve my&amp;nbsp;productivity.&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Installing PHP and Laravel environment</title><link href="https://blog.florijnconsultancy.nl/articles/installing-php-and-laravel-environment.html" rel="alternate"></link><published>2014-03-15T11:05:00+01:00</published><updated>2014-03-15T11:05:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-03-15:/articles/installing-php-and-laravel-environment.html</id><summary type="html">&lt;p&gt;Laravel&amp;nbsp;environment&lt;/p&gt;</summary><content type="html">&lt;p&gt;I recently got involved in a project that uses &lt;span class="caps"&gt;PHP&lt;/span&gt; and Laravel as a framework. I never used &lt;span class="caps"&gt;PHP&lt;/span&gt; before so this means starting from scratch by preparing my &lt;span class="caps"&gt;OSX&lt;/span&gt; environment for some &lt;span class="caps"&gt;QA&lt;/span&gt; and probably some minor development&amp;nbsp;work.&lt;/p&gt;
 &lt;p&gt;I found a post that seems to cover the installation on &lt;span class="caps"&gt;OSX&lt;/span&gt; of the necessary&amp;nbsp;components.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.createdbypete.com/articles/php-54-development-on-os-x-with-mysql-and-laravel-4/"&gt;&lt;span class="caps"&gt;PHP&lt;/span&gt; 54 development on &lt;span class="caps"&gt;OSX&lt;/span&gt; with mysql and Laravel&amp;nbsp;4&lt;/a&gt;&lt;/p&gt;
 &lt;!-- more --&gt;
 
 &lt;p&gt;During the installation I got an error with installing&amp;nbsp;zlib. &lt;/p&gt;
-&lt;p _="%" endcodeblock&gt;{% codeblock lang:bash %}
-curl: (22) The requested &lt;span class="caps"&gt;URL&lt;/span&gt; returned error: 404 Not Found
-Error: Failed to download resource &amp;#8220;zlib&amp;#8221;
-Download failed:&amp;nbsp;http://zlib.net/zlib-1.2.7.tar.gz&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl: &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;22&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; The requested URL returned error: &lt;span class="m"&gt;404&lt;/span&gt; Not Found
+Error: Failed to download resource &lt;span class="s2"&gt;&amp;quot;zlib&amp;quot;&lt;/span&gt;
+Download failed: http://zlib.net/zlib-1.2.7.tar.gz
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;This error was corrected folowing this&amp;nbsp;solution&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/josegonzalez/homebrew-php/issues/575"&gt;https://github.com/josegonzalez/homebrew-php/issues/575&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Laravel requires the &lt;span class="caps"&gt;PHP&lt;/span&gt; Mcrypt module. In an earlier attempt I had some trouble to get this working in my environment, but now in this setup using this&amp;nbsp;command:&lt;/p&gt;
-&lt;p _="%" endcodeblock&gt;{% codeblock lang:bash %}
-brew install&amp;nbsp;php54-mcrypt&lt;/p&gt;
-&lt;p&gt;installed it&amp;nbsp;correctly.&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Generating Powerpoint with python</title><link href="https://blog.florijnconsultancy.nl/articles/generating-powerpoint-with-python.html" rel="alternate"></link><published>2014-01-18T13:32:00+01:00</published><updated>2014-01-18T13:32:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-01-18:/articles/generating-powerpoint-with-python.html</id><summary type="html"></summary><content type="html">&lt;p&gt;If you need to create Powerpoints frequently f.i Service Level Reports or Project Status reports, then you probably can use this Python library.
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install php54-mcrypt
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;installed it&amp;nbsp;correctly.&lt;/p&gt;</content><category term="php"></category><category term="laravel"></category></entry><entry><title>Generating Powerpoint with python</title><link href="https://blog.florijnconsultancy.nl/articles/generating-powerpoint-with-python.html" rel="alternate"></link><published>2014-01-18T13:32:00+01:00</published><updated>2014-01-18T13:32:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-01-18:/articles/generating-powerpoint-with-python.html</id><summary type="html"></summary><content type="html">&lt;p&gt;If you need to create Powerpoints frequently f.i Service Level Reports or Project Status reports, then you probably can use this Python library.
 If you are prepared to invest some time and are not afraid of a bit of python programming you can achieve some nice&amp;nbsp;results.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/scanny/python-pptx"&gt;Github&amp;nbsp;repository&lt;/a&gt;&lt;/p&gt;
 &lt;!-- more --&gt;
