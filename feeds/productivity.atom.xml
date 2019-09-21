@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - productivity</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/productivity.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2014-01-18T13:32:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>Generating Powerpoint with python</title><link href="https://blog.florijnconsultancy.nl/articles/generating-powerpoint-with-python.html" rel="alternate"></link><published>2014-01-18T13:32:00+01:00</published><updated>2014-01-18T13:32:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-01-18:/articles/generating-powerpoint-with-python.html</id><summary type="html"></summary><content type="html">&lt;p&gt;If you need to create Powerpoints frequently f.i Service Level Reports or Project Status reports, then you probably can use this Python library.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - Productivity</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/productivity.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2014-09-23T08:02:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>confluence inspired callouts in Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/confluence-inspired-callouts-in-octopress.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/confluence-inspired-callouts-in-octopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts may times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in&amp;nbsp;Octopress.&lt;/p&gt;
+&lt;p&gt;With some tweaking and help of Frank I managed to implement a number of callout&amp;nbsp;types.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs note %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs info %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs error %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs warning %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs tip %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs thumbs-up %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs thumbs-down %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs check %}
+Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;span class="caps"&gt;TODO&lt;/span&gt;: describing the&amp;nbsp;Howto.&lt;/p&gt;</content><category term="blogging"></category><category term="pelican"></category><category term="confluence"></category></entry><entry><title>Generating Powerpoint with python</title><link href="https://blog.florijnconsultancy.nl/articles/generating-powerpoint-with-python.html" rel="alternate"></link><published>2014-01-18T13:32:00+01:00</published><updated>2014-01-18T13:32:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-01-18:/articles/generating-powerpoint-with-python.html</id><summary type="html"></summary><content type="html">&lt;p&gt;If you need to create Powerpoints frequently f.i Service Level Reports or Project Status reports, then you probably can use this Python library.
 If you are prepared to invest some time and are not afraid of a bit of python programming you can achieve some nice&amp;nbsp;results.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/scanny/python-pptx"&gt;Github&amp;nbsp;repository&lt;/a&gt;&lt;/p&gt;
 &lt;!-- more --&gt;
