@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - articles</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/articles.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2019-09-16T19:52:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>test plantuml 1</title><link href="https://blog.florijnconsultancy.nl/articles/test-plantuml-1.html" rel="alternate"></link><published>2019-09-16T19:52:00+02:00</published><updated>2019-09-16T19:52:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-plantuml-1.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
-&lt;img alt="Sample sequence diagram" class="uml" src="/images/082e4805.png"&gt;&lt;p&gt;re&amp;nbsp;&amp;#8212;&amp;gt;&lt;/p&gt;</content></entry><entry><title>test 4</title><link href="https://blog.florijnconsultancy.nl/articles/test-4.html" rel="alternate"></link><published>2019-09-16T17:14:00+02:00</published><updated>2019-09-16T17:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-4.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
-&lt;!-- more --&gt;
-
-&lt;p&gt;kjsdjkjkjsdjask&lt;/p&gt;</content></entry><entry><title>test 3</title><link href="https://blog.florijnconsultancy.nl/articles/test-3.html" rel="alternate"></link><published>2019-09-16T17:11:00+02:00</published><updated>2019-09-16T17:11:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-3.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;!-- more --&gt;</content></entry><entry><title>testgantt</title><link href="https://blog.florijnconsultancy.nl/articles/testgantt.html" rel="alternate"></link><published>2018-07-27T09:14:00+02:00</published><updated>2018-07-27T09:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2018-07-27:/articles/testgantt.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
-&lt;p&gt;@startgantt
-[Prototype design] lasts 15 days
-[Test prototype] lasts 10 days&amp;nbsp;@endgantt&lt;/p&gt;
-&lt;p&gt;{% endplantuml&amp;nbsp;%}&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>test_includes</title><link href="https://blog.florijnconsultancy.nl/articles/test_includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2017-12-25:/articles/test_includes.html</id><summary type="html"></summary><content type="html">&lt;img alt="uml diagram" class="uml" src="/images/3e507dbd.png"&gt;</content><category term="plantuml"></category></entry><entry><title>Skype problem solved</title><link href="https://blog.florijnconsultancy.nl/articles/skype-problem-solved.html" rel="alternate"></link><published>2016-10-29T11:41:00+02:00</published><updated>2016-10-29T11:41:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-10-29:/articles/skype-problem-solved.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;For some time I experienced problems with&amp;nbsp;Skype.&lt;/p&gt;
-&lt;p&gt;These problems only occurred on my&amp;nbsp;iMac. &lt;/p&gt;
-&lt;p&gt;Currently my iMac is running macOS&amp;nbsp;Sierra.&lt;/p&gt;
-&lt;p&gt;I use Skype on a daily basis to conduct standup calls with remote Scrum teams and to contact&amp;nbsp;suppliers.&lt;/p&gt;
-&lt;p&gt;I noticed that group audio/video calls …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;For some time I experienced problems with&amp;nbsp;Skype.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - articles</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/articles.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2017-12-25T10:38:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>PlantUML Test includes</title><link href="https://blog.florijnconsultancy.nl/articles/plantuml-test-includes.html" rel="alternate"></link><published>2017-12-25T10:38:00+01:00</published><updated>2017-12-25T10:38:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2017-12-25:/articles/plantuml-test-includes.html</id><summary type="html"></summary><content type="html">&lt;img alt="uml diagram" class="uml" src="/images/3e507dbd.png"&gt;</content><category term="plantuml"></category><category term="diagram"></category></entry><entry><title>Skype problem solved</title><link href="https://blog.florijnconsultancy.nl/articles/skype-problem-solved.html" rel="alternate"></link><published>2016-10-29T11:41:00+02:00</published><updated>2016-10-29T11:41:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-10-29:/articles/skype-problem-solved.html</id><summary type="html"></summary><content type="html">&lt;p&gt;For some time I experienced problems with&amp;nbsp;Skype.&lt;/p&gt;
 &lt;p&gt;These problems only occurred on my&amp;nbsp;iMac. &lt;/p&gt;
 &lt;p&gt;Currently my iMac is running macOS&amp;nbsp;Sierra.&lt;/p&gt;
 &lt;p&gt;I use Skype on a daily basis to conduct standup calls with remote Scrum teams and to contact&amp;nbsp;suppliers.&lt;/p&gt;
@@ -36,40 +15,12 @@
 &lt;p&gt;&lt;a href="https://support.apple.com/en-us/HT204880"&gt;https://support.apple.com/en-us/&lt;span class="caps"&gt;HT204880&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It seems this corrected my Skype&amp;nbsp;problems.&lt;/p&gt;
 &lt;p&gt;Fingers&amp;nbsp;crossed!&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>PlantUML sprites demo</title><link href="https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html" rel="alternate"></link><published>2016-05-05T08:08:00+02:00</published><updated>2016-05-05T08:08:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-05-05:/articles/plantuml-sprites-demo.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
-&lt;p _="%" endplantuml&gt;sprite $foo1 {
-  &lt;span class="caps"&gt;FFFFFFFFFFFFFFF&lt;/span&gt;
-  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
-  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
-  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
-  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
-  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
-  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
-  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
-  &lt;span class="caps"&gt;F0123456789ABCF&lt;/span&gt;
-  &lt;span class="caps"&gt;FFFFFFFFFFFFFFF&lt;/span&gt;
-}
-Alice -&amp;gt; Bob : Testing&amp;nbsp;&amp;lt;$foo1&amp;gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>PlantUML support for Archimate</title><link href="https://blog.florijnconsultancy.nl/articles/plantuml-support-for-archimate.html" rel="alternate"></link><published>2016-05-05T07:20:00+02:00</published><updated>2016-05-05T07:20:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-05-05:/articles/plantuml-support-for-archimate.html</id><summary type="html"></summary><content type="html">&lt;p&gt;PlantUML has a proposal for some support for&amp;nbsp;Archimate.&lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="/images/61fe4618.png"&gt;&lt;!-- more --&gt;</content><category term="plantuml"></category></entry><entry><title>Convert Font Awesome to png</title><link href="https://blog.florijnconsultancy.nl/articles/convert-font-awesome-to-png.html" rel="alternate"></link><published>2016-05-01T13:53:00+02:00</published><updated>2016-05-01T13:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-05-01:/articles/convert-font-awesome-to-png.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Font Awesome is a font set containg a large icon set containing a lot of standard&amp;nbsp;icons. &lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="skype"></category><category term="troubleshooting"></category></entry><entry><title>PlantUML sprites demo</title><link href="https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html" rel="alternate"></link><published>2016-05-05T08:08:00+02:00</published><updated>2016-05-05T08:08:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-05-05:/articles/plantuml-sprites-demo.html</id><summary type="html"></summary><content type="html">&lt;img alt="uml diagram" class="uml" src="/images/486334be.png"&gt;&lt;!-- more --&gt;</content><category term="plantuml"></category><category term="diagram"></category></entry><entry><title>PlantUML support for Archimate</title><link href="https://blog.florijnconsultancy.nl/articles/plantuml-support-for-archimate.html" rel="alternate"></link><published>2016-05-05T07:20:00+02:00</published><updated>2016-05-05T07:20:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-05-05:/articles/plantuml-support-for-archimate.html</id><summary type="html"></summary><content type="html">&lt;p&gt;PlantUML has a proposal for some support for&amp;nbsp;Archimate.&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="/images/61fe4618.png"&gt;&lt;!-- more --&gt;</content><category term="plantuml"></category><category term="diagram"></category><category term="archimate"></category><category term="architecture"></category></entry><entry><title>Convert Font Awesome to png</title><link href="https://blog.florijnconsultancy.nl/articles/convert-font-awesome-to-png.html" rel="alternate"></link><published>2016-05-01T13:53:00+02:00</published><updated>2016-05-01T13:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-05-01:/articles/convert-font-awesome-to-png.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Font Awesome is a font set containg a large icon set containing a lot of standard&amp;nbsp;icons. &lt;/p&gt;
 &lt;p&gt;You can convert the icons to .png&amp;nbsp;files&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;&lt;a href=""&gt;https://github.com/Pythonity/icon-font-to-png&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>install gollum on OSX El Capitan</title><link href="https://blog.florijnconsultancy.nl/articles/install-gollum-on-osx-el-capitan.html" rel="alternate"></link><published>2016-04-03T08:46:00+02:00</published><updated>2016-04-03T08:46:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-04-03:/articles/install-gollum-on-osx-el-capitan.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Gollum is a simple wiki that uses git as its&amp;nbsp;database.&lt;/p&gt;
-&lt;p&gt;When you want to install this on &lt;span class="caps"&gt;OSX&lt;/span&gt; you can encounter some errors. In this post I describe the recipe I used to install on my &lt;span class="caps"&gt;OSX&lt;/span&gt; El&amp;nbsp;Capitan&lt;/p&gt;
-&lt;!-- more --&gt;
-
-&lt;p&gt;First install&amp;nbsp;icu4c&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;brew install icu4c&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Check &lt;span class="caps"&gt;LDFLAGS …&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Gollum is a simple wiki that uses git as its&amp;nbsp;database.&lt;/p&gt;
+&lt;p&gt;&lt;a href=""&gt;https://github.com/Pythonity/icon-font-to-png&lt;/a&gt;&lt;/p&gt;</content><category term="font awesome"></category></entry><entry><title>Install gollum on OSX El Capitan</title><link href="https://blog.florijnconsultancy.nl/articles/install-gollum-on-osx-el-capitan.html" rel="alternate"></link><published>2016-04-03T08:46:00+02:00</published><updated>2016-04-03T08:46:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-04-03:/articles/install-gollum-on-osx-el-capitan.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Gollum is a simple wiki that uses git as its&amp;nbsp;database.&lt;/p&gt;
 &lt;p&gt;When you want to install this on &lt;span class="caps"&gt;OSX&lt;/span&gt; you can encounter some errors. In this post I describe the recipe I used to install on my &lt;span class="caps"&gt;OSX&lt;/span&gt; El&amp;nbsp;Capitan&lt;/p&gt;
 &lt;!-- more --&gt;
 
@@ -84,7 +35,7 @@ Alice -&amp;gt; Bob : Testing&amp;nbsp;&amp;lt;$foo1&amp;gt;&lt;/p&gt;
 &lt;p&gt;And finally install&amp;nbsp;gollum&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gem install gollum&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;More&amp;nbsp;info&lt;/p&gt;
-&lt;p&gt;&lt;a href=""&gt;https://gitlab.com/gitlab-org/gollum-lib&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Custom Alfred search for Jira</title><link href="https://blog.florijnconsultancy.nl/articles/custom-alfred-search-for-jira.html" rel="alternate"></link><published>2016-01-31T07:51:00+01:00</published><updated>2016-01-31T07:51:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-01-31:/articles/custom-alfred-search-for-jira.html</id><summary type="html">&lt;p&gt;Summary&lt;/p&gt;
+&lt;p&gt;&lt;a href=""&gt;https://gitlab.com/gitlab-org/gollum-lib&lt;/a&gt;&lt;/p&gt;</content><category term="ruby"></category><category term="gollum"></category><category term="wiki"></category></entry><entry><title>Custom Alfred search for Jira</title><link href="https://blog.florijnconsultancy.nl/articles/custom-alfred-search-for-jira.html" rel="alternate"></link><published>2016-01-31T07:51:00+01:00</published><updated>2016-01-31T07:51:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-01-31:/articles/custom-alfred-search-for-jira.html</id><summary type="html">&lt;p&gt;Summary&lt;/p&gt;
 &lt;p&gt;Recently we switched from using Bugzilla for our issue tracking to&amp;nbsp;Jira.&lt;/p&gt;
 &lt;p&gt;As an Alfred user I went looking for some Alfred support for Jira&amp;nbsp;searches.&lt;/p&gt;
 &lt;p&gt;I found a couple of workflows for this, but for now I settled for a simple custom web search in&amp;nbsp;Alfred.&lt;/p&gt;
@@ -98,91 +49,7 @@ Replace [your jira server] with your jira&amp;nbsp;server.&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;!-- more --&gt;</content><category term="Jira"></category></entry><entry><title>Using scribe to write online meeting summaries</title><link href="https://blog.florijnconsultancy.nl/articles/using-scribe-to-write-online-meeting-summaries.html" rel="alternate"></link><published>2015-10-18T15:30:00+02:00</published><updated>2015-10-18T15:30:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-10-18:/articles/using-scribe-to-write-online-meeting-summaries.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Use&amp;nbsp;case:&lt;/p&gt;
-&lt;p&gt;When you are in a skype chat session for a meeting it is convenient to capture the meeting notes from the chat&amp;nbsp;session.&lt;/p&gt;
-&lt;p&gt;Environments as &lt;span class="caps"&gt;IRC&lt;/span&gt; have something like meeting bot to handle&amp;nbsp;this.&lt;/p&gt;
-&lt;p&gt;For Skype I&amp;nbsp;found &lt;/p&gt;
-&lt;p&gt;&lt;a href=""&gt;https://bitbucket.org/mhall/pyskypescribe&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Convert Markdown to Word docx with Pandoc</title><link href="https://blog.florijnconsultancy.nl/articles/convert-markdown-to-word-docx-with-pandoc.html" rel="alternate"></link><published>2015-10-17T08:56:00+02:00</published><updated>2015-10-17T08:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-10-17:/articles/convert-markdown-to-word-docx-with-pandoc.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
-&lt;!-- more --&gt;&lt;/p&gt;
-&lt;h3 id="installation"&gt;Installation&lt;/h3&gt;
-&lt;p&gt;My &lt;span class="caps"&gt;OS&lt;/span&gt; is &lt;span class="caps"&gt;OSX&lt;/span&gt; so the easiest is to use&amp;nbsp;Homebrew.&lt;/p&gt;
-&lt;h4 id="with-homebrew"&gt;With&amp;nbsp;homebrew&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ brew install pandoc
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h4 id="use-the-installer"&gt;Use the&amp;nbsp;installer&lt;/h4&gt;
-&lt;p&gt;Go to the github project&amp;nbsp;downloads&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;jgm&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pandoc …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
-&lt;!-- more --&gt;&lt;/p&gt;
-&lt;h3 id="installation"&gt;Installation&lt;/h3&gt;
-&lt;p&gt;My &lt;span class="caps"&gt;OS&lt;/span&gt; is &lt;span class="caps"&gt;OSX&lt;/span&gt; so the easiest is to use&amp;nbsp;Homebrew.&lt;/p&gt;
-&lt;h4 id="with-homebrew"&gt;With&amp;nbsp;homebrew&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ brew install pandoc
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h4 id="use-the-installer"&gt;Use the&amp;nbsp;installer&lt;/h4&gt;
-&lt;p&gt;Go to the github project&amp;nbsp;downloads&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;jgm&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pandoc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;releases&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h3 id="convert-your-document"&gt;Convert your&amp;nbsp;document&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pandoc -o output.docx -f markdown -t docx markdown-file.md
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h3 id="make-it-easy"&gt;Make it&amp;nbsp;easy&lt;/h3&gt;
-&lt;p&gt;To make it even easier I added the below code to my .bashrc&amp;nbsp;file&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...
-
-# &lt;span class="nv"&gt;aliases&lt;/span&gt;
-...
-&lt;span class="nv"&gt;alias&lt;/span&gt; &lt;span class="nv"&gt;md2word&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;md2word&lt;/span&gt; # &lt;span class="nv"&gt;alias&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;function&lt;/span&gt; &lt;span class="nv"&gt;below&lt;/span&gt;
-
-# &lt;span class="nv"&gt;functions&lt;/span&gt;
-...
-&lt;span class="nv"&gt;function&lt;/span&gt; &lt;span class="nv"&gt;md2word&lt;/span&gt; &lt;span class="ss"&gt;()&lt;/span&gt; {  
-    &lt;span class="nv"&gt;PANDOC_INSTALLED&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;$&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;pandoc&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nv"&gt;version&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;dev&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;null&lt;/span&gt;&lt;span class="c1"&gt;; echo $?)&lt;/span&gt;
-
-    &lt;span class="k"&gt;if&lt;/span&gt; [ &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;0&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; ${&lt;span class="nv"&gt;PANDOC_INSTALLED&lt;/span&gt;} ]&lt;span class="c1"&gt;; then&lt;/span&gt;
-        &lt;span class="nv"&gt;pandoc&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;o&lt;/span&gt; &lt;span class="mh"&gt;$2&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;f&lt;/span&gt; &lt;span class="nv"&gt;markdown&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;t&lt;/span&gt; &lt;span class="nv"&gt;docx&lt;/span&gt; &lt;span class="mh"&gt;$1&lt;/span&gt;
-    &lt;span class="k"&gt;else&lt;/span&gt;
-        &lt;span class="nv"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Pandoc is not installed. Unable to convert document.&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
-    &lt;span class="nv"&gt;fi&lt;/span&gt;
-}
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h3 id="convert-a-file"&gt;Convert a&amp;nbsp;file&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; &lt;span class="n"&gt;md2word&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;some&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;markdown&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;convert&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;md&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;some&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;word&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;document&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;output&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;docx&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h3 id="use-pandoc-from-sublime"&gt;Use Pandoc from&amp;nbsp;Sublime&lt;/h3&gt;
-&lt;p&gt;http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html&lt;/p&gt;
-&lt;h4 id="my-customized-build-file"&gt;My customized build&amp;nbsp;file&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;
-    &lt;span class="ss"&gt;&amp;quot;cmd&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/usr/local/bin/pandoc&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;-S&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;-s&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;-f&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;markdown&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;-t&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;docx&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;-o&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;/Users/peter/Documents/Docs/Inbox/$file_base_name.docx&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;$file_name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
-    &lt;span class="ss"&gt;&amp;quot;selector&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;text.html.markdown&amp;quot;&lt;/span&gt;
- &lt;span class="err"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="[docx"></category><category term="convert"></category><category term="markdown]"></category></entry><entry><title>creating REST services</title><link href="https://blog.florijnconsultancy.nl/articles/creating-rest-services.html" rel="alternate"></link><published>2015-09-15T15:53:00+02:00</published><updated>2015-09-15T15:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-09-15:/articles/creating-rest-services.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Interesting project&amp;nbsp;sandman.&lt;/p&gt;
-&lt;p&gt;Sandman2 is in&amp;nbsp;development&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://sandman.readthedocs.org/en/latest/"&gt;https://sandman.readthedocs.org/en/latest/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman"&gt;https://github.com/jeffknupp/sandman&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman2"&gt;https://github.com/jeffknupp/sandman2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.fullstackpython.com/api-creation.html"&gt;http://www.fullstackpython.com/api-creation.html&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[rest"></category><category term="python]"></category></entry><entry><title>Linux command line sort on dates</title><link href="https://blog.florijnconsultancy.nl/articles/linux-command-line-sort-on-dates.html" rel="alternate"></link><published>2015-04-24T14:38:00+02:00</published><updated>2015-04-24T14:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-04-24:/articles/linux-command-line-sort-on-dates.html</id><summary type="html">&lt;p&gt;linux command line sort on&amp;nbsp;dates&lt;/p&gt;</summary><content type="html">&lt;p&gt;For one of my projects I needed to sort a csv file on a date field with dd/mm/yyyy&amp;nbsp;format.&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="Jira"></category><category term="Alfred"></category><category term="workflow"></category></entry><entry><title>Linux command line sort on dates</title><link href="https://blog.florijnconsultancy.nl/articles/linux-command-line-sort-on-dates.html" rel="alternate"></link><published>2015-04-24T14:38:00+02:00</published><updated>2015-04-24T14:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-04-24:/articles/linux-command-line-sort-on-dates.html</id><summary type="html">&lt;p&gt;linux command line sort on&amp;nbsp;dates&lt;/p&gt;</summary><content type="html">&lt;p&gt;For one of my projects I needed to sort a csv file on a date field with dd/mm/yyyy&amp;nbsp;format.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sort&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;k3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;k2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;k1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="n"&gt;planning&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;csv&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
