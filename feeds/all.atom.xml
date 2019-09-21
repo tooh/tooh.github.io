@@ -2,8 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2019-09-20T07:03:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>Archimate example 2</title><link href="https://blog.florijnconsultancy.nl/articles/archimate-example-2.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/archimate-example-2.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
 &lt;img alt="uml diagram" class="uml" src="/images/0f7f4ebd.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>azure</title><link href="https://blog.florijnconsultancy.nl/articles/azure.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/azure.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
 &lt;img alt="uml diagram" class="uml" src="/images/23f5fcc7.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>Google example</title><link href="https://blog.florijnconsultancy.nl/articles/google-example.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/google-example.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="/images/23f5fcc7.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>Mysql example</title><link href="https://blog.florijnconsultancy.nl/articles/mysql-example.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/mysql-example.html</id><content type="html">&lt;img alt="uml diagram" class="uml" src="/images/f2ac462a.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>Office example 1</title><link href="https://blog.florijnconsultancy.nl/articles/office-example-1.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/office-example-1.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
-&lt;img alt="uml diagram" class="uml" src="/images/b211feac.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>Office example 3</title><link href="https://blog.florijnconsultancy.nl/articles/office-example-3.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/office-example-3.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="/images/23f5fcc7.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>Mysql example</title><link href="https://blog.florijnconsultancy.nl/articles/mysql-example.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/mysql-example.html</id><content type="html">&lt;img alt="uml diagram" class="uml" src="/images/f2ac462a.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>Office example 1</title><link href="https://blog.florijnconsultancy.nl/articles/office-example-1.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/office-example-1.html</id><summary type="html"></summary><content type="html">&lt;img alt="uml diagram" class="uml" src="/images/b211feac.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>Office example 3</title><link href="https://blog.florijnconsultancy.nl/articles/office-example-3.html" rel="alternate"></link><published>2019-09-20T07:03:00+02:00</published><updated>2019-09-20T07:03:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-20:/articles/office-example-3.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
 &lt;img alt="uml diagram" class="uml" src="/images/83bf9348.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>test include 2</title><link href="https://blog.florijnconsultancy.nl/articles/test-include-2.html" rel="alternate"></link><published>2019-09-19T07:22:00+02:00</published><updated>2019-09-19T07:22:00+02:00</updated><author><name>username</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-19:/articles/test-include-2.html</id><summary type="html"></summary><content type="html">&lt;img alt="uml diagram" class="uml" src="/images/9c7ba43a.png"&gt;&lt;!-- more --&gt;</content></entry><entry><title>test plantuml 1</title><link href="https://blog.florijnconsultancy.nl/articles/test-plantuml-1.html" rel="alternate"></link><published>2019-09-16T19:52:00+02:00</published><updated>2019-09-16T19:52:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-plantuml-1.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
 &lt;img alt="Sample sequence diagram" class="uml" src="/images/082e4805.png"&gt;&lt;p&gt;re&amp;nbsp;&amp;#8212;&amp;gt;&lt;/p&gt;</content></entry><entry><title>test 4</title><link href="https://blog.florijnconsultancy.nl/articles/test-4.html" rel="alternate"></link><published>2019-09-16T17:14:00+02:00</published><updated>2019-09-16T17:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-4.html</id><content type="html">&lt;p&gt;Author : username&amp;nbsp;Summary: &lt;/p&gt;
 &lt;!-- more --&gt;
@@ -1088,63 +1087,7 @@ I researched this item on Google but I could not find a real Root&amp;nbsp;cause
 
 &lt;script type="text/javascript"&gt;new SocialBar("1335926344708_social_7496", {buttons:["embed","twitter","facebook","googleplusone","email"],url:"http://tv.ssw.com/1279/daily-scrum-at-microsoft",title:"Scrum at Microsoft: See the TFS Agile Team do a Scrum (aka Stand Up) | SSW TVSSW TV",badgeUrl:"http://wistia.com",embedCode:"%3Ciframe%20width%3D%22640%22%20height%3D%22360%22%20src%3D%22http%3A//www.youtube.com/embed/-UUrLxNBK_g%3Frel%3D0%22%20frameborder%3D%220%22%20allowfullscreen%3E%3C/iframe%3E"})&lt;/script&gt;
 
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Diagrams with PlantUML</title><link href="https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html" rel="alternate"></link><published>2013-06-09T12:37:00+02:00</published><updated>2013-06-09T12:37:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-06-09:/articles/diagrams-with-plantuml.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive with&amp;nbsp;it. &lt;/p&gt;
-&lt;p&gt;After my switch to &lt;span class="caps"&gt;OSX&lt;/span&gt;, Omnigraffle seemed the tool to use, but this had the same&amp;nbsp;disadvantages.&lt;/p&gt;
-&lt;p&gt;Recently I came across a tool called PlantUML that can create diagrams based on&amp;nbsp;text.&lt;/p&gt;
-&lt;p&gt;When I found out that somebody had made a plugin for my current blogging environment Octopress it seems that I have won the&amp;nbsp;jackpot.&lt;/p&gt;
-&lt;h3 id="example"&gt;Example:&lt;/h3&gt;
-&lt;h4 id="example-1"&gt;Example&amp;nbsp;1&lt;/h4&gt;
-&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
-&lt;p&gt;title Example 1
-Alice -&amp;gt; Bob: Authentication Request
-Bob &amp;#8212;&amp;gt; Alice: Authentication&amp;nbsp;Response&lt;/p&gt;
-&lt;p _="%" endplantuml&gt;Alice -&amp;gt; Bob: Another authentication Request
-Alice &amp;lt;&amp;#8212; Bob: another authentication&amp;nbsp;Response&lt;/p&gt;
-&lt;h4 id="example-2-swim-lanes"&gt;Example 2 : Swim&amp;nbsp;lanes&lt;/h4&gt;
-&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
-&lt;p&gt;title Example&amp;nbsp;2&lt;/p&gt;
-&lt;p _="%" endplantuml&gt;| swimlane1 |
-:first;
-:second;
-| swimlane2 |
-:third;
-if (foo) then
-:something;
-endif
-| swimlane1 |
-:back to swimlane1;
-| swimlane2 |
-:back to&amp;nbsp;swimlane2;&lt;/p&gt;
-&lt;!-- more --&gt;
-
-&lt;h3 id="references"&gt;References&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://plantuml.sourceforge.net/news.html"&gt;PlantUML&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/yjpark/jekyll-plantuml"&gt;Jekyll-plantUML&amp;nbsp;plugin&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>agile project management</title><link href="https://blog.florijnconsultancy.nl/articles/agile-project-management.html" rel="alternate"></link><published>2013-05-13T09:56:00+02:00</published><updated>2013-05-13T09:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-13:/articles/agile-project-management.html</id><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/5052362" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="http://www.slideshare.net/mcottmeyer/understanding-agile-project-management" title="Understanding Agile Project Management" target="_blank"&gt;Understanding Agile Project Management&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/mcottmeyer" target="_blank"&gt;Mike Cottmeyer&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>helpdesk and wallboard</title><link href="https://blog.florijnconsultancy.nl/articles/helpdesk-and-wallboard.html" rel="alternate"></link><published>2013-05-12T11:55:00+02:00</published><updated>2013-05-12T11:55:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-12:/articles/helpdesk-and-wallboard.html</id><summary type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;One of my projects involves the requirement to install a &lt;a href="http://www.atlassian.com/wallboards/"&gt;wallboard&lt;/a&gt; to show the &lt;span class="caps"&gt;ACD&lt;/span&gt; queue of our helpdesk and as a bonus we would like to show the scrumboard our development teams use. I&amp;#8217;m looking into a Samsung &lt;span class="caps"&gt;LED&lt;/span&gt; monitor / Samsung Smart &lt;span class="caps"&gt;TV&lt;/span&gt; as part of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;image :&amp;nbsp;summary: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;One of my projects involves the requirement to install a &lt;a href="http://www.atlassian.com/wallboards/"&gt;wallboard&lt;/a&gt; to show the &lt;span class="caps"&gt;ACD&lt;/span&gt; queue of our helpdesk and as a bonus we would like to show the scrumboard our development teams use. I&amp;#8217;m looking into a Samsung &lt;span class="caps"&gt;LED&lt;/span&gt; monitor / Samsung Smart &lt;span class="caps"&gt;TV&lt;/span&gt; as part of the solution.
-&lt;!-- more --&gt;&lt;/p&gt;
-&lt;p toc&gt;Contents&lt;/p&gt;
-&lt;h3 id="what-is-a-wallboard"&gt;What is a&amp;nbsp;wallboard?&lt;/h3&gt;
-&lt;p&gt;A wallboard is a type of information radiator that displays vital data about the progress of the development team. Similar to a scoreboard at a sporting event, wallboards are large, highly visible and easy to understand for anyone walking&amp;nbsp;by.&lt;/p&gt;
-&lt;p&gt;Traditional wallboards are made of paper or use sticky notes on a wall. Electronic wallboards are very effective since they update automatically with real-time data ensuring that people check back&amp;nbsp;regularly.&lt;/p&gt;
-&lt;h3 id="software-used-by-others"&gt;Software used by&amp;nbsp;others&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://wiki.jenkins-ci.org/display/JENKINS/Wall+Display+Plugin"&gt;Jenkins wall display&amp;nbsp;plugin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://answers.atlassian.com/questions/156696/would-jira-work-well-in-samsung-smart-tv-built-in-web-browser"&gt;Jira and Greenhopper on Samsung Smart &lt;span class="caps"&gt;TV&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://marketplace.atlassian.com/plugins/com.atlassian.jirawallboard.atlassian-wallboard-plugin"&gt;Jira Wallboard&amp;nbsp;plugin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://shopify.github.io/dashing/"&gt;Dashing&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/ITV/radiator-rotator/blob/master/index.html"&gt;Radiator&amp;nbsp;rotator&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://jquery.malsup.com/cycle2/"&gt;Jquery&amp;nbsp;Cycle2&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="hardware-used-by-others"&gt;Hardware used by&amp;nbsp;others&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://pivotallabs.com/using-a-raspberry-pi-as-an-information-radiator/"&gt;Raspberry&amp;nbsp;Pi&lt;/a&gt;&lt;/p&gt;</content><category term="[]"></category></entry><entry><title>Fritz!Box 7390 configuration</title><link href="https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html" rel="alternate"></link><published>2013-05-09T12:32:00+02:00</published><updated>2013-05-09T12:32:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="[]"></category></entry><entry><title>Fritz!Box 7390 configuration</title><link href="https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html" rel="alternate"></link><published>2013-05-09T12:32:00+02:00</published><updated>2013-05-09T12:32:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
 &lt;p&gt;In this article I will describe the configuration and add-ons I&amp;nbsp;installed.&lt;/p&gt;
 &lt;!-- more --&gt;
 
@@ -1254,145 +1197,7 @@ I decided not to use the &lt;span class="caps"&gt;WLAN&lt;/span&gt; option of th
 &lt;p&gt;[1] &lt;a href="http://http://en.wikipedia.org/wiki/Plain_old_telephone_service"&gt;&lt;span class="caps"&gt;POTS&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] &lt;a href="http://www.avm.de"&gt;&lt;span class="caps"&gt;AVM&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[3] &lt;a href="http://http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/page:1"&gt;&lt;span class="caps"&gt;AVM&lt;/span&gt; Knowledge&amp;nbsp;base&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband&amp;nbsp;review&lt;/a&gt; &lt;/p&gt;</content><category term="telephony"></category><category term="VOIP"></category></entry><entry><title>synology diskstation acces from internet</title><link href="https://blog.florijnconsultancy.nl/articles/synology-diskstation-acces-from-internet.html" rel="alternate"></link><published>2013-05-05T11:14:00+02:00</published><updated>2013-05-05T11:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-05:/articles/synology-diskstation-acces-from-internet.html</id><summary type="html">&lt;p&gt;I recently bought a Synology Diskstation &lt;span class="caps"&gt;DS213&lt;/span&gt;+.
-Installation went smoothly and within an hour the basic things were working as&amp;nbsp;expected.&lt;/p&gt;
-&lt;p&gt;I wanted to access the &lt;span class="caps"&gt;NAS&lt;/span&gt; also from the internet, so I used the &lt;span class="caps"&gt;EZ&lt;/span&gt;-Internet wizard to configure it. I created a synology.me account and created a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I recently bought a Synology Diskstation &lt;span class="caps"&gt;DS213&lt;/span&gt;+.
-Installation went smoothly and within an hour the basic things were working as&amp;nbsp;expected.&lt;/p&gt;
-&lt;p&gt;I wanted to access the &lt;span class="caps"&gt;NAS&lt;/span&gt; also from the internet, so I used the &lt;span class="caps"&gt;EZ&lt;/span&gt;-Internet wizard to configure it. I created a synology.me account and created a &lt;span class="caps"&gt;DDNS&lt;/span&gt; entry. For some reason the portforwarding on my Netgear &lt;span class="caps"&gt;WNDR3700&lt;/span&gt; was not working as expected. Some people hinted that you could make some manual portforwarding rules, so I decided to give that a try.
-&lt;!-- more --&gt;&lt;/p&gt;
-&lt;p&gt;When I tried to create a custom service I got an&amp;nbsp;error:&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-&amp;#8220;The specified port(s) are being used by other configurations. Please check your configurations of &lt;span class="caps"&gt;USB&lt;/span&gt; Readyshare, Remote Management, Port forwarding, Port Triggering, UPnP Port Mapping table, &lt;span class="caps"&gt;RIP&lt;/span&gt;, and Internet connection type&amp;nbsp;&amp;#8220;&lt;/p&gt;
-&lt;p&gt;I noticed that the port 5000 was already appearing in my uPnP table and I assumed this was the cause of this error. I decided to switch off UPnP and then added the forwarding&amp;nbsp;rule.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Port forwarding" src="/images/port_forwarding.png"&gt;&lt;/p&gt;
-&lt;p&gt;Bingo! I could add the rule and the forwarding is working &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;now.&lt;/p&gt;
-&lt;p&gt;So my conclusion for now is that for some reason the &lt;span class="caps"&gt;EZ&lt;/span&gt;-Internet wizard is not working &lt;span class="caps"&gt;OK&lt;/span&gt; and does not detect that the forwarding rules were not applied&amp;nbsp;correctly.&lt;/p&gt;
-&lt;p&gt;Please comment if I have overlooked&amp;nbsp;something.&lt;/p&gt;
-&lt;h2 id="references"&gt;References&lt;/h2&gt;
-&lt;p&gt;[1] &lt;a href="http://forum.synology.com/wiki/index.php/Remote_Access_on_the_Synology_DiskStation"&gt;Remote Access on the Synology&amp;nbsp;DiskStation&lt;/a&gt;&lt;/p&gt;</content><category term="diskstation"></category><category term="synology"></category></entry><entry><title>Alfred workflow for Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html" rel="alternate"></link><published>2013-04-23T13:34:00+02:00</published><updated>2013-04-23T13:34:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-23:/articles/alfred-workflow-for-octopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I have been using Alfred v2 for a couple of weeks now and I am very pleased about the workflow feature from the Power&amp;nbsp;pack.&lt;/p&gt;
-&lt;p&gt;I try to develop some workflows myself and now I have developed an easy workflow for Octopress , the static site&amp;nbsp;generator.&lt;/p&gt;
-&lt;!-- more --&gt;
-
-&lt;p&gt;Octopress is coming with some rake commands to maintain the&amp;nbsp;site.&lt;/p&gt;
-&lt;p&gt;I have implemented some of these rake commands in an Alfred&amp;nbsp;workflow.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;keyword&lt;/span&gt; &lt;span class="n"&gt;generate&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;rake&lt;/span&gt; &lt;span class="n"&gt;generate&lt;/span&gt;
-&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;keyword&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;rake&lt;/span&gt; &lt;span class="n"&gt;gen_deploy&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;This was a bigger challenge than I expected because of the way I installed the required Ruby version.&amp;nbsp;(rvm)&lt;/p&gt;
-&lt;p&gt;In my bash script I had to add some extras because Alfred runs the bash script in a subshell and in this subshell the rvm environment is not available by&amp;nbsp;default.&lt;/p&gt;
-&lt;p&gt;{% highlight bash %}
-cd $&lt;span class="caps"&gt;HOME&lt;/span&gt;/Sites/dailyscrum
-[[ -s &amp;#8220;$&lt;span class="caps"&gt;HOME&lt;/span&gt;/.rvm/scripts/rvm&amp;#8221; ]] &amp;amp;&amp;amp; source &amp;#8220;$&lt;span class="caps"&gt;HOME&lt;/span&gt;/.rvm/scripts/rvm&amp;#8221;&lt;/p&gt;
-&lt;h1 id="without-the-below-settings-you-get-an-error"&gt;without the below settings you get an&amp;nbsp;error&lt;/h1&gt;
-&lt;h1 id="pluginsbacktick_code_blockrb13in-gsub-invalid-byte-sequence-in-us-ascii-argumenterror"&gt;plugins/backtick_code_block.rb:13:in `gsub&amp;#8217;: invalid byte sequence in &lt;span class="caps"&gt;US&lt;/span&gt;-&lt;span class="caps"&gt;ASCII&lt;/span&gt;&amp;nbsp;(ArgumentError)&lt;/h1&gt;
-&lt;p&gt;export &lt;span class="caps"&gt;LANG&lt;/span&gt;=en_US.utf-8&lt;/p&gt;
-&lt;p&gt;bundle install
-rake generate 2&amp;gt;&amp;amp;1 | tee $&lt;span class="caps"&gt;HOME&lt;/span&gt;/Sites/dailyscrum/error.log&lt;/p&gt;
-&lt;p&gt;{% endhighlight&amp;nbsp;%}&lt;/p&gt;</content></entry><entry><title>Installation notes Testopia</title><link href="https://blog.florijnconsultancy.nl/articles/installation-notes-testopia.html" rel="alternate"></link><published>2013-04-21T21:00:00+02:00</published><updated>2013-04-21T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-21:/articles/installation-notes-testopia.html</id><summary type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make Testopia work on my local installation. This will be updated as I go&amp;nbsp;along.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go along.
-&lt;!-- more --&gt;&lt;/p&gt;
-&lt;h3 id="testopia-testcase-management-system"&gt;Testopia testcase management&amp;nbsp;system&lt;/h3&gt;
-&lt;h3 id="requirements"&gt;Requirements&lt;/h3&gt;
-&lt;p&gt;The Testopia Extension requires Bugzilla &amp;gt;4.2.
-Testopi version 2.5 is the first release that does not need a patch on Bugzilla to&amp;nbsp;work.&lt;/p&gt;
-&lt;h3 id="old-notes-relevant-before-v25"&gt;old notes relevant before&amp;nbsp;v2.5&lt;/h3&gt;
-&lt;h2 id="installation-of-testopia-extension"&gt;Installation of Testopia&amp;nbsp;extension&lt;/h2&gt;
-&lt;h3 id="how-to-get-testopia"&gt;How to get&amp;nbsp;Testopia&lt;/h3&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-$ bzr branch&amp;nbsp;bzr://bzr.mozilla.org/bugzilla/extensions/testopia/trunk&lt;/p&gt;
-&lt;h3 id="patch-bugzilla-42"&gt;Patch Bugzilla&amp;nbsp;4.2&lt;/h3&gt;
-&lt;p&gt;Note: 603-2012: No patch for 4.2 available at time of&amp;nbsp;patching&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;cd to the directory with the Testopia&amp;nbsp;trunk&lt;/li&gt;
-&lt;li&gt;copy items from the downloaded Testopia&amp;nbsp;trunk &lt;/li&gt;
-&lt;li&gt;cd&amp;nbsp;/usr/local/bugzilla&lt;/li&gt;
-&lt;li&gt;paste items from the downloaded Testopia trunk and merge the extensions&amp;nbsp;directory&lt;/li&gt;
-&lt;li&gt;patch -p0 -i extensions/Testopia/patch-4.0
-patching file Bugzilla/Bug.pm
-Hunk #1 succeeded at 3628 (offset 101 lines).
-patching file Bugzilla/Constants.pm
-Hunk #1 succeeded at 145 (offset 1 line).
-Hunk #2 succeeded at 470 (offset 5 lines).
-patching file Bugzilla/Error.pm
-Hunk #2 succeeded at 145 (offset -6 lines).
-patching file Bugzilla/Install/Filesystem.pm
-Hunk #1 succeeded at 153 (offset 3 lines).
-patching file Bugzilla/Search.pm
-Hunk #1 &lt;span class="caps"&gt;FAILED&lt;/span&gt; at 510.
-1 out of 1 hunk &lt;span class="caps"&gt;FAILED&lt;/span&gt; &amp;#8212; saving rejects to file Bugzilla/Search.pm.rej
-patching file Bugzilla/User.pm
-Hunk #1 succeeded at 575 with fuzz 1 (offset 67 lines).
-Hunk #2 succeeded at 936 (offset 82 lines).
-Hunk #3 succeeded at 1292 (offset 130 lines).
-patching file&amp;nbsp;template/en/default/global/setting-descs.none.tmpl&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id="run-checksetuppl"&gt;Run&amp;nbsp;.checksetup.pl&lt;/h3&gt;
-&lt;p&gt;./checksetup.pl&lt;/p&gt;
-&lt;h3 id="install-additional-dependencies"&gt;Install additional&amp;nbsp;dependencies&lt;/h3&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-$ sudo /usr/bin/perl install-module.pl Text::Diff
-$ sudo /usr/bin/perl install-module.pl &lt;span class="caps"&gt;GD&lt;/span&gt;::Graph3d&lt;/p&gt;
-&lt;h3 id="run-checksetup-again"&gt;Run .checksetup&amp;nbsp;again&lt;/h3&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-$&amp;nbsp;./checksetup.pl&lt;/p&gt;
-&lt;p&gt;You should now&amp;nbsp;get &lt;/p&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-$ checksetup.pl&amp;nbsp;complete.&lt;/p&gt;
-&lt;h3 id="errors-on-filter-url_quote"&gt;Errors on &lt;span class="caps"&gt;FILTER&lt;/span&gt;&amp;nbsp;url_quote&lt;/h3&gt;
-&lt;p&gt;Template-&amp;gt;process() failed twice.
-First error: undef error - url_quote: filter not found
-Second error: undef error - url_quote: filter not&amp;nbsp;found&lt;/p&gt;
-&lt;p&gt;Seems this is&amp;nbsp;deprecated&lt;/p&gt;
-&lt;p&gt;Found Bugzilla message 398701 with&amp;nbsp;fix&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-find . &lt;em&gt;-type f -name &amp;#8220;&lt;/em&gt;.tmpl&amp;#8221; -exec replace &amp;#8216;&lt;span class="caps"&gt;FILTER&lt;/span&gt; url_quote&amp;#8217; &amp;#8216;&lt;span class="caps"&gt;FILTER&lt;/span&gt; uri&amp;#8217; &amp;#8212; {}&amp;nbsp;\;*&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;Executed this from the Testopia extensions directory this updated a number of template files:
-{% highlight bash %}
-./template/en/default/hook/bug/create/create-end.html.tmpl converted
-./template/en/default/hook/bug/edit-after_custom_fields.html.tmpl converted
-./template/en/default/hook/bug/process/results-links.html.tmpl converted
-./template/en/default/hook/global/common-links-link-row.html.tmpl converted
-./template/en/default/hook/global/useful-links-end.html.tmpl converted
-./template/en/default/testopia/reports/build-coverage.html.tmpl converted
-./template/en/default/testopia/reports/completion.html.tmpl converted
-./template/en/default/testopia/reports/execution.html.tmpl converted
-./template/en/default/testopia/reports/priority-breakdown.html.tmpl converted
-./template/en/default/testopia/reports/report-table.html.tmpl converted
-./template/en/default/testopia/reports/report.html.tmpl converted
-./template/en/default/testopia/reports/status.html.tmpl converted
-./template/en/default/testopia/tag/list.html.tmpl&amp;nbsp;converted&lt;/p&gt;
-&lt;h3 id="additional-patching"&gt;Additional&amp;nbsp;patching&lt;/h3&gt;
-&lt;h4 id="searchpm"&gt;Search.pm&lt;/h4&gt;
-&lt;p&gt;There seems to be a problem in&amp;nbsp;Bugzilla/Search.pm&lt;/p&gt;
-&lt;p _="%" bash highlight&gt;A patch was suggested in &lt;span class="caps"&gt;BZ&lt;/span&gt; 596325
-I copied the patch file and applied&amp;nbsp;it&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;$ sudo patch -p0 -i extensions/Testopia/patch-bz596325
-$ chgrp the Search.pm  and make it member of the _www&amp;nbsp;group&lt;/p&gt;
-&lt;p&gt;Patch works and now Testopia-&amp;gt; My plans does not give an error&amp;nbsp;anymore&lt;/p&gt;
-&lt;h3 id="new-plan"&gt;New&amp;nbsp;plan&lt;/h3&gt;
-&lt;p&gt;It seems the link New plan is not working.
-In the Apache error_log there are a lot of&amp;nbsp;errors&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;{% highlight bash %}
-File does not exist: /Library/WebServer/Documents/bugzilla/extensions/Testopia/extjs, referer:&amp;nbsp;http://tooh.homedns.org/bugzilla/tr_new_plan.cgi&lt;/p&gt;
-&lt;p&gt;I did not install the extjs files so probably this is the&amp;nbsp;problem.&lt;/p&gt;
-&lt;p _="%" bash highlight&gt;On the Testopia wiki there is some&amp;nbsp;instructions&lt;/p&gt;
-&lt;p _="%" endhighlight&gt;$&amp;gt; cd path/to/bugzilla/testopia/
-$&amp;gt; wget http://extjs.com/deploy/ext-3.2.1.zip
-$&amp;gt; unzip ext-3.2.1.zip
-$&amp;gt; mv ext-3.2.1&amp;nbsp;extjs&lt;/p&gt;
-&lt;p&gt;Found out that the files are not there anymore
-Downloaded the older version&amp;nbsp;http://www.sencha.com/products/extjs/download/ext-js-3.2.1&lt;/p&gt;
-&lt;p&gt;Renamed the folder to&amp;nbsp;extjs&lt;/p&gt;
-&lt;p&gt;Note: Don&amp;#8217;t forget to refresh. And now it is&amp;nbsp;working.&lt;/p&gt;
-&lt;h3 id="new-run"&gt;New&amp;nbsp;run&lt;/h3&gt;
-&lt;p&gt;Initially no testcases where shown.
-Investigation of the /var/log/apache2/error_log showed that there was an error with een uninitialized variable.
-I commented out use strict in the header of&amp;nbsp;/usr/local/bugzilla/extensions/Testopia/lib/Search.pm&lt;/p&gt;
-&lt;p&gt;Everything &lt;span class="caps"&gt;OK&lt;/span&gt;&amp;nbsp;now.&lt;/p&gt;
-&lt;h3 id="reference"&gt;Reference&lt;/h3&gt;
-&lt;p&gt;[1]
-&lt;a href="http://www.mozilla.org/projects/testopia/"&gt;Testopia&amp;nbsp;Mozilla&lt;/a&gt;&lt;/p&gt;</content><category term="testopia bugzilla testmanagement"></category></entry><entry><title>Project Nestor</title><link href="https://blog.florijnconsultancy.nl/articles/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-21:/articles/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is&amp;nbsp;Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband&amp;nbsp;review&lt;/a&gt; &lt;/p&gt;</content><category term="telephony"></category><category term="VOIP"></category></entry><entry><title>Project Nestor</title><link href="https://blog.florijnconsultancy.nl/articles/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-21:/articles/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is&amp;nbsp;Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Together with Bruno Kinoshita I am involved in a project for the development of a new testcase management application. The working title of the application is Nestor.
 &lt;!-- more --&gt;&lt;/p&gt;
 &lt;h2 id="project-team"&gt;Project&amp;nbsp;team&lt;/h2&gt;
