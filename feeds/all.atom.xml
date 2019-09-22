@@ -1006,12 +1006,13 @@ Installation went smoothly and within an hour the basic things were working as&a
 &lt;p&gt;In my bash script I had to add some extras because Alfred runs the bash script in a subshell and in this subshell the rvm environment is not available by&amp;nbsp;default.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; &lt;span class="nv"&gt;$HOME&lt;/span&gt;/Sites/dailyscrum
 &lt;span class="o"&gt;[[&lt;/span&gt; -s &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;/.rvm/scripts/rvm&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;]]&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="nb"&gt;source&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;/.rvm/scripts/rvm&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
 
+:::bash
+&lt;span class="c1"&gt;# without the below settings you get an error&lt;/span&gt;
+&lt;span class="c1"&gt;# plugins/backtick_code_block.rb:13:in `gsub&amp;#39;: invalid byte sequence in US-ASCII (ArgumentError)&lt;/span&gt;
 
-&lt;h1 id="without-the-below-settings-you-get-an-error"&gt;without the below settings you get an&amp;nbsp;error&lt;/h1&gt;
-&lt;h1 id="pluginsbacktick_code_blockrb13in-gsub-invalid-byte-sequence-in-us-ascii-argumenterror"&gt;plugins/backtick_code_block.rb:13:in `gsub&amp;#8217;: invalid byte sequence in &lt;span class="caps"&gt;US&lt;/span&gt;-&lt;span class="caps"&gt;ASCII&lt;/span&gt;&amp;nbsp;(ArgumentError)&lt;/h1&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;LANG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;en_US.utf-8
+:::bash
+&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;LANG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;en_US.utf-8
 
 bundle install
 rake generate &lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; tee &lt;span class="nv"&gt;$HOME&lt;/span&gt;/Sites/dailyscrum/error.log

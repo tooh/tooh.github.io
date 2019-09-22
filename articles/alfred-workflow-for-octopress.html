@@ -138,12 +138,13 @@
 <p>In my bash script I had to add some extras because Alfred runs the bash script in a subshell and in this subshell the rvm environment is not available by&nbsp;default.</p>
 <div class="highlight"><pre><span></span><span class="nb">cd</span> <span class="nv">$HOME</span>/Sites/dailyscrum
 <span class="o">[[</span> -s <span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="o">&amp;&amp;</span> <span class="nb">source</span> <span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/.rvm/scripts/rvm&quot;</span>
-</pre></div>
 
+:::bash
+<span class="c1"># without the below settings you get an error</span>
+<span class="c1"># plugins/backtick_code_block.rb:13:in `gsub&#39;: invalid byte sequence in US-ASCII (ArgumentError)</span>
 
-<h1 id="without-the-below-settings-you-get-an-error">without the below settings you get an&nbsp;error</h1>
-<h1 id="pluginsbacktick_code_blockrb13in-gsub-invalid-byte-sequence-in-us-ascii-argumenterror">plugins/backtick_code_block.rb:13:in `gsub&#8217;: invalid byte sequence in <span class="caps">US</span>-<span class="caps">ASCII</span>&nbsp;(ArgumentError)</h1>
-<div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">LANG</span><span class="o">=</span>en_US.utf-8
+:::bash
+<span class="nb">export</span> <span class="nv">LANG</span><span class="o">=</span>en_US.utf-8
 
 bundle install
 rake generate <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span> <span class="p">|</span> tee <span class="nv">$HOME</span>/Sites/dailyscrum/error.log
