@@ -242,7 +242,7 @@ new configure&amp;nbsp;afterwards)&lt;/li&gt;
 &lt;p&gt;&lt;a href="http://www.voip-info.org/wiki/view/Asterisk+click+to+call"&gt;click2call&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Standards&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.ietf.org/rfc/rfc2806.txt"&gt;rfc2806&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="voip"></category><category term="click2call"></category><category term="CTI"></category><category term="pots"></category></entry><entry><title>Omnis and java</title><link href="https://blog.florijnconsultancy.nl/articles/omnis-and-java.html" rel="alternate"></link><published>2014-10-26T11:37:00+01:00</published><updated>2014-10-26T11:37:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-26:/articles/omnis-and-java.html</id><summary type="html"></summary><content type="html">&lt;h1 id="research-notes-on-java-use-in-omnis"&gt;Research notes on java use in&amp;nbsp;Omnis&lt;/h1&gt;
+&lt;!-- more --&gt;</content><category term="voip"></category><category term="click2call"></category><category term="CTI"></category><category term="pots"></category></entry><entry><title>Omnis and java</title><link href="https://blog.florijnconsultancy.nl/articles/omnis-and-java.html" rel="alternate"></link><published>2014-10-26T11:37:00+01:00</published><updated>2014-10-26T11:37:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-26:/articles/omnis-and-java.html</id><summary type="html"></summary><content type="html">&lt;h2 id="research-notes-on-java-use-in-omnis"&gt;Research notes on java use in&amp;nbsp;Omnis&lt;/h2&gt;
 &lt;h2 id="how-can-i-find-which-version-of-java-is-installed-without-running-an-applet-in-windows-or-mac"&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.java.com/en/download/help/version_manual.xml"&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="strip-java-out-of-omnis-rt"&gt;Strip Java out of Omnis &lt;span class="caps"&gt;RT&lt;/span&gt;&lt;/h2&gt;
@@ -286,7 +286,14 @@ new configure&amp;nbsp;afterwards)&lt;/li&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;{:toc}&lt;/p&gt;</content><category term="omnis"></category><category term="install"></category><category term="java"></category></entry><entry><title>Disabling Nap App</title><link href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html" rel="alternate"></link><published>2014-10-25T12:02:00+02:00</published><updated>2014-10-25T12:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-25:/articles/disabling-nap-app.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Since Mavericks there is a feature called Nap&amp;nbsp;app.&lt;/p&gt;
+&lt;div class="toc"&gt;&lt;span class="toctitle"&gt;Table of contents:&lt;/span&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#research-notes-on-java-use-in-omnis"&gt;Research notes on java use in&amp;nbsp;Omnis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#how-can-i-find-which-version-of-java-is-installed-without-running-an-applet-in-windows-or-mac"&gt;How can I find which version of Java is installed without running an applet in Windows or&amp;nbsp;Mac?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#strip-java-out-of-omnis-rt"&gt;Strip Java out of Omnis &lt;span class="caps"&gt;RT&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#information-and-system-requirements-for-installation-and-use-of-oracle-java-on-mac-os-x"&gt;Information and system requirements for installation and use of Oracle Java on Mac &lt;span class="caps"&gt;OS&lt;/span&gt;&amp;nbsp;X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#verify-installation-of-java-runtime-on-windows"&gt;Verify installation of java runtime on&amp;nbsp;Windows&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</content><category term="omnis"></category><category term="install"></category><category term="java"></category></entry><entry><title>Disabling Nap App</title><link href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html" rel="alternate"></link><published>2014-10-25T12:02:00+02:00</published><updated>2014-10-25T12:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-25:/articles/disabling-nap-app.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Since Mavericks there is a feature called Nap&amp;nbsp;app.&lt;/p&gt;
 &lt;p&gt;For some reason it can be better to prevent an application to take a&amp;nbsp;nap.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs tip %}
 You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
