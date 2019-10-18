@@ -22,4 +22,4 @@
 
 bundle install
 rake generate &lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; tee &lt;span class="nv"&gt;$HOME&lt;/span&gt;/Sites/dailyscrum/error.log
-&lt;/pre&gt;&lt;/div&gt;</content><category term="workflow"></category><category term="blogging"></category></entry></feed>
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Alfred"></category><category term="workflow"></category><category term="blogging"></category></entry></feed>

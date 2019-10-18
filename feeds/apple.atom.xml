@@ -16,7 +16,7 @@ You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="http://www.cultofmac.com/274396/disable-app-nap-specific-apps-os-x-tips/"&gt;Disable nap&amp;nbsp;app&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="macos"></category><category term="tips"></category><category term="performance"></category></entry><entry><title>How to fix slow startup OSX Mountain Lion</title><link href="https://blog.florijnconsultancy.nl/articles/how-to-fix-slow-startup-osx-mountain-lion.html" rel="alternate"></link><published>2013-08-21T13:31:00+02:00</published><updated>2013-08-21T13:31:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-08-21:/articles/how-to-fix-slow-startup-osx-mountain-lion.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I recently experienced very slow startup of my iMac and it seemed related to heavy Spotlight indexing.
+&lt;!-- more --&gt;</content><category term="apple"></category><category term="macos"></category><category term="tips"></category><category term="performance"></category></entry><entry><title>How to fix slow startup OSX Mountain Lion</title><link href="https://blog.florijnconsultancy.nl/articles/how-to-fix-slow-startup-osx-mountain-lion.html" rel="alternate"></link><published>2013-08-21T13:31:00+02:00</published><updated>2013-08-21T13:31:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-08-21:/articles/how-to-fix-slow-startup-osx-mountain-lion.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I recently experienced very slow startup of my iMac and it seemed related to heavy Spotlight indexing.
 I researched this item on Google but I could not find a real Root&amp;nbsp;cause.&lt;/p&gt;
 &lt;p&gt;I made a call to Apple support and I got the following&amp;nbsp;suggestions:&lt;/p&gt;
 &lt;ol&gt;
@@ -33,4 +33,4 @@ I researched this item on Google but I could not find a real Root&amp;nbsp;cause
 &lt;p&gt;So it worked for&amp;nbsp;me.&lt;/p&gt;
 &lt;p&gt;Be careful and make a backup before trying this&amp;nbsp;fix.&lt;/p&gt;
 &lt;p&gt;No&amp;nbsp;guarantees!&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="performance"></category><category term="fix"></category></entry></feed>
+&lt;!-- more --&gt;</content><category term="Apple"></category><category term="performance"></category><category term="fix"></category></entry></feed>

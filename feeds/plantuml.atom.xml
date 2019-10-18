@@ -30,4 +30,4 @@ endif
 
 &lt;h3 id="references"&gt;References&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://plantuml.sourceforge.net/news.html"&gt;PlantUML&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/yjpark/jekyll-plantuml"&gt;Jekyll-plantUML&amp;nbsp;plugin&lt;/a&gt;&lt;/p&gt;</content><category term="diagrams"></category><category term="workflow"></category><category term="tools"></category></entry></feed>
+&lt;p&gt;&lt;a href="https://github.com/yjpark/jekyll-plantuml"&gt;Jekyll-plantUML&amp;nbsp;plugin&lt;/a&gt;&lt;/p&gt;</content><category term="plantuml"></category><category term="diagrams"></category><category term="workflow"></category><category term="tools"></category></entry></feed>

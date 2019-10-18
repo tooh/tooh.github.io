@@ -3,12 +3,12 @@
 &lt;p&gt;&lt;a href="http://www.voip-info.org/wiki/view/Asterisk+click+to+call"&gt;click2call&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Standards&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.ietf.org/rfc/rfc2806.txt"&gt;rfc2806&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="voip"></category><category term="click2call"></category><category term="CTI"></category><category term="pots"></category></entry><entry><title>Fritz!Box 7390 configuration</title><link href="https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html" rel="alternate"></link><published>2013-05-09T12:32:00+02:00</published><updated>2013-05-09T12:32:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="telephony"></category><category term="voip"></category><category term="click2call"></category><category term="CTI"></category><category term="pots"></category></entry><entry><title>Fritz!Box 7390 configuration</title><link href="https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html" rel="alternate"></link><published>2013-05-09T12:32:00+02:00</published><updated>2013-05-09T12:32:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
 &lt;p&gt;In this article I will describe the configuration and add-ons I&amp;nbsp;installed.&lt;/p&gt;
 &lt;!-- more --&gt;
 
 &lt;h2 id="contents"&gt;Contents&lt;/h2&gt;
-&lt;div class="toc"&gt;&lt;span class="toctitle"&gt;&amp;lt;H1&amp;gt;Table of contents&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;ul&gt;
+&lt;div class="toc"&gt;&lt;span class="toctitle"&gt;Table of contents&lt;/span&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#contents"&gt;Contents&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#the-fritzbox"&gt;The Fritz!Box&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#options"&gt;Options&lt;/a&gt;&lt;/li&gt;
@@ -113,4 +113,4 @@ I decided not to use the &lt;span class="caps"&gt;WLAN&lt;/span&gt; option of th
 &lt;p&gt;[1] &lt;a href="http://http://en.wikipedia.org/wiki/Plain_old_telephone_service"&gt;&lt;span class="caps"&gt;POTS&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] &lt;a href="http://www.avm.de"&gt;&lt;span class="caps"&gt;AVM&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[3] &lt;a href="http://http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/page:1"&gt;&lt;span class="caps"&gt;AVM&lt;/span&gt; Knowledge&amp;nbsp;base&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband&amp;nbsp;review&lt;/a&gt; &lt;/p&gt;</content><category term="telephony"></category><category term="VOIP"></category></entry></feed>
+&lt;p&gt;[4] &lt;a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html"&gt;Think broadband&amp;nbsp;review&lt;/a&gt; &lt;/p&gt;</content><category term="telephony"></category><category term="telephony"></category><category term="VOIP"></category></entry></feed>

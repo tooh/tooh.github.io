@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>upgrade to Bugzilla 5.0 &mdash; Daily Scrum</title>
+  <title>Installation notes Homebridge &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
 
 
@@ -20,6 +20,7 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="robots" content="noindex, nofollow" />
 
     <link href="https://blog.florijnconsultancy.nl/favicon.png" rel="icon">
 
@@ -70,7 +71,7 @@
       <li >
         <a href="https://blog.florijnconsultancy.nl/category/diskstation.html">Diskstation</a>
       </li>
-      <li class="active">
+      <li >
         <a href="https://blog.florijnconsultancy.nl/category/install.html">Install</a>
       </li>
       <li >
@@ -121,69 +122,160 @@
 <div>
   <article class="hentry" role="article">
 <header>
-      <h1 class="entry-title">upgrade to Bugzilla 5.0</h1>
+      <h1 class="entry-title">Installation notes Homebridge</h1>
     <p class="meta">
-<time datetime="2015-01-31T10:26:00+01:00" pubdate>Sat 31 January 2015</time>    </p>
+<time datetime="2019-10-11T07:38:00+02:00" pubdate>Fri 11 October 2019</time>    </p>
 </header>
 
-  <div class="entry-content"><div class="toc"><span class="toctitle">Table of contents</span><ul>
-<li><a href="#updating-to-a-newer-release">Updating to a Newer Release</a><ul>
-<li><a href="#no-local-changes">No local&nbsp;changes</a></li>
-<li><a href="#upgrade-to-release-50">Upgrade to release&nbsp;5.0</a></li>
-<li><a href="#local-uncommitted-changes">Local, uncommitted&nbsp;changes</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<p>I upgraded to Bugzilla&nbsp;5.0.</p>
-<p>Since the Bugzilla project now supports git, upgrading is now a simple&nbsp;process.</p>
-<p>These are my installation&nbsp;notes.</p>
-<h2 id="updating-to-a-newer-release">Updating to a Newer&nbsp;Release</h2>
-<h3 id="no-local-changes">No local&nbsp;changes</h3>
-<p>If you have no local changes to any tracked files, upgrading to both minor and major releases is&nbsp;simple:</p>
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="k">fetch</span>
-</pre></div>
+  <div class="entry-content"><p>Author : Peter Florijn:&nbsp;Summary: </p>
+<p>In this post I have documented how I have configured my homebridge setup on my raspberry pi&nbsp;3.</p>
+<p>This is a work in progress and the post will be updated when&nbsp;necessary</p>
+<!-- more -->
 
-
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">bugzilla</span><span class="o">-</span><span class="p">(</span><span class="k">version</span><span class="p">)</span>
-</pre></div>
-
-
-<p>where (version) is the version number that you want to update to, like&nbsp;5.0rc3</p>
-<h3 id="upgrade-to-release-50">Upgrade to release&nbsp;5.0</h3>
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="k">fetch</span>
-</pre></div>
-
-
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">release</span><span class="o">-</span><span class="mi">5</span><span class="p">.</span><span class="mi">0</span>
-</pre></div>
-
-
-<!— more —>
-
-<h3 id="local-uncommitted-changes">Local, uncommitted&nbsp;changes</h3>
-<p>The above checkout command will fail if you’ve made any modifications to files you checked out from git with a warning about overwriting local changes. In this case, the simple solution is to stash and then reapply your changes (assuming you’ve done the “git fetch”&nbsp;already):</p>
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">stash</span> <span class="n">save</span>
-</pre></div>
-
-
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">bugzilla</span><span class="o">-</span><span class="p">(</span><span class="k">version</span><span class="p">)</span>
-</pre></div>
-
-
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">stash</span> <span class="n">apply</span>
-</pre></div>
-
-
-<p>However, it is better to create a local branch, which is one of git’s strengths. You can track your customizations and merge in changes from&nbsp;upstream. </p></div>
+<h1 id="services">Services</h1>
+<h2 id="systemd">systemd</h2>
+<p><code>automatic restart</code></p>
+<h2 id="start-stop-en-monitor">start , stop en&nbsp;monitor</h2>
+<p><code>$ sudo systemctl stop homebridge
+$ sudo systemctl start homebridge
+$ sudo journalctl -f -u homebridge</code></p>
+<h1 id="installation-plugins">Installation&nbsp;plugins</h1>
+<h2 id="config-ui-x">config-ui-x</h2>
+<p><code>sudo npm --verbose install -g homebridge-config-ui-x --unsafe-perm</code></p>
+<h1 id="homebridge-config">Homebridge&nbsp;config</h1>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+ <span class="nt">&quot;bridge&quot;</span><span class="p">:</span> <span class="p">{</span>
+     <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Homebridge&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;username&quot;</span><span class="p">:</span> <span class="s2">&quot;CB:22:3D:E2:CE:31&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;port&quot;</span><span class="p">:</span> <span class="mi">51826</span><span class="p">,</span>
+     <span class="nt">&quot;pin&quot;</span><span class="p">:</span> <span class="s2">&quot;033-44-254&quot;</span>
+<span class="p">},</span>
+ <span class="nt">&quot;accessories&quot;</span><span class="p">:</span> <span class="p">[</span>
+     <span class="p">{</span>
+         <span class="nt">&quot;accessory&quot;</span><span class="p">:</span> <span class="s2">&quot;SamsungTV&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;TV Living room&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;ip_address&quot;</span><span class="p">:</span> <span class="s2">&quot;192.168.1.105&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;send_delay&quot;</span><span class="p">:</span> <span class="mi">400</span><span class="p">,</span>
+         <span class="nt">&quot;channel&quot;</span><span class="p">:</span> <span class="mi">14</span>
+     <span class="p">}</span>
+ <span class="p">],</span>
+<span class="nt">&quot;platforms&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;config&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Config&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;port&quot;</span><span class="p">:</span> <span class="mi">8080</span><span class="p">,</span>
+        <span class="nt">&quot;auth&quot;</span><span class="p">:</span> <span class="s2">&quot;form&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;theme&quot;</span><span class="p">:</span> <span class="s2">&quot;teal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;restart&quot;</span><span class="p">:</span> <span class="s2">&quot;sudo -n systemctl restart homebridge&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;tempUnits&quot;</span><span class="p">:</span> <span class="s2">&quot;c&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;sudo&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nt">&quot;log&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">&quot;method&quot;</span><span class="p">:</span> <span class="s2">&quot;systemd&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;service&quot;</span><span class="p">:</span> <span class="s2">&quot;homebridge&quot;</span>
+        <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;Nest&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;email&quot;</span><span class="p">:</span> <span class="s2">&quot;florijn.peter@gmail.com&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;password&quot;</span><span class="p">:</span> <span class="s2">&quot;Inferno1#&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;Fritz!Box&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;My FritzBox&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;username&quot;</span><span class="p">:</span> <span class="s2">&quot;Peter&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;password&quot;</span><span class="p">:</span> <span class="s2">&quot;Lostsymbol1&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://192.168.1.150&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;interval&quot;</span><span class="p">:</span> <span class="mi">60</span><span class="p">,</span>
+        <span class="nt">&quot;options&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">&quot;strictSSL&quot;</span><span class="p">:</span> <span class="kc">false</span>
+        <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;Hue&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Hue&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;users&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">&quot;001788FFFE23C279&quot;</span><span class="p">:</span> <span class="s2">&quot;NWKcPJIIorK89nfk8x3a6aaRM3eUED5Ahqi6Rdsx&quot;</span>
+        <span class="p">},</span>
+        <span class="nt">&quot;host&quot;</span><span class="p">:</span> <span class="s2">&quot;192.168.1.106&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;sensors&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nt">&quot;nativeHomeKitSensors&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nt">&quot;excludeSensorTypes&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;CLIP&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;Geofence&quot;</span>
+        <span class="p">],</span>
+        <span class="nt">&quot;lowBattery&quot;</span><span class="p">:</span> <span class="mi">25</span><span class="p">,</span>
+        <span class="nt">&quot;lights&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nt">&quot;nativeHomeKitLights&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nt">&quot;wallSwitch&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nt">&quot;groups&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nt">&quot;group0&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nt">&quot;rooms&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nt">&quot;schedules&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nt">&quot;rules&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nt">&quot;heartrate&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+        <span class="nt">&quot;timeout&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+        <span class="nt">&quot;resource&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nt">&quot;parallelRequests&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+        <span class="nt">&quot;waitTimeResend&quot;</span><span class="p">:</span> <span class="mi">300</span><span class="p">,</span>
+        <span class="nt">&quot;waitTimeUpdate&quot;</span><span class="p">:</span> <span class="mi">20</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;ZP&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;service&quot;</span><span class="p">:</span> <span class="s2">&quot;switch&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;brightness&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nt">&quot;speakers&quot;</span><span class="p">:</span> <span class="kc">true</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;WeatherPlus&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;WeatherPlus&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;interval&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+        <span class="nt">&quot;forecast&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="mi">1</span><span class="p">,</span>
+            <span class="mi">2</span>
+        <span class="p">],</span>
+        <span class="nt">&quot;service&quot;</span><span class="p">:</span> <span class="s2">&quot;openweathermap&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;9c3872d81b409f95bbcb33dbfd96da95&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;locationCity&quot;</span><span class="p">:</span> <span class="s2">&quot;Hapert, NL&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;displayName&quot;</span><span class="p">:</span> <span class="s2">&quot;Nu buiten&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;language&quot;</span><span class="p">:</span> <span class="s2">&quot;nl&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;displayNameForecast&quot;</span><span class="p">:</span> <span class="s2">&quot;Verwachting OWM&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;fakegatoParameters&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">&quot;storage&quot;</span><span class="p">:</span> <span class="s2">&quot;fs&quot;</span>
+        <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;HarmonyHubWebSocket&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Harmony&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;hubIP&quot;</span><span class="p">:</span> <span class="s2">&quot;192.168.1.104&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;mainActivity&quot;</span><span class="p">:</span> <span class="s2">&quot;TV kijken&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;showTurnOffActivity&quot;</span><span class="p">:</span> <span class="kc">false</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;People&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;threshold&quot;</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span>
+        <span class="nt">&quot;anyoneSensor&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nt">&quot;nooneSensor&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nt">&quot;webhookPort&quot;</span><span class="p">:</span> <span class="mi">51828</span><span class="p">,</span>
+        <span class="nt">&quot;cacheDirectory&quot;</span><span class="p">:</span> <span class="s2">&quot;./.node-persist/storage&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;pingInterval&quot;</span><span class="p">:</span> <span class="mi">10000</span><span class="p">,</span>
+        <span class="nt">&quot;ignoreReEnterExitSeconds&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="nt">&quot;people&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="p">{</span>
+                <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Peter&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;target&quot;</span><span class="p">:</span> <span class="s2">&quot;192.168.1.100&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;threshold&quot;</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span>
+                <span class="nt">&quot;pingInterval&quot;</span><span class="p">:</span> <span class="mi">10000</span><span class="p">,</span>
+                <span class="nt">&quot;ignoreReEnterExitSeconds&quot;</span><span class="p">:</span> <span class="mi">0</span>
+           <span class="p">}</span>
+         <span class="p">]</span>
+       <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div></div>
 
 <div class="entry-content">
 <section>
     <h2>Related posts</h2>
-    <ul>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html">Bugzilla git&nbsp;migration</a></li>
-    </ul>
-</section>  
 </div>    <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -191,19 +283,15 @@
         Peter Florijn
     </span>
   </span>
-<time datetime="2015-01-31T10:26:00+01:00" pubdate>Sat 31 January 2015</time>  <span class="categories">
-    <a class='category' href='https://blog.florijnconsultancy.nl/category/install.html'>install</a>
+<time datetime="2019-10-11T07:38:00+02:00" pubdate>Fri 11 October 2019</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/automation.html'>Automation</a>
   </span>
   <span class="categories">
-    <a class="category" href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>  </span>
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/homebridge.html">homebridge</a>,    <a class="category" href="https://blog.florijnconsultancy.nl/tag/plugins.html">plugins</a>  </span>
 </p><div class="sharing">
 </div>    </footer>
   </article>
 
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
-  </section>
 
 </div>
 <aside class="sidebar">
@@ -303,9 +391,9 @@
 </p></footer>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
-    var disqus_identifier = '/articles/upgrade-to-bugzilla-50.html';
-    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/upgrade-to-bugzilla-50.html';
-    var disqus_title = 'upgrade to Bugzilla&nbsp;5.0';
+    var disqus_identifier = '/drafts/installation-notes-homebridge.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/drafts/installation-notes-homebridge.html';
+    var disqus_title = 'Installation notes&nbsp;Homebridge';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

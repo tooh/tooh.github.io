@@ -4,14 +4,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>upgrade to Bugzilla 5.0 &mdash; Daily Scrum</title>
+  <title>Tag: plugins &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
 
 
       <li><a href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="alternate">Atom feed</a></li>
  <li><a href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml" rel="alternate">RSS feed</a></li>
-
-
 
 
 
@@ -70,7 +68,7 @@
       <li >
         <a href="https://blog.florijnconsultancy.nl/category/diskstation.html">Diskstation</a>
       </li>
-      <li class="active">
+      <li >
         <a href="https://blog.florijnconsultancy.nl/category/install.html">Install</a>
       </li>
       <li >
@@ -119,92 +117,14 @@
   <div id="main">
     <div id="content">
 <div>
-  <article class="hentry" role="article">
-<header>
-      <h1 class="entry-title">upgrade to Bugzilla 5.0</h1>
-    <p class="meta">
-<time datetime="2015-01-31T10:26:00+01:00" pubdate>Sat 31 January 2015</time>    </p>
-</header>
+	<article role="article">
+    	<header>
+    		<h1 class="entry-title">Tag: plugins</h1>
+    	</header>
 
-  <div class="entry-content"><div class="toc"><span class="toctitle">Table of contents</span><ul>
-<li><a href="#updating-to-a-newer-release">Updating to a Newer Release</a><ul>
-<li><a href="#no-local-changes">No local&nbsp;changes</a></li>
-<li><a href="#upgrade-to-release-50">Upgrade to release&nbsp;5.0</a></li>
-<li><a href="#local-uncommitted-changes">Local, uncommitted&nbsp;changes</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<p>I upgraded to Bugzilla&nbsp;5.0.</p>
-<p>Since the Bugzilla project now supports git, upgrading is now a simple&nbsp;process.</p>
-<p>These are my installation&nbsp;notes.</p>
-<h2 id="updating-to-a-newer-release">Updating to a Newer&nbsp;Release</h2>
-<h3 id="no-local-changes">No local&nbsp;changes</h3>
-<p>If you have no local changes to any tracked files, upgrading to both minor and major releases is&nbsp;simple:</p>
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="k">fetch</span>
-</pre></div>
-
-
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">bugzilla</span><span class="o">-</span><span class="p">(</span><span class="k">version</span><span class="p">)</span>
-</pre></div>
-
-
-<p>where (version) is the version number that you want to update to, like&nbsp;5.0rc3</p>
-<h3 id="upgrade-to-release-50">Upgrade to release&nbsp;5.0</h3>
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="k">fetch</span>
-</pre></div>
-
-
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">release</span><span class="o">-</span><span class="mi">5</span><span class="p">.</span><span class="mi">0</span>
-</pre></div>
-
-
-<!— more —>
-
-<h3 id="local-uncommitted-changes">Local, uncommitted&nbsp;changes</h3>
-<p>The above checkout command will fail if you’ve made any modifications to files you checked out from git with a warning about overwriting local changes. In this case, the simple solution is to stash and then reapply your changes (assuming you’ve done the “git fetch”&nbsp;already):</p>
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">stash</span> <span class="n">save</span>
-</pre></div>
-
-
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">bugzilla</span><span class="o">-</span><span class="p">(</span><span class="k">version</span><span class="p">)</span>
-</pre></div>
-
-
-<div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">stash</span> <span class="n">apply</span>
-</pre></div>
-
-
-<p>However, it is better to create a local branch, which is one of git’s strengths. You can track your customizations and merge in changes from&nbsp;upstream. </p></div>
-
-<div class="entry-content">
-<section>
-    <h2>Related posts</h2>
-    <ul>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html">Bugzilla git&nbsp;migration</a></li>
-    </ul>
-</section>  
-</div>    <footer>
-<p class="meta">
-  <span class="byline author vcard">
-    Posted by <span class="fn">
-        Peter Florijn
-    </span>
-  </span>
-<time datetime="2015-01-31T10:26:00+01:00" pubdate>Sat 31 January 2015</time>  <span class="categories">
-    <a class='category' href='https://blog.florijnconsultancy.nl/category/install.html'>install</a>
-  </span>
-  <span class="categories">
-    <a class="category" href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>  </span>
-</p><div class="sharing">
-</div>    </footer>
-  </article>
-
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
-  </section>
-
+    	<div id="blog-archives">
+	    </div>
+    </article>
 </div>
 <aside class="sidebar">
   <section>
@@ -298,14 +218,11 @@
 </aside>    </div>
   </div>
   <footer role="contentinfo"><p>
-    Copyright &copy;  2013&ndash;2019  Peter Florijn &mdash;
+    Copyright &copy;  2014  Peter Florijn &mdash;
   <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
 </p></footer>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
-    var disqus_identifier = '/articles/upgrade-to-bugzilla-50.html';
-    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/upgrade-to-bugzilla-50.html';
-    var disqus_title = 'upgrade to Bugzilla&nbsp;5.0';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
