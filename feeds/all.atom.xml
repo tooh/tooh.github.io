@@ -1,5 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2019-11-25T08:32:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>Open apps from unidentied developers on Catalina</title><link href="https://blog.florijnconsultancy.nl/articles/open-apps-from-unidentied-developers-on-catalina.html" rel="alternate"></link><published>2019-11-25T08:32:00+01:00</published><updated>2019-11-25T08:32:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-11-25:/articles/open-apps-from-unidentied-developers-on-catalina.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2019-11-27T18:10:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>wp365</title><link href="https://blog.florijnconsultancy.nl/articles/wp365.html" rel="alternate"></link><published>2019-11-27T18:10:00+01:00</published><updated>2019-11-27T18:10:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-11-27:/articles/wp365.html</id><summary type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
+&lt;p&gt;!include &lt;tupadr3/common&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Servers
+!include &lt;office/Servers/database_server&gt;
+!include &lt;office/Servers/application_server&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Concepts
+!include &lt;office/Concepts/firewall_orange&gt;
+!include &lt;office/Concepts/application_generic&gt;
+!include &lt;office/Concepts/remote_access&gt;
+!include &lt;office/Concepts/connector&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Clouds
+!include &lt;office/Clouds/cloud_disaster_red&gt;
+!include &lt;office/Clouds/cloud&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Devices
+!include &lt;office/Devices/router&gt;
+!include &lt;office/Devices/switch&gt;
+!include &lt;office/Devices/device_mac_client&gt;
+!include &lt;office/Devices/workstation_pc&gt;
+!include &lt;office/Devices/device_phone_digital&gt;
+!include &lt;office/Devices/ip_gateway&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Users
+!include &lt;office/Users/on_premises_user&gt;&lt;/p&gt;
+&lt;p&gt;!include &lt;tupadr3/devicons/mysql&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;left to right&amp;nbsp;direction&lt;/p&gt;
+&lt;p&gt;skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor black
+skinparam titleBackgroundColor LightGrey
+skinparam defaultTextAlignment&amp;nbsp;center&lt;/p&gt;
+&lt;p&gt;title Infrastructuur \n Werkplek 365 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
+&lt;p&gt;!include &lt;tupadr3/common&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Servers
+!include &lt;office/Servers/database_server&gt;
+!include &lt;office/Servers/application_server&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Concepts
+!include &lt;office/Concepts/firewall_orange&gt;
+!include &lt;office/Concepts/application_generic&gt;
+!include &lt;office/Concepts/remote_access&gt;
+!include &lt;office/Concepts/connector&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Clouds
+!include &lt;office/Clouds/cloud_disaster_red&gt;
+!include &lt;office/Clouds/cloud&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Devices
+!include &lt;office/Devices/router&gt;
+!include &lt;office/Devices/switch&gt;
+!include &lt;office/Devices/device_mac_client&gt;
+!include &lt;office/Devices/workstation_pc&gt;
+!include &lt;office/Devices/device_phone_digital&gt;
+!include &lt;office/Devices/ip_gateway&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Users
+!include &lt;office/Users/on_premises_user&gt;&lt;/p&gt;
+&lt;p&gt;!include &lt;tupadr3/devicons/mysql&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;left to right&amp;nbsp;direction&lt;/p&gt;
+&lt;p&gt;skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor black
+skinparam titleBackgroundColor LightGrey
+skinparam defaultTextAlignment&amp;nbsp;center&lt;/p&gt;
+&lt;p&gt;title Infrastructuur \n Werkplek 365 / Scipio -&amp;nbsp;Previder&lt;/p&gt;
+&lt;p&gt;legend bottom right
+  Auteur\t: Peter Florijn / Helma van der Linden
+  Versie\t: 0.1
+  Datum\t: 27-11-2019
+  &lt;size:8&gt; Rendered with PlantUML Version %version() &lt;/size&gt;
+endlegend&lt;/p&gt;
+&lt;p&gt;package &amp;#8220;Infra Hosting&amp;#8221; {
+  caption Doel infrastructuur proefopstelling Werkplek 365 bij&amp;nbsp;Previder&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; &lt;span class="n"&gt;OFF_CLOUD&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;previder&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Previder&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="s1"&gt;&amp;#39;OFF_DATABASE_SERVER(dbserver,Scipio \n database server)&lt;/span&gt;
+&lt;span class="s1"&gt; OFF_APPLICATION_GENERIC(app,Scipio)&lt;/span&gt;
+&lt;span class="s1"&gt; &amp;#39;&lt;/span&gt;&lt;span class="n"&gt;DEV_MYSQL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;hisdatageneriek&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;label&lt;/span&gt; &lt;span class="k"&gt;of&lt;/span&gt; &lt;span class="n"&gt;db3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="k"&gt;database&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;DEV_MYSQL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;label&lt;/span&gt; &lt;span class="k"&gt;of&lt;/span&gt; &lt;span class="n"&gt;db4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="k"&gt;database&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;red&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;DeepSkyBlue&lt;/span&gt;
+
+ &lt;span class="n"&gt;OFF_APPLICATION_SERVER&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;appserver&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;Applicatie&lt;/span&gt; &lt;span class="n"&gt;Server&lt;/span&gt; &lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="n"&gt;werkplek365&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+ &lt;span class="n"&gt;package&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;Scipio Database server&amp;quot;&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;scipiodbserver&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt;
+      &lt;span class="n"&gt;DEV_MYSQL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;praktijkdb&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;Scipio&lt;/span&gt; &lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="n"&gt;praktijkdb&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="n"&gt;DEV_MYSQL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;hisdatadb&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;Scipio&lt;/span&gt; &lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="n"&gt;Hisdatageneriek&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;package &amp;#8220;Infra kantoorwerkplek&amp;#8221; {
+        caption doel infrastructuur \n proefopstelling Werkplek 365 - Scipio bij&amp;nbsp;Previder&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    &lt;span class="s"&gt;&amp;#39;OFF_APPLICATION_SERVER(app,App-Server)&lt;/span&gt;
+
+&lt;span class="s"&gt;    &amp;#39;&lt;/span&gt;&lt;span class="nf"&gt;OFF_REMOTE_ACCESS&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;remotevpn&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;site2site&lt;/span&gt; &lt;span class="n"&gt;VPN&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;#Orange&lt;/span&gt;
+    &lt;span class="nf"&gt;OFF_CONNECTOR&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;internet&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;internet&lt;/span&gt; &lt;span class="n"&gt;verbinding&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;#Orange&lt;/span&gt;
+    &lt;span class="s"&gt;&amp;#39;OFF_CONNECTOR(isra,ISRA)&lt;/span&gt;
+&lt;span class="s"&gt;    &amp;#39;&lt;/span&gt;&lt;span class="nf"&gt;OFF_ROUTER&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;cisco&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;CISCO&lt;/span&gt; &lt;span class="n"&gt;EPC3008&lt;/span&gt; &lt;span class="n"&gt;\n&lt;/span&gt; &lt;span class="n"&gt;managed&lt;/span&gt; &lt;span class="n"&gt;ZIGGO&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="s"&gt;&amp;#39;OFF_IP_GATEWAY(ipgateway, ZIGGO gateway)&lt;/span&gt;
+
+
+&lt;span class="s"&gt;    &amp;#39;&lt;/span&gt;&lt;span class="nf"&gt;OFF_DATABASE_SERVER&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dbserver&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;Scipio&lt;/span&gt; &lt;span class="n"&gt;database&lt;/span&gt; &lt;span class="n"&gt;server&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="s"&gt;&amp;#39;OFF_FIREWALL_ORANGE(fw,DrayTek Vigor 2860 \n Firewall \n poort 9443 open)&lt;/span&gt;
+&lt;span class="s"&gt;    &amp;#39;&lt;/span&gt;&lt;span class="nf"&gt;OFF_ROUTER&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;router&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;DrayTek&lt;/span&gt; &lt;span class="n"&gt;Vigor&lt;/span&gt; &lt;span class="n"&gt;\n&lt;/span&gt; &lt;span class="n"&gt;P1090&lt;/span&gt; &lt;span class="n"&gt;Switch&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="s"&gt;&amp;#39;OFF_SWITCH(switch, Netgear GS116)&lt;/span&gt;
+&lt;span class="s"&gt;    &amp;#39;&lt;/span&gt;&lt;span class="nf"&gt;OFF_ROUTER&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;router_previder&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;managed&lt;/span&gt; &lt;span class="n"&gt;router&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;#orange&lt;/span&gt;
+    &lt;span class="nf"&gt;OFF_WORKSTATION_PC&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;workstation&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Windows&lt;/span&gt; &lt;span class="n"&gt;Client&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="s"&gt;&amp;#39;OFF_DEVICE_PHONE_DIGITAL(voipphone, Yealink)&lt;/span&gt;
+
+
+&lt;span class="s"&gt;    &amp;#39;&lt;/span&gt;&lt;span class="n"&gt;connections&lt;/span&gt;
+
+    &lt;span class="n"&gt;workstation&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;internet&lt;/span&gt;
+    &lt;span class="n"&gt;internet&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;previder&lt;/span&gt;
+    &lt;span class="n"&gt;previder&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;appserver&lt;/span&gt;        
+    &lt;span class="n"&gt;appserver&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;app&lt;/span&gt;
+    &lt;span class="n"&gt;app&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;praktijkdb&lt;/span&gt;
+    &lt;span class="n"&gt;app&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;hisdatadb&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;}
+&lt;!-- more --&gt;&lt;/p&gt;</content><category term="Blogging"></category></entry><entry><title>Open apps from unidentied developers on Catalina</title><link href="https://blog.florijnconsultancy.nl/articles/open-apps-from-unidentied-developers-on-catalina.html" rel="alternate"></link><published>2019-11-25T08:32:00+01:00</published><updated>2019-11-25T08:32:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-11-25:/articles/open-apps-from-unidentied-developers-on-catalina.html</id><content type="html">&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary:&lt;/p&gt;
 &lt;p&gt;In Catalina Gatekeeper prevents installation of apps from unidentified&amp;nbsp;developers.&lt;/p&gt;
 &lt;p&gt;You can lift this restriction. See instruction&amp;nbsp;below. &lt;/p&gt;
 &lt;p&gt;https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave

@@ -4,12 +4,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Daily Scrum</title>
+  <title>wp365 &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
 
 
       <li><a href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="alternate">Atom feed</a></li>
  <li><a href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml" rel="alternate">RSS feed</a></li>
+
+
 
 
 
@@ -62,7 +64,7 @@
       <li >
         <a href="https://blog.florijnconsultancy.nl/category/articles.html">Articles</a>
       </li>
-      <li >
+      <li class="active">
         <a href="https://blog.florijnconsultancy.nl/category/blogging.html">Blogging</a>
       </li>
       <li >
@@ -116,96 +118,126 @@
 </ul></nav>
   <div id="main">
     <div id="content">
-<div class="blog-index">
-  		<article>
+<div>
+  <article class="hentry" role="article">
 <header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html">Alfred workflow for Octopress</a>
-      </h1>
+      <h1 class="entry-title">wp365</h1>
     <p class="meta">
-<time datetime="2013-04-23T13:34:00+02:00" pubdate>Tue 23 April 2013</time>    </p>
+<time datetime="2019-11-27T18:10:00+01:00" pubdate>Wed 27 November 2019</time>    </p>
 </header>
 
-  <div class="entry-content"></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html">Read On &crarr;</a>
-  </footer>
+  <div class="entry-content"><p>Author : Peter Florijn&nbsp;Summary: </p>
+<p>!include <tupadr3/common></p>
+<p><span class="quo">&#8216;</span>Servers
+!include <office/Servers/database_server>
+!include <office/Servers/application_server></p>
+<p><span class="quo">&#8216;</span>Concepts
+!include <office/Concepts/firewall_orange>
+!include <office/Concepts/application_generic>
+!include <office/Concepts/remote_access>
+!include <office/Concepts/connector></p>
+<p><span class="quo">&#8216;</span>Clouds
+!include <office/Clouds/cloud_disaster_red>
+!include <office/Clouds/cloud></p>
+<p><span class="quo">&#8216;</span>Devices
+!include <office/Devices/router>
+!include <office/Devices/switch>
+!include <office/Devices/device_mac_client>
+!include <office/Devices/workstation_pc>
+!include <office/Devices/device_phone_digital>
+!include <office/Devices/ip_gateway></p>
+<p><span class="quo">&#8216;</span>Users
+!include <office/Users/on_premises_user></p>
+<p>!include <tupadr3/devicons/mysql></p>
+<p><span class="quo">&#8216;</span>left to right&nbsp;direction</p>
+<p>skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor black
+skinparam titleBackgroundColor LightGrey
+skinparam defaultTextAlignment&nbsp;center</p>
+<p>title Infrastructuur \n Werkplek 365 / Scipio -&nbsp;Previder</p>
+<p>legend bottom right
+  Auteur\t: Peter Florijn / Helma van der Linden
+  Versie\t: 0.1
+  Datum\t: 27-11-2019
+  <size:8> Rendered with PlantUML Version %version() </size>
+endlegend</p>
+<p>package &#8220;Infra Hosting&#8221; {
+  caption Doel infrastructuur proefopstelling Werkplek 365 bij&nbsp;Previder</p>
+<div class="highlight"><pre><span></span> <span class="n">OFF_CLOUD</span><span class="p">(</span><span class="n">previder</span><span class="p">,</span> <span class="n">Previder</span><span class="p">)</span>
+ <span class="s1">&#39;OFF_DATABASE_SERVER(dbserver,Scipio \n database server)</span>
+<span class="s1"> OFF_APPLICATION_GENERIC(app,Scipio)</span>
+<span class="s1"> &#39;</span><span class="n">DEV_MYSQL</span><span class="p">(</span><span class="n">hisdatageneriek</span><span class="p">,</span><span class="n">label</span> <span class="k">of</span> <span class="n">db3</span><span class="p">,</span><span class="k">database</span><span class="p">)</span>
+ <span class="err">&#39;</span><span class="n">DEV_MYSQL</span><span class="p">(</span><span class="n">db4</span><span class="p">,</span><span class="n">label</span> <span class="k">of</span> <span class="n">db4</span><span class="p">,</span><span class="k">database</span><span class="p">,</span><span class="n">red</span><span class="p">)</span> <span class="o">#</span><span class="n">DeepSkyBlue</span>
+
+ <span class="n">OFF_APPLICATION_SERVER</span><span class="p">(</span><span class="n">appserver</span><span class="p">,</span><span class="n">Applicatie</span> <span class="n">Server</span> <span class="err">\</span><span class="n">n</span> <span class="n">werkplek365</span><span class="p">)</span>
+
+
+ <span class="n">package</span> <span class="ss">&quot;Scipio Database server&quot;</span> <span class="k">as</span> <span class="n">scipiodbserver</span> <span class="err">{</span>
+      <span class="n">DEV_MYSQL</span><span class="p">(</span><span class="n">praktijkdb</span><span class="p">,</span><span class="n">Scipio</span> <span class="err">\</span><span class="n">n</span> <span class="n">praktijkdb</span><span class="p">)</span>
+      <span class="n">DEV_MYSQL</span><span class="p">(</span><span class="n">hisdatadb</span><span class="p">,</span><span class="n">Scipio</span> <span class="err">\</span><span class="n">n</span> <span class="n">Hisdatageneriek</span><span class="p">)</span>
+ <span class="err">}</span>
+</pre></div>
+
+
+<p>}</p>
+<p>package &#8220;Infra kantoorwerkplek&#8221; {
+        caption doel infrastructuur \n proefopstelling Werkplek 365 - Scipio bij&nbsp;Previder</p>
+<div class="highlight"><pre><span></span>    <span class="s">&#39;OFF_APPLICATION_SERVER(app,App-Server)</span>
+
+<span class="s">    &#39;</span><span class="nf">OFF_REMOTE_ACCESS</span><span class="p">(</span><span class="n">remotevpn</span><span class="p">,</span><span class="n">site2site</span> <span class="n">VPN</span><span class="p">)</span> <span class="c1">#Orange</span>
+    <span class="nf">OFF_CONNECTOR</span><span class="p">(</span><span class="n">internet</span><span class="p">,</span><span class="n">internet</span> <span class="n">verbinding</span><span class="p">)</span> <span class="c1">#Orange</span>
+    <span class="s">&#39;OFF_CONNECTOR(isra,ISRA)</span>
+<span class="s">    &#39;</span><span class="nf">OFF_ROUTER</span><span class="p">(</span><span class="n">cisco</span><span class="p">,</span> <span class="n">CISCO</span> <span class="n">EPC3008</span> <span class="n">\n</span> <span class="n">managed</span> <span class="n">ZIGGO</span><span class="p">)</span>
+    <span class="s">&#39;OFF_IP_GATEWAY(ipgateway, ZIGGO gateway)</span>
+
+
+<span class="s">    &#39;</span><span class="nf">OFF_DATABASE_SERVER</span><span class="p">(</span><span class="n">dbserver</span><span class="p">,</span><span class="n">Scipio</span> <span class="n">database</span> <span class="n">server</span><span class="p">)</span>
+    <span class="s">&#39;OFF_FIREWALL_ORANGE(fw,DrayTek Vigor 2860 \n Firewall \n poort 9443 open)</span>
+<span class="s">    &#39;</span><span class="nf">OFF_ROUTER</span><span class="p">(</span><span class="n">router</span><span class="p">,</span><span class="n">DrayTek</span> <span class="n">Vigor</span> <span class="n">\n</span> <span class="n">P1090</span> <span class="n">Switch</span><span class="p">)</span>
+    <span class="s">&#39;OFF_SWITCH(switch, Netgear GS116)</span>
+<span class="s">    &#39;</span><span class="nf">OFF_ROUTER</span><span class="p">(</span><span class="n">router_previder</span><span class="p">,</span> <span class="n">managed</span> <span class="n">router</span><span class="p">)</span> <span class="c1">#orange</span>
+    <span class="nf">OFF_WORKSTATION_PC</span><span class="p">(</span><span class="n">workstation</span><span class="p">,</span> <span class="n">Windows</span> <span class="n">Client</span><span class="p">)</span>
+    <span class="s">&#39;OFF_DEVICE_PHONE_DIGITAL(voipphone, Yealink)</span>
+
+
+<span class="s">    &#39;</span><span class="n">connections</span>
+
+    <span class="n">workstation</span> <span class="o">&lt;-&gt;</span> <span class="n">internet</span>
+    <span class="n">internet</span> <span class="o">&lt;-&gt;</span> <span class="n">previder</span>
+    <span class="n">previder</span> <span class="o">&lt;-&gt;</span> <span class="n">appserver</span>        
+    <span class="n">appserver</span> <span class="o">&lt;-&gt;</span> <span class="n">app</span>
+    <span class="n">app</span> <span class="o">&lt;-&gt;</span> <span class="n">praktijkdb</span>
+    <span class="n">app</span> <span class="o">&lt;-&gt;</span> <span class="n">hisdatadb</span>
+</pre></div>
+
+
+<p>}
+<!-- more --></p></div>
 
 <div class="entry-content">
 <section>
     <h2>Related posts</h2>
-    <ul>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/custom-alfred-search-for-jira.html">Custom Alfred search for&nbsp;Jira</a></li>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/switch-to-textexpander.html"><span class="dquo">&#8220;</span>Switch to&nbsp;Textexpander&#8221;</a></li>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html">Diagrams with&nbsp;PlantUML</a></li>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/confluence-inspired-callouts-in-octopress.html">confluence inspired callouts in&nbsp;Octopress</a></li>
-    </ul>
-</section>  
-</div>  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/installation-notes-testopia.html">Installation notes Testopia</a>
-      </h1>
-    <p class="meta">
-<time datetime="2013-04-21T21:00:00+02:00" pubdate>Sun 21 April 2013</time>    </p>
-</header>
+</div>    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2019-11-27T18:10:00+01:00" pubdate>Wed 27 November 2019</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/blogging.html'>Blogging</a>
+  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
 
-  <div class="entry-content"><p>Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make Testopia work on my local installation. This will be updated as I go&nbsp;along.</p></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/installation-notes-testopia.html">Read On &crarr;</a>
-  </footer>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
 
-<div class="entry-content">
-<section>
-    <h2>Related posts</h2>
-</div>  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/project-nestor.html">Project Nestor</a>
-      </h1>
-    <p class="meta">
-<time datetime="2013-04-21T00:00:00+02:00" pubdate>Sun 21 April 2013</time>    </p>
-</header>
-
-  <div class="entry-content"><p>We try to develop a new testcase management system. Working project title is&nbsp;Nestor.</p></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/project-nestor.html">Read On &crarr;</a>
-  </footer>
-
-<div class="entry-content">
-<section>
-    <h2>Related posts</h2>
-</div>  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/static-blog-with-jekylloctopress.html">Static blog with Jekyll/Octopress</a>
-      </h1>
-    <p class="meta">
-<time datetime="2013-04-20T21:00:00+02:00" pubdate>Sat 20 April 2013</time>    </p>
-</header>
-
-  <div class="entry-content"></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/static-blog-with-jekylloctopress.html">Read On &crarr;</a>
-  </footer>
-
-<div class="entry-content">
-<section>
-    <h2>Related posts</h2>
-    <ul>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/install-gollum-on-osx-el-capitan.html">Install gollum on <span class="caps">OSX</span> El&nbsp;Capitan</a></li>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html">Upgrade to&nbsp;Yosemite</a></li>
-    </ul>
-</section>  
-</div>  		</article>
-<div class="pagination">
-
-    <a class="next" href="https://blog.florijnconsultancy.nl/index6.html">Newer &rarr;</a>
-  <br />
-</div></div>
+</div>
 <aside class="sidebar">
   <section>
 	  <img src="https://blog.florijnconsultancy.nl/images/peterflorijn.jpg" alt="" width="200"/> 
@@ -303,6 +335,9 @@
 </p></footer>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
+    var disqus_identifier = '/articles/wp365.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/wp365.html';
+    var disqus_title = 'wp365';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
