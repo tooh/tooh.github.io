@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>Daily Scrum - Blogging</title><link>https://blog.florijnconsultancy.nl/</link><description>A personal blog</description><lastBuildDate>Wed, 27 Nov 2019 18:10:00 +0100</lastBuildDate><item><title>wp365</title><link>https://blog.florijnconsultancy.nl/articles/wp365.html</link><description>&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary: &lt;/p&gt;
-&lt;p&gt;!include &lt;tupadr3/common&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Servers
-!include &lt;office/Servers/database_server&gt;
-!include &lt;office/Servers/application_server&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Concepts
-!include &lt;office/Concepts/firewall_orange&gt;
-!include &lt;office/Concepts/application_generic&gt;
-!include &lt;office/Concepts/remote_access&gt;
-!include &lt;office/Concepts/connector&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Clouds
-!include &lt;office/Clouds/cloud_disaster_red&gt;
-!include &lt;office/Clouds/cloud&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Devices
-!include &lt;office/Devices/router&gt;
-!include &lt;office/Devices/switch&gt;
-!include &lt;office/Devices/device_mac_client&gt;
-!include &lt;office/Devices/workstation_pc&gt;
-!include &lt;office/Devices/device_phone_digital&gt;
-!include &lt;office/Devices/ip_gateway&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Users
-!include &lt;office/Users/on_premises_user&gt;&lt;/p&gt;
-&lt;p&gt;!include &lt;tupadr3/devicons/mysql&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;left to right&amp;nbsp;direction&lt;/p&gt;
-&lt;p&gt;skinparam titleBorderRoundCorner 15
-skinparam titleBorderThickness 2
-skinparam titleBorderColor black
-skinparam titleBackgroundColor LightGrey
-skinparam defaultTextAlignment&amp;nbsp;center&lt;/p&gt;
-&lt;p&gt;title Infrastructuur \n Werkplek 365 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Wed, 27 Nov 2019 18:10:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-11-27:/articles/wp365.html</guid><category>Blogging</category></item><item><title>Open apps from unidentied developers on Catalina</title><link>https://blog.florijnconsultancy.nl/articles/open-apps-from-unidentied-developers-on-catalina.html</link><description>&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary:&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="/images/21839787.png"&gt;&lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Wed, 27 Nov 2019 18:10:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-11-27:/articles/wp365.html</guid><category>Blogging</category></item><item><title>Open apps from unidentied developers on Catalina</title><link>https://blog.florijnconsultancy.nl/articles/open-apps-from-unidentied-developers-on-catalina.html</link><description>&lt;p&gt;Author : Peter Florijn&amp;nbsp;Summary:&lt;/p&gt;
 &lt;p&gt;In Catalina Gatekeeper prevents installation of apps from unidentified&amp;nbsp;developers.&lt;/p&gt;
 &lt;p&gt;You can lift this restriction. See instruction&amp;nbsp;below. &lt;/p&gt;
 &lt;p&gt;https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave
