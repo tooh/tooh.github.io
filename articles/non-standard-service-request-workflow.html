@@ -4,12 +4,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Daily Scrum</title>
+  <title>“Non-standard Service Request workflow” &mdash; Daily Scrum</title>
   <meta name="author" content="Peter Florijn">
 
 
       <li><a href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="alternate">Atom feed</a></li>
  <li><a href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml" rel="alternate">RSS feed</a></li>
+
+
 
 
 
@@ -59,7 +61,7 @@
       <li >
         <a href="https://blog.florijnconsultancy.nl/category/apple.html">Apple</a>
       </li>
-      <li >
+      <li class="active">
         <a href="https://blog.florijnconsultancy.nl/category/articles.html">Articles</a>
       </li>
       <li >
@@ -116,132 +118,105 @@
 </ul></nav>
   <div id="main">
     <div id="content">
-<div class="blog-index">
-  		<article>
+<div>
+  <article class="hentry" role="article">
 <header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html">Fritz!Box 7390 configuration</a>
-      </h1>
+      <h1 class="entry-title">“Non-standard Service Request workflow”</h1>
     <p class="meta">
-<time datetime="2013-05-09T12:32:00+02:00" pubdate>Thu 09 May 2013</time>    </p>
+<time datetime="2014-08-23T16:30:30+02:00" pubdate>Sat 23 August 2014</time>    </p>
 </header>
 
-  <div class="entry-content"></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html">Read On &crarr;</a>
-  </footer>
+  <div class="entry-content"><h4 id="workflow">Workflow</h4>
+<p>Typical workflow for non standard customer support&nbsp;requests.</p>
+<img alt="uml diagram" class="uml" src="/images/d96cb5ca.png"><!-- more -->
+
+<p>This is created by the following PlantUML&nbsp;code</p>
+<p>{% codeblock PlantUML source&nbsp;%}</p>
+<p>title: <size:60>Non-standard Service Request</size></p>
+<dl>
+<dt>| Customer&nbsp;|</dt>
+<dt>start</dt>
+<dd>Customer request;
+|#AntiqueWhite|Customer support |
+:Register customer request;
+:Analyze customer request;
+:Update Service Request;
+:Assign Service Request;
+| Sales |
+:Contact Development for estimate and planning;
+|#AntiqueWhite|Development |
+:Analyze Service Request;
+:Make estimate;
+:Check planning;
+| Sales |
+:Prepare quotation;
+| Administration |
+:Send quotation;
+:Monitor quotation due date;
+| Customer |
+if (Quotation acceptance by customer) then (Yes)
+:Update Service Request;
+:Back to Development;
+else (No)
+:Close Service Request;
+endif
+|#AntiqueWhite|Development |
+:Check planning;
+:Assign Service Request to Developer;
+:Review and Test product;
+if (Product <span class="caps">OK</span>) then (yes)
+:Back to Customer Support;
+else (No)
+:Fix Product;
+endif
+|#AntiqueWhite|Customer support |
+:Contact customer;
+:Deliver Product;
+| Customer |
+if (Product acceptance by customer) then (yes)
+:Back to Customer Support;
+:Update Service Request &#8220;Ready for invoicing&#8221;;
+:Back to Administration;
+else (No)
+:Back to Development;
+:Fix Product;
+:Back to Customer Support;
+endif
+| Administration |
+:Send invoice;
+:Close Request;
+stop
+right&nbsp;footer</dd>
+</dl>
+<p>Author: <span class="caps">PF</span> 
+Version: v0.2
+Date:&nbsp;6-10-2014</p>
+<p>endfooter</p>
+<p>{% endcodeblock&nbsp;%}</p></div>
 
 <div class="entry-content">
 <section>
     <h2>Related posts</h2>
-</div>  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/synology-diskstation-acces-from-internet.html">synology diskstation acces from internet</a>
-      </h1>
-    <p class="meta">
-<time datetime="2013-05-05T11:14:00+02:00" pubdate>Sun 05 May 2013</time>    </p>
-</header>
+</div>    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2014-08-23T16:30:30+02:00" pubdate>Sat 23 August 2014</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/articles.html'>articles</a>
+  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
 
-  <div class="entry-content"></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/synology-diskstation-acces-from-internet.html">Read On &crarr;</a>
-  </footer>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
 
-<div class="entry-content">
-<section>
-    <h2>Related posts</h2>
-</div>  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html">Alfred workflow for Octopress</a>
-      </h1>
-    <p class="meta">
-<time datetime="2013-04-23T13:34:00+02:00" pubdate>Tue 23 April 2013</time>    </p>
-</header>
-
-  <div class="entry-content"></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html">Read On &crarr;</a>
-  </footer>
-
-<div class="entry-content">
-<section>
-    <h2>Related posts</h2>
-    <ul>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/custom-alfred-search-for-jira.html">Custom Alfred search for&nbsp;Jira</a></li>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/switch-to-textexpander.html"><span class="dquo">&#8220;</span>Switch to&nbsp;Textexpander&#8221;</a></li>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html">Diagrams with&nbsp;PlantUML</a></li>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/confluence-inspired-callouts-in-octopress.html">confluence inspired callouts in&nbsp;Octopress</a></li>
-    </ul>
-</section>  
-</div>  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/installation-notes-testopia.html">Installation notes Testopia</a>
-      </h1>
-    <p class="meta">
-<time datetime="2013-04-21T21:00:00+02:00" pubdate>Sun 21 April 2013</time>    </p>
-</header>
-
-  <div class="entry-content"><p>Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make Testopia work on my local installation. This will be updated as I go&nbsp;along.</p></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/installation-notes-testopia.html">Read On &crarr;</a>
-  </footer>
-
-<div class="entry-content">
-<section>
-    <h2>Related posts</h2>
-</div>  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/project-nestor.html">Project Nestor</a>
-      </h1>
-    <p class="meta">
-<time datetime="2013-04-21T00:00:00+02:00" pubdate>Sun 21 April 2013</time>    </p>
-</header>
-
-  <div class="entry-content"><p>We try to develop a new testcase management system. Working project title is&nbsp;Nestor.</p></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/project-nestor.html">Read On &crarr;</a>
-  </footer>
-
-<div class="entry-content">
-<section>
-    <h2>Related posts</h2>
-</div>  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://blog.florijnconsultancy.nl/articles/static-blog-with-jekylloctopress.html">Static blog with Jekyll/Octopress</a>
-      </h1>
-    <p class="meta">
-<time datetime="2013-04-20T21:00:00+02:00" pubdate>Sat 20 April 2013</time>    </p>
-</header>
-
-  <div class="entry-content"></div>
-  <footer>
-    <a rel="full-article" href="https://blog.florijnconsultancy.nl/articles/static-blog-with-jekylloctopress.html">Read On &crarr;</a>
-  </footer>
-
-<div class="entry-content">
-<section>
-    <h2>Related posts</h2>
-    <ul>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/install-gollum-on-osx-el-capitan.html">Install gollum on <span class="caps">OSX</span> El&nbsp;Capitan</a></li>
-        <li><a href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html">Upgrade to&nbsp;Yosemite</a></li>
-    </ul>
-</section>  
-</div>  		</article>
-<div class="pagination">
-
-    <a class="next" href="https://blog.florijnconsultancy.nl/index6.html">Newer &rarr;</a>
-  <br />
-</div></div>
+</div>
 <aside class="sidebar">
   <section>
 	  <img src="https://blog.florijnconsultancy.nl/images/peterflorijn.jpg" alt="" width="200"/> 
@@ -339,6 +314,9 @@
 </p></footer>
   <script type="text/javascript">
     var disqus_shortname = 'dailyscrum';
+    var disqus_identifier = '/articles/non-standard-service-request-workflow.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/non-standard-service-request-workflow.html';
+    var disqus_title = '<span class="dquo">&#8220;</span>Non-standard Service Request&nbsp;workflow&#8221;';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

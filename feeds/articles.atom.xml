@@ -300,7 +300,90 @@ You can try to run some standard diagnostics tools to eliminate some basic&amp;n
 &lt;li&gt;Changes will be&amp;nbsp;applied&lt;/li&gt;
 &lt;li&gt;If you are lucky this will fix the problem and the second adapter will appear&amp;nbsp;again.&lt;/li&gt;
 &lt;li&gt;If not, you have to plug/unplug the faulty adapter and try the above steps&amp;nbsp;again.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="articles"></category></entry><entry><title>“Switch to Textexpander”</title><link href="https://blog.florijnconsultancy.nl/articles/switch-to-textexpander.html" rel="alternate"></link><published>2014-08-22T08:44:38+02:00</published><updated>2014-08-22T08:44:38+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-22:/articles/switch-to-textexpander.html</id><summary type="html">&lt;p&gt;Text&amp;nbsp;expansion&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was using Typinator for some time now. A colleague of mine is a long time Textexpander user and informed me that there was an attractive offer to purchase a Textexpander license.
+&lt;/ol&gt;</content><category term="articles"></category></entry><entry><title>“Non-standard Service Request workflow”</title><link href="https://blog.florijnconsultancy.nl/articles/non-standard-service-request-workflow.html" rel="alternate"></link><published>2014-08-23T16:30:30+02:00</published><updated>2014-08-23T16:30:30+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-23:/articles/non-standard-service-request-workflow.html</id><summary type="html">&lt;h4 id="workflow"&gt;Workflow&lt;/h4&gt;
+&lt;p&gt;Typical workflow for non standard customer support&amp;nbsp;requests.&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="/images/d96cb5ca.png"&gt;&lt;!-- more --&gt;
+
+&lt;p&gt;This is created by the following PlantUML&amp;nbsp;code&lt;/p&gt;
+&lt;p&gt;{% codeblock PlantUML source&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;title: &lt;size:60&gt;Non-standard Service Request&lt;/size&gt;&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;| Customer&amp;nbsp;|&lt;/dt&gt;
+&lt;dt&gt;start&lt;/dt&gt;
+&lt;dd&gt;Customer request;
+|#AntiqueWhite|Customer support |
+:Register customer request;
+:Analyze customer request;
+:Update Service Request;
+:Assign Service Request;
+| Sales |
+:Contact Development for estimate and planning …&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;h4 id="workflow"&gt;Workflow&lt;/h4&gt;
+&lt;p&gt;Typical workflow for non standard customer support&amp;nbsp;requests.&lt;/p&gt;
+&lt;img alt="uml diagram" class="uml" src="/images/d96cb5ca.png"&gt;&lt;!-- more --&gt;
+
+&lt;p&gt;This is created by the following PlantUML&amp;nbsp;code&lt;/p&gt;
+&lt;p&gt;{% codeblock PlantUML source&amp;nbsp;%}&lt;/p&gt;
+&lt;p&gt;title: &lt;size:60&gt;Non-standard Service Request&lt;/size&gt;&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;| Customer&amp;nbsp;|&lt;/dt&gt;
+&lt;dt&gt;start&lt;/dt&gt;
+&lt;dd&gt;Customer request;
+|#AntiqueWhite|Customer support |
+:Register customer request;
+:Analyze customer request;
+:Update Service Request;
+:Assign Service Request;
+| Sales |
+:Contact Development for estimate and planning;
+|#AntiqueWhite|Development |
+:Analyze Service Request;
+:Make estimate;
+:Check planning;
+| Sales |
+:Prepare quotation;
+| Administration |
+:Send quotation;
+:Monitor quotation due date;
+| Customer |
+if (Quotation acceptance by customer) then (Yes)
+:Update Service Request;
+:Back to Development;
+else (No)
+:Close Service Request;
+endif
+|#AntiqueWhite|Development |
+:Check planning;
+:Assign Service Request to Developer;
+:Review and Test product;
+if (Product &lt;span class="caps"&gt;OK&lt;/span&gt;) then (yes)
+:Back to Customer Support;
+else (No)
+:Fix Product;
+endif
+|#AntiqueWhite|Customer support |
+:Contact customer;
+:Deliver Product;
+| Customer |
+if (Product acceptance by customer) then (yes)
+:Back to Customer Support;
+:Update Service Request &amp;#8220;Ready for invoicing&amp;#8221;;
+:Back to Administration;
+else (No)
+:Back to Development;
+:Fix Product;
+:Back to Customer Support;
+endif
+| Administration |
+:Send invoice;
+:Close Request;
+stop
+right&amp;nbsp;footer&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Author: &lt;span class="caps"&gt;PF&lt;/span&gt; 
+Version: v0.2
+Date:&amp;nbsp;6-10-2014&lt;/p&gt;
+&lt;p&gt;endfooter&lt;/p&gt;
+&lt;p&gt;{% endcodeblock&amp;nbsp;%}&lt;/p&gt;</content><category term="articles"></category></entry><entry><title>“Switch to Textexpander”</title><link href="https://blog.florijnconsultancy.nl/articles/switch-to-textexpander.html" rel="alternate"></link><published>2014-08-22T08:44:38+02:00</published><updated>2014-08-22T08:44:38+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-22:/articles/switch-to-textexpander.html</id><summary type="html">&lt;p&gt;Text&amp;nbsp;expansion&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was using Typinator for some time now. A colleague of mine is a long time Textexpander user and informed me that there was an attractive offer to purchase a Textexpander license.
 So I decided to make the switch to&amp;nbsp;Textexpander.&lt;/p&gt;
 &lt;!-- more --&gt;
 
