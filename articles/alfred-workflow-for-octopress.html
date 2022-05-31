@@ -129,17 +129,15 @@
   <div class="entry-content"><p>I have been using Alfred v2 for a couple of weeks now and I am very pleased about the workflow feature from the Power&nbsp;pack.</p>
 <p>I try to develop some workflows myself and now I have developed an easy workflow for Octopress , the static site&nbsp;generator.</p>
 <!-- more -->
-
 <p>Octopress is coming with some rake commands to maintain the&nbsp;site.</p>
 <p>I have implemented some of these rake commands in an Alfred&nbsp;workflow.</p>
-<div class="highlight"><pre><span></span><span class="o">-</span> <span class="n">keyword</span> <span class="n">generate</span> <span class="o">-&gt;</span> <span class="n">rake</span> <span class="n">generate</span>
-<span class="o">-</span> <span class="n">keyword</span> <span class="n">deploy</span> <span class="o">-&gt;</span> <span class="n">rake</span> <span class="n">gen_deploy</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code><span class="o">-</span><span class="w"> </span><span class="n">keyword</span><span class="w"> </span><span class="n">generate</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">rake</span><span class="w"> </span><span class="n">generate</span><span class="w"></span>
+<span class="o">-</span><span class="w"> </span><span class="n">keyword</span><span class="w"> </span><span class="n">deploy</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">rake</span><span class="w"> </span><span class="n">gen_deploy</span><span class="w"></span>
+</code></pre></div>
 
 <p>This was a bigger challenge than I expected because of the way I installed the required Ruby version.&nbsp;(rvm)</p>
 <p>In my bash script I had to add some extras because Alfred runs the bash script in a subshell and in this subshell the rvm environment is not available by&nbsp;default.</p>
-<div class="highlight"><pre><span></span><span class="nb">cd</span> <span class="nv">$HOME</span>/Sites/dailyscrum
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span> <span class="nv">$HOME</span>/Sites/dailyscrum
 <span class="o">[[</span> -s <span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="o">&amp;&amp;</span> <span class="nb">source</span> <span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/.rvm/scripts/rvm&quot;</span>
 
 <span class="c1"># without the below settings you get an error</span>
@@ -149,7 +147,7 @@
 
 bundle install
 rake generate <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span> <span class="p">|</span> tee <span class="nv">$HOME</span>/Sites/dailyscrum/error.log
-</pre></div></div>
+</code></pre></div></div>
 
 <div class="entry-content">
 <section>

@@ -126,8 +126,9 @@
 <time datetime="2013-04-21T21:00:00+02:00" pubdate>Sun 21 April 2013</time>    </p>
 </header>
 
-  <div class="entry-content"><p>Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go along.
-<!-- more --></p>
+  <div class="entry-content"><p>Testopia is a testcase management system built as an extension on Bugzilla. This post contains my installation notes and my efforts to make this work on my local installation. This will be updated as I go&nbsp;along.</p>
+<!-- more -->
+
 <h3 id="testopia-testcase-management-system">Testopia testcase management&nbsp;system</h3>
 <h3 id="requirements">Requirements</h3>
 <p>The Testopia Extension requires Bugzilla &gt;4.2.
@@ -135,14 +136,12 @@ Testopia version 2.5 is the first release that does not need a patch on Bugzilla
 <h3 id="old-notes-relevant-before-v25">old notes relevant before&nbsp;v2.5</h3>
 <h2 id="installation-of-testopia-extension">Installation of Testopia&nbsp;extension</h2>
 <h3 id="how-to-get-testopia">How to get&nbsp;Testopia</h3>
-<div class="highlight"><pre><span></span>$ bzr branch bzr://bzr.mozilla.org/bugzilla/extensions/testopia/trunk
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>$ bzr branch bzr://bzr.mozilla.org/bugzilla/extensions/testopia/trunk
+</code></pre></div>
 
 <h3 id="patch-bugzilla-42">Patch Bugzilla&nbsp;4.2</h3>
-<div class="highlight"><pre><span></span><span class="nv">Note</span>: <span class="mi">603</span><span class="o">-</span><span class="mi">2012</span>: <span class="nv">No</span> <span class="nv">patch</span> <span class="k">for</span> <span class="mi">4</span>.<span class="mi">2</span> <span class="nv">available</span> <span class="nv">at</span> <span class="nv">time</span> <span class="nv">of</span> <span class="nv">patching</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code><span class="n">Note</span><span class="o">:</span><span class="w"> </span><span class="mi">603</span><span class="o">-</span><span class="mi">2012</span><span class="o">:</span><span class="w"> </span><span class="n">No</span><span class="w"> </span><span class="n">patch</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="mf">4.2</span><span class="w"> </span><span class="n">available</span><span class="w"> </span><span class="n">at</span><span class="w"> </span><span class="n">time</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">patching</span><span class="w"></span>
+</code></pre></div>
 
 <ol>
 <li>cd to the directory with the Testopia&nbsp;trunk</li>
@@ -172,25 +171,21 @@ patching file&nbsp;template/en/default/global/setting-descs.none.tmpl</p>
 </li>
 </ol>
 <h3 id="run-checksetuppl">Run&nbsp;.checksetup.pl</h3>
-<div class="highlight"><pre><span></span><span class="p">.</span><span class="o">/</span><span class="n">checksetup</span><span class="p">.</span><span class="n">pl</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>./checksetup.pl
+</code></pre></div>
 
 <h3 id="install-additional-dependencies">Install additional&nbsp;dependencies</h3>
-<div class="highlight"><pre><span></span>$ sudo /usr/bin/perl install-module.pl Text::Diff
+<div class="highlight"><pre><span></span><code>$ sudo /usr/bin/perl install-module.pl Text::Diff
 $ sudo /usr/bin/perl install-module.pl GD::Graph3d
-</pre></div>
-
+</code></pre></div>
 
 <h3 id="run-checksetup-again">Run .checksetup&nbsp;again</h3>
-<div class="highlight"><pre><span></span>$ ./checksetup.pl
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>$ ./checksetup.pl
+</code></pre></div>
 
 <p>You should now&nbsp;get </p>
-<div class="highlight"><pre><span></span>$ checksetup.pl complete.
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>$ checksetup.pl complete.
+</code></pre></div>
 
 <h3 id="errors-on-filter-url_quote">Errors on <span class="caps">FILTER</span>&nbsp;url_quote</h3>
 <p>Template-&gt;process() failed twice.
@@ -198,7 +193,7 @@ First error: undef error - url_quote: filter not found
 Second error: undef error - url_quote: filter not&nbsp;found</p>
 <p>Seems this is&nbsp;deprecated</p>
 <p>Found Bugzilla message 398701 with&nbsp;fix</p>
-<div class="highlight"><pre><span></span>find . *-type f -name <span class="s2">&quot;*.tmpl&quot;</span> -exec replace <span class="s1">&#39;FILTER url_quote&#39;</span> <span class="s1">&#39;FILTER uri&#39;</span> -- <span class="o">{}</span> <span class="se">\;</span>*
+<div class="highlight"><pre><span></span><code>find . *-type f -name <span class="s2">&quot;*.tmpl&quot;</span> -exec replace <span class="s1">&#39;FILTER url_quote&#39;</span> <span class="s1">&#39;FILTER uri&#39;</span> -- <span class="o">{}</span> <span class="se">\;</span>*
 
 Executed this from the Testopia extensions directory this updated a number of template files:
 :::bash
@@ -215,8 +210,7 @@ Executed this from the Testopia extensions directory this updated a number of te
 ./template/en/default/testopia/reports/report.html.tmpl converted
 ./template/en/default/testopia/reports/status.html.tmpl converted
 ./template/en/default/testopia/tag/list.html.tmpl converted
-</pre></div>
-
+</code></pre></div>
 
 <h3 id="additional-patching">Additional&nbsp;patching</h3>
 <h4 id="searchpm">Search.pm</h4>
@@ -230,18 +224,16 @@ I copied the patch file and applied it
 <h3 id="new-plan">New&nbsp;plan</h3>
 <p>It seems the link New plan is not working.
 In the Apache error_log there are a lot of&nbsp;errors</p>
-<div class="highlight"><pre><span></span>File does not exist: /Library/WebServer/Documents/bugzilla/extensions/Testopia/extjs, referer: http://  tooh.homedns.org/bugzilla/tr_new_plan.cgi
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>File does not exist: /Library/WebServer/Documents/bugzilla/extensions/Testopia/extjs, referer: http://  tooh.homedns.org/bugzilla/tr_new_plan.cgi
+</code></pre></div>
 
 <p>I did not install the extjs files so probably this is the&nbsp;problem.</p>
 <p>On the Testopia wiki there is some instructions&nbsp;:::bash</p>
-<div class="highlight"><pre><span></span><span class="err">$</span><span class="o">&gt;</span> <span class="n">cd</span> <span class="n">path</span><span class="o">/</span><span class="k">to</span><span class="o">/</span><span class="n">bugzilla</span><span class="o">/</span><span class="n">testopia</span><span class="o">/</span>
-<span class="err">$</span><span class="o">&gt;</span> <span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">extjs</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">deploy</span><span class="o">/</span><span class="n">ext</span><span class="o">-</span><span class="mi">3</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="n">zip</span>
-<span class="err">$</span><span class="o">&gt;</span> <span class="n">unzip</span> <span class="n">ext</span><span class="o">-</span><span class="mi">3</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="n">zip</span>
-<span class="err">$</span><span class="o">&gt;</span> <span class="n">mv</span> <span class="n">ext</span><span class="o">-</span><span class="mi">3</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="mi">1</span> <span class="n">extjs</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>$&gt; cd path/to/bugzilla/testopia/
+$&gt; wget http://extjs.com/deploy/ext-3.2.1.zip
+$&gt; unzip ext-3.2.1.zip
+$&gt; mv ext-3.2.1 extjs
+</code></pre></div>
 
 <p>Found out that the files are not there anymore
 Downloaded the older version&nbsp;http://www.sencha.com/products/extjs/download/ext-js-3.2.1</p>

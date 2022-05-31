@@ -6,7 +6,6 @@
 &lt;!-- more --&gt;</content><category term="telephony"></category><category term="voip"></category><category term="click2call"></category><category term="CTI"></category><category term="pots"></category></entry><entry><title>Fritz!Box 7390 configuration</title><link href="https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html" rel="alternate"></link><published>2013-05-09T12:32:00+02:00</published><updated>2013-05-09T12:32:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
 &lt;p&gt;In this article I will describe the configuration and add-ons I&amp;nbsp;installed.&lt;/p&gt;
 &lt;!-- more --&gt;
-
 &lt;h2 id="contents"&gt;Contents&lt;/h2&gt;
 &lt;div class="toc"&gt;&lt;span class="toctitle"&gt;Table of contents&lt;/span&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#contents"&gt;Contents&lt;/a&gt;&lt;/li&gt;
@@ -72,7 +71,7 @@ I decided not to use the &lt;span class="caps"&gt;WLAN&lt;/span&gt; option of th
 &lt;h3 id="alfred-workflow"&gt;Alfred&amp;nbsp;workflow&lt;/h3&gt;
 &lt;p&gt;I created a simple Alfred 2 workflow that calls the Frizzix dial&amp;nbsp;helper.&lt;/p&gt;
 &lt;p&gt;Use keyword &amp;#8220;Dial&amp;#8221; to trigger a little Applescript that&amp;nbsp;contains:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;on&lt;/span&gt; &lt;span class="nv"&gt;alfred_script&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;q&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;on&lt;/span&gt; &lt;span class="nv"&gt;alfred_script&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;q&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;TelNumber&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;q&lt;/span&gt; &lt;span class="k"&gt;as &lt;/span&gt;&lt;span class="nc"&gt;string&lt;/span&gt;
     &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;Tel&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;
     &lt;span class="k"&gt;repeat&lt;/span&gt; &lt;span class="nv"&gt;with&lt;/span&gt; &lt;span class="nv"&gt;each&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nv"&gt;TelNumber&lt;/span&gt;
@@ -82,8 +81,7 @@ I decided not to use the &lt;span class="caps"&gt;WLAN&lt;/span&gt; option of th
         &lt;span class="nv"&gt;dialInstantly&lt;/span&gt; &lt;span class="nv"&gt;Tel&lt;/span&gt;
     &lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="k"&gt;tell&lt;/span&gt;
 &lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="nv"&gt;alfred_script&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3 id="call-diversion-from-script"&gt;Call diversion from&amp;nbsp;script&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://www.robbastiaansen.nl/node/51"&gt;Call diversion&amp;nbsp;script&lt;/a&gt;&lt;/p&gt;

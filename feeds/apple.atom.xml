@@ -3,9 +3,8 @@
 &lt;p&gt;For some reason it can be better to prevent an application to take a&amp;nbsp;nap.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs tip %}
 You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;defaults&lt;/span&gt; &lt;span class="k"&gt;write&lt;/span&gt; &lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;apple&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Terminal&lt;/span&gt; &lt;span class="n"&gt;NSAppSleepDisabled&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;bool&lt;/span&gt; &lt;span class="n"&gt;YES&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;defaults write com.apple.Terminal NSAppSleepDisabled -bool YES
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The Manual&amp;nbsp;Solution:&lt;/p&gt;
 &lt;blockquote&gt;

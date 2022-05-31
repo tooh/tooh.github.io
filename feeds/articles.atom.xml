@@ -19,11 +19,9 @@
 &lt;img alt="uml diagram" class="uml" src="/images/61fe4618.png"&gt;&lt;!-- more --&gt;</content><category term="articles"></category><category term="plantuml"></category><category term="diagram"></category><category term="archimate"></category><category term="architecture"></category></entry><entry><title>Convert Font Awesome to png</title><link href="https://blog.florijnconsultancy.nl/articles/convert-font-awesome-to-png.html" rel="alternate"></link><published>2016-05-01T13:53:00+02:00</published><updated>2016-05-01T13:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-05-01:/articles/convert-font-awesome-to-png.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Font Awesome is a font set containg a large icon set containing a lot of standard&amp;nbsp;icons. &lt;/p&gt;
 &lt;p&gt;You can convert the icons to .png&amp;nbsp;files&lt;/p&gt;
 &lt;!-- more --&gt;
-
 &lt;p&gt;&lt;a href=""&gt;https://github.com/Pythonity/icon-font-to-png&lt;/a&gt;&lt;/p&gt;</content><category term="articles"></category><category term="font awesome"></category></entry><entry><title>Install gollum on OSX El Capitan</title><link href="https://blog.florijnconsultancy.nl/articles/install-gollum-on-osx-el-capitan.html" rel="alternate"></link><published>2016-04-03T08:46:00+02:00</published><updated>2016-04-03T08:46:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2016-04-03:/articles/install-gollum-on-osx-el-capitan.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Gollum is a simple wiki that uses git as its&amp;nbsp;database.&lt;/p&gt;
 &lt;p&gt;When you want to install this on &lt;span class="caps"&gt;OSX&lt;/span&gt; you can encounter some errors. In this post I describe the recipe I used to install on my &lt;span class="caps"&gt;OSX&lt;/span&gt; El&amp;nbsp;Capitan&lt;/p&gt;
 &lt;!-- more --&gt;
-
 &lt;p&gt;First install&amp;nbsp;icu4c&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;brew install icu4c&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Check &lt;span class="caps"&gt;LDFLAGS&lt;/span&gt;&amp;nbsp;path&lt;/p&gt;
@@ -45,41 +43,33 @@
 &lt;p&gt;I found a couple of workflows for this, but for now I settled for a simple custom web search in&amp;nbsp;Alfred.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs note %}
 Replace [your jira server] with your jira&amp;nbsp;server.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt; &lt;span class="n"&gt;jira&lt;/span&gt; &lt;span class="n"&gt;server&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;secure&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;QuickSearch&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;jspa&lt;/span&gt;&lt;span class="o"&gt;?&lt;/span&gt;&lt;span class="n"&gt;searchString&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;query&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;https://[your jira server]/secure/QuickSearch.jspa?searchString={query}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;!-- more --&gt;</content><category term="articles"></category><category term="Jira"></category><category term="Alfred"></category><category term="workflow"></category></entry><entry><title>Linux command line sort on dates</title><link href="https://blog.florijnconsultancy.nl/articles/linux-command-line-sort-on-dates.html" rel="alternate"></link><published>2015-04-24T14:38:00+02:00</published><updated>2015-04-24T14:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-04-24:/articles/linux-command-line-sort-on-dates.html</id><summary type="html">&lt;p&gt;linux command line sort on&amp;nbsp;dates&lt;/p&gt;</summary><content type="html">&lt;p&gt;For one of my projects I needed to sort a csv file on a date field with dd/mm/yyyy&amp;nbsp;format.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sort&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;k3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;k2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;k1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="n"&gt;planning&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;csv&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sort -n -t&amp;quot;/&amp;quot; -k3,3 -k2,2 -k1,1 planning.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;!-- more --&gt;</content><category term="articles"></category><category term="linux"></category><category term="macos"></category><category term="bash"></category></entry><entry><title>convert svg to png with inkscape (OSX)</title><link href="https://blog.florijnconsultancy.nl/articles/convert-svg-to-png-with-inkscape-osx.html" rel="alternate"></link><published>2015-01-25T16:21:00+01:00</published><updated>2015-01-25T16:21:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-25:/articles/convert-svg-to-png-with-inkscape-osx.html</id><summary type="html"></summary><content type="html">&lt;h3 id="set-alias-to-inkscape-commandline"&gt;Set alias to inkscape&amp;nbsp;commandline&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;inkscape&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/Applications/Inkscape.app/Contents/Resources/bin/inkscape&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;alias inkscape=&amp;quot;/Applications/Inkscape.app/Contents/Resources/bin/inkscape&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3 id="call-inkscape-to-convert"&gt;call inkscape to&amp;nbsp;convert&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; &lt;span class="n"&gt;inkscape&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;z&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;test_full&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;svg&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt; &lt;span class="n"&gt;test_full&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;png&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt; inkscape -z -f test_full.svg -j -e test_full.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;!-- more --&gt;</content><category term="articles"></category><category term="graphics"></category><category term="conversion"></category><category term="svg"></category></entry><entry><title>cairosvg</title><link href="https://blog.florijnconsultancy.nl/articles/cairosvg.html" rel="alternate"></link><published>2015-01-18T08:09:00+01:00</published><updated>2015-01-18T08:09:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-18:/articles/cairosvg.html</id><summary type="html"></summary><content type="html">&lt;h2 id="install-cairosvg"&gt;Install&amp;nbsp;Cairosvg&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pycairo&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo pip install pycairo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;brew install py2cairo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;py2cairo&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo pip install cairosvg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;cairosvg&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;waf&lt;/span&gt; &lt;span class="n"&gt;configure&lt;/span&gt; &lt;span class="c1"&gt;--prefix=/System/Library/Frameworks/Python.framework/Versions/2.7&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo ./waf configure --prefix=/System/Library/Frameworks/Python.framework/Versions/2.7
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2 id="additional"&gt;Additional&lt;/h2&gt;
 &lt;ul&gt;
@@ -95,9 +85,8 @@ new configure&amp;nbsp;afterwards)&lt;/li&gt;
 &lt;!-- more --&gt;</content><category term="articles"></category><category term="graphics"></category><category term="svg]"></category></entry><entry><title>Jenkins jobs lost</title><link href="https://blog.florijnconsultancy.nl/articles/jenkins-jobs-lost.html" rel="alternate"></link><published>2014-11-23T11:47:00+01:00</published><updated>2014-11-23T11:47:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-11-23:/articles/jenkins-jobs-lost.html</id><summary type="html"></summary><content type="html">&lt;p&gt;On my local development machine I noticed that I missed all my&amp;nbsp;jobs.&lt;/p&gt;
 &lt;p&gt;On my &lt;span class="caps"&gt;OSX&lt;/span&gt; machine all the job info was there in the .jenkins/jobs&amp;nbsp;directory.&lt;/p&gt;
 &lt;p&gt;Adding the following to my startjenkins.sh script solved the&amp;nbsp;problem.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;export&lt;/span&gt; &lt;span class="n"&gt;JENKINS_HOME&lt;/span&gt;&lt;span class="o"&gt;=/&lt;/span&gt;&lt;span class="n"&gt;Users&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;peter&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;jenkins&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;JENKINS_HOME&lt;/span&gt;&lt;span class="o"&gt;=/&lt;/span&gt;&lt;span class="n"&gt;Users&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;peter&lt;/span&gt;&lt;span class="o"&gt;/.&lt;/span&gt;&lt;span class="n"&gt;jenkins&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;!-- more --&gt;</content><category term="articles"></category><category term="jenkins"></category></entry><entry><title>Upgrade to Yosemite</title><link href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</id><summary type="html"></summary><content type="html">&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
@@ -106,34 +95,29 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 
 &lt;p&gt;{:toc}&lt;/p&gt;
 &lt;h2 id="update-rvm"&gt;Update&amp;nbsp;rvm&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rvm get stable
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rvm get stable
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2 id="fix-brew"&gt;Fix&amp;nbsp;brew&lt;/h2&gt;
 &lt;p&gt;Changing 1.8  in Current in brew.rb made brew working&amp;nbsp;again.&lt;/p&gt;
 &lt;p&gt;Change&lt;/p&gt;
-&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -W0&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="ch"&gt;#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -W0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;to &lt;/p&gt;
-&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby -W0&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="ch"&gt;#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby -W0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2 id="ruby"&gt;Ruby&lt;/h2&gt;
 &lt;p&gt;In order to make some of my projects work again I had to install a different Ruby&amp;nbsp;version.&lt;/p&gt;
 &lt;p&gt;Installing it only&amp;nbsp;with&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;rvm&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rvm install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;resulted in errors that it could not&amp;nbsp;compile.&lt;/p&gt;
 &lt;p&gt;This fixed&amp;nbsp;it&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;rvm&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;ruby&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="c1"&gt;--with-gcc=clang&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rvm install ruby-1.9.3 --with-gcc=clang
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2 id="bugzilla-perl"&gt;Bugzilla /&amp;nbsp;perl&lt;/h2&gt;
 &lt;p&gt;Symptom:&lt;/p&gt;
@@ -141,9 +125,8 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;p&gt;Cause:&lt;/p&gt;
 &lt;p&gt;Apple has overwritten the&amp;nbsp;/etc/apache2/httpd.conf. &lt;/p&gt;
 &lt;p&gt;Add your Bugzilla&amp;nbsp;settings.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;Directory&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Library/WebServer/bugzilla-trunk&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;Directory&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;&amp;quot;/Library/WebServer/bugzilla-trunk&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;AddHandler cgi-script .cgi .pl 
         Options +Indexes +ExecCGI +FollowSymLinks 
@@ -156,9 +139,8 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;p&gt;Attempt to reload &lt;span class="caps"&gt;JSON&lt;/span&gt;/&lt;span class="caps"&gt;XS&lt;/span&gt;.pm&amp;nbsp;aborted.&lt;/p&gt;
 &lt;p&gt;Solution:&lt;/p&gt;
 &lt;p&gt;I emptied out the lib folder and&amp;nbsp;ran &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;install&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pl&lt;/span&gt; &lt;span class="err"&gt;—&lt;/span&gt;&lt;span class="k"&gt;all&lt;/span&gt; 
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;./install-module.pl —all 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;and it fixed the&amp;nbsp;issue.&lt;/p&gt;
 &lt;p&gt;Bugzilla 4.5.6 introduces Mysql &lt;span class="caps"&gt;SSL&lt;/span&gt;&amp;nbsp;certificates.&lt;/p&gt;
@@ -172,14 +154,13 @@ I have to find out how to configure&amp;nbsp;this&lt;/p&gt;
 
 &lt;p _="%" enddocs&gt;{% docs tip %}
 On &lt;span class="caps"&gt;OSX&lt;/span&gt; it is not always obvious which my.cnf file is used. You can find all my.cnf files on your system by issuing a find&amp;nbsp;command&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nv"&gt;sudo&lt;/span&gt; &lt;span class="nv"&gt;find&lt;/span&gt; . &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;name&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;*.cnf&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;exec&lt;/span&gt; &lt;span class="nv"&gt;ls&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;al&lt;/span&gt; {} \&lt;span class="c1"&gt;;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;sudo&lt;/span&gt; &lt;span class="nv"&gt;find&lt;/span&gt; . &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;name&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;*.cnf&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;exec&lt;/span&gt; &lt;span class="nv"&gt;ls&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;al&lt;/span&gt; {} \&lt;span class="c1"&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p _="%" enddocs&gt;{% docs tip %}
 You can execute a mysql command to show in which locations you can place my.cnf files and in which order they are&amp;nbsp;executed.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;mysql&lt;/span&gt; &lt;span class="c1"&gt;--help | grep &amp;quot;Default options&amp;quot; -A 1&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="articles"></category><category term="mysql"></category></entry><entry><title>Bugzilla git migration</title><link href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html" rel="alternate"></link><published>2014-09-28T14:49:00+02:00</published><updated>2014-09-28T14:49:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-28:/articles/bugzilla-git-migration.html</id><summary type="html"></summary><content type="html">&lt;p&gt;[toc]&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;mysql --help | grep &amp;quot;Default options&amp;quot; -A 1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="articles"></category><category term="mysql"></category></entry><entry><title>Bugzilla git migration</title><link href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html" rel="alternate"></link><published>2014-09-28T14:49:00+02:00</published><updated>2014-09-28T14:49:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-28:/articles/bugzilla-git-migration.html</id><summary type="html"></summary><content type="html">&lt;p&gt;[toc]&lt;/p&gt;
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Bugzilla project switched to Git instead of&amp;nbsp;Bzr.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Moving_From_Bazaar_To_Git"&gt;Moving_From_Bazaar_To_Git&lt;/a&gt;&lt;/p&gt;
@@ -194,11 +175,10 @@ You can execute a mysql command to show in which locations you can place my.cnf 
 &lt;p _="%" enddocs&gt;{% docs note %}
 You can&amp;#8217;t edit the default settings file. If you try this, you cannot edit the&amp;nbsp;setting.&lt;/p&gt;
 &lt;p&gt;In order to activate add the following to the User&amp;nbsp;settings:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="o"&gt;//&lt;/span&gt; &lt;span class="k"&gt;Set&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="k"&gt;true&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="n"&gt;turn&lt;/span&gt; &lt;span class="n"&gt;spell&lt;/span&gt; &lt;span class="n"&gt;checking&lt;/span&gt; &lt;span class="k"&gt;on&lt;/span&gt; &lt;span class="k"&gt;by&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt;
-    &lt;span class="ss"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="k"&gt;true&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;,
+    // Set to true to turn spell checking on by default
+    &amp;quot;spell_check&amp;quot;: true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;!-- more --&gt;</content><category term="articles"></category><category term="sublime"></category><category term="config"></category></entry><entry><title>“Database change requests”</title><link href="https://blog.florijnconsultancy.nl/articles/database-change-requests.html" rel="alternate"></link><published>2014-08-27T09:41:36+02:00</published><updated>2014-08-27T09:41:36+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-27:/articles/database-change-requests.html</id><summary type="html">&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
 &lt;p&gt;title: &lt;size:30&gt;Database change Request&lt;/size&gt;&lt;/p&gt;
@@ -271,14 +251,12 @@ Date:&amp;nbsp;26-8-2014&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs tip %}
 You can try to run some standard diagnostics tools to eliminate some basic&amp;nbsp;causes.&lt;/p&gt;
 &lt;p&gt;Spotlight&amp;nbsp;diagnostics&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;mdsdiagnose&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo mdsdiagnose
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Time machine&amp;nbsp;diagnostics&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;tmdiagnose&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo tmdiagnose
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2 id="hardware-diagnostics"&gt;Hardware&amp;nbsp;Diagnostics&lt;/h2&gt;
 &lt;p&gt;Next step is to run the Apple Hardware Test (&lt;span class="caps"&gt;AHT&lt;/span&gt;).&lt;/p&gt;
@@ -390,8 +368,7 @@ So I decided to make the switch to&amp;nbsp;Textexpander.&lt;/p&gt;
 &lt;p&gt;Importing my Typinator snippets via tab delimit format was&amp;nbsp;easy.&lt;/p&gt;
 &lt;p&gt;I had to change some specific date constructions and now all is&amp;nbsp;working.&lt;/p&gt;
 &lt;p&gt;I sync my snippets via Dropbox to my&amp;nbsp;laptop.&lt;/p&gt;
-&lt;p&gt;I&amp;#8217;m all to go now to invest in some time to setup some extra snippets to improve my&amp;nbsp;productivity.&lt;/p&gt;</content><category term="articles"></category><category term="productivity"></category><category term="workflow"></category></entry><entry><title>Notes on Mavericks upgrade</title><link href="https://blog.florijnconsultancy.nl/articles/notes-on-mavericks-upgrade.html" rel="alternate"></link><published>2013-11-03T15:56:00+01:00</published><updated>2013-11-03T15:56:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-11-03:/articles/notes-on-mavericks-upgrade.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I upgraded on day one. Upgrade went smoothly. In this post I will share my notes on some issues I encounter.
-&lt;!-- more --&gt;&lt;/p&gt;</content><category term="articles"></category><category term="macos"></category><category term="upgrade"></category><category term="Mavericks"></category><category term="install"></category></entry><entry><title>Lego Serious Play Method</title><link href="https://blog.florijnconsultancy.nl/articles/lego-serious-play-method.html" rel="alternate"></link><published>2013-06-15T09:33:00+02:00</published><updated>2013-06-15T09:33:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-06-15:/articles/lego-serious-play-method.html</id><summary type="html"></summary><content type="html">&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/16484554" width="479" height="511" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
-
-&lt;p&gt;&lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="http://www.slideshare.net/janalpeeters6105/business-model-canvas-lego-serious-play" title="Lego Serious Play &amp;amp; Business Model Canvas" target="_blank"&gt;Lego Serious Play &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Business Model Canvas&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/janalpeeters6105" target="_blank"&gt;janalpeeters6105&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
-&lt;!-- more --&gt;&lt;/p&gt;</content><category term="articles"></category><category term="LSP"></category><category term="lego"></category><category term="business game"></category></entry></feed>
+&lt;p&gt;I&amp;#8217;m all to go now to invest in some time to setup some extra snippets to improve my&amp;nbsp;productivity.&lt;/p&gt;</content><category term="articles"></category><category term="productivity"></category><category term="workflow"></category></entry><entry><title>Notes on Mavericks upgrade</title><link href="https://blog.florijnconsultancy.nl/articles/notes-on-mavericks-upgrade.html" rel="alternate"></link><published>2013-11-03T15:56:00+01:00</published><updated>2013-11-03T15:56:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-11-03:/articles/notes-on-mavericks-upgrade.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I upgraded on day one. Upgrade went smoothly. In this post I will share my notes on some issues I&amp;nbsp;encounter.&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="articles"></category><category term="macos"></category><category term="upgrade"></category><category term="Mavericks"></category><category term="install"></category></entry><entry><title>Lego Serious Play Method</title><link href="https://blog.florijnconsultancy.nl/articles/lego-serious-play-method.html" rel="alternate"></link><published>2013-06-15T09:33:00+02:00</published><updated>2013-06-15T09:33:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-06-15:/articles/lego-serious-play-method.html</id><summary type="html"></summary><content type="html">&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/16484554" width="479" height="511" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
+&lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="http://www.slideshare.net/janalpeeters6105/business-model-canvas-lego-serious-play" title="Lego Serious Play &amp;amp; Business Model Canvas" target="_blank"&gt;Lego Serious Play &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Business Model Canvas&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="http://www.slideshare.net/janalpeeters6105" target="_blank"&gt;janalpeeters6105&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;!-- more --&gt;</content><category term="articles"></category><category term="LSP"></category><category term="lego"></category><category term="business game"></category></entry></feed>

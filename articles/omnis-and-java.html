@@ -144,38 +144,38 @@
 <!-- more -->
 
 <h2 id="verify-installation-of-java-runtime-on-windows">Verify installation of java runtime on&nbsp;Windows</h2>
-<div class="highlight"><pre><span></span>@<span class="nv">echo</span> <span class="nv">off</span>
-<span class="nv">cls</span>
-<span class="nv">setlocal</span> <span class="nv">ENABLEEXTENSIONS</span>
-<span class="nv">set</span> <span class="nv">KEY_NAME</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">HKLM\SOFTWARE\JavaSoft\Java Runtime Environment</span><span class="s2">&quot;</span>
-<span class="nv">set</span> <span class="nv">VALUE_NAME</span><span class="o">=</span><span class="nv">CurrentVersion</span>
-::
-:: <span class="nv">get</span> <span class="nv">the</span> <span class="nv">current</span> <span class="nv">version</span>
-::
-<span class="k">FOR</span> <span class="o">/</span><span class="nv">F</span> <span class="s2">&quot;</span><span class="s">usebackq skip=2 tokens=3</span><span class="s2">&quot;</span> <span class="o">%%</span><span class="nv">A</span> <span class="nv">IN</span> <span class="ss">(</span>`<span class="nv">REG</span> <span class="nv">QUERY</span> <span class="o">%</span><span class="nv">KEY_NAME</span><span class="o">%</span> <span class="o">/</span><span class="nv">v</span> <span class="o">%</span><span class="nv">VALUE_NAME</span><span class="o">%</span> <span class="mi">2</span><span class="o">^&gt;</span><span class="nv">nul</span>`<span class="ss">)</span> <span class="k">DO</span> <span class="ss">(</span>
-    <span class="nv">set</span> <span class="nv">ValueValue</span><span class="o">=%%</span><span class="nv">A</span>
-<span class="ss">)</span>
-<span class="k">if</span> <span class="nv">defined</span> <span class="nv">ValueValue</span> <span class="ss">(</span>
-    @<span class="nv">echo</span> <span class="nv">the</span> <span class="nv">current</span> <span class="nv">Java</span> <span class="nv">runtime</span> <span class="nv">is</span>  <span class="o">%</span><span class="nv">ValueValue</span><span class="o">%</span>
-<span class="ss">)</span> <span class="k">else</span> <span class="ss">(</span>
-    @<span class="nv">echo</span> <span class="o">%</span><span class="nv">KEY_NAME</span><span class="o">%</span>\<span class="o">%</span><span class="nv">VALUE_NAME</span><span class="o">%</span> <span class="nv">not</span> <span class="nv">found</span>.
-    <span class="k">goto</span> <span class="nl">end</span>
-<span class="ss">)</span>
-<span class="nv">set</span> <span class="nv">JAVA_CURRENT</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">HKLM\SOFTWARE\JavaSoft\Java Runtime Environment\%ValueValue%</span><span class="s2">&quot;</span>
-<span class="nv">set</span> <span class="nv">JAVA_HOME</span><span class="o">=</span><span class="nv">JavaHome</span>
-::
-:: <span class="nv">get</span> <span class="nv">the</span> <span class="nv">javahome</span>
-::
-<span class="k">FOR</span> <span class="o">/</span><span class="nv">F</span> <span class="s2">&quot;</span><span class="s">usebackq skip=2 tokens=3*</span><span class="s2">&quot;</span> <span class="o">%%</span><span class="nv">A</span> <span class="nv">IN</span> <span class="ss">(</span>`<span class="nv">REG</span> <span class="nv">QUERY</span> <span class="o">%</span><span class="nv">JAVA_CURRENT</span><span class="o">%</span> <span class="o">/</span><span class="nv">v</span> <span class="o">%</span><span class="nv">JAVA_HOME</span><span class="o">%</span> <span class="mi">2</span><span class="o">^&gt;</span><span class="nv">nul</span>`<span class="ss">)</span> <span class="k">DO</span> <span class="ss">(</span>
-    <span class="nv">set</span> <span class="nv">JAVA_PATH</span><span class="o">=%%</span><span class="nv">A</span> <span class="o">%%</span><span class="nv">B</span>
-<span class="ss">)</span>
-<span class="nv">echo</span> <span class="nv">the</span> <span class="nv">path</span> <span class="nv">of</span> <span class="nv">the</span> <span class="nv">current</span> <span class="nv">Java</span> <span class="nv">JVM</span> <span class="nv">according</span> <span class="nv">to</span> <span class="nv">the</span> <span class="nv">registry</span> <span class="nv">is</span> 
-<span class="nv">echo</span> <span class="o">%</span><span class="nv">JAVA_PATH</span><span class="o">%</span>
-<span class="nv">echo</span>.
-<span class="nv">echo</span> <span class="nv">now</span> <span class="k">if</span> <span class="nv">we</span> <span class="nv">try</span> <span class="nv">it</span> :
-<span class="s2">&quot;</span><span class="s">%JAVA_PATH%\bin\java.exe</span><span class="s2">&quot;</span> <span class="o">-</span><span class="nv">version</span>
-<span class="nl">:end</span>
-</pre></div></div>
+<div class="highlight"><pre><span></span><code><span class="nv">@echo</span><span class="w"> </span><span class="k">off</span><span class="w"></span>
+<span class="n">cls</span><span class="w"></span>
+<span class="n">setlocal</span><span class="w"> </span><span class="n">ENABLEEXTENSIONS</span><span class="w"></span>
+<span class="k">set</span><span class="w"> </span><span class="n">KEY_NAME</span><span class="o">=</span><span class="ss">&quot;HKLM\SOFTWARE\JavaSoft\Java Runtime Environment&quot;</span><span class="w"></span>
+<span class="k">set</span><span class="w"> </span><span class="n">VALUE_NAME</span><span class="o">=</span><span class="n">CurrentVersion</span><span class="w"></span>
+<span class="o">::</span><span class="w"></span>
+<span class="o">::</span><span class="w"> </span><span class="k">get</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="k">current</span><span class="w"> </span><span class="n">version</span><span class="w"></span>
+<span class="o">::</span><span class="w"></span>
+<span class="k">FOR</span><span class="w"> </span><span class="o">/</span><span class="n">F</span><span class="w"> </span><span class="ss">&quot;usebackq skip=2 tokens=3&quot;</span><span class="w"> </span><span class="o">%%</span><span class="n">A</span><span class="w"> </span><span class="ow">IN</span><span class="w"> </span><span class="p">(</span><span class="err">`</span><span class="n">REG</span><span class="w"> </span><span class="n">QUERY</span><span class="w"> </span><span class="o">%</span><span class="n">KEY_NAME</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="n">v</span><span class="w"> </span><span class="o">%</span><span class="n">VALUE_NAME</span><span class="o">%</span><span class="w"> </span><span class="mi">2</span><span class="o">^&gt;</span><span class="n">nul</span><span class="err">`</span><span class="p">)</span><span class="w"> </span><span class="n">DO</span><span class="w"> </span><span class="p">(</span><span class="w"></span>
+<span class="w">    </span><span class="k">set</span><span class="w"> </span><span class="n">ValueValue</span><span class="o">=%%</span><span class="n">A</span><span class="w"></span>
+<span class="p">)</span><span class="w"></span>
+<span class="k">if</span><span class="w"> </span><span class="n">defined</span><span class="w"> </span><span class="n">ValueValue</span><span class="w"> </span><span class="p">(</span><span class="w"></span>
+<span class="w">    </span><span class="nv">@echo</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="k">current</span><span class="w"> </span><span class="n">Java</span><span class="w"> </span><span class="n">runtime</span><span class="w"> </span><span class="k">is</span><span class="w">  </span><span class="o">%</span><span class="n">ValueValue</span><span class="o">%</span><span class="w"></span>
+<span class="p">)</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">(</span><span class="w"></span>
+<span class="w">    </span><span class="nv">@echo</span><span class="w"> </span><span class="o">%</span><span class="n">KEY_NAME</span><span class="o">%</span><span class="err">\</span><span class="o">%</span><span class="n">VALUE_NAME</span><span class="o">%</span><span class="w"> </span><span class="ow">not</span><span class="w"> </span><span class="k">found</span><span class="p">.</span><span class="w"></span>
+<span class="w">    </span><span class="k">goto</span><span class="w"> </span><span class="nl">end</span><span class="w"></span>
+<span class="p">)</span><span class="w"></span>
+<span class="k">set</span><span class="w"> </span><span class="n">JAVA_CURRENT</span><span class="o">=</span><span class="ss">&quot;HKLM\SOFTWARE\JavaSoft\Java Runtime Environment\%ValueValue%&quot;</span><span class="w"></span>
+<span class="k">set</span><span class="w"> </span><span class="n">JAVA_HOME</span><span class="o">=</span><span class="n">JavaHome</span><span class="w"></span>
+<span class="o">::</span><span class="w"></span>
+<span class="o">::</span><span class="w"> </span><span class="k">get</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">javahome</span><span class="w"></span>
+<span class="o">::</span><span class="w"></span>
+<span class="k">FOR</span><span class="w"> </span><span class="o">/</span><span class="n">F</span><span class="w"> </span><span class="ss">&quot;usebackq skip=2 tokens=3*&quot;</span><span class="w"> </span><span class="o">%%</span><span class="n">A</span><span class="w"> </span><span class="ow">IN</span><span class="w"> </span><span class="p">(</span><span class="err">`</span><span class="n">REG</span><span class="w"> </span><span class="n">QUERY</span><span class="w"> </span><span class="o">%</span><span class="n">JAVA_CURRENT</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="n">v</span><span class="w"> </span><span class="o">%</span><span class="n">JAVA_HOME</span><span class="o">%</span><span class="w"> </span><span class="mi">2</span><span class="o">^&gt;</span><span class="n">nul</span><span class="err">`</span><span class="p">)</span><span class="w"> </span><span class="n">DO</span><span class="w"> </span><span class="p">(</span><span class="w"></span>
+<span class="w">    </span><span class="k">set</span><span class="w"> </span><span class="n">JAVA_PATH</span><span class="o">=%%</span><span class="n">A</span><span class="w"> </span><span class="o">%%</span><span class="n">B</span><span class="w"></span>
+<span class="p">)</span><span class="w"></span>
+<span class="n">echo</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="k">path</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="k">current</span><span class="w"> </span><span class="n">Java</span><span class="w"> </span><span class="n">JVM</span><span class="w"> </span><span class="n">according</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">registry</span><span class="w"> </span><span class="k">is</span><span class="w"> </span>
+<span class="n">echo</span><span class="w"> </span><span class="o">%</span><span class="n">JAVA_PATH</span><span class="o">%</span><span class="w"></span>
+<span class="n">echo</span><span class="p">.</span><span class="w"></span>
+<span class="n">echo</span><span class="w"> </span><span class="n">now</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">we</span><span class="w"> </span><span class="k">try</span><span class="w"> </span><span class="n">it</span><span class="w"> </span><span class="err">:</span><span class="w"></span>
+<span class="ss">&quot;%JAVA_PATH%\bin\java.exe&quot;</span><span class="w"> </span><span class="o">-</span><span class="n">version</span><span class="w"></span>
+<span class="err">:</span><span class="k">end</span><span class="w"></span>
+</code></pre></div></div>
 
 <div class="entry-content">
 <section>

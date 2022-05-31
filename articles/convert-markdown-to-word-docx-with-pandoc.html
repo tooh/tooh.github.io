@@ -126,61 +126,57 @@
 <time datetime="2015-10-17T08:56:00+02:00" pubdate>Sat 17 October 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><p>If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
-<!-- more --></p>
+  <div class="entry-content"><p>If you need to convert files from one markup format into another, pandoc is your swiss-army&nbsp;knife.</p>
+<!-- more -->
+
 <h3 id="installation">Installation</h3>
 <p>My <span class="caps">OS</span> is <span class="caps">OSX</span> so the easiest is to use&nbsp;Homebrew.</p>
 <h4 id="with-homebrew">With&nbsp;homebrew</h4>
-<div class="highlight"><pre><span></span>$ brew install pandoc
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>$ brew install pandoc
+</code></pre></div>
 
 <h4 id="use-the-installer">Use the&nbsp;installer</h4>
 <p>Go to the github project&nbsp;downloads</p>
-<div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">jgm</span><span class="o">/</span><span class="n">pandoc</span><span class="o">/</span><span class="n">releases</span><span class="o">/</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>https://github.com/jgm/pandoc/releases/
+</code></pre></div>
 
 <h3 id="convert-your-document">Convert your&nbsp;document</h3>
-<div class="highlight"><pre><span></span>$ pandoc -o output.docx -f markdown -t docx markdown-file.md
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>$ pandoc -o output.docx -f markdown -t docx markdown-file.md
+</code></pre></div>
 
 <h3 id="make-it-easy">Make it&nbsp;easy</h3>
 <p>To make it even easier I added the below code to my .bashrc&nbsp;file</p>
-<div class="highlight"><pre><span></span>...
+<div class="highlight"><pre><span></span><code>...
 
-# <span class="nv">aliases</span>
+# aliases
 ...
-<span class="nv">alias</span> <span class="nv">md2word</span><span class="o">=</span><span class="nv">md2word</span> # <span class="nv">alias</span> <span class="nv">the</span> <span class="nv">function</span> <span class="nv">below</span>
+alias md2word=md2word # alias the function below
 
-# <span class="nv">functions</span>
+# functions
 ...
-<span class="nv">function</span> <span class="nv">md2word</span> <span class="ss">()</span> {  
-    <span class="nv">PANDOC_INSTALLED</span><span class="o">=</span>$<span class="ss">(</span><span class="nv">pandoc</span> <span class="o">--</span><span class="nv">version</span> <span class="o">&gt;&gt;</span> <span class="o">/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">null</span><span class="c1">; echo $?)</span>
+function md2word () {  
+    PANDOC_INSTALLED=$(pandoc --version &gt;&gt; /dev/null; echo $?)
 
-    <span class="k">if</span> [ <span class="s2">&quot;</span><span class="s">0</span><span class="s2">&quot;</span> <span class="o">==</span> ${<span class="nv">PANDOC_INSTALLED</span>} ]<span class="c1">; then</span>
-        <span class="nv">pandoc</span> <span class="o">-</span><span class="nv">o</span> <span class="mh">$2</span> <span class="o">-</span><span class="nv">f</span> <span class="nv">markdown</span> <span class="o">-</span><span class="nv">t</span> <span class="nv">docx</span> <span class="mh">$1</span>
-    <span class="k">else</span>
-        <span class="nv">echo</span> <span class="s2">&quot;</span><span class="s">Pandoc is not installed. Unable to convert document.</span><span class="s2">&quot;</span>
-    <span class="nv">fi</span>
+    if [ &quot;0&quot; == <span class="cp">${</span><span class="n">PANDOC_INSTALLED</span><span class="cp">}</span> ]; then
+        pandoc -o $2 -f markdown -t docx $1
+    else
+        echo &quot;Pandoc is not installed. Unable to convert document.&quot;
+    fi
 }
-</pre></div>
-
+</code></pre></div>
 
 <h3 id="convert-a-file">Convert a&nbsp;file</h3>
-<div class="highlight"><pre><span></span> <span class="n">md2word</span> <span class="o">~/</span><span class="n">path</span><span class="o">/</span><span class="k">to</span><span class="o">/</span><span class="k">some</span><span class="o">/</span><span class="n">markdown</span><span class="o">/</span><span class="n">file</span><span class="o">/</span><span class="k">to</span><span class="o">/</span><span class="k">convert</span><span class="p">.</span><span class="n">md</span> <span class="o">~/</span><span class="n">path</span><span class="o">/</span><span class="k">to</span><span class="o">/</span><span class="k">some</span><span class="o">/</span><span class="n">word</span><span class="o">/</span><span class="n">document</span><span class="o">/</span><span class="k">output</span><span class="p">.</span><span class="n">docx</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code> md2word ~/path/to/some/markdown/file/to/convert.md ~/path/to/some/word/document/output.docx
+</code></pre></div>
 
 <h3 id="use-pandoc-from-sublime">Use Pandoc from&nbsp;Sublime</h3>
 <p>http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html</p>
 <h4 id="my-customized-build-file">My customized build&nbsp;file</h4>
-<div class="highlight"><pre><span></span><span class="err">{</span>
-    <span class="ss">&quot;cmd&quot;</span><span class="p">:</span> <span class="p">[</span><span class="ss">&quot;/usr/local/bin/pandoc&quot;</span><span class="p">,</span> <span class="ss">&quot;-S&quot;</span><span class="p">,</span> <span class="ss">&quot;-s&quot;</span><span class="p">,</span> <span class="ss">&quot;-f&quot;</span><span class="p">,</span> <span class="ss">&quot;markdown&quot;</span><span class="p">,</span> <span class="ss">&quot;-t&quot;</span><span class="p">,</span> <span class="ss">&quot;docx&quot;</span><span class="p">,</span> <span class="ss">&quot;-o&quot;</span><span class="p">,</span> <span class="ss">&quot;/Users/peter/Documents/Docs/Inbox/$file_base_name.docx&quot;</span><span class="p">,</span> <span class="ss">&quot;$file_name&quot;</span><span class="p">],</span>
-    <span class="ss">&quot;selector&quot;</span><span class="p">:</span> <span class="ss">&quot;text.html.markdown&quot;</span>
- <span class="err">}</span>
-</pre></div></div>
+<div class="highlight"><pre><span></span><code>{
+    &quot;cmd&quot;: [&quot;/usr/local/bin/pandoc&quot;, &quot;-S&quot;, &quot;-s&quot;, &quot;-f&quot;, &quot;markdown&quot;, &quot;-t&quot;, &quot;docx&quot;, &quot;-o&quot;, &quot;/Users/peter/Documents/Docs/Inbox/$file_base_name.docx&quot;, &quot;$file_name&quot;],
+    &quot;selector&quot;: &quot;text.html.markdown&quot;
+ }
+</code></pre></div></div>
 
 <div class="entry-content">
 <section>

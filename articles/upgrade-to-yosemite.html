@@ -133,34 +133,29 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 
 <p>{:toc}</p>
 <h2 id="update-rvm">Update&nbsp;rvm</h2>
-<div class="highlight"><pre><span></span>rvm get stable
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>rvm get stable
+</code></pre></div>
 
 <h2 id="fix-brew">Fix&nbsp;brew</h2>
 <p>Changing 1.8  in Current in brew.rb made brew working&nbsp;again.</p>
 <p>Change</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="ch">#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -W0</span>
-</pre></div>
-</td></tr></table>
+<div class="highlight"><pre><span></span><code><span class="ch">#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -W0</span>
+</code></pre></div>
 
 <p>to </p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="ch">#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby -W0</span>
-</pre></div>
-</td></tr></table>
+<div class="highlight"><pre><span></span><code><span class="ch">#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby -W0</span>
+</code></pre></div>
 
 <h2 id="ruby">Ruby</h2>
 <p>In order to make some of my projects work again I had to install a different Ruby&nbsp;version.</p>
 <p>Installing it only&nbsp;with</p>
-<div class="highlight"><pre><span></span><span class="n">rvm</span> <span class="n">install</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>rvm install
+</code></pre></div>
 
 <p>resulted in errors that it could not&nbsp;compile.</p>
 <p>This fixed&nbsp;it</p>
-<div class="highlight"><pre><span></span><span class="n">rvm</span> <span class="n">install</span> <span class="n">ruby</span><span class="o">-</span><span class="mi">1</span><span class="p">.</span><span class="mi">9</span><span class="p">.</span><span class="mi">3</span> <span class="c1">--with-gcc=clang</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>rvm install ruby-1.9.3 --with-gcc=clang
+</code></pre></div>
 
 <h2 id="bugzilla-perl">Bugzilla /&nbsp;perl</h2>
 <p>Symptom:</p>
@@ -168,9 +163,8 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 <p>Cause:</p>
 <p>Apple has overwritten the&nbsp;/etc/apache2/httpd.conf. </p>
 <p>Add your Bugzilla&nbsp;settings.</p>
-<div class="highlight"><pre><span></span><span class="nt">&lt;Directory</span> <span class="s">&quot;/Library/WebServer/bugzilla-trunk&quot;</span><span class="nt">&gt;</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">&quot;/Library/WebServer/bugzilla-trunk&quot;</span><span class="nt">&gt;</span><span class="w"></span>
+</code></pre></div>
 
 <p>AddHandler cgi-script .cgi .pl 
         Options +Indexes +ExecCGI +FollowSymLinks 
@@ -183,9 +177,8 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 <p>Attempt to reload <span class="caps">JSON</span>/<span class="caps">XS</span>.pm&nbsp;aborted.</p>
 <p>Solution:</p>
 <p>I emptied out the lib folder and&nbsp;ran </p>
-<div class="highlight"><pre><span></span><span class="p">.</span><span class="o">/</span><span class="n">install</span><span class="o">-</span><span class="n">module</span><span class="p">.</span><span class="n">pl</span> <span class="err">—</span><span class="k">all</span> 
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>./install-module.pl —all 
+</code></pre></div>
 
 <p>and it fixed the&nbsp;issue.</p>
 <p>Bugzilla 4.5.6 introduces Mysql <span class="caps">SSL</span>&nbsp;certificates.</p>

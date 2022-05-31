@@ -132,18 +132,16 @@
 <!-- more -->
 
 <p>During the installation I got an error with installing&nbsp;zlib. </p>
-<div class="highlight"><pre><span></span>curl: <span class="o">(</span><span class="m">22</span><span class="o">)</span> The requested URL returned error: <span class="m">404</span> Not Found
+<div class="highlight"><pre><span></span><code>curl: <span class="o">(</span><span class="m">22</span><span class="o">)</span> The requested URL returned error: <span class="m">404</span> Not Found
 Error: Failed to download resource <span class="s2">&quot;zlib&quot;</span>
 Download failed: http://zlib.net/zlib-1.2.7.tar.gz
-</pre></div>
-
+</code></pre></div>
 
 <p>This error was corrected folowing this&nbsp;solution</p>
 <p><a href="https://github.com/josegonzalez/homebrew-php/issues/575">https://github.com/josegonzalez/homebrew-php/issues/575</a></p>
 <p>Laravel requires the <span class="caps">PHP</span> Mcrypt module. In an earlier attempt I had some trouble to get this working in my environment, but now in this setup using this&nbsp;command:</p>
-<div class="highlight"><pre><span></span>brew install php54-mcrypt
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>brew install php54-mcrypt
+</code></pre></div>
 
 <p>installed it&nbsp;correctly.</p></div>
 

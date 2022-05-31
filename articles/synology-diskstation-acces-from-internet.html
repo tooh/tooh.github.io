@@ -128,12 +128,12 @@
 
   <div class="entry-content"><p>I recently bought a Synology Diskstation <span class="caps">DS213</span>+.
 Installation went smoothly and within an hour the basic things were working as&nbsp;expected.</p>
-<p>I wanted to access the <span class="caps">NAS</span> also from the internet, so I used the <span class="caps">EZ</span>-Internet wizard to configure it. I created a synology.me account and created a <span class="caps">DDNS</span> entry. For some reason the portforwarding on my Netgear <span class="caps">WNDR3700</span> was not working as expected. Some people hinted that you could make some manual portforwarding rules, so I decided to give that a try.
-<!-- more --></p>
-<p>When I tried to create a custom service I got an&nbsp;error:</p>
-<div class="highlight"><pre><span></span><span class="s2">&quot;The specified port(s) are being used by other configurations. Please check your configurations of USB  Readyshare, Remote Management, Port forwarding, Port Triggering, UPnP Port Mapping table, RIP, and  Internet connection type &quot;</span>
-</pre></div>
+<p>I wanted to access the <span class="caps">NAS</span> also from the internet, so I used the <span class="caps">EZ</span>-Internet wizard to configure it. I created a synology.me account and created a <span class="caps">DDNS</span> entry. For some reason the portforwarding on my Netgear <span class="caps">WNDR3700</span> was not working as expected. Some people hinted that you could make some manual portforwarding rules, so I decided to give that a&nbsp;try.</p>
+<!-- more -->
 
+<p>When I tried to create a custom service I got an&nbsp;error:</p>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;The specified port(s) are being used by other configurations. Please check your configurations of USB  Readyshare, Remote Management, Port forwarding, Port Triggering, UPnP Port Mapping table, RIP, and  Internet connection type &quot;</span>
+</code></pre></div>
 
 <p>I noticed that the port 5000 was already appearing in my uPnP table and I assumed this was the cause of this error. I decided to switch off UPnP and then added the forwarding&nbsp;rule.</p>
 <p><img alt="Port forwarding" src="https://blog.florijnconsultancy.nl/images/port_forwarding.png"></p>

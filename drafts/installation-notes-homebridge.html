@@ -142,135 +142,135 @@ $ sudo journalctl -f -u homebridge</code></p>
 <h2 id="config-ui-x">config-ui-x</h2>
 <p><code>sudo npm --verbose install -g homebridge-config-ui-x --unsafe-perm</code></p>
 <h1 id="homebridge-config">Homebridge&nbsp;config</h1>
-<div class="highlight"><pre><span></span><span class="p">{</span>
- <span class="nt">&quot;bridge&quot;</span><span class="p">:</span> <span class="p">{</span>
-     <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Homebridge&quot;</span><span class="p">,</span>
-     <span class="nt">&quot;username&quot;</span><span class="p">:</span> <span class="s2">&quot;CB:22:3D:E2:CE:31&quot;</span><span class="p">,</span>
-     <span class="nt">&quot;port&quot;</span><span class="p">:</span> <span class="mi">51826</span><span class="p">,</span>
-     <span class="nt">&quot;pin&quot;</span><span class="p">:</span> <span class="s2">&quot;033-44-254&quot;</span>
-<span class="p">},</span>
- <span class="nt">&quot;accessories&quot;</span><span class="p">:</span> <span class="p">[</span>
-     <span class="p">{</span>
-         <span class="nt">&quot;accessory&quot;</span><span class="p">:</span> <span class="s2">&quot;SamsungTV&quot;</span><span class="p">,</span>
-         <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;TV Living room&quot;</span><span class="p">,</span>
-         <span class="nt">&quot;ip_address&quot;</span><span class="p">:</span> <span class="s2">&quot;192.168.1.105&quot;</span><span class="p">,</span>
-         <span class="nt">&quot;send_delay&quot;</span><span class="p">:</span> <span class="mi">400</span><span class="p">,</span>
-         <span class="nt">&quot;channel&quot;</span><span class="p">:</span> <span class="mi">14</span>
-     <span class="p">}</span>
- <span class="p">],</span>
-<span class="nt">&quot;platforms&quot;</span><span class="p">:</span> <span class="p">[</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;config&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Config&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;port&quot;</span><span class="p">:</span> <span class="mi">8080</span><span class="p">,</span>
-        <span class="nt">&quot;auth&quot;</span><span class="p">:</span> <span class="s2">&quot;form&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;theme&quot;</span><span class="p">:</span> <span class="s2">&quot;teal&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;restart&quot;</span><span class="p">:</span> <span class="s2">&quot;sudo -n systemctl restart homebridge&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;tempUnits&quot;</span><span class="p">:</span> <span class="s2">&quot;c&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;sudo&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-        <span class="nt">&quot;log&quot;</span><span class="p">:</span> <span class="p">{</span>
-            <span class="nt">&quot;method&quot;</span><span class="p">:</span> <span class="s2">&quot;systemd&quot;</span><span class="p">,</span>
-            <span class="nt">&quot;service&quot;</span><span class="p">:</span> <span class="s2">&quot;homebridge&quot;</span>
-        <span class="p">}</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;Nest&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;email&quot;</span><span class="p">:</span> <span class="s2">&quot;florijn.peter@gmail.com&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;password&quot;</span><span class="p">:</span> <span class="s2">&quot;Inferno1#&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;Fritz!Box&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;My FritzBox&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;username&quot;</span><span class="p">:</span> <span class="s2">&quot;Peter&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;password&quot;</span><span class="p">:</span> <span class="s2">&quot;Lostsymbol1&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://192.168.1.150&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;interval&quot;</span><span class="p">:</span> <span class="mi">60</span><span class="p">,</span>
-        <span class="nt">&quot;options&quot;</span><span class="p">:</span> <span class="p">{</span>
-            <span class="nt">&quot;strictSSL&quot;</span><span class="p">:</span> <span class="kc">false</span>
-        <span class="p">}</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;Hue&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Hue&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;users&quot;</span><span class="p">:</span> <span class="p">{</span>
-            <span class="nt">&quot;001788FFFE23C279&quot;</span><span class="p">:</span> <span class="s2">&quot;NWKcPJIIorK89nfk8x3a6aaRM3eUED5Ahqi6Rdsx&quot;</span>
-        <span class="p">},</span>
-        <span class="nt">&quot;host&quot;</span><span class="p">:</span> <span class="s2">&quot;192.168.1.106&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;sensors&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;nativeHomeKitSensors&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;excludeSensorTypes&quot;</span><span class="p">:</span> <span class="p">[</span>
-            <span class="s2">&quot;CLIP&quot;</span><span class="p">,</span>
-            <span class="s2">&quot;Geofence&quot;</span>
-        <span class="p">],</span>
-        <span class="nt">&quot;lowBattery&quot;</span><span class="p">:</span> <span class="mi">25</span><span class="p">,</span>
-        <span class="nt">&quot;lights&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-        <span class="nt">&quot;nativeHomeKitLights&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;wallSwitch&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;groups&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;group0&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;rooms&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;schedules&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;rules&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;heartrate&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
-        <span class="nt">&quot;timeout&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
-        <span class="nt">&quot;resource&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-        <span class="nt">&quot;parallelRequests&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
-        <span class="nt">&quot;waitTimeResend&quot;</span><span class="p">:</span> <span class="mi">300</span><span class="p">,</span>
-        <span class="nt">&quot;waitTimeUpdate&quot;</span><span class="p">:</span> <span class="mi">20</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;ZP&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;service&quot;</span><span class="p">:</span> <span class="s2">&quot;switch&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;brightness&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-        <span class="nt">&quot;speakers&quot;</span><span class="p">:</span> <span class="kc">true</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;WeatherPlus&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;WeatherPlus&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;interval&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
-        <span class="nt">&quot;forecast&quot;</span><span class="p">:</span> <span class="p">[</span>
-            <span class="mi">1</span><span class="p">,</span>
-            <span class="mi">2</span>
-        <span class="p">],</span>
-        <span class="nt">&quot;service&quot;</span><span class="p">:</span> <span class="s2">&quot;openweathermap&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;9c3872d81b409f95bbcb33dbfd96da95&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;locationCity&quot;</span><span class="p">:</span> <span class="s2">&quot;Hapert, NL&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;displayName&quot;</span><span class="p">:</span> <span class="s2">&quot;Nu buiten&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;language&quot;</span><span class="p">:</span> <span class="s2">&quot;nl&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;displayNameForecast&quot;</span><span class="p">:</span> <span class="s2">&quot;Verwachting OWM&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;fakegatoParameters&quot;</span><span class="p">:</span> <span class="p">{</span>
-            <span class="nt">&quot;storage&quot;</span><span class="p">:</span> <span class="s2">&quot;fs&quot;</span>
-        <span class="p">}</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;HarmonyHubWebSocket&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Harmony&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;hubIP&quot;</span><span class="p">:</span> <span class="s2">&quot;192.168.1.104&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;mainActivity&quot;</span><span class="p">:</span> <span class="s2">&quot;TV kijken&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;showTurnOffActivity&quot;</span><span class="p">:</span> <span class="kc">false</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;platform&quot;</span><span class="p">:</span> <span class="s2">&quot;People&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;threshold&quot;</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span>
-        <span class="nt">&quot;anyoneSensor&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;nooneSensor&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="nt">&quot;webhookPort&quot;</span><span class="p">:</span> <span class="mi">51828</span><span class="p">,</span>
-        <span class="nt">&quot;cacheDirectory&quot;</span><span class="p">:</span> <span class="s2">&quot;./.node-persist/storage&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;pingInterval&quot;</span><span class="p">:</span> <span class="mi">10000</span><span class="p">,</span>
-        <span class="nt">&quot;ignoreReEnterExitSeconds&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="nt">&quot;people&quot;</span><span class="p">:</span> <span class="p">[</span>
-            <span class="p">{</span>
-                <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Peter&quot;</span><span class="p">,</span>
-                <span class="nt">&quot;target&quot;</span><span class="p">:</span> <span class="s2">&quot;192.168.1.100&quot;</span><span class="p">,</span>
-                <span class="nt">&quot;threshold&quot;</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span>
-                <span class="nt">&quot;pingInterval&quot;</span><span class="p">:</span> <span class="mi">10000</span><span class="p">,</span>
-                <span class="nt">&quot;ignoreReEnterExitSeconds&quot;</span><span class="p">:</span> <span class="mi">0</span>
-           <span class="p">}</span>
-         <span class="p">]</span>
-       <span class="p">}</span>
-    <span class="p">]</span>
-<span class="p">}</span>
-</pre></div></div>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
+<span class="w"> </span><span class="nt">&quot;bridge&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">     </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Homebridge&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">     </span><span class="nt">&quot;username&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;CB:22:3D:E2:CE:31&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">     </span><span class="nt">&quot;port&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">51826</span><span class="p">,</span><span class="w"></span>
+<span class="w">     </span><span class="nt">&quot;pin&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;033-44-254&quot;</span><span class="w"></span>
+<span class="p">},</span><span class="w"></span>
+<span class="w"> </span><span class="nt">&quot;accessories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">     </span><span class="p">{</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;accessory&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SamsungTV&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;TV Living room&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;ip_address&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;192.168.1.105&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;send_delay&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">400</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;channel&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">14</span><span class="w"></span>
+<span class="w">     </span><span class="p">}</span><span class="w"></span>
+<span class="w"> </span><span class="p">],</span><span class="w"></span>
+<span class="nt">&quot;platforms&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;platform&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;config&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Config&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;port&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">8080</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;auth&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;form&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;theme&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;teal&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;restart&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;sudo -n systemctl restart homebridge&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;tempUnits&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;c&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;sudo&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;log&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;method&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;systemd&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;service&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;homebridge&quot;</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;platform&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Nest&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;email&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;florijn.peter@gmail.com&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;password&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Inferno1#&quot;</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;platform&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Fritz!Box&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;My FritzBox&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;username&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Peter&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;password&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Lostsymbol1&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://192.168.1.150&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;interval&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">60</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;options&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;strictSSL&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;platform&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Hue&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Hue&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;users&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;001788FFFE23C279&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;NWKcPJIIorK89nfk8x3a6aaRM3eUED5Ahqi6Rdsx&quot;</span><span class="w"></span>
+<span class="w">        </span><span class="p">},</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;host&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;192.168.1.106&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;sensors&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;nativeHomeKitSensors&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;excludeSensorTypes&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">            </span><span class="s2">&quot;CLIP&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="s2">&quot;Geofence&quot;</span><span class="w"></span>
+<span class="w">        </span><span class="p">],</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;lowBattery&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">25</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;lights&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;nativeHomeKitLights&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;wallSwitch&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;groups&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;group0&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;rooms&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;schedules&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;rules&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;heartrate&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;timeout&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;resource&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;parallelRequests&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;waitTimeResend&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;waitTimeUpdate&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;platform&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ZP&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;service&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;switch&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;brightness&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;speakers&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;platform&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WeatherPlus&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WeatherPlus&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;interval&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;forecast&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">            </span><span class="mi">1</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="mi">2</span><span class="w"></span>
+<span class="w">        </span><span class="p">],</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;service&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;openweathermap&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;9c3872d81b409f95bbcb33dbfd96da95&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;locationCity&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Hapert, NL&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;displayName&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Nu buiten&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;language&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nl&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;displayNameForecast&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Verwachting OWM&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;fakegatoParameters&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;storage&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;fs&quot;</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;platform&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;HarmonyHubWebSocket&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Harmony&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;hubIP&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;192.168.1.104&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;mainActivity&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;TV kijken&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;showTurnOffActivity&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;platform&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;People&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">15</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;anyoneSensor&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;nooneSensor&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;webhookPort&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">51828</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;cacheDirectory&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;./.node-persist/storage&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;pingInterval&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10000</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;ignoreReEnterExitSeconds&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;people&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Peter&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">                </span><span class="nt">&quot;target&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;192.168.1.100&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">                </span><span class="nt">&quot;threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">15</span><span class="p">,</span><span class="w"></span>
+<span class="w">                </span><span class="nt">&quot;pingInterval&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10000</span><span class="p">,</span><span class="w"></span>
+<span class="w">                </span><span class="nt">&quot;ignoreReEnterExitSeconds&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
+<span class="w">           </span><span class="p">}</span><span class="w"></span>
+<span class="w">         </span><span class="p">]</span><span class="w"></span>
+<span class="w">       </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">]</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</code></pre></div></div>
 
 <div class="entry-content">
 <section>

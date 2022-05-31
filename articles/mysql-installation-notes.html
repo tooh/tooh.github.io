@@ -132,14 +132,13 @@
 
 <p _="%" enddocs>{% docs tip %}
 On <span class="caps">OSX</span> it is not always obvious which my.cnf file is used. You can find all my.cnf files on your system by issuing a find&nbsp;command</p>
-<div class="highlight"><pre><span></span><span class="nv">sudo</span> <span class="nv">find</span> . <span class="o">-</span><span class="nv">name</span> <span class="s2">&quot;</span><span class="s">*.cnf</span><span class="s2">&quot;</span> <span class="o">-</span><span class="k">exec</span> <span class="nv">ls</span> <span class="o">-</span><span class="nv">al</span> {} \<span class="c1">;</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code><span class="nv">sudo</span> <span class="nv">find</span> . <span class="o">-</span><span class="nv">name</span> <span class="s2">&quot;</span><span class="s">*.cnf</span><span class="s2">&quot;</span> <span class="o">-</span><span class="k">exec</span> <span class="nv">ls</span> <span class="o">-</span><span class="nv">al</span> {} \<span class="c1">;</span>
+</code></pre></div>
 
 <p _="%" enddocs>{% docs tip %}
 You can execute a mysql command to show in which locations you can place my.cnf files and in which order they are&nbsp;executed.</p>
-<div class="highlight"><pre><span></span><span class="n">mysql</span> <span class="c1">--help | grep &quot;Default options&quot; -A 1</span>
-</pre></div></div>
+<div class="highlight"><pre><span></span><code>mysql --help | grep &quot;Default options&quot; -A 1
+</code></pre></div></div>
 
 <div class="entry-content">
 <section>

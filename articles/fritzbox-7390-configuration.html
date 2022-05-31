@@ -129,7 +129,6 @@
   <div class="entry-content"><p>I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (<span class="caps">POTS</span>) in my daily workflow on my&nbsp;Mac.</p>
 <p>In this article I will describe the configuration and add-ons I&nbsp;installed.</p>
 <!-- more -->
-
 <h2 id="contents">Contents</h2>
 <div class="toc"><span class="toctitle">Table of contents</span><ul>
 <li><a href="#contents">Contents</a></li>
@@ -195,7 +194,7 @@ I decided not to use the <span class="caps">WLAN</span> option of the Fritz!Box,
 <h3 id="alfred-workflow">Alfred&nbsp;workflow</h3>
 <p>I created a simple Alfred 2 workflow that calls the Frizzix dial&nbsp;helper.</p>
 <p>Use keyword &#8220;Dial&#8221; to trigger a little Applescript that&nbsp;contains:</p>
-<div class="highlight"><pre><span></span><span class="k">on</span> <span class="nv">alfred_script</span><span class="p">(</span><span class="nv">q</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="k">on</span> <span class="nv">alfred_script</span><span class="p">(</span><span class="nv">q</span><span class="p">)</span>
     <span class="k">set</span> <span class="nv">TelNumber</span> <span class="k">to</span> <span class="nv">q</span> <span class="k">as </span><span class="nc">string</span>
     <span class="k">set</span> <span class="nv">Tel</span> <span class="k">to</span> <span class="s2">&quot;&quot;</span>
     <span class="k">repeat</span> <span class="nv">with</span> <span class="nv">each</span> <span class="k">in</span> <span class="nv">TelNumber</span>
@@ -205,8 +204,7 @@ I decided not to use the <span class="caps">WLAN</span> option of the Fritz!Box,
         <span class="nv">dialInstantly</span> <span class="nv">Tel</span>
     <span class="k">end</span> <span class="k">tell</span>
 <span class="k">end</span> <span class="nv">alfred_script</span>
-</pre></div>
-
+</code></pre></div>
 
 <h3 id="call-diversion-from-script">Call diversion from&nbsp;script</h3>
 <p><a href="http://www.robbastiaansen.nl/node/51">Call diversion&nbsp;script</a></p>

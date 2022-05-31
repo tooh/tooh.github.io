@@ -5,17 +5,15 @@
 &lt;!-- more --&gt;
 
 &lt;p&gt;During the installation I got an error with installing&amp;nbsp;zlib. &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl: &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;22&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; The requested URL returned error: &lt;span class="m"&gt;404&lt;/span&gt; Not Found
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;curl: &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;22&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; The requested URL returned error: &lt;span class="m"&gt;404&lt;/span&gt; Not Found
 Error: Failed to download resource &lt;span class="s2"&gt;&amp;quot;zlib&amp;quot;&lt;/span&gt;
 Download failed: http://zlib.net/zlib-1.2.7.tar.gz
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;This error was corrected folowing this&amp;nbsp;solution&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/josegonzalez/homebrew-php/issues/575"&gt;https://github.com/josegonzalez/homebrew-php/issues/575&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Laravel requires the &lt;span class="caps"&gt;PHP&lt;/span&gt; Mcrypt module. In an earlier attempt I had some trouble to get this working in my environment, but now in this setup using this&amp;nbsp;command:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install php54-mcrypt
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;brew install php54-mcrypt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;installed it&amp;nbsp;correctly.&lt;/p&gt;</content><category term="Installing"></category><category term="php"></category><category term="laravel"></category></entry></feed>
