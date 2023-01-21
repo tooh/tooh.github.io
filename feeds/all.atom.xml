@@ -717,28 +717,8 @@ I researched this item on Google but I could not find a real Root&amp;nbsp;cause
 &lt;p&gt;When I found out that somebody had made a plugin for my current blogging environment Octopress it seems that I have won the&amp;nbsp;jackpot.&lt;/p&gt;
 &lt;h3 id="example"&gt;Example:&lt;/h3&gt;
 &lt;h4 id="example-1"&gt;Example&amp;nbsp;1&lt;/h4&gt;
-&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
-&lt;p&gt;title Example 1
-Alice -&amp;gt; Bob: Authentication Request
-Bob &amp;#8212;&amp;gt; Alice: Authentication&amp;nbsp;Response&lt;/p&gt;
-&lt;p _="%" endplantuml&gt;Alice -&amp;gt; Bob: Another authentication Request
-Alice &amp;lt;&amp;#8212; Bob: another authentication&amp;nbsp;Response&lt;/p&gt;
-&lt;h4 id="example-2-swim-lanes"&gt;Example 2 : Swim&amp;nbsp;lanes&lt;/h4&gt;
-&lt;p&gt;{% plantuml&amp;nbsp;%}&lt;/p&gt;
-&lt;p&gt;title Example&amp;nbsp;2&lt;/p&gt;
-&lt;p _="%" endplantuml&gt;| swimlane1 |
-:first;
-:second;
-| swimlane2 |
-:third;
-if (foo) then
-:something;
-endif
-| swimlane1 |
-:back to swimlane1;
-| swimlane2 |
-:back to&amp;nbsp;swimlane2;&lt;/p&gt;
-&lt;!-- more --&gt;
+&lt;img alt="uml diagram" class="uml" src="/images/bcac3ff4.png"&gt;&lt;h4 id="example-2-swim-lanes"&gt;Example 2 : Swim&amp;nbsp;lanes&lt;/h4&gt;
+&lt;img alt="uml diagram" class="uml" src="/images/15883938.png"&gt;&lt;!-- more --&gt;
 
 &lt;h3 id="references"&gt;References&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://plantuml.sourceforge.net/news.html"&gt;PlantUML&lt;/a&gt;&lt;/p&gt;
