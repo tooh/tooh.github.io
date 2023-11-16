@@ -49,7 +49,8 @@ skinparam defaultTextAlignment&amp;nbsp;center&lt;/p&gt;
 &lt;p&gt;package &amp;#8220;Different macro usages&amp;#8221; {
     OFF_CLOUD_DISASTER_RED(cloud1)
     OFF_CLOUD_DISASTER_RED(cloud2,Default with text)
-    OFF_CLOUD …&lt;/p&gt;</summary><content type="html">&lt;p&gt;::uml::&lt;/p&gt;
+    OFF_CLOUD_DISASTER_RED(cloud3,Other shape,Folder)
+    OFF_CLOUD_DISASTER_RED(cloud4,Even another shape …&lt;/p&gt;</summary><content type="html">&lt;p&gt;::uml::&lt;/p&gt;
 &lt;p&gt;!include &lt;tupadr3/common&gt;&lt;/p&gt;
 &lt;p&gt;!include &lt;office/servers/database_server&gt;
 !include &lt;office/servers/application_server&gt;

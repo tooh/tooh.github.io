@@ -5,7 +5,9 @@
 &amp;#8216; !include&amp;nbsp;C4_Context.puml&lt;/p&gt;
 &lt;p&gt;!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
 !includeurl&amp;nbsp;https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml&lt;/p&gt;
-&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;LAYOUT …&lt;/p&gt;</summary><content type="html">&lt;p&gt;::uml::&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;LAYOUT_TOP_DOWN
+&amp;#8216;LAYOUT_AS_SKETCH&amp;nbsp;LAYOUT_WITH_LEGEND()&lt;/p&gt;
+&lt;p&gt;title System …&lt;/p&gt;</summary><content type="html">&lt;p&gt;::uml::&lt;/p&gt;
 &lt;p&gt;!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Context.puml
 &amp;#8216; uncomment the following line and comment the first to use locally
 &amp;#8216; !include&amp;nbsp;C4_Context.puml&lt;/p&gt;

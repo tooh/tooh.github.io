@@ -5,7 +5,9 @@
 &amp;#8216; !include&amp;nbsp;C4_Context.puml&lt;/p&gt;
 &lt;p&gt;!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
 !includeurl&amp;nbsp;https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml&lt;/p&gt;
-&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;LAYOUT …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">: Peter Florijn</dc:creator><pubDate>Fri, 29 Nov 2019 12:24:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-11-29:/articles/c4-test.html</guid><category>Blogging</category></item><item><title>wp365</title><link>https://blog.florijnconsultancy.nl/articles/wp365.html</link><description>&lt;p&gt;::uml::&lt;/p&gt;
+&lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;LAYOUT_TOP_DOWN
+&amp;#8216;LAYOUT_AS_SKETCH&amp;nbsp;LAYOUT_WITH_LEGEND()&lt;/p&gt;
+&lt;p&gt;title System …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">: Peter Florijn</dc:creator><pubDate>Fri, 29 Nov 2019 12:24:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2019-11-29:/articles/c4-test.html</guid><category>Blogging</category></item><item><title>wp365</title><link>https://blog.florijnconsultancy.nl/articles/wp365.html</link><description>&lt;p&gt;::uml::&lt;/p&gt;
 &lt;p&gt;!include &lt;tupadr3/common&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class="quo"&gt;&amp;#8216;&lt;/span&gt;Servers
 !include &lt;office/Servers/database_server&gt;
