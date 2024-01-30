@@ -28,7 +28,7 @@
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git checkout release-5.0
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;!--— more —--&gt;
+&lt;p&gt;&amp;lt;!— more&amp;nbsp;—&amp;gt;&lt;/p&gt;
 &lt;h3 id="local-uncommitted-changes"&gt;Local, uncommitted&amp;nbsp;changes&lt;/h3&gt;
 &lt;p&gt;The above checkout command will fail if you’ve made any modifications to files you checked out from git with a warning about overwriting local changes. In this case, the simple solution is to stash and then reapply your changes (assuming you’ve done the “git fetch”&amp;nbsp;already):&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git stash save
