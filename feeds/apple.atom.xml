@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - apple</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/apple.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2014-10-25T12:02:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>Disabling Nap App</title><link href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html" rel="alternate"></link><published>2014-10-25T12:02:00+02:00</published><updated>2014-10-25T12:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-25:/articles/disabling-nap-app.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Since Mavericks there is a feature called Nap&amp;nbsp;app.&lt;/p&gt;
+&lt;p&gt;For some reason it can be better to prevent an application to take a&amp;nbsp;nap.&lt;/p&gt;
+&lt;p _="%" enddocs&gt;{% docs tip %}
+You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;defaults write com.apple.Terminal NSAppSleepDisabled -bool YES
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The Manual&amp;nbsp;Solution:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mavericks comes with a dreaded feature &amp;#8212;- App Nap &amp;#8212; that is designed to save battery live and be energy star compliant.   Fine for some apps &amp;#8212; but it doesn&amp;#8217;t really work if you are using Studio as a web server.   You can manually turn it off by:
+&amp;#8212; doing a &amp;#8216;get info&amp;#8217; on Studio and 
+&amp;#8212; clicking the &amp;#8216;disable app nap&amp;#8217;&amp;nbsp;feature.&lt;/p&gt;
+&lt;p&gt;you&amp;#8217;ll get all your studio horses firing on all cylinders even in the background &amp;#8212; which is what you&amp;nbsp;want.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="http://www.cultofmac.com/274396/disable-app-nap-specific-apps-os-x-tips/"&gt;Disable nap&amp;nbsp;app&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="apple"></category><category term="macos"></category><category term="tips"></category><category term="performance"></category></entry><entry><title>How to fix slow startup OSX Mountain Lion</title><link href="https://blog.florijnconsultancy.nl/articles/how-to-fix-slow-startup-osx-mountain-lion.html" rel="alternate"></link><published>2013-08-21T13:31:00+02:00</published><updated>2013-08-21T13:31:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-08-21:/articles/how-to-fix-slow-startup-osx-mountain-lion.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I recently experienced very slow startup of my iMac and it seemed related to heavy Spotlight indexing.
+I researched this item on Google but I could not find a real Root&amp;nbsp;cause.&lt;/p&gt;
+&lt;p&gt;I made a call to Apple support and I got the following&amp;nbsp;suggestions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Goto to&amp;nbsp;Finder&lt;/li&gt;
+&lt;li&gt;Press&amp;nbsp;Alt &lt;/li&gt;
+&lt;li&gt;Goto&amp;nbsp;Library&lt;/li&gt;
+&lt;li&gt;Move folder Caches to the&amp;nbsp;trash&lt;/li&gt;
+&lt;li&gt;Move folder LaunchAgents to the&amp;nbsp;trash&lt;/li&gt;
+&lt;li&gt;Goto folder&amp;nbsp;Preferences &lt;/li&gt;
+&lt;li&gt;Move com.apple.spotlight.plist to the&amp;nbsp;desktop&lt;/li&gt;
+&lt;li&gt;restart&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This resulted in my iMac performing as&amp;nbsp;usual.&lt;/p&gt;
+&lt;p&gt;So it worked for&amp;nbsp;me.&lt;/p&gt;
+&lt;p&gt;Be careful and make a backup before trying this&amp;nbsp;fix.&lt;/p&gt;
+&lt;p&gt;No&amp;nbsp;guarantees!&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="Apple"></category><category term="performance"></category><category term="fix"></category></entry></feed>

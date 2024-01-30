@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>PlantUML Mysql example &mdash; Daily Scrum</title>
+  <meta name="author" content="Peter Florijn">
+
+
+      <li><a href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="alternate">Atom feed</a></li>
+ <li><a href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml" rel="alternate">RSS feed</a></li>
+
+
+
+
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://blog.florijnconsultancy.nl/favicon.png" rel="icon">
+
+  <link href="https://blog.florijnconsultancy.nl/theme/css/main.css" media="screen, projection"
+        rel="stylesheet" type="text/css">
+
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+<script src="https://blog.florijnconsultancy.nl/theme/js/modernizr-2.0.js"></script>
+  <script src="https://blog.florijnconsultancy.nl/theme/js/ender.js"></script>
+  <script src="https://blog.florijnconsultancy.nl/theme/js/octopress.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="https://blog.florijnconsultancy.nl/">Daily Scrum</a></h1>
+    <h2>A personal blog</h2>
+</hgroup></header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+</ul>
+
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="blog.florijnconsultancy.nl">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+
+<ul class="main-navigation">
+      <li><a href="https://blog.florijnconsultancy.nl/pages/../about.html">About</a></li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/agile.html">Agile</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/alfred.html">Alfred</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/apple.html">Apple</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/articles.html">Articles</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/blogging.html">Blogging</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/diskstation.html">Diskstation</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/install.html">Install</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/installing.html">Installing</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/java.html">Java</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/media.html">Media</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/monitoring-scrum-jenkins.html">Monitoring, scrum, jenkins</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/network.html">Network</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/plantuml.html">Plantuml</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/productivity.html">Productivity</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/programming.html">Programming</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/projectmanagement.html">Projectmanagement</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/scrum.html">Scrum</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/telephony.html">Telephony</a>
+      </li>
+      <li >
+        <a href="https://blog.florijnconsultancy.nl/category/testautomation.html">Testautomation</a>
+      </li>
+      <li class="active">
+        <a href="https://blog.florijnconsultancy.nl/category/tools.html">Tools</a>
+      </li>
+</ul></nav>
+  <div id="main">
+    <div id="content">
+<div>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">PlantUML Mysql example</h1>
+    <p class="meta">
+<time datetime="2019-09-20T07:03:00+02:00" pubdate>Fri 20 September 2019</time>    </p>
+</header>
+
+  <div class="entry-content"><p><img src="data:image/png;base64,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" class="uml" alt="uml diagram" title="" /></p>
+<!-- more --></div>
+
+<div class="entry-content">
+<section>
+    <h2>Related posts</h2>
+    <ul>
+        <li><a href="https://blog.florijnconsultancy.nl/articles/plantuml-test-includes.html">PlantUML Test&nbsp;includes</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html">PlantUML sprites&nbsp;demo</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/articles/plantuml-support-for-archimate.html">PlantUML support for&nbsp;Archimate</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/articles/wbs-test-diagram.html">wbs test&nbsp;diagram</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/articles/mysql-installation-notes.html">Mysql installation&nbsp;notes</a></li>
+    </ul>
+</section>  
+</div>    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Peter Florijn
+    </span>
+  </span>
+<time datetime="2019-09-20T07:03:00+02:00" pubdate>Fri 20 September 2019</time>  <span class="categories">
+    <a class='category' href='https://blog.florijnconsultancy.nl/category/tools.html'>Tools</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a class="category" href="https://blog.florijnconsultancy.nl/tag/diagram.html">diagram</a>,    <a class="category" href="https://blog.florijnconsultancy.nl/tag/mysql.html">mysql</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
+
+</div>
+<aside class="sidebar">
+  <section>
+	  <img src="https://blog.florijnconsultancy.nl/images/peterflorijn.jpg" alt="" width="200"/> 
+  </section>
+  <section>
+      
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="https://blog.florijnconsultancy.nl/category/agile.html">agile</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/alfred.html">Alfred</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/apple.html">apple</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/articles.html">articles</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/blogging.html">Blogging</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/diskstation.html">diskstation</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/install.html">install</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/installing.html">Installing</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/java.html">java</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/media.html">Media</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/monitoring-scrum-jenkins.html">monitoring, scrum, jenkins</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/network.html">Network</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/plantuml.html">plantuml</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/productivity.html">Productivity</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/programming.html">programming</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/projectmanagement.html">projectmanagement</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/scrum.html">scrum</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/telephony.html">telephony</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/testautomation.html">testautomation</a></li>
+        <li><a href="https://blog.florijnconsultancy.nl/category/tools.html">Tools</a></li>
+    </ul>
+  </section>
+ 
+
+  <section>
+  <h1>Tags</h1>
+    <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">plantuml</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diagram.html">diagram</a>,    <a href="https://blog.florijnconsultancy.nl/tag/cloud-architecture.html">cloud architecture</a>,    <a href="https://blog.florijnconsultancy.nl/tag/archimate.html">archimate</a>,    <a href="https://blog.florijnconsultancy.nl/tag/architecture.html">architecture</a>,    <a href="https://blog.florijnconsultancy.nl/tag/mysql.html">mysql</a>,    <a href="https://blog.florijnconsultancy.nl/tag/gantt.html">gantt</a>,    <a href="https://blog.florijnconsultancy.nl/tag/skype.html">skype</a>,    <a href="https://blog.florijnconsultancy.nl/tag/troubleshooting.html">troubleshooting</a>,    <a href="https://blog.florijnconsultancy.nl/tag/font-awesome.html">font awesome</a>,    <a href="https://blog.florijnconsultancy.nl/tag/ruby.html">ruby</a>,    <a href="https://blog.florijnconsultancy.nl/tag/gollum.html">gollum</a>,    <a href="https://blog.florijnconsultancy.nl/tag/wiki.html">wiki</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jira.html">Jira</a>,    <a href="https://blog.florijnconsultancy.nl/tag/alfred.html">Alfred</a>,    <a href="https://blog.florijnconsultancy.nl/tag/workflow.html">workflow</a>,    <a href="https://blog.florijnconsultancy.nl/tag/meeting-notes.html">meeting notes</a>,    <a href="https://blog.florijnconsultancy.nl/tag/productivity.html">productivity</a>,    <a href="https://blog.florijnconsultancy.nl/tag/docx.html">docx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/convert.html">convert</a>,    <a href="https://blog.florijnconsultancy.nl/tag/markdown.html">markdown</a>,    <a href="https://blog.florijnconsultancy.nl/tag/rest.html">REST</a>,    <a href="https://blog.florijnconsultancy.nl/tag/python.html">python</a>,    <a href="https://blog.florijnconsultancy.nl/tag/webservice.html">webservice</a>,    <a href="https://blog.florijnconsultancy.nl/tag/firewall.html">firewall</a>,    <a href="https://blog.florijnconsultancy.nl/tag/osx.html">osx</a>,    <a href="https://blog.florijnconsultancy.nl/tag/itunes.html">itunes</a>,    <a href="https://blog.florijnconsultancy.nl/tag/linux.html">linux</a>,    <a href="https://blog.florijnconsultancy.nl/tag/macos.html">macos</a>,    <a href="https://blog.florijnconsultancy.nl/tag/bash.html">bash</a>,    <a href="https://blog.florijnconsultancy.nl/tag/bugzilla.html">bugzilla</a>,    <a href="https://blog.florijnconsultancy.nl/tag/graphics.html">graphics</a>,    <a href="https://blog.florijnconsultancy.nl/tag/conversion.html">conversion</a>,    <a href="https://blog.florijnconsultancy.nl/tag/svg.html">svg</a>,    <a href="https://blog.florijnconsultancy.nl/tag/network.html">network</a>,    <a href="https://blog.florijnconsultancy.nl/tag/fritz.html">fritz</a>,    <a href="https://blog.florijnconsultancy.nl/tag/powerline.html">powerline</a>,    <a href="https://blog.florijnconsultancy.nl/tag/jenkins.html">jenkins</a>,    <a href="https://blog.florijnconsultancy.nl/tag/voip.html">voip</a>,    <a href="https://blog.florijnconsultancy.nl/tag/click2call.html">click2call</a>,    <a href="https://blog.florijnconsultancy.nl/tag/cti.html">CTI</a>,    <a href="https://blog.florijnconsultancy.nl/tag/pots.html">pots</a>,    <a href="https://blog.florijnconsultancy.nl/tag/omnis.html">omnis</a>,    <a href="https://blog.florijnconsultancy.nl/tag/install.html">install</a>,    <a href="https://blog.florijnconsultancy.nl/tag/java.html">java</a>,    <a href="https://blog.florijnconsultancy.nl/tag/tips.html">tips</a>,    <a href="https://blog.florijnconsultancy.nl/tag/performance.html">performance</a>,    <a href="https://blog.florijnconsultancy.nl/tag/yosemite.html">yosemite</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia.html">testopia</a>,    <a href="https://blog.florijnconsultancy.nl/tag/sublime.html">sublime</a>,    <a href="https://blog.florijnconsultancy.nl/tag/config.html">config</a>,    <a href="https://blog.florijnconsultancy.nl/tag/blogging.html">blogging</a>,    <a href="https://blog.florijnconsultancy.nl/tag/pelican.html">pelican</a>,    <a href="https://blog.florijnconsultancy.nl/tag/confluence.html">confluence</a>,    <a href="https://blog.florijnconsultancy.nl/tag/php.html">php</a>,    <a href="https://blog.florijnconsultancy.nl/tag/laravel.html">laravel</a>,    <a href="https://blog.florijnconsultancy.nl/tag/presenting.html">presenting</a>,    <a href="https://blog.florijnconsultancy.nl/tag/powerpoint.html">powerpoint</a>,    <a href="https://blog.florijnconsultancy.nl/tag/media.html">Media</a>,    <a href="https://blog.florijnconsultancy.nl/tag/plex.html">Plex</a>,    <a href="https://blog.florijnconsultancy.nl/tag/security.html">security</a>,    <a href="https://blog.florijnconsultancy.nl/tag/excel.html">excel</a>,    <a href="https://blog.florijnconsultancy.nl/tag/reporting.html">reporting</a>,    <a href="https://blog.florijnconsultancy.nl/tag/upgrade.html">upgrade</a>,    <a href="https://blog.florijnconsultancy.nl/tag/mavericks.html">Mavericks</a>,    <a href="https://blog.florijnconsultancy.nl/tag/fix.html">fix</a>,    <a href="https://blog.florijnconsultancy.nl/tag/agile.html">agile</a>,    <a href="https://blog.florijnconsultancy.nl/tag/scrum.html">scrum</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testautomation.html">testautomation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/lsp.html">LSP</a>,    <a href="https://blog.florijnconsultancy.nl/tag/lego.html">lego</a>,    <a href="https://blog.florijnconsultancy.nl/tag/business-game.html">business game</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diagrams.html">diagrams</a>,    <a href="https://blog.florijnconsultancy.nl/tag/tools.html">tools</a>,    <a href="https://blog.florijnconsultancy.nl/tag/wallboard.html">wallboard</a>,    <a href="https://blog.florijnconsultancy.nl/tag/telephony.html">telephony</a>,    <a href="https://blog.florijnconsultancy.nl/tag/diskstation.html">diskstation</a>,    <a href="https://blog.florijnconsultancy.nl/tag/synology.html">synology</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/testmanagement.html">testmanagement</a>,    <a href="https://blog.florijnconsultancy.nl/tag/opensource.html">opensource</a>,    <a href="https://blog.florijnconsultancy.nl/tag/project.html">project</a>,    <a href="https://blog.florijnconsultancy.nl/tag/github.html">github</a>,    <a href="https://blog.florijnconsultancy.nl/tag/blog.html">blog</a>  </section>
+
+
+
+
+
+  <section>
+    <h1>GitHub Repos</h1>
+    <ul id="gh_repos">
+      <li class="loading">Status updating...</li>
+    </ul>
+    <script type="text/javascript">
+      $.domReady(function(){
+          if (!window.jXHR){
+              var jxhr = document.createElement('script');
+              jxhr.type = 'text/javascript';
+              jxhr.src = 'https://blog.florijnconsultancy.nl/theme/js/jXHR.js';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(jxhr, s);
+          }
+
+          github.showRepos({
+              user: 'tooh',
+              count: 5,
+              skip_forks: false,
+              target: '#gh_repos'
+          });
+      });
+    </script>
+    <script src="https://blog.florijnconsultancy.nl/theme/js/github.js" type="text/javascript"> </script>
+  </section>
+
+    <section>
+        <h1>Social</h1>
+        <ul>
+            <li><a href="https://github.com/" target="_blank"><i class="fa fa-github aria-hidden="true"></i> Github</a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter aria-hidden="true"></i> Twitter</a></li>
+            <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook aria-hidden="true"></i> Facebook</a></li>
+            <li><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram aria-hidden="true"></i> Instagram</a></li>
+            <li><a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin aria-hidden="true"></i> LinkedIn</a></li>
+        </ul>
+    </section>
+    <section>
+        <h1>Blogroll</h1>
+        <ul>
+            <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+            <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+            <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+        </ul>
+    </section>
+
+<section>
+    <p>Follow <a href="http://twitter.com/peterflorijn">@peterflorijn</a></p>
+</section>
+</aside>    </div>
+  </div>
+  <footer role="contentinfo"><p>
+    Copyright &copy;  2013&ndash;2023  Peter Florijn &mdash;
+  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
+</p></footer>
+  <script type="text/javascript">
+    var disqus_shortname = 'dailyscrum';
+    var disqus_identifier = '/articles/plantuml-mysql-example.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/plantuml-mysql-example.html';
+    var disqus_title = 'PlantUML Mysql&nbsp;example';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+  </script>
+</body>
+</html>
