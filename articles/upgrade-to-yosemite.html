@@ -126,17 +126,17 @@
 <time datetime="2014-10-18T11:59:00+02:00" pubdate>Sat 18 October 2014</time>    </p>
 </header>
 
-  <div class="entry-content"><h1>Introduction</h1>
+  <div class="entry-content"><h1 id="introduction">Introduction</h1>
 <p>After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
 It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&nbsp;Yosemite.</p>
 <!-- more -->
 
 <p>{:toc}</p>
-<h2>Update&nbsp;rvm</h2>
+<h2 id="update-rvm">Update&nbsp;rvm</h2>
 <div class="highlight"><pre><span></span><code>rvm<span class="w"> </span>get<span class="w"> </span>stable
 </code></pre></div>
 
-<h2>Fix&nbsp;brew</h2>
+<h2 id="fix-brew">Fix&nbsp;brew</h2>
 <p>Changing 1.8  in Current in brew.rb made brew working&nbsp;again.</p>
 <p>Change</p>
 <div class="highlight"><pre><span></span><code><span class="ch">#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -W0</span>
@@ -146,7 +146,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 <div class="highlight"><pre><span></span><code><span class="ch">#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby -W0</span>
 </code></pre></div>
 
-<h2>Ruby</h2>
+<h2 id="ruby">Ruby</h2>
 <p>In order to make some of my projects work again I had to install a different Ruby&nbsp;version.</p>
 <p>Installing it only&nbsp;with</p>
 <div class="highlight"><pre><span></span><code>rvm install
@@ -157,7 +157,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 <div class="highlight"><pre><span></span><code>rvm install ruby-1.9.3 --with-gcc=clang
 </code></pre></div>
 
-<h2>Bugzilla /&nbsp;perl</h2>
+<h2 id="bugzilla-perl">Bugzilla /&nbsp;perl</h2>
 <p>Symptom:</p>
 <p>My local Bugzilla installation does not work&nbsp;anymore.</p>
 <p>Cause:</p>

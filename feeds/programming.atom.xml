@@ -2,22 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - programming</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/programming.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2015-10-17T08:56:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>Convert Markdown to Word docx with Pandoc</title><link href="https://blog.florijnconsultancy.nl/articles/convert-markdown-to-word-docx-with-pandoc.html" rel="alternate"></link><published>2015-10-17T08:56:00+02:00</published><updated>2015-10-17T08:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-10-17:/articles/convert-markdown-to-word-docx-with-pandoc.html</id><summary type="html"></summary><content type="html">&lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army&amp;nbsp;knife.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;h3 id="installation"&gt;Installation&lt;/h3&gt;
 &lt;p&gt;My &lt;span class="caps"&gt;OS&lt;/span&gt; is &lt;span class="caps"&gt;OSX&lt;/span&gt; so the easiest is to use&amp;nbsp;Homebrew.&lt;/p&gt;
-&lt;h4&gt;With&amp;nbsp;homebrew&lt;/h4&gt;
+&lt;h4 id="with-homebrew"&gt;With&amp;nbsp;homebrew&lt;/h4&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$&lt;span class="w"&gt; &lt;/span&gt;brew&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;pandoc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h4&gt;Use the&amp;nbsp;installer&lt;/h4&gt;
+&lt;h4 id="use-the-installer"&gt;Use the&amp;nbsp;installer&lt;/h4&gt;
 &lt;p&gt;Go to the github project&amp;nbsp;downloads&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;https://github.com/jgm/pandoc/releases/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3&gt;Convert your&amp;nbsp;document&lt;/h3&gt;
+&lt;h3 id="convert-your-document"&gt;Convert your&amp;nbsp;document&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$&lt;span class="w"&gt; &lt;/span&gt;pandoc&lt;span class="w"&gt; &lt;/span&gt;-o&lt;span class="w"&gt; &lt;/span&gt;output.docx&lt;span class="w"&gt; &lt;/span&gt;-f&lt;span class="w"&gt; &lt;/span&gt;markdown&lt;span class="w"&gt; &lt;/span&gt;-t&lt;span class="w"&gt; &lt;/span&gt;docx&lt;span class="w"&gt; &lt;/span&gt;markdown-file.md
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3&gt;Make it&amp;nbsp;easy&lt;/h3&gt;
+&lt;h3 id="make-it-easy"&gt;Make it&amp;nbsp;easy&lt;/h3&gt;
 &lt;p&gt;To make it even easier I added the below code to my .bashrc&amp;nbsp;file&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;...
 
@@ -38,13 +38,13 @@ function&lt;span class="w"&gt; &lt;/span&gt;md2word&lt;span class="w"&gt; &lt;/s
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3&gt;Convert a&amp;nbsp;file&lt;/h3&gt;
+&lt;h3 id="convert-a-file"&gt;Convert a&amp;nbsp;file&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt; md2word ~/path/to/some/markdown/file/to/convert.md ~/path/to/some/word/document/output.docx
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3&gt;Use Pandoc from&amp;nbsp;Sublime&lt;/h3&gt;
+&lt;h3 id="use-pandoc-from-sublime"&gt;Use Pandoc from&amp;nbsp;Sublime&lt;/h3&gt;
 &lt;p&gt;http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html&lt;/p&gt;
-&lt;h4&gt;My customized build&amp;nbsp;file&lt;/h4&gt;
+&lt;h4 id="my-customized-build-file"&gt;My customized build&amp;nbsp;file&lt;/h4&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;{
     &amp;quot;cmd&amp;quot;: [&amp;quot;/usr/local/bin/pandoc&amp;quot;, &amp;quot;-S&amp;quot;, &amp;quot;-s&amp;quot;, &amp;quot;-f&amp;quot;, &amp;quot;markdown&amp;quot;, &amp;quot;-t&amp;quot;, &amp;quot;docx&amp;quot;, &amp;quot;-o&amp;quot;, &amp;quot;/Users/peter/Documents/Docs/Inbox/$file_base_name.docx&amp;quot;, &amp;quot;$file_name&amp;quot;],
     &amp;quot;selector&amp;quot;: &amp;quot;text.html.markdown&amp;quot;

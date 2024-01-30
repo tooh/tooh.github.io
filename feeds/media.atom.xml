@@ -3,8 +3,8 @@
 In this post I describe how to open up the firewall in order to make this setup&amp;nbsp;work.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;h2&gt;Samsung Plex app and Plex Media&amp;nbsp;server&lt;/h2&gt;
-&lt;h3&gt;Preparation&lt;/h3&gt;
+&lt;h2 id="samsung-plex-app-and-plex-media-server"&gt;Samsung Plex app and Plex Media&amp;nbsp;server&lt;/h2&gt;
+&lt;h3 id="preparation"&gt;Preparation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Make sure the &lt;span class="caps"&gt;PMS&lt;/span&gt; runs on port 32400, none other will&amp;nbsp;work.&lt;/p&gt;
@@ -22,7 +22,7 @@ In this post I describe how to open up the firewall in order to make this setup&
 &lt;p&gt;Make sure no firewall software is blocking access to your &lt;span class="caps"&gt;PMS&lt;/span&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;span class="caps"&gt;OSX&lt;/span&gt; firewall &lt;span class="caps"&gt;ON&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 id="osx-firewall-on"&gt;&lt;span class="caps"&gt;OSX&lt;/span&gt; firewall &lt;span class="caps"&gt;ON&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;I prefer to leave the Application Firewall (&lt;span class="caps"&gt;ALF&lt;/span&gt;) on. 
 Normal procedure to open up ports for a specific app would be to add the application to the&amp;nbsp;Firewall.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="mf"&gt;1.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Click&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Firewall&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;tab&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Security&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pane&lt;/span&gt;&lt;span class="mf"&gt;.&lt;/span&gt;
@@ -37,15 +37,15 @@ Normal procedure to open up ports for a specific app would be to add the applica
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;For some reason this was not sufficient and I could not connect to my &lt;span class="caps"&gt;PMS&lt;/span&gt;&amp;nbsp;server&lt;/p&gt;
-&lt;h3&gt;Firewall&amp;nbsp;rules&lt;/h3&gt;
+&lt;h3 id="firewall-rules"&gt;Firewall&amp;nbsp;rules&lt;/h3&gt;
 &lt;p&gt;&lt;span class="caps"&gt;OSX&lt;/span&gt; contains a number of firewalls (&lt;span class="caps"&gt;ALF&lt;/span&gt;, ipfw and pf)
 &lt;a href="http://f.adric.net/index.cgi/wiki?name=MacSec_Firewalls"&gt;MacSec_Firewalls&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span class="caps"&gt;PMS&lt;/span&gt; blocked&amp;nbsp;?&lt;/h3&gt;
+&lt;h3 id="pms-blocked"&gt;&lt;span class="caps"&gt;PMS&lt;/span&gt; blocked&amp;nbsp;?&lt;/h3&gt;
 &lt;p&gt;For some reason I could not connect and I disabled the &lt;span class="caps"&gt;ALF&lt;/span&gt; firewall. But still I could not connect. I executed the following steps and suddenly I could connect (with the &lt;span class="caps"&gt;ALF&lt;/span&gt; firewall turned&amp;nbsp;on). &lt;/p&gt;
 &lt;p&gt;A couple of days later I found out that even without the rule active (Note: Adding the firewall rule as described does not make the rule stick, you have to add that to a ipfw.conf file) 
 I can connect to the &lt;span class="caps"&gt;PMS&lt;/span&gt; from my &lt;span class="caps"&gt;SAMSUNG&lt;/span&gt; &lt;span class="caps"&gt;TV&lt;/span&gt; and my &lt;span class="caps"&gt;SAMSUNG&lt;/span&gt; &lt;span class="caps"&gt;BD&lt;/span&gt;-D6500. I can not explain this. In any case it was interesting to investigate some firewall stuff.
 So use this info as&amp;nbsp;is.&lt;/p&gt;
-&lt;h3&gt;Add rule to let Samsung &lt;span class="caps"&gt;TV&lt;/span&gt; communicate with &lt;span class="caps"&gt;PMS&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 id="add-rule-to-let-samsung-tv-communicate-with-pms"&gt;Add rule to let Samsung &lt;span class="caps"&gt;TV&lt;/span&gt; communicate with &lt;span class="caps"&gt;PMS&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;I used info from this outdated page
 &lt;a href="http://www.ibiblio.org/macsupport/ipfw/"&gt;www.ibiblio.org&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -58,6 +58,6 @@ So use this info as&amp;nbsp;is.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;sudo ipfw add allow tcp from 192.168.1.0/24 to any dst-port 32400&amp;nbsp;in&lt;/p&gt;
 &lt;p&gt;{% endcodeblock&amp;nbsp;%}&lt;/p&gt;
-&lt;h3&gt;Result&lt;/h3&gt;
+&lt;h3 id="result"&gt;Result&lt;/h3&gt;
 &lt;p&gt;After adding this firewall rule and entering the &lt;span class="caps"&gt;IP&lt;/span&gt; address of my &lt;span class="caps"&gt;PMS&lt;/span&gt; server the &lt;span class="caps"&gt;SAMSUNG&lt;/span&gt; app connected succesfully and I was able to play my&amp;nbsp;media.&lt;/p&gt;
-&lt;h3&gt;References&lt;/h3&gt;</content><category term="Media"></category><category term="Media"></category><category term="Plex"></category><category term="security"></category><category term="firewall"></category><category term="OSX"></category></entry></feed>
+&lt;h3 id="references"&gt;References&lt;/h3&gt;</content><category term="Media"></category><category term="Media"></category><category term="Plex"></category><category term="security"></category><category term="firewall"></category><category term="OSX"></category></entry></feed>
