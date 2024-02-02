@@ -1,62 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-          <title>Daily Scrum - Diagrams with PlantUML</title>
-        <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="A personal blog" />
-        <link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Daily Scrum Full Atom Feed" />
-        <link href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Daily Scrum Full RSS Feed" />
-        <link href="https://blog.florijnconsultancy.nl/feeds/plantuml.atom.xml" type="application/atom+xml" rel="alternate" title="Daily Scrum Categories Atom Feed" />
-        <link href="https://blog.florijnconsultancy.nl/feeds/plantuml.rss.xml" type="application/rss+xml" rel="alternate" title="Daily Scrum Categories RSS Feed" />
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Diagrams with PlantUML | Daily Scrum
+</title>
+  <link rel="canonical" href="https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html">
 
 
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/theme.css">
 
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="Full RSS Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml">  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/plantuml.atom.xml">  <link rel="alternate" type="application/rss+xml" title="Categories RSS Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/plantuml.rss.xml">  
+  <meta name="description" content="">
 
-    <meta name="tags" content="diagrams" />
-    <meta name="tags" content="workflow" />
-    <meta name="tags" content="tools" />
 
 </head>
 
 <body>
-        <header>
-              <hgroup><h1><a href="https://blog.florijnconsultancy.nl/">Daily Scrum</a></h1><p>A personal blog</p></hgroup>
-        <nav><ul>
-            <li><a href="https://blog.florijnconsultancy.nl/pages/../about.html" >About</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/agile.html" >agile</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/alfred.html" >Alfred</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/apple.html" >apple</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/articles.html" >articles</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/blogging.html" >Blogging</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/diskstation.html" >diskstation</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/install.html" >install</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/installation.html" >Installation</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/installing.html" >Installing</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/java.html" >java</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/media.html" >Media</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/monitoring-scrum-jenkins.html" >monitoring, scrum, jenkins</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/network.html" >Network</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/plantuml.html"  aria-current="page" >plantuml</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/productivity.html" >Productivity</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/programming.html" >programming</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/projectmanagement.html" >projectmanagement</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/scrum.html" >scrum</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/telephony.html" >telephony</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/testautomation.html" >testautomation</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/tools.html" >Tools</a></li>
-        </ul></nav>
-        </header>
-        <main>
-<article>
-  <header>
-    <h2>
-      <a href="https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html" rel="bookmark"
-         title="Permalink to Diagrams with PlantUML">Diagrams with&nbsp;PlantUML</a></h2>
- 
+  <header class="header">
+    <div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="title"><a href="https://blog.florijnconsultancy.nl/">Daily Scrum</a></h1>
+      <p class="text-muted">A personal blog</p>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li class="list-inline-item"><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li class="list-inline-item"><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+              <li class="list-inline-item text-muted">|</li>
+            <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/pages/../about.html">About</a></li>
+      </ul>
+  </div>
+</div>    </div>
   </header>
-  <p>For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive with&nbsp;it. </p>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Diagrams with&nbsp;PlantUML
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2013-06-09T12:37:00+02:00">
+          <i class="fas fa-clock"></i>
+          Sun 09 June 2013
+        </li>
+        <li class="list-inline-item">
+          <i class="fas fa-folder-open"></i>
+          <a href="https://blog.florijnconsultancy.nl/category/plantuml.html">plantuml</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fas fa-user"></i>
+              <a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a>          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-tag"></i>
+              <a href="https://blog.florijnconsultancy.nl/tag/diagrams.html">#diagrams</a>,               <a href="https://blog.florijnconsultancy.nl/tag/workflow.html">#workflow</a>,               <a href="https://blog.florijnconsultancy.nl/tag/tools.html">#tools</a>          </li>
+      </ul>
+    </header>
+    <div class="content">
+      <p>For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive with&nbsp;it. </p>
 <p>After my switch to <span class="caps">OSX</span>, Omnigraffle seemed the tool to use, but this had the same&nbsp;disadvantages.</p>
 <p>Recently I came across a tool called PlantUML that can create diagrams based on&nbsp;text.</p>
 <p>When I found out that somebody had made a plugin for my current blogging environment Octopress it seems that I have won the&nbsp;jackpot.</p>
@@ -70,30 +84,45 @@
 <h3 id="references">References</h3>
 <p><a href="http://plantuml.sourceforge.net/news.html">PlantUML</a></p>
 <p><a href="https://github.com/yjpark/jekyll-plantuml">Jekyll-plantUML&nbsp;plugin</a></p>
-  <footer>
-    <p>Published: <time datetime="2013-06-09T12:37:00+02:00">
-      Sun 09 June 2013
-    </time></p>
-    <address>
-      By           <a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a>
-    </address>
-    <p>
-        Category: <a href="https://blog.florijnconsultancy.nl/category/plantuml.html">plantuml</a>
-    </p>
-    <p>
-        Tags:
-            <a href="https://blog.florijnconsultancy.nl/tag/diagrams.html">diagrams</a>
-            <a href="https://blog.florijnconsultancy.nl/tag/workflow.html">workflow</a>
-            <a href="https://blog.florijnconsultancy.nl/tag/tools.html">tools</a>
-    </p>
-  </footer>
+    </div>
   </article>
-        </main>
-        <footer>
-                <address>
-                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
-                </address>
-        </footer>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html';
+      this.page.identifier = 'diagrams-with-plantuml';
+    };
+    (function() {
+      var d = document;
+      var s = d.createElement('script');
+      s.src = '//dailyscrum.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript class="text-muted">
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
+
 </body>
+
 </html>
