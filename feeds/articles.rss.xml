@@ -13,16 +13,18 @@
 &lt;!-- more --&gt;
 
 &lt;p&gt;This is created by the following PlantUML&amp;nbsp;code&lt;/p&gt;
-&lt;p&gt;{% codeblock PlantUML source&amp;nbsp;%}&lt;/p&gt;
-&lt;p&gt;title: &lt;size:60&gt;Non-standard Service Request&lt;/size&gt;&lt;/p&gt;
-&lt;dl&gt;
-&lt;dt&gt;| Customer&amp;nbsp;|&lt;/dt&gt;
-&lt;dt&gt;start&lt;/dt&gt;
-&lt;dd&gt;Customer request;
-|#AntiqueWhite|Customer support |
-:Register customer request;
-:Analyze customer request;
-:Update Service Request;
-:Assign Service Request;
-| Sales |
-:Contact Development for estimate and planning …&lt;/dd&gt;&lt;/dl&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 23 Aug 2014 16:30:30 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-08-23:/articles/non-standard-service-request-workflow.html</guid><category>articles</category></item><item><title>“Switch to Textexpander”</title><link>https://blog.florijnconsultancy.nl/articles/switch-to-textexpander.html</link><description>&lt;p&gt;Text&amp;nbsp;expansion&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Fri, 22 Aug 2014 08:44:38 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-08-22:/articles/switch-to-textexpander.html</guid><category>articles</category><category>productivity</category><category>workflow</category></item><item><title>Notes on Mavericks upgrade</title><link>https://blog.florijnconsultancy.nl/articles/notes-on-mavericks-upgrade.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 03 Nov 2013 15:56:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-11-03:/articles/notes-on-mavericks-upgrade.html</guid><category>articles</category><category>macos</category><category>upgrade</category><category>Mavericks</category><category>install</category></item><item><title>Lego Serious Play Method</title><link>https://blog.florijnconsultancy.nl/articles/lego-serious-play-method.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 15 Jun 2013 09:33:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-06-15:/articles/lego-serious-play-method.html</guid><category>articles</category><category>LSP</category><category>lego</category><category>business game</category></item></channel></rss>
+&lt;p&gt;::code-block::&amp;nbsp;shell&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;PlantUML&lt;span class="w"&gt; &lt;/span&gt;source&lt;span class="w"&gt; &lt;/span&gt;%}
+
+title:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;size:60&amp;gt;&lt;/span&gt;Non-standard&lt;span class="w"&gt; &lt;/span&gt;Service&lt;span class="w"&gt; &lt;/span&gt;Request&lt;span class="nt"&gt;&amp;lt;/size&amp;gt;&lt;/span&gt;
+
+|&lt;span class="w"&gt; &lt;/span&gt;Customer&lt;span class="w"&gt; &lt;/span&gt;|
+start
+:&lt;span class="w"&gt; &lt;/span&gt;Customer&lt;span class="w"&gt; &lt;/span&gt;request;
+|#AntiqueWhite|Customer&lt;span class="w"&gt; &lt;/span&gt;support&lt;span class="w"&gt; &lt;/span&gt;|
+:Register&lt;span class="w"&gt; &lt;/span&gt;customer&lt;span class="w"&gt; &lt;/span&gt;request;
+:Analyze&lt;span class="w"&gt; &lt;/span&gt;customer&lt;span class="w"&gt; &lt;/span&gt;request;
+:Update&lt;span class="w"&gt; &lt;/span&gt;Service&lt;span class="w"&gt; &lt;/span&gt;Request;
+:Assign&lt;span class="w"&gt; &lt;/span&gt;Service&lt;span class="w"&gt; &lt;/span&gt;Request;
+|&lt;span class="w"&gt; &lt;/span&gt;Sales&lt;span class="w"&gt; &lt;/span&gt;|
+:Contact&lt;span class="w"&gt; &lt;/span&gt;Development …&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 23 Aug 2014 16:30:30 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-08-23:/articles/non-standard-service-request-workflow.html</guid><category>articles</category></item><item><title>“Switch to Textexpander”</title><link>https://blog.florijnconsultancy.nl/articles/switch-to-textexpander.html</link><description>&lt;p&gt;Text&amp;nbsp;expansion&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Fri, 22 Aug 2014 08:44:38 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-08-22:/articles/switch-to-textexpander.html</guid><category>articles</category><category>productivity</category><category>workflow</category></item><item><title>Notes on Mavericks upgrade</title><link>https://blog.florijnconsultancy.nl/articles/notes-on-mavericks-upgrade.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 03 Nov 2013 15:56:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-11-03:/articles/notes-on-mavericks-upgrade.html</guid><category>articles</category><category>macos</category><category>upgrade</category><category>Mavericks</category><category>install</category></item><item><title>Lego Serious Play Method</title><link>https://blog.florijnconsultancy.nl/articles/lego-serious-play-method.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 15 Jun 2013 09:33:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-06-15:/articles/lego-serious-play-method.html</guid><category>articles</category><category>LSP</category><category>lego</category><category>business game</category></item></channel></rss>

@@ -22,7 +22,7 @@
         href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml">  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
         href="https://blog.florijnconsultancy.nl/feeds/articles.atom.xml">  <link rel="alternate" type="application/rss+xml" title="Categories RSS Feed"
         href="https://blog.florijnconsultancy.nl/feeds/articles.rss.xml">  
-  <meta name="description" content="Workflow Typical workflow for non standard customer support requests. This is created by the following PlantUML code {% codeblock PlantUML source %} title: Non-standard Service Request | Customer | start Customer request; |#AntiqueWhite|Customer support | :Register customer request; :Analyze customer request; :Update Service Request; :Assign Service Request; | Sales | :Contact Development for estimate and planning …">
+  <meta name="description" content="Workflow Typical workflow for non standard customer support requests. This is created by the following PlantUML code ::code-block:: shell PlantUML source %} title: <size:60>Non-standard Service Request</size> | Customer | start : Customer request; |#AntiqueWhite|Customer support | :Register customer request; :Analyze customer request; :Update Service Request; :Assign Service Request; | Sales | :Contact Development …">
 
 
 </head>
@@ -73,68 +73,71 @@
 <!-- more -->
 
 <p>This is created by the following PlantUML&nbsp;code</p>
-<p>{% codeblock PlantUML source&nbsp;%}</p>
-<p>title: <size:60>Non-standard Service Request</size></p>
-<dl>
-<dt>| Customer&nbsp;|</dt>
-<dt>start</dt>
-<dd>Customer request;
-|#AntiqueWhite|Customer support |
-:Register customer request;
-:Analyze customer request;
-:Update Service Request;
-:Assign Service Request;
-| Sales |
-:Contact Development for estimate and planning;
-|#AntiqueWhite|Development |
-:Analyze Service Request;
-:Make estimate;
-:Check planning;
-| Sales |
-:Prepare quotation;
-| Administration |
-:Send quotation;
-:Monitor quotation due date;
-| Customer |
-if (Quotation acceptance by customer) then (Yes)
-:Update Service Request;
-:Back to Development;
-else (No)
-:Close Service Request;
+<p>::code-block::&nbsp;shell</p>
+<div class="highlight"><pre><span></span><code>PlantUML<span class="w"> </span>source<span class="w"> </span>%}
+
+title:<span class="w"> </span><span class="nt">&lt;size:60&gt;</span>Non-standard<span class="w"> </span>Service<span class="w"> </span>Request<span class="nt">&lt;/size&gt;</span>
+
+|<span class="w"> </span>Customer<span class="w"> </span>|
+start
+:<span class="w"> </span>Customer<span class="w"> </span>request;
+|#AntiqueWhite|Customer<span class="w"> </span>support<span class="w"> </span>|
+:Register<span class="w"> </span>customer<span class="w"> </span>request;
+:Analyze<span class="w"> </span>customer<span class="w"> </span>request;
+:Update<span class="w"> </span>Service<span class="w"> </span>Request;
+:Assign<span class="w"> </span>Service<span class="w"> </span>Request;
+|<span class="w"> </span>Sales<span class="w"> </span>|
+:Contact<span class="w"> </span>Development<span class="w"> </span>for<span class="w"> </span>estimate<span class="w"> </span>and<span class="w"> </span>planning;
+|#AntiqueWhite|Development<span class="w"> </span>|
+:Analyze<span class="w"> </span>Service<span class="w"> </span>Request;
+:Make<span class="w"> </span>estimate;
+:Check<span class="w"> </span>planning;
+|<span class="w"> </span>Sales<span class="w"> </span>|
+:Prepare<span class="w"> </span>quotation;
+|<span class="w"> </span>Administration<span class="w"> </span>|
+:Send<span class="w"> </span>quotation;
+:Monitor<span class="w"> </span>quotation<span class="w"> </span>due<span class="w"> </span>date;
+|<span class="w"> </span>Customer<span class="w"> </span>|
+if<span class="w"> </span>(Quotation<span class="w"> </span>acceptance<span class="w"> </span>by<span class="w"> </span>customer)<span class="w"> </span>then<span class="w"> </span>(Yes)
+:Update<span class="w"> </span>Service<span class="w"> </span>Request;
+:Back<span class="w"> </span>to<span class="w"> </span>Development;
+else<span class="w"> </span>(No)
+:Close<span class="w"> </span>Service<span class="w"> </span>Request;
 endif
-|#AntiqueWhite|Development |
-:Check planning;
-:Assign Service Request to Developer;
-:Review and Test product;
-if (Product <span class="caps">OK</span>) then (yes)
-:Back to Customer Support;
-else (No)
-:Fix Product;
+|#AntiqueWhite|Development<span class="w"> </span>|
+:Check<span class="w"> </span>planning;
+:Assign<span class="w"> </span>Service<span class="w"> </span>Request<span class="w"> </span>to<span class="w"> </span>Developer;
+:Review<span class="w"> </span>and<span class="w"> </span>Test<span class="w"> </span>product;
+if<span class="w"> </span>(Product<span class="w"> </span>OK)<span class="w"> </span>then<span class="w"> </span>(yes)
+:Back<span class="w"> </span>to<span class="w"> </span>Customer<span class="w"> </span>Support;
+else<span class="w"> </span>(No)
+:Fix<span class="w"> </span>Product;
 endif
-|#AntiqueWhite|Customer support |
-:Contact customer;
-:Deliver Product;
-| Customer |
-if (Product acceptance by customer) then (yes)
-:Back to Customer Support;
-:Update Service Request &#8220;Ready for invoicing&#8221;;
-:Back to Administration;
-else (No)
-:Back to Development;
-:Fix Product;
-:Back to Customer Support;
+|#AntiqueWhite|Customer<span class="w"> </span>support<span class="w"> </span>|
+:Contact<span class="w"> </span>customer;
+:Deliver<span class="w"> </span>Product;
+|<span class="w"> </span>Customer<span class="w"> </span>|
+if<span class="w"> </span>(Product<span class="w"> </span>acceptance<span class="w"> </span>by<span class="w"> </span>customer)<span class="w"> </span>then<span class="w"> </span>(yes)
+:Back<span class="w"> </span>to<span class="w"> </span>Customer<span class="w"> </span>Support;
+:Update<span class="w"> </span>Service<span class="w"> </span>Request<span class="w"> </span>&quot;Ready<span class="w"> </span>for<span class="w"> </span>invoicing&quot;;
+:Back<span class="w"> </span>to<span class="w"> </span>Administration;
+else<span class="w"> </span>(No)
+:Back<span class="w"> </span>to<span class="w"> </span>Development;
+:Fix<span class="w"> </span>Product;
+:Back<span class="w"> </span>to<span class="w"> </span>Customer<span class="w"> </span>Support;
 endif
-| Administration |
-:Send invoice;
-:Close Request;
+|<span class="w"> </span>Administration<span class="w"> </span>|
+:Send<span class="w"> </span>invoice;
+:Close<span class="w"> </span>Request;
 stop
-right&nbsp;footer</dd>
-</dl>
-<p>Author: <span class="caps">PF</span> 
-Version: v0.2
-Date:&nbsp;6-10-2014</p>
-<p>endfooter</p>
-<p>{% endcodeblock&nbsp;%}</p>
+right<span class="w"> </span>footer
+
+Author:<span class="w"> </span>PF<span class="w"> </span>
+Version:<span class="w"> </span>v0.2
+Date:<span class="w"> </span>6-10-2014
+
+endfooter
+</code></pre></div>
     </div>
   </article>
   <hr>
