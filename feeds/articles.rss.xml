@@ -13,8 +13,8 @@
 &lt;!-- more --&gt;
 
 &lt;p&gt;This is created by the following PlantUML&amp;nbsp;code&lt;/p&gt;
-&lt;p&gt;::code-block::&amp;nbsp;shell&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;PlantUML&lt;span class="w"&gt; &lt;/span&gt;source&lt;span class="w"&gt; &lt;/span&gt;%}
+&lt;p&gt;..code-block::&amp;nbsp;plantuml &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;PlantUML&lt;span class="w"&gt; &lt;/span&gt;source
 
 title:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;size:60&amp;gt;&lt;/span&gt;Non-standard&lt;span class="w"&gt; &lt;/span&gt;Service&lt;span class="w"&gt; &lt;/span&gt;Request&lt;span class="nt"&gt;&amp;lt;/size&amp;gt;&lt;/span&gt;
 
