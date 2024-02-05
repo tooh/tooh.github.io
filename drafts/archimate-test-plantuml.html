@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Archimate test plantuml | Daily Scrum
+</title>
+  <link rel="canonical" href="https://blog.florijnconsultancy.nl/drafts/archimate-test-plantuml.html">
+
+
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="Full RSS Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml">  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/blogging.atom.xml">  <link rel="alternate" type="application/rss+xml" title="Categories RSS Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/blogging.rss.xml">  
+  <meta name="description" content="">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="title"><a href="https://blog.florijnconsultancy.nl/">Daily Scrum</a></h1>
+      <p class="text-muted">A personal blog</p>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li class="list-inline-item"><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li class="list-inline-item"><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+              <li class="list-inline-item text-muted">|</li>
+            <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/pages/../about.html">About</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Archimate test&nbsp;plantuml
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2024-02-05T11:10:00+01:00">
+          <i class="fas fa-clock"></i>
+          Mon 05 February 2024
+        </li>
+        <li class="list-inline-item">
+          <i class="fas fa-folder-open"></i>
+          <a href="https://blog.florijnconsultancy.nl/category/blogging.html">Blogging</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fas fa-user"></i>
+              <a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a>          </li>
+      </ul>
+    </header>
+    <div class="content">
+      <p>@startuml
+!include <archimate/Archimate></p>
+<p>title Archimate Sample - Internet&nbsp;Browser</p>
+<p><span class="quo">&#8216;</span> Elements
+Business_Object(businessObject, &#8220;A Business Object&#8221;)
+Business_Process(someBusinessProcess,&#8221;Some Business Process&#8221;)
+Business_Service(itSupportService, &#8220;<span class="caps">IT</span> Support for Business (Application&nbsp;Service)&#8221;)</p>
+<p>Application_DataObject(dataObject, &#8220;Web Page Data \n &#8216;on the fly&#8217;&#8221;)
+Application_Function(webpageBehaviour, &#8220;Web page behaviour&#8221;)
+Application_Component(ActivePartWebPage, &#8220;Active Part of the web page \n &#8216;on the&nbsp;fly&#8217;&#8221;)</p>
+<p>Technology_Artifact(inMemoryItem,&#8221;in memory / &#8216;on the fly&#8217; html/javascript&#8221;)
+Technology_Service(internetBrowser, &#8220;Internet Browser Generic <span class="amp">&amp;</span> Plugin&#8221;)
+Technology_Service(internetBrowserPlugin, &#8220;Some Internet Browser Plugin&#8221;)
+Technology_Service(webServer, &#8220;Some web&nbsp;server&#8221;)</p>
+<p><span class="quo">&#8216;</span>Relationships
+Rel_Flow_Left(someBusinessProcess, businessObject, &#8220;&#8221;)
+Rel_Serving_Up(itSupportService, someBusinessProcess, &#8220;&#8221;)
+Rel_Specialization_Up(webpageBehaviour, itSupportService, &#8220;&#8221;)
+Rel_Flow_Right(dataObject, webpageBehaviour, &#8220;&#8221;)
+Rel_Specialization_Up(dataObject, businessObject, &#8220;&#8221;)
+Rel_Assignment_Left(ActivePartWebPage, webpageBehaviour, &#8220;&#8221;)
+Rel_Specialization_Up(inMemoryItem, dataObject, &#8220;&#8221;)
+Rel_Realization_Up(inMemoryItem, ActivePartWebPage, &#8220;&#8221;)
+Rel_Specialization_Right(inMemoryItem,internetBrowser, &#8220;&#8221;)
+Rel_Serving_Up(internetBrowser, webpageBehaviour, &#8220;&#8221;)
+Rel_Serving_Up(internetBrowserPlugin, webpageBehaviour, &#8220;&#8221;)
+Rel_Aggregation_Right(internetBrowser, internetBrowserPlugin, &#8220;&#8221;)
+Rel_Access_Up(webServer, inMemoryItem, &#8220;&#8221;)
+Rel_Serving_Up(webServer, internetBrowser, &#8220;&#8221;)&nbsp;@enduml</p>
+<!-- more -->
+    </div>
+  </article>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'https://blog.florijnconsultancy.nl/drafts/archimate-test-plantuml.html';
+      this.page.identifier = 'archimate-test-plantuml';
+    };
+    (function() {
+      var d = document;
+      var s = d.createElement('script');
+      s.src = '//dailyscrum.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript class="text-muted">
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
