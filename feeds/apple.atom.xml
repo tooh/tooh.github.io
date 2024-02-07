@@ -8,10 +8,10 @@ You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
 
 &lt;p&gt;The Manual&amp;nbsp;Solution:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Mavericks comes with a dreaded feature &amp;#8212;- App Nap &amp;#8212; that is designed to save battery live and be energy star compliant.   Fine for some apps &amp;#8212; but it doesn&amp;#8217;t really work if you are using Studio as a web server.   You can manually turn it off by:
-&amp;#8212; doing a &amp;#8216;get info&amp;#8217; on Studio and 
-&amp;#8212; clicking the &amp;#8216;disable app nap&amp;#8217;&amp;nbsp;feature.&lt;/p&gt;
-&lt;p&gt;you&amp;#8217;ll get all your studio horses firing on all cylinders even in the background &amp;#8212; which is what you&amp;nbsp;want.
+&lt;p&gt;Mavericks comes with a dreaded feature &amp;mdash; App Nap &amp;ndash; that is designed to save battery live and be energy star compliant.   Fine for some apps &amp;ndash; but it doesn&amp;rsquo;t really work if you are using Studio as a web server.   You can manually turn it off by:
+&amp;ndash; doing a &amp;lsquo;get info&amp;rsquo; on Studio and 
+&amp;ndash; clicking the &amp;lsquo;disable app nap&amp;rsquo;&amp;nbsp;feature.&lt;/p&gt;
+&lt;p&gt;you&amp;rsquo;ll get all your studio horses firing on all cylinders even in the background &amp;ndash; which is what you&amp;nbsp;want.
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="http://www.cultofmac.com/274396/disable-app-nap-specific-apps-os-x-tips/"&gt;Disable nap&amp;nbsp;app&lt;/a&gt;&lt;/p&gt;

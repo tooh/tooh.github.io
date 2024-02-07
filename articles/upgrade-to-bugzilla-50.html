@@ -83,8 +83,8 @@
 <p>I upgraded to Bugzilla&nbsp;5.0.</p>
 <p>Since the Bugzilla project now supports git, upgrading is now a simple&nbsp;process.</p>
 <p>These are my installation&nbsp;notes.</p>
-<h2 id="updating-to-a-newer-release">Updating to a Newer&nbsp;Release</h2>
-<h3 id="no-local-changes">No local&nbsp;changes</h3>
+<h2 id="updating-to-a-newer-release">Updating to a Newer Release<a class="headerlink" href="#updating-to-a-newer-release" title="Permanent link">&para;</a></h2>
+<h3 id="no-local-changes">No local changes<a class="headerlink" href="#no-local-changes" title="Permanent link">&para;</a></h3>
 <p>If you have no local changes to any tracked files, upgrading to both minor and major releases is&nbsp;simple:</p>
 <div class="highlight"><pre><span></span><code>git fetch
 </code></pre></div>
@@ -93,7 +93,7 @@
 </code></pre></div>
 
 <p>where (version) is the version number that you want to update to, like&nbsp;5.0rc3</p>
-<h3 id="upgrade-to-release-50">Upgrade to release&nbsp;5.0</h3>
+<h3 id="upgrade-to-release-50">Upgrade to release 5.0<a class="headerlink" href="#upgrade-to-release-50" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>git fetch
 </code></pre></div>
 
@@ -101,7 +101,7 @@
 </code></pre></div>
 
 <p>&lt;!— more&nbsp;—&gt;</p>
-<h3 id="local-uncommitted-changes">Local, uncommitted&nbsp;changes</h3>
+<h3 id="local-uncommitted-changes">Local, uncommitted changes<a class="headerlink" href="#local-uncommitted-changes" title="Permanent link">&para;</a></h3>
 <p>The above checkout command will fail if you’ve made any modifications to files you checked out from git with a warning about overwriting local changes. In this case, the simple solution is to stash and then reapply your changes (assuming you’ve done the “git fetch”&nbsp;already):</p>
 <div class="highlight"><pre><span></span><code>git stash save
 </code></pre></div>

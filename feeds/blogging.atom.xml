@@ -8,10 +8,10 @@
 &lt;p&gt;You can lift this restriction. See instruction&amp;nbsp;below. &lt;/p&gt;
 &lt;p&gt;https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave&lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="Blogging"></category></entry><entry><title>test 4</title><link href="https://blog.florijnconsultancy.nl/articles/test-4.html" rel="alternate"></link><published>2019-09-16T17:14:00+02:00</published><updated>2019-09-16T17:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-4.html</id><summary type="html"></summary><content type="html">&lt;!-- more --&gt;
-&lt;p&gt;kjsdjkjkjsdjask&lt;/p&gt;</content><category term="Blogging"></category></entry><entry><title>test 3</title><link href="https://blog.florijnconsultancy.nl/articles/test-3.html" rel="alternate"></link><published>2019-09-16T17:11:00+02:00</published><updated>2019-09-16T17:11:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-3.html</id><summary type="html"></summary><content type="html">&lt;!-- more --&gt;</content><category term="Blogging"></category></entry><entry><title>Project Nestor</title><link href="https://blog.florijnconsultancy.nl/articles/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-21:/articles/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is&amp;nbsp;Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;kjsdjkjkjsdjask&lt;/p&gt;</content><category term="Blogging"></category></entry><entry><title>test 3</title><link href="https://blog.florijnconsultancy.nl/articles/test-3.html" rel="alternate"></link><published>2019-09-16T17:11:00+02:00</published><updated>2019-09-16T17:11:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-3.html</id><summary type="html"></summary><content type="html">&lt;!-- more --&gt;</content><category term="Blogging"></category></entry><entry><title>Project Nestor</title><link href="https://blog.florijnconsultancy.nl/articles/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-21:/articles/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is&amp;nbsp;Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Together with Bruno Kinoshita I am involved in a project for the development of a new testcase management application. The working title of the application is&amp;nbsp;Nestor.&lt;/p&gt;
 &lt;!-- more --&gt;
-&lt;h2 id="project-team"&gt;Project&amp;nbsp;team&lt;/h2&gt;
+&lt;h2 id="project-team"&gt;Project team&lt;a class="headerlink" href="#project-team" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Bruno&amp;nbsp;Kinoshita&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;co-founder of&amp;nbsp;Tupilabs&lt;/li&gt;
@@ -26,11 +26,11 @@
 &lt;li&gt;contributor to Bugzilla&amp;nbsp;project&lt;/li&gt;
 &lt;li&gt;contributor to Testopia&amp;nbsp;project&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="nestor-wiki-work-in-progress"&gt;Nestor Wiki (work in&amp;nbsp;progress)&lt;/h2&gt;
+&lt;h2 id="nestor-wiki-work-in-progress"&gt;Nestor Wiki (work in progress)&lt;a class="headerlink" href="#nestor-wiki-work-in-progress" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/nestor-qa/nestor/wiki"&gt;Nestor&amp;nbsp;Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="status-demo-application"&gt;Status demo&amp;nbsp;application&lt;/h2&gt;
+&lt;h2 id="status-demo-application"&gt;Status demo application&lt;a class="headerlink" href="#status-demo-application" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://www.nestor-qa.org" title="Nestor QA"&gt;Nestor &lt;span class="caps"&gt;QA&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="references"&gt;References&lt;/h2&gt;
+&lt;h2 id="references"&gt;References&lt;a class="headerlink" href="#references" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://www.tupilabs.com" title="Tupilabs"&gt;Tupilabs&lt;/a&gt;&lt;/p&gt;</content><category term="Blogging"></category><category term="testmanagement"></category><category term="opensource"></category><category term="project"></category></entry><entry><title>Static blog with Jekyll/Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/static-blog-with-jekylloctopress.html" rel="alternate"></link><published>2013-04-20T21:00:00+02:00</published><updated>2013-04-20T21:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-20:/articles/static-blog-with-jekylloctopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;After using several blogging tools over the years I am now heavily into using Markdown. My workflow is becoming more and more based on scripting environments and tools like Alfred.
 So I was looking for a good static blog generator, just like in the old days when I was using Blosxom. 
 Looking for a way to use Markdown as the workhorse I decided to give Jekyll a try. Jekyll is a static blog site generator based on Ruby. I found some projects that use Jekyll and after a day of configuration the first setup is&amp;nbsp;ready.&lt;/p&gt;
@@ -39,7 +39,7 @@ Looking for a way to use Markdown as the workhorse I decided to give Jekyll a tr
 &lt;p&gt;I started with a basic Jekyll setup. When I was searching for some info I found a tool based on Jekyll, called Octopress
 I decided to give Octopress a try. This blog is now powered by Octopress.
 When I go along I will update this post with some new&amp;nbsp;notes.&lt;/p&gt;
-&lt;h3 id="external-links"&gt;External&amp;nbsp;links&lt;/h3&gt;
+&lt;h3 id="external-links"&gt;External links&lt;a class="headerlink" href="#external-links" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;[1] When I was installing Octopress I used a good tutorial I found &lt;a href="http://webdesign.tutsplus.com/tutorials/applications/getting-started-with-octopress/"&gt;Getting started with&amp;nbsp;Octopress&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] Also &lt;a href="http://learnaholic.me/2012/10/10/deploying-octopress-to-github-pages-and-setting-custom-subdomain-cname/"&gt;Deploying Octopress to Github Pages&lt;/a&gt; gave some good&amp;nbsp;tips. &lt;/p&gt;
 &lt;p&gt;[3] &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;&lt;/p&gt;

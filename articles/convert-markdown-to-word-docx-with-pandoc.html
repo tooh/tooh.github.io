@@ -73,22 +73,22 @@
       <p>If you need to convert files from one markup format into another, pandoc is your swiss-army&nbsp;knife.</p>
 <!-- more -->
 
-<h3 id="installation">Installation</h3>
+<h3 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h3>
 <p>My <span class="caps">OS</span> is <span class="caps">OSX</span> so the easiest is to use&nbsp;Homebrew.</p>
-<h4 id="with-homebrew">With&nbsp;homebrew</h4>
+<h4 id="with-homebrew">With homebrew<a class="headerlink" href="#with-homebrew" title="Permanent link">&para;</a></h4>
 <div class="highlight"><pre><span></span><code>$<span class="w"> </span>brew<span class="w"> </span>install<span class="w"> </span>pandoc
 </code></pre></div>
 
-<h4 id="use-the-installer">Use the&nbsp;installer</h4>
+<h4 id="use-the-installer">Use the installer<a class="headerlink" href="#use-the-installer" title="Permanent link">&para;</a></h4>
 <p>Go to the github project&nbsp;downloads</p>
 <div class="highlight"><pre><span></span><code>https://github.com/jgm/pandoc/releases/
 </code></pre></div>
 
-<h3 id="convert-your-document">Convert your&nbsp;document</h3>
+<h3 id="convert-your-document">Convert your document<a class="headerlink" href="#convert-your-document" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>$<span class="w"> </span>pandoc<span class="w"> </span>-o<span class="w"> </span>output.docx<span class="w"> </span>-f<span class="w"> </span>markdown<span class="w"> </span>-t<span class="w"> </span>docx<span class="w"> </span>markdown-file.md
 </code></pre></div>
 
-<h3 id="make-it-easy">Make it&nbsp;easy</h3>
+<h3 id="make-it-easy">Make it easy<a class="headerlink" href="#make-it-easy" title="Permanent link">&para;</a></h3>
 <p>To make it even easier I added the below code to my .bashrc&nbsp;file</p>
 <div class="highlight"><pre><span></span><code>...
 
@@ -109,13 +109,13 @@ function<span class="w"> </span>md2word<span class="w"> </span>()<span class="w"
 }
 </code></pre></div>
 
-<h3 id="convert-a-file">Convert a&nbsp;file</h3>
+<h3 id="convert-a-file">Convert a file<a class="headerlink" href="#convert-a-file" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code> md2word ~/path/to/some/markdown/file/to/convert.md ~/path/to/some/word/document/output.docx
 </code></pre></div>
 
-<h3 id="use-pandoc-from-sublime">Use Pandoc from&nbsp;Sublime</h3>
+<h3 id="use-pandoc-from-sublime">Use Pandoc from Sublime<a class="headerlink" href="#use-pandoc-from-sublime" title="Permanent link">&para;</a></h3>
 <p>http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html</p>
-<h4 id="my-customized-build-file">My customized build&nbsp;file</h4>
+<h4 id="my-customized-build-file">My customized build file<a class="headerlink" href="#my-customized-build-file" title="Permanent link">&para;</a></h4>
 <div class="highlight"><pre><span></span><code>{
     &quot;cmd&quot;: [&quot;/usr/local/bin/pandoc&quot;, &quot;-S&quot;, &quot;-s&quot;, &quot;-f&quot;, &quot;markdown&quot;, &quot;-t&quot;, &quot;docx&quot;, &quot;-o&quot;, &quot;/Users/peter/Documents/Docs/Inbox/$file_base_name.docx&quot;, &quot;$file_name&quot;],
     &quot;selector&quot;: &quot;text.html.markdown&quot;
