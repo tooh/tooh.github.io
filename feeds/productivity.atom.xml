@@ -5,10 +5,14 @@
 Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs info %}
 Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs error %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs warning %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class="admonition error"&gt;
+&lt;p class="admonition-title"&gt;Error&lt;/p&gt;
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Warning&lt;/p&gt;
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
 &lt;p _="%" enddocs&gt;{% docs tip %}
 Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
 &lt;p _="%" enddocs&gt;{% docs thumbs-up %}
