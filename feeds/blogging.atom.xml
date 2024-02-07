@@ -8,7 +8,48 @@
 &lt;p&gt;You can lift this restriction. See instruction&amp;nbsp;below. &lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;&lt;a href="https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave]"&gt;Lift security&amp;nbsp;restriction&lt;/a&gt;&lt;/p&gt;</content><category term="Blogging"></category></entry><entry><title>test 4</title><link href="https://blog.florijnconsultancy.nl/articles/test-4.html" rel="alternate"></link><published>2019-09-16T17:14:00+02:00</published><updated>2019-09-16T17:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-4.html</id><summary type="html"></summary><content type="html">&lt;!-- more --&gt;
+&lt;p&gt;&lt;a href="https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave]"&gt;Lift security&amp;nbsp;restriction&lt;/a&gt;&lt;/p&gt;</content><category term="Blogging"></category></entry><entry><title>mdx_include</title><link href="https://blog.florijnconsultancy.nl/articles/mdx_include.html" rel="alternate"></link><published>2019-10-10T10:00:00+02:00</published><updated>2019-10-10T10:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-10-10:/articles/mdx_include.html</id><summary type="html"></summary><content type="html">&lt;!-- more --&gt;
+
+&lt;p&gt;Including a&amp;nbsp;gist:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# -*- coding: utf-8 -*-&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Settings&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;django.conf&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;settings&lt;/span&gt;
+
+
+&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;configure&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="n"&gt;DEBUG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="n"&gt;SECRET_KEY&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;secretfoobar&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="n"&gt;ROOT_URLCONF&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="vm"&gt;__name__&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="n"&gt;MIDDLEWARE_CLASSES&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+        &lt;span class="s1"&gt;&amp;#39;django.middleware.common.CommonMiddleware&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="s1"&gt;&amp;#39;django.middleware.csrf.CsrfViewMiddleware&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="s1"&gt;&amp;#39;django.middleware.clickjacking.XFrameOptionsMiddleware&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="c1"&gt;# Views&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;django.http&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;HttpResponse&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;django.conf.urls&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;url&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;index&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;request&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;HttpResponse&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&amp;lt;h1&amp;gt;Hello Word&amp;lt;/h1&amp;gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Routes&lt;/span&gt;
+&lt;span class="n"&gt;urlpatterns&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;r&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;^$&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="c1"&gt;# RunServer&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;__main__&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;django.core.management&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;execute_from_command_line&lt;/span&gt;
+    &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sys&lt;/span&gt;
+
+    &lt;span class="n"&gt;execute_from_command_line&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Blogging"></category></entry><entry><title>test 4</title><link href="https://blog.florijnconsultancy.nl/articles/test-4.html" rel="alternate"></link><published>2019-09-16T17:14:00+02:00</published><updated>2019-09-16T17:14:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-4.html</id><summary type="html"></summary><content type="html">&lt;!-- more --&gt;
 &lt;p&gt;kjsdjkjkjsdjask&lt;/p&gt;</content><category term="Blogging"></category></entry><entry><title>test 3</title><link href="https://blog.florijnconsultancy.nl/articles/test-3.html" rel="alternate"></link><published>2019-09-16T17:11:00+02:00</published><updated>2019-09-16T17:11:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2019-09-16:/articles/test-3.html</id><summary type="html"></summary><content type="html">&lt;!-- more --&gt;</content><category term="Blogging"></category></entry><entry><title>Project Nestor</title><link href="https://blog.florijnconsultancy.nl/articles/project-nestor.html" rel="alternate"></link><published>2013-04-21T00:00:00+02:00</published><updated>2013-04-21T00:00:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-04-21:/articles/project-nestor.html</id><summary type="html">&lt;p&gt;We try to develop a new testcase management system. Working project title is&amp;nbsp;Nestor.&lt;/p&gt;</summary><content type="html">&lt;h2 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Together with Bruno Kinoshita I am involved in a project for the development of a new testcase management application. The working title of the application is&amp;nbsp;Nestor.&lt;/p&gt;
 &lt;!-- more --&gt;
