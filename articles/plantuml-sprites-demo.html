@@ -1,243 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Peter Florijn" />
 
-        <meta property="og:type" content="article" />
-        <meta name="twitter:card" content="summary">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta name="keywords" content="plantuml, diagram, articles, " />
-
-<meta property="og:title" content="PlantUML sprites demo "/>
-<meta property="og:url" content="https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html" />
-<meta property="og:description" content="" />
-<meta property="og:site_name" content="Daily Scrum" />
-<meta property="og:article:author" content="Peter Florijn" />
-<meta property="og:article:published_time" content="2016-05-05T08:08:00+02:00" />
-<meta name="twitter:title" content="PlantUML sprites demo ">
-<meta name="twitter:description" content="">
-
-        <title>PlantUML sprites demo  · Daily Scrum
+  <title>  PlantUML sprites demo | Daily Scrum
 </title>
-        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://blog.florijnconsultancy.nl/theme/css/elegant.prod.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://blog.florijnconsultancy.nl/theme/css/custom.css" media="screen">
-
-        <link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Daily Scrum - Full Atom Feed" />
-        <link href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Daily Scrum - Full RSS Feed" />
+  <link rel="canonical" href="https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html">
 
 
-    </head>
-    <body>
-        <div id="content">
-            <div class="navbar navbar-static-top">
-                <div class="navbar-inner">
-                    <div class="container-fluid">
-                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </a>
-                        <a class="brand" href="https://blog.florijnconsultancy.nl/"><span class=site-name>Daily Scrum</span></a>
-                        <div class="nav-collapse collapse">
-                            <ul class="nav pull-right top-menu">
-                                <li >
-                                    <a href=
-                                       https://blog.florijnconsultancy.nl
-                                    >Home</a>
-                                </li>
-                                <li ><a href="https://blog.florijnconsultancy.nl/pages/../about.html">About</a></li>
-                                <li ><a href="https://blog.florijnconsultancy.nl/categories.html">Categories</a></li>
-                                <li ><a href="https://blog.florijnconsultancy.nl/tags.html">Tags</a></li>
-                                <li ><a href="https://blog.florijnconsultancy.nl/archives.html">Archives</a></li>
-                                <li><form class="navbar-search" action="https://blog.florijnconsultancy.nl/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="span1"></div>
-                    <div class="span10">
-<article itemscope>
-<div class="row-fluid">
-    <header class="page-header span10 offset2">
-        <h1>
-            <a href="https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html">
-                PlantUML sprites&nbsp;demo
-            </a>
-        </h1>
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="Full RSS Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml">  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/articles.atom.xml">  <link rel="alternate" type="application/rss+xml" title="Categories RSS Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/articles.rss.xml">  
+  <meta name="description" content="">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="title"><a href="https://blog.florijnconsultancy.nl/">Daily Scrum</a></h1>
+      <p class="text-muted">A personal blog</p>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li class="list-inline-item"><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li class="list-inline-item"><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+              <li class="list-inline-item text-muted">|</li>
+            <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/pages/../about.html">About</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  PlantUML sprites&nbsp;demo
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2016-05-05T08:08:00+02:00">
+          <i class="fas fa-clock"></i>
+          Thu 05 May 2016
+        </li>
+        <li class="list-inline-item">
+          <i class="fas fa-folder-open"></i>
+          <a href="https://blog.florijnconsultancy.nl/category/articles.html">articles</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fas fa-user"></i>
+              <a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a>          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-tag"></i>
+              <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">#plantuml</a>,               <a href="https://blog.florijnconsultancy.nl/tag/diagram.html">#diagram</a>          </li>
+      </ul>
     </header>
-</div>
-
-<div class="row-fluid">
-        <div class="span8 offset2 article-content">
-            
-            <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJIAAAB3CAIAAABnkI7oAAAAKnRFWHRjb3B5bGVmdABHZW5lcmF0ZWQgYnkgaHR0cHM6Ly9wbGFudHVtbC5jb212zsofAAABDGlUWHRwbGFudHVtbAABAAAAeJzNT01Pg0AQve+vmIMHONAUxFqJaVpqq2kgaQR6X2BLNsIs2R0wxvjfXdp40F/g3OZ95L23NsQ1DV3LTK8lCbg5K+XDJwPY/74JmfvBbXi3uF8+bOLtP0D+NPxim1ZWArwVxKqECHJhSGIDj5dVK7YWWE9b2bHlSEWawCi0kQrBnwXzIJz5pSDuOwW+oXpHqFTXy1YAyU64zHk+JmDUoG1ELQ1pWQ5kzS478JHD64CTLoLpc/LUhWz3A8IOR6kVdgKJHU7pVQQvirJe0UW8CL1YEmRC205wStmTOPOhJWutVG1XRFDke2/JEo7NwBsbJJBtlQ3QH5bL2DcUDIIJKvPv4AAADOpJREFUeF7tnW1QVcUfx3m4KimIBhIPpiDq4NMI3lKclEh50aummaYcmpBpSmZoYLRyQqYJxCAuoOYgKJgpTmTyFKkNNqGoZCGDmlBcw4eLXiQxUqEpTZvy/5WN0/nv3hvc47ln78n9zu/Fubtnz9n9fs7+do8C1+2ukA7lRhcI6UECmy4lsOlSApsuRWO7fv1GdnZeZmbOO+9k842MjOy1a3OOHm2keshFvGyxZwKNLScnv73darX2uUh8/HF1RUUF1UntxdcW1gQaG/CyzThGV1dfbm4u1UntxdcW1gQaGyYm24xvrF+/nuqk9uJuC2WCwDYscbdFYFMi7rYIbErE3RaBTYm42yKwKRF3W5yCraLiczc3t9OnL1DHqsR/EpujLt0Xtrq6o7iZ0biAKpd34sKFn06e7Lh06QbbXFm4MjYycKJRo7zmz1944EAjexobmmJLSHhl7tx5Hh4eDQ3N8nJHO+FQuD62Q4eO40mtr2+KjY2bOHESexobjjqmHNvZsz0+PmPLyioXLYpNSkqRV9lLkhcvXk9Pz5o8OcxgGBEQEPjGG+lSk6ws05QpU1EeGBi0cuVbnZ3X2DuScH1skvtlZRX4eO5cD/losfycmro6KCgYw8Rg8/M3Uw137/7MaJw/cuSokJCJ69bls9eXQjm2TZtKgoNDQGLr1jI/P3+LpVeqsoctOXmlr++4oqIPjx9v//zzwxs3biXnv/76mvDwabt2VTU3m9F1PKEpKW+ydyShF2x4rJcte2nmzNlS7fLlr8KoHTv2NDV9n5dXCDzr1xfLG4aGTrFZy4ZybNHRT8Bu672HqNfPb0JJyS6pyiY2s/kyurJhwxbqOh0dV7y8vGprv5RKNm/ePm7ceOo0KVwf2+gBubu7w5aqqjpS1d5uxSTDsy6djIcYD6u8IVM7nb0FCYXYGhtPeXp64rkgH3EP5HGp1ia2ffsO4UBqIsX+/Q3SUImwmKPkzJlu6kwSro8NI4I/R46cQJKcNi0CUwdVe/cepIaP9QUl589flRraq2VDIbbk5FW4qOegPAaE1EdqHcJGxlNT8wWGKg+kX/a+VqbHXGTPFmptQyAJeXv7YKkeDjbJQKqWDSXYsLROmPDImjWZ2CxJMWvWHGmLYRObvSSJWYXpVVj4AXsjm6EvbKWlHyFbwn2zuctWkvw7DQ4myVJZ7SqVk+T27bsNBkNrq0VemJ6+FlsJ8n5mE5t1oKNYtIqLd7BbEpRjSE1N32Ge4QT5JpMK18dGXgBaWn7AwhYRMTMmZgmpTUxcgdVu5849GD62keyWJCwsHHkVtQUFRXiU5VtNKpRgi4t7evHip6jCY8dO48bl5Z9a7WND3ktLywBd5FVs9FevfltqbjJtmjFj1ogRI7G2RUYayXpgM1wfGxEmmb9/QHz88ra2TlKLLIUdMgZOXgDkYyQN4V5U1GPAiS063ojY60uhBBvfcGVsmoXApkTcbRHYlIi7LQKbEnG3RWBTIu62CGxKxN0WgU2JuNuiP2wFBQVUJ7UXd1soE2hsGRnZKv7H9P1Ha+vZbdu2UZ3UXnxtYU2gsR06dKSsrJJtySVOnjyblrbm9u3bVCe1F0dbbJpAY4Oqq6tNpnxXiJKSkjt37tD94yRettg0wQY2VfT111/TRQ+wVHfDWdhcYfvnOlLdDYFNC6nuhsCmhVR3Q2DTQqq74Sxsqi/CupbqbjgLm5BTJbDpUgKbLiWw6VLOwqb6Iqxrqe6Gs7CpvuXVtVR3Q2DTQqq7IbBpIdXdENi0kOpuOAub6ouwrqW6G87CpqVOnTo1ZsyY33//na7470prbGMG9dBDD7m5uUkf6fP+VS0tLWh769YtuuKBkdbYJBHr//jjD7piGBLYXAjbL7/88vLLLz/88MO+vr6JiYm//fYbKd+4cWNISAhmZ3BwMNb2vr4++UwtLi6WKJKD6urqiIgInDNv3ry2tjZyka6uriVLlowePXr27NmFhYXUrQd/12lYklpxlLM6MeQizGJ77rnnnn322f7+fvBbunRpamoqCjs7O3HawYMHcYyq1tZWqa002yhsL7744o0bN7DUJSQkREdHk3OefPLJF154AY/C1atXUUjdmsC4c+fOtWvXzGZzfX19ZWVlaWmpyWRKS0tLSkp6/vnn4+LijEajMmxDuuGolHRiOBpyy0th6+3tdXd37+joIB/r6ur8/f1x8OOPP3p6ehYVFWGSUW3tYbt06RIpb2xsNBgMOLhy5QrKpYtXVVVpjG1INxyVkk4MR0N2lMJ2+vS93031HdTYsWO9vLz+/PNPVNXU1MTGxnp7ey9cuPDw4cNSW3vYqHLc4ttvv8XBr7/+SsqPHz8usNnWkB2lsPX09OBjd3f3/5/1j5D0MjMz/fz8cHzixAkWz79gw5R1k802LH4Cm20N2VEKG/TMM89gWYJxdwfSGrzDgcViwcHt27cx8woKCgICAu4OLnjt7e3yS/0LNhzHxMTEx8ffvHkT2RizVmCzrSEXYRYbdhwrVqzAkoZ8OH36dGwgUYgpsmDBAh8fH+wMo6KiSJKEXnvtNZJOt2zZMhxsWPCQaclO8v3338c6+tdff/19Y+djG9INR6WkE3rXJ598EhgYKC9Rhg2Jvby8HLvWfy6klR4UbIBBkioS7Jw5c1JSUuS1yrBB33zzDd4R8abR3NwsL3e2HhRs8DcsLAxJcvz48Xipl3aVRG6OSN7w7sCVJ02aFBQUFBkZiYytzeSjOyGkQCAXHh6OxPvoo48CoQaTz1nYVF+EXVwSOSLMbPnkU90NZ2GTBvCAa+rUqQ0NDbp5AVC9oy4usnYSVEiVeIF5/PHHt23bRmab6m4IbCpIYgZaoaGh2HlSa5vqbghs9ysww/TCTlI+vSip7oazsKm+CLumyHsbO70oqe6Gs7A9CBL/SiLkmAQ2XUpg06WchU31RVjXUt0NZ2FTfcura6nuhsCmhVR3Q2DTQqq7IbBpIdXdcBY21RdhXUt1N5yFTcipEth0KRpbf39/fv6GnJy8d9/N5RvZ2ab33jN99dVXVA+5iJct9kygseXlrW9vt7J/+pVXVFZ+WlFRQXVSe/G1hTWBxpaZmcM24xjd3f25ublUJ7UXX1tYE2hs3P9yOhuq754ViLstlAkC27DE3RaBTYm42yKwKRF3WwQ2JeJui8CmRNxtcQo2e18pq0r8J7E56tJ9YaurO4qbGY0LqHJ5Jy5c+OnkyQ4Vv8jHlbHJvwl41Civ+fMXHjjQyJ7GhqbYEhJemTt3noeHR0NDs7zc0U44FK6PjXzvdn19U2xs3MSJk9jT2HDUMeXYzp7t8fEZW1ZWuWhRbFJSirzKXpK8ePF6enrW5MlhBsOIgIBA+XeiZ2WZpkyZivLAwKCVK9/q7LzG3pGE62OT3C8rq8DHc+d6yEeL5efU1NVBQcHke7fl34ZOGu7e/ZnROH/kyFEhIRPXrctnry+FcmybNpUEB4eAxNatZX5+/hZLr1RlD1ty8kpf33FFRR+y33IfHj5t166q5mYzuo4nNCXlTfaOJPSCDY/1smUvzZw5W6pdvvxVGLVjx56mpu/z8grZb7kPDZ1is5YN5diio5+A3dZ7D1Gvn9+EkpJdUpVNbGbzZXRlw4Yt1HU6Oq54eXnV1n4plWzevH3cuPHUaVK4PrbRA3J3d4ctVVV1pKq93YpJhmddOhkPMR5WeUOmdjp7CxIKsTU2nvL09MRzQT7iHsjjUq1NbPv2HcKB1ESK/fsbpKESYTFHyZkz3dSZJFwfG0YEf44cOYEkOW1aBKYOqvbuPUgNH+sLSs6fvyo1tFfLhkJsycmrcFHPQXkMCKmP1DqEjYynpuYLDFUeSL/sfa1Mj7nIni3U2oZAEvL29sFSPRxskoFULRtKsGFpnTDhkTVrMrFZkmLWrDnSFsMmNntJErMK06uw8AP2RjZDX9hKSz9CtoT7ZnOXrST5dxocTJKlstpVKifJ7dt3GwyG1laLvDA9fS22EuT9zCY260BHsWgVF+9gtyQox5Camr7DPMMJ8k0mFa6PjbwAtLT8gIUtImJmTMwSUpuYuAKr3c6dezB8bCPZLUlYWDjyKmoLCorwKMu3mlQowRYX9/TixU9RhceO3fvjZuXln1rtY0PeS0vLAF3kVWz0V69+W2puMm2aMWPWiBEjsbZFRhrJemAzXB8bESaZv39AfPzytrZOUosshR0yBk5eAORjJA3hXlTUY8CJLTreiNjrS6EEG99wZWyahcCmRNxtEdiUiLstApsScbdFYFMi7rYIbErE3RaBTYm42yKwKRF3W4bAlpHB88dv2bh8ud8VsPG1hTWBxpabW8Dxh93Z2LOnpra2luqk9uJrC2sCja2vr99kKli3Ljcr6z3ukZ2d29hI/7IJF3G0xaYJNDYhXUhg06UENl1KYNOl/gdFBHGX3GGPcQAAAABJRU5ErkJggg==" class="uml" alt="uml diagram" title="" /></p>
+    <div class="content">
+      <p><img src="data:image/png;base64,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" class="uml" alt="uml diagram" title="" /></p>
 <!-- more -->
-
-
-             
- 
-            
-            
-            
-
-
-
-
-
-
-<section>
-    <h6 style="display:none;">Comments</h6>
-    <p id="comment-message"> </p>
-
-    <div class="accordion" id="accordion2">
-        <div class="accordion-group">
-            <div class="accordion-heading">
-                <a class="accordion-toggle disqus-comment-count comment-count"
-                   data-toggle="collapse"
-                   data-parent="#accordion2"
-                   data-disqus-identifier="https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html"
-                   href="https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html#comment_thread"
-                   id="comment-accordion-toggle">
-                    Comments
-                </a>
-            </div>
-            <div id="comment_thread" class="accordion-body collapse">
-                <div class="accordion-inner">
-                    <div class="comments">
-                        <div id="disqus_thread"></div>
-                        <script>
-    var disqus_shortname = 'dailyscrum';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-
-    var disqus_identifier = 'https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html';
-    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html';
-
+    </div>
+  </article>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html';
+      this.page.identifier = 'plantuml-sprites-demo';
+    };
     (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      var d = document;
+      var s = d.createElement('script');
+      s.src = '//dailyscrum.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
     })();
-</script>
-
-<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
+  </script>
+  <noscript class="text-muted">
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
     </div>
-</section>
+  </div>
 
-            <hr/>
-<section>
-    <h2>Related Posts</h2>
-<ul class="related-posts-list">
-<li><a href="https://blog.florijnconsultancy.nl/articles/azure.html" title="azure">azure</a></li>
-<li><a href="https://blog.florijnconsultancy.nl/articles/office-example-1.html" title="Office example 1">Office example 1</a></li>
-<li><a href="https://blog.florijnconsultancy.nl/articles/plantuml-archimate-example-2.html" title="PlantUML Archimate example 2">PlantUML Archimate example 2</a></li>
-<li><a href="https://blog.florijnconsultancy.nl/articles/plantuml-google-example.html" title="PlantUML Google example">PlantUML Google example</a></li>
-<li><a href="https://blog.florijnconsultancy.nl/articles/plantuml-azure-test.html" title="PlantUML Azure test">PlantUML Azure test</a></li>
-</ul>
-<hr />
-</section>
-        </div>
-        <section id="article-sidebar" class="span2">
-            <h4>Published</h4>
-            <time itemprop="dateCreated" datetime="2016-05-05T08:08:00+02:00">May 5, 2016</time>
-            <h4>Category</h4>
-            <a class="category-link" href="https://blog.florijnconsultancy.nl/categories.html#articles-ref">articles</a>
-            <h4>Tags</h4>
-            <ul class="list-of-tags tags-in-article">
-                <li><a href="https://blog.florijnconsultancy.nl/tags.html#diagram-ref">diagram
-                    <span>12</span>
-</a></li>
-                <li><a href="https://blog.florijnconsultancy.nl/tags.html#plantuml-ref">plantuml
-                    <span>14</span>
-</a></li>
-            </ul>
-<h4>Contact</h4>
-<div id="sidebar-social-link">
-</div>
-            
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
 
+</body>
 
-
-
-
-            
-
-
-
-
-
-        </section>
-</div>
-</article>
-                    </div>
-                    <div class="span1"></div>
-                </div>
-            </div>
-        </div>
-<footer>
-
-    <div>
-        <span class="site-name">Daily Scrum</span> - A personal blog
-    </div>
-
-
-
-    <div id="fpowered">
-        Powered by: <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>
-        Theme: <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>
-    </div>
-</footer>            <script src="//code.jquery.com/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-        <script>
-            function validateForm(query)
-            {
-                return (query.length > 0);
-            }
-        </script>
-
-    <script>
-    (function () {
-        if (window.location.hash.match(/^#comment-\d+$/)) {
-            $('#comment_thread').collapse('show');
-        }
-    })();
-    window.onhashchange=function(){
-        if (window.location.hash.match(/^#comment-\d+$/))
-            window.location.reload(true);
-    }
-    $('#comment_thread').on('shown', function () {
-        var link = document.getElementById('comment-accordion-toggle');
-        var old_innerHTML = link.innerHTML;
-        $(link).fadeOut(200, function() {
-            $(this).text('Click here to hide comments').fadeIn(200);
-        });
-        $('#comment_thread').on('hidden', function () {
-            $(link).fadeOut(200, function() {
-                $(this).text(old_innerHTML).fadeIn(200);
-            });
-        })
-    })
-</script>
-
-    </body>
-    <!-- Theme: Elegant built for Pelican
-        License : MIT -->
 </html>

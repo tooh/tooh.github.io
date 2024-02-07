@@ -1,83 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Peter Florijn" />
 
-        <meta property="og:type" content="article" />
-        <meta name="twitter:card" content="summary">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta name="keywords" content="diagrams, workflow, tools, plantuml, " />
-
-<meta property="og:title" content="Diagrams with PlantUML "/>
-<meta property="og:url" content="https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html" />
-<meta property="og:description" content="" />
-<meta property="og:site_name" content="Daily Scrum" />
-<meta property="og:article:author" content="Peter Florijn" />
-<meta property="og:article:published_time" content="2013-06-09T12:37:00+02:00" />
-<meta name="twitter:title" content="Diagrams with PlantUML ">
-<meta name="twitter:description" content="">
-
-        <title>Diagrams with PlantUML  · Daily Scrum
+  <title>  Diagrams with PlantUML | Daily Scrum
 </title>
-        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://blog.florijnconsultancy.nl/theme/css/elegant.prod.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://blog.florijnconsultancy.nl/theme/css/custom.css" media="screen">
-
-        <link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Daily Scrum - Full Atom Feed" />
-        <link href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Daily Scrum - Full RSS Feed" />
+  <link rel="canonical" href="https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html">
 
 
-    </head>
-    <body>
-        <div id="content">
-            <div class="navbar navbar-static-top">
-                <div class="navbar-inner">
-                    <div class="container-fluid">
-                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </a>
-                        <a class="brand" href="https://blog.florijnconsultancy.nl/"><span class=site-name>Daily Scrum</span></a>
-                        <div class="nav-collapse collapse">
-                            <ul class="nav pull-right top-menu">
-                                <li >
-                                    <a href=
-                                       https://blog.florijnconsultancy.nl
-                                    >Home</a>
-                                </li>
-                                <li ><a href="https://blog.florijnconsultancy.nl/pages/../about.html">About</a></li>
-                                <li ><a href="https://blog.florijnconsultancy.nl/categories.html">Categories</a></li>
-                                <li ><a href="https://blog.florijnconsultancy.nl/tags.html">Tags</a></li>
-                                <li ><a href="https://blog.florijnconsultancy.nl/archives.html">Archives</a></li>
-                                <li><form class="navbar-search" action="https://blog.florijnconsultancy.nl/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="span1"></div>
-                    <div class="span10">
-<article itemscope>
-<div class="row-fluid">
-    <header class="page-header span10 offset2">
-        <h1>
-            <a href="https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html">
-                Diagrams with&nbsp;PlantUML
-            </a>
-        </h1>
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="Full RSS Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml">  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/plantuml.atom.xml">  <link rel="alternate" type="application/rss+xml" title="Categories RSS Feed"
+        href="https://blog.florijnconsultancy.nl/feeds/plantuml.rss.xml">  
+  <meta name="description" content="">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="title"><a href="https://blog.florijnconsultancy.nl/">Daily Scrum</a></h1>
+      <p class="text-muted">A personal blog</p>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li class="list-inline-item"><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li class="list-inline-item"><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+              <li class="list-inline-item text-muted">|</li>
+            <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/pages/../about.html">About</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Diagrams with&nbsp;PlantUML
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2013-06-09T12:37:00+02:00">
+          <i class="fas fa-clock"></i>
+          Sun 09 June 2013
+        </li>
+        <li class="list-inline-item">
+          <i class="fas fa-folder-open"></i>
+          <a href="https://blog.florijnconsultancy.nl/category/plantuml.html">plantuml</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fas fa-user"></i>
+              <a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a>          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-tag"></i>
+              <a href="https://blog.florijnconsultancy.nl/tag/diagrams.html">#diagrams</a>,               <a href="https://blog.florijnconsultancy.nl/tag/workflow.html">#workflow</a>,               <a href="https://blog.florijnconsultancy.nl/tag/tools.html">#tools</a>          </li>
+      </ul>
     </header>
-</div>
-
-<div class="row-fluid">
-        <div class="span8 offset2 article-content">
-            
-            <p>For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive with&nbsp;it. </p>
+    <div class="content">
+      <p>For a long time I was searching for a tool to create diagrams. Of course in my Windows period I was using Visio, but I never was completely happy with this, because it was to complicated for my purpose and I used it sporadically so I was not very productive with&nbsp;it. </p>
 <p>After my switch to <span class="caps">OSX</span>, Omnigraffle seemed the tool to use, but this had the same&nbsp;disadvantages.</p>
 <p>Recently I came across a tool called PlantUML that can create diagrams based on&nbsp;text.</p>
 <p>When I found out that somebody had made a plugin for my current blogging environment Octopress it seems that I have won the&nbsp;jackpot.</p>
@@ -91,166 +84,45 @@
 <h3 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h3>
 <p><a href="http://plantuml.sourceforge.net/news.html">PlantUML</a></p>
 <p><a href="https://github.com/yjpark/jekyll-plantuml">Jekyll-plantUML&nbsp;plugin</a></p>
-
-
-             
- 
-            
-            
-            
-
-
-
-
-
-
-<section>
-    <h6 style="display:none;">Comments</h6>
-    <p id="comment-message"> </p>
-
-    <div class="accordion" id="accordion2">
-        <div class="accordion-group">
-            <div class="accordion-heading">
-                <a class="accordion-toggle disqus-comment-count comment-count"
-                   data-toggle="collapse"
-                   data-parent="#accordion2"
-                   data-disqus-identifier="https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html"
-                   href="https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html#comment_thread"
-                   id="comment-accordion-toggle">
-                    Comments
-                </a>
-            </div>
-            <div id="comment_thread" class="accordion-body collapse">
-                <div class="accordion-inner">
-                    <div class="comments">
-                        <div id="disqus_thread"></div>
-                        <script>
-    var disqus_shortname = 'dailyscrum';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-
-    var disqus_identifier = 'https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html';
-    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html';
-
+    </div>
+  </article>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'https://blog.florijnconsultancy.nl/articles/diagrams-with-plantuml.html';
+      this.page.identifier = 'diagrams-with-plantuml';
+    };
     (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      var d = document;
+      var s = d.createElement('script');
+      s.src = '//dailyscrum.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
     })();
-</script>
-
-<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
+  </script>
+  <noscript class="text-muted">
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
     </div>
-</section>
+  </div>
 
-            <hr/>
-<section>
-    <h2>Related Posts</h2>
-<ul class="related-posts-list">
-<li><a href="https://blog.florijnconsultancy.nl/articles/alfred-workflow-for-octopress.html" title="Alfred workflow for Octopress">Alfred workflow for Octopress</a></li>
-<li><a href="https://blog.florijnconsultancy.nl/articles/switch-to-textexpander.html" title="“Switch to Textexpander”">“Switch to Textexpander”</a></li>
-<li><a href="https://blog.florijnconsultancy.nl/articles/custom-alfred-search-for-jira.html" title="Custom Alfred search for Jira">Custom Alfred search for Jira</a></li>
-</ul>
-<hr />
-</section>
-        </div>
-        <section id="article-sidebar" class="span2">
-            <h4>Published</h4>
-            <time itemprop="dateCreated" datetime="2013-06-09T12:37:00+02:00">Jun 9, 2013</time>
-            <h4>Category</h4>
-            <a class="category-link" href="https://blog.florijnconsultancy.nl/categories.html#plantuml-ref">plantuml</a>
-            <h4>Tags</h4>
-            <ul class="list-of-tags tags-in-article">
-                <li><a href="https://blog.florijnconsultancy.nl/tags.html#diagrams-ref">diagrams
-                    <span>1</span>
-</a></li>
-                <li><a href="https://blog.florijnconsultancy.nl/tags.html#tools-ref">tools
-                    <span>1</span>
-</a></li>
-                <li><a href="https://blog.florijnconsultancy.nl/tags.html#workflow-ref">workflow
-                    <span>4</span>
-</a></li>
-            </ul>
-<h4>Contact</h4>
-<div id="sidebar-social-link">
-</div>
-            
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
 
+</body>
 
-
-
-
-            
-
-
-
-
-
-        </section>
-</div>
-</article>
-                    </div>
-                    <div class="span1"></div>
-                </div>
-            </div>
-        </div>
-<footer>
-
-    <div>
-        <span class="site-name">Daily Scrum</span> - A personal blog
-    </div>
-
-
-
-    <div id="fpowered">
-        Powered by: <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>
-        Theme: <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>
-    </div>
-</footer>            <script src="//code.jquery.com/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-        <script>
-            function validateForm(query)
-            {
-                return (query.length > 0);
-            }
-        </script>
-
-    <script>
-    (function () {
-        if (window.location.hash.match(/^#comment-\d+$/)) {
-            $('#comment_thread').collapse('show');
-        }
-    })();
-    window.onhashchange=function(){
-        if (window.location.hash.match(/^#comment-\d+$/))
-            window.location.reload(true);
-    }
-    $('#comment_thread').on('shown', function () {
-        var link = document.getElementById('comment-accordion-toggle');
-        var old_innerHTML = link.innerHTML;
-        $(link).fadeOut(200, function() {
-            $(this).text('Click here to hide comments').fadeIn(200);
-        });
-        $('#comment_thread').on('hidden', function () {
-            $(link).fadeOut(200, function() {
-                $(this).text(old_innerHTML).fadeIn(200);
-            });
-        })
-    })
-</script>
-
-    </body>
-    <!-- Theme: Elegant built for Pelican
-        License : MIT -->
 </html>
