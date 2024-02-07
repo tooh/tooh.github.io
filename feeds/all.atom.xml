@@ -443,10 +443,25 @@ You can&amp;rsquo;t edit the default settings file. If you try this, you cannot 
 
 &lt;!-- more --&gt;</content><category term="articles"></category><category term="sublime"></category><category term="config"></category></entry><entry><title>confluence inspired callouts in Octopress</title><link href="https://blog.florijnconsultancy.nl/articles/confluence-inspired-callouts-in-octopress.html" rel="alternate"></link><published>2014-09-23T08:02:00+02:00</published><updated>2014-09-23T08:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-23:/articles/confluence-inspired-callouts-in-octopress.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I was a Confluence user many years ago. I can remember that I used the so called callouts may times. In my search for Octopress goodies I found a post of &lt;a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/"&gt;Frank Caron&lt;/a&gt; explaining how he implemented callouts in&amp;nbsp;Octopress.&lt;/p&gt;
 &lt;p&gt;With some tweaking and help of Frank I managed to implement a number of callout&amp;nbsp;types.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs note %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs info %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;attention
+caution
+danger
+error
+hint
+important
+note
+tip
+warning
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Note&lt;/p&gt;
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition attention"&gt;
+&lt;p class="admonition-title"&gt;Attention&lt;/p&gt;
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class="admonition error"&gt;
 &lt;p class="admonition-title"&gt;Error&lt;/p&gt;
 &lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
@@ -455,14 +470,26 @@ Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
 &lt;p class="admonition-title"&gt;Warning&lt;/p&gt;
 &lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;p _="%" enddocs&gt;{% docs tip %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs thumbs-up %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs thumbs-down %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs check %}
-Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class="admonition tip"&gt;
+&lt;p class="admonition-title"&gt;Tip&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class="admonition caution"&gt;
+&lt;p class="admonition-title"&gt;Caution&lt;/p&gt;
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition danger"&gt;
+&lt;p class="admonition-title"&gt;Danger&lt;/p&gt;
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition important"&gt;
+&lt;p class="admonition-title"&gt;Important&lt;/p&gt;
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition hint"&gt;
+&lt;p class="admonition-title"&gt;Hint&lt;/p&gt;
+&lt;p&gt;Here is my markdown &lt;strong&gt;content&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
 &lt;!-- more --&gt;
 
 &lt;p&gt;&lt;span class="caps"&gt;TODO&lt;/span&gt;: describing the&amp;nbsp;Howto.&lt;/p&gt;</content><category term="Productivity"></category><category term="blogging"></category><category term="pelican"></category><category term="confluence"></category></entry><entry><title>Customizing Sublime for Python development</title><link href="https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html" rel="alternate"></link><published>2014-09-20T10:38:00+02:00</published><updated>2014-09-20T10:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-20:/articles/customizing-sublime-for-python-development.html</id><summary type="html"></summary><content type="html">&lt;p&gt;More and more I am using Sublime as my favorite&amp;nbsp;editor.&lt;/p&gt;

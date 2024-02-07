@@ -72,10 +72,25 @@
     <div class="content">
       <p>I was a Confluence user many years ago. I can remember that I used the so called callouts may times. In my search for Octopress goodies I found a post of <a href="http://frankcaron.com/2013/09/add-confluence-style-documentation-callouts-to-octopress/">Frank Caron</a> explaining how he implemented callouts in&nbsp;Octopress.</p>
 <p>With some tweaking and help of Frank I managed to implement a number of callout&nbsp;types.</p>
-<p _="%" enddocs>{% docs note %}
-Here is my markdown <strong>content</strong>.</p>
-<p _="%" enddocs>{% docs info %}
-Here is my markdown <strong>content</strong>.</p>
+<div class="highlight"><pre><span></span><code>attention
+caution
+danger
+error
+hint
+important
+note
+tip
+warning
+</code></pre></div>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Here is my markdown <strong>content</strong>.</p>
+</div>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Here is my markdown <strong>content</strong>.</p>
+</div>
 <div class="admonition error">
 <p class="admonition-title">Error</p>
 <p>Here is my markdown <strong>content</strong>.</p>
@@ -84,14 +99,26 @@ Here is my markdown <strong>content</strong>.</p>
 <p class="admonition-title">Warning</p>
 <p>Here is my markdown <strong>content</strong>.</p>
 </div>
-<p _="%" enddocs>{% docs tip %}
-Here is my markdown <strong>content</strong>.</p>
-<p _="%" enddocs>{% docs thumbs-up %}
-Here is my markdown <strong>content</strong>.</p>
-<p _="%" enddocs>{% docs thumbs-down %}
-Here is my markdown <strong>content</strong>.</p>
-<p _="%" enddocs>{% docs check %}
-Here is my markdown <strong>content</strong>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+</div>
+<p>Here is my markdown <strong>content</strong>.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Here is my markdown <strong>content</strong>.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Here is my markdown <strong>content</strong>.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Here is my markdown <strong>content</strong>.</p>
+</div>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Here is my markdown <strong>content</strong>.</p>
+</div>
 <!-- more -->
 
 <p><span class="caps">TODO</span>: describing the&nbsp;Howto.</p>
