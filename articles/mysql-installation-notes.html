@@ -83,13 +83,17 @@
 <p>This post contains my notes made during the&nbsp;process.</p>
 <!-- more -->
 
-<p _="%" enddocs>{% docs tip %}
-On <span class="caps">OSX</span> it is not always obvious which my.cnf file is used. You can find all my.cnf files on your system by issuing a find&nbsp;command</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>On <span class="caps">OSX</span> it is not always obvious which my.cnf file is used. You can find all my.cnf files on your system by issuing a find&nbsp;command</p>
+</div>
 <div class="highlight"><pre><span></span><code>sudo find . -name &quot;*.cnf&quot; -exec ls -al {} \;
 </code></pre></div>
 
-<p _="%" enddocs>{% docs tip %}
-You can execute a mysql command to show in which locations you can place my.cnf files and in which order they are&nbsp;executed.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can execute a mysql command to show in which locations you can place my.cnf files and in which order they are&nbsp;executed.</p>
+</div>
 <div class="highlight"><pre><span></span><code>mysql --help | grep &quot;Default options&quot; -A 1
 </code></pre></div>
 

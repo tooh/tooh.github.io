@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - apple</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/apple.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2014-10-25T12:02:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>Disabling Nap App</title><link href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html" rel="alternate"></link><published>2014-10-25T12:02:00+02:00</published><updated>2014-10-25T12:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-25:/articles/disabling-nap-app.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Since Mavericks there is a feature called Nap&amp;nbsp;app.&lt;/p&gt;
 &lt;p&gt;For some reason it can be better to prevent an application to take a&amp;nbsp;nap.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs tip %}
-You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
+&lt;div class="admonition tip"&gt;
+&lt;p class="admonition-title"&gt;Tip&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;defaults write com.apple.Terminal NSAppSleepDisabled -bool YES
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 

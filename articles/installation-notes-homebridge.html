@@ -13,7 +13,7 @@
 <meta name="keywords" content="homebridge, plugins, Automation, " />
 
 <meta property="og:title" content="Installation notes Homebridge "/>
-<meta property="og:url" content="https://blog.florijnconsultancy.nl/drafts/installation-notes-homebridge.html" />
+<meta property="og:url" content="https://blog.florijnconsultancy.nl/articles/installation-notes-homebridge.html" />
 <meta property="og:description" content="" />
 <meta property="og:site_name" content="Daily Scrum" />
 <meta property="og:article:author" content="Peter Florijn:" />
@@ -70,7 +70,7 @@
 <div class="row-fluid">
     <header class="page-header span10 offset2">
         <h1>
-            <a href="https://blog.florijnconsultancy.nl/drafts/installation-notes-homebridge.html">
+            <a href="https://blog.florijnconsultancy.nl/articles/installation-notes-homebridge.html">
                 Installation notes&nbsp;Homebridge
             </a>
         </h1>
@@ -84,6 +84,20 @@
 <p>This is a work in progress and the post will be updated when&nbsp;necessary</p>
 <!-- more -->
 
+<div class="toc">
+<ul>
+<li><a href="#services">Services</a><ul>
+<li><a href="#systemd">systemd</a></li>
+<li><a href="#start-stop-en-monitor">start , stop en&nbsp;monitor</a></li>
+</ul>
+</li>
+<li><a href="#installation-plugins">Installation plugins</a><ul>
+<li><a href="#config-ui-x">config-ui-x</a></li>
+</ul>
+</li>
+<li><a href="#homebridge-config">Homebridge&nbsp;config</a></li>
+</ul>
+</div>
 <h1 id="services">Services<a class="headerlink" href="#services" title="Permanent link">&para;</a></h1>
 <h2 id="systemd">systemd<a class="headerlink" href="#systemd" title="Permanent link">&para;</a></h2>
 <p><code>automatic restart</code></p>
@@ -236,6 +250,56 @@ $ sudo journalctl -f -u homebridge</code></p>
 
 
 
+
+<section>
+    <h6 style="display:none;">Comments</h6>
+    <p id="comment-message">So what do you think? Did I miss something? Is any part unclear? Leave your comments below. </p>
+
+    <div class="accordion" id="accordion2">
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle disqus-comment-count comment-count"
+                   data-toggle="collapse"
+                   data-parent="#accordion2"
+                   data-disqus-identifier="https://blog.florijnconsultancy.nl/articles/installation-notes-homebridge.html"
+                   href="https://blog.florijnconsultancy.nl/articles/installation-notes-homebridge.html#comment_thread"
+                   id="comment-accordion-toggle">
+                    Comments
+                </a>
+            </div>
+            <div id="comment_thread" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <div class="comments">
+                        <div id="disqus_thread"></div>
+                        <script>
+    var disqus_shortname = 'dailyscrum';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+
+    var disqus_identifier = 'https://blog.florijnconsultancy.nl/articles/installation-notes-homebridge.html';
+    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/installation-notes-homebridge.html';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
             <hr/>
         </div>

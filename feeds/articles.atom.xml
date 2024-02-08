@@ -39,12 +39,16 @@
 &lt;p&gt;Recently we switched from using Bugzilla for our issue tracking to&amp;nbsp;Jira.&lt;/p&gt;
 &lt;p&gt;As an Alfred user I went looking for some Alfred support for Jira&amp;nbsp;searches.&lt;/p&gt;
 &lt;p&gt;I found a couple of workflows for this, but for now I settled for a simple custom web search in&amp;nbsp;Alfred.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs note …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Summary&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Note&lt;/p&gt;
+&lt;p&gt;Replace …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Summary&lt;/p&gt;
 &lt;p&gt;Recently we switched from using Bugzilla for our issue tracking to&amp;nbsp;Jira.&lt;/p&gt;
 &lt;p&gt;As an Alfred user I went looking for some Alfred support for Jira&amp;nbsp;searches.&lt;/p&gt;
 &lt;p&gt;I found a couple of workflows for this, but for now I settled for a simple custom web search in&amp;nbsp;Alfred.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs note %}
-Replace [your jira server] with your jira&amp;nbsp;server.&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Note&lt;/p&gt;
+&lt;p&gt;Replace [your jira server] with your jira&amp;nbsp;server.&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;https://[your jira server]/secure/QuickSearch.jspa?searchString={query}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -95,7 +99,17 @@ new configure&amp;nbsp;afterwards)&lt;/li&gt;
 It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&amp;nbsp;Yosemite.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;p&gt;{:toc}&lt;/p&gt;
+&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#update-rvm"&gt;Update&amp;nbsp;rvm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#fix-brew"&gt;Fix&amp;nbsp;brew&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#ruby"&gt;Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#bugzilla-perl"&gt;Bugzilla /&amp;nbsp;perl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;h2 id="update-rvm"&gt;Update rvm&lt;a class="headerlink" href="#update-rvm" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rvm&lt;span class="w"&gt; &lt;/span&gt;get&lt;span class="w"&gt; &lt;/span&gt;stable
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -148,19 +162,24 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;p&gt;Bugzilla 4.5.6 introduces Mysql &lt;span class="caps"&gt;SSL&lt;/span&gt;&amp;nbsp;certificates.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://dev.mysql.com/doc/refman/5.0/en/creating-ssl-certs.html"&gt;OpenSSL&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Extra parameters are added to the&amp;nbsp;localconfig.&lt;/p&gt;
-&lt;p&gt;{% docs info %}
-I have to find out how to configure&amp;nbsp;this&lt;/p&gt;
-&lt;p&gt;{% enddocs&amp;nbsp;%}&lt;/p&gt;</content><category term="articles"></category><category term="yosemite"></category><category term="ruby"></category></entry><entry><title>Mysql installation notes</title><link href="https://blog.florijnconsultancy.nl/articles/mysql-installation-notes.html" rel="alternate"></link><published>2014-10-05T10:25:00+02:00</published><updated>2014-10-05T10:25:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-05:/articles/mysql-installation-notes.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I had to reinstall my local Bugzilla, so I took the opportunity to upgrade my local mysql as&amp;nbsp;well.&lt;/p&gt;
+&lt;div class="admonition info"&gt;
+&lt;p class="admonition-title"&gt;Info&lt;/p&gt;
+&lt;p&gt;I have to find out how to configure&amp;nbsp;this&lt;/p&gt;
+&lt;/div&gt;</content><category term="articles"></category><category term="yosemite"></category><category term="ruby"></category></entry><entry><title>Mysql installation notes</title><link href="https://blog.florijnconsultancy.nl/articles/mysql-installation-notes.html" rel="alternate"></link><published>2014-10-05T10:25:00+02:00</published><updated>2014-10-05T10:25:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-05:/articles/mysql-installation-notes.html</id><summary type="html"></summary><content type="html">&lt;p&gt;I had to reinstall my local Bugzilla, so I took the opportunity to upgrade my local mysql as&amp;nbsp;well.&lt;/p&gt;
 &lt;p&gt;This post contains my notes made during the&amp;nbsp;process.&lt;/p&gt;
 &lt;!-- more --&gt;
 
-&lt;p _="%" enddocs&gt;{% docs tip %}
-On &lt;span class="caps"&gt;OSX&lt;/span&gt; it is not always obvious which my.cnf file is used. You can find all my.cnf files on your system by issuing a find&amp;nbsp;command&lt;/p&gt;
+&lt;div class="admonition tip"&gt;
+&lt;p class="admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p&gt;On &lt;span class="caps"&gt;OSX&lt;/span&gt; it is not always obvious which my.cnf file is used. You can find all my.cnf files on your system by issuing a find&amp;nbsp;command&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo find . -name &amp;quot;*.cnf&amp;quot; -exec ls -al {} \;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p _="%" enddocs&gt;{% docs tip %}
-You can execute a mysql command to show in which locations you can place my.cnf files and in which order they are&amp;nbsp;executed.&lt;/p&gt;
+&lt;div class="admonition tip"&gt;
+&lt;p class="admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p&gt;You can execute a mysql command to show in which locations you can place my.cnf files and in which order they are&amp;nbsp;executed.&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;mysql --help | grep &amp;quot;Default options&amp;quot; -A 1
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="articles"></category><category term="mysql"></category></entry><entry><title>Bugzilla git migration</title><link href="https://blog.florijnconsultancy.nl/articles/bugzilla-git-migration.html" rel="alternate"></link><published>2014-09-28T14:49:00+02:00</published><updated>2014-09-28T14:49:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-28:/articles/bugzilla-git-migration.html</id><summary type="html"></summary><content type="html">&lt;p&gt;[toc]&lt;/p&gt;
 &lt;h1 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
@@ -174,8 +193,10 @@ You can execute a mysql command to show in which locations you can place my.cnf 
 &lt;h2 id="update-to-newer-release"&gt;Update to newer release&lt;a class="headerlink" href="#update-to-newer-release" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://wiki.mozilla.org/Bugzilla:Git#Updating_to_a_Newer_Release"&gt;Updating to a newer&amp;nbsp;release&lt;/a&gt;&lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="articles"></category><category term="bugzilla"></category><category term="testopia"></category></entry><entry><title>Activate spellcheck in Sublime Text 3</title><link href="https://blog.florijnconsultancy.nl/articles/activate-spellcheck-in-sublime-text-3.html" rel="alternate"></link><published>2014-09-27T11:27:00+02:00</published><updated>2014-09-27T11:27:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-09-27:/articles/activate-spellcheck-in-sublime-text-3.html</id><summary type="html"></summary><content type="html">&lt;p&gt;By default spellcheck is off in Sublime&amp;nbsp;Text.&lt;/p&gt;
-&lt;p _="%" enddocs&gt;{% docs note %}
-You can&amp;rsquo;t edit the default settings file. If you try this, you cannot edit the&amp;nbsp;setting.&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Note&lt;/p&gt;
+&lt;p&gt;You can&amp;rsquo;t edit the default settings file. If you try this, you cannot edit the&amp;nbsp;setting.&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;In order to activate add the following to the User&amp;nbsp;settings:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;,
     // Set to true to turn spell checking on by default
@@ -211,8 +232,10 @@ You can&amp;rsquo;t edit the default settings file. If you try this, you cannot 
 &lt;p&gt;Diskutil did not report anything&amp;nbsp;strange.&lt;/p&gt;
 &lt;p&gt;My &lt;span class="caps"&gt;HD&lt;/span&gt; is a Seagate &lt;span class="caps"&gt;HD&lt;/span&gt; thas qualifies for the replacement program, I missed the 3 year deadline, so now I am stuck with this&amp;nbsp;disk.&lt;/p&gt;
 &lt;h2 id="software-diagnostics"&gt;Software Diagnostics&lt;a class="headerlink" href="#software-diagnostics" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;p _="%" enddocs&gt;{% docs tip %}
-You can try to run some standard diagnostics tools to eliminate some basic&amp;nbsp;causes.&lt;/p&gt;
+&lt;div class="admonition tip"&gt;
+&lt;p class="admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p&gt;You can try to run some standard diagnostics tools to eliminate some basic&amp;nbsp;causes.&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;Spotlight&amp;nbsp;diagnostics&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo mdsdiagnose
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
