@@ -10,20 +10,21 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="sublime, Tools, " />
+<meta name="keywords" content=", Blogging, " />
 
-<meta property="og:title" content="Customizing sublime for python development "/>
-<meta property="og:url" content="https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html" />
+<meta property="og:title" content="Auto title plugin "/>
+<meta property="og:url" content="https://blog.florijnconsultancy.nl/drafts/auto-title-plugin.html" />
 <meta property="og:description" content="" />
 <meta property="og:site_name" content="Daily Scrum" />
 <meta property="og:article:author" content="Peter Florijn" />
-<meta property="og:article:published_time" content="2014-09-20T10:38:00+02:00" />
-<meta name="twitter:title" content="Customizing sublime for python development ">
+<meta property="og:article:published_time" content="2024-02-08T15:52:00+01:00" />
+<meta property="og:article:modified_time" content="2024-02-08T15:52:00+01:00" />
+<meta name="twitter:title" content="Auto title plugin ">
 <meta name="twitter:description" content="">
 <meta property="og:image" content="/theme/images/apple-touch-icon-152x152.png" />
 <meta name="twitter:image" content="/theme/images/apple-touch-icon-152x152.png" >
 
-        <title>Customizing sublime for python development  · Daily Scrum
+        <title>Auto title plugin  · Daily Scrum
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://blog.florijnconsultancy.nl/theme/css/elegant.prod.css" media="screen">
@@ -69,8 +70,8 @@
 <div class="row-fluid">
     <header class="page-header span10 offset2">
         <h1>
-            <a href="https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html">
-                Customizing sublime for python&nbsp;development
+            <a href="https://blog.florijnconsultancy.nl/drafts/auto-title-plugin.html">
+                Auto title&nbsp;plugin
             </a>
         </h1>
     </header>
@@ -79,12 +80,47 @@
 <div class="row-fluid">
         <div class="span8 offset2 article-content">
             
-            <p>More and more I am using Sublime as my favorite&nbsp;editor.</p>
-<p>Also I am developing in Python as my favorite scripting language of this&nbsp;moment.</p>
-<p>Sublime can be customized/extended as an ideal Python <span class="caps">IDE</span>.</p>
-<!-- more -->
+            <div class="highlight"><pre><span></span><code><span class="sd">&quot;&quot;&quot;[OVERVIEW] Pelican plugin to replace “-” with a space in the value of the key “title” articles and pages.</span>
 
-<p><a href="https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/">Setting up Sublime Text 3 for full stack python&nbsp;development</a></p>
+<span class="sd">[NOTE] Not possible to have expected value of “title” key without plugin:</span>
+<span class="sd">https://stackoverflow.com/q/64058029/5951529</span>
+
+<span class="sd">[REQUIRED] “FILENAME_METADATA: (?P&lt;title&gt;.*)” in Pelican settings;</span>
+<span class="sd">this is necessary so as not to add the “title” manually in each article and page.</span>
+<span class="sd">Otherwise error when running “pelican” command on the command line:</span>
+<span class="sd">“could not find information about &#39;title&#39;”.</span>
+<span class="sd">https://docs.getpelican.com/en/latest/content.html#file-metadata</span>
+
+<span class="sd">[REQUIRED] Set “PreserveTitle” key with any value in article/page metadata,</span>
+<span class="sd">if the “Title” key is specified in the metadata</span>
+<span class="sd">and you don’t want autotitle to replace hyphens with spaces in its meaning.</span>
+
+<span class="sd">[NOTE] I can’t find a solution without an additional “PreserveTitle” key:</span>
+<span class="sd">https://stackoverflow.com/posts/comments/136979516</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">pelican</span> <span class="kn">import</span> <span class="n">signals</span>
+
+
+<span class="k">def</span> <span class="nf">title_replace</span><span class="p">(</span><span class="n">generator</span><span class="p">,</span> <span class="n">metadata</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;[INFO] Replace title.</span>
+
+<span class="sd">    [INFO] Get the pair “key”: “value” from “generator.settings” dictionary:</span>
+<span class="sd">    https://stackoverflow.com/a/26660785/5951529</span>
+<span class="sd">    https://stackoverflow.com/a/25711744/5951529</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="s2">&quot;FILENAME_METADATA&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;(?P&lt;title&gt;.*)&quot;</span><span class="p">)</span> <span class="ow">in</span> <span class="n">generator</span><span class="o">.</span><span class="n">settings</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="ow">and</span> <span class="s2">&quot;preservetitle&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">metadata</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+
+        <span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">register</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;[INFO] Register the plugin pieces with Pelican.&quot;&quot;&quot;</span>
+    <span class="n">signals</span><span class="o">.</span><span class="n">article_generator_context</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">title_replace</span><span class="p">)</span>
+    <span class="n">signals</span><span class="o">.</span><span class="n">page_generator_context</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">title_replace</span><span class="p">)</span>
+</code></pre></div>
+
+<!-- more -->
 
 
              
@@ -98,76 +134,14 @@
 
 
 
-<section>
-    <h6 style="display:none;">Comments</h6>
-    <p id="comment-message">So what do you think? Did I miss something? Is any part unclear? Leave your comments below. </p>
-
-    <div class="accordion" id="accordion2">
-        <div class="accordion-group">
-            <div class="accordion-heading">
-                <a class="accordion-toggle disqus-comment-count comment-count"
-                   data-toggle="collapse"
-                   data-parent="#accordion2"
-                   data-disqus-identifier="https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html"
-                   href="https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html#comment_thread"
-                   id="comment-accordion-toggle">
-                    Comments
-                </a>
-            </div>
-            <div id="comment_thread" class="accordion-body collapse">
-                <div class="accordion-inner">
-                    <div class="comments">
-                        <div id="disqus_thread"></div>
-                        <script>
-    var disqus_shortname = 'dailyscrum';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-
-    var disqus_identifier = 'https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html';
-    var disqus_url = 'https://blog.florijnconsultancy.nl/articles/customizing-sublime-for-python-development.html';
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-
-<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
             <hr/>
-<section>
-    <h2>Keep Reading</h2>
-<ul class="related-posts-list">
-<li><a href="https://blog.florijnconsultancy.nl/articles/activate-spellcheck-in-sublime-text-3.html" title="Activate spellcheck in sublime text 3">Activate spellcheck in sublime text 3</a></li>
-</ul>
-<hr />
-</section>
         </div>
         <section id="article-sidebar" class="span2">
             <h4>Published</h4>
-            <time itemprop="dateCreated" datetime="2014-09-20T10:38:00+02:00">Sep 20, 2014</time>
+            <time itemprop="dateCreated" datetime="2024-02-08T15:52:00+01:00">Feb 8, 2024</time>
+
             <h4>Category</h4>
-            <a class="category-link" href="https://blog.florijnconsultancy.nl/categories.html#tools-ref">Tools</a>
-            <h4>Tags</h4>
-            <ul class="list-of-tags tags-in-article">
-                <li><a href="https://blog.florijnconsultancy.nl/tags.html#sublime-ref">sublime
-                    <span>2</span>
-</a></li>
-            </ul>
+            <a class="category-link" href="https://blog.florijnconsultancy.nl/categories.html#blogging-ref">Blogging</a>
 <h4>Stay in Touch</h4>
 <div id="sidebar-social-link">
     <a href="https://github.com/Pelican-Elegant/" title="Elegant Github Repository" target="_blank" rel="nofollow noopener noreferrer">
