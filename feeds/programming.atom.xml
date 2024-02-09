@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - programming</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/programming.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2015-10-17T08:56:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>Convert markdown to word docx with pandoc</title><link href="https://blog.florijnconsultancy.nl/articles/convert-markdown-to-word-docx-with-pandoc.html" rel="alternate"></link><published>2015-10-17T08:56:00+02:00</published><updated>2015-10-17T08:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-10-17:/articles/convert-markdown-to-word-docx-with-pandoc.html</id><summary type="html"></summary><content type="html">&lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army&amp;nbsp;knife.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;h3 id="installation"&gt;Installation&lt;a class="headerlink" href="#installation" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;My &lt;span class="caps"&gt;OS&lt;/span&gt; is &lt;span class="caps"&gt;OSX&lt;/span&gt; so the easiest is to use&amp;nbsp;Homebrew.&lt;/p&gt;
+&lt;h4 id="with-homebrew"&gt;With homebrew&lt;a class="headerlink" href="#with-homebrew" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$&lt;span class="w"&gt; &lt;/span&gt;brew&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;pandoc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4 id="use-the-installer"&gt;Use the installer&lt;a class="headerlink" href="#use-the-installer" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Go to the github project&amp;nbsp;downloads&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;https://github.com/jgm/pandoc/releases/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id="convert-your-document"&gt;Convert your document&lt;a class="headerlink" href="#convert-your-document" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$&lt;span class="w"&gt; &lt;/span&gt;pandoc&lt;span class="w"&gt; &lt;/span&gt;-o&lt;span class="w"&gt; &lt;/span&gt;output.docx&lt;span class="w"&gt; &lt;/span&gt;-f&lt;span class="w"&gt; &lt;/span&gt;markdown&lt;span class="w"&gt; &lt;/span&gt;-t&lt;span class="w"&gt; &lt;/span&gt;docx&lt;span class="w"&gt; &lt;/span&gt;markdown-file.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id="make-it-easy"&gt;Make it easy&lt;a class="headerlink" href="#make-it-easy" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;To make it even easier I added the below code to my .bashrc&amp;nbsp;file&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;...
+
+#&lt;span class="w"&gt; &lt;/span&gt;aliases
+...
+alias&lt;span class="w"&gt; &lt;/span&gt;md2word=md2word&lt;span class="w"&gt; &lt;/span&gt;#&lt;span class="w"&gt; &lt;/span&gt;alias&lt;span class="w"&gt; &lt;/span&gt;the&lt;span class="w"&gt; &lt;/span&gt;function&lt;span class="w"&gt; &lt;/span&gt;below
+
+#&lt;span class="w"&gt; &lt;/span&gt;functions
+...
+function&lt;span class="w"&gt; &lt;/span&gt;md2word&lt;span class="w"&gt; &lt;/span&gt;()&lt;span class="w"&gt; &lt;/span&gt;{&lt;span class="w"&gt;  &lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;PANDOC_INSTALLED=$(pandoc&lt;span class="w"&gt; &lt;/span&gt;--version&lt;span class="w"&gt; &lt;/span&gt;&amp;gt;&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;/dev/null;&lt;span class="w"&gt; &lt;/span&gt;echo&lt;span class="w"&gt; &lt;/span&gt;$?)
+
+&lt;span class="w"&gt;    &lt;/span&gt;if&lt;span class="w"&gt; &lt;/span&gt;[&lt;span class="w"&gt; &lt;/span&gt;&amp;quot;0&amp;quot;&lt;span class="w"&gt; &lt;/span&gt;==&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cp"&gt;${&lt;/span&gt;&lt;span class="n"&gt;PANDOC_INSTALLED&lt;/span&gt;&lt;span class="cp"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;];&lt;span class="w"&gt; &lt;/span&gt;then
+&lt;span class="w"&gt;        &lt;/span&gt;pandoc&lt;span class="w"&gt; &lt;/span&gt;-o&lt;span class="w"&gt; &lt;/span&gt;$2&lt;span class="w"&gt; &lt;/span&gt;-f&lt;span class="w"&gt; &lt;/span&gt;markdown&lt;span class="w"&gt; &lt;/span&gt;-t&lt;span class="w"&gt; &lt;/span&gt;docx&lt;span class="w"&gt; &lt;/span&gt;$1
+&lt;span class="w"&gt;    &lt;/span&gt;else
+&lt;span class="w"&gt;        &lt;/span&gt;echo&lt;span class="w"&gt; &lt;/span&gt;&amp;quot;Pandoc&lt;span class="w"&gt; &lt;/span&gt;is&lt;span class="w"&gt; &lt;/span&gt;not&lt;span class="w"&gt; &lt;/span&gt;installed.&lt;span class="w"&gt; &lt;/span&gt;Unable&lt;span class="w"&gt; &lt;/span&gt;to&lt;span class="w"&gt; &lt;/span&gt;convert&lt;span class="w"&gt; &lt;/span&gt;document.&amp;quot;
+&lt;span class="w"&gt;    &lt;/span&gt;fi
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id="convert-a-file"&gt;Convert a file&lt;a class="headerlink" href="#convert-a-file" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt; md2word ~/path/to/some/markdown/file/to/convert.md ~/path/to/some/word/document/output.docx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id="use-pandoc-from-sublime"&gt;Use Pandoc from Sublime&lt;a class="headerlink" href="#use-pandoc-from-sublime" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html&lt;/p&gt;
+&lt;h4 id="my-customized-build-file"&gt;My customized build file&lt;a class="headerlink" href="#my-customized-build-file" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;{
+    &amp;quot;cmd&amp;quot;: [&amp;quot;/usr/local/bin/pandoc&amp;quot;, &amp;quot;-S&amp;quot;, &amp;quot;-s&amp;quot;, &amp;quot;-f&amp;quot;, &amp;quot;markdown&amp;quot;, &amp;quot;-t&amp;quot;, &amp;quot;docx&amp;quot;, &amp;quot;-o&amp;quot;, &amp;quot;/Users/peter/Documents/Docs/Inbox/$file_base_name.docx&amp;quot;, &amp;quot;$file_name&amp;quot;],
+    &amp;quot;selector&amp;quot;: &amp;quot;text.html.markdown&amp;quot;
+ }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="programming"></category><category term="docx"></category><category term="convert"></category><category term="markdown"></category></entry><entry><title>Creating rest services</title><link href="https://blog.florijnconsultancy.nl/articles/creating-rest-services.html" rel="alternate"></link><published>2015-09-15T15:53:00+02:00</published><updated>2015-09-15T15:53:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-09-15:/articles/creating-rest-services.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Interesting project&amp;nbsp;sandman.&lt;/p&gt;
+&lt;p&gt;Sandman2 is in&amp;nbsp;development&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sandman.readthedocs.org/en/latest/"&gt;https://sandman.readthedocs.org/en/latest/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman"&gt;https://github.com/jeffknupp/sandman&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman2"&gt;https://github.com/jeffknupp/sandman2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.fullstackpython.com/api-creation.html"&gt;http://www.fullstackpython.com/api-creation.html&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;</content><category term="programming"></category><category term="REST"></category><category term="python"></category><category term="webservice"></category></entry></feed>
