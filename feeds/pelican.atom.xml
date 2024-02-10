@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - Pelican</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/pelican.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2024-02-10T15:54:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>Pelican title_capitalize plugin</title><link href="https://blog.florijnconsultancy.nl/articles/pelican-title_capitalize-plugin.html" rel="alternate"></link><published>2024-02-10T15:54:00+01:00</published><updated>2024-02-10T15:54:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2024-02-10:/articles/pelican-title_capitalize-plugin.html</id><summary type="html"></summary><content type="html">&lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;`python
-&amp;ldquo;&amp;rdquo;&amp;rdquo;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - Pelican</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/pelican.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2024-02-10T15:54:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>Pelican title_capitalize plugin</title><link href="https://blog.florijnconsultancy.nl/articles/pelican-title_capitalize-plugin.html" rel="alternate"></link><published>2024-02-10T15:54:00+01:00</published><updated>2024-02-10T15:54:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2024-02-10:/articles/pelican-title_capitalize-plugin.html</id><summary type="html"></summary><content type="html">&lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;`python&lt;/p&gt;
+&lt;p&gt;&amp;rdquo;&amp;ldquo;&amp;rdquo;
 Pelican plugin to replace &amp;ldquo;-&amp;rdquo; with a space in an article&amp;rsquo;s title.&amp;nbsp;&amp;ldquo;&amp;rdquo;&amp;ldquo;&lt;/p&gt;
 &lt;p&gt;from pelican import&amp;nbsp;signals&lt;/p&gt;
 &lt;p&gt;def title_capitalize(generator, metadata):
@@ -18,4 +18,5 @@ Pelican plugin to replace &amp;ldquo;-&amp;rdquo; with a space in an article&amp
 &lt;span class="n"&gt;signals&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;page_generator_context&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;title_capitalize&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;p&gt;&amp;rsquo;&amp;lsquo;&amp;rsquo;&lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="Pelican"></category></entry></feed>
