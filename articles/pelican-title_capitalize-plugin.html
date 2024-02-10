@@ -80,26 +80,42 @@
 <div class="row-fluid">
         <div class="span8 offset2 article-content">
             
-            <div class="highlight"><pre><span></span><code><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">Pelican plugin to replace &quot;-&quot; with a space in an article&#39;s title.</span>
-<span class="sd">&quot;&quot;&quot;</span>
+            <div class="highlight"><pre><span></span><code><span class="sd">&quot;&quot;&quot;[OVERVIEW] Pelican plugin to replace “-” with a space in the value of the key “title” articles and pages.</span>
 
+<span class="sd">[NOTE] Not possible to have expected value of “title” key without plugin:</span>
+<span class="sd">https://stackoverflow.com/q/64058029/5951529</span>
+
+<span class="sd">[REQUIRED] “FILENAME_METADATA: (?P&lt;title&gt;.*)” in Pelican settings;</span>
+<span class="sd">this is necessary so as not to add the “title” manually in each article and page.</span>
+<span class="sd">Otherwise error when running “pelican” command on the command line:</span>
+<span class="sd">“could not find information about &#39;title&#39;”.</span>
+<span class="sd">https://docs.getpelican.com/en/latest/content.html#file-metadata</span>
+
+<span class="sd">[REQUIRED] Set “PreserveTitle” key with any value in article/page metadata,</span>
+<span class="sd">if the “Title” key is specified in the metadata</span>
+<span class="sd">and you don’t want title_capitalize to capitalize title.</span>
+
+<span class="sd">[NOTE] I can’t find a solution without an additional “PreserveTitle” key:</span>
+<span class="sd">https://stackoverflow.com/posts/comments/136979516</span>
+<span class="sd">&quot;&quot;&quot;</span>
 <span class="kn">from</span> <span class="nn">pelican</span> <span class="kn">import</span> <span class="n">signals</span>
 
-<span class="k">def</span> <span class="nf">title_capitalize</span><span class="p">(</span><span class="n">generator</span><span class="p">,</span> <span class="n">metadata</span><span class="p">):</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span>
-    <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
-        <span class="k">pass</span>
 
-    <span class="c1"># not sure if you have to return metadata, or if it is</span>
-    <span class="c1"># globally updated as it&#39;s a dictionary</span>
-    <span class="k">return</span> <span class="n">metadata</span>
+<span class="k">def</span> <span class="nf">title_capitalize</span><span class="p">(</span><span class="n">generator</span><span class="p">,</span> <span class="n">metadata</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;[INFO] Capitalize title.</span>
+
+<span class="sd">    [INFO] Get the pair “key”: “value” from “generator.settings” dictionary:</span>
+<span class="sd">    https://stackoverflow.com/a/26660785/5951529</span>
+<span class="sd">    https://stackoverflow.com/a/25711744/5951529</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="s2">&quot;FILENAME_METADATA&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;(?P&lt;title&gt;.*)&quot;</span><span class="p">)</span> <span class="ow">in</span> <span class="n">generator</span><span class="o">.</span><span class="n">settings</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="ow">and</span> <span class="s2">&quot;preservetitle&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">metadata</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+
+        <span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">capitalize</span><span class="p">)</span>
 
 
 <span class="k">def</span> <span class="nf">register</span><span class="p">():</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Register the plugin pieces with Pelican.&quot;&quot;&quot;</span>
-
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;[INFO] Register the plugin pieces with Pelican.&quot;&quot;&quot;</span>
     <span class="n">signals</span><span class="o">.</span><span class="n">article_generator_context</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">title_capitalize</span><span class="p">)</span>
     <span class="n">signals</span><span class="o">.</span><span class="n">page_generator_context</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">title_capitalize</span><span class="p">)</span>
 </code></pre></div>
