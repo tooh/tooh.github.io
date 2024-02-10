@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2024-02-10T15:54:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>Pelican title_capitalize plugin</title><link href="https://blog.florijnconsultancy.nl/articles/pelican-title_capitalize-plugin.html" rel="alternate"></link><published>2024-02-10T15:54:00+01:00</published><updated>2024-02-10T15:54:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2024-02-10:/articles/pelican-title_capitalize-plugin.html</id><summary type="html"></summary><content type="html">&lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;`python&lt;/p&gt;
-&lt;p&gt;&amp;rdquo;&amp;ldquo;&amp;rdquo;
-Pelican plugin to replace &amp;ldquo;-&amp;rdquo; with a space in an article&amp;rsquo;s title.&amp;nbsp;&amp;ldquo;&amp;rdquo;&amp;ldquo;&lt;/p&gt;
-&lt;p&gt;from pelican import&amp;nbsp;signals&lt;/p&gt;
-&lt;p&gt;def title_capitalize(generator, metadata):
-    try:
-        metadata[&amp;ldquo;title&amp;rdquo;] = metadata[&amp;ldquo;title&amp;rdquo;].capitalize()
-    except KeyError:&amp;nbsp;pass&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;#&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;not&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;sure&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;have&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;metadata&lt;/span&gt;,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;or&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;it&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;is&lt;/span&gt;
-#&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;globally&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;updated&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;as&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;it&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;s a dictionary&lt;/span&gt;
-&lt;span class="err"&gt;return metadata&lt;/span&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2024-02-10T15:54:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>Pelican title_capitalize plugin</title><link href="https://blog.florijnconsultancy.nl/articles/pelican-title_capitalize-plugin.html" rel="alternate"></link><published>2024-02-10T15:54:00+01:00</published><updated>2024-02-10T15:54:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2024-02-10:/articles/pelican-title_capitalize-plugin.html</id><summary type="html"></summary><content type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;Pelican plugin to replace &amp;quot;-&amp;quot; with a space in an article&amp;#39;s title.&lt;/span&gt;
+&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pelican&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;signals&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;title_capitalize&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;generator&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;metadata&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;metadata&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;metadata&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;capitalize&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="ne"&gt;KeyError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;pass&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# not sure if you have to return metadata, or if it is&lt;/span&gt;
+    &lt;span class="c1"&gt;# globally updated as it&amp;#39;s a dictionary&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;metadata&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;register&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;Register the plugin pieces with Pelican.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+
+    &lt;span class="n"&gt;signals&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;article_generator_context&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;title_capitalize&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;signals&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;page_generator_context&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;title_capitalize&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;def register():
-    &amp;ldquo;&amp;rdquo;&amp;ldquo;Register the plugin pieces with&amp;nbsp;Pelican.&amp;rdquo;&amp;ldquo;&amp;rdquo;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;signals&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;article_generator_context&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;title_capitalize&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;signals&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;page_generator_context&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;title_capitalize&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&amp;rsquo;&amp;lsquo;&amp;rsquo;&lt;/p&gt;
 &lt;!-- more --&gt;</content><category term="Pelican"></category></entry><entry><title>No sound guitar rig</title><link href="https://blog.florijnconsultancy.nl/articles/no-sound-guitar-rig.html" rel="alternate"></link><published>2024-02-09T06:30:00+01:00</published><updated>2024-02-09T06:30:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2024-02-09:/articles/no-sound-guitar-rig.html</id><summary type="html"></summary><content type="html">&lt;p&gt;No sound from Motu 2 using Guitar&amp;nbsp;Rig&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;check sound&amp;nbsp;source&lt;/li&gt;
