@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - Pelican</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/pelican.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2024-02-10T15:54:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>Pelican title_capitalize plugin</title><link href="https://blog.florijnconsultancy.nl/articles/pelican-title_capitalize-plugin.html" rel="alternate"></link><published>2024-02-10T15:54:00+01:00</published><updated>2024-02-10T15:54:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2024-02-10:/articles/pelican-title_capitalize-plugin.html</id><summary type="html"></summary><content type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;[OVERVIEW] Pelican plugin to replace “-” with a space in the value of the key “title” articles and pages.&lt;/span&gt;
+
+&lt;span class="sd"&gt;[NOTE] Not possible to have expected value of “title” key without plugin:&lt;/span&gt;
+&lt;span class="sd"&gt;https://stackoverflow.com/q/64058029/5951529&lt;/span&gt;
+
+&lt;span class="sd"&gt;[REQUIRED] “FILENAME_METADATA: (?P&amp;lt;title&amp;gt;.*)” in Pelican settings;&lt;/span&gt;
+&lt;span class="sd"&gt;this is necessary so as not to add the “title” manually in each article and page.&lt;/span&gt;
+&lt;span class="sd"&gt;Otherwise error when running “pelican” command on the command line:&lt;/span&gt;
+&lt;span class="sd"&gt;“could not find information about &amp;#39;title&amp;#39;”.&lt;/span&gt;
+&lt;span class="sd"&gt;https://docs.getpelican.com/en/latest/content.html#file-metadata&lt;/span&gt;
+
+&lt;span class="sd"&gt;[REQUIRED] Set “PreserveTitle” key with any value in article/page metadata,&lt;/span&gt;
+&lt;span class="sd"&gt;if the “Title” key is specified in the metadata&lt;/span&gt;
+&lt;span class="sd"&gt;and you don’t want title_capitalize to capitalize title.&lt;/span&gt;
+
+&lt;span class="sd"&gt;[NOTE] I can’t find a solution without an additional “PreserveTitle” key:&lt;/span&gt;
+&lt;span class="sd"&gt;https://stackoverflow.com/posts/comments/136979516&lt;/span&gt;
+&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pelican&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;signals&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;title_capitalize&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;generator&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;metadata&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;[INFO] Capitalize title.&lt;/span&gt;
+
+&lt;span class="sd"&gt;    [INFO] Get the pair “key”: “value” from “generator.settings” dictionary:&lt;/span&gt;
+&lt;span class="sd"&gt;    https://stackoverflow.com/a/26660785/5951529&lt;/span&gt;
+&lt;span class="sd"&gt;    https://stackoverflow.com/a/25711744/5951529&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;FILENAME_METADATA&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s2"&gt;&amp;quot;(?P&amp;lt;title&amp;gt;.*)&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;generator&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;preservetitle&amp;quot;&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;metadata&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+
+        &lt;span class="n"&gt;metadata&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;metadata&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;capitalize&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;register&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;[INFO] Register the plugin pieces with Pelican.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;signals&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;article_generator_context&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;title_capitalize&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;signals&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;page_generator_context&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;title_capitalize&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;!-- more --&gt;</content><category term="Pelican"></category></entry></feed>
