@@ -1,114 +1,277 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
+  <head>
+    <title>Daily Scrum - Plantuml sprites demo</title>
+    <meta charset="utf-8" />
+    <meta http-equiv='content-language' content='en-gb'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="A blog featuring in-depth posts about Python, Scala, TDD, devops, security and all things development">
+<meta name="description" content="Plantuml sprites demo">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@thedigicat" />
+<meta name="twitter:title" content="Plantuml sprites demo" />
+<meta name="twitter:description" content="Read the full post on Daily Scrum" />
+<meta name="twitter:image" content="https://blog.florijnconsultancy.nl/images/.jpg" />
+    <script src="https://kit.fontawesome.com/15214b60ba.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/theme/webassets-external/d6f068766b68e3c870b584e236ee9bd5_main.css">
+    <link rel="stylesheet" href="/theme/webassets-external/5a441881e6f6e3c1e9023d30167e61cc_default.css">
+    <link href="/" rel="icon">
+    
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
 
-  <title>  Plantuml sprites demo | Daily Scrum
-</title>
-  <link rel="canonical" href="https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html">
-
-
-  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/fontawesome.min.css">
-  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/pygments/default.min.css">
-  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/theme.css">
-
-  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
-        href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml">
-  <link rel="alternate" type="application/rss+xml" title="Full RSS Feed"
-        href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml">  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
-        href="https://blog.florijnconsultancy.nl/feeds/articles.atom.xml">  <link rel="alternate" type="application/rss+xml" title="Categories RSS Feed"
-        href="https://blog.florijnconsultancy.nl/feeds/articles.rss.xml">  
-  <meta name="description" content="">
-
-
-</head>
-
-<body>
-  <header class="header">
+  <body class="preload">
     <div class="container">
-<div class="row">
-  <div class="col-sm-12">
-    <h1 class="title"><a href="https://blog.florijnconsultancy.nl/">Daily Scrum</a></h1>
-      <p class="text-muted">A personal blog</p>
-      <ul class="list-inline">
-          <li class="list-inline-item"><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
-          <li class="list-inline-item"><a href="http://python.org/" target="_blank">Python.org</a></li>
-          <li class="list-inline-item"><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
-      </ul>
-  </div>
-</div>    </div>
-  </header>
-
-  <div class="main">
-    <div class="container">
-      <h1>  Plantuml sprites&nbsp;demo
-</h1>
-      <hr>
-  <article class="article">
-    <header>
-      <ul class="list-inline">
-        <li class="list-inline-item text-muted" title="2016-05-05T08:08:00+02:00">
-          <i class="fas fa-clock"></i>
-          Thu 05 May 2016
-        </li>
-        <li class="list-inline-item">
-          <i class="fas fa-folder-open"></i>
-          <a href="https://blog.florijnconsultancy.nl/category/articles.html">articles</a>
-        </li>
-          <li class="list-inline-item">
-            <i class="fas fa-user"></i>
-              <a href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a>          </li>
-          <li class="list-inline-item">
-            <i class="fas fa-tag"></i>
-              <a href="https://blog.florijnconsultancy.nl/tag/plantuml.html">#plantuml</a>,               <a href="https://blog.florijnconsultancy.nl/tag/diagram.html">#diagram</a>          </li>
-      </ul>
-    </header>
-    <div class="content">
-      <p><img src="data:image/png;base64,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" class="uml" alt="uml diagram" title="" /></p>
-<!-- more -->
+      <div class="sidebar navigation">
+<nav>
+<div class="links">
+  <ul>
+    <li class="link"><a href="/index.html">Homepage</a></li>
+    <li class="link"><a href="/pages/about.html">About</a></li>
+    <li class="link"><a href="/archives/index.html">Archives</a></li>
+  </ul>
+</div></nav>
+<section>
+  <article class="card">
+    <a href="https://www.thedigitalcat.academy/freebie-first-class-objects">
+      <img src="/images/first-class-objects-in-python.jpg" />
+    </a>
+    <div class="body">
+      <h2>First-class objects in Python</h2>
+      <p>Higher-order functions, wrappers, and factories</p>
+      <div class="actions">
+        <a class="action" href="https://www.thedigitalcat.academy/freebie-first-class-objects">Get your FREE copy</a>
+      </div>
     </div>
   </article>
-  <hr>
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function() {
-      this.page.url = 'https://blog.florijnconsultancy.nl/articles/plantuml-sprites-demo.html';
-      this.page.identifier = 'plantuml-sprites-demo';
-    };
-    (function() {
-      var d = document;
-      var s = d.createElement('script');
-      s.src = '//dailyscrum.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript class="text-muted">
-    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-  </noscript>
+</section>
+<section>
+  <header>
+    <h2>Tags</h2>
+  </header>
+<ul class="tags">
+</ul></section>
+<section>
+  <header>
+    <h2>Categories</h2>
+  </header>
+<ul>
+  <li><a href="/category/agile.html">agile</a></li>
+  <li><a href="/category/alfred.html">Alfred</a></li>
+  <li><a href="/category/apple.html">apple</a></li>
+  <li><a href="/category/articles.html">articles</a></li>
+  <li><a href="/category/blogging.html">Blogging</a></li>
+  <li><a href="/category/diskstation.html">diskstation</a></li>
+  <li><a href="/category/install.html">install</a></li>
+  <li><a href="/category/installation.html">Installation</a></li>
+  <li><a href="/category/installing.html">Installing</a></li>
+  <li><a href="/category/java.html">java</a></li>
+  <li><a href="/category/media.html">Media</a></li>
+  <li><a href="/category/monitoring-scrum-jenkins.html">monitoring, scrum, jenkins</a></li>
+  <li><a href="/category/music.html">Music</a></li>
+  <li><a href="/category/network.html">Network</a></li>
+  <li><a href="/category/pelican.html">Pelican</a></li>
+  <li><a href="/category/plantuml.html">plantuml</a></li>
+  <li><a href="/category/productivity.html">Productivity</a></li>
+  <li><a href="/category/programming.html">programming</a></li>
+  <li><a href="/category/projectmanagement.html">projectmanagement</a></li>
+  <li><a href="/category/scrum.html">scrum</a></li>
+  <li><a href="/category/telephony.html">telephony</a></li>
+  <li><a href="/category/testautomation.html">testautomation</a></li>
+  <li><a href="/category/tools.html">Tools</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Feeds</h2>
+  </header>
+<ul>
+  <li><i class="fas fa-rss" aria-hidden="true"></i> <a href="/feeds/all.atom.xml">All posts</a></li>
+
+
+  <li><i class="fas fa-rss" aria-hidden="true"></i> <a href="/feeds/articles.atom.xml">All posts in category: articles</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Get in touch</h2>
+  </header>
+  <ul class="contact">
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+  </ul>
+</section>      </div>
+      <div class="page">
+	<header class="primary" >
+	  <button type="button">
+	    <i class="fas fa-bars"></i>
+	  </button>
+	  <p>Daily Scrum</p>
+	</header>
+	<div class="mobile-menu navigation">
+<nav>
+<div class="links">
+  <ul>
+    <li class="link"><a href="/index.html">Homepage</a></li>
+    <li class="link"><a href="/pages/about.html">About</a></li>
+    <li class="link"><a href="/archives/index.html">Archives</a></li>
+  </ul>
+</div></nav>
+<section>
+  <header>
+    <h2>Categories</h2>
+  </header>
+<ul>
+  <li><a href="/category/agile.html">agile</a></li>
+  <li><a href="/category/alfred.html">Alfred</a></li>
+  <li><a href="/category/apple.html">apple</a></li>
+  <li><a href="/category/articles.html">articles</a></li>
+  <li><a href="/category/blogging.html">Blogging</a></li>
+  <li><a href="/category/diskstation.html">diskstation</a></li>
+  <li><a href="/category/install.html">install</a></li>
+  <li><a href="/category/installation.html">Installation</a></li>
+  <li><a href="/category/installing.html">Installing</a></li>
+  <li><a href="/category/java.html">java</a></li>
+  <li><a href="/category/media.html">Media</a></li>
+  <li><a href="/category/monitoring-scrum-jenkins.html">monitoring, scrum, jenkins</a></li>
+  <li><a href="/category/music.html">Music</a></li>
+  <li><a href="/category/network.html">Network</a></li>
+  <li><a href="/category/pelican.html">Pelican</a></li>
+  <li><a href="/category/plantuml.html">plantuml</a></li>
+  <li><a href="/category/productivity.html">Productivity</a></li>
+  <li><a href="/category/programming.html">programming</a></li>
+  <li><a href="/category/projectmanagement.html">projectmanagement</a></li>
+  <li><a href="/category/scrum.html">scrum</a></li>
+  <li><a href="/category/telephony.html">telephony</a></li>
+  <li><a href="/category/testautomation.html">testautomation</a></li>
+  <li><a href="/category/tools.html">Tools</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Tags</h2>
+  </header>
+<ul class="tags">
+</ul></section>	</div>
+	
+<div class="page-content">
+  <header>
+    <h1>Plantuml sprites&nbsp;demo</h1>
+    <div class="post-info">
+      <p>By Peter Florijn - <i class="fas fa-calendar-alt"></i> <time datetime="2016-05-05T08:08:00+02:00"> Thu 05 May 2016</time></p>
+      <p class="tags">
+	<a class="tag category" href="/category/articles.html" title="All posts in category articles">articles</a>
+	<a class="tag" href="/tag/plantuml.html">plantuml</a>
+	<a class="tag" href="/tag/diagram.html">diagram</a>
+      </p>
     </div>
+  </header>
+  
+  <div class="post-content">
+    <p><img src="data:image/png;base64,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" class="uml" alt="uml diagram" title="" /></p>
+<!-- more -->
   </div>
 
-  <footer class="footer">
-    <div class="container">
-<div class="row">
-  <ul class="col-sm-6 list-inline">
-      <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/authors.html">Authors</a></li>
-    <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/archives.html">Archives</a></li>
-    <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/categories.html">Categories</a></li>
-      <li class="list-inline-item"><a href="https://blog.florijnconsultancy.nl/tags.html">Tags</a></li>
-  </ul>
-  <p class="col-sm-6 text-sm-right text-muted">
-    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
-    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
-  </p>
-</div>    </div>
-  </footer>
 
-</body>
+  <section>
+    <header>
+      <h2>Related Posts</h2>
+    </header>
+    <div class="paginated-posts">
+      <div class="posts">
+	<article class="card">
+          <a href="/articles/plantuml-azure-test.html">
+            <img src="/images/article_image_placeholder.jpg" alt="article_image_placeholder" />
+          </a>
+          <div class="body">
+            <a href="/articles/plantuml-azure-test.html"><h2>Plantuml azure&nbsp;test</h2></a>
+	    <div class="info">
+	      <p class="tags">
+		<a href="/tag/plantuml.html" class="tag">plantuml</a>
+		<a href="/tag/diagram.html" class="tag">diagram</a>
+              </p>
+	      <p><i class="fas fa-calendar-alt"></i> <time datetime="2023-01-18T07:03:00+01:00">Jan 18, 2023</time></p>
+	      <p><i class="fas fa-edit"></i> Updated on <time datetime="2023-01-18T07:03:00+01:00">Jan 18, 2023</time></p>
+	    </div>
+          </div>
+	</article>
+	<article class="card">
+          <a href="/articles/azure.html">
+            <img src="/images/article_image_placeholder.jpg" alt="article_image_placeholder" />
+          </a>
+          <div class="body">
+            <a href="/articles/azure.html"><h2>Azure</h2></a>
+	    <div class="info">
+	      <p class="tags">
+		<a href="/tag/plantuml.html" class="tag">plantuml</a>
+		<a href="/tag/diagram.html" class="tag">diagram</a>
+		<a href="/tag/cloud-architecture.html" class="tag">cloud architecture</a>
+              </p>
+	      <p><i class="fas fa-calendar-alt"></i> <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	      <p><i class="fas fa-edit"></i> Updated on <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	    </div>
+          </div>
+	</article>
+	<article class="card">
+          <a href="/articles/office-example-1.html">
+            <img src="/images/article_image_placeholder.jpg" alt="article_image_placeholder" />
+          </a>
+          <div class="body">
+            <a href="/articles/office-example-1.html"><h2>Office example&nbsp;1</h2></a>
+	    <div class="info">
+	      <p class="tags">
+		<a href="/tag/plantuml.html" class="tag">plantuml</a>
+		<a href="/tag/diagram.html" class="tag">diagram</a>
+              </p>
+	      <p><i class="fas fa-calendar-alt"></i> <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	      <p><i class="fas fa-edit"></i> Updated on <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	    </div>
+          </div>
+	</article>
+	<article class="card">
+          <a href="/articles/plantuml-archimate-example-2.html">
+            <img src="/images/article_image_placeholder.jpg" alt="article_image_placeholder" />
+          </a>
+          <div class="body">
+            <a href="/articles/plantuml-archimate-example-2.html"><h2>Plantuml archimate example&nbsp;2</h2></a>
+	    <div class="info">
+	      <p class="tags">
+		<a href="/tag/plantuml.html" class="tag">plantuml</a>
+		<a href="/tag/diagram.html" class="tag">diagram</a>
+		<a href="/tag/archimate.html" class="tag">archimate</a>
+		<a href="/tag/architecture.html" class="tag">architecture</a>
+              </p>
+	      <p><i class="fas fa-calendar-alt"></i> <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	      <p><i class="fas fa-edit"></i> Updated on <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	    </div>
+          </div>
+	</article>
+	<article class="card">
+          <a href="/articles/plantuml-google-example.html">
+            <img src="/images/article_image_placeholder.jpg" alt="article_image_placeholder" />
+          </a>
+          <div class="body">
+            <a href="/articles/plantuml-google-example.html"><h2>Plantuml google&nbsp;example</h2></a>
+	    <div class="info">
+	      <p class="tags">
+		<a href="/tag/plantuml.html" class="tag">plantuml</a>
+		<a href="/tag/diagram.html" class="tag">diagram</a>
+              </p>
+	      <p><i class="fas fa-calendar-alt"></i> <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	      <p><i class="fas fa-edit"></i> Updated on <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	    </div>
+          </div>
+	</article>
+      </div>
+    </div>
+  </section>
+  
+</div>
 
+      </div>
+    </div>
+    <script src="/theme/webassets-external/b2f9f1f7cc99a87438ace3f23992bc13_main.js"></script>
+
+  </body>
 </html>
