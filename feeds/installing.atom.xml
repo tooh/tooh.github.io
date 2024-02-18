@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - Installing</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/installing.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2014-03-15T11:05:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>Installing php and laravel environment</title><link href="https://blog.florijnconsultancy.nl/articles/installing-php-and-laravel-environment.html" rel="alternate"></link><published>2014-03-15T11:05:00+01:00</published><updated>2014-03-15T11:05:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-03-15:/articles/installing-php-and-laravel-environment.html</id><summary type="html">&lt;p&gt;Laravel&amp;nbsp;environment&lt;/p&gt;</summary><content type="html">&lt;p&gt;I recently got involved in a project that uses &lt;span class="caps"&gt;PHP&lt;/span&gt; and Laravel as a framework. I never used &lt;span class="caps"&gt;PHP&lt;/span&gt; before so this means starting from scratch by preparing my &lt;span class="caps"&gt;OSX&lt;/span&gt; environment for some &lt;span class="caps"&gt;QA&lt;/span&gt; and probably some minor development&amp;nbsp;work.&lt;/p&gt;
+&lt;p&gt;I found a post that seems to cover the installation on &lt;span class="caps"&gt;OSX&lt;/span&gt; of the necessary&amp;nbsp;components.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.createdbypete.com/articles/php-54-development-on-os-x-with-mysql-and-laravel-4/"&gt;&lt;span class="caps"&gt;PHP&lt;/span&gt; 54 development on &lt;span class="caps"&gt;OSX&lt;/span&gt; with mysql and Laravel&amp;nbsp;4&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;During the installation I got an error with installing&amp;nbsp;zlib. &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;22&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;The&lt;span class="w"&gt; &lt;/span&gt;requested&lt;span class="w"&gt; &lt;/span&gt;URL&lt;span class="w"&gt; &lt;/span&gt;returned&lt;span class="w"&gt; &lt;/span&gt;error:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;404&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;Not&lt;span class="w"&gt; &lt;/span&gt;Found
+Error:&lt;span class="w"&gt; &lt;/span&gt;Failed&lt;span class="w"&gt; &lt;/span&gt;to&lt;span class="w"&gt; &lt;/span&gt;download&lt;span class="w"&gt; &lt;/span&gt;resource&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;zlib&amp;quot;&lt;/span&gt;
+Download&lt;span class="w"&gt; &lt;/span&gt;failed:&lt;span class="w"&gt; &lt;/span&gt;http://zlib.net/zlib-1.2.7.tar.gz
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This error was corrected folowing this&amp;nbsp;solution&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/josegonzalez/homebrew-php/issues/575"&gt;https://github.com/josegonzalez/homebrew-php/issues/575&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Laravel requires the &lt;span class="caps"&gt;PHP&lt;/span&gt; Mcrypt module. In an earlier attempt I had some trouble to get this working in my environment, but now in this setup using this&amp;nbsp;command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;php54-mcrypt
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;installed it&amp;nbsp;correctly.&lt;/p&gt;</content><category term="Installing"></category><category term="php"></category><category term="laravel"></category></entry></feed>

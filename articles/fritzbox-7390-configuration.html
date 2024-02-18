@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Daily Scrum - Fritz!box 7390 configuration</title>
+    <meta charset="utf-8" />
+    <meta http-equiv='content-language' content='en-gb'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="A blog featuring in-depth posts about Python, Scala, TDD, devops, security and all things development">
+<meta name="description" content="Fritz!box 7390 configuration">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@thedigicat" />
+<meta name="twitter:title" content="Fritz!box 7390 configuration" />
+<meta name="twitter:description" content="Read the full post on Daily Scrum" />
+<meta name="twitter:image" content="https://blog.florijnconsultancy.nl/images/.jpg" />
+    <script src="https://kit.fontawesome.com/15214b60ba.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/theme/webassets-external/d6f068766b68e3c870b584e236ee9bd5_main.css">
+    <link rel="stylesheet" href="/theme/webassets-external/5a441881e6f6e3c1e9023d30167e61cc_default.css">
+    <link href="/" rel="icon">
+    
+
+  </head>
+
+  <body class="preload">
+    <div class="container">
+      <div class="sidebar navigation">
+<nav>
+<div class="links">
+  <ul>
+    <li class="link"><a href="/index.html">Homepage</a></li>
+    <li class="link"><a href="/pages/about.html">About</a></li>
+    <li class="link"><a href="/archives/index.html">Archives</a></li>
+  </ul>
+</div></nav>
+<section>
+  <article class="card">
+    <a href="https://www.thedigitalcat.academy/freebie-first-class-objects">
+      <img src="/images/first-class-objects-in-python.jpg" />
+    </a>
+    <div class="body">
+      <h2>First-class objects in Python</h2>
+      <p>Higher-order functions, wrappers, and factories</p>
+      <div class="actions">
+        <a class="action" href="https://www.thedigitalcat.academy/freebie-first-class-objects">Get your FREE copy</a>
+      </div>
+    </div>
+  </article>
+</section>
+<section>
+  <header>
+    <h2>Tags</h2>
+  </header>
+<ul class="tags">
+</ul></section>
+<section>
+  <header>
+    <h2>Categories</h2>
+  </header>
+<ul>
+  <li><a href="/category/agile.html">agile</a></li>
+  <li><a href="/category/alfred.html">Alfred</a></li>
+  <li><a href="/category/apple.html">apple</a></li>
+  <li><a href="/category/articles.html">articles</a></li>
+  <li><a href="/category/blogging.html">Blogging</a></li>
+  <li><a href="/category/diskstation.html">diskstation</a></li>
+  <li><a href="/category/install.html">install</a></li>
+  <li><a href="/category/installation.html">Installation</a></li>
+  <li><a href="/category/installing.html">Installing</a></li>
+  <li><a href="/category/java.html">java</a></li>
+  <li><a href="/category/macos.html">macos</a></li>
+  <li><a href="/category/media.html">Media</a></li>
+  <li><a href="/category/monitoring-scrum-jenkins.html">monitoring, scrum, jenkins</a></li>
+  <li><a href="/category/music.html">Music</a></li>
+  <li><a href="/category/network.html">Network</a></li>
+  <li><a href="/category/pelican.html">Pelican</a></li>
+  <li><a href="/category/plantuml.html">plantuml</a></li>
+  <li><a href="/category/productivity.html">Productivity</a></li>
+  <li><a href="/category/programming.html">programming</a></li>
+  <li><a href="/category/projectmanagement.html">projectmanagement</a></li>
+  <li><a href="/category/scrum.html">scrum</a></li>
+  <li><a href="/category/telephony.html">telephony</a></li>
+  <li><a href="/category/testautomation.html">testautomation</a></li>
+  <li><a href="/category/tools.html">Tools</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Feeds</h2>
+  </header>
+<ul>
+  <li><i class="fas fa-rss" aria-hidden="true"></i> <a href="/feeds/all.atom.xml">All posts</a></li>
+
+
+  <li><i class="fas fa-rss" aria-hidden="true"></i> <a href="/feeds/telephony.atom.xml">All posts in category: telephony</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Get in touch</h2>
+  </header>
+  <ul class="contact">
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+  </ul>
+</section>      </div>
+      <div class="page">
+	<header class="primary" >
+	  <button type="button">
+	    <i class="fas fa-bars"></i>
+	  </button>
+	  <p>Daily Scrum</p>
+	</header>
+	<div class="mobile-menu navigation">
+<nav>
+<div class="links">
+  <ul>
+    <li class="link"><a href="/index.html">Homepage</a></li>
+    <li class="link"><a href="/pages/about.html">About</a></li>
+    <li class="link"><a href="/archives/index.html">Archives</a></li>
+  </ul>
+</div></nav>
+<section>
+  <header>
+    <h2>Categories</h2>
+  </header>
+<ul>
+  <li><a href="/category/agile.html">agile</a></li>
+  <li><a href="/category/alfred.html">Alfred</a></li>
+  <li><a href="/category/apple.html">apple</a></li>
+  <li><a href="/category/articles.html">articles</a></li>
+  <li><a href="/category/blogging.html">Blogging</a></li>
+  <li><a href="/category/diskstation.html">diskstation</a></li>
+  <li><a href="/category/install.html">install</a></li>
+  <li><a href="/category/installation.html">Installation</a></li>
+  <li><a href="/category/installing.html">Installing</a></li>
+  <li><a href="/category/java.html">java</a></li>
+  <li><a href="/category/macos.html">macos</a></li>
+  <li><a href="/category/media.html">Media</a></li>
+  <li><a href="/category/monitoring-scrum-jenkins.html">monitoring, scrum, jenkins</a></li>
+  <li><a href="/category/music.html">Music</a></li>
+  <li><a href="/category/network.html">Network</a></li>
+  <li><a href="/category/pelican.html">Pelican</a></li>
+  <li><a href="/category/plantuml.html">plantuml</a></li>
+  <li><a href="/category/productivity.html">Productivity</a></li>
+  <li><a href="/category/programming.html">programming</a></li>
+  <li><a href="/category/projectmanagement.html">projectmanagement</a></li>
+  <li><a href="/category/scrum.html">scrum</a></li>
+  <li><a href="/category/telephony.html">telephony</a></li>
+  <li><a href="/category/testautomation.html">testautomation</a></li>
+  <li><a href="/category/tools.html">Tools</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Tags</h2>
+  </header>
+<ul class="tags">
+</ul></section>	</div>
+	
+<div class="page-content">
+  <header>
+    <h1>Fritz!box 7390&nbsp;configuration</h1>
+    <div class="post-info">
+      <p>By Peter Florijn - <i class="fas fa-calendar-alt"></i> <time datetime="2013-05-09T12:32:00+02:00"> Thu 09 May 2013</time></p>
+      <p class="tags">
+	<a class="tag category" href="/category/telephony.html" title="All posts in category telephony">telephony</a>
+	<a class="tag" href="/tag/telephony.html">telephony</a>
+	<a class="tag" href="/tag/voip.html">VOIP</a>
+      </p>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <p>I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (<span class="caps">POTS</span>) in my daily workflow on my&nbsp;Mac.</p>
+<p>In this article I will describe the configuration and add-ons I&nbsp;installed.</p>
+<!-- more -->
+
+<h2 id="contents">Contents<a class="headerlink" href="#contents" title="Permanent link">&para;</a></h2>
+<div class="toc">
+<ul>
+<li><a href="#contents">Contents</a></li>
+<li><a href="#the-fritzbox">The Fritz!Box</a><ul>
+<li><a href="#options">Options</a></li>
+</ul>
+</li>
+<li><a href="#internet-access">Internet access</a><ul>
+<li><a href="#using-the-internet-connection-of-another-router-with-fritzbox">Using the Internet connection of another router with <span class="caps">FRITZ</span>!Box</a></li>
+</ul>
+</li>
+<li><a href="#analog-telephony-cisco-epc3212">Analog telephony (Cisco <span class="caps">EPC3212</span>)</a><ul>
+<li><a href="#connections-for-tel-1-tel-2">Connections for <span class="caps">TEL</span> 1 / <span class="caps">TEL</span>&nbsp;2</a></li>
+<li><a href="#fritzbox-connections">Fritz!Box&nbsp;connections</a></li>
+<li><a href="#connection-to-a-cable-modem">Connection to a cable&nbsp;modem</a></li>
+<li><a href="#dect-telephone-device"><span class="caps">DECT</span> telephone&nbsp;device</a></li>
+</ul>
+</li>
+<li><a href="#voip-telephony"><span class="caps">VOIP</span>&nbsp;telephony</a></li>
+<li><a href="#add-ons">Add-ons</a><ul>
+<li><a href="#alfred-workflow">Alfred&nbsp;workflow</a></li>
+<li><a href="#call-diversion-from-script">Call diversion from&nbsp;script</a></li>
+<li><a href="#frizzix-call-monitor-mac">Frizzix Call monitor (<span class="caps">MAC</span>)</a></li>
+<li><a href="#fritzbox-browser-add-on">Fritz!Box browser&nbsp;add-on</a></li>
+<li><a href="#dialing-scripts">dialing&nbsp;scripts</a></li>
+<li><a href="#pop3-mail-checker-and-alert-on-fritzbox"><span class="caps">POP3</span> mail checker and alert on&nbsp;Fritz!Box</a></li>
+<li><a href="#fhem">fhem</a></li>
+<li><a href="#synology-diskstation-front-end">Synology Diskstation&nbsp;front-end</a></li>
+</ul>
+</li>
+<li><a href="#references">References</a></li>
+</ul>
+</div>
+<h2 id="the-fritzbox">The Fritz!Box<a class="headerlink" href="#the-fritzbox" title="Permanent link">&para;</a></h2>
+<p><img alt="Fritz!Box 3790" src="https://blog.florijnconsultancy.nl/images/fritzbox_7390product.jpg"></p>
+<p><a href="http://www.avm.de/en/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7390/index.php">The Fritz!Box&nbsp;7390</a></p>
+<h3 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h3>
+<h2 id="internet-access">Internet access<a class="headerlink" href="#internet-access" title="Permanent link">&para;</a></h2>
+<p>I have a <span class="caps">UPC</span> cable&nbsp;modem </p>
+<p><a href="http://192.168.100.1"><span class="caps">CISCO</span> <span class="caps">EPC3212</span></a></p>
+<p><a href="http://www.cisco.com/web/consumer/support/userguides2/4021203A.pdf">Cisco <span class="caps">EPC3212</span> User&nbsp;manual</a></p>
+<p><img alt="Typical setup" src="https://blog.florijnconsultancy.nl/images/ciscoEPC3212setup.png"></p>
+<h3 id="using-the-internet-connection-of-another-router-with-fritzbox">Using the Internet connection of another router with <span class="caps">FRITZ</span>!Box<a class="headerlink" href="#using-the-internet-connection-of-another-router-with-fritzbox" title="Permanent link">&para;</a></h3>
+<p><a href="http://service.avm.de/support/en/SKB/FRITZ-Box-7390-int/598:Using-the-Internet-connection-of-another-router-with-FRITZ-Box">Using the Internet connection of another router with <span class="caps">FRITZ</span>!Box</a></p>
+<h2 id="analog-telephony-cisco-epc3212">Analog telephony (Cisco <span class="caps">EPC3212</span>)<a class="headerlink" href="#analog-telephony-cisco-epc3212" title="Permanent link">&para;</a></h2>
+<h4 id="connections-for-tel-1-tel-2">Connections for <span class="caps">TEL</span> 1 / <span class="caps">TEL</span> 2<a class="headerlink" href="#connections-for-tel-1-tel-2" title="Permanent link">&para;</a></h4>
+<p><img alt="TEL 1/TEL 2 connections" src="/images/EPC3212.png"></p>
+<h4 id="fritzbox-connections">Fritz!Box connections<a class="headerlink" href="#fritzbox-connections" title="Permanent link">&para;</a></h4>
+<p><img alt="Fritz!Box 3790" src="/images/fritzbox_7390.jpg"></p>
+<h4 id="connection-to-a-cable-modem">Connection to a cable modem<a class="headerlink" href="#connection-to-a-cable-modem" title="Permanent link">&para;</a></h4>
+<p><a href="http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/700:Connecting-FRITZ-Box-to-a-cable-modem">Connection to a cable&nbsp;modem</a></p>
+<p>I wanted to use the Fritz!Box as part of my existing network.
+I decided not to use the <span class="caps">WLAN</span> option of the Fritz!Box, but instead I bought a Fritz! Powerline 520 E set, because I did not have a cabled network connection on the location where the Internet modem was located. In this setup I could connect the Internet modem to the <span class="caps">LAN</span> 1/<span class="caps">WAN</span> connection of my&nbsp;Fritz!Box.</p>
+<h3 id="dect-telephone-device"><span class="caps">DECT</span> telephone device<a class="headerlink" href="#dect-telephone-device" title="Permanent link">&para;</a></h3>
+<p>The Fritz!Box 7390 offers a basestation, upto 6 <span class="caps">DECT</span> telephones can be&nbsp;connected. </p>
+<p>Note: For now I do not have any <span class="caps">DECT</span> phones&nbsp;connected. </p>
+<p>Update: Some developments here. I bought a <span class="caps">DECT</span> Gigaset <span class="caps">A420A</span> <span class="caps">TRIO</span>. When they are setup I will update my&nbsp;findings.</p>
+<h2 id="voip-telephony"><span class="caps">VOIP</span> telephony<a class="headerlink" href="#voip-telephony" title="Permanent link">&para;</a></h2>
+<p>For <span class="caps">OSX</span> there are several softphone apps&nbsp;available:</p>
+<p><a href="http://www.tlphn.com/">Telephone</a></p>
+<p><a href="http://counterpath.s3.amazonaws.com/downloads/X-Lite_Mac_3520g_70143.dmg">Counterpath&nbsp;X-Lite</a></p>
+<h2 id="add-ons">Add-ons<a class="headerlink" href="#add-ons" title="Permanent link">&para;</a></h2>
+<h3 id="alfred-workflow">Alfred workflow<a class="headerlink" href="#alfred-workflow" title="Permanent link">&para;</a></h3>
+<p>I created a simple Alfred 2 workflow that calls the Frizzix dial&nbsp;helper.</p>
+<p>Use keyword &ldquo;Dial&rdquo; to trigger a little Applescript that&nbsp;contains:</p>
+<div class="highlight"><pre><span></span><span class="k">on</span> <span class="nv">alfred_script</span><span class="p">(</span><span class="nv">q</span><span class="p">)</span>
+    <span class="k">set</span> <span class="nv">TelNumber</span> <span class="k">to</span> <span class="nv">q</span> <span class="k">as </span><span class="nc">string</span>
+    <span class="k">set</span> <span class="nv">Tel</span> <span class="k">to</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">repeat</span> <span class="nv">with</span> <span class="nv">each</span> <span class="k">in</span> <span class="nv">TelNumber</span>
+        <span class="k">if</span> <span class="s2">&quot;+1234567890&quot;</span> <span class="ow">contains</span> <span class="nv">each</span> <span class="k">then</span> <span class="k">set</span> <span class="nv">Tel</span> <span class="k">to</span> <span class="nv">Tel</span> <span class="o">&amp;</span> <span class="nv">each</span>
+    <span class="k">end</span> <span class="k">repeat</span>
+    <span class="k">tell</span> <span class="nb">application</span> <span class="s2">&quot;Frizzix&quot;</span>
+        <span class="nv">dialInstantly</span> <span class="nv">Tel</span>
+    <span class="k">end</span> <span class="k">tell</span>
+<span class="k">end</span> <span class="nv">alfred_script</span>
+</pre></div>
+
+
+<h3 id="call-diversion-from-script">Call diversion from script<a class="headerlink" href="#call-diversion-from-script" title="Permanent link">&para;</a></h3>
+<p><a href="http://www.robbastiaansen.nl/node/51">Call diversion&nbsp;script</a></p>
+<h3 id="frizzix-call-monitor-mac">Frizzix Call monitor (<span class="caps">MAC</span>)<a class="headerlink" href="#frizzix-call-monitor-mac" title="Permanent link">&para;</a></h3>
+<p><a href="http://mac.frizzix.de/en/">Frizzix</a></p>
+<p>I also&nbsp;installed:</p>
+<ul>
+<li>
+<p>the Address Book&nbsp;Plugin</p>
+</li>
+<li>
+<p>Services&nbsp;plugin</p>
+</li>
+</ul>
+<h3 id="fritzbox-browser-add-on">Fritz!Box browser add-on<a class="headerlink" href="#fritzbox-browser-add-on" title="Permanent link">&para;</a></h3>
+<p><a href="http://www.avm.de/de/Service/FRITZ_Tools/browser_plugin.html">Add-on for&nbsp;Firefox</a></p>
+<p>Note: it seems that in my setup phone numbers are recognized in webpages, but dialing out does not&nbsp;work.</p>
+<h3 id="dialing-scripts">dialing scripts<a class="headerlink" href="#dialing-scripts" title="Permanent link">&para;</a></h3>
+<p><a href="http://wehavemorefun.de/fritzbox/W%C3%A4hlen_aus_OS_X_Adressbuch">Dialing from Address&nbsp;book</a></p>
+<h3 id="pop3-mail-checker-and-alert-on-fritzbox"><span class="caps">POP3</span> mail checker and alert on Fritz!Box<a class="headerlink" href="#pop3-mail-checker-and-alert-on-fritzbox" title="Permanent link">&para;</a></h3>
+<p><a href="http://wehavemorefun.de/fritzbox/POP3-Robot"><span class="caps">POP3</span>-Robot</a></p>
+<h3 id="fhem">fhem<a class="headerlink" href="#fhem" title="Permanent link">&para;</a></h3>
+<p><a href="http://fhem.de/fritzbox.html">fhem</a></p>
+<h3 id="synology-diskstation-front-end">Synology Diskstation front-end<a class="headerlink" href="#synology-diskstation-front-end" title="Permanent link">&para;</a></h3>
+<p><a href="http://spk.q14six.de/">Fritz!Box front-end&nbsp;package</a></p>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<p>[1] <a href="http://http://en.wikipedia.org/wiki/Plain_old_telephone_service"><span class="caps">POTS</span></a></p>
+<p>[2] <a href="http://www.avm.de"><span class="caps">AVM</span></a></p>
+<p>[3] <a href="http://http://service.avm.de/support/en/skb/FRITZ-Box-7390-int/page:1"><span class="caps">AVM</span> Knowledge&nbsp;base</a></p>
+<p>[4] <a href="http://http://www.thinkbroadband.com/hardware/reviews/73-fritzbox-7390.html">Think broadband&nbsp;review</a> </p>
+  </div>
+
+
+  
+</div>
+
+      </div>
+    </div>
+    <script src="/theme/webassets-external/b2f9f1f7cc99a87438ace3f23992bc13_main.js"></script>
+
+  </body>
+</html>
