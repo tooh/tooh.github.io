@@ -1,78 +1,179 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-          <title>Daily Scrum - Install gollum on osx el capitan</title>
-        <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
-        <link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Daily Scrum Full Atom Feed" />
-        <link href="https://blog.florijnconsultancy.nl/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Daily Scrum Full RSS Feed" />
-        <link href="https://blog.florijnconsultancy.nl/feeds/articles.atom.xml" type="application/atom+xml" rel="alternate" title="Daily Scrum Categories Atom Feed" />
-        <link href="https://blog.florijnconsultancy.nl/feeds/articles.rss.xml" type="application/rss+xml" rel="alternate" title="Daily Scrum Categories RSS Feed" />
+  <head>
+    <title>Daily Scrum - Install gollum on osx el capitan</title>
+    <meta charset="utf-8" />
+    <meta http-equiv='content-language' content='en-gb'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="A blog featuring in-depth posts about Python, Scala, TDD, devops, security and all things development">
+<meta name="description" content="Install gollum on osx el capitan">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@thedigicat" />
+<meta name="twitter:title" content="Install gollum on osx el capitan" />
+<meta name="twitter:description" content="Read the full post on Daily Scrum" />
+<meta name="twitter:image" content="https://blog.florijnconsultancy.nl/images/.jpg" />
+    <script src="https://kit.fontawesome.com/15214b60ba.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/theme/webassets-external/d6f068766b68e3c870b584e236ee9bd5_main.css">
+    <link rel="stylesheet" href="/theme/webassets-external/5a441881e6f6e3c1e9023d30167e61cc_default.css">
+    <link href="/" rel="icon">
+    
 
+  </head>
 
-
-
-    <meta name="tags" content="ruby" />
-    <meta name="tags" content="gollum" />
-    <meta name="tags" content="wiki" />
-
-</head>
-
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://blog.florijnconsultancy.nl/">Daily Scrum <strong>A personal blog</strong></a></h1>
-        </header><!-- /#banner -->
-        <nav id="menu"><ul>
-            <li><a href="https://blog.florijnconsultancy.nl/category/agile.html">agile</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/alfred.html">Alfred</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/apple.html">apple</a></li>
-            <li class="active"><a href="https://blog.florijnconsultancy.nl/category/articles.html">articles</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/blogging.html">Blogging</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/diskstation.html">diskstation</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/install.html">install</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/installing.html">Installing</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/java.html">java</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/macos.html">macos</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/media.html">Media</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/monitoring-scrum-jenkins.html">monitoring, scrum, jenkins</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/music.html">Music</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/network.html">Network</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/pelican.html">Pelican</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/plantuml.html">plantuml</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/productivity.html">Productivity</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/programming.html">programming</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/projectmanagement.html">projectmanagement</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/scrum.html">scrum</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/telephony.html">telephony</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/testautomation.html">testautomation</a></li>
-            <li><a href="https://blog.florijnconsultancy.nl/category/tools.html">Tools</a></li>
-        </ul></nav><!-- /#menu -->
-<section id="content" class="body">
+  <body class="preload">
+    <div class="container">
+      <div class="sidebar navigation">
+<nav>
+<div class="links">
+  <ul>
+    <li class="link"><a href="/index.html">Homepage</a></li>
+    <li class="link"><a href="/pages/about.html">About</a></li>
+    <li class="link"><a href="/archives/index.html">Archives</a></li>
+  </ul>
+</div></nav>
+<section>
+  <article class="card">
+    <a href="https://www.thedigitalcat.academy/freebie-first-class-objects">
+      <img src="/images/first-class-objects-in-python.jpg" />
+    </a>
+    <div class="body">
+      <h2>First-class objects in Python</h2>
+      <p>Higher-order functions, wrappers, and factories</p>
+      <div class="actions">
+        <a class="action" href="https://www.thedigitalcat.academy/freebie-first-class-objects">Get your FREE copy</a>
+      </div>
+    </div>
+  </article>
+</section>
+<section>
   <header>
-    <h2 class="entry-title">
-      <a href="https://blog.florijnconsultancy.nl/articles/install-gollum-on-osx-el-capitan.html" rel="bookmark"
-         title="Permalink to Install gollum on osx el capitan">Install gollum on <span class="caps">osx</span> el&nbsp;capitan</a></h2>
- 
+    <h2>Tags</h2>
   </header>
-  <footer class="post-info">
-    <time class="published" datetime="2016-04-03T08:46:00+02:00">
-      Sun 03 April 2016
-    </time>
-    <address class="vcard author">
-      By           <a class="url fn" href="https://blog.florijnconsultancy.nl/author/peter-florijn.html">Peter Florijn</a>
-    </address>
-    <div class="category">
-        Category: <a href="https://blog.florijnconsultancy.nl/category/articles.html">articles</a>
+<ul class="tags">
+</ul></section>
+<section>
+  <header>
+    <h2>Categories</h2>
+  </header>
+<ul>
+  <li><a href="/category/agile.html">agile</a></li>
+  <li><a href="/category/alfred.html">Alfred</a></li>
+  <li><a href="/category/apple.html">apple</a></li>
+  <li><a href="/category/articles.html">articles</a></li>
+  <li><a href="/category/blogging.html">Blogging</a></li>
+  <li><a href="/category/diskstation.html">diskstation</a></li>
+  <li><a href="/category/install.html">install</a></li>
+  <li><a href="/category/installation.html">Installation</a></li>
+  <li><a href="/category/installing.html">Installing</a></li>
+  <li><a href="/category/java.html">java</a></li>
+  <li><a href="/category/macos.html">macos</a></li>
+  <li><a href="/category/media.html">Media</a></li>
+  <li><a href="/category/monitoring-scrum-jenkins.html">monitoring, scrum, jenkins</a></li>
+  <li><a href="/category/music.html">Music</a></li>
+  <li><a href="/category/network.html">Network</a></li>
+  <li><a href="/category/pelican.html">Pelican</a></li>
+  <li><a href="/category/plantuml.html">plantuml</a></li>
+  <li><a href="/category/productivity.html">Productivity</a></li>
+  <li><a href="/category/programming.html">programming</a></li>
+  <li><a href="/category/projectmanagement.html">projectmanagement</a></li>
+  <li><a href="/category/scrum.html">scrum</a></li>
+  <li><a href="/category/telephony.html">telephony</a></li>
+  <li><a href="/category/testautomation.html">testautomation</a></li>
+  <li><a href="/category/tools.html">Tools</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Feeds</h2>
+  </header>
+<ul>
+  <li><i class="fas fa-rss" aria-hidden="true"></i> <a href="/feeds/all.atom.xml">All posts</a></li>
+
+
+  <li><i class="fas fa-rss" aria-hidden="true"></i> <a href="/feeds/articles.atom.xml">All posts in category: articles</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Get in touch</h2>
+  </header>
+  <ul class="contact">
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+    <li><i class="fab fa-" aria-hidden="true"></i> <a href=""></a></li>
+  </ul>
+</section>      </div>
+      <div class="page">
+	<header class="primary" >
+	  <button type="button">
+	    <i class="fas fa-bars"></i>
+	  </button>
+	  <p>Daily Scrum</p>
+	</header>
+	<div class="mobile-menu navigation">
+<nav>
+<div class="links">
+  <ul>
+    <li class="link"><a href="/index.html">Homepage</a></li>
+    <li class="link"><a href="/pages/about.html">About</a></li>
+    <li class="link"><a href="/archives/index.html">Archives</a></li>
+  </ul>
+</div></nav>
+<section>
+  <header>
+    <h2>Categories</h2>
+  </header>
+<ul>
+  <li><a href="/category/agile.html">agile</a></li>
+  <li><a href="/category/alfred.html">Alfred</a></li>
+  <li><a href="/category/apple.html">apple</a></li>
+  <li><a href="/category/articles.html">articles</a></li>
+  <li><a href="/category/blogging.html">Blogging</a></li>
+  <li><a href="/category/diskstation.html">diskstation</a></li>
+  <li><a href="/category/install.html">install</a></li>
+  <li><a href="/category/installation.html">Installation</a></li>
+  <li><a href="/category/installing.html">Installing</a></li>
+  <li><a href="/category/java.html">java</a></li>
+  <li><a href="/category/macos.html">macos</a></li>
+  <li><a href="/category/media.html">Media</a></li>
+  <li><a href="/category/monitoring-scrum-jenkins.html">monitoring, scrum, jenkins</a></li>
+  <li><a href="/category/music.html">Music</a></li>
+  <li><a href="/category/network.html">Network</a></li>
+  <li><a href="/category/pelican.html">Pelican</a></li>
+  <li><a href="/category/plantuml.html">plantuml</a></li>
+  <li><a href="/category/productivity.html">Productivity</a></li>
+  <li><a href="/category/programming.html">programming</a></li>
+  <li><a href="/category/projectmanagement.html">projectmanagement</a></li>
+  <li><a href="/category/scrum.html">scrum</a></li>
+  <li><a href="/category/telephony.html">telephony</a></li>
+  <li><a href="/category/testautomation.html">testautomation</a></li>
+  <li><a href="/category/tools.html">Tools</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Tags</h2>
+  </header>
+<ul class="tags">
+</ul></section>	</div>
+	
+<div class="page-content">
+  <header>
+    <h1>Install gollum on <span class="caps">osx</span> el&nbsp;capitan</h1>
+    <div class="post-info">
+      <p>By Peter Florijn - <i class="fas fa-calendar-alt"></i> <time datetime="2016-04-03T08:46:00+02:00"> Sun 03 April 2016</time></p>
+      <p class="tags">
+	<a class="tag category" href="/category/articles.html" title="All posts in category articles">articles</a>
+	<a class="tag" href="/tag/ruby.html">ruby</a>
+	<a class="tag" href="/tag/gollum.html">gollum</a>
+	<a class="tag" href="/tag/wiki.html">wiki</a>
+      </p>
     </div>
-    <div class="tags">
-        Tags:
-            <a href="https://blog.florijnconsultancy.nl/tag/ruby.html">ruby</a>
-            <a href="https://blog.florijnconsultancy.nl/tag/gollum.html">gollum</a>
-            <a href="https://blog.florijnconsultancy.nl/tag/wiki.html">wiki</a>
-    </div>
-  </footer><!-- /.post-info -->
-  <div class="entry-content">
+  </header>
+  
+  <div class="post-content">
     <p>Gollum is a simple wiki that uses git as its&nbsp;database.</p>
 <p>When you want to install this on <span class="caps">OSX</span> you can encounter some errors. In this post I describe the recipe I used to install on my <span class="caps">OSX</span> El&nbsp;Capitan</p>
 <!-- more -->
@@ -89,13 +190,40 @@
 <p><code>gem install gollum</code></p>
 <p>More&nbsp;info</p>
 <p><a href="">https://gitlab.com/gitlab-org/gollum-lib</a></p>
-  </div><!-- /.entry-content -->
-</section>
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="https://www.python.org/">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
-</body>
+  </div>
+
+
+  <section>
+    <header>
+      <h2>Related Posts</h2>
+    </header>
+    <div class="paginated-posts">
+      <div class="posts">
+	<article class="card">
+          <a href="/articles/static-blog-with-jekylloctopress.html">
+            <img src="/images/article_image_placeholder.jpg" alt="article_image_placeholder" />
+          </a>
+          <div class="body">
+            <a href="/articles/static-blog-with-jekylloctopress.html"><h2>Static blog with&nbsp;jekyll/octopress</h2></a>
+	    <div class="info">
+	      <p class="tags">
+		<a href="/tag/github.html" class="tag">github</a>
+		<a href="/tag/blog.html" class="tag">blog</a>
+		<a href="/tag/ruby.html" class="tag">ruby</a>
+              </p>
+	      <p><i class="fas fa-calendar-alt"></i> <time datetime="2013-04-20T21:00:00+02:00">Apr 20, 2013</time></p>
+	    </div>
+          </div>
+	</article>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+      </div>
+    </div>
+    <script src="/theme/webassets-external/b2f9f1f7cc99a87438ace3f23992bc13_main.js"></script>
+
+  </body>
 </html>
