@@ -11,7 +11,10 @@
 &lt;ul&gt;
 &lt;li&gt;File-&amp;gt; Export&amp;nbsp;audio.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class="admonition important"&gt;
+&lt;p class="admonition-title"&gt;Important&lt;/p&gt;
 &lt;p&gt;Make sure that you check the correct settings in Arrangement&amp;nbsp;view:&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;Check&amp;nbsp;for: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Master&lt;/li&gt;
