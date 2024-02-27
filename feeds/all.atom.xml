@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2024-02-27T11:34:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>Recording in ableton with motu m2 loopback</title><link href="https://blog.florijnconsultancy.nl/articles/recording%20in%20Ableton%20with%20MOTU%20M2%20loopback.html" rel="alternate"></link><published>2024-02-27T11:34:00+01:00</published><updated>2024-02-27T11:34:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2024-02-27:/articles/recording in Ableton with MOTU M2 loopback.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Summary:&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m able to record computer audio with my &lt;span class="caps"&gt;MOTU&lt;/span&gt; M2 in Ableton Live 10 on my Mac!
-- Under preferences, set Audio Input Device to M2
--  Click the Input Config button and make sure the Stereo Inputs 1/2 and 3/4 are highlighted
-- Add an Audio Track, and under Audio From select Ext In and 3/4, and arm the track to record
-- Start recording and switch to the other app and start playing audio. You should see the level meters moving and the audio waveform being recorded. If not, click the Audio From dropdown with 3/4 in it and see if the levels are being routed to 1/2&amp;nbsp;instead&lt;/p&gt;
-&lt;p&gt;Export audio to &lt;span class="caps"&gt;MP3&lt;/span&gt; or &lt;span class="caps"&gt;WAV&lt;/span&gt;&amp;nbsp;file&lt;/p&gt;
-&lt;p&gt;File-&amp;gt; Export&amp;nbsp;audio.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2024-02-27T11:34:00+01:00</updated><subtitle>A personal blog</subtitle><entry><title>Recording in ableton with motu m2 loopback</title><link href="https://blog.florijnconsultancy.nl/articles/recording%20in%20Ableton%20with%20MOTU%20M2%20loopback.html" rel="alternate"></link><published>2024-02-27T11:34:00+01:00</published><updated>2024-02-27T11:34:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2024-02-27:/articles/recording in Ableton with MOTU M2 loopback.html</id><summary type="html"></summary><content type="html">&lt;h1 id="recording-with-loopback"&gt;Recording with loopback&lt;a class="headerlink" href="#recording-with-loopback" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m able to record computer audio with my &lt;span class="caps"&gt;MOTU&lt;/span&gt; M2 in Ableton Live 11 on my&amp;nbsp;Mac!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Under preferences, set Audio Input Device to&amp;nbsp;M2&lt;/li&gt;
+&lt;li&gt;Click the Input Config button and make sure the Stereo Inputs 1/2 and 3/4 are&amp;nbsp;highlighted&lt;/li&gt;
+&lt;li&gt;Add an Audio Track, and under Audio From select Ext In and 3/4, and arm the track to&amp;nbsp;record&lt;/li&gt;
+&lt;li&gt;Start recording and switch to the other app and start playing audio. You should see the level meters moving and the audio waveform being recorded. If not, click the Audio From dropdown with 3/4 in it and see if the levels are being routed to 1/2&amp;nbsp;instead&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="export-audio-to-mp3-or-wav-file"&gt;Export audio to &lt;span class="caps"&gt;MP3&lt;/span&gt; or &lt;span class="caps"&gt;WAV&lt;/span&gt; file&lt;a class="headerlink" href="#export-audio-to-mp3-or-wav-file" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;File-&amp;gt; Export&amp;nbsp;audio.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Make sure that you check the correct settings in Arrangement&amp;nbsp;view:&lt;/p&gt;
 &lt;p&gt;Check&amp;nbsp;for: &lt;/p&gt;
 &lt;ul&gt;
@@ -14,7 +18,7 @@
 &lt;li&gt;Post-mixer&lt;/li&gt;
 &lt;li&gt;Master&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;￼Ableton&amp;nbsp;settings&lt;/p&gt;
+&lt;p&gt;Ableton&amp;nbsp;settings&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Ableton recording loopback" src="/images/ableton_recording_loopback.jpg"&gt;&lt;/p&gt;</content><category term="Music"></category><category term="recording"></category></entry><entry><title>Red hot chili peppers - californication</title><link href="https://blog.florijnconsultancy.nl/articles/red%20hot%20chili%20peppers%20-%20californication.html" rel="alternate"></link><published>2024-02-27T10:48:00+01:00</published><updated>2024-02-27T10:48:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2024-02-27:/articles/red hot chili peppers - californication.html</id><summary type="html"></summary><content type="html">&lt;iframe loading="lazy" src="https://chordify.net/embed/red-hot-chili-peppers-californication-official-music-video-rhcptv" width="100%" height="500" frameborder="0"&gt;&lt;/iframe&gt;</content><category term="music"></category><category term="guitar"></category><category term="chords"></category><category term="lessons"></category></entry><entry><title>Scheduled shutdown macos</title><link href="https://blog.florijnconsultancy.nl/articles/scheduled%20shutdown%20macOS.html" rel="alternate"></link><published>2024-02-27T08:48:00+01:00</published><updated>2024-02-27T08:48:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2024-02-27:/articles/scheduled shutdown macOS.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Scheduling Mac to shutdown and start&amp;nbsp;up&lt;/p&gt;
 &lt;p&gt;Since I&amp;rsquo;ve updated my system, of course as many are aware, the shut down and startup schedules were wiped since there is no longer an option to do it via system&amp;nbsp;settings. &lt;/p&gt;
 &lt;p&gt;I had a good look online and found Apple giving a solution which is to use&amp;nbsp;terminal. &lt;/p&gt;
