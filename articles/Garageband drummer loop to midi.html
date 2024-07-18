@@ -732,7 +732,90 @@
 <h2 id="a-file-carver-that-extracts-a-midi-file-from-apple-loop-files">A file carver that extracts a midi file from apple loop files<a class="headerlink" href="#a-file-carver-that-extracts-a-midi-file-from-apple-loop-files" title="Permanent link">&para;</a></h2>
 <p>You can export the loop in <span class="caps">AIF</span>&nbsp;format.</p>
 <p>With a pyton script aif_to_mid you can convert this file to&nbsp;midi.</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="err">!</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">raw</span><span class="o">.</span><span class="n">githubusercontent</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">flukeymcswagger</span><span class="o">/</span><span class="n">aif_to_mid</span><span class="o">/</span><span class="n">master</span><span class="o">/</span><span class="n">aif_to_mid</span><span class="o">.</span><span class="n">v1</span><span class="o">.</span><span class="n">py</span> <span class="err">!</span><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="ch">#!/usr/bin/env python3</span>
+<span class="c1"># coding: utf-8</span>
+<span class="kn">import</span> <span class="nn">argparse</span><span class="o">,</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">sys</span>
+
+<span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s2">&quot;A file carver that extracts a midi file from apple loop files&quot;</span><span class="p">)</span>
+<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-i&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;input_file&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;path to input file to extract midi from&quot;</span><span class="p">)</span>
+<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-d&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;input_dir&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;path to directory of files to extract midi from&quot;</span><span class="p">)</span>
+<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-o&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;output_dir&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;path to output directory&#39;</span><span class="p">)</span>
+<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-x&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;extension&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;.aif&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;optional file extension (default .aif)&#39;</span><span class="p">)</span>
+<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-v&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;verbose&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;provide verbose output&#39;</span><span class="p">)</span>
+<span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+
+<span class="c1"># Some important file magic..</span>
+<span class="c1"># Ref: https://github.com/colxi/midi-parser-js/wiki/MIDI-File-Format-Specifications</span>
+<span class="n">header</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x4D\x54\x68\x64</span><span class="s1">&#39;</span>
+<span class="n">footer</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\xFF\x2F\x00</span><span class="s1">&#39;</span>
+<span class="n">track_header</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x4D\x54\x72\x6B</span><span class="s1">&#39;</span>
+
+
+<span class="k">def</span> <span class="nf">carve_midi</span><span class="p">(</span><span class="n">input_file</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">):</span>
+    <span class="c1"># open the file and read it into memory</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">input_file</span><span class="p">,</span> <span class="s2">&quot;rb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">infile</span><span class="p">:</span>
+            <span class="n">blob</span> <span class="o">=</span> <span class="n">infile</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;File not found: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">input_file</span><span class="p">))</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+    <span class="c1"># first things first: find a midi header</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">start_offset</span> <span class="o">=</span> <span class="n">blob</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">header</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">verbose</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Found midi header at byte offset: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">start_offset</span><span class="p">))</span>
+    <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Couldn&#39;t find a midi file header anywhere. Skipping file: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">input_file</span><span class="p">))</span>
+        <span class="k">return</span>
+
+    <span class="c1"># ok good stuff, got a midi file, get the number of tracks</span>
+    <span class="n">ntrack_bytes</span> <span class="o">=</span> <span class="n">blob</span><span class="p">[</span><span class="n">start_offset</span><span class="o">+</span><span class="mi">10</span><span class="p">:</span><span class="n">start_offset</span><span class="o">+</span><span class="mi">12</span><span class="p">]</span>
+    <span class="n">ntrack_count</span> <span class="o">=</span> <span class="nb">int</span><span class="o">.</span><span class="n">from_bytes</span><span class="p">(</span><span class="n">ntrack_bytes</span><span class="p">,</span> <span class="n">byteorder</span><span class="o">=</span><span class="s1">&#39;big&#39;</span><span class="p">)</span>
+    <span class="n">cursor</span> <span class="o">=</span> <span class="n">start_offset</span>
+
+    <span class="c1"># iterate through each track and update our spot in the file</span>
+    <span class="k">for</span> <span class="n">track_num</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">ntrack_count</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">verbose</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;scanning for track </span><span class="si">{}</span><span class="s2">..&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">track_num</span><span class="p">),</span><span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">t_offset</span> <span class="o">=</span> <span class="n">blob</span><span class="p">[</span><span class="n">cursor</span><span class="p">:]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">track_header</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">verbose</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;found track at byte offset </span><span class="si">{}</span><span class="s2">..&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">cursor</span> <span class="o">+</span> <span class="n">t_offset</span><span class="p">))</span>
+            <span class="n">cursor</span> <span class="o">+=</span> <span class="n">t_offset</span> <span class="o">+</span> <span class="mi">4</span>
+        <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Wierd. Found a midi header but no tracks. Do not Panic. Skipping file: ()&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">input_file</span><span class="p">))</span>
+            <span class="k">return</span>
+
+    <span class="c1"># find the offset for the end of the midi file via the footer bytes</span>
+    <span class="n">end_offset</span> <span class="o">=</span> <span class="n">cursor</span> <span class="o">+</span> <span class="n">blob</span><span class="p">[</span><span class="n">cursor</span><span class="p">:]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">footer</span><span class="p">)</span> <span class="o">+</span> <span class="nb">len</span><span class="p">(</span><span class="n">footer</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">verbose</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No more tracks. Last byte offset: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">end_offset</span><span class="p">))</span>
+
+    <span class="c1"># replace the original extension with .mid</span>
+    <span class="n">output_file</span> <span class="o">=</span> <span class="n">input_file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">output_file</span> <span class="o">=</span> <span class="n">output_file</span><span class="p">[:</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;.mid&quot;</span>
+
+    <span class="c1"># create the output directory if one doesn&#39;t exist</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">output_dir</span><span class="p">):</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">output_dir</span><span class="p">)</span>
+
+    <span class="c1"># slam your fist on the desk, curse apple for their shitty practices, then claim your prize, victorious!</span>
+    <span class="n">output_fullpath</span> <span class="o">=</span> <span class="n">output_dir</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="n">output_file</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">output_fullpath</span><span class="p">,</span> <span class="s2">&quot;wb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outfile</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Processed </span><span class="si">{}</span><span class="s2">. Midi file found, writing to </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">input_file</span><span class="p">,</span> <span class="n">output_fullpath</span><span class="p">))</span>
+        <span class="n">outfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">blob</span><span class="p">[</span><span class="n">start_offset</span><span class="p">:</span><span class="n">end_offset</span><span class="p">])</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">input_file</span><span class="p">:</span>
+        <span class="n">carve_midi</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">input_file</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">output_dir</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">args</span><span class="o">.</span><span class="n">input_dir</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">root</span><span class="p">,</span> <span class="n">subFolders</span><span class="p">,</span> <span class="n">files</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">input_dir</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">file</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">extension</span><span class="p">):</span>
+                    <span class="n">carve_midi</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">root</span><span class="p">,</span><span class="n">file</span><span class="p">),</span> <span class="n">args</span><span class="o">.</span><span class="n">output_dir</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Missing input file. Run with -h to get help/usage instructions.&quot;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
 </code></pre></div>
 
 <!-- more -->
