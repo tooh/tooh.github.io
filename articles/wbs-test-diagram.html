@@ -1,0 +1,837 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Daily Scrum - Wbs test diagram</title>
+    <meta charset="utf-8" />
+    <meta http-equiv='content-language' content='en-gb'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="A blog featuring in-depth posts about Python, Scala, TDD, devops, security and all things development">
+<meta name="description" content="">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@peterflorijn" />
+<meta name="twitter:title" content="Wbs test diagram" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://blog.florijnconsultancy.nl/images/plantuml_logo.jpg" />
+    <script src="https://kit.fontawesome.com/15214b60ba.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/theme/webassets-external/d6f068766b68e3c870b584e236ee9bd5_main.css">
+    <link rel="stylesheet" href="/theme/webassets-external/5a441881e6f6e3c1e9023d30167e61cc_default.css">
+    <link href="/" rel="icon">
+    
+
+  </head>
+
+  <body class="preload">
+    <div class="container">
+      <div class="sidebar navigation">
+<nav>
+<div class="links">
+  <ul>
+    <li class="link"><a href="/index.html">Homepage</a></li>
+    <li class="link"><a href="/pages/about.html">About</a></li>
+    <li class="link"><a href="/archives/index.html">Archives</a></li>
+  </ul>
+</div></nav>
+<section>
+  <header>
+    <h2>Tags</h2>
+  </header>
+<ul class="tags">
+    <li class="tag tag-size-2">
+      <a title="Posts about agile" href="/tag/agile.html">agile</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Alfred" href="/tag/alfred.html">Alfred</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about archimate" href="/tag/archimate.html">archimate</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about architecture" href="/tag/architecture.html">architecture</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about backing tracks" href="/tag/backing-tracks.html">backing tracks</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about backup" href="/tag/backup.html">backup</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about bash" href="/tag/bash.html">bash</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about blog" href="/tag/blog.html">blog</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about blogging" href="/tag/blogging.html">blogging</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about bugzilla" href="/tag/bugzilla.html">bugzilla</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about business game" href="/tag/business-game.html">business game</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about Chordify" href="/tag/chordify.html">Chordify</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about chords" href="/tag/chords.html">chords</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about click2call" href="/tag/click2call.html">click2call</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about cloud architecture" href="/tag/cloud-architecture.html">cloud architecture</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about config" href="/tag/config.html">config</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about confluence" href="/tag/confluence.html">confluence</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about conversion" href="/tag/conversion.html">conversion</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about convert" href="/tag/convert.html">convert</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about CTI" href="/tag/cti.html">CTI</a>
+    </li>
+    <li class="tag tag-size-1">
+      <a title="Posts about diagram" href="/tag/diagram.html">diagram</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about diagrams" href="/tag/diagrams.html">diagrams</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about diskstation" href="/tag/diskstation.html">diskstation</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about docx" href="/tag/docx.html">docx</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about excel" href="/tag/excel.html">excel</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about firewall" href="/tag/firewall.html">firewall</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about fix" href="/tag/fix.html">fix</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about font awesome" href="/tag/font-awesome.html">font awesome</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about FordNight" href="/tag/fordnight.html">FordNight</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about fritz" href="/tag/fritz.html">fritz</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about gantt" href="/tag/gantt.html">gantt</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about github" href="/tag/github.html">github</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about gollum" href="/tag/gollum.html">gollum</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about graphics" href="/tag/graphics.html">graphics</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about guitar" href="/tag/guitar.html">guitar</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about install" href="/tag/install.html">install</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about itunes" href="/tag/itunes.html">itunes</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about java" href="/tag/java.html">java</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about jenkins" href="/tag/jenkins.html">jenkins</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Jira" href="/tag/jira.html">Jira</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about laravel" href="/tag/laravel.html">laravel</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about lego" href="/tag/lego.html">lego</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about lessons" href="/tag/lessons.html">lessons</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about linux" href="/tag/linux.html">linux</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about LSP" href="/tag/lsp.html">LSP</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about macos" href="/tag/macos.html">macos</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about markdown" href="/tag/markdown.html">markdown</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Mavericks" href="/tag/mavericks.html">Mavericks</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Media" href="/tag/media.html">Media</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about meeting notes" href="/tag/meeting-notes.html">meeting notes</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about music" href="/tag/music.html">music</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about mysql" href="/tag/mysql.html">mysql</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about network" href="/tag/network.html">network</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about omnis" href="/tag/omnis.html">omnis</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about opensource" href="/tag/opensource.html">opensource</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about osx" href="/tag/osx.html">osx</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about pelican" href="/tag/pelican.html">pelican</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about performance" href="/tag/performance.html">performance</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about php" href="/tag/php.html">php</a>
+    </li>
+    <li class="tag tag-size-1">
+      <a title="Posts about plantuml" href="/tag/plantuml.html">plantuml</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Plex" href="/tag/plex.html">Plex</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about pots" href="/tag/pots.html">pots</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about powerline" href="/tag/powerline.html">powerline</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about powerpoint" href="/tag/powerpoint.html">powerpoint</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about presenting" href="/tag/presenting.html">presenting</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about productivity" href="/tag/productivity.html">productivity</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Programming" href="/tag/programming.html">Programming</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about project" href="/tag/project.html">project</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about python" href="/tag/python.html">python</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about recording" href="/tag/recording.html">recording</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about reporting" href="/tag/reporting.html">reporting</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about REST" href="/tag/rest.html">REST</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about ruby" href="/tag/ruby.html">ruby</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about scrum" href="/tag/scrum.html">scrum</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about security" href="/tag/security.html">security</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about skype" href="/tag/skype.html">skype</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about song" href="/tag/song.html">song</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about sublime" href="/tag/sublime.html">sublime</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about svg" href="/tag/svg.html">svg</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about synology" href="/tag/synology.html">synology</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about telephony" href="/tag/telephony.html">telephony</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about testautomation" href="/tag/testautomation.html">testautomation</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about testmanagement" href="/tag/testmanagement.html">testmanagement</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about testopia" href="/tag/testopia.html">testopia</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about testopia bugzilla testmanagement" href="/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about time machine" href="/tag/time-machine.html">time machine</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about tips" href="/tag/tips.html">tips</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about tools" href="/tag/tools.html">tools</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about troubleshooting" href="/tag/troubleshooting.html">troubleshooting</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about upgrade" href="/tag/upgrade.html">upgrade</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about voip" href="/tag/voip.html">voip</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about wallboard" href="/tag/wallboard.html">wallboard</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about webservice" href="/tag/webservice.html">webservice</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about wiki" href="/tag/wiki.html">wiki</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about workflow" href="/tag/workflow.html">workflow</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about yosemite" href="/tag/yosemite.html">yosemite</a>
+    </li>
+</ul></section>
+<section>
+  <header>
+    <h2>Categories</h2>
+  </header>
+<ul>
+  <li><a href="/category/agile.html">agile</a></li>
+  <li><a href="/category/alfred.html">Alfred</a></li>
+  <li><a href="/category/apple.html">apple</a></li>
+  <li><a href="/category/articles.html">articles</a></li>
+  <li><a href="/category/blogging.html">Blogging</a></li>
+  <li><a href="/category/diskstation.html">diskstation</a></li>
+  <li><a href="/category/install.html">install</a></li>
+  <li><a href="/category/installation.html">Installation</a></li>
+  <li><a href="/category/installing.html">Installing</a></li>
+  <li><a href="/category/java.html">java</a></li>
+  <li><a href="/category/macos.html">macos</a></li>
+  <li><a href="/category/media.html">Media</a></li>
+  <li><a href="/category/monitoring.html">monitoring</a></li>
+  <li><a href="/category/music.html">Music</a></li>
+  <li><a href="/category/network.html">Network</a></li>
+  <li><a href="/category/pelican.html">Pelican</a></li>
+  <li><a href="/category/plantuml.html">plantuml</a></li>
+  <li><a href="/category/productivity.html">Productivity</a></li>
+  <li><a href="/category/programming.html">programming</a></li>
+  <li><a href="/category/projectmanagement.html">projectmanagement</a></li>
+  <li><a href="/category/scrum.html">scrum</a></li>
+  <li><a href="/category/telephony.html">telephony</a></li>
+  <li><a href="/category/testautomation.html">testautomation</a></li>
+  <li><a href="/category/tools.html">Tools</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Feeds</h2>
+  </header>
+<ul>
+  <li><i class="fas fa-rss" aria-hidden="true"></i> <a href="/feeds/all.atom.xml">All posts</a></li>
+
+
+  <li><i class="fas fa-rss" aria-hidden="true"></i> <a href="/feeds/plantuml.atom.xml">All posts in category: plantuml</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Get in touch</h2>
+  </header>
+  <ul class="contact">
+    <li><i class="fab fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/peterflorijn">Twitter</a></li>
+    <li><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/tooh">GitHub</a></li>
+  </ul>
+</section>      </div>
+      <div class="page">
+	<header class="primary" >
+	  <button type="button">
+	    <i class="fas fa-bars"></i>
+	  </button>
+	  <p>Daily Scrum</p>
+	</header>
+	<div class="mobile-menu navigation">
+<nav>
+<div class="links">
+  <ul>
+    <li class="link"><a href="/index.html">Homepage</a></li>
+    <li class="link"><a href="/pages/about.html">About</a></li>
+    <li class="link"><a href="/archives/index.html">Archives</a></li>
+  </ul>
+</div></nav>
+<section>
+  <header>
+    <h2>Categories</h2>
+  </header>
+<ul>
+  <li><a href="/category/agile.html">agile</a></li>
+  <li><a href="/category/alfred.html">Alfred</a></li>
+  <li><a href="/category/apple.html">apple</a></li>
+  <li><a href="/category/articles.html">articles</a></li>
+  <li><a href="/category/blogging.html">Blogging</a></li>
+  <li><a href="/category/diskstation.html">diskstation</a></li>
+  <li><a href="/category/install.html">install</a></li>
+  <li><a href="/category/installation.html">Installation</a></li>
+  <li><a href="/category/installing.html">Installing</a></li>
+  <li><a href="/category/java.html">java</a></li>
+  <li><a href="/category/macos.html">macos</a></li>
+  <li><a href="/category/media.html">Media</a></li>
+  <li><a href="/category/monitoring.html">monitoring</a></li>
+  <li><a href="/category/music.html">Music</a></li>
+  <li><a href="/category/network.html">Network</a></li>
+  <li><a href="/category/pelican.html">Pelican</a></li>
+  <li><a href="/category/plantuml.html">plantuml</a></li>
+  <li><a href="/category/productivity.html">Productivity</a></li>
+  <li><a href="/category/programming.html">programming</a></li>
+  <li><a href="/category/projectmanagement.html">projectmanagement</a></li>
+  <li><a href="/category/scrum.html">scrum</a></li>
+  <li><a href="/category/telephony.html">telephony</a></li>
+  <li><a href="/category/testautomation.html">testautomation</a></li>
+  <li><a href="/category/tools.html">Tools</a></li>
+</ul></section>
+<section>
+  <header>
+    <h2>Tags</h2>
+  </header>
+<ul class="tags">
+    <li class="tag tag-size-2">
+      <a title="Posts about agile" href="/tag/agile.html">agile</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Alfred" href="/tag/alfred.html">Alfred</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about archimate" href="/tag/archimate.html">archimate</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about architecture" href="/tag/architecture.html">architecture</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about backing tracks" href="/tag/backing-tracks.html">backing tracks</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about backup" href="/tag/backup.html">backup</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about bash" href="/tag/bash.html">bash</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about blog" href="/tag/blog.html">blog</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about blogging" href="/tag/blogging.html">blogging</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about bugzilla" href="/tag/bugzilla.html">bugzilla</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about business game" href="/tag/business-game.html">business game</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about Chordify" href="/tag/chordify.html">Chordify</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about chords" href="/tag/chords.html">chords</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about click2call" href="/tag/click2call.html">click2call</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about cloud architecture" href="/tag/cloud-architecture.html">cloud architecture</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about config" href="/tag/config.html">config</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about confluence" href="/tag/confluence.html">confluence</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about conversion" href="/tag/conversion.html">conversion</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about convert" href="/tag/convert.html">convert</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about CTI" href="/tag/cti.html">CTI</a>
+    </li>
+    <li class="tag tag-size-1">
+      <a title="Posts about diagram" href="/tag/diagram.html">diagram</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about diagrams" href="/tag/diagrams.html">diagrams</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about diskstation" href="/tag/diskstation.html">diskstation</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about docx" href="/tag/docx.html">docx</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about excel" href="/tag/excel.html">excel</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about firewall" href="/tag/firewall.html">firewall</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about fix" href="/tag/fix.html">fix</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about font awesome" href="/tag/font-awesome.html">font awesome</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about FordNight" href="/tag/fordnight.html">FordNight</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about fritz" href="/tag/fritz.html">fritz</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about gantt" href="/tag/gantt.html">gantt</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about github" href="/tag/github.html">github</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about gollum" href="/tag/gollum.html">gollum</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about graphics" href="/tag/graphics.html">graphics</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about guitar" href="/tag/guitar.html">guitar</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about install" href="/tag/install.html">install</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about itunes" href="/tag/itunes.html">itunes</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about java" href="/tag/java.html">java</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about jenkins" href="/tag/jenkins.html">jenkins</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Jira" href="/tag/jira.html">Jira</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about laravel" href="/tag/laravel.html">laravel</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about lego" href="/tag/lego.html">lego</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about lessons" href="/tag/lessons.html">lessons</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about linux" href="/tag/linux.html">linux</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about LSP" href="/tag/lsp.html">LSP</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about macos" href="/tag/macos.html">macos</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about markdown" href="/tag/markdown.html">markdown</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Mavericks" href="/tag/mavericks.html">Mavericks</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Media" href="/tag/media.html">Media</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about meeting notes" href="/tag/meeting-notes.html">meeting notes</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about music" href="/tag/music.html">music</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about mysql" href="/tag/mysql.html">mysql</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about network" href="/tag/network.html">network</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about omnis" href="/tag/omnis.html">omnis</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about opensource" href="/tag/opensource.html">opensource</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about osx" href="/tag/osx.html">osx</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about pelican" href="/tag/pelican.html">pelican</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about performance" href="/tag/performance.html">performance</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about php" href="/tag/php.html">php</a>
+    </li>
+    <li class="tag tag-size-1">
+      <a title="Posts about plantuml" href="/tag/plantuml.html">plantuml</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Plex" href="/tag/plex.html">Plex</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about pots" href="/tag/pots.html">pots</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about powerline" href="/tag/powerline.html">powerline</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about powerpoint" href="/tag/powerpoint.html">powerpoint</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about presenting" href="/tag/presenting.html">presenting</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about productivity" href="/tag/productivity.html">productivity</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about Programming" href="/tag/programming.html">Programming</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about project" href="/tag/project.html">project</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about python" href="/tag/python.html">python</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about recording" href="/tag/recording.html">recording</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about reporting" href="/tag/reporting.html">reporting</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about REST" href="/tag/rest.html">REST</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about ruby" href="/tag/ruby.html">ruby</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about scrum" href="/tag/scrum.html">scrum</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about security" href="/tag/security.html">security</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about skype" href="/tag/skype.html">skype</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about song" href="/tag/song.html">song</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about sublime" href="/tag/sublime.html">sublime</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about svg" href="/tag/svg.html">svg</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about synology" href="/tag/synology.html">synology</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about telephony" href="/tag/telephony.html">telephony</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about testautomation" href="/tag/testautomation.html">testautomation</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about testmanagement" href="/tag/testmanagement.html">testmanagement</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about testopia" href="/tag/testopia.html">testopia</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about testopia bugzilla testmanagement" href="/tag/testopia-bugzilla-testmanagement.html">testopia bugzilla testmanagement</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about time machine" href="/tag/time-machine.html">time machine</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about tips" href="/tag/tips.html">tips</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about tools" href="/tag/tools.html">tools</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about troubleshooting" href="/tag/troubleshooting.html">troubleshooting</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about upgrade" href="/tag/upgrade.html">upgrade</a>
+    </li>
+    <li class="tag tag-size-3">
+      <a title="Posts about voip" href="/tag/voip.html">voip</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about wallboard" href="/tag/wallboard.html">wallboard</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about webservice" href="/tag/webservice.html">webservice</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about wiki" href="/tag/wiki.html">wiki</a>
+    </li>
+    <li class="tag tag-size-2">
+      <a title="Posts about workflow" href="/tag/workflow.html">workflow</a>
+    </li>
+    <li class="tag tag-size-4">
+      <a title="Posts about yosemite" href="/tag/yosemite.html">yosemite</a>
+    </li>
+</ul></section>	</div>
+	
+<div class="page-content">
+  <header>
+    <h1>Wbs test&nbsp;diagram</h1>
+    <div class="post-info">
+      <p>By Peter Florijn - <i class="fas fa-calendar-alt"></i> <time datetime="2019-12-14T10:45:00+01:00"> Sat 14 December 2019</time> <i class="fas fa-edit"></i> Updated on <time datetime="2019-12-14T10:45:00+01:00">Dec 14, 2019</time></p>
+      <p class="tags">
+	<a class="tag category" href="/category/plantuml.html" title="All posts in category plantuml">plantuml</a>
+	<a class="tag" href="/tag/plantuml.html">plantuml</a>
+      </p>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <p><img src="data:image/png;base64,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" class="uml" alt="uml diagram" title="" /></p>
+  </div>
+
+
+  <section>
+    <header>
+      <h2>Related Posts</h2>
+    </header>
+    <div class="paginated-posts">
+      <div class="posts">
+	<article class="card">
+          <a href="/articles/c4-test.html">
+            <img src="/images/plantuml_logo.jpg" alt="plantuml_logo" />
+          </a>
+          <div class="body">
+            <a href="/articles/c4-test.html"><h2>C4&nbsp;test</h2></a>
+	    <div class="info">
+	      <p class="tags">
+		<a href="/tag/plantuml.html" class="tag">plantuml</a>
+              </p>
+	      <p><i class="fas fa-calendar-alt"></i> <time datetime="2019-11-29T12:24:00+01:00">Nov 29, 2019</time></p>
+	      <p><i class="fas fa-edit"></i> Updated on <time datetime="2019-11-29T12:24:00+01:00">Nov 29, 2019</time></p>
+	    </div>
+          </div>
+	</article>
+	<article class="card">
+          <a href="/articles/azure.html">
+            <img src="/images/plantuml_logo.jpg" alt="plantuml_logo" />
+          </a>
+          <div class="body">
+            <a href="/articles/azure.html"><h2>Azure</h2></a>
+	    <div class="info">
+	      <p class="tags">
+		<a href="/tag/plantuml.html" class="tag">plantuml</a>
+		<a href="/tag/diagram.html" class="tag">diagram</a>
+		<a href="/tag/cloud-architecture.html" class="tag">cloud architecture</a>
+              </p>
+	      <p><i class="fas fa-calendar-alt"></i> <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	      <p><i class="fas fa-edit"></i> Updated on <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	    </div>
+          </div>
+	</article>
+	<article class="card">
+          <a href="/articles/office-example-1.html">
+            <img src="/images/plantuml_logo.jpg" alt="plantuml_logo" />
+          </a>
+          <div class="body">
+            <a href="/articles/office-example-1.html"><h2>Office example&nbsp;1</h2></a>
+	    <div class="info">
+	      <p class="tags">
+		<a href="/tag/plantuml.html" class="tag">plantuml</a>
+		<a href="/tag/diagram.html" class="tag">diagram</a>
+              </p>
+	      <p><i class="fas fa-calendar-alt"></i> <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	      <p><i class="fas fa-edit"></i> Updated on <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	    </div>
+          </div>
+	</article>
+	<article class="card">
+          <a href="/articles/plantuml-archimate-example-2.html">
+            <img src="/images/plantuml_logo.jpg" alt="plantuml_logo" />
+          </a>
+          <div class="body">
+            <a href="/articles/plantuml-archimate-example-2.html"><h2>Plantuml archimate example&nbsp;2</h2></a>
+	    <div class="info">
+	      <p class="tags">
+		<a href="/tag/plantuml.html" class="tag">plantuml</a>
+		<a href="/tag/diagram.html" class="tag">diagram</a>
+		<a href="/tag/archimate.html" class="tag">archimate</a>
+		<a href="/tag/architecture.html" class="tag">architecture</a>
+              </p>
+	      <p><i class="fas fa-calendar-alt"></i> <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	      <p><i class="fas fa-edit"></i> Updated on <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	    </div>
+          </div>
+	</article>
+	<article class="card">
+          <a href="/articles/plantuml-google-example.html">
+            <img src="/images/plantuml_logo.jpg" alt="plantuml_logo" />
+          </a>
+          <div class="body">
+            <a href="/articles/plantuml-google-example.html"><h2>Plantuml google&nbsp;example</h2></a>
+	    <div class="info">
+	      <p class="tags">
+		<a href="/tag/plantuml.html" class="tag">plantuml</a>
+		<a href="/tag/diagram.html" class="tag">diagram</a>
+              </p>
+	      <p><i class="fas fa-calendar-alt"></i> <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	      <p><i class="fas fa-edit"></i> Updated on <time datetime="2019-09-20T07:03:00+02:00">Sep 20, 2019</time></p>
+	    </div>
+          </div>
+	</article>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+      </div>
+    </div>
+    <script src="/theme/webassets-external/b2f9f1f7cc99a87438ace3f23992bc13_main.js"></script>
+
+  </body>
+</html>
