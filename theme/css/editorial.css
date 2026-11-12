@@ -28,3 +28,11 @@
 .orbit-one{left:65px;top:37px}.orbit-two{left:80px;top:22px}
 .media-tile:hover{filter:brightness(.98)}
 @media(max-width:520px){.story-image{width:88px;flex-basis:88px}.story-image img{width:88px;height:88px}.media-tile{height:88px}.media-symbol{width:28px;height:28px}.media-label{font-size:11px}.media-caption{display:none}.image-frame img{padding:10px}}
+
+/* Compact author footer, matching the editorial byline. */
+.post-author{display:flex;align-items:center;gap:14px;margin-top:32px;padding:28px 0;border-top:1px solid var(--line)}
+.post-author-avatar{flex:0 0 48px;display:block}.post-author-avatar img{display:block;width:48px;height:48px;object-fit:cover;border-radius:50%}
+.post-author-info{min-width:0}.post-author-heading{display:flex;align-items:center;gap:15px;flex-wrap:wrap}.post-author-name{font-size:15px;font-weight:500;line-height:1.4}
+.follow-button{display:inline-block;border:1px solid var(--ink);border-radius:24px;padding:5px 14px;font-size:12px;line-height:1.5;color:var(--ink);background:white}.follow-button:hover{border-color:var(--green);color:var(--green);background:#f5f7f3}
+.post-author-meta{display:flex;flex-wrap:wrap;gap:8px;color:var(--muted);font-size:12px;line-height:1.5;margin:7px 0 0}
+@media(max-width:520px){.post-author{gap:12px}.post-author-heading{gap:12px}.post-author-name{font-size:14px}}
