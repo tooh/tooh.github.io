@@ -53,24 +53,42 @@ document.querySelectorAll('.story-image img').forEach(img => {
   });
 })();
 
-// Load the existing Disqus forum only on request. Canonical URLs reconnect
-// discussions by URL; retain an explicit historical identifier if supplied.
+// A compact footer action opens Disqus in a Medium-style response drawer.
 (() => {
   const section = document.querySelector('[data-comments]');
-  if (!section) return;
-  const button = section.querySelector('.comments-load');
+  const trigger = document.querySelector('.comments-trigger');
+  if (!section || !trigger) return;
+  // The lightweight count script loads separately from the discussion embed.
+  const count = trigger.querySelector('.disqus-comment-count');
+  if (count) {
+    const updateLabel = () => {
+      const text = count.textContent.trim();
+      const match = text.match(/^(\d[\d,.]*)/);
+      if (!match) return;
+      trigger.setAttribute('aria-label', `${text} — read or write comments on Disqus`);
+      if (text !== match[1]) count.textContent = match[1];
+    };
+    new MutationObserver(updateLabel).observe(count, {childList: true, subtree: true, characterData: true});
+    const counter = document.createElement('script');
+    counter.id = 'dsq-count-scr';
+    counter.src = `https://${section.dataset.shortname}.disqus.com/count.js`;
+    counter.async = true;
+    document.head.appendChild(counter);
+  }
+  const retry = section.querySelector('.comments-load');
   const status = section.querySelector('.comments-status');
-  button.addEventListener('click', () => {
-    button.disabled = true;
+  let state = 'idle';
+  function loadComments() {
+    if (state !== 'idle') return;
+    state = 'loading';
+    retry.hidden = true;
     status.textContent = 'Loading responses…';
     window.disqus_config = function () {
       this.page.url = section.dataset.url;
       this.page.title = section.dataset.title;
       if (section.dataset.identifier) this.page.identifier = section.dataset.identifier;
-      this.callbacks.onReady = [() => {
-        status.textContent = '';
-        button.hidden = true;
-      }];
+      this.callbacks.onReady = [() => { status.textContent = ''; state = 'ready'; }];
+      this.callbacks.onNewComment = [() => window.DISQUSWIDGETS?.getCount({reset: true})];
     };
     const script = document.createElement('script');
     script.src = `https://${section.dataset.shortname}.disqus.com/embed.js`;
@@ -78,9 +96,23 @@ document.querySelectorAll('.story-image img').forEach(img => {
     script.dataset.timestamp = String(Date.now());
     script.onerror = () => {
       status.textContent = 'Comments could not be loaded. Check your connection or content blocker and try again.';
-      button.disabled = false;
+      state = 'idle';
+      retry.hidden = false;
       script.remove();
     };
     document.head.appendChild(script);
+  }
+  trigger.addEventListener('click', () => {
+    section.showModal();
+    loadComments();
   });
+  section.querySelector('.comments-close').addEventListener('click', () => section.close());
+  section.addEventListener('click', event => {
+    if (event.target === section) {
+      const box = section.getBoundingClientRect();
+      if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) section.close();
+    }
+  });
+  section.addEventListener('close', () => trigger.focus());
+  retry.addEventListener('click', loadComments);
 })();
