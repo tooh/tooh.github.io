@@ -52,3 +52,35 @@ document.querySelectorAll('.story-image img').forEach(img => {
     if (event.key === 'editorial-theme') apply(modes.includes(event.newValue) ? event.newValue : 'system');
   });
 })();
+
+// Load the existing Disqus forum only on request. Canonical URLs reconnect
+// discussions by URL; retain an explicit historical identifier if supplied.
+(() => {
+  const section = document.querySelector('[data-comments]');
+  if (!section) return;
+  const button = section.querySelector('.comments-load');
+  const status = section.querySelector('.comments-status');
+  button.addEventListener('click', () => {
+    button.disabled = true;
+    status.textContent = 'Loading responses…';
+    window.disqus_config = function () {
+      this.page.url = section.dataset.url;
+      this.page.title = section.dataset.title;
+      if (section.dataset.identifier) this.page.identifier = section.dataset.identifier;
+      this.callbacks.onReady = [() => {
+        status.textContent = '';
+        button.hidden = true;
+      }];
+    };
+    const script = document.createElement('script');
+    script.src = `https://${section.dataset.shortname}.disqus.com/embed.js`;
+    script.async = true;
+    script.dataset.timestamp = String(Date.now());
+    script.onerror = () => {
+      status.textContent = 'Comments could not be loaded. Check your connection or content blocker and try again.';
+      button.disabled = false;
+      script.remove();
+    };
+    document.head.appendChild(script);
+  });
+})();
