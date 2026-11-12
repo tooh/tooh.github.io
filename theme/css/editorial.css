@@ -61,3 +61,5 @@
 @media(max-width:520px){.header-inner{gap:12px}.header-inner nav{order:3;width:100%;justify-content:center;border-top:1px solid var(--line);padding-top:13px}.theme-toggle{margin-left:auto}.wordmark{font-size:29px}}
 
 .comments-section{border-top:1px solid var(--line);margin-top:32px;padding-top:32px}.comments-section .eyebrow{margin-bottom:12px}.comments-section h2{font-size:25px;letter-spacing:-.6px;margin-bottom:15px}.comments-intro{font-size:15px;line-height:1.6}.comments-privacy{font-size:12px;line-height:1.6;color:var(--muted);max-width:480px}.comments-load{border:1px solid var(--ink);border-radius:24px;padding:10px 19px;background:var(--paper);color:var(--ink);font:13px var(--sans);cursor:pointer;margin:8px 0}.comments-load:hover{background:var(--surface)}.comments-load:focus-visible{outline:2px solid var(--green);outline-offset:4px}.comments-load:disabled{opacity:.6;cursor:wait}.comments-status{line-height:1.6}.comments-section iframe{max-width:100%}
+
+.comments-icon{display:block;color:var(--muted);margin-bottom:14px}
