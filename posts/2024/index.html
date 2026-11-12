@@ -3,10 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // Apply the saved preference before paint, avoiding a bright flash.
+    (() => {
+      let preference = 'system';
+      try { preference = localStorage.getItem('editorial-theme') || 'system'; } catch (_) {}
+      if (!['light', 'dark', 'system'].includes(preference)) preference = 'system';
+      const root = document.documentElement;
+      root.dataset.themePreference = preference;
+      root.dataset.theme = preference === 'system'
+        ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+        : preference;
+    })();
+  </script>
   <title>2024 — Daily Scrum</title>
   <meta name="description" content="A personal journal by Peter Florijn. Notes on music, technology, and the things worth sharing.">
   <link rel="icon" href="https://blog.florijnconsultancy.nl/images/global/favicon.jpg">
-  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/editorial.css?v=20261112-2">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/editorial.css?v=20261112-3">
   <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/pygments.css">
 <link rel="alternate" type="application/atom+xml" title="Daily Scrum" href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml"></head>
 <body>
@@ -18,11 +31,12 @@
       <a href="https://blog.florijnconsultancy.nl/index.html">Journal</a>
       <a href="https://blog.florijnconsultancy.nl/archives/">Archive</a>
 <a href="https://blog.florijnconsultancy.nl/pages/about.html">About</a>    </nav>
+    <button class="theme-toggle" type="button" hidden aria-label="Color theme: System. Switch to light mode."><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"/></svg><span>Auto</span></button>
     <a class="header-author" href="https://blog.florijnconsultancy.nl/pages/about.html"><img src="https://blog.florijnconsultancy.nl/images/peterflorijn.jpg" width="32" height="32" alt=""><span>Peter Florijn</span></a>
   </div>
 </header>
 <main id="main"><section class="listing-column"><header class="journal-intro compact"><p class="eyebrow">FROM THE ARCHIVE</p><h1>2024</h1></header><article class="archive-row"><time>Nov 30</time><a href="https://blog.florijnconsultancy.nl/articles/Hellhounds on My Trail - 2000 - The Afterlife of Robert Johnson.html">Hellhounds on My Trail - 2000 - The Afterlife of Robert Johnson</a></article><article class="archive-row"><time>Nov 30</time><a href="https://blog.florijnconsultancy.nl/articles/me-and-the-devil-blues.html">Me and the Devil Blues</a></article><article class="archive-row"><time>Aug 01</time><a href="https://blog.florijnconsultancy.nl/articles/John Mayer Top Tracks.html">John Mayer Top Tracks</a></article><article class="archive-row"><time>Aug 01</time><a href="https://blog.florijnconsultancy.nl/articles/John Mayer docu: Someday I'll fly.html">John Mayer docu: Someday I’ll fly</a></article><article class="archive-row"><time>Jul 18</time><a href="https://blog.florijnconsultancy.nl/articles/Garageband drummer loop to midi.html">Garageband drummer loop to midi</a></article><article class="archive-row"><time>Jun 30</time><a href="https://blog.florijnconsultancy.nl/articles/John Mayer Setlist.html">John Mayer Setlist</a></article><article class="archive-row"><time>Jun 14</time><a href="https://blog.florijnconsultancy.nl/articles/ford-night-in-blues-cafe-apeldoorn.html">Ford Night in Blues Café Apeldoorn</a></article><article class="archive-row"><time>Jun 14</time><a href="https://blog.florijnconsultancy.nl/articles/ford-night-in-blues-cafe-apeldoorn-part-2.html">Ford Night in Blues Café Apeldoorn Part 2</a></article><article class="archive-row"><time>May 12</time><a href="https://blog.florijnconsultancy.nl/articles/family-tree-4.html">Family tree 4</a></article><article class="archive-row"><time>May 10</time><a href="https://blog.florijnconsultancy.nl/articles/family-tree.html">Family tree</a></article><article class="archive-row"><time>May 10</time><a href="https://blog.florijnconsultancy.nl/articles/family-tree-2.html">Family tree 2</a></article><article class="archive-row"><time>May 10</time><a href="https://blog.florijnconsultancy.nl/articles/family-tree-3.html">Family tree 3</a></article><article class="archive-row"><time>Mar 27</time><a href="https://blog.florijnconsultancy.nl/articles/Ford Night - The Brother.html">Ford Night - The Brother</a></article><article class="archive-row"><time>Mar 01</time><a href="https://blog.florijnconsultancy.nl/articles/Hurt - Johnny Cash.html">Hurt - Johnny Cash</a></article><article class="archive-row"><time>Feb 28</time><a href="https://blog.florijnconsultancy.nl/articles/Wicked game - Chris Isaak.html">Wicked game - Chris Isaak</a></article><article class="archive-row"><time>Feb 27</time><a href="https://blog.florijnconsultancy.nl/articles/Recording in Ableton with MOTU M2 loopback.html">Recording in Ableton with MOTU M2 loopback</a></article><article class="archive-row"><time>Feb 27</time><a href="https://blog.florijnconsultancy.nl/articles/red hot chili peppers - californication.html">Red hot chili peppers - Californication</a></article><article class="archive-row"><time>Feb 27</time><a href="https://blog.florijnconsultancy.nl/articles/scheduled shutdown macOS.html">scheduled shutdown macOS</a></article><article class="archive-row"><time>Feb 25</time><a href="https://blog.florijnconsultancy.nl/articles/I don't mind.html">I don’t mind</a></article><article class="archive-row"><time>Feb 24</time><a href="https://blog.florijnconsultancy.nl/articles/spotify hot blues jam tracks.html">spotify hot blues jam tracks</a></article><article class="archive-row"><time>Feb 14</time><a href="https://blog.florijnconsultancy.nl/articles/webassets.html">webassets</a></article><article class="archive-row"><time>Feb 11</time><a href="https://blog.florijnconsultancy.nl/articles/home-automation-setup.html">Home automation setup</a></article><article class="archive-row"><time>Feb 10</time><a href="https://blog.florijnconsultancy.nl/articles/pelican-title_capitalize-plugin.html">Pelican title_capitalize plugin</a></article><article class="archive-row"><time>Feb 09</time><a href="https://blog.florijnconsultancy.nl/articles/no-sound-guitar-rig.html">no sound Guitar Rig</a></article><article class="archive-row"><time>Feb 08</time><a href="https://blog.florijnconsultancy.nl/articles/auto-title-plugin.html">auto title plugin</a></article><article class="archive-row"><time>Feb 05</time><a href="https://blog.florijnconsultancy.nl/articles/archimate-test-plantuml.html">Archimate test plantuml</a></article></section></main>
 <footer class="site-footer"><a class="footer-brand" href="https://blog.florijnconsultancy.nl/index.html">Daily Scrum.</a><span>A personal journal by Peter Florijn.</span><a href="https://blog.florijnconsultancy.nl/categories.html">Explore topics <span aria-hidden="true">↗</span></a></footer>
-<script defer src="https://blog.florijnconsultancy.nl/theme/js/editorial.js"></script>
+<script defer src="https://blog.florijnconsultancy.nl/theme/js/editorial.js?v=20261112-3"></script>
 </body>
 </html>

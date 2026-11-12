@@ -3,13 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // Apply the saved preference before paint, avoiding a bright flash.
+    (() => {
+      let preference = 'system';
+      try { preference = localStorage.getItem('editorial-theme') || 'system'; } catch (_) {}
+      if (!['light', 'dark', 'system'].includes(preference)) preference = 'system';
+      const root = document.documentElement;
+      root.dataset.themePreference = preference;
+      root.dataset.theme = preference === 'system'
+        ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+        : preference;
+    })();
+  </script>
   <title>Hurt - Johnny Cash — Daily Scrum</title>
   <meta name="description" content="">
 <link rel="canonical" href="https://blog.florijnconsultancy.nl/articles/Hurt - Johnny Cash.html">
 <meta property="og:type" content="article"><meta property="og:title" content="Hurt - Johnny Cash"><meta property="og:description" content=""><meta property="og:url" content="https://blog.florijnconsultancy.nl/articles/Hurt - Johnny Cash.html">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "author": {"@type": "Person", "name": "Peter Florijn"}, "dateModified": "2024-03-01T15:35:00+01:00", "datePublished": "2024-03-01T15:35:00+01:00", "headline": "Hurt - Johnny\u00a0Cash", "url": "https://blog.florijnconsultancy.nl/articles/Hurt - Johnny Cash.html"}</script>
   <link rel="icon" href="https://blog.florijnconsultancy.nl/images/global/favicon.jpg">
-  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/editorial.css?v=20261112-2">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/editorial.css?v=20261112-3">
   <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/pygments.css">
 <link rel="alternate" type="application/atom+xml" title="Daily Scrum" href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml"></head>
 <body>
@@ -21,6 +34,7 @@
       <a href="https://blog.florijnconsultancy.nl/index.html">Journal</a>
       <a href="https://blog.florijnconsultancy.nl/archives/">Archive</a>
 <a href="https://blog.florijnconsultancy.nl/pages/about.html">About</a>    </nav>
+    <button class="theme-toggle" type="button" hidden aria-label="Color theme: System. Switch to light mode."><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"/></svg><span>Auto</span></button>
     <a class="header-author" href="https://blog.florijnconsultancy.nl/pages/about.html"><img src="https://blog.florijnconsultancy.nl/images/peterflorijn.jpg" width="32" height="32" alt=""><span>Peter Florijn</span></a>
   </div>
 </header>
@@ -42,6 +56,6 @@
 </article>
 </main>
 <footer class="site-footer"><a class="footer-brand" href="https://blog.florijnconsultancy.nl/index.html">Daily Scrum.</a><span>A personal journal by Peter Florijn.</span><a href="https://blog.florijnconsultancy.nl/categories.html">Explore topics <span aria-hidden="true">↗</span></a></footer>
-<script defer src="https://blog.florijnconsultancy.nl/theme/js/editorial.js"></script>
+<script defer src="https://blog.florijnconsultancy.nl/theme/js/editorial.js?v=20261112-3"></script>
 </body>
 </html>

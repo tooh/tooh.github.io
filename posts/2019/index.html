@@ -3,10 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // Apply the saved preference before paint, avoiding a bright flash.
+    (() => {
+      let preference = 'system';
+      try { preference = localStorage.getItem('editorial-theme') || 'system'; } catch (_) {}
+      if (!['light', 'dark', 'system'].includes(preference)) preference = 'system';
+      const root = document.documentElement;
+      root.dataset.themePreference = preference;
+      root.dataset.theme = preference === 'system'
+        ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+        : preference;
+    })();
+  </script>
   <title>2019 — Daily Scrum</title>
   <meta name="description" content="A personal journal by Peter Florijn. Notes on music, technology, and the things worth sharing.">
   <link rel="icon" href="https://blog.florijnconsultancy.nl/images/global/favicon.jpg">
-  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/editorial.css?v=20261112-2">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/editorial.css?v=20261112-3">
   <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/pygments.css">
 <link rel="alternate" type="application/atom+xml" title="Daily Scrum" href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml"></head>
 <body>
@@ -18,11 +31,12 @@
       <a href="https://blog.florijnconsultancy.nl/index.html">Journal</a>
       <a href="https://blog.florijnconsultancy.nl/archives/">Archive</a>
 <a href="https://blog.florijnconsultancy.nl/pages/about.html">About</a>    </nav>
+    <button class="theme-toggle" type="button" hidden aria-label="Color theme: System. Switch to light mode."><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"/></svg><span>Auto</span></button>
     <a class="header-author" href="https://blog.florijnconsultancy.nl/pages/about.html"><img src="https://blog.florijnconsultancy.nl/images/peterflorijn.jpg" width="32" height="32" alt=""><span>Peter Florijn</span></a>
   </div>
 </header>
 <main id="main"><section class="listing-column"><header class="journal-intro compact"><p class="eyebrow">FROM THE ARCHIVE</p><h1>2019</h1></header><article class="archive-row"><time>Dec 14</time><a href="https://blog.florijnconsultancy.nl/articles/wbs-test-diagram.html">wbs test diagram</a></article><article class="archive-row"><time>Nov 29</time><a href="https://blog.florijnconsultancy.nl/articles/c4-test.html">c4 test</a></article><article class="archive-row"><time>Nov 27</time><a href="https://blog.florijnconsultancy.nl/articles/wp365.html">wp365</a></article><article class="archive-row"><time>Nov 25</time><a href="https://blog.florijnconsultancy.nl/articles/open-apps-from-unidentied-developers-on-catalina.html">Open apps from unidentied developers on Catalina</a></article><article class="archive-row"><time>Nov 20</time><a href="https://blog.florijnconsultancy.nl/articles/google-cloud-icons.html">Google cloud icons</a></article><article class="archive-row"><time>Nov 01</time><a href="https://blog.florijnconsultancy.nl/articles/activation-365-on-macos.html">activation 365 on macOS</a></article><article class="archive-row"><time>Oct 15</time><a href="https://blog.florijnconsultancy.nl/articles/check.html">Check</a></article><article class="archive-row"><time>Oct 10</time><a href="https://blog.florijnconsultancy.nl/articles/mdx_include.html">mdx_include</a></article><article class="archive-row"><time>Oct 09</time><a href="https://blog.florijnconsultancy.nl/articles/ios.html">Ios</a></article><article class="archive-row"><time>Oct 05</time><a href="https://blog.florijnconsultancy.nl/articles/python-environment-manager-pyenv.html">Python environment manager pyenv</a></article><article class="archive-row"><time>Oct 04</time><a href="https://blog.florijnconsultancy.nl/articles/restore-hidden-library-files-from-time-machine-backup.html">restore hidden Library files from Time Machine backup</a></article><article class="archive-row"><time>Sep 20</time><a href="https://blog.florijnconsultancy.nl/articles/azure.html">azure</a></article><article class="archive-row"><time>Sep 20</time><a href="https://blog.florijnconsultancy.nl/articles/office-example-1.html">Office example 1</a></article><article class="archive-row"><time>Sep 20</time><a href="https://blog.florijnconsultancy.nl/articles/plantuml-archimate-example-2.html">PlantUML Archimate example 2</a></article><article class="archive-row"><time>Sep 20</time><a href="https://blog.florijnconsultancy.nl/articles/plantuml-google-example.html">PlantUML Google example</a></article><article class="archive-row"><time>Sep 20</time><a href="https://blog.florijnconsultancy.nl/articles/plantuml-mysql-example.html">PlantUML Mysql example</a></article><article class="archive-row"><time>Sep 20</time><a href="https://blog.florijnconsultancy.nl/articles/plantuml-office-example-3.html">PlantUML Office example 3</a></article><article class="archive-row"><time>Sep 19</time><a href="https://blog.florijnconsultancy.nl/articles/plantuml-test-include-2.html">PlantUML test include 2</a></article><article class="archive-row"><time>Sep 16</time><a href="https://blog.florijnconsultancy.nl/articles/plantuml-test-1.html">Plantuml test 1</a></article></section></main>
 <footer class="site-footer"><a class="footer-brand" href="https://blog.florijnconsultancy.nl/index.html">Daily Scrum.</a><span>A personal journal by Peter Florijn.</span><a href="https://blog.florijnconsultancy.nl/categories.html">Explore topics <span aria-hidden="true">↗</span></a></footer>
-<script defer src="https://blog.florijnconsultancy.nl/theme/js/editorial.js"></script>
+<script defer src="https://blog.florijnconsultancy.nl/theme/js/editorial.js?v=20261112-3"></script>
 </body>
 </html>

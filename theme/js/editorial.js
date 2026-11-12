@@ -21,3 +21,34 @@ document.querySelectorAll('.story-image img').forEach(img => {
   img.addEventListener('error', hide);
   if (img.complete && img.naturalWidth === 0) hide();
 });
+
+// Cycle through System → Light → Dark; System follows live OS changes.
+(() => {
+  const root = document.documentElement;
+  const button = document.querySelector('.theme-toggle');
+  const system = matchMedia('(prefers-color-scheme: dark)');
+  const modes = ['system', 'light', 'dark'];
+  const labels = {system: 'Auto', light: 'Light', dark: 'Dark'};
+  if (!button) return;
+  function apply(mode) {
+    root.dataset.themePreference = mode;
+    root.dataset.theme = mode === 'system' ? (system.matches ? 'dark' : 'light') : mode;
+    const next = modes[(modes.indexOf(mode) + 1) % modes.length];
+    button.querySelector('span').textContent = labels[mode];
+    button.setAttribute('aria-label', `Color theme: ${mode === 'system' ? 'System' : labels[mode]}. Switch to ${next} mode.`);
+    button.title = `Theme: ${labels[mode]} — click for ${labels[next]}`;
+  }
+  apply(root.dataset.themePreference || 'system');
+  button.hidden = false;
+  button.addEventListener('click', () => {
+    const next = modes[(modes.indexOf(root.dataset.themePreference) + 1) % modes.length];
+    apply(next);
+    try { localStorage.setItem('editorial-theme', next); } catch (_) {}
+  });
+  system.addEventListener('change', () => {
+    if (root.dataset.themePreference === 'system') apply('system');
+  });
+  window.addEventListener('storage', event => {
+    if (event.key === 'editorial-theme') apply(modes.includes(event.newValue) ? event.newValue : 'system');
+  });
+})();
