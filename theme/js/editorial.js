@@ -117,30 +117,3 @@ document.querySelectorAll('.story-image img').forEach(img => {
   retry.addEventListener('click', loadComments);
 })();
 
-// Share using the device menu, clipboard, or an email composed by the visitor.
-(() => {
-  const dialog = document.querySelector('#share-dialog');
-  const trigger = document.querySelector('.share-trigger');
-  if (!dialog || !trigger) return;
-  const input = dialog.querySelector('.share-link');
-  const status = dialog.querySelector('.share-status');
-  const device = dialog.querySelector('.device-share');
-  trigger.addEventListener('click', () => { status.textContent = ''; dialog.showModal(); });
-  dialog.addEventListener('close', () => trigger.focus());
-  dialog.querySelector('.copy-link').addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(dialog.dataset.shareUrl);
-      status.textContent = 'Link copied.';
-    } catch (_) {
-      input.focus(); input.select();
-      status.textContent = 'Select and copy the article link above.';
-    }
-  });
-  if (navigator.share) {
-    device.hidden = false;
-    device.addEventListener('click', async () => {
-      try { await navigator.share({title: dialog.dataset.shareTitle, url: dialog.dataset.shareUrl}); }
-      catch (error) { if (error.name !== 'AbortError') status.textContent = 'Use Copy link or Email to share this story.'; }
-    });
-  }
-})();
