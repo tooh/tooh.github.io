@@ -76,18 +76,10 @@
 
 .likes-trigger{margin-left:auto;display:flex;align-items:center;justify-content:center;flex:0 0 auto;gap:8px;min-width:54px;height:42px;padding:8px 10px;border:0;border-radius:22px;color:var(--muted);background:transparent;cursor:pointer}.likes-trigger:hover{background:var(--surface);color:var(--ink)}.likes-trigger:focus-visible{outline:2px solid var(--green);outline-offset:3px}.disqus-like-count{font-size:13px;font-variant-numeric:tabular-nums}.likes-trigger+.comments-trigger{margin-left:0}
 
-/* Keep footer actions level with the author name and Follow button. */
-.post-author>.likes-trigger,.post-author>.comments-trigger{align-self:flex-start;height:30px;margin-top:0;padding-top:3px;padding-bottom:3px}
-
-/* Small screens: name above a shared row for Follow and both counters. */
-@media(max-width:520px){
-  .post-author{display:grid;grid-template-columns:48px auto auto auto minmax(0,1fr);column-gap:8px;row-gap:10px;align-items:center}
-  .post-author-avatar{grid-column:1;grid-row:1 / 4;align-self:start}
-  .post-author-info,.post-author-heading{display:contents}
-  .post-author-name{grid-column:2 / -1;grid-row:1;min-width:0}
-  .post-author .follow-button{grid-column:2;grid-row:2;justify-self:start;white-space:nowrap}
-  .post-author>.likes-trigger{grid-column:3;grid-row:2}
-  .post-author>.comments-trigger{grid-column:4;grid-row:2}
-  .post-author>.likes-trigger,.post-author>.comments-trigger{align-self:center;margin:0;min-width:44px;padding-inline:4px}
-  .post-author-meta{grid-column:2 / -1;grid-row:3;margin:0;gap:6px}
-}
+/* Single-author journal: understated metadata and one compact action row. */
+.article-meta{display:flex;gap:9px;flex-wrap:wrap;color:var(--muted);font-size:13px;line-height:1.5;margin:26px 0 0}
+.post-follow-actions{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding:25px 0;margin-top:30px}
+.post-follow-actions .follow-button{flex:0 0 auto;white-space:nowrap}
+.post-follow-actions .likes-trigger,.post-follow-actions .comments-trigger{height:32px;min-width:44px;align-self:center;padding:4px 8px}
+.post-follow-actions .likes-trigger{margin-left:auto}.post-follow-actions .likes-trigger+.comments-trigger{margin-left:0}
+@media(max-width:520px){.post-follow-actions{gap:8px;padding:22px 0}.article-meta{font-size:12px}}
