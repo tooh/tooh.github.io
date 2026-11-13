@@ -73,3 +73,5 @@
 
 
 .story-summary{-webkit-line-clamp:3}
+
+.likes-trigger{margin-left:auto;display:flex;align-items:center;justify-content:center;flex:0 0 auto;gap:8px;min-width:54px;height:42px;padding:8px 10px;border:0;border-radius:22px;color:var(--muted);background:transparent;cursor:pointer}.likes-trigger:hover{background:var(--surface);color:var(--ink)}.likes-trigger:focus-visible{outline:2px solid var(--green);outline-offset:3px}.disqus-like-count{font-size:13px;font-variant-numeric:tabular-nums}.likes-trigger+.comments-trigger{margin-left:0}

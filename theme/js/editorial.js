@@ -59,6 +59,37 @@ document.querySelectorAll('.story-image img').forEach(img => {
   const trigger = document.querySelector('.comments-trigger');
   if (!section || !trigger) return;
   const refreshCount = () => window.DISQUSWIDGETS?.getCount({reset: true});
+  const likesButton = document.querySelector('.likes-trigger');
+  const likesCount = document.querySelector('.disqus-like-count');
+  let opener = trigger;
+  let likesLoading = false;
+  let lastLikesFetch = 0;
+  async function refreshLikes(force = false) {
+    if (!likesButton || !section.dataset.publicKey || likesLoading) return;
+    if (!force && Date.now() - lastLikesFetch < 60000) return;
+    likesLoading = true;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 10000);
+    try {
+      const url = new URL('https://disqus.com/api/3.0/threads/details.json');
+      url.searchParams.set('api_key', section.dataset.publicKey);
+      url.searchParams.set('forum', section.dataset.shortname);
+      url.searchParams.set(section.dataset.identifier ? 'thread:ident' : 'thread:link', section.dataset.identifier || section.dataset.url);
+      const response = await fetch(url, {signal: controller.signal, credentials: 'omit'});
+      const data = await response.json();
+      likesButton.dataset.state = `http-${response.status}-code-${data.code}`;
+      if (response.ok && data.code === 0 && Number.isInteger(data.response?.likes)) {
+        const total = data.response.likes;
+        likesCount.textContent = String(total);
+        likesButton.setAttribute('aria-label', `${total} article ${total === 1 ? 'like' : 'likes'} — open Disqus`);
+        lastLikesFetch = Date.now();
+      }
+    } catch (error) {
+      likesButton.dataset.state = error.name;
+      // Keep an unavailable count as a dash, never invent a zero.
+    } finally { clearTimeout(timeout); likesLoading = false; }
+  }
+  refreshLikes();
   // The lightweight count script loads separately from the discussion embed.
   const count = trigger.querySelector('.disqus-comment-count');
   if (count) {
@@ -125,11 +156,13 @@ document.querySelectorAll('.story-image img').forEach(img => {
     };
     document.head.appendChild(script);
   }
-  trigger.addEventListener('click', () => {
+  [trigger, likesButton].filter(Boolean).forEach(button => button.addEventListener('click', () => {
+    opener = button;
     section.showModal();
     refreshCount();
+    refreshLikes();
     loadComments();
-  });
+  }));
   section.querySelector('.comments-close').addEventListener('click', () => section.close());
   section.addEventListener('click', event => {
     if (event.target === section) {
@@ -137,7 +170,7 @@ document.querySelectorAll('.story-image img').forEach(img => {
       if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) section.close();
     }
   });
-  section.addEventListener('close', () => { refreshCount(); trigger.focus(); });
+  section.addEventListener('close', () => { refreshCount(); refreshLikes(true); opener.focus(); });
   retry.addEventListener('click', loadComments);
 })();
 
