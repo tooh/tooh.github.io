@@ -64,30 +64,40 @@ document.querySelectorAll('.story-image img').forEach(img => {
   let opener = trigger;
   let likesLoading = false;
   let lastLikesFetch = 0;
-  async function refreshLikes(force = false) {
+  function refreshLikes(force = false) {
     if (!likesButton || !section.dataset.publicKey || likesLoading) return;
     if (!force && Date.now() - lastLikesFetch < 60000) return;
     likesLoading = true;
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 10000);
-    try {
-      const url = new URL('https://disqus.com/api/3.0/threads/details.json');
-      url.searchParams.set('api_key', section.dataset.publicKey);
-      url.searchParams.set('forum', section.dataset.shortname);
-      url.searchParams.set(section.dataset.identifier ? 'thread:ident' : 'thread:link', section.dataset.identifier || section.dataset.url);
-      const response = await fetch(url, {signal: controller.signal, credentials: 'omit'});
-      const data = await response.json();
-      likesButton.dataset.state = `http-${response.status}-code-${data.code}`;
-      if (response.ok && data.code === 0 && Number.isInteger(data.response?.likes)) {
+    // Disqus supports JSONP for browser access across site origins.
+    const callback = `editorialLikes_${Date.now()}_${Math.random().toString(36).slice(2)}`;
+    const script = document.createElement('script');
+    const url = new URL('https://disqus.com/api/3.0/threads/details.jsonp');
+    url.searchParams.set('api_key', section.dataset.publicKey);
+    url.searchParams.set('forum', section.dataset.shortname);
+    url.searchParams.set(section.dataset.identifier ? 'thread:ident' : 'thread:link', section.dataset.identifier || section.dataset.url);
+    url.searchParams.set('callback', callback);
+    const cleanup = () => {
+      clearTimeout(timeout);
+      script.remove();
+      likesLoading = false;
+      // A late network response must not invoke an undefined callback.
+      window[callback] = () => {};
+      setTimeout(() => { delete window[callback]; }, 60000);
+    };
+    const timeout = setTimeout(cleanup, 15000);
+    window[callback] = data => {
+      if (data.code === 0 && Number.isInteger(data.response?.likes)) {
         const total = data.response.likes;
         likesCount.textContent = String(total);
         likesButton.setAttribute('aria-label', `${total} article ${total === 1 ? 'like' : 'likes'} — open Disqus`);
         lastLikesFetch = Date.now();
       }
-    } catch (error) {
-      likesButton.dataset.state = error.name;
-      // Keep an unavailable count as a dash, never invent a zero.
-    } finally { clearTimeout(timeout); likesLoading = false; }
+      cleanup();
+    };
+    script.async = true;
+    script.src = url.href;
+    script.onerror = cleanup;
+    document.head.appendChild(script);
   }
   refreshLikes();
   // The lightweight count script loads separately from the discussion embed.
