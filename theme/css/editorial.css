@@ -78,3 +78,16 @@
 
 /* Keep footer actions level with the author name and Follow button. */
 .post-author>.likes-trigger,.post-author>.comments-trigger{align-self:flex-start;height:30px;margin-top:0;padding-top:3px;padding-bottom:3px}
+
+/* Small screens: name above a shared row for Follow and both counters. */
+@media(max-width:520px){
+  .post-author{display:grid;grid-template-columns:48px auto auto auto minmax(0,1fr);column-gap:8px;row-gap:10px;align-items:center}
+  .post-author-avatar{grid-column:1;grid-row:1 / 4;align-self:start}
+  .post-author-info,.post-author-heading{display:contents}
+  .post-author-name{grid-column:2 / -1;grid-row:1;min-width:0}
+  .post-author .follow-button{grid-column:2;grid-row:2;justify-self:start;white-space:nowrap}
+  .post-author>.likes-trigger{grid-column:3;grid-row:2}
+  .post-author>.comments-trigger{grid-column:4;grid-row:2}
+  .post-author>.likes-trigger,.post-author>.comments-trigger{align-self:center;margin:0;min-width:44px;padding-inline:4px}
+  .post-author-meta{grid-column:2 / -1;grid-row:3;margin:0;gap:6px}
+}
