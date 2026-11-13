@@ -1,45 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>Daily Scrum - Apple</title><link>https://blog.florijnconsultancy.nl/</link><description>A personal blog</description><lastBuildDate>Sat, 25 Oct 2014 12:02:00 +0200</lastBuildDate><item><title>Disabling Nap App</title><link>https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html</link><description>&lt;p&gt;Since Mavericks there is a feature called Nap&amp;nbsp;app.&lt;/p&gt;
 &lt;p&gt;For some reason it can be better to prevent an application to take a&amp;nbsp;nap.&lt;/p&gt;
-&lt;div class="admonition tip"&gt;
+
 &lt;p class="admonition-title"&gt;Tip&lt;/p&gt;
-&lt;/div&gt;
+
 &lt;p&gt;You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;defaults write com.apple.Terminal NSAppSleepDisabled -bool YES
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+defaults write com.apple.Terminal NSAppSleepDisabled -bool YES
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The Manual&amp;nbsp;Solution:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Mavericks comes with a dreaded feature …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 25 Oct 2014 12:02:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-10-25:/articles/disabling-nap-app.html</guid><category>Apple</category><category>macos</category><category>tips</category><category>performance</category></item><item><title>Upgrade to Yosemite</title><link>https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html</link><description>&lt;h1 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Mavericks comes with a dreaded feature &amp;mdash; App Nap &amp;ndash; that is designed to save battery live and be energy star compliant.   Fine for some apps &amp;ndash; but it doesn&amp;rsquo;t really work if you are using Studio as a web server.   You can manually turn it off by:
+&amp;ndash; doing a &amp;lsquo;get info&amp;rsquo; on Studio and 
+&amp;ndash; clicking the &amp;lsquo;disable app nap&amp;rsquo;&amp;nbsp;feature.&lt;/p&gt;
+&lt;p&gt;you&amp;rsquo;ll get all your studio horses firing on all cylinders even in the background &amp;ndash; which is what you&amp;nbsp;want.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="http://www.cultofmac.com/274396/disable-app-nap-specific-apps-os-x-tips/"&gt;Disable nap&amp;nbsp;app&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 25 Oct 2014 12:02:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-10-25:/articles/disabling-nap-app.html</guid><category>Apple</category><category>macos</category><category>tips</category><category>performance</category></item><item><title>Upgrade to Yosemite</title><link>https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html</link><description>&lt;h1 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
 It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&amp;nbsp;Yosemite.&lt;/p&gt;
-&lt;!-- more --&gt;
-
-&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#update-rvm"&gt;Update&amp;nbsp;rvm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#fix-brew"&gt;Fix&amp;nbsp;brew&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#ruby"&gt;Ruby&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#bugzilla-perl"&gt;Bugzilla /&amp;nbsp;perl&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h2 id="update-rvm"&gt;Update rvm&lt;a class="headerlink" href="#update-rvm" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rvm&lt;span class="w"&gt; &lt;/span&gt;get …&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 18 Oct 2014 11:59:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</guid><category>Apple</category><category>yosemite</category><category>ruby</category></item><item><title>Slow Time Machine backup on Mavericks</title><link>https://blog.florijnconsultancy.nl/articles/slow-time-machine-backup-on-mavericks.html</link><description>&lt;div class="toc"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 18 Oct 2014 11:59:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</guid><category>Apple</category><category>yosemite</category><category>ruby</category></item><item><title>Slow Time Machine backup on Mavericks</title><link>https://blog.florijnconsultancy.nl/articles/slow-time-machine-backup-on-mavericks.html</link><description>
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#software-diagnostics"&gt;Software&amp;nbsp;Diagnostics&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#hardware-diagnostics"&gt;Hardware&amp;nbsp;Diagnostics&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
+
 &lt;h2 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Mon, 25 Aug 2014 09:36:29 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-08-25:/articles/slow-time-machine-backup-on-mavericks.html</guid><category>Apple</category><category>backup</category><category>spotlight</category></item><item><title>Notes on Mavericks upgrade</title><link>https://blog.florijnconsultancy.nl/articles/notes-on-mavericks-upgrade.html</link><description>&lt;p&gt;I upgraded on day one. Upgrade went smoothly. In this post I will share my notes on some issues I&amp;nbsp;encounter.&lt;/p&gt;
-&lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 03 Nov 2013 15:56:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-11-03:/articles/notes-on-mavericks-upgrade.html</guid><category>Apple</category><category>macos</category><category>upgrade</category><category>mavericks</category><category>install</category></item><item><title>How to fix slow startup OSX Mountain Lion</title><link>https://blog.florijnconsultancy.nl/articles/how-to-fix-slow-startup-osx-mountain-lion.html</link><description>&lt;p&gt;I recently experienced very slow startup of my iMac and it seemed related to heavy Spotlight indexing.
+&lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my &lt;span class="caps"&gt;HD&lt;/span&gt; and as a consequence slows down my&amp;nbsp;Mac.&lt;/p&gt;
+&lt;p&gt;I Googled around to find a solution and although I found some possible solutions I still have the&amp;nbsp;problem.&lt;/p&gt;
+&lt;p&gt;I have also a notebook backing up to the same Synology and this backup is fast as&amp;nbsp;ever.&lt;/p&gt;
+&lt;p&gt;After many hours the backup is completed and now it seems stuck for hours in verifying the&amp;nbsp;backup.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Mon, 25 Aug 2014 09:36:29 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-08-25:/articles/slow-time-machine-backup-on-mavericks.html</guid><category>Apple</category><category>backup</category><category>spotlight</category></item><item><title>Notes on Mavericks upgrade</title><link>https://blog.florijnconsultancy.nl/articles/notes-on-mavericks-upgrade.html</link><description>&lt;p&gt;I upgraded on day one. Upgrade went smoothly. In this post I will share my notes on some issues I&amp;nbsp;encounter.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 03 Nov 2013 15:56:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-11-03:/articles/notes-on-mavericks-upgrade.html</guid><category>Apple</category><category>macos</category><category>upgrade</category><category>mavericks</category><category>install</category></item><item><title>How to fix slow startup OSX Mountain Lion</title><link>https://blog.florijnconsultancy.nl/articles/how-to-fix-slow-startup-osx-mountain-lion.html</link><description>&lt;p&gt;I recently experienced very slow startup of my iMac and it seemed related to heavy Spotlight indexing.
 I researched this item on Google but I could not find a real Root&amp;nbsp;cause.&lt;/p&gt;
 &lt;p&gt;I made a call to Apple support and I got the following&amp;nbsp;suggestions:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Goto to&amp;nbsp;Finder&lt;/li&gt;
-&lt;li&gt;Press&amp;nbsp;Alt …&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Wed, 21 Aug 2013 13:31:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-08-21:/articles/how-to-fix-slow-startup-osx-mountain-lion.html</guid><category>Apple</category><category>performance</category><category>fix</category></item></channel></rss>
+&lt;li&gt;Press&amp;nbsp;Alt &lt;/li&gt;
+&lt;li&gt;Goto&amp;nbsp;Library&lt;/li&gt;
+&lt;li&gt;Move folder Caches to the&amp;nbsp;trash&lt;/li&gt;
+&lt;li&gt;Move folder LaunchAgents to the&amp;nbsp;trash&lt;/li&gt;
+&lt;li&gt;Goto folder&amp;nbsp;Preferences &lt;/li&gt;
+&lt;li&gt;Move com.apple.spotlight.plist to the&amp;nbsp;desktop&lt;/li&gt;
+&lt;li&gt;restart&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This resulted in my iMac performing as&amp;nbsp;usual.&lt;/p&gt;
+&lt;p&gt;So it worked for&amp;nbsp;me.&lt;/p&gt;
+&lt;p&gt;Be careful and make a backup before trying this&amp;nbsp;fix.&lt;/p&gt;
+&lt;p&gt;No&amp;nbsp;guarantees!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Wed, 21 Aug 2013 13:31:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-08-21:/articles/how-to-fix-slow-startup-osx-mountain-lion.html</guid><category>Apple</category><category>performance</category><category>fix</category></item></channel></rss>

@@ -3,21 +3,11 @@
 &lt;p&gt;&lt;a href="http://www.voip-info.org/wiki/view/Asterisk+click+to+call"&gt;click2call&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Standards&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.ietf.org/rfc/rfc2806.txt"&gt;rfc2806&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="Telephony"></category><category term="voip"></category><category term="click2call"></category><category term="cti"></category><category term="pots"></category></entry><entry><title>Fritz!Box 7390 configuration</title><link href="https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html" rel="alternate"></link><published>2013-05-09T12:32:00+02:00</published><updated>2013-05-09T12:32:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</id><summary type="html">&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
+</content><category term="Telephony"></category><category term="voip"></category><category term="click2call"></category><category term="cti"></category><category term="pots"></category></entry><entry><title>Fritz!Box 7390 configuration</title><link href="https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html" rel="alternate"></link><published>2013-05-09T12:32:00+02:00</published><updated>2013-05-09T12:32:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</id><summary type="html">&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
 &lt;p&gt;In this article I will describe the configuration and add-ons I&amp;nbsp;installed.&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;h2 id="contents"&gt;Contents&lt;a class="headerlink" href="#contents" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#contents"&gt;Contents&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#the-fritzbox"&gt;The Fritz!Box&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#options"&gt;Options&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#internet-access"&gt;Internet access&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#using-the-internet-connection-of-another-router-with-fritzbox"&gt;Using the Internet connection of another …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
 &lt;p&gt;In this article I will describe the configuration and add-ons I&amp;nbsp;installed.&lt;/p&gt;
-&lt;!-- more --&gt;
+
 &lt;h2 id="contents"&gt;Contents&lt;a class="headerlink" href="#contents" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;

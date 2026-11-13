@@ -58,6 +58,7 @@ document.querySelectorAll('.story-image img').forEach(img => {
   const section = document.querySelector('[data-comments]');
   const trigger = document.querySelector('.comments-trigger');
   if (!section || !trigger) return;
+  const refreshCount = () => window.DISQUSWIDGETS?.getCount({reset: true});
   // The lightweight count script loads separately from the discussion embed.
   const count = trigger.querySelector('.disqus-comment-count');
   if (count) {
@@ -73,6 +74,24 @@ document.querySelectorAll('.story-image img').forEach(img => {
     counter.id = 'dsq-count-scr';
     counter.src = `https://${section.dataset.shortname}.disqus.com/count.js`;
     counter.async = true;
+    // The initial count-data URL can be cached before a thread has comments.
+    // Disqus reset adds a cache-busting timestamp to request the current count.
+    counter.onload = () => {
+      const widget = window.DISQUSWIDGETS;
+      if (!widget) return;
+      const displayCount = widget.displayCount;
+      // Keep the numeric badge in sync with the response itself, independent
+      // of Disqus's internal element registry and localized link text.
+      widget.displayCount = function (data) {
+        const key = count.dataset.disqusIdentifier || count.dataset.disqusUrl;
+        const result = data.counts.find(item => item.id === key);
+        displayCount.call(widget, data);
+        if (result && Number.isInteger(result.comments)) {
+          count.textContent = String(result.comments);
+        }
+      };
+      refreshCount();
+    };
     document.head.appendChild(counter);
   }
   const retry = section.querySelector('.comments-load');
@@ -88,7 +107,11 @@ document.querySelectorAll('.story-image img').forEach(img => {
       this.page.title = section.dataset.title;
       if (section.dataset.identifier) this.page.identifier = section.dataset.identifier;
       this.callbacks.onReady = [() => { status.textContent = ''; state = 'ready'; }];
-      this.callbacks.onNewComment = [() => window.DISQUSWIDGETS?.getCount({reset: true})];
+      this.callbacks.onNewComment = [() => {
+        refreshCount();
+        // Allow the separate counting endpoint time to index the new comment.
+        [2000, 10000, 30000].forEach(delay => setTimeout(refreshCount, delay));
+      }];
     };
     const script = document.createElement('script');
     script.src = `https://${section.dataset.shortname}.disqus.com/embed.js`;
@@ -104,6 +127,7 @@ document.querySelectorAll('.story-image img').forEach(img => {
   }
   trigger.addEventListener('click', () => {
     section.showModal();
+    refreshCount();
     loadComments();
   });
   section.querySelector('.comments-close').addEventListener('click', () => section.close());
@@ -113,7 +137,7 @@ document.querySelectorAll('.story-image img').forEach(img => {
       if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) section.close();
     }
   });
-  section.addEventListener('close', () => trigger.focus());
+  section.addEventListener('close', () => { refreshCount(); trigger.focus(); });
   retry.addEventListener('click', loadComments);
 })();
 

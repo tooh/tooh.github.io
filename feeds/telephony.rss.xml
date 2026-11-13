@@ -3,16 +3,6 @@
 &lt;p&gt;&lt;a href="http://www.voip-info.org/wiki/view/Asterisk+click+to+call"&gt;click2call&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Standards&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.ietf.org/rfc/rfc2806.txt"&gt;rfc2806&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Fri, 14 Nov 2014 08:42:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-11-14:/articles/click2dial.html</guid><category>Telephony</category><category>voip</category><category>click2call</category><category>cti</category><category>pots</category></item><item><title>Fritz!Box 7390 configuration</title><link>https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html</link><description>&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Fri, 14 Nov 2014 08:42:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2014-11-14:/articles/click2dial.html</guid><category>Telephony</category><category>voip</category><category>click2call</category><category>cti</category><category>pots</category></item><item><title>Fritz!Box 7390 configuration</title><link>https://blog.florijnconsultancy.nl/articles/fritzbox-7390-configuration.html</link><description>&lt;p&gt;I recently bought a Fritz!Box 7390. Main reason was that I wanted to integrate telephony (&lt;span class="caps"&gt;POTS&lt;/span&gt;) in my daily workflow on my&amp;nbsp;Mac.&lt;/p&gt;
 &lt;p&gt;In this article I will describe the configuration and add-ons I&amp;nbsp;installed.&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;h2 id="contents"&gt;Contents&lt;a class="headerlink" href="#contents" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#contents"&gt;Contents&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#the-fritzbox"&gt;The Fritz!Box&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#options"&gt;Options&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#internet-access"&gt;Internet access&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#using-the-internet-connection-of-another-router-with-fritzbox"&gt;Using the Internet connection of another …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Thu, 09 May 2013 12:32:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</guid><category>Telephony</category><category>telephony</category><category>voip</category></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Thu, 09 May 2013 12:32:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2013-05-09:/articles/fritzbox-7390-configuration.html</guid><category>Telephony</category><category>telephony</category><category>voip</category></item></channel></rss>

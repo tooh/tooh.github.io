@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - Programming</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/programming.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2015-10-17T08:56:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>Convert Markdown to Word docx with Pandoc</title><link href="https://blog.florijnconsultancy.nl/articles/convert-markdown-to-word-docx-with-pandoc.html" rel="alternate"></link><published>2015-10-17T08:56:00+02:00</published><updated>2015-10-17T08:56:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-10-17:/articles/convert-markdown-to-word-docx-with-pandoc.html</id><summary type="html">&lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army&amp;nbsp;knife.&lt;/p&gt;
-&lt;!-- more --&gt;
+</summary><content type="html">&lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army&amp;nbsp;knife.&lt;/p&gt;
 
-&lt;h3 id="installation"&gt;Installation&lt;a class="headerlink" href="#installation" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;My &lt;span class="caps"&gt;OS&lt;/span&gt; is &lt;span class="caps"&gt;OSX&lt;/span&gt; so the easiest is to use&amp;nbsp;Homebrew.&lt;/p&gt;
-&lt;h4 id="with-homebrew"&gt;With homebrew&lt;a class="headerlink" href="#with-homebrew" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$&lt;span class="w"&gt; &lt;/span&gt;brew&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;pandoc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h4 id="use-the-installer"&gt;Use the installer&lt;a class="headerlink" href="#use-the-installer" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Go to the github project&amp;nbsp;downloads&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;https://github.com/jgm/pandoc/releases/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h3 id="convert-your-document"&gt;Convert …&lt;/h3&gt;</summary><content type="html">&lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army&amp;nbsp;knife.&lt;/p&gt;
-&lt;!-- more --&gt;
 
 &lt;h3 id="installation"&gt;Installation&lt;a class="headerlink" href="#installation" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;My &lt;span class="caps"&gt;OS&lt;/span&gt; is &lt;span class="caps"&gt;OSX&lt;/span&gt; so the easiest is to use&amp;nbsp;Homebrew.&lt;/p&gt;
@@ -69,28 +56,35 @@ function&lt;span class="w"&gt; &lt;/span&gt;md2word&lt;span class="w"&gt; &lt;/s
 &lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman"&gt;https://github.com/jeffknupp/sandman&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman2"&gt;https://github.com/jeffknupp/sandman2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.fullstackpython.com/api-creation.html"&gt;http://www.fullstackpython.com/api-creation.html&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="Programming"></category><category term="rest"></category><category term="python"></category><category term="webservice"></category></entry><entry><title>Linux command line sort on dates</title><link href="https://blog.florijnconsultancy.nl/articles/linux-command-line-sort-on-dates.html" rel="alternate"></link><published>2015-04-24T14:38:00+02:00</published><updated>2015-04-24T14:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-04-24:/articles/linux-command-line-sort-on-dates.html</id><summary type="html">&lt;p&gt;linux command line sort on&amp;nbsp;dates&lt;/p&gt;</summary><content type="html">&lt;p&gt;For one of my projects I needed to sort a csv file on a date field with dd/mm/yyyy&amp;nbsp;format.&lt;/p&gt;
+</content><category term="Programming"></category><category term="rest"></category><category term="python"></category><category term="webservice"></category></entry><entry><title>Linux command line sort on dates</title><link href="https://blog.florijnconsultancy.nl/articles/linux-command-line-sort-on-dates.html" rel="alternate"></link><published>2015-04-24T14:38:00+02:00</published><updated>2015-04-24T14:38:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-04-24:/articles/linux-command-line-sort-on-dates.html</id><summary type="html">&lt;p&gt;linux command line sort on&amp;nbsp;dates&lt;/p&gt;</summary><content type="html">&lt;p&gt;For one of my projects I needed to sort a csv file on a date field with dd/mm/yyyy&amp;nbsp;format.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sort -n -t&amp;quot;/&amp;quot; -k3,3 -k2,2 -k1,1 planning.csv
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;!-- more --&gt;</content><category term="Programming"></category><category term="linux"></category><category term="macos"></category><category term="bash"></category></entry><entry><title>Cairosvg</title><link href="https://blog.florijnconsultancy.nl/articles/cairosvg.html" rel="alternate"></link><published>2015-01-18T08:09:00+01:00</published><updated>2015-01-18T08:09:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2015-01-18:/articles/cairosvg.html</id><summary type="html">&lt;h2 id="install-cairosvg"&gt;Install Cairosvg&lt;a class="headerlink" href="#install-cairosvg" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo pip install pycairo
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+sudo pip install pycairo
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;brew install py2cairo
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+brew install py2cairo
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo pip install cairosvg
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+sudo pip install cairosvg
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo ./waf configure --prefix=/System/Library/Frameworks/Python.framework/Versions/2.7
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+sudo ./waf configure --prefix=/System/Library/Frameworks/Python.framework/Versions/2.7
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id="additional"&gt;Additional&lt;a class="headerlink" href="#additional" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;find out where the svg/cairo libraries were&amp;nbsp;installed&lt;/li&gt;
 &lt;li&gt;make sure that pkg-config finds these, if not, set PKG_CONFIG_PATH to
-point to the /lib …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="install-cairosvg"&gt;Install Cairosvg&lt;a class="headerlink" href="#install-cairosvg" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+point to the /lib directory of the location were the svg/cairo libraries
+are&amp;nbsp;installed&lt;/li&gt;
+&lt;li&gt;re-run configure, which should now pick up the new libraries (if not,
+check&amp;nbsp;config.log)&lt;/li&gt;
+&lt;li&gt;if the build still fails, try to do a make distclean (which requires a
+new configure&amp;nbsp;afterwards)&lt;/li&gt;
+&lt;/ul&gt;
+</summary><content type="html">&lt;h2 id="install-cairosvg"&gt;Install Cairosvg&lt;a class="headerlink" href="#install-cairosvg" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo pip install pycairo
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -114,4 +108,4 @@ check&amp;nbsp;config.log)&lt;/li&gt;
 &lt;li&gt;if the build still fails, try to do a make distclean (which requires a
 new configure&amp;nbsp;afterwards)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- more --&gt;</content><category term="Programming"></category><category term="graphics"></category><category term="svg"></category></entry></feed>
+</content><category term="Programming"></category><category term="graphics"></category><category term="svg"></category></entry></feed>

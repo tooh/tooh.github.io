@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Daily Scrum - Apple</title><link href="https://blog.florijnconsultancy.nl/" rel="alternate"></link><link href="https://blog.florijnconsultancy.nl/feeds/apple.atom.xml" rel="self"></link><id>https://blog.florijnconsultancy.nl/</id><updated>2014-10-25T12:02:00+02:00</updated><subtitle>A personal blog</subtitle><entry><title>Disabling Nap App</title><link href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html" rel="alternate"></link><published>2014-10-25T12:02:00+02:00</published><updated>2014-10-25T12:02:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-25:/articles/disabling-nap-app.html</id><summary type="html">&lt;p&gt;Since Mavericks there is a feature called Nap&amp;nbsp;app.&lt;/p&gt;
 &lt;p&gt;For some reason it can be better to prevent an application to take a&amp;nbsp;nap.&lt;/p&gt;
-&lt;div class="admonition tip"&gt;
+
 &lt;p class="admonition-title"&gt;Tip&lt;/p&gt;
-&lt;/div&gt;
+
 &lt;p&gt;You can disable this for a specific&amp;nbsp;application.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;defaults write com.apple.Terminal NSAppSleepDisabled -bool YES
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+defaults write com.apple.Terminal NSAppSleepDisabled -bool YES
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The Manual&amp;nbsp;Solution:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Mavericks comes with a dreaded feature …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Since Mavericks there is a feature called Nap&amp;nbsp;app.&lt;/p&gt;
+&lt;p&gt;Mavericks comes with a dreaded feature &amp;mdash; App Nap &amp;ndash; that is designed to save battery live and be energy star compliant.   Fine for some apps &amp;ndash; but it doesn&amp;rsquo;t really work if you are using Studio as a web server.   You can manually turn it off by:
+&amp;ndash; doing a &amp;lsquo;get info&amp;rsquo; on Studio and 
+&amp;ndash; clicking the &amp;lsquo;disable app nap&amp;rsquo;&amp;nbsp;feature.&lt;/p&gt;
+&lt;p&gt;you&amp;rsquo;ll get all your studio horses firing on all cylinders even in the background &amp;ndash; which is what you&amp;nbsp;want.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="http://www.cultofmac.com/274396/disable-app-nap-specific-apps-os-x-tips/"&gt;Disable nap&amp;nbsp;app&lt;/a&gt;&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Since Mavericks there is a feature called Nap&amp;nbsp;app.&lt;/p&gt;
 &lt;p&gt;For some reason it can be better to prevent an application to take a&amp;nbsp;nap.&lt;/p&gt;
 &lt;div class="admonition tip"&gt;
 &lt;p class="admonition-title"&gt;Tip&lt;/p&gt;
@@ -28,27 +35,13 @@
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="http://www.cultofmac.com/274396/disable-app-nap-specific-apps-os-x-tips/"&gt;Disable nap&amp;nbsp;app&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="Apple"></category><category term="macos"></category><category term="tips"></category><category term="performance"></category></entry><entry><title>Upgrade to Yosemite</title><link href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</id><summary type="html">&lt;h1 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
+</content><category term="Apple"></category><category term="macos"></category><category term="tips"></category><category term="performance"></category></entry><entry><title>Upgrade to Yosemite</title><link href="https://blog.florijnconsultancy.nl/articles/upgrade-to-yosemite.html" rel="alternate"></link><published>2014-10-18T11:59:00+02:00</published><updated>2014-10-18T11:59:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-10-18:/articles/upgrade-to-yosemite.html</id><summary type="html">&lt;h1 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
 It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&amp;nbsp;Yosemite.&lt;/p&gt;
-&lt;!-- more --&gt;
+</summary><content type="html">&lt;h1 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
+It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&amp;nbsp;Yosemite.&lt;/p&gt;
 
-&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#update-rvm"&gt;Update&amp;nbsp;rvm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#fix-brew"&gt;Fix&amp;nbsp;brew&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#ruby"&gt;Ruby&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#bugzilla-perl"&gt;Bugzilla /&amp;nbsp;perl&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h2 id="update-rvm"&gt;Update rvm&lt;a class="headerlink" href="#update-rvm" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rvm&lt;span class="w"&gt; &lt;/span&gt;get …&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;After upgrading to Yosemite, I found out that my ruby projects were not working any more. 
-It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This version was removed in&amp;nbsp;Yosemite.&lt;/p&gt;
-&lt;!-- more --&gt;
 
 &lt;div class="toc"&gt;
 &lt;ul&gt;
@@ -116,16 +109,20 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;div class="admonition info"&gt;
 &lt;p class="admonition-title"&gt;Info&lt;/p&gt;
 &lt;p&gt;I have to find out how to configure&amp;nbsp;this&lt;/p&gt;
-&lt;/div&gt;</content><category term="Apple"></category><category term="yosemite"></category><category term="ruby"></category></entry><entry><title>Slow Time Machine backup on Mavericks</title><link href="https://blog.florijnconsultancy.nl/articles/slow-time-machine-backup-on-mavericks.html" rel="alternate"></link><published>2014-08-25T09:36:29+02:00</published><updated>2014-08-25T09:36:29+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-25:/articles/slow-time-machine-backup-on-mavericks.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;/div&gt;</content><category term="Apple"></category><category term="yosemite"></category><category term="ruby"></category></entry><entry><title>Slow Time Machine backup on Mavericks</title><link href="https://blog.florijnconsultancy.nl/articles/slow-time-machine-backup-on-mavericks.html" rel="alternate"></link><published>2014-08-25T09:36:29+02:00</published><updated>2014-08-25T09:36:29+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2014-08-25:/articles/slow-time-machine-backup-on-mavericks.html</id><summary type="html">
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#software-diagnostics"&gt;Software&amp;nbsp;Diagnostics&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#hardware-diagnostics"&gt;Hardware&amp;nbsp;Diagnostics&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
+
 &lt;h2 id="introduction"&gt;Introduction&lt;a class="headerlink" href="#introduction" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing …&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Since a couple of weeks I noticed that my Time Machine did not backup. I observed that this began more or less the same time when I had rebuilt my Spotlight index, because I had some problems with Spotlight that keeps on indexing my &lt;span class="caps"&gt;HD&lt;/span&gt; and as a consequence slows down my&amp;nbsp;Mac.&lt;/p&gt;
+&lt;p&gt;I Googled around to find a solution and although I found some possible solutions I still have the&amp;nbsp;problem.&lt;/p&gt;
+&lt;p&gt;I have also a notebook backing up to the same Synology and this backup is fast as&amp;nbsp;ever.&lt;/p&gt;
+&lt;p&gt;After many hours the backup is completed and now it seems stuck for hours in verifying the&amp;nbsp;backup.&lt;/p&gt;
+</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#software-diagnostics"&gt;Software&amp;nbsp;Diagnostics&lt;/a&gt;&lt;/li&gt;
@@ -138,7 +135,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;p&gt;I Googled around to find a solution and although I found some possible solutions I still have the&amp;nbsp;problem.&lt;/p&gt;
 &lt;p&gt;I have also a notebook backing up to the same Synology and this backup is fast as&amp;nbsp;ever.&lt;/p&gt;
 &lt;p&gt;After many hours the backup is completed and now it seems stuck for hours in verifying the&amp;nbsp;backup.&lt;/p&gt;
-&lt;!-- more --&gt;
+
 
 &lt;p&gt;Finally the backup was completed but the verification took a long time as well and was stuck on&amp;nbsp;69%.&lt;/p&gt;
 &lt;p&gt;I am suspecting a hardware problem, possibly the&amp;nbsp;harddisk.&lt;/p&gt;
@@ -165,12 +162,7 @@ It seemed a number of commands, (f.i.brew) , were pointng at ruby 1.8. This vers
 &lt;p&gt;I decided to deinstall &lt;span class="caps"&gt;OSX&lt;/span&gt; server and see what would&amp;nbsp;happen.&lt;/p&gt;
 &lt;p&gt;After deinstalling &lt;span class="caps"&gt;OSX&lt;/span&gt; server it seems that my Time Machine backup is running as&amp;nbsp;normal.&lt;/p&gt;
 &lt;p&gt;My analysis is that these postfix processes caused some constant file io which interfered somehow with Spotlight/Time&amp;nbsp;Machine.&lt;/p&gt;</content><category term="Apple"></category><category term="backup"></category><category term="spotlight"></category></entry><entry><title>Notes on Mavericks upgrade</title><link href="https://blog.florijnconsultancy.nl/articles/notes-on-mavericks-upgrade.html" rel="alternate"></link><published>2013-11-03T15:56:00+01:00</published><updated>2013-11-03T15:56:00+01:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-11-03:/articles/notes-on-mavericks-upgrade.html</id><content type="html">&lt;p&gt;I upgraded on day one. Upgrade went smoothly. In this post I will share my notes on some issues I&amp;nbsp;encounter.&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="Apple"></category><category term="macos"></category><category term="upgrade"></category><category term="mavericks"></category><category term="install"></category></entry><entry><title>How to fix slow startup OSX Mountain Lion</title><link href="https://blog.florijnconsultancy.nl/articles/how-to-fix-slow-startup-osx-mountain-lion.html" rel="alternate"></link><published>2013-08-21T13:31:00+02:00</published><updated>2013-08-21T13:31:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-08-21:/articles/how-to-fix-slow-startup-osx-mountain-lion.html</id><summary type="html">&lt;p&gt;I recently experienced very slow startup of my iMac and it seemed related to heavy Spotlight indexing.
-I researched this item on Google but I could not find a real Root&amp;nbsp;cause.&lt;/p&gt;
-&lt;p&gt;I made a call to Apple support and I got the following&amp;nbsp;suggestions:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Goto to&amp;nbsp;Finder&lt;/li&gt;
-&lt;li&gt;Press&amp;nbsp;Alt …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;I recently experienced very slow startup of my iMac and it seemed related to heavy Spotlight indexing.
+</content><category term="Apple"></category><category term="macos"></category><category term="upgrade"></category><category term="mavericks"></category><category term="install"></category></entry><entry><title>How to fix slow startup OSX Mountain Lion</title><link href="https://blog.florijnconsultancy.nl/articles/how-to-fix-slow-startup-osx-mountain-lion.html" rel="alternate"></link><published>2013-08-21T13:31:00+02:00</published><updated>2013-08-21T13:31:00+02:00</updated><author><name>Peter Florijn</name></author><id>tag:blog.florijnconsultancy.nl,2013-08-21:/articles/how-to-fix-slow-startup-osx-mountain-lion.html</id><content type="html">&lt;p&gt;I recently experienced very slow startup of my iMac and it seemed related to heavy Spotlight indexing.
 I researched this item on Google but I could not find a real Root&amp;nbsp;cause.&lt;/p&gt;
 &lt;p&gt;I made a call to Apple support and I got the following&amp;nbsp;suggestions:&lt;/p&gt;
 &lt;ol&gt;
@@ -187,4 +179,4 @@ I researched this item on Google but I could not find a real Root&amp;nbsp;cause
 &lt;p&gt;So it worked for&amp;nbsp;me.&lt;/p&gt;
 &lt;p&gt;Be careful and make a backup before trying this&amp;nbsp;fix.&lt;/p&gt;
 &lt;p&gt;No&amp;nbsp;guarantees!&lt;/p&gt;
-&lt;!-- more --&gt;</content><category term="Apple"></category><category term="performance"></category><category term="fix"></category></entry></feed>
+</content><category term="Apple"></category><category term="performance"></category><category term="fix"></category></entry></feed>

@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>Daily Scrum - Programming</title><link>https://blog.florijnconsultancy.nl/</link><description>A personal blog</description><lastBuildDate>Sat, 17 Oct 2015 08:56:00 +0200</lastBuildDate><item><title>Convert Markdown to Word docx with Pandoc</title><link>https://blog.florijnconsultancy.nl/articles/convert-markdown-to-word-docx-with-pandoc.html</link><description>&lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army&amp;nbsp;knife.&lt;/p&gt;
-&lt;!-- more --&gt;
-
-&lt;h3 id="installation"&gt;Installation&lt;a class="headerlink" href="#installation" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;My &lt;span class="caps"&gt;OS&lt;/span&gt; is &lt;span class="caps"&gt;OSX&lt;/span&gt; so the easiest is to use&amp;nbsp;Homebrew.&lt;/p&gt;
-&lt;h4 id="with-homebrew"&gt;With homebrew&lt;a class="headerlink" href="#with-homebrew" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$&lt;span class="w"&gt; &lt;/span&gt;brew&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;pandoc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h4 id="use-the-installer"&gt;Use the installer&lt;a class="headerlink" href="#use-the-installer" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Go to the github project&amp;nbsp;downloads&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;https://github.com/jgm/pandoc/releases/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h3 id="convert-your-document"&gt;Convert …&lt;/h3&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 17 Oct 2015 08:56:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-10-17:/articles/convert-markdown-to-word-docx-with-pandoc.html</guid><category>Programming</category><category>docx</category><category>convert</category><category>markdown</category></item><item><title>Creating REST services</title><link>https://blog.florijnconsultancy.nl/articles/creating-rest-services.html</link><description>&lt;p&gt;Interesting project&amp;nbsp;sandman.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sat, 17 Oct 2015 08:56:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-10-17:/articles/convert-markdown-to-word-docx-with-pandoc.html</guid><category>Programming</category><category>docx</category><category>convert</category><category>markdown</category></item><item><title>Creating REST services</title><link>https://blog.florijnconsultancy.nl/articles/creating-rest-services.html</link><description>&lt;p&gt;Interesting project&amp;nbsp;sandman.&lt;/p&gt;
 &lt;p&gt;Sandman2 is in&amp;nbsp;development&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://sandman.readthedocs.org/en/latest/"&gt;https://sandman.readthedocs.org/en/latest/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman"&gt;https://github.com/jeffknupp/sandman&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/jeffknupp/sandman2"&gt;https://github.com/jeffknupp/sandman2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.fullstackpython.com/api-creation.html"&gt;http://www.fullstackpython.com/api-creation.html&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Tue, 15 Sep 2015 15:53:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-09-15:/articles/creating-rest-services.html</guid><category>Programming</category><category>rest</category><category>python</category><category>webservice</category></item><item><title>Linux command line sort on dates</title><link>https://blog.florijnconsultancy.nl/articles/linux-command-line-sort-on-dates.html</link><description>&lt;p&gt;linux command line sort on&amp;nbsp;dates&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Fri, 24 Apr 2015 14:38:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-04-24:/articles/linux-command-line-sort-on-dates.html</guid><category>Programming</category><category>linux</category><category>macos</category><category>bash</category></item><item><title>Cairosvg</title><link>https://blog.florijnconsultancy.nl/articles/cairosvg.html</link><description>&lt;h2 id="install-cairosvg"&gt;Install Cairosvg&lt;a class="headerlink" href="#install-cairosvg" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo pip install pycairo
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Tue, 15 Sep 2015 15:53:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-09-15:/articles/creating-rest-services.html</guid><category>Programming</category><category>rest</category><category>python</category><category>webservice</category></item><item><title>Linux command line sort on dates</title><link>https://blog.florijnconsultancy.nl/articles/linux-command-line-sort-on-dates.html</link><description>&lt;p&gt;linux command line sort on&amp;nbsp;dates&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Fri, 24 Apr 2015 14:38:00 +0200</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-04-24:/articles/linux-command-line-sort-on-dates.html</guid><category>Programming</category><category>linux</category><category>macos</category><category>bash</category></item><item><title>Cairosvg</title><link>https://blog.florijnconsultancy.nl/articles/cairosvg.html</link><description>&lt;h2 id="install-cairosvg"&gt;Install Cairosvg&lt;a class="headerlink" href="#install-cairosvg" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+sudo pip install pycairo
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;brew install py2cairo
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+brew install py2cairo
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo pip install cairosvg
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+sudo pip install cairosvg
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo ./waf configure --prefix=/System/Library/Frameworks/Python.framework/Versions/2.7
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+sudo ./waf configure --prefix=/System/Library/Frameworks/Python.framework/Versions/2.7
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id="additional"&gt;Additional&lt;a class="headerlink" href="#additional" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;find out where the svg/cairo libraries were&amp;nbsp;installed&lt;/li&gt;
 &lt;li&gt;make sure that pkg-config finds these, if not, set PKG_CONFIG_PATH to
-point to the /lib …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 18 Jan 2015 08:09:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-01-18:/articles/cairosvg.html</guid><category>Programming</category><category>graphics</category><category>svg</category></item></channel></rss>
+point to the /lib directory of the location were the svg/cairo libraries
+are&amp;nbsp;installed&lt;/li&gt;
+&lt;li&gt;re-run configure, which should now pick up the new libraries (if not,
+check&amp;nbsp;config.log)&lt;/li&gt;
+&lt;li&gt;if the build still fails, try to do a make distclean (which requires a
+new configure&amp;nbsp;afterwards)&lt;/li&gt;
+&lt;/ul&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Peter Florijn</dc:creator><pubDate>Sun, 18 Jan 2015 08:09:00 +0100</pubDate><guid isPermaLink="false">tag:blog.florijnconsultancy.nl,2015-01-18:/articles/cairosvg.html</guid><category>Programming</category><category>graphics</category><category>svg</category></item></channel></rss>

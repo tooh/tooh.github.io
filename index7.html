@@ -19,7 +19,7 @@
   <title>Daily Scrum — Peter Florijn</title>
   <meta name="description" content="A personal journal by Peter Florijn. Notes on music, technology, and the things worth sharing.">
   <link rel="icon" href="https://blog.florijnconsultancy.nl/images/global/favicon.jpg">
-  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/editorial.css?v=20261112-9">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/editorial.css?v=20261113-2">
   <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/pygments.css">
 <link rel="alternate" type="application/atom+xml" title="Daily Scrum" href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml"></head>
 <body>
@@ -42,7 +42,7 @@
 <article class="story-row">
   <div class="story-text"><p class="story-byline"><span class="small-dot" aria-hidden="true"></span>Peter Florijn <span>in</span> <a href="https://blog.florijnconsultancy.nl/category/network.html">Network</a></p>
   <a class="story-title-link" href="https://blog.florijnconsultancy.nl/articles/itunes-sharing-troubleshooting.html"><h2>ITunes sharing troubleshooting</h2></a>
-<p class="story-summary">Introduction¶ I did a little rewiring of all my cables connected to my TV, Apple TV , router etc. While testing it I found out that my iTunes home sharing and Airplay was not working any ...</p>  <p class="story-meta"><time datetime="2015-06-09T09:51:00+02:00">Jun 09, 2015</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
+<p class="story-summary">Introduction¶ I did a little rewiring of all my cables connected to my TV, Apple TV , router etc. While testing it I found out that my iTunes home sharing and Airplay was not working any more. My ATV did see my shared library but was not able to play the songs. After consultation of a colleague and some troubleshooting I finally found the problem. Background¶ iTunes sharing uses the following ports: 123 3689 554 5353 Analysis¶ A long time ago when I was doing some experiments with the PF firewall on OSX, I installed the Icefloor app. Icefloor is a GUI frontend to the PF firewall. For more background on this app Icefloor I was thinking this Icefloor app was not running, but it was still active. It was blocking the essential ports 5353 and 3689. Solution¶ I stopped the Icefloor app and home sharing is working again.</p>  <p class="story-meta"><time datetime="2015-06-09T09:51:00+02:00">Jun 09, 2015</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
 </article>
 <article class="story-row">
   <div class="story-text"><p class="story-byline"><span class="small-dot" aria-hidden="true"></span>Peter Florijn <span>in</span> <a href="https://blog.florijnconsultancy.nl/category/programming.html">Programming</a></p>
@@ -52,7 +52,7 @@
 <article class="story-row">
   <div class="story-text"><p class="story-byline"><span class="small-dot" aria-hidden="true"></span>Peter Florijn <span>in</span> <a href="https://blog.florijnconsultancy.nl/category/installation.html">Installation</a></p>
   <a class="story-title-link" href="https://blog.florijnconsultancy.nl/articles/upgrade-to-bugzilla-50.html"><h2>Upgrade to Bugzilla 5.0</h2></a>
-<p class="story-summary">Updating to a Newer Release No local changes Upgrade to release 5.0 Local, uncommitted changes I upgraded to Bugzilla 5.0. Since the Bugzilla project now supports git, upgrading is now a ...</p>  <p class="story-meta"><time datetime="2015-01-31T10:26:00+01:00">Jan 31, 2015</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
+<p class="story-summary">Updating to a Newer Release No local changes Upgrade to release 5.0 Local, uncommitted changes I upgraded to Bugzilla 5.0. Since the Bugzilla project now supports git, upgrading is now a simple process. These are my installation notes. Updating to a Newer Release¶ No local changes¶ If you …</p>  <p class="story-meta"><time datetime="2015-01-31T10:26:00+01:00">Jan 31, 2015</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
 </article>
 <article class="story-row">
   <div class="story-text"><p class="story-byline"><span class="small-dot" aria-hidden="true"></span>Peter Florijn <span>in</span> <a href="https://blog.florijnconsultancy.nl/category/tools.html">Tools</a></p>
@@ -62,17 +62,17 @@
 <article class="story-row">
   <div class="story-text"><p class="story-byline"><span class="small-dot" aria-hidden="true"></span>Peter Florijn <span>in</span> <a href="https://blog.florijnconsultancy.nl/category/programming.html">Programming</a></p>
   <a class="story-title-link" href="https://blog.florijnconsultancy.nl/articles/cairosvg.html"><h2>Cairosvg</h2></a>
-<p class="story-summary">Install Cairosvg¶ sudo pip install pycairo brew install py2cairo sudo pip install cairosvg sudo ./waf configure --prefix=/System/Library/Frameworks/Python.framework/Versions/2.7 Additiona...</p>  <p class="story-meta"><time datetime="2015-01-18T08:09:00+01:00">Jan 18, 2015</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
+<p class="story-summary">Install Cairosvg¶ sudo pip install pycairo brew install py2cairo sudo pip install cairosvg sudo ./waf configure --prefix=/System/Library/Frameworks/Python.framework/Versions/2.7 Additional¶ find out where the svg/cairo libraries were installed make sure that pkg-config finds these, if not, set PKG_CONFIG_PATH to point to the /lib directory of the location were the svg/cairo libraries are installed re-run configure, which should now pick up the new libraries (if not, check config.log) if the build still fails, try to do a make distclean (which requires a new configure afterwards)</p>  <p class="story-meta"><time datetime="2015-01-18T08:09:00+01:00">Jan 18, 2015</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
 </article>
 <article class="story-row">
   <div class="story-text"><p class="story-byline"><span class="small-dot" aria-hidden="true"></span>Peter Florijn <span>in</span> <a href="https://blog.florijnconsultancy.nl/category/network.html">Network</a></p>
   <a class="story-title-link" href="https://blog.florijnconsultancy.nl/articles/update-powerline-for-osx.html"><h2>Update powerline for OSX</h2></a>
-<p class="story-summary">Firmware Update software for Fritz! Powerline is only officially for Windows. But there is beta software that can do the update on OSX. ftp://ftp.avm.de/fritz.box/fritz.powerline/deutsch/...</p>  <p class="story-meta"><time datetime="2015-01-01T12:20:00+01:00">Jan 01, 2015</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
+<p class="story-summary">Firmware Update software for Fritz! Powerline is only officially for Windows. But there is beta software that can do the update on OSX. ftp://ftp.avm.de/fritz.box/fritz.powerline/deutsch/mac_beta/</p>  <p class="story-meta"><time datetime="2015-01-01T12:20:00+01:00">Jan 01, 2015</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
 </article>
 <article class="story-row">
   <div class="story-text"><p class="story-byline"><span class="small-dot" aria-hidden="true"></span>Peter Florijn <span>in</span> <a href="https://blog.florijnconsultancy.nl/category/tools.html">Tools</a></p>
   <a class="story-title-link" href="https://blog.florijnconsultancy.nl/articles/jenkins-jobs-lost.html"><h2>Jenkins jobs lost</h2></a>
-<p class="story-summary">On my local development machine I noticed that I missed all my jobs. On my OSX machine all the job info was there in the .jenkins/jobs directory. Adding the following to my startjenkins.s...</p>  <p class="story-meta"><time datetime="2014-11-23T11:47:00+01:00">Nov 23, 2014</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
+<p class="story-summary">On my local development machine I noticed that I missed all my jobs. On my OSX machine all the job info was there in the .jenkins/jobs directory. Adding the following to my startjenkins.sh script solved the problem.</p>  <p class="story-meta"><time datetime="2014-11-23T11:47:00+01:00">Nov 23, 2014</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
 </article>
 <article class="story-row">
   <div class="story-text"><p class="story-byline"><span class="small-dot" aria-hidden="true"></span>Peter Florijn <span>in</span> <a href="https://blog.florijnconsultancy.nl/category/telephony.html">Telephony</a></p>
@@ -82,12 +82,12 @@
 <article class="story-row">
   <div class="story-text"><p class="story-byline"><span class="small-dot" aria-hidden="true"></span>Peter Florijn <span>in</span> <a href="https://blog.florijnconsultancy.nl/category/java.html">Java</a></p>
   <a class="story-title-link" href="https://blog.florijnconsultancy.nl/articles/omnis-and-java.html"><h2>Omnis and java</h2></a>
-<p class="story-summary">Research notes on java use in Omnis How can I find which version of Java is installed without running an applet in Windows or Mac? Strip Java out of Omnis RT Information and system requir...</p>  <p class="story-meta"><time datetime="2014-10-26T11:37:00+01:00">Oct 26, 2014</time><span aria-hidden="true">·</span><span>2 min read</span></p></div>
+<p class="story-summary">Research notes on java use in Omnis How can I find which version of Java is installed without running an applet in Windows or Mac? Strip Java out of Omnis RT Information and system requirements for installation and use of Oracle Java on Mac OS X Verify installation of java runtime on Windows Research notes on java use in Omnis¶ How can I find which version of Java is installed without running an applet in Windows or Mac?¶ How can I find which version of Java is installed without running an applet in Windows or Mac? Strip Java out of Omnis RT¶ Re: Strip Java out of Omnis RT - Omnis-Dev Information and system requirements for installation and use of Oracle Java on Mac OS X¶ https://www.java.com/nl/download/faq/java_mac.xml#restore</p>  <p class="story-meta"><time datetime="2014-10-26T11:37:00+01:00">Oct 26, 2014</time><span aria-hidden="true">·</span><span>2 min read</span></p></div>
 </article>
 <article class="story-row">
   <div class="story-text"><p class="story-byline"><span class="small-dot" aria-hidden="true"></span>Peter Florijn <span>in</span> <a href="https://blog.florijnconsultancy.nl/category/apple.html">Apple</a></p>
   <a class="story-title-link" href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html"><h2>Disabling Nap App</h2></a>
-<p class="story-summary">Since Mavericks there is a feature called Nap app. For some reason it can be better to prevent an application to take a nap. Tip You can disable this for a specific application. defaults ...</p>  <p class="story-meta"><time datetime="2014-10-25T12:02:00+02:00">Oct 25, 2014</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
+<p class="story-summary">Since Mavericks there is a feature called Nap app. For some reason it can be better to prevent an application to take a nap. Tip You can disable this for a specific application. defaults write com.apple.Terminal NSAppSleepDisabled -bool YES The Manual Solution: Mavericks comes with a dreaded feature — App Nap – that is designed to save battery live and be energy star compliant. Fine for some apps – but it doesn’t really work if you are using Studio as a web server. You can manually turn it off by: – doing a ‘get info’ on Studio and – clicking the ‘disable app nap’ feature. you’ll get all your studio horses firing on all cylinders even in the background – which is what you want. Disable nap app</p>  <p class="story-meta"><time datetime="2014-10-25T12:02:00+02:00">Oct 25, 2014</time><span aria-hidden="true">·</span><span>1 min read</span></p></div>
 <a class="story-image image-frame" href="https://blog.florijnconsultancy.nl/articles/disabling-nap-app.html" aria-label="Read Disabling Nap App">
 <img loading="lazy" src="https://blog.florijnconsultancy.nl/images/apple_logo.jpg" alt=""></a></article>
 </div>
@@ -101,6 +101,6 @@
 </div>
 </main>
 <footer class="site-footer"><a class="footer-brand" href="https://blog.florijnconsultancy.nl/index.html">Daily Scrum.</a><span>A personal journal by Peter Florijn.</span><a href="https://blog.florijnconsultancy.nl/categories.html">Explore topics <span aria-hidden="true">↗</span></a></footer>
-<script defer src="https://blog.florijnconsultancy.nl/theme/js/editorial.js?v=20261112-9"></script>
+<script defer src="https://blog.florijnconsultancy.nl/theme/js/editorial.js?v=20261113-2"></script>
 </body>
 </html>

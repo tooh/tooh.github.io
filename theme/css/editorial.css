@@ -71,3 +71,5 @@
 
 .comments-trigger{width:auto;min-width:54px;flex-basis:auto;gap:8px;padding:8px 10px;border-radius:22px}.disqus-comment-count{font-size:13px;font-variant-numeric:tabular-nums;line-height:1;min-width:1ch}
 
+
+.story-summary{-webkit-line-clamp:3}
