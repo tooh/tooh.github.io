@@ -83,3 +83,5 @@
 .post-follow-actions .likes-trigger,.post-follow-actions .comments-trigger{height:32px;min-width:44px;align-self:center;padding:4px 8px}
 .post-follow-actions .likes-trigger{margin-left:auto}.post-follow-actions .likes-trigger+.comments-trigger{margin-left:0}
 @media(max-width:520px){.post-follow-actions{gap:8px;padding:22px 0}.article-meta{font-size:12px}}
+
+.header-inner nav{flex-wrap:wrap}.header-inner nav [aria-current="page"]{color:var(--green);text-decoration:underline;text-underline-offset:5px}
