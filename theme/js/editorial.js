@@ -102,12 +102,11 @@ document.querySelectorAll('.story-image img').forEach(img => {
         threadId = thread.id;
       }
       const result = await disqusRead('threadReactions/loadReactions', {thread: threadId});
-      // Upvote emoji votes are distinct from legacy thread likes and comment votes.
-      const upvote = result.reactions?.find(reaction => reaction.image === 1 || reaction.text?.toLowerCase() === 'upvote');
-      if (Number.isInteger(upvote?.votes)) {
-        const total = upvote.votes;
+      // Count every emoji response; written comments have their own counter.
+      if (Array.isArray(result.reactions) && result.reactions.every(reaction => Number.isInteger(reaction.votes) && reaction.votes >= 0)) {
+        const total = result.reactions.reduce((sum, reaction) => sum + reaction.votes, 0);
         likesCount.textContent = String(total);
-        likesButton.setAttribute('aria-label', `${total} ${total === 1 ? 'upvote' : 'upvotes'} — open Disqus`);
+        likesButton.setAttribute('aria-label', `${total} emoji ${total === 1 ? 'reaction' : 'reactions'} — open Disqus`);
         lastLikesFetch = Date.now();
       }
     } catch (_) { /* Leave an unavailable count as a dash. */ }
