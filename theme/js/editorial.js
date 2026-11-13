@@ -64,40 +64,54 @@ document.querySelectorAll('.story-image img').forEach(img => {
   let opener = trigger;
   let likesLoading = false;
   let lastLikesFetch = 0;
-  function refreshLikes(force = false) {
+  let threadId = null;
+  function disqusRead(endpoint, params) {
+    return new Promise((resolve, reject) => {
+      const callback = `editorialVotes_${Date.now()}_${Math.random().toString(36).slice(2)}`;
+      const script = document.createElement('script');
+      const url = new URL(`https://disqus.com/api/3.0/${endpoint}.jsonp`);
+      url.searchParams.set('api_key', section.dataset.publicKey);
+      Object.entries(params).forEach(([key, value]) => url.searchParams.set(key, value));
+      url.searchParams.set('callback', callback);
+      const cleanup = () => {
+        clearTimeout(timeout); script.remove();
+        window[callback] = () => {};
+        setTimeout(() => { delete window[callback]; }, 60000);
+      };
+      const timeout = setTimeout(() => { cleanup(); reject(new Error('Disqus timeout')); }, 15000);
+      window[callback] = data => {
+        cleanup();
+        if (data.code === 0) resolve(data.response);
+        else reject(new Error('Disqus request failed'));
+      };
+      script.async = true; script.src = url.href;
+      script.onerror = () => { cleanup(); reject(new Error('Disqus unavailable')); };
+      document.head.appendChild(script);
+    });
+  }
+  async function refreshLikes(force = false) {
     if (!likesButton || !section.dataset.publicKey || likesLoading) return;
     if (!force && Date.now() - lastLikesFetch < 60000) return;
     likesLoading = true;
-    // Disqus supports JSONP for browser access across site origins.
-    const callback = `editorialLikes_${Date.now()}_${Math.random().toString(36).slice(2)}`;
-    const script = document.createElement('script');
-    const url = new URL('https://disqus.com/api/3.0/threads/details.jsonp');
-    url.searchParams.set('api_key', section.dataset.publicKey);
-    url.searchParams.set('forum', section.dataset.shortname);
-    url.searchParams.set(section.dataset.identifier ? 'thread:ident' : 'thread:link', section.dataset.identifier || section.dataset.url);
-    url.searchParams.set('callback', callback);
-    const cleanup = () => {
-      clearTimeout(timeout);
-      script.remove();
-      likesLoading = false;
-      // A late network response must not invoke an undefined callback.
-      window[callback] = () => {};
-      setTimeout(() => { delete window[callback]; }, 60000);
-    };
-    const timeout = setTimeout(cleanup, 15000);
-    window[callback] = data => {
-      if (data.code === 0 && Number.isInteger(data.response?.likes)) {
-        const total = data.response.likes;
+    try {
+      if (!threadId) {
+        const thread = await disqusRead('threads/details', {
+          forum: section.dataset.shortname,
+          [section.dataset.identifier ? 'thread:ident' : 'thread:link']: section.dataset.identifier || section.dataset.url
+        });
+        threadId = thread.id;
+      }
+      const result = await disqusRead('threadReactions/loadReactions', {thread: threadId});
+      // Upvote emoji votes are distinct from legacy thread likes and comment votes.
+      const upvote = result.reactions?.find(reaction => reaction.image === 1 || reaction.text?.toLowerCase() === 'upvote');
+      if (Number.isInteger(upvote?.votes)) {
+        const total = upvote.votes;
         likesCount.textContent = String(total);
-        likesButton.setAttribute('aria-label', `${total} article ${total === 1 ? 'like' : 'likes'} — open Disqus`);
+        likesButton.setAttribute('aria-label', `${total} ${total === 1 ? 'upvote' : 'upvotes'} — open Disqus`);
         lastLikesFetch = Date.now();
       }
-      cleanup();
-    };
-    script.async = true;
-    script.src = url.href;
-    script.onerror = cleanup;
-    document.head.appendChild(script);
+    } catch (_) { /* Leave an unavailable count as a dash. */ }
+    finally { likesLoading = false; }
   }
   refreshLikes();
   // The lightweight count script loads separately from the discussion embed.
