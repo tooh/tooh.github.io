@@ -85,3 +85,6 @@
 @media(max-width:520px){.post-follow-actions{gap:8px;padding:22px 0}.article-meta{font-size:12px}}
 
 .header-inner nav{flex-wrap:wrap}.header-inner nav [aria-current="page"]{color:var(--green);text-decoration:underline;text-underline-offset:5px}
+
+.pinterest-board{margin-top:30px;border:1px solid var(--line);border-radius:12px;padding:22px;background:var(--paper)}.pinterest-board-header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px}.pinterest-board-header .eyebrow{margin:0}.pinterest-visit{font-size:12px;color:var(--green);white-space:nowrap}.pinterest-embed{max-width:100%;overflow:hidden;min-height:200px}.pinterest-embed>span,.pinterest-embed iframe{max-width:100%!important}.pinterest-fallback{font-size:12px;line-height:1.7;color:var(--muted);margin:20px 0 0}.pinterest-fallback a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:520px){.pinterest-board{padding:14px}.pinterest-board-header{flex-wrap:wrap;gap:10px}.pinterest-embed{min-height:150px}}

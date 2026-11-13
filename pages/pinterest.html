@@ -19,7 +19,7 @@
   <title>Pinterest — Daily Scrum</title>
   <meta name="description" content="A personal journal by Peter Florijn. Notes on music, technology, and the things worth sharing.">
   <link rel="icon" href="https://blog.florijnconsultancy.nl/images/global/favicon.jpg">
-  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/editorial.css?v=20261113-10">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/editorial.css?v=20261113-11">
   <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/pygments.css">
 <link rel="alternate" type="application/atom+xml" title="Daily Scrum" href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml"></head>
 <body>
@@ -34,19 +34,27 @@
     <button class="theme-toggle" type="button" hidden aria-label="Color theme: System. Switch to light mode."><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"/></svg><span>Auto</span></button>
   </div>
 </header>
-<main id="main"><article class="reading-column"><header class="article-header"><p class="eyebrow">Daily Scrum</p><h1>Pinterest</h1></header><div class="prose"><script type="text/javascript">
-  (function (d) {
-    var f = d.getElementsByTagName('SCRIPT')[0],
-      p = d.createElement('SCRIPT');
-    p.type = 'text/javascript';
-    p.async = true;
-    p.src = '//assets.pinterest.com/js/pinit.js';
-    f.parentNode.insertBefore(p, f);
-  })(document);
-</script>
-
-<p><a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/peterflorijn/style/"></a></p></div></article></main>
+<main id="main"><article class="reading-column">
+<header class="article-header"><p class="eyebrow">Daily Scrum</p><h1>Pinterest</h1></header>
+<div class="prose"><p>Guitar inspiration, fretboard diagrams, and ideas saved on my Pinterest&nbsp;board.</p></div>
+<section class="pinterest-board" aria-label="Pinterest board">
+  <div class="pinterest-board-header"><span class="eyebrow">SAVED ON PINTEREST</span><a class="pinterest-visit" href="https://www.pinterest.com/peterflorijn/guitar/" target="_blank" rel="noopener noreferrer">View board ↗</a></div>
+  <div class="pinterest-embed"><a data-pin-do="embedBoard" data-pin-board-width="680" data-pin-scale-height="480" data-pin-scale-width="100" href="https://www.pinterest.com/peterflorijn/guitar/">View Peter’s board on Pinterest</a></div>
+  <p class="pinterest-fallback">If the board doesn't load, <a href="https://www.pinterest.com/peterflorijn/guitar/" target="_blank" rel="noopener noreferrer">open it on Pinterest</a>.</p>
+</section>
+</article>
+</main>
 <footer class="site-footer"><a class="footer-brand" href="https://blog.florijnconsultancy.nl/index.html">Daily Scrum.</a><span>A personal journal by Peter Florijn.</span><a href="https://blog.florijnconsultancy.nl/categories.html">Explore topics <span aria-hidden="true">↗</span></a></footer>
-<script defer src="https://blog.florijnconsultancy.nl/theme/js/editorial.js?v=20261113-10"></script>
+<script defer src="https://blog.florijnconsultancy.nl/theme/js/editorial.js?v=20261113-11"></script>
+<script>
+  // Size the official widget before Pinterest reads its markup.
+  document.querySelectorAll('.pinterest-embed [data-pin-do="embedBoard"]').forEach(board => {
+    const width = Math.floor(board.parentElement.clientWidth);
+    board.setAttribute('data-pin-board-width', width);
+    board.setAttribute('data-pin-scale-width', Math.max(100, Math.floor((width - 30) / 2)));
+    board.setAttribute('data-pin-scale-height', width < 400 ? 260 : 360);
+  });
+</script>
+<script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
 </body>
 </html>
