@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /drafts/
+
+Sitemap: https://blog.florijnconsultancy.nl/sitemap.xml
