@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/</loc>
-<lastmod>2026-11-14T12:32:37-00:00</lastmod>
+<lastmod>2026-11-14T15:32:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/tags.html</loc>
-<lastmod>2026-11-14T12:32:37-00:00</lastmod>
+<lastmod>2026-11-14T15:32:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/categories.html</loc>
-<lastmod>2026-11-14T12:32:37-00:00</lastmod>
+<lastmod>2026-11-14T15:32:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/authors.html</loc>
-<lastmod>2026-11-14T12:32:37-00:00</lastmod>
+<lastmod>2026-11-14T15:32:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/archives/</loc>
-<lastmod>2026-11-14T12:32:37-00:00</lastmod>
+<lastmod>2026-11-14T15:32:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -41,6 +41,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://blog.florijnconsultancy.nl/pages/about.html</loc>
 <lastmod>2016-09-30T23:45:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://blog.florijnconsultancy.nl/pages/github-projects.html</loc>
+<lastmod>2026-11-14T14:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer',"GTM-W7GZ2VM7");</script>
+<!-- End Google Tag Manager -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // Apply the saved preference before paint, avoiding a bright flash.
+    (() => {
+      let preference = 'system';
+      try { preference = localStorage.getItem('editorial-theme') || 'system'; } catch (_) {}
+      if (!['light', 'dark', 'system'].includes(preference)) preference = 'system';
+      const root = document.documentElement;
+      root.dataset.themePreference = preference;
+      root.dataset.theme = preference === 'system'
+        ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+        : preference;
+    })();
+  </script>
+  <title>GitHub projects — Daily Scrum</title>
+  <meta name="description" content="My public GitHub projects: experiments and tools for music, technology, and everyday workflows.">
+<link rel="canonical" href="https://blog.florijnconsultancy.nl/pages/github-projects.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Daily Scrum">
+<meta property="og:title" content="GitHub projects — Daily Scrum">
+<meta property="og:description" content="My public GitHub projects: experiments and tools for music, technology, and everyday workflows.">
+<meta property="og:url" content="https://blog.florijnconsultancy.nl/pages/github-projects.html">
+<meta property="og:image" content="https://blog.florijnconsultancy.nl/images/peterflorijn.jpg">
+<meta property="og:image:alt" content="Peter Florijn">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GitHub projects — Daily Scrum">
+<meta name="twitter:description" content="My public GitHub projects: experiments and tools for music, technology, and everyday workflows.">
+<meta name="twitter:image" content="https://blog.florijnconsultancy.nl/images/peterflorijn.jpg">
+  <link rel="icon" href="https://blog.florijnconsultancy.nl/images/global/favicon.jpg">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/editorial.css?v=20261113-11">
+  <link rel="stylesheet" href="https://blog.florijnconsultancy.nl/theme/css/pygments.css">
+<link rel="alternate" type="application/atom+xml" title="Daily Scrum" href="https://blog.florijnconsultancy.nl/feeds/all.atom.xml"></head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7GZ2VM7"
+height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="wordmark" href="https://blog.florijnconsultancy.nl/index.html">Daily Scrum<span class="brand-dot">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="https://blog.florijnconsultancy.nl/index.html">Journal</a>
+      <a href="https://blog.florijnconsultancy.nl/archives/">Archive</a>
+<a href="https://blog.florijnconsultancy.nl/pages/about.html">About</a><a href="https://blog.florijnconsultancy.nl/pages/github-projects.html" aria-current="page">GitHub projects</a><a href="https://blog.florijnconsultancy.nl/pages/pinterest.html">Pinterest</a>    </nav>
+    <button class="theme-toggle" type="button" hidden aria-label="Color theme: System. Switch to light mode."><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"/></svg><span>Auto</span></button>
+  </div>
+</header>
+<main id="main"><article class="reading-column">
+<header class="article-header"><p class="eyebrow">Daily Scrum</p><h1>GitHub projects</h1></header>
+<div class="prose"><p>A collection of things I build and share: music tools, practical scripts, and experiments in technology. Browse the projects below for source code and&nbsp;documentation.</p></div>
+<section class="github-projects" aria-label="Public GitHub projects">
+<div class="github-projects-heading"><p>12 public projects</p><a href="https://github.com/tooh">View GitHub profile ↗</a></div>
+<div class="github-project-grid">
+<article class="github-project-card">
+<div class="github-project-body"><h2><a href="https://github.com/tooh/tooh.github.io">tooh.github.io <span aria-hidden="true">↗</span></a></h2><p>Explore the source code and documentation on GitHub.</p><div class="github-project-meta"><span>HTML</span><a href="https://github.com/tooh/tooh.github.io" aria-label="View tooh.github.io on GitHub">View project ↗</a></div></div>
+</article>
+<article class="github-project-card">
+<a class="github-project-image" href="https://github.com/tooh/matrix-mixer-desktop" tabindex="-1" aria-hidden="true"><img src="https://raw.githubusercontent.com/tooh/matrix-mixer-desktop/main/docs/screenshots/role-1-admin.png?raw=true&amp;v=1.9.0-faders" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><div class="github-project-body"><h2><a href="https://github.com/tooh/matrix-mixer-desktop">matrix-mixer-desktop <span aria-hidden="true">↗</span></a></h2><p>Line 6 Helix Stadium 1.4 Matrix Mixer Desktop &amp; Stage Wi-Fi Hub with RBAC (macOS &amp; Windows)</p><div class="github-project-meta"><span>TypeScript</span><a href="https://github.com/tooh/matrix-mixer-desktop" aria-label="View matrix-mixer-desktop on GitHub">View project ↗</a></div></div>
+</article>
+<article class="github-project-card">
+<div class="github-project-body"><h2><a href="https://github.com/tooh/normalize-stems">normalize-stems <span aria-hidden="true">↗</span></a></h2><p>Normalize Logic Pro stem filenames for Helix Stadium</p><div class="github-project-meta"><span>Python</span><a href="https://github.com/tooh/normalize-stems" aria-label="View normalize-stems on GitHub">View project ↗</a></div></div>
+</article>
+<article class="github-project-card">
+<div class="github-project-body"><h2><a href="https://github.com/tooh/mixxx-controller-mappings">mixxx-controller-mappings <span aria-hidden="true">↗</span></a></h2><p>Explore the source code and documentation on GitHub.</p><div class="github-project-meta"><span>JavaScript</span><a href="https://github.com/tooh/mixxx-controller-mappings" aria-label="View mixxx-controller-mappings on GitHub">View project ↗</a></div></div>
+</article>
+<article class="github-project-card">
+<div class="github-project-body"><h2><a href="https://github.com/tooh/logic_pro_to_hue">logic_pro_to_hue <span aria-hidden="true">↗</span></a></h2><p>onAIR light for Logic Pro</p><div class="github-project-meta"><span>Python</span><a href="https://github.com/tooh/logic_pro_to_hue" aria-label="View logic_pro_to_hue on GitHub">View project ↗</a></div></div>
+</article>
+<article class="github-project-card">
+<div class="github-project-body"><h2><a href="https://github.com/tooh/chkbatteries">chkbatteries <span aria-hidden="true">↗</span></a></h2><p>Monitor battery level of Apple Magic Mouse </p><div class="github-project-meta"><a href="https://github.com/tooh/chkbatteries" aria-label="View chkbatteries on GitHub">View project ↗</a></div></div>
+</article>
+<article class="github-project-card">
+<div class="github-project-body"><h2><a href="https://github.com/tooh/FritzBox-telephony">FritzBox-telephony <span aria-hidden="true">↗</span></a></h2><p>Description of my Fritz!Box router setup for Telephony using landline and add-ons.</p><div class="github-project-meta"><a href="https://github.com/tooh/FritzBox-telephony" aria-label="View FritzBox-telephony on GitHub">View project ↗</a></div></div>
+</article>
+<article class="github-project-card">
+<div class="github-project-body"><h2><a href="https://github.com/tooh/Confluence-user-macros">Confluence-user-macros <span aria-hidden="true">↗</span></a></h2><p>Collection of Confluence user macro&#39;s. </p><div class="github-project-meta"><a href="https://github.com/tooh/Confluence-user-macros" aria-label="View Confluence-user-macros on GitHub">View project ↗</a></div></div>
+</article>
+<article class="github-project-card">
+<div class="github-project-body"><h2><a href="https://github.com/tooh/MyWiki">MyWiki <span aria-hidden="true">↗</span></a></h2><p>MyWiki</p><div class="github-project-meta"><a href="https://github.com/tooh/MyWiki" aria-label="View MyWiki on GitHub">View project ↗</a></div></div>
+</article>
+<article class="github-project-card">
+<div class="github-project-body"><h2><a href="https://github.com/tooh/simplebasbu">simplebasbu <span aria-hidden="true">↗</span></a></h2><p>Bash shell backup script ported to OSX</p><div class="github-project-meta"><span>Shell</span><a href="https://github.com/tooh/simplebasbu" aria-label="View simplebasbu on GitHub">View project ↗</a></div></div>
+</article>
+<article class="github-project-card">
+<div class="github-project-body"><h2><a href="https://github.com/tooh/alfred-bugzilla-workflow">alfred-bugzilla-workflow <span aria-hidden="true">↗</span></a></h2><p>Alfred v2 workflow for interaction with Bugzilla</p><div class="github-project-meta"><a href="https://github.com/tooh/alfred-bugzilla-workflow" aria-label="View alfred-bugzilla-workflow on GitHub">View project ↗</a></div></div>
+</article>
+<article class="github-project-card">
+<div class="github-project-body"><h2><a href="https://github.com/tooh/Feedback">Feedback <span aria-hidden="true">↗</span></a></h2><p>Explore the source code and documentation on GitHub.</p><div class="github-project-meta"><a href="https://github.com/tooh/Feedback" aria-label="View Feedback on GitHub">View project ↗</a></div></div>
+</article>
+</div>
+</section></article>
+</main>
+<footer class="site-footer"><a class="footer-brand" href="https://blog.florijnconsultancy.nl/index.html">Daily Scrum.</a><span>A personal journal by Peter Florijn.</span><a href="https://blog.florijnconsultancy.nl/categories.html">Explore topics <span aria-hidden="true">↗</span></a></footer>
+<script defer src="https://blog.florijnconsultancy.nl/theme/js/editorial.js?v=20261113-11"></script>
+</body>
+</html>
