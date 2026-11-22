@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/</loc>
-<lastmod>2026-11-14T15:32:07-00:00</lastmod>
+<lastmod>2026-11-22T21:25:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/tags.html</loc>
-<lastmod>2026-11-14T15:32:07-00:00</lastmod>
+<lastmod>2026-11-22T21:25:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/categories.html</loc>
-<lastmod>2026-11-14T15:32:07-00:00</lastmod>
+<lastmod>2026-11-22T21:25:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/authors.html</loc>
-<lastmod>2026-11-14T15:32:07-00:00</lastmod>
+<lastmod>2026-11-22T21:25:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/archives/</loc>
-<lastmod>2026-11-14T15:32:07-00:00</lastmod>
+<lastmod>2026-11-22T21:25:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -55,6 +55,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://blog.florijnconsultancy.nl/pages/pinterest.html</loc>
 <lastmod>2016-09-30T23:45:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://blog.florijnconsultancy.nl/articles/mymonitor-netwerkdiagram.html</loc>
+<lastmod>2026-11-22T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -838,7 +845,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/category/monitoring.html</loc>
-<lastmod>2013-05-12T11:55:00+00:18</lastmod>
+<lastmod>2026-11-22T00:00:00+00:18</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -935,6 +942,27 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://blog.florijnconsultancy.nl/tag/mymonitor.html</loc>
+<lastmod>2026-11-22T00:00:00+00:18</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://blog.florijnconsultancy.nl/tag/network.html</loc>
+<lastmod>2026-11-22T00:00:00+00:18</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://blog.florijnconsultancy.nl/tag/plantuml.html</loc>
+<lastmod>2026-11-22T00:00:00+00:18</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://blog.florijnconsultancy.nl/tag/guitar.html</loc>
 <lastmod>2026-08-23T10:48:00+00:18</lastmod>
 <changefreq>daily</changefreq>
@@ -951,13 +979,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://blog.florijnconsultancy.nl/tag/fordnight.html</loc>
 <lastmod>2024-06-14T13:20:00+00:18</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://blog.florijnconsultancy.nl/tag/plantuml.html</loc>
-<lastmod>2024-05-12T14:54:00+00:18</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1252,13 +1273,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://blog.florijnconsultancy.nl/tag/svg.html</loc>
 <lastmod>2015-01-25T16:21:00+00:18</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://blog.florijnconsultancy.nl/tag/network.html</loc>
-<lastmod>2015-01-01T12:20:00+00:18</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1615,7 +1629,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://blog.florijnconsultancy.nl/author/peter-florijn.html</loc>
-<lastmod>2026-10-06T12:08:00+00:18</lastmod>
+<lastmod>2026-11-22T00:00:00+00:18</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
